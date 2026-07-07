@@ -3,9 +3,11 @@ title: AvatarItemType
 type: enum
 ---
 
-# AvatarItemType (Enum)
+# `Enum.AvatarItemType`
+
+The `Enum.AvatarItemType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Asset | 1 |
-| Bundle | 2 |
+| `Enum.AvatarItemType.Asset` | 1 |
+| `Enum.AvatarItemType.Bundle` | 2 |

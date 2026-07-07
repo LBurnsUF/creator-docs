@@ -3,9 +3,11 @@ title: UiMessageType
 type: enum
 ---
 
-# UiMessageType (Enum)
+# `Enum.UiMessageType`
+
+The `Enum.UiMessageType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| UiMessageError | 0 |
-| UiMessageInfo | 1 |
+| `Enum.UiMessageType.UiMessageError` | 0 |
+| `Enum.UiMessageType.UiMessageInfo` | 1 |

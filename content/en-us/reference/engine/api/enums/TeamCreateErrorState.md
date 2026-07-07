@@ -3,11 +3,13 @@ title: TeamCreateErrorState
 type: enum
 ---
 
-# TeamCreateErrorState (Enum)
+# `Enum.TeamCreateErrorState`
+
+The `Enum.TeamCreateErrorState` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| PlaceSizeTooLarge | 0 |
-| PlaceSizeApproachingLimit | 1 |
-| PlaceUploadFailing | 2 |
-| NoError | 3 |
+| `Enum.TeamCreateErrorState.PlaceSizeTooLarge` | 0 |
+| `Enum.TeamCreateErrorState.PlaceSizeApproachingLimit` | 1 |
+| `Enum.TeamCreateErrorState.PlaceUploadFailing` | 2 |
+| `Enum.TeamCreateErrorState.NoError` | 3 |

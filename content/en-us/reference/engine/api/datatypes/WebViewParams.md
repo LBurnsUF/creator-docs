@@ -3,10 +3,10 @@ title: WebViewParams
 type: datatype
 ---
 
-# WebViewParams (DataType)
+# `Datatype.WebViewParams`
 
-Used in 1 locations across the API.
+Used in 1 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- WebViewService.OpenWindowV2(params)
+- `Class.WebViewService:OpenWindowV2` (parameter `params`)

@@ -3,10 +3,12 @@ title: ParticleEmitterShapeInOut
 type: enum
 ---
 
-# ParticleEmitterShapeInOut (Enum)
+# `Enum.ParticleEmitterShapeInOut`
+
+The `Enum.ParticleEmitterShapeInOut` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Outward | 0 |
-| Inward | 1 |
-| InAndOut | 2 |
+| `Enum.ParticleEmitterShapeInOut.Outward` | 0 |
+| `Enum.ParticleEmitterShapeInOut.Inward` | 1 |
+| `Enum.ParticleEmitterShapeInOut.InAndOut` | 2 |

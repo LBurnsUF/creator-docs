@@ -7,20 +7,60 @@ tags: [NotCreatable, Service]
 
 # GeometryService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **CalculateConstraintsToPreserve**(`source: Instance`, `destination: Array`, `options: Dictionary = nil`) -> `Array`
-- **CreateSolidPrimitive**(`type: SolidPrimitiveType`, `options: Dictionary = nil`) -> `MeshPart`
-- **FragmentAsync**(`part: BasePart`, `sites: Array`, `options: Dictionary = nil`) -> `Array` [Yields]
-- **GenerateFragmentSites**(`part: BasePart`, `options: Dictionary = nil`) -> `Array`
-- **HashMeshAsync**(`meshId: ContentId`) -> `string` [Yields]
-- **IntersectAsync**(`part: Instance`, `parts: Array`, `options: Dictionary = nil`) -> `Array` [Yields]
-- **SubtractAsync**(`part: Instance`, `parts: Array`, `options: Dictionary = nil`) -> `Array` [Yields]
-- **SweepPartAsync**(`part: BasePart`, `cframes: Array`, `options: Dictionary = nil`) -> `MeshPart` [Yields]
-- **TranscodeMesh**(`instance: Instance`) -> `null`
-- **TranscodeModel**(`instance: Instance`) -> `Array`
-- **UnionAsync**(`part: Instance`, `parts: Array`, `options: Dictionary = nil`) -> `Array` [Yields]
+### `Class.GeometryService:CalculateConstraintsToPreserve`
+
+``CalculateConstraintsToPreserve(source: `Class.Instance`, destination: `Array`, options: `Dictionary`)`` → `Array`
+
+### `Class.GeometryService:CreateSolidPrimitive`
+
+``CreateSolidPrimitive(type: `Enum.SolidPrimitiveType`, options: `Dictionary`)`` → `Class.MeshPart`
+
+### `Class.GeometryService:FragmentAsync`
+
+``FragmentAsync(part: `Class.BasePart`, sites: `Array`, options: `Dictionary`)`` → `Array`
+  [Yields]
+
+### `Class.GeometryService:GenerateFragmentSites`
+
+``GenerateFragmentSites(part: `Class.BasePart`, options: `Dictionary`)`` → `Array`
+
+### `Class.GeometryService:HashMeshAsync`
+
+``HashMeshAsync(meshId: `Datatype.ContentId`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.GeometryService:IntersectAsync`
+
+``IntersectAsync(part: `Class.Instance`, parts: `Array`, options: `Dictionary`)`` → `Array`
+  [Yields]
+
+### `Class.GeometryService:SubtractAsync`
+
+``SubtractAsync(part: `Class.Instance`, parts: `Array`, options: `Dictionary`)`` → `Array`
+  [Yields]
+
+### `Class.GeometryService:SweepPartAsync`
+
+``SweepPartAsync(part: `Class.BasePart`, cframes: `Array`, options: `Dictionary`)`` → `Class.MeshPart`
+  [Yields]
+
+### `Class.GeometryService:TranscodeMesh`
+
+``TranscodeMesh(instance: `Class.Instance`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.GeometryService:TranscodeModel`
+
+``TranscodeModel(instance: `Class.Instance`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.GeometryService:UnionAsync`
+
+``UnionAsync(part: `Class.Instance`, parts: `Array`, options: `Dictionary`)`` → `Array`
+  [Yields]

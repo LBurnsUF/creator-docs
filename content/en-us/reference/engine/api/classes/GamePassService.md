@@ -7,10 +7,13 @@ tags: [NotCreatable, Service]
 
 # GamePassService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **PlayerHasPass**(`player: Player`, `gamePassId: int64`) -> `bool` [Yields] [Deprecated]
+### `Class.GamePassService:PlayerHasPass`
+
+``PlayerHasPass(player: `Class.Player`, gamePassId: `int64`)`` → `bool`
+  [Yields] [Deprecated]

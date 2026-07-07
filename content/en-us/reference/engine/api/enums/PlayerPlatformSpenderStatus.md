@@ -3,10 +3,12 @@ title: PlayerPlatformSpenderStatus
 type: enum
 ---
 
-# PlayerPlatformSpenderStatus (Enum)
+# `Enum.PlayerPlatformSpenderStatus`
+
+The `Enum.PlayerPlatformSpenderStatus` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| Active | 1 |
-| OtherPayer | 2 |
+| `Enum.PlayerPlatformSpenderStatus.Unknown` | 0 |
+| `Enum.PlayerPlatformSpenderStatus.Active` | 1 |
+| `Enum.PlayerPlatformSpenderStatus.OtherPayer` | 2 |

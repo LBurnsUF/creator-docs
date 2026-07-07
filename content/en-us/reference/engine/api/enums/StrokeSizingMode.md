@@ -3,9 +3,11 @@ title: StrokeSizingMode
 type: enum
 ---
 
-# StrokeSizingMode (Enum)
+# `Enum.StrokeSizingMode`
+
+The `Enum.StrokeSizingMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| FixedSize | 0 |
-| ScaledSize | 1 |
+| `Enum.StrokeSizingMode.FixedSize` | 0 |
+| `Enum.StrokeSizingMode.ScaledSize` | 1 |

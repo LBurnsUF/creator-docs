@@ -3,9 +3,11 @@ title: VRControllerModelMode
 type: enum
 ---
 
-# VRControllerModelMode (Enum)
+# `Enum.VRControllerModelMode`
+
+The `Enum.VRControllerModelMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Disabled | 0 |
-| Transparent | 1 |
+| `Enum.VRControllerModelMode.Disabled` | 0 |
+| `Enum.VRControllerModelMode.Transparent` | 1 |

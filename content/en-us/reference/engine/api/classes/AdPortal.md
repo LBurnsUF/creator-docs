@@ -6,10 +6,12 @@ superclass: Instance
 
 # AdPortal
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **PortalInvalidReason**: `string` [ReadOnly] [NotReplicated] [NotScriptable]
-- **PortalVersion**: `int64` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Status**: `AdUnitStatus` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AdPortal.PortalInvalidReason` | `string` | [ReadOnly] [NotReplicated] [NotScriptable] |
+| `Class.AdPortal.PortalVersion` | `int64` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.AdPortal.Status` | `Enum.AdUnitStatus` | [ReadOnly] [NotReplicated] |

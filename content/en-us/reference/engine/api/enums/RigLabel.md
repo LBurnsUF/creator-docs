@@ -3,45 +3,47 @@ title: RigLabel
 type: enum
 ---
 
-# RigLabel (Enum)
+# `Enum.RigLabel`
+
+The `Enum.RigLabel` enum has 38 item(s).
 
 | Name | Value |
 |------|-------|
-| Invalid | 0 |
-| Root | 2 |
-| LeftHip | 3 |
-| LeftKnee | 4 |
-| LeftAnkle | 5 |
-| RightHip | 7 |
-| RightKnee | 8 |
-| RightAnkle | 9 |
-| Waist | 11 |
-| LeftShoulder | 12 |
-| LeftElbow | 13 |
-| LeftWrist | 14 |
-| RightShoulder | 16 |
-| RightElbow | 17 |
-| RightWrist | 18 |
-| Neck | 20 |
-| Spine | 23 |
-| Chest | 24 |
-| HeadBase | 25 |
-| LeftClavicle | 26 |
-| RightClavicle | 27 |
-| LeftToeBase | 28 |
-| RightToeBase | 29 |
-| Thumb1 | 30 |
-| Thumb2 | 31 |
-| Thumb3 | 32 |
-| Index1 | 33 |
-| Index2 | 34 |
-| Index3 | 35 |
-| Middle1 | 36 |
-| Middle2 | 37 |
-| Middle3 | 38 |
-| Ring1 | 39 |
-| Ring2 | 40 |
-| Ring3 | 41 |
-| Pinky1 | 42 |
-| Pinky2 | 43 |
-| Pinky3 | 44 |
+| `Enum.RigLabel.Invalid` | 0 |
+| `Enum.RigLabel.Root` | 2 |
+| `Enum.RigLabel.LeftHip` | 3 |
+| `Enum.RigLabel.LeftKnee` | 4 |
+| `Enum.RigLabel.LeftAnkle` | 5 |
+| `Enum.RigLabel.RightHip` | 7 |
+| `Enum.RigLabel.RightKnee` | 8 |
+| `Enum.RigLabel.RightAnkle` | 9 |
+| `Enum.RigLabel.Waist` | 11 |
+| `Enum.RigLabel.LeftShoulder` | 12 |
+| `Enum.RigLabel.LeftElbow` | 13 |
+| `Enum.RigLabel.LeftWrist` | 14 |
+| `Enum.RigLabel.RightShoulder` | 16 |
+| `Enum.RigLabel.RightElbow` | 17 |
+| `Enum.RigLabel.RightWrist` | 18 |
+| `Enum.RigLabel.Neck` | 20 |
+| `Enum.RigLabel.Spine` | 23 |
+| `Enum.RigLabel.Chest` | 24 |
+| `Enum.RigLabel.HeadBase` | 25 |
+| `Enum.RigLabel.LeftClavicle` | 26 |
+| `Enum.RigLabel.RightClavicle` | 27 |
+| `Enum.RigLabel.LeftToeBase` | 28 |
+| `Enum.RigLabel.RightToeBase` | 29 |
+| `Enum.RigLabel.Thumb1` | 30 |
+| `Enum.RigLabel.Thumb2` | 31 |
+| `Enum.RigLabel.Thumb3` | 32 |
+| `Enum.RigLabel.Index1` | 33 |
+| `Enum.RigLabel.Index2` | 34 |
+| `Enum.RigLabel.Index3` | 35 |
+| `Enum.RigLabel.Middle1` | 36 |
+| `Enum.RigLabel.Middle2` | 37 |
+| `Enum.RigLabel.Middle3` | 38 |
+| `Enum.RigLabel.Ring1` | 39 |
+| `Enum.RigLabel.Ring2` | 40 |
+| `Enum.RigLabel.Ring3` | 41 |
+| `Enum.RigLabel.Pinky1` | 42 |
+| `Enum.RigLabel.Pinky2` | 43 |
+| `Enum.RigLabel.Pinky3` | 44 |

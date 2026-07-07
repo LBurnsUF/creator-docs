@@ -7,12 +7,14 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AssetDeliveryProxy
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **Interface**: `string`
-- **Port**: `int`
-- **StartServer**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AssetDeliveryProxy.Interface` | `string` |  |
+| `Class.AssetDeliveryProxy.Port` | `int` |  |
+| `Class.AssetDeliveryProxy.StartServer` | `bool` |  |

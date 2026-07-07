@@ -6,9 +6,11 @@ superclass: Instance
 
 # Animation
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AnimationContent**: `Content`
-- **AnimationId**: `ContentId`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Animation.AnimationContent` | `Datatype.Content` |  |
+| `Class.Animation.AnimationId` | `Datatype.ContentId` |  |

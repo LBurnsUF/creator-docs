@@ -7,13 +7,26 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ConfigService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **ClearTestingValue**(`key: string`) -> `null`
-- **GetConfigAsync**() -> `ConfigSnapshot` [Yields]
-- **GetConfigForPlayerAsync**(`player: Player`) -> `ConfigSnapshot` [Yields]
-- **SetTestingValue**(`key: string`, `value: Variant`) -> `null`
+### `Class.ConfigService:ClearTestingValue`
+
+``ClearTestingValue(key: `string`)`` → `null`
+
+### `Class.ConfigService:GetConfigAsync`
+
+``GetConfigAsync()`` → `Class.ConfigSnapshot`
+  [Yields]
+
+### `Class.ConfigService:GetConfigForPlayerAsync`
+
+``GetConfigForPlayerAsync(player: `Class.Player`)`` → `Class.ConfigSnapshot`
+  [Yields]
+
+### `Class.ConfigService:SetTestingValue`
+
+``SetTestingValue(key: `string`, value: `Variant`)`` → `null`

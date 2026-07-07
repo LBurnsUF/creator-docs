@@ -6,22 +6,38 @@ superclass: Instance
 
 # AudioGate
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Attack**: `float`
-- **Bypass**: `bool`
-- **Release**: `float`
-- **Threshold**: `NumberRange`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioGate.Attack` | `float` |  |
+| `Class.AudioGate.Bypass` | `bool` |  |
+| `Class.AudioGate.Release` | `float` |  |
+| `Class.AudioGate.Threshold` | `Datatype.NumberRange` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
-- **Reset**() -> `null`
+### `Class.AudioGate:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioGate:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioGate:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
+
+### `Class.AudioGate:Reset`
+
+``Reset()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioGate.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

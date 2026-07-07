@@ -3,12 +3,14 @@ title: VideoCaptureStartedResult
 type: enum
 ---
 
-# VideoCaptureStartedResult (Enum)
+# `Enum.VideoCaptureStartedResult`
+
+The `Enum.VideoCaptureStartedResult` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 0 |
-| OtherError | 1 |
-| CapturingAlready | 2 |
-| NoDeviceSupport | 3 |
-| NoSpaceOnDevice | 4 |
+| `Enum.VideoCaptureStartedResult.Success` | 0 |
+| `Enum.VideoCaptureStartedResult.OtherError` | 1 |
+| `Enum.VideoCaptureStartedResult.CapturingAlready` | 2 |
+| `Enum.VideoCaptureStartedResult.NoDeviceSupport` | 3 |
+| `Enum.VideoCaptureStartedResult.NoSpaceOnDevice` | 4 |

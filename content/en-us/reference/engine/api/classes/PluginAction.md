@@ -7,21 +7,25 @@ tags: [NotReplicated]
 
 # PluginAction
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **ActionId**: `string` [ReadOnly] [NotReplicated]
-- **AllowBinding**: `bool` [ReadOnly] [NotReplicated]
-- **Checked**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **DefaultShortcut**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Enabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **StatusTip**: `string` [ReadOnly] [NotReplicated]
-- **Text**: `string` [NotReplicated] (Security: Read=None, Write=RobloxScriptSecurity)
-- **Visible**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PluginAction.ActionId` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.PluginAction.AllowBinding` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.PluginAction.Checked` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PluginAction.DefaultShortcut` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PluginAction.Enabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PluginAction.StatusTip` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.PluginAction.Text` | `string` | [NotReplicated] {write: RobloxScriptSecurity} |
+| `Class.PluginAction.Visible` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Events
 
-- **Triggered**()
+### `Class.PluginAction.Triggered`
+
+Fires with: ()

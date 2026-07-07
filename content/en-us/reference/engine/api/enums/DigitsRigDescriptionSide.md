@@ -3,10 +3,12 @@ title: DigitsRigDescriptionSide
 type: enum
 ---
 
-# DigitsRigDescriptionSide (Enum)
+# `Enum.DigitsRigDescriptionSide`
+
+The `Enum.DigitsRigDescriptionSide` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Left | 1 |
-| Right | 2 |
+| `Enum.DigitsRigDescriptionSide.None` | 0 |
+| `Enum.DigitsRigDescriptionSide.Left` | 1 |
+| `Enum.DigitsRigDescriptionSide.Right` | 2 |

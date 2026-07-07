@@ -3,9 +3,11 @@ title: AssetCreatorType
 type: enum
 ---
 
-# AssetCreatorType (Enum)
+# `Enum.AssetCreatorType`
+
+The `Enum.AssetCreatorType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| User | 0 |
-| Group | 1 |
+| `Enum.AssetCreatorType.User` | 0 |
+| `Enum.AssetCreatorType.Group` | 1 |

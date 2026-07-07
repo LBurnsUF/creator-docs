@@ -3,9 +3,11 @@ title: EmitterPositionType
 type: enum
 ---
 
-# EmitterPositionType (Enum)
+# `Enum.EmitterPositionType`
+
+The `Enum.EmitterPositionType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Parent | 0 |
-| Instance | 1 |
+| `Enum.EmitterPositionType.Parent` | 0 |
+| `Enum.EmitterPositionType.Instance` | 1 |

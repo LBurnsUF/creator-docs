@@ -3,18 +3,20 @@ title: ThreadPoolConfig
 type: enum
 ---
 
-# ThreadPoolConfig (Enum)
+# `Enum.ThreadPoolConfig`
+
+The `Enum.ThreadPoolConfig` enum has 11 item(s).
 
 | Name | Value |
 |------|-------|
-| Auto | 0 |
-| Threads1 | 1 |
-| Threads2 | 2 |
-| Threads3 | 3 |
-| Threads4 | 4 |
-| Threads8 | 8 |
-| Threads16 | 16 |
-| PerCore1 | 101 |
-| PerCore2 | 102 |
-| PerCore3 | 103 |
-| PerCore4 | 104 |
+| `Enum.ThreadPoolConfig.Auto` | 0 |
+| `Enum.ThreadPoolConfig.Threads1` | 1 |
+| `Enum.ThreadPoolConfig.Threads2` | 2 |
+| `Enum.ThreadPoolConfig.Threads3` | 3 |
+| `Enum.ThreadPoolConfig.Threads4` | 4 |
+| `Enum.ThreadPoolConfig.Threads8` | 8 |
+| `Enum.ThreadPoolConfig.Threads16` | 16 |
+| `Enum.ThreadPoolConfig.PerCore1` | 101 |
+| `Enum.ThreadPoolConfig.PerCore2` | 102 |
+| `Enum.ThreadPoolConfig.PerCore3` | 103 |
+| `Enum.ThreadPoolConfig.PerCore4` | 104 |

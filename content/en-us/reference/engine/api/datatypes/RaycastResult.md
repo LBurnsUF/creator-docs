@@ -3,15 +3,15 @@ title: RaycastResult
 type: datatype
 ---
 
-# RaycastResult (DataType)
+# `Datatype.RaycastResult`
 
-Used in 6 locations across the API.
+Used in 6 locations across the Roblox API.
 
 ## Used as Return Type
 
-- StudioService.GizmoRaycast
-- WorldRoot.Blockcast
-- WorldRoot.Raycast
-- WorldRoot.RaycastCachedTerrain
-- WorldRoot.Shapecast
-- WorldRoot.Spherecast
+- `Class.StudioService:GizmoRaycast`
+- `Class.WorldRoot:Blockcast`
+- `Class.WorldRoot:Raycast`
+- `Class.WorldRoot:RaycastCachedTerrain`
+- `Class.WorldRoot:Shapecast`
+- `Class.WorldRoot:Spherecast`

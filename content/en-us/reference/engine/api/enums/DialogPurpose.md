@@ -3,10 +3,12 @@ title: DialogPurpose
 type: enum
 ---
 
-# DialogPurpose (Enum)
+# `Enum.DialogPurpose`
+
+The `Enum.DialogPurpose` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Quest | 0 |
-| Help | 1 |
-| Shop | 2 |
+| `Enum.DialogPurpose.Quest` | 0 |
+| `Enum.DialogPurpose.Help` | 1 |
+| `Enum.DialogPurpose.Shop` | 2 |

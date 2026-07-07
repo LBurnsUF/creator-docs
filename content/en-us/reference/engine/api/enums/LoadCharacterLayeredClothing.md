@@ -3,10 +3,12 @@ title: LoadCharacterLayeredClothing
 type: enum
 ---
 
-# LoadCharacterLayeredClothing (Enum)
+# `Enum.LoadCharacterLayeredClothing`
+
+The `Enum.LoadCharacterLayeredClothing` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.LoadCharacterLayeredClothing.Default` | 0 |
+| `Enum.LoadCharacterLayeredClothing.Disabled` | 1 |
+| `Enum.LoadCharacterLayeredClothing.Enabled` | 2 |

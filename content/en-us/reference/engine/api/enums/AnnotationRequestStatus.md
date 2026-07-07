@@ -3,12 +3,14 @@ title: AnnotationRequestStatus
 type: enum
 ---
 
-# AnnotationRequestStatus (Enum)
+# `Enum.AnnotationRequestStatus`
+
+The `Enum.AnnotationRequestStatus` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 0 |
-| Loading | 1 |
-| ErrorInternalFailure | 2 |
-| ErrorNotFound | 3 |
-| ErrorModerated | 4 |
+| `Enum.AnnotationRequestStatus.Success` | 0 |
+| `Enum.AnnotationRequestStatus.Loading` | 1 |
+| `Enum.AnnotationRequestStatus.ErrorInternalFailure` | 2 |
+| `Enum.AnnotationRequestStatus.ErrorNotFound` | 3 |
+| `Enum.AnnotationRequestStatus.ErrorModerated` | 4 |

@@ -3,11 +3,13 @@ title: UIDragDetectorResponseStyle
 type: enum
 ---
 
-# UIDragDetectorResponseStyle (Enum)
+# `Enum.UIDragDetectorResponseStyle`
+
+The `Enum.UIDragDetectorResponseStyle` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Offset | 0 |
-| Scale | 1 |
-| CustomOffset | 2 |
-| CustomScale | 3 |
+| `Enum.UIDragDetectorResponseStyle.Offset` | 0 |
+| `Enum.UIDragDetectorResponseStyle.Scale` | 1 |
+| `Enum.UIDragDetectorResponseStyle.CustomOffset` | 2 |
+| `Enum.UIDragDetectorResponseStyle.CustomScale` | 3 |

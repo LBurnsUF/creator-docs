@@ -3,8 +3,10 @@ title: JoinSource
 type: enum
 ---
 
-# JoinSource (Enum)
+# `Enum.JoinSource`
+
+The `Enum.JoinSource` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| CreatedItemAttribution | 1 |
+| `Enum.JoinSource.CreatedItemAttribution` | 1 |

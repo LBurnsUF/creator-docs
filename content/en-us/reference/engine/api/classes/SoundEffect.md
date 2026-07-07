@@ -7,11 +7,13 @@ tags: [NotCreatable]
 
 # SoundEffect
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Enabled**: `bool`
-- **Priority**: `int`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SoundEffect.Enabled` | `bool` |  |
+| `Class.SoundEffect.Priority` | `int` |  |

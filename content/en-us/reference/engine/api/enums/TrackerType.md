@@ -3,10 +3,12 @@ title: TrackerType
 type: enum
 ---
 
-# TrackerType (Enum)
+# `Enum.TrackerType`
+
+The `Enum.TrackerType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Face | 1 |
-| UpperBody | 2 |
+| `Enum.TrackerType.None` | 0 |
+| `Enum.TrackerType.Face` | 1 |
+| `Enum.TrackerType.UpperBody` | 2 |

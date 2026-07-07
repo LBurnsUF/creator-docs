@@ -7,11 +7,16 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # SharedTableRegistry
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetSharedTable**(`name: string`) -> `SharedTable`
-- **SetSharedTable**(`name: string`, `st: SharedTable?`) -> `null`
+### `Class.SharedTableRegistry:GetSharedTable`
+
+``GetSharedTable(name: `string`)`` → `Datatype.SharedTable`
+
+### `Class.SharedTableRegistry:SetSharedTable`
+
+``SetSharedTable(name: `string`, st: `Datatype.SharedTable`?)`` → `null`

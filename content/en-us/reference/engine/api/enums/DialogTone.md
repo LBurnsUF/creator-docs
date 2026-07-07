@@ -3,10 +3,12 @@ title: DialogTone
 type: enum
 ---
 
-# DialogTone (Enum)
+# `Enum.DialogTone`
+
+The `Enum.DialogTone` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Neutral | 0 |
-| Friendly | 1 |
-| Enemy | 2 |
+| `Enum.DialogTone.Neutral` | 0 |
+| `Enum.DialogTone.Friendly` | 1 |
+| `Enum.DialogTone.Enemy` | 2 |

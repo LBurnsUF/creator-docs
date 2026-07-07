@@ -3,14 +3,14 @@ title: SharedTable
 type: datatype
 ---
 
-# SharedTable (DataType)
+# `Datatype.SharedTable`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- SharedTableRegistry.SetSharedTable(st)
+- `Class.SharedTableRegistry:SetSharedTable` (parameter `st`)
 
 ## Used as Return Type
 
-- SharedTableRegistry.GetSharedTable
+- `Class.SharedTableRegistry:GetSharedTable`

@@ -7,11 +7,18 @@ tags: [NotCreatable, Service]
 
 # SerializationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **DeserializeInstancesAsync**(`buffer: buffer`) -> `Instances` [Yields]
-- **SerializeInstancesAsync**(`inputInstances: Instances`) -> `buffer` [Yields]
+### `Class.SerializationService:DeserializeInstancesAsync`
+
+``DeserializeInstancesAsync(buffer: `Datatype.buffer`)`` → `Datatype.Instances`
+  [Yields]
+
+### `Class.SerializationService:SerializeInstancesAsync`
+
+``SerializeInstancesAsync(inputInstances: `Datatype.Instances`)`` → `Datatype.buffer`
+  [Yields]

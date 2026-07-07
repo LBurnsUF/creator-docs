@@ -3,17 +3,19 @@ title: WrapTargetDebugMode
 type: enum
 ---
 
-# WrapTargetDebugMode (Enum)
+# `Enum.WrapTargetDebugMode`
+
+The `Enum.WrapTargetDebugMode` enum has 10 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| TargetCageOriginal | 1 |
-| TargetCageCompressed | 2 |
-| TargetCageInterface | 3 |
-| TargetLayerCageOriginal | 4 |
-| TargetLayerCageCompressed | 5 |
-| TargetLayerInterface | 6 |
-| Rbf | 7 |
-| OuterCageDetail | 8 |
-| PreWrapDeformerCage | 9 |
+| `Enum.WrapTargetDebugMode.None` | 0 |
+| `Enum.WrapTargetDebugMode.TargetCageOriginal` | 1 |
+| `Enum.WrapTargetDebugMode.TargetCageCompressed` | 2 |
+| `Enum.WrapTargetDebugMode.TargetCageInterface` | 3 |
+| `Enum.WrapTargetDebugMode.TargetLayerCageOriginal` | 4 |
+| `Enum.WrapTargetDebugMode.TargetLayerCageCompressed` | 5 |
+| `Enum.WrapTargetDebugMode.TargetLayerInterface` | 6 |
+| `Enum.WrapTargetDebugMode.Rbf` | 7 |
+| `Enum.WrapTargetDebugMode.OuterCageDetail` | 8 |
+| `Enum.WrapTargetDebugMode.PreWrapDeformerCage` | 9 |

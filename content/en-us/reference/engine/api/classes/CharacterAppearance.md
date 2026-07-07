@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # CharacterAppearance
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

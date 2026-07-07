@@ -3,9 +3,11 @@ title: MaterialPattern
 type: enum
 ---
 
-# MaterialPattern (Enum)
+# `Enum.MaterialPattern`
+
+The `Enum.MaterialPattern` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Regular | 0 |
-| Organic | 1 |
+| `Enum.MaterialPattern.Regular` | 0 |
+| `Enum.MaterialPattern.Organic` | 1 |

@@ -3,13 +3,15 @@ title: BodyPart
 type: enum
 ---
 
-# BodyPart (Enum)
+# `Enum.BodyPart`
+
+The `Enum.BodyPart` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Head | 0 |
-| Torso | 1 |
-| LeftArm | 2 |
-| RightArm | 3 |
-| LeftLeg | 4 |
-| RightLeg | 5 |
+| `Enum.BodyPart.Head` | 0 |
+| `Enum.BodyPart.Torso` | 1 |
+| `Enum.BodyPart.LeftArm` | 2 |
+| `Enum.BodyPart.RightArm` | 3 |
+| `Enum.BodyPart.LeftLeg` | 4 |
+| `Enum.BodyPart.RightLeg` | 5 |

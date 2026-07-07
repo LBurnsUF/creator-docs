@@ -6,16 +6,21 @@ superclass: Instance
 
 # Wire
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Connected**: `bool` [ReadOnly] [NotReplicated]
-- **SourceInstance**: `Instance`
-- **SourceName**: `string`
-- **TargetInstance**: `Instance`
-- **TargetName**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Wire.Connected` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.Wire.SourceInstance` | `Class.Instance` |  |
+| `Class.Wire.SourceName` | `string` |  |
+| `Class.Wire.TargetInstance` | `Class.Instance` |  |
+| `Class.Wire.TargetName` | `string` |  |
 
 ## Methods
 
-- **RenameToDefault**() -> `null`
+### `Class.Wire:RenameToDefault`
+
+``RenameToDefault()`` → `null`
+   {security: RobloxScriptSecurity}

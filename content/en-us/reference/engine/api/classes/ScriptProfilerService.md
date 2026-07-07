@@ -7,21 +7,54 @@ tags: [NotCreatable, Service]
 
 # ScriptProfilerService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **ClientRequestData**(`player: Player`) -> `null`
-- **ClientStart**(`player: Player`, `frequency: int?`) -> `null`
-- **ClientStop**(`player: Player`) -> `null`
-- **DeserializeJSON**(`jsonString: string?`) -> `Dictionary` [CustomLuaState]
-- **SaveScriptProfilingData**(`jsonString: string`, `filename: string`) -> `string`
-- **ServerRequestData**() -> `null`
-- **ServerStart**(`frequency: int?`) -> `null`
-- **ServerStop**() -> `null`
+### `Class.ScriptProfilerService:ClientRequestData`
+
+``ClientRequestData(player: `Class.Player`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.ScriptProfilerService:ClientStart`
+
+``ClientStart(player: `Class.Player`, frequency: `int?`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.ScriptProfilerService:ClientStop`
+
+``ClientStop(player: `Class.Player`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.ScriptProfilerService:DeserializeJSON`
+
+``DeserializeJSON(jsonString: `string?`)`` → `Dictionary`
+  [CustomLuaState] {security: PluginSecurity}
+
+### `Class.ScriptProfilerService:SaveScriptProfilingData`
+
+``SaveScriptProfilingData(jsonString: `string`, filename: `string`)`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.ScriptProfilerService:ServerRequestData`
+
+``ServerRequestData()`` → `null`
+   {security: PluginSecurity}
+
+### `Class.ScriptProfilerService:ServerStart`
+
+``ServerStart(frequency: `int?`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.ScriptProfilerService:ServerStop`
+
+``ServerStop()`` → `null`
+   {security: PluginSecurity}
 
 ## Events
 
-- **OnNewData**(`player: Player`, `jsonString: string`)
+### `Class.ScriptProfilerService.OnNewData`
+
+Fires with: (player: `Class.Player`, jsonString: `string`)

@@ -7,12 +7,14 @@ tags: [NotCreatable, NotBrowsable]
 
 # DataModelMesh
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Properties
 
-- **Offset**: `Vector3`
-- **Scale**: `Vector3`
-- **VertexColor**: `Vector3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DataModelMesh.Offset` | `Datatype.Vector3` |  |
+| `Class.DataModelMesh.Scale` | `Datatype.Vector3` |  |
+| `Class.DataModelMesh.VertexColor` | `Datatype.Vector3` |  |

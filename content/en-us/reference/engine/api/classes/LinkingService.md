@@ -7,23 +7,64 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # LinkingService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **DetectUrl**(`url: string`) -> `null`
-- **GetAndClearLastPendingUrl**() -> `Dictionary`
-- **GetLastLuaUrl**() -> `string?`
-- **IsUrlRegistered**(`url: string`) -> `bool`
-- **OpenUrl**(`url: string`) -> `bool` [Yields]
-- **RegisterLuaUrl**(`url: string`) -> `null`
-- **StartLuaUrlDelivery**() -> `Dictionary?`
-- **StopLuaUrlDelivery**() -> `null`
-- **SupportsSwitchToSettingsApp**() -> `bool` [Yields]
-- **SwitchToSettingsApp**(`route: string?`) -> `null` [Yields]
+### `Class.LinkingService:DetectUrl`
+
+``DetectUrl(url: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LinkingService:GetAndClearLastPendingUrl`
+
+``GetAndClearLastPendingUrl()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.LinkingService:GetLastLuaUrl`
+
+``GetLastLuaUrl()`` → `string?`
+   {security: RobloxScriptSecurity}
+
+### `Class.LinkingService:IsUrlRegistered`
+
+``IsUrlRegistered(url: `string`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.LinkingService:OpenUrl`
+
+``OpenUrl(url: `string`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.LinkingService:RegisterLuaUrl`
+
+``RegisterLuaUrl(url: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LinkingService:StartLuaUrlDelivery`
+
+``StartLuaUrlDelivery()`` → `Dictionary?`
+   {security: RobloxScriptSecurity}
+
+### `Class.LinkingService:StopLuaUrlDelivery`
+
+``StopLuaUrlDelivery()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LinkingService:SupportsSwitchToSettingsApp`
+
+``SupportsSwitchToSettingsApp()`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.LinkingService:SwitchToSettingsApp`
+
+``SwitchToSettingsApp(route: `string?`)`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
 
 ## Events
 
-- **OnLuaUrl**(`url: string`, `matchedUrl: string`, `attributionUrl: string?`)
+### `Class.LinkingService.OnLuaUrl`
+
+Fires with: (url: `string`, matchedUrl: `string`, attributionUrl: `string?`)

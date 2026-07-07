@@ -6,22 +6,26 @@ superclass: BasePart
 
 # VehicleSeat
 
-**Inherits**: BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AreHingesDetected**: `int` [ReadOnly] [NotReplicated]
-- **Disabled**: `bool`
-- **HeadsUpDisplay**: `bool`
-- **MaxSpeed**: `float`
-- **Occupant**: `Humanoid` [ReadOnly] [NotReplicated]
-- **Steer**: `int` [NotReplicated]
-- **SteerFloat**: `float`
-- **Throttle**: `int` [NotReplicated]
-- **ThrottleFloat**: `float`
-- **Torque**: `float`
-- **TurnSpeed**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VehicleSeat.AreHingesDetected` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.VehicleSeat.Disabled` | `bool` |  |
+| `Class.VehicleSeat.HeadsUpDisplay` | `bool` |  |
+| `Class.VehicleSeat.MaxSpeed` | `float` |  |
+| `Class.VehicleSeat.Occupant` | `Class.Humanoid` | [ReadOnly] [NotReplicated] |
+| `Class.VehicleSeat.Steer` | `int` | [NotReplicated] |
+| `Class.VehicleSeat.SteerFloat` | `float` |  |
+| `Class.VehicleSeat.Throttle` | `int` | [NotReplicated] |
+| `Class.VehicleSeat.ThrottleFloat` | `float` |  |
+| `Class.VehicleSeat.Torque` | `float` |  |
+| `Class.VehicleSeat.TurnSpeed` | `float` |  |
 
 ## Methods
 
-- **Sit**(`humanoid: Instance`) -> `null`
+### `Class.VehicleSeat:Sit`
+
+``Sit(humanoid: `Class.Instance`)`` → `null`

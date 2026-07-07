@@ -7,23 +7,41 @@ tags: [NotCreatable, NotReplicated]
 
 # BaseImportData
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Id**: `string` [ReadOnly] [NotReplicated]
-- **ImportName**: `string`
-- **ShouldImport**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BaseImportData.Id` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.BaseImportData.ImportName` | `string` |  |
+| `Class.BaseImportData.ShouldImport` | `bool` |  |
 
 ## Methods
 
-- **CreatePresetFromData**() -> `Dictionary`
-- **GetPreview**() -> `Instance`
-- **GetStatuses**() -> `Dictionary`
+### `Class.BaseImportData:CreatePresetFromData`
+
+``CreatePresetFromData()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.BaseImportData:GetPreview`
+
+``GetPreview()`` → `Class.Instance`
+   {security: RobloxScriptSecurity}
+
+### `Class.BaseImportData:GetStatuses`
+
+``GetStatuses()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **StatusRemoved**(`status: Dictionary`)
-- **StatusReported**(`status: Dictionary`)
+### `Class.BaseImportData.StatusRemoved`
+
+Fires with: (status: `Dictionary`)
+
+### `Class.BaseImportData.StatusReported`
+
+Fires with: (status: `Dictionary`)

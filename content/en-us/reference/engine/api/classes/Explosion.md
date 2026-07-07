@@ -6,19 +6,23 @@ superclass: Instance
 
 # Explosion
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **BlastPressure**: `float`
-- **BlastRadius**: `float`
-- **DestroyJointRadiusPercent**: `float`
-- **ExplosionType**: `ExplosionType`
-- **LocalTransparencyModifier**: `float` [Hidden] [NotReplicated]
-- **Position**: `Vector3`
-- **TimeScale**: `float`
-- **Visible**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Explosion.BlastPressure` | `float` |  |
+| `Class.Explosion.BlastRadius` | `float` |  |
+| `Class.Explosion.DestroyJointRadiusPercent` | `float` |  |
+| `Class.Explosion.ExplosionType` | `Enum.ExplosionType` |  |
+| `Class.Explosion.LocalTransparencyModifier` | `float` | [Hidden] [NotReplicated] |
+| `Class.Explosion.Position` | `Datatype.Vector3` |  |
+| `Class.Explosion.TimeScale` | `float` |  |
+| `Class.Explosion.Visible` | `bool` |  |
 
 ## Events
 
-- **Hit**(`part: BasePart`, `distance: float`)
+### `Class.Explosion.Hit`
+
+Fires with: (part: `Class.BasePart`, distance: `float`)

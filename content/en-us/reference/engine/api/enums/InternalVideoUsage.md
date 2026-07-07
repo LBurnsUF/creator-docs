@@ -3,10 +3,12 @@ title: InternalVideoUsage
 type: enum
 ---
 
-# InternalVideoUsage (Enum)
+# `Enum.InternalVideoUsage`
+
+The `Enum.InternalVideoUsage` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| WatchPage | 1 |
-| HomeCarousel | 2 |
+| `Enum.InternalVideoUsage.Default` | 0 |
+| `Enum.InternalVideoUsage.WatchPage` | 1 |
+| `Enum.InternalVideoUsage.HomeCarousel` | 2 |

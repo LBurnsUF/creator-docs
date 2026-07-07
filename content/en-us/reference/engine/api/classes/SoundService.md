@@ -7,60 +7,161 @@ tags: [NotCreatable, Service]
 
 # SoundService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **AcousticSimulationEnabled**: `bool`
-- **AmbientReverb**: `ReverbType`
-- **AudioApiByDefault**: `RolloutState` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CharacterSoundsUseNewApi**: `RolloutState` (Security: Read=None, Write=PluginSecurity)
-- **DefaultListenerLocation**: `ListenerLocation` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **DiffractionEnabled**: `bool`
-- **DistanceFactor**: `float`
-- **DopplerScale**: `float`
-- **IsNewExpForAudioApiByDefault**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ListenerCFrame**: `CFrame`
-- **ListenerObject**: `Instance`
-- **ListenerType**: `ListenerType`
-- **OcclusionEnabled**: `bool`
-- **RespectFilteringEnabled**: `bool`
-- **ReverbEnabled**: `bool`
-- **RolloffScale**: `float`
-- **VolumetricAudio**: `VolumetricAudio` [NotScriptable]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SoundService.AcousticSimulationEnabled` | `bool` |  |
+| `Class.SoundService.AmbientReverb` | `Enum.ReverbType` |  |
+| `Class.SoundService.AudioApiByDefault` | `Enum.RolloutState` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.SoundService.CharacterSoundsUseNewApi` | `Enum.RolloutState` |  {write: PluginSecurity} |
+| `Class.SoundService.DefaultListenerLocation` | `Enum.ListenerLocation` |  {security: PluginSecurity} |
+| `Class.SoundService.DiffractionEnabled` | `bool` |  |
+| `Class.SoundService.DistanceFactor` | `float` |  |
+| `Class.SoundService.DopplerScale` | `float` |  |
+| `Class.SoundService.IsNewExpForAudioApiByDefault` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.SoundService.ListenerCFrame` | `Datatype.CFrame` |  |
+| `Class.SoundService.ListenerObject` | `Class.Instance` |  |
+| `Class.SoundService.ListenerType` | `Enum.ListenerType` |  |
+| `Class.SoundService.OcclusionEnabled` | `bool` |  |
+| `Class.SoundService.RespectFilteringEnabled` | `bool` |  |
+| `Class.SoundService.ReverbEnabled` | `bool` |  |
+| `Class.SoundService.RolloffScale` | `float` |  |
+| `Class.SoundService.VolumetricAudio` | `Enum.VolumetricAudio` | [NotScriptable] |
 
 ## Methods
 
-- **BeginRecording**() -> `bool`
-- **EndRecording**() -> `Dictionary` [Yields]
-- **GetAudioApiByDefault**() -> `bool`
-- **GetAudioInstances**() -> `Array`
-- **GetInputDevice**() -> `Tuple`
-- **GetInputDevices**() -> `Tuple`
-- **GetListener**() -> `Tuple`
-- **GetMixerTime**() -> `double`
-- **GetOutputDevice**() -> `Tuple`
-- **GetOutputDevices**() -> `Tuple`
-- **GetRecordingDevices**() -> `Dictionary` [Yields]
-- **GetSoundMemoryData**() -> `Dictionary`
-- **InsertAsset**(`assetId: ContentId`, `assetName: string`, `useSelection: bool = true`) -> `Instances`
-- **OpenAttenuationCurveEditor**(`selectedCurveObjects: Instances`) -> `null`
-- **OpenDirectionalCurveEditor**(`selectedCurveObjects: Instances`) -> `null`
-- **PlayLocalSound**(`sound: Instance`) -> `null`
-- **SetAudioApiByDefault**(`enabled: bool`) -> `null`
-- **SetInputDevice**(`nameOrInstance: Variant`, `guidOrPin: string`) -> `null`
-- **SetListener**(`listenerType: ListenerType`, `listener: Tuple`) -> `null`
-- **SetOutputDevice**(`name: string`, `guid: string`) -> `null`
-- **SetRecordingDevice**(`deviceIndex: int`) -> `bool`
-- **SetSoundEnabled**(`enabled: bool`) -> `null`
+### `Class.SoundService:BeginRecording`
+
+``BeginRecording()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:EndRecording`
+
+``EndRecording()`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.SoundService:GetAudioApiByDefault`
+
+``GetAudioApiByDefault()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:GetAudioInstances`
+
+``GetAudioInstances()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:GetInputDevice`
+
+``GetInputDevice()`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:GetInputDevices`
+
+``GetInputDevices()`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:GetListener`
+
+``GetListener()`` → `Tuple`
+
+### `Class.SoundService:GetMixerTime`
+
+``GetMixerTime()`` → `double`
+
+### `Class.SoundService:GetOutputDevice`
+
+``GetOutputDevice()`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:GetOutputDevices`
+
+``GetOutputDevices()`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:GetRecordingDevices`
+
+``GetRecordingDevices()`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.SoundService:GetSoundMemoryData`
+
+``GetSoundMemoryData()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:InsertAsset`
+
+``InsertAsset(assetId: `Datatype.ContentId`, assetName: `string`, useSelection: `bool`)`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:OpenAttenuationCurveEditor`
+
+``OpenAttenuationCurveEditor(selectedCurveObjects: `Datatype.Instances`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.SoundService:OpenDirectionalCurveEditor`
+
+``OpenDirectionalCurveEditor(selectedCurveObjects: `Datatype.Instances`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.SoundService:PlayLocalSound`
+
+``PlayLocalSound(sound: `Class.Instance`)`` → `null`
+
+### `Class.SoundService:SetAudioApiByDefault`
+
+``SetAudioApiByDefault(enabled: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:SetInputDevice`
+
+``SetInputDevice(nameOrInstance: `Variant`, guidOrPin: `string`)`` → `null`
+
+### `Class.SoundService:SetListener`
+
+``SetListener(listenerType: `Enum.ListenerType`, listener: `Tuple`)`` → `null`
+
+### `Class.SoundService:SetOutputDevice`
+
+``SetOutputDevice(name: `string`, guid: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:SetRecordingDevice`
+
+``SetRecordingDevice(deviceIndex: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.SoundService:SetSoundEnabled`
+
+``SetSoundEnabled(enabled: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **AudioInstanceAdded**(`instance: Instance`)
-- **DeviceListChanged**(`newDevices: Tuple`)
-- **OpenAttenuationCurveEditorSignal**(`selectedCurveObjects: Instances`)
-- **OpenAudioCompressorEditorSignal**(`selectedCompressorObjects: Instances`)
-- **OpenAudioEqualizerEditorSignal**(`selectedEqualizerObjects: Instances`)
-- **OpenDirectionalCurveEditorSignal**(`selectedCurveObjects: Instances`)
+### `Class.SoundService.AudioInstanceAdded`
+
+Fires with: (instance: `Class.Instance`)
+
+### `Class.SoundService.DeviceListChanged`
+
+Fires with: (newDevices: `Tuple`)
+
+### `Class.SoundService.OpenAttenuationCurveEditorSignal`
+
+Fires with: (selectedCurveObjects: `Datatype.Instances`)
+
+### `Class.SoundService.OpenAudioCompressorEditorSignal`
+
+Fires with: (selectedCompressorObjects: `Datatype.Instances`)
+
+### `Class.SoundService.OpenAudioEqualizerEditorSignal`
+
+Fires with: (selectedEqualizerObjects: `Datatype.Instances`)
+
+### `Class.SoundService.OpenDirectionalCurveEditorSignal`
+
+Fires with: (selectedCurveObjects: `Datatype.Instances`)

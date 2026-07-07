@@ -3,10 +3,12 @@ title: HumanoidHealthDisplayType
 type: enum
 ---
 
-# HumanoidHealthDisplayType (Enum)
+# `Enum.HumanoidHealthDisplayType`
+
+The `Enum.HumanoidHealthDisplayType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| DisplayWhenDamaged | 0 |
-| AlwaysOn | 1 |
-| AlwaysOff | 2 |
+| `Enum.HumanoidHealthDisplayType.DisplayWhenDamaged` | 0 |
+| `Enum.HumanoidHealthDisplayType.AlwaysOn` | 1 |
+| `Enum.HumanoidHealthDisplayType.AlwaysOff` | 2 |

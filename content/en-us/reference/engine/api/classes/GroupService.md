@@ -7,20 +7,49 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # GroupService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetAlliesAsync**(`groupId: int64`) -> `StandardPages` [Yields]
-- **GetEnemiesAsync**(`groupId: int64`) -> `StandardPages` [Yields]
-- **GetGroupInfoAsync**(`groupId: int64`) -> `Variant` [Yields]
-- **GetGroupsAsync**(`userId: User`) -> `Array` [Yields]
-- **GetRolesInGroupAsync**(`userId: User`, `groupId: int64`) -> `Variant` [Yields]
-- **PromptJoinAsync**(`groupId: int64`) -> `GroupMembershipStatus` [Yields]
-- **PromptJoinCompleted**(`groupId: int64`, `success: bool`, `groupMembershipStatus: GroupMembershipStatus`, `errorMessage: string`) -> `null`
+### `Class.GroupService:GetAlliesAsync`
+
+``GetAlliesAsync(groupId: `int64`)`` → `Class.StandardPages`
+  [Yields]
+
+### `Class.GroupService:GetEnemiesAsync`
+
+``GetEnemiesAsync(groupId: `int64`)`` → `Class.StandardPages`
+  [Yields]
+
+### `Class.GroupService:GetGroupInfoAsync`
+
+``GetGroupInfoAsync(groupId: `int64`)`` → `Variant`
+  [Yields]
+
+### `Class.GroupService:GetGroupsAsync`
+
+``GetGroupsAsync(userId: `Datatype.User`)`` → `Array`
+  [Yields]
+
+### `Class.GroupService:GetRolesInGroupAsync`
+
+``GetRolesInGroupAsync(userId: `Datatype.User`, groupId: `int64`)`` → `Variant`
+  [Yields]
+
+### `Class.GroupService:PromptJoinAsync`
+
+``PromptJoinAsync(groupId: `int64`)`` → `Enum.GroupMembershipStatus`
+  [Yields]
+
+### `Class.GroupService:PromptJoinCompleted`
+
+``PromptJoinCompleted(groupId: `int64`, success: `bool`, groupMembershipStatus: `Enum.GroupMembershipStatus`, errorMessage: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **ShowJoinPrompt**(`groupId: int64`)
+### `Class.GroupService.ShowJoinPrompt`
+
+Fires with: (groupId: `int64`)

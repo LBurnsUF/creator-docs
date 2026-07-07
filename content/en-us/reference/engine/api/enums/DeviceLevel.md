@@ -3,10 +3,12 @@ title: DeviceLevel
 type: enum
 ---
 
-# DeviceLevel (Enum)
+# `Enum.DeviceLevel`
+
+The `Enum.DeviceLevel` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Low | 0 |
-| Medium | 1 |
-| High | 2 |
+| `Enum.DeviceLevel.Low` | 0 |
+| `Enum.DeviceLevel.Medium` | 1 |
+| `Enum.DeviceLevel.High` | 2 |

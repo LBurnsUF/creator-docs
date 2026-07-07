@@ -7,14 +7,33 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PlatformFriendsService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetPartyMembers**() -> `Array` [Yields]
-- **IsInviteFriendsEnabled**() -> `bool`
-- **IsProfileEnabled**() -> `bool`
-- **ShowInviteFriendsUI**() -> `null`
-- **ShowProfile**(`platformUserId: string`) -> `null`
+### `Class.PlatformFriendsService:GetPartyMembers`
+
+``GetPartyMembers()`` → `Array`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.PlatformFriendsService:IsInviteFriendsEnabled`
+
+``IsInviteFriendsEnabled()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.PlatformFriendsService:IsProfileEnabled`
+
+``IsProfileEnabled()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.PlatformFriendsService:ShowInviteFriendsUI`
+
+``ShowInviteFriendsUI()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.PlatformFriendsService:ShowProfile`
+
+``ShowProfile(platformUserId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}

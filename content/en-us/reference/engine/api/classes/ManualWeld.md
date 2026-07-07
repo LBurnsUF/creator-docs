@@ -7,6 +7,6 @@ tags: [Deprecated]
 
 # ManualWeld
 
-**Inherits**: ManualSurfaceJointInstance > JointInstance > Instance > Object
+**Inherits from:** `Class.ManualSurfaceJointInstance` > `Class.JointInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]

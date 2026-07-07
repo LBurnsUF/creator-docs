@@ -3,9 +3,11 @@ title: VoiceChatDistanceAttenuationType
 type: enum
 ---
 
-# VoiceChatDistanceAttenuationType (Enum)
+# `Enum.VoiceChatDistanceAttenuationType`
+
+The `Enum.VoiceChatDistanceAttenuationType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Inverse | 0 |
-| Legacy | 1 |
+| `Enum.VoiceChatDistanceAttenuationType.Inverse` | 0 |
+| `Enum.VoiceChatDistanceAttenuationType.Legacy` | 1 |

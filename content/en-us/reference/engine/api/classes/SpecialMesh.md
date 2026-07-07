@@ -6,8 +6,10 @@ superclass: FileMesh
 
 # SpecialMesh
 
-**Inherits**: FileMesh > DataModelMesh > Instance > Object
+**Inherits from:** `Class.FileMesh` > `Class.DataModelMesh` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **MeshType**: `MeshType`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SpecialMesh.MeshType` | `Enum.MeshType` |  |

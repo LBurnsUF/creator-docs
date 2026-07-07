@@ -6,8 +6,10 @@ superclass: PoseBase
 
 # NumberPose
 
-**Inherits**: PoseBase > Instance > Object
+**Inherits from:** `Class.PoseBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Value**: `double`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.NumberPose.Value` | `double` |  |

@@ -7,10 +7,13 @@ tags: [NotCreatable, NotReplicated]
 
 # MemStorageConnection
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **Disconnect**() -> `null`
+### `Class.MemStorageConnection:Disconnect`
+
+``Disconnect()`` → `null`
+   {security: PluginSecurity}

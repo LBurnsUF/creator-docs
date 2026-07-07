@@ -3,9 +3,11 @@ title: AssetRepresentation
 type: enum
 ---
 
-# AssetRepresentation (Enum)
+# `Enum.AssetRepresentation`
+
+The `Enum.AssetRepresentation` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| FullLength | 0 |
-| ShortPreview | 1 |
+| `Enum.AssetRepresentation.FullLength` | 0 |
+| `Enum.AssetRepresentation.ShortPreview` | 1 |

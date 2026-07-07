@@ -7,10 +7,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # DeviceIdService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetDeviceId**() -> `string`
+### `Class.DeviceIdService:GetDeviceId`
+
+``GetDeviceId()`` → `string`
+   {security: RobloxScriptSecurity}

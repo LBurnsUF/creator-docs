@@ -3,9 +3,11 @@ title: PositionAlignmentMode
 type: enum
 ---
 
-# PositionAlignmentMode (Enum)
+# `Enum.PositionAlignmentMode`
+
+The `Enum.PositionAlignmentMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| OneAttachment | 0 |
-| TwoAttachment | 1 |
+| `Enum.PositionAlignmentMode.OneAttachment` | 0 |
+| `Enum.PositionAlignmentMode.TwoAttachment` | 1 |

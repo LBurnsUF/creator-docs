@@ -7,13 +7,15 @@ tags: [NotCreatable]
 
 # Feature
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **FaceId**: `NormalId`
-- **InOut**: `InOut`
-- **LeftRight**: `LeftRight`
-- **TopBottom**: `TopBottom`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Feature.FaceId` | `Enum.NormalId` |  |
+| `Class.Feature.InOut` | `Enum.InOut` |  |
+| `Class.Feature.LeftRight` | `Enum.LeftRight` |  |
+| `Class.Feature.TopBottom` | `Enum.TopBottom` |  |

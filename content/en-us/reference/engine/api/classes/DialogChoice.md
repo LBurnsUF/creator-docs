@@ -6,11 +6,13 @@ superclass: Instance
 
 # DialogChoice
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **GoodbyeChoiceActive**: `bool`
-- **GoodbyeDialog**: `string`
-- **ResponseDialog**: `string`
-- **UserDialog**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DialogChoice.GoodbyeChoiceActive` | `bool` |  |
+| `Class.DialogChoice.GoodbyeDialog` | `string` |  |
+| `Class.DialogChoice.ResponseDialog` | `string` |  |
+| `Class.DialogChoice.UserDialog` | `string` |  |

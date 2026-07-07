@@ -7,10 +7,12 @@ tags: [Deprecated]
 
 # Message
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **Text**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Message.Text` | `string` |  |

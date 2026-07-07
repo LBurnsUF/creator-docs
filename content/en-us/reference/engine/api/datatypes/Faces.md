@@ -3,11 +3,11 @@ title: Faces
 type: datatype
 ---
 
-# Faces (DataType)
+# `Datatype.Faces`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Property Type
 
-- BasePart.ResizeableFaces
-- Handles.Faces
+- `Class.BasePart.ResizeableFaces`
+- `Class.Handles.Faces`

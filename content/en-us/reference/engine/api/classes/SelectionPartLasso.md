@@ -7,10 +7,12 @@ tags: [Deprecated]
 
 # SelectionPartLasso
 
-**Inherits**: SelectionLasso > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.SelectionLasso` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **Part**: `BasePart`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SelectionPartLasso.Part` | `Class.BasePart` |  |

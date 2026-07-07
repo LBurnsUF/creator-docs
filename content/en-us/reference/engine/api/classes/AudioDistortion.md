@@ -6,19 +6,31 @@ superclass: Instance
 
 # AudioDistortion
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Bypass**: `bool`
-- **Level**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioDistortion.Bypass` | `bool` |  |
+| `Class.AudioDistortion.Level` | `float` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
+### `Class.AudioDistortion:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioDistortion:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioDistortion:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioDistortion.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

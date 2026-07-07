@@ -6,27 +6,50 @@ superclass: Instance
 
 # InputAction
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **BoolState**: `bool` [ReadOnly] [NotReplicated] [NotScriptable] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Direction1DState**: `float` [ReadOnly] [NotReplicated] [NotScriptable] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Direction2DState**: `Vector2` [ReadOnly] [NotReplicated] [NotScriptable] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Direction3DState**: `Vector3` [ReadOnly] [NotReplicated] [NotScriptable] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Enabled**: `bool`
-- **Type**: `InputActionType`
-- **ViewportPositionState**: `Vector2` [ReadOnly] [NotReplicated] [NotScriptable] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.InputAction.BoolState` | `bool` | [ReadOnly] [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
+| `Class.InputAction.Direction1DState` | `float` | [ReadOnly] [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
+| `Class.InputAction.Direction2DState` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
+| `Class.InputAction.Direction3DState` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
+| `Class.InputAction.Enabled` | `bool` |  |
+| `Class.InputAction.Type` | `Enum.InputActionType` |  |
+| `Class.InputAction.ViewportPositionState` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **Fire**(`state: Variant`) -> `null` [Deprecated]
-- **GetInputBindings**() -> `Instances`
-- **GetState**() -> `Variant`
+### `Class.InputAction:Fire`
+
+``Fire(state: `Variant`)`` → `null`
+  [Deprecated]
+
+### `Class.InputAction:GetInputBindings`
+
+``GetInputBindings()`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}
+
+### `Class.InputAction:GetState`
+
+``GetState()`` → `Variant`
 
 ## Events
 
-- **InputBindingsChanged**()
-- **Pressed**()
-- **Released**()
-- **StateChanged**(`value: Variant`)
+### `Class.InputAction.InputBindingsChanged`
+
+Fires with: ()
+
+### `Class.InputAction.Pressed`
+
+Fires with: ()
+
+### `Class.InputAction.Released`
+
+Fires with: ()
+
+### `Class.InputAction.StateChanged`
+
+Fires with: (value: `Variant`)

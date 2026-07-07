@@ -7,18 +7,36 @@ tags: [NotCreatable]
 
 # Controller
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Methods
 
-- **BindButton**(`button: Button`, `caption: string`) -> `null`
-- **GetButton**(`button: Button`) -> `bool`
-- **UnbindButton**(`button: Button`) -> `null`
-- **bindButton**(`button: Button`, `caption: string`) -> `null` [Deprecated]
-- **getButton**(`button: Button`) -> `bool` [Deprecated]
+### `Class.Controller:BindButton`
+
+``BindButton(button: `Enum.Button`, caption: `string`)`` → `null`
+
+### `Class.Controller:GetButton`
+
+``GetButton(button: `Enum.Button`)`` → `bool`
+
+### `Class.Controller:UnbindButton`
+
+``UnbindButton(button: `Enum.Button`)`` → `null`
+
+### `Class.Controller:bindButton`
+
+``bindButton(button: `Enum.Button`, caption: `string`)`` → `null`
+  [Deprecated]
+
+### `Class.Controller:getButton`
+
+``getButton(button: `Enum.Button`)`` → `bool`
+  [Deprecated]
 
 ## Events
 
-- **ButtonChanged**(`button: Button`)
+### `Class.Controller.ButtonChanged`
+
+Fires with: (button: `Enum.Button`)

@@ -3,8 +3,10 @@ title: DiscountType
 type: enum
 ---
 
-# DiscountType (Enum)
+# `Enum.DiscountType`
+
+The `Enum.DiscountType` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| Uncategorized | 0 |
+| `Enum.DiscountType.Uncategorized` | 0 |

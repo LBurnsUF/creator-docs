@@ -3,12 +3,14 @@ title: PlayerPlatformActivationStatus
 type: enum
 ---
 
-# PlayerPlatformActivationStatus (Enum)
+# `Enum.PlayerPlatformActivationStatus`
+
+The `Enum.PlayerPlatformActivationStatus` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| New | 1 |
-| Active | 2 |
-| Lapsed | 3 |
-| Reactivated | 4 |
+| `Enum.PlayerPlatformActivationStatus.Unknown` | 0 |
+| `Enum.PlayerPlatformActivationStatus.New` | 1 |
+| `Enum.PlayerPlatformActivationStatus.Active` | 2 |
+| `Enum.PlayerPlatformActivationStatus.Lapsed` | 3 |
+| `Enum.PlayerPlatformActivationStatus.Reactivated` | 4 |

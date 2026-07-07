@@ -7,30 +7,43 @@ tags: [Deprecated]
 
 # RocketPropulsion
 
-**Inherits**: BodyMover > Instance > Object
+**Inherits from:** `Class.BodyMover` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **CartoonFactor**: `float`
-- **MaxSpeed**: `float`
-- **MaxThrust**: `float`
-- **MaxTorque**: `Vector3`
-- **Target**: `BasePart`
-- **TargetOffset**: `Vector3`
-- **TargetRadius**: `float`
-- **ThrustD**: `float`
-- **ThrustP**: `float`
-- **TurnD**: `float`
-- **TurnP**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RocketPropulsion.CartoonFactor` | `float` |  |
+| `Class.RocketPropulsion.MaxSpeed` | `float` |  |
+| `Class.RocketPropulsion.MaxThrust` | `float` |  |
+| `Class.RocketPropulsion.MaxTorque` | `Datatype.Vector3` |  |
+| `Class.RocketPropulsion.Target` | `Class.BasePart` |  |
+| `Class.RocketPropulsion.TargetOffset` | `Datatype.Vector3` |  |
+| `Class.RocketPropulsion.TargetRadius` | `float` |  |
+| `Class.RocketPropulsion.ThrustD` | `float` |  |
+| `Class.RocketPropulsion.ThrustP` | `float` |  |
+| `Class.RocketPropulsion.TurnD` | `float` |  |
+| `Class.RocketPropulsion.TurnP` | `float` |  |
 
 ## Methods
 
-- **Abort**() -> `null`
-- **Fire**() -> `null`
-- **fire**() -> `null` [Deprecated]
+### `Class.RocketPropulsion:Abort`
+
+``Abort()`` → `null`
+
+### `Class.RocketPropulsion:Fire`
+
+``Fire()`` → `null`
+
+### `Class.RocketPropulsion:fire`
+
+``fire()`` → `null`
+  [Deprecated]
 
 ## Events
 
-- **ReachedTarget**()
+### `Class.RocketPropulsion.ReachedTarget`
+
+Fires with: ()

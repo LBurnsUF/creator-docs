@@ -3,9 +3,11 @@ title: ControlMode
 type: enum
 ---
 
-# ControlMode (Enum)
+# `Enum.ControlMode`
+
+The `Enum.ControlMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Classic | 0 |
-| MouseLockSwitch | 1 |
+| `Enum.ControlMode.Classic` | 0 |
+| `Enum.ControlMode.MouseLockSwitch` | 1 |

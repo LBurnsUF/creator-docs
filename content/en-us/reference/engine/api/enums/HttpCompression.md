@@ -3,9 +3,11 @@ title: HttpCompression
 type: enum
 ---
 
-# HttpCompression (Enum)
+# `Enum.HttpCompression`
+
+The `Enum.HttpCompression` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Gzip | 1 |
+| `Enum.HttpCompression.None` | 0 |
+| `Enum.HttpCompression.Gzip` | 1 |

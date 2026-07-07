@@ -3,10 +3,12 @@ title: MakeupType
 type: enum
 ---
 
-# MakeupType (Enum)
+# `Enum.MakeupType`
+
+The `Enum.MakeupType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Face | 0 |
-| Lip | 1 |
-| Eye | 2 |
+| `Enum.MakeupType.Face` | 0 |
+| `Enum.MakeupType.Lip` | 1 |
+| `Enum.MakeupType.Eye` | 2 |

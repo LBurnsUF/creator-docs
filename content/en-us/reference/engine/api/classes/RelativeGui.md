@@ -7,6 +7,6 @@ tags: [NotReplicated]
 
 # RelativeGui
 
-**Inherits**: GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]

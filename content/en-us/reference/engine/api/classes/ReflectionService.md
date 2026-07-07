@@ -7,16 +7,43 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ReflectionService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetClass**(`className: string`, `filter: Dictionary = nil`) -> `Dictionary?` [CustomLuaState]
-- **GetClasses**(`filter: Dictionary = nil`) -> `Array` [CustomLuaState]
-- **GetEventsOfClass**(`className: string`, `filter: Dictionary = nil`) -> `Array` [CustomLuaState]
-- **GetMethodsOfClass**(`className: string`, `filter: Dictionary = nil`) -> `Array` [CustomLuaState]
-- **GetPropertiesOfClass**(`className: string`, `filter: Dictionary = nil`) -> `Array` [CustomLuaState]
-- **GetPropertyNames**(`name: string`) -> `Array` [CustomLuaState]
-- **GetStyledPropertyNames**(`name: string`) -> `Array` [CustomLuaState]
+### `Class.ReflectionService:GetClass`
+
+``GetClass(className: `string`, filter: `Dictionary`)`` → `Dictionary?`
+  [CustomLuaState]
+
+### `Class.ReflectionService:GetClasses`
+
+``GetClasses(filter: `Dictionary`)`` → `Array`
+  [CustomLuaState]
+
+### `Class.ReflectionService:GetEventsOfClass`
+
+``GetEventsOfClass(className: `string`, filter: `Dictionary`)`` → `Array`
+  [CustomLuaState]
+
+### `Class.ReflectionService:GetMethodsOfClass`
+
+``GetMethodsOfClass(className: `string`, filter: `Dictionary`)`` → `Array`
+  [CustomLuaState]
+
+### `Class.ReflectionService:GetPropertiesOfClass`
+
+``GetPropertiesOfClass(className: `string`, filter: `Dictionary`)`` → `Array`
+  [CustomLuaState]
+
+### `Class.ReflectionService:GetPropertyNames`
+
+``GetPropertyNames(name: `string`)`` → `Array`
+  [CustomLuaState] {security: RobloxScriptSecurity}
+
+### `Class.ReflectionService:GetStyledPropertyNames`
+
+``GetStyledPropertyNames(name: `string`)`` → `Array`
+  [CustomLuaState] {security: RobloxScriptSecurity}

@@ -3,12 +3,14 @@ title: AnnotationRequestType
 type: enum
 ---
 
-# AnnotationRequestType (Enum)
+# `Enum.AnnotationRequestType`
+
+The `Enum.AnnotationRequestType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| Create | 1 |
-| Resolve | 2 |
-| Delete | 3 |
-| Edit | 4 |
+| `Enum.AnnotationRequestType.Unknown` | 0 |
+| `Enum.AnnotationRequestType.Create` | 1 |
+| `Enum.AnnotationRequestType.Resolve` | 2 |
+| `Enum.AnnotationRequestType.Delete` | 3 |
+| `Enum.AnnotationRequestType.Edit` | 4 |

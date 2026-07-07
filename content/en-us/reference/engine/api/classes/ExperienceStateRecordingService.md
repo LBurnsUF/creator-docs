@@ -7,21 +7,54 @@ tags: [NotCreatable, Service]
 
 # ExperienceStateRecordingService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **ExitPlayback**() -> `null`
-- **GetCurrentPlaybackRestartFrames**() -> `Array`
-- **GetPlaybackCurrentFrame**() -> `int64`
-- **GetPlaybackMode**() -> `ExperienceStateRecordingPlaybackMode`
-- **LoadPlaybackAsync**(`uri: string`, `placeFileUri: string?`, `mode: ExperienceStateRecordingLoadMode`, `sourceType: ExperienceStateRecordingLoadSourceType`) -> `Dictionary` [Yields]
-- **SetPlaybackFrame**(`frame: int64`) -> `null`
-- **SetPlaybackMode**(`mode: ExperienceStateRecordingPlaybackMode`) -> `null`
-- **SetPlaybackPercentage**(`percentage: float`) -> `null`
+### `Class.ExperienceStateRecordingService:ExitPlayback`
+
+``ExitPlayback()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceStateRecordingService:GetCurrentPlaybackRestartFrames`
+
+``GetCurrentPlaybackRestartFrames()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceStateRecordingService:GetPlaybackCurrentFrame`
+
+``GetPlaybackCurrentFrame()`` → `int64`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceStateRecordingService:GetPlaybackMode`
+
+``GetPlaybackMode()`` → `Enum.ExperienceStateRecordingPlaybackMode`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceStateRecordingService:LoadPlaybackAsync`
+
+``LoadPlaybackAsync(uri: `string`, placeFileUri: `string?`, mode: `Enum.ExperienceStateRecordingLoadMode`, sourceType: `Enum.ExperienceStateRecordingLoadSourceType`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.ExperienceStateRecordingService:SetPlaybackFrame`
+
+``SetPlaybackFrame(frame: `int64`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceStateRecordingService:SetPlaybackMode`
+
+``SetPlaybackMode(mode: `Enum.ExperienceStateRecordingPlaybackMode`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceStateRecordingService:SetPlaybackPercentage`
+
+``SetPlaybackPercentage(percentage: `float`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **PlaybackStatusUpdated**(`percentage: float`, `currentFrameNumber: int64`)
+### `Class.ExperienceStateRecordingService.PlaybackStatusUpdated`
+
+Fires with: (percentage: `float`, currentFrameNumber: `int64`)

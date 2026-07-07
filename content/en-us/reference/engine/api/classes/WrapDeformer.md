@@ -6,10 +6,20 @@ superclass: BaseWrap
 
 # WrapDeformer
 
-**Inherits**: BaseWrap > Instance > Object
+**Inherits from:** `Class.BaseWrap` > `Class.Instance` > `Class.Object`
 
 ## Methods
 
-- **CreateEditableMeshAsync**() -> `EditableMesh` [Yields]
-- **GetDeformedCFrameAsync**(`originalCFrame: CFrame`) -> `CFrame` [Yields]
-- **SetCageMeshContent**(`content: Content`, `cageOrigin: CoordinateFrame?`) -> `null`
+### `Class.WrapDeformer:CreateEditableMeshAsync`
+
+``CreateEditableMeshAsync()`` → `Class.EditableMesh`
+  [Yields]
+
+### `Class.WrapDeformer:GetDeformedCFrameAsync`
+
+``GetDeformedCFrameAsync(originalCFrame: `Datatype.CFrame`)`` → `Datatype.CFrame`
+  [Yields]
+
+### `Class.WrapDeformer:SetCageMeshContent`
+
+``SetCageMeshContent(content: `Datatype.Content`, cageOrigin: `Datatype.CoordinateFrame`?)`` → `null`

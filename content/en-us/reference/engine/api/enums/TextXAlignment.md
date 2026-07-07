@@ -3,10 +3,12 @@ title: TextXAlignment
 type: enum
 ---
 
-# TextXAlignment (Enum)
+# `Enum.TextXAlignment`
+
+The `Enum.TextXAlignment` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Left | 0 |
-| Right | 1 |
-| Center | 2 |
+| `Enum.TextXAlignment.Left` | 0 |
+| `Enum.TextXAlignment.Right` | 1 |
+| `Enum.TextXAlignment.Center` | 2 |

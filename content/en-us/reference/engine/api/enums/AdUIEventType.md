@@ -3,16 +3,18 @@ title: AdUIEventType
 type: enum
 ---
 
-# AdUIEventType (Enum)
+# `Enum.AdUIEventType`
+
+The `Enum.AdUIEventType` enum has 9 item(s).
 
 | Name | Value |
 |------|-------|
-| AdLabelClicked | 0 |
-| VolumeButtonClicked | 1 |
-| FullscreenButtonClicked | 2 |
-| PlayButtonClicked | 3 |
-| PauseButtonClicked | 4 |
-| CloseButtonClicked | 5 |
-| WhyThisAdClicked | 6 |
-| PlayEventTriggered | 7 |
-| PauseEventTriggered | 8 |
+| `Enum.AdUIEventType.AdLabelClicked` | 0 |
+| `Enum.AdUIEventType.VolumeButtonClicked` | 1 |
+| `Enum.AdUIEventType.FullscreenButtonClicked` | 2 |
+| `Enum.AdUIEventType.PlayButtonClicked` | 3 |
+| `Enum.AdUIEventType.PauseButtonClicked` | 4 |
+| `Enum.AdUIEventType.CloseButtonClicked` | 5 |
+| `Enum.AdUIEventType.WhyThisAdClicked` | 6 |
+| `Enum.AdUIEventType.PlayEventTriggered` | 7 |
+| `Enum.AdUIEventType.PauseEventTriggered` | 8 |

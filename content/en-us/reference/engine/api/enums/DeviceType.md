@@ -3,12 +3,14 @@ title: DeviceType
 type: enum
 ---
 
-# DeviceType (Enum)
+# `Enum.DeviceType`
+
+The `Enum.DeviceType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| Desktop | 1 |
-| Tablet | 2 |
-| Phone | 3 |
-| TV | 4 |
+| `Enum.DeviceType.Unknown` | 0 |
+| `Enum.DeviceType.Desktop` | 1 |
+| `Enum.DeviceType.Tablet` | 2 |
+| `Enum.DeviceType.Phone` | 3 |
+| `Enum.DeviceType.TV` | 4 |

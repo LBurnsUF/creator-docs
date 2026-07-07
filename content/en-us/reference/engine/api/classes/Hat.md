@@ -7,6 +7,6 @@ tags: [Deprecated]
 
 # Hat
 
-**Inherits**: Accoutrement > Instance > Object
+**Inherits from:** `Class.Accoutrement` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]

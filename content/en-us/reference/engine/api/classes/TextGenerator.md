@@ -6,15 +6,20 @@ superclass: Instance
 
 # TextGenerator
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Seed**: `int`
-- **SystemPrompt**: `string`
-- **Temperature**: `float`
-- **TopP**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextGenerator.Seed` | `int` |  |
+| `Class.TextGenerator.SystemPrompt` | `string` |  |
+| `Class.TextGenerator.Temperature` | `float` |  |
+| `Class.TextGenerator.TopP` | `float` |  |
 
 ## Methods
 
-- **GenerateTextAsync**(`request: Dictionary`) -> `Dictionary` [Yields]
+### `Class.TextGenerator:GenerateTextAsync`
+
+``GenerateTextAsync(request: `Dictionary`)`` → `Dictionary`
+  [Yields]

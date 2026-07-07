@@ -3,13 +3,15 @@ title: HapticEffectType
 type: enum
 ---
 
-# HapticEffectType (Enum)
+# `Enum.HapticEffectType`
+
+The `Enum.HapticEffectType` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Custom | 0 |
-| UIHover | 1 |
-| UIClick | 2 |
-| UINotification | 3 |
-| GameplayExplosion | 4 |
-| GameplayCollision | 5 |
+| `Enum.HapticEffectType.Custom` | 0 |
+| `Enum.HapticEffectType.UIHover` | 1 |
+| `Enum.HapticEffectType.UIClick` | 2 |
+| `Enum.HapticEffectType.UINotification` | 3 |
+| `Enum.HapticEffectType.GameplayExplosion` | 4 |
+| `Enum.HapticEffectType.GameplayCollision` | 5 |

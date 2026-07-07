@@ -3,11 +3,13 @@ title: CellOrientation
 type: enum
 ---
 
-# CellOrientation (Enum)
+# `Enum.CellOrientation`
+
+The `Enum.CellOrientation` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| NegZ | 0 |
-| X | 1 |
-| Z | 2 |
-| NegX | 3 |
+| `Enum.CellOrientation.NegZ` | 0 |
+| `Enum.CellOrientation.X` | 1 |
+| `Enum.CellOrientation.Z` | 2 |
+| `Enum.CellOrientation.NegX` | 3 |

@@ -3,13 +3,15 @@ title: ButtonStyle
 type: enum
 ---
 
-# ButtonStyle (Enum)
+# `Enum.ButtonStyle`
+
+The `Enum.ButtonStyle` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Custom | 0 |
-| RobloxButtonDefault | 1 |
-| RobloxButton | 2 |
-| RobloxRoundButton | 3 |
-| RobloxRoundDefaultButton | 4 |
-| RobloxRoundDropdownButton | 5 |
+| `Enum.ButtonStyle.Custom` | 0 |
+| `Enum.ButtonStyle.RobloxButtonDefault` | 1 |
+| `Enum.ButtonStyle.RobloxButton` | 2 |
+| `Enum.ButtonStyle.RobloxRoundButton` | 3 |
+| `Enum.ButtonStyle.RobloxRoundDefaultButton` | 4 |
+| `Enum.ButtonStyle.RobloxRoundDropdownButton` | 5 |

@@ -6,4 +6,4 @@ superclass: ReflectionMetadataItem
 
 # ReflectionMetadataMember
 
-**Inherits**: ReflectionMetadataItem > Instance > Object
+**Inherits from:** `Class.ReflectionMetadataItem` > `Class.Instance` > `Class.Object`

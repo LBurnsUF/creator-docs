@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # LocalDebuggerConnection
 
-**Inherits**: DebuggerConnection > Instance > Object
+**Inherits from:** `Class.DebuggerConnection` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

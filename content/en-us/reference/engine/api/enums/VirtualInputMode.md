@@ -3,10 +3,12 @@ title: VirtualInputMode
 type: enum
 ---
 
-# VirtualInputMode (Enum)
+# `Enum.VirtualInputMode`
+
+The `Enum.VirtualInputMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Recording | 1 |
-| Playing | 2 |
+| `Enum.VirtualInputMode.None` | 0 |
+| `Enum.VirtualInputMode.Recording` | 1 |
+| `Enum.VirtualInputMode.Playing` | 2 |

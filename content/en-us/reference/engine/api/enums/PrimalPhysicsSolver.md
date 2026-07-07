@@ -3,10 +3,12 @@ title: PrimalPhysicsSolver
 type: enum
 ---
 
-# PrimalPhysicsSolver (Enum)
+# `Enum.PrimalPhysicsSolver`
+
+The `Enum.PrimalPhysicsSolver` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Experimental | 1 |
-| Disabled | 2 |
+| `Enum.PrimalPhysicsSolver.Default` | 0 |
+| `Enum.PrimalPhysicsSolver.Experimental` | 1 |
+| `Enum.PrimalPhysicsSolver.Disabled` | 2 |

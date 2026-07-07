@@ -3,10 +3,12 @@ title: OverrideMouseIconBehavior
 type: enum
 ---
 
-# OverrideMouseIconBehavior (Enum)
+# `Enum.OverrideMouseIconBehavior`
+
+The `Enum.OverrideMouseIconBehavior` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| ForceShow | 1 |
-| ForceHide | 2 |
+| `Enum.OverrideMouseIconBehavior.None` | 0 |
+| `Enum.OverrideMouseIconBehavior.ForceShow` | 1 |
+| `Enum.OverrideMouseIconBehavior.ForceHide` | 2 |

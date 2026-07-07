@@ -7,6 +7,6 @@ tags: [NotCreatable, Service]
 
 # SpawnerService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]

@@ -3,10 +3,12 @@ title: VoiceControlPath
 type: enum
 ---
 
-# VoiceControlPath (Enum)
+# `Enum.VoiceControlPath`
+
+The `Enum.VoiceControlPath` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Publish | 0 |
-| Subscribe | 1 |
-| Join | 2 |
+| `Enum.VoiceControlPath.Publish` | 0 |
+| `Enum.VoiceControlPath.Subscribe` | 1 |
+| `Enum.VoiceControlPath.Join` | 2 |

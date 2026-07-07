@@ -6,39 +6,44 @@ superclass: GuiButton
 
 # TextButton
 
-**Inherits**: GuiButton > GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiButton` > `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ContentText**: `string` [ReadOnly] [NotReplicated]
-- **Font**: `Font` [Hidden] [NotReplicated]
-- **FontFace**: `Font`
-- **FontSize**: `FontSize` [NotReplicated] [Deprecated]
-- **LineHeight**: `float`
-- **LocalizationMatchIdentifier**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LocalizationMatchedSourceText**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LocalizedText**: `string` [Hidden] [ReadOnly] [NotReplicated]
-- **MaxVisibleGraphemes**: `int`
-- **OpenTypeFeatures**: `string`
-- **OpenTypeFeaturesError**: `string` [ReadOnly] [NotReplicated]
-- **RichText**: `bool`
-- **Text**: `string`
-- **TextBounds**: `Vector2` [ReadOnly] [NotReplicated]
-- **TextColor**: `BrickColor` [Hidden] [NotReplicated] [Deprecated]
-- **TextColor3**: `Color3`
-- **TextDirection**: `TextDirection`
-- **TextFits**: `bool` [ReadOnly] [NotReplicated]
-- **TextScaled**: `bool`
-- **TextSize**: `float`
-- **TextStrokeColor3**: `Color3`
-- **TextStrokeTransparency**: `float`
-- **TextTransparency**: `float`
-- **TextTruncate**: `TextTruncate`
-- **TextWrap**: `bool` [NotReplicated] [Deprecated]
-- **TextWrapped**: `bool`
-- **TextXAlignment**: `TextXAlignment`
-- **TextYAlignment**: `TextYAlignment`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextButton.ContentText` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.TextButton.Font` | `Enum.Font` | [Hidden] [NotReplicated] |
+| `Class.TextButton.FontFace` | `Datatype.Font` |  |
+| `Class.TextButton.FontSize` | `Enum.FontSize` | [NotReplicated] [Deprecated] |
+| `Class.TextButton.LineHeight` | `float` |  |
+| `Class.TextButton.LocalizationMatchIdentifier` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextButton.LocalizationMatchedSourceText` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextButton.LocalizedText` | `string` | [Hidden] [ReadOnly] [NotReplicated] |
+| `Class.TextButton.MaxVisibleGraphemes` | `int` |  |
+| `Class.TextButton.OpenTypeFeatures` | `string` |  |
+| `Class.TextButton.OpenTypeFeaturesError` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.TextButton.RichText` | `bool` |  |
+| `Class.TextButton.Text` | `string` |  |
+| `Class.TextButton.TextBounds` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.TextButton.TextColor` | `Datatype.BrickColor` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.TextButton.TextColor3` | `Datatype.Color3` |  |
+| `Class.TextButton.TextDirection` | `Enum.TextDirection` |  |
+| `Class.TextButton.TextFits` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.TextButton.TextScaled` | `bool` |  |
+| `Class.TextButton.TextSize` | `float` |  |
+| `Class.TextButton.TextStrokeColor3` | `Datatype.Color3` |  |
+| `Class.TextButton.TextStrokeTransparency` | `float` |  |
+| `Class.TextButton.TextTransparency` | `float` |  |
+| `Class.TextButton.TextTruncate` | `Enum.TextTruncate` |  |
+| `Class.TextButton.TextWrap` | `bool` | [NotReplicated] [Deprecated] |
+| `Class.TextButton.TextWrapped` | `bool` |  |
+| `Class.TextButton.TextXAlignment` | `Enum.TextXAlignment` |  |
+| `Class.TextButton.TextYAlignment` | `Enum.TextYAlignment` |  |
 
 ## Methods
 
-- **SetTextFromInput**(`text: string`) -> `null`
+### `Class.TextButton:SetTextFromInput`
+
+``SetTextFromInput(text: `string`)`` → `null`
+   {security: RobloxScriptSecurity}

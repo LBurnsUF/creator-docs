@@ -6,15 +6,28 @@ superclass: Instance
 
 # MarkerCurve
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Length**: `int` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.MarkerCurve.Length` | `int` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetMarkerAtIndex**(`index: int`) -> `Dictionary`
-- **GetMarkers**() -> `Array`
-- **InsertMarkerAtTime**(`time: float`, `marker: string`) -> `Array`
-- **RemoveMarkerAtIndex**(`startingIndex: int`, `count: int = 1`) -> `int`
+### `Class.MarkerCurve:GetMarkerAtIndex`
+
+``GetMarkerAtIndex(index: `int`)`` → `Dictionary`
+
+### `Class.MarkerCurve:GetMarkers`
+
+``GetMarkers()`` → `Array`
+
+### `Class.MarkerCurve:InsertMarkerAtTime`
+
+``InsertMarkerAtTime(time: `float`, marker: `string`)`` → `Array`
+
+### `Class.MarkerCurve:RemoveMarkerAtIndex`
+
+``RemoveMarkerAtIndex(startingIndex: `int`, count: `int`)`` → `int`

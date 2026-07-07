@@ -7,10 +7,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # TeamCreateService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CloseGameIfUserDoesntHavePerms**() -> `null`
+### `Class.TeamCreateService:CloseGameIfUserDoesntHavePerms`
+
+``CloseGameIfUserDoesntHavePerms()`` → `null`
+   {security: RobloxScriptSecurity}

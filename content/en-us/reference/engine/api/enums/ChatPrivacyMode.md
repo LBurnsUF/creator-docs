@@ -3,10 +3,12 @@ title: ChatPrivacyMode
 type: enum
 ---
 
-# ChatPrivacyMode (Enum)
+# `Enum.ChatPrivacyMode`
+
+The `Enum.ChatPrivacyMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| AllUsers | 0 |
-| NoOne | 1 |
-| Friends | 2 |
+| `Enum.ChatPrivacyMode.AllUsers` | 0 |
+| `Enum.ChatPrivacyMode.NoOne` | 1 |
+| `Enum.ChatPrivacyMode.Friends` | 2 |

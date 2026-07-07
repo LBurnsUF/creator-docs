@@ -3,12 +3,14 @@ title: PartType
 type: enum
 ---
 
-# PartType (Enum)
+# `Enum.PartType`
+
+The `Enum.PartType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Ball | 0 |
-| Block | 1 |
-| Cylinder | 2 |
-| Wedge | 3 |
-| CornerWedge | 4 |
+| `Enum.PartType.Ball` | 0 |
+| `Enum.PartType.Block` | 1 |
+| `Enum.PartType.Cylinder` | 2 |
+| `Enum.PartType.Wedge` | 3 |
+| `Enum.PartType.CornerWedge` | 4 |

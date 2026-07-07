@@ -7,11 +7,18 @@ tags: [NotCreatable, NotReplicated, Deprecated]
 
 # OpenCloudApiV1
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated, Deprecated
+**Tags:** [NotCreatable] [NotReplicated] [Deprecated]
 
 ## Methods
 
-- **CreateModel**(`name: string`) -> `OpenCloudModel` [Deprecated] [CustomLuaState]
-- **CreateUserNotificationAsync**(`user: string`, `userNotification: OpenCloudModel`) -> `OpenCloudModel` [Yields] [Deprecated]
+### `Class.OpenCloudApiV1:CreateModel`
+
+``CreateModel(name: `string`)`` → `Datatype.OpenCloudModel`
+  [Deprecated] [CustomLuaState]
+
+### `Class.OpenCloudApiV1:CreateUserNotificationAsync`
+
+``CreateUserNotificationAsync(user: `string`, userNotification: `Datatype.OpenCloudModel`)`` → `Datatype.OpenCloudModel`
+  [Yields] [Deprecated]

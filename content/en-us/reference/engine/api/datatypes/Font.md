@@ -3,23 +3,23 @@ title: Font
 type: datatype
 ---
 
-# Font (DataType)
+# `Datatype.Font`
 
-Used in 11 locations across the API.
+Used in 11 locations across the Roblox API.
 
 ## Used as Property Type
 
-- BubbleChatConfiguration.FontFace
-- BubbleChatMessageProperties.FontFace
-- ChannelTabsConfiguration.FontFace
-- ChatInputBarConfiguration.FontFace
-- ChatWindowConfiguration.FontFace
-- ChatWindowMessageProperties.FontFace
-- GetTextBoundsParams.Font
-- TextBox.FontFace
-- TextButton.FontFace
-- TextLabel.FontFace
+- `Class.BubbleChatConfiguration.FontFace`
+- `Class.BubbleChatMessageProperties.FontFace`
+- `Class.ChannelTabsConfiguration.FontFace`
+- `Class.ChatInputBarConfiguration.FontFace`
+- `Class.ChatWindowConfiguration.FontFace`
+- `Class.ChatWindowMessageProperties.FontFace`
+- `Class.GetTextBoundsParams.Font`
+- `Class.TextBox.FontFace`
+- `Class.TextButton.FontFace`
+- `Class.TextLabel.FontFace`
 
 ## Used as Parameter Type
 
-- TextService.GetTextSizeOffsetAsync(font)
+- `Class.TextService:GetTextSizeOffsetAsync` (parameter `font`)

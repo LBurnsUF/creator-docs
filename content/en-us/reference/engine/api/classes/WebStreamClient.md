@@ -7,22 +7,40 @@ tags: [NotCreatable, NotReplicated]
 
 # WebStreamClient
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **ConnectionState**: `WebStreamClientState` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.WebStreamClient.ConnectionState` | `Enum.WebStreamClientState` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **Close**() -> `null`
-- **Send**(`data: string`) -> `null`
+### `Class.WebStreamClient:Close`
+
+``Close()`` → `null`
+
+### `Class.WebStreamClient:Send`
+
+``Send(data: `string`)`` → `null`
 
 ## Events
 
-- **Closed**()
-- **Error**(`responseStatusCode: int`, `errorMessage: string`)
-- **MessageReceived**(`message: string`)
-- **Opened**(`responseStatusCode: int`, `headers: string`)
+### `Class.WebStreamClient.Closed`
+
+Fires with: ()
+
+### `Class.WebStreamClient.Error`
+
+Fires with: (responseStatusCode: `int`, errorMessage: `string`)
+
+### `Class.WebStreamClient.MessageReceived`
+
+Fires with: (message: `string`)
+
+### `Class.WebStreamClient.Opened`
+
+Fires with: (responseStatusCode: `int`, headers: `string`)

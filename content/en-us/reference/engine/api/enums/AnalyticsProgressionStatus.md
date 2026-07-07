@@ -3,12 +3,14 @@ title: AnalyticsProgressionStatus
 type: enum
 ---
 
-# AnalyticsProgressionStatus (Enum)
+# `Enum.AnalyticsProgressionStatus`
+
+The `Enum.AnalyticsProgressionStatus` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Begin | 1 |
-| Complete | 2 |
-| Abandon | 3 |
-| Fail | 4 |
+| `Enum.AnalyticsProgressionStatus.Default` | 0 |
+| `Enum.AnalyticsProgressionStatus.Begin` | 1 |
+| `Enum.AnalyticsProgressionStatus.Complete` | 2 |
+| `Enum.AnalyticsProgressionStatus.Abandon` | 3 |
+| `Enum.AnalyticsProgressionStatus.Fail` | 4 |

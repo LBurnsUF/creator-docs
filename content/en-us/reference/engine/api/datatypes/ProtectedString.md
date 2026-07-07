@@ -3,11 +3,11 @@ title: ProtectedString
 type: datatype
 ---
 
-# ProtectedString (DataType)
+# `Datatype.ProtectedString`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Property Type
 
-- ModuleScript.Source
-- Script.Source
+- `Class.ModuleScript.Source`
+- `Class.Script.Source`

@@ -6,30 +6,88 @@ superclass: Instance
 
 # LocalizationTable
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **DevelopmentLanguage**: `string` [Hidden] [NotReplicated] [Deprecated]
-- **Root**: `Instance` [Hidden] [NotReplicated] [Deprecated]
-- **SourceLocaleId**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.LocalizationTable.DevelopmentLanguage` | `string` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.LocalizationTable.Root` | `Class.Instance` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.LocalizationTable.SourceLocaleId` | `string` |  |
 
 ## Methods
 
-- **GetContents**() -> `string` [Deprecated]
-- **GetEntries**() -> `Array`
-- **GetString**(`targetLocaleId: string`, `key: string`) -> `string` [Deprecated]
-- **GetTranslator**(`localeId: string`) -> `Instance`
-- **RemoveEntry**(`key: string`, `source: string`, `context: string`) -> `null`
-- **RemoveEntryValue**(`key: string`, `source: string`, `context: string`, `localeId: string`) -> `null`
-- **RemoveKey**(`key: string`) -> `null` [Deprecated]
-- **RemoveTargetLocale**(`localeId: string`) -> `null`
-- **SetContents**(`contents: string`) -> `null` [Deprecated]
-- **SetEntries**(`entries: Variant`) -> `null`
-- **SetEntry**(`key: string`, `targetLocaleId: string`, `text: string`) -> `null` [Deprecated]
-- **SetEntryContext**(`key: string`, `source: string`, `context: string`, `newContext: string`) -> `null`
-- **SetEntryExample**(`key: string`, `source: string`, `context: string`, `example: string`) -> `null`
-- **SetEntryKey**(`key: string`, `source: string`, `context: string`, `newKey: string`) -> `null`
-- **SetEntrySource**(`key: string`, `source: string`, `context: string`, `newSource: string`) -> `null`
-- **SetEntryValue**(`key: string`, `source: string`, `context: string`, `localeId: string`, `text: string`) -> `null`
-- **SetIsExemptFromUGCAnalytics**(`value: bool`) -> `null`
+### `Class.LocalizationTable:GetContents`
+
+``GetContents()`` → `string`
+  [Deprecated]
+
+### `Class.LocalizationTable:GetEntries`
+
+``GetEntries()`` → `Array`
+
+### `Class.LocalizationTable:GetString`
+
+``GetString(targetLocaleId: `string`, key: `string`)`` → `string`
+  [Deprecated]
+
+### `Class.LocalizationTable:GetTranslator`
+
+``GetTranslator(localeId: `string`)`` → `Class.Instance`
+
+### `Class.LocalizationTable:RemoveEntry`
+
+``RemoveEntry(key: `string`, source: `string`, context: `string`)`` → `null`
+
+### `Class.LocalizationTable:RemoveEntryValue`
+
+``RemoveEntryValue(key: `string`, source: `string`, context: `string`, localeId: `string`)`` → `null`
+
+### `Class.LocalizationTable:RemoveKey`
+
+``RemoveKey(key: `string`)`` → `null`
+  [Deprecated]
+
+### `Class.LocalizationTable:RemoveTargetLocale`
+
+``RemoveTargetLocale(localeId: `string`)`` → `null`
+
+### `Class.LocalizationTable:SetContents`
+
+``SetContents(contents: `string`)`` → `null`
+  [Deprecated]
+
+### `Class.LocalizationTable:SetEntries`
+
+``SetEntries(entries: `Variant`)`` → `null`
+
+### `Class.LocalizationTable:SetEntry`
+
+``SetEntry(key: `string`, targetLocaleId: `string`, text: `string`)`` → `null`
+  [Deprecated]
+
+### `Class.LocalizationTable:SetEntryContext`
+
+``SetEntryContext(key: `string`, source: `string`, context: `string`, newContext: `string`)`` → `null`
+
+### `Class.LocalizationTable:SetEntryExample`
+
+``SetEntryExample(key: `string`, source: `string`, context: `string`, example: `string`)`` → `null`
+
+### `Class.LocalizationTable:SetEntryKey`
+
+``SetEntryKey(key: `string`, source: `string`, context: `string`, newKey: `string`)`` → `null`
+
+### `Class.LocalizationTable:SetEntrySource`
+
+``SetEntrySource(key: `string`, source: `string`, context: `string`, newSource: `string`)`` → `null`
+
+### `Class.LocalizationTable:SetEntryValue`
+
+``SetEntryValue(key: `string`, source: `string`, context: `string`, localeId: `string`, text: `string`)`` → `null`
+
+### `Class.LocalizationTable:SetIsExemptFromUGCAnalytics`
+
+``SetIsExemptFromUGCAnalytics(value: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}

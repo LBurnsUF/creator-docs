@@ -3,9 +3,11 @@ title: TonemapperPreset
 type: enum
 ---
 
-# TonemapperPreset (Enum)
+# `Enum.TonemapperPreset`
+
+The `Enum.TonemapperPreset` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Retro | 1 |
+| `Enum.TonemapperPreset.Default` | 0 |
+| `Enum.TonemapperPreset.Retro` | 1 |

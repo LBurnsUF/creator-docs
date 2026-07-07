@@ -6,24 +6,40 @@ superclass: Instance
 
 # AudioEcho
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Bypass**: `bool`
-- **DelayTime**: `float`
-- **DryLevel**: `float`
-- **Feedback**: `float`
-- **RampTime**: `float`
-- **WetLevel**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioEcho.Bypass` | `bool` |  |
+| `Class.AudioEcho.DelayTime` | `float` |  |
+| `Class.AudioEcho.DryLevel` | `float` |  |
+| `Class.AudioEcho.Feedback` | `float` |  |
+| `Class.AudioEcho.RampTime` | `float` |  |
+| `Class.AudioEcho.WetLevel` | `float` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
-- **Reset**() -> `null`
+### `Class.AudioEcho:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioEcho:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioEcho:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
+
+### `Class.AudioEcho:Reset`
+
+``Reset()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioEcho.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

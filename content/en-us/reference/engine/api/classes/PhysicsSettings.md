@@ -7,57 +7,59 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PhysicsSettings
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **AllowSleep**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreAnchorsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreAssembliesShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreAssemblyCentersOfMassShown**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AreAwakePartsHighlighted**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreBodyTypesShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreCollisionCostsShown**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AreConstraintForcesShownForSelectedOrHoveredInstances**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AreConstraintTorquesShownForSelectedOrHoveredInstances**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AreContactForcesShownForSelectedOrHoveredAssemblies**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AreContactIslandsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreContactPointsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreGravityForcesShownForSelectedOrHoveredAssemblies**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AreJointCoordinatesShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreMagnitudesShownForDrawnForcesAndTorques**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AreMechanismsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreModelCoordsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreNonAnchorsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreOwnersShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ArePartCoordsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreRegionsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreSolverIslandsShown**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AreTerrainReplicationRegionsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreTimestepsShown**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AreUnalignedPartsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **AreWorldCoordsShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **DisableCSGv2**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **DisableCSGv3ForPlugins**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **DrawConstraintsNetForce**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **DrawContactsNetForce**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **DrawTotalNetForce**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableForceVisualizationSmoothing**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **FluidForceDrawScale**: `float` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ForceCSGv2**: `bool` [Hidden] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ForceDrawScale**: `float` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ForceVisualizationSmoothingSteps**: `int` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsInterpolationThrottleShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **IsReceiveAgeShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **IsTreeShown**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **PhysicsEnvironmentalThrottle**: `EnviromentalPhysicsThrottle` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ShowDecompositionGeometry**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ShowFluidForcesForSelectedOrHoveredMechanisms**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ShowInstanceNamesForDrawnForcesAndTorques**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SolverConvergenceMetricType**: `SolverConvergenceMetricType` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SolverConvergenceVisualizationMode**: `SolverConvergenceVisualizationMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ThrottleAdjustTime**: `double` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **TorqueDrawScale**: `float` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **UseCSGv2**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PhysicsSettings.AllowSleep` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreAnchorsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreAssembliesShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreAssemblyCentersOfMassShown` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.AreAwakePartsHighlighted` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreBodyTypesShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreCollisionCostsShown` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.AreConstraintForcesShownForSelectedOrHoveredInstances` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.AreConstraintTorquesShownForSelectedOrHoveredInstances` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.AreContactForcesShownForSelectedOrHoveredAssemblies` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.AreContactIslandsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreContactPointsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreGravityForcesShownForSelectedOrHoveredAssemblies` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.AreJointCoordinatesShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreMagnitudesShownForDrawnForcesAndTorques` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.AreMechanismsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreModelCoordsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreNonAnchorsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreOwnersShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.ArePartCoordsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreRegionsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreSolverIslandsShown` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.AreTerrainReplicationRegionsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreTimestepsShown` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.AreUnalignedPartsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.AreWorldCoordsShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.DisableCSGv2` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.DisableCSGv3ForPlugins` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.DrawConstraintsNetForce` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.DrawContactsNetForce` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.DrawTotalNetForce` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.EnableForceVisualizationSmoothing` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.FluidForceDrawScale` | `float` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.ForceCSGv2` | `bool` | [Hidden] [NotReplicated] {security: PluginSecurity} |
+| `Class.PhysicsSettings.ForceDrawScale` | `float` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.ForceVisualizationSmoothingSteps` | `int` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.IsInterpolationThrottleShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.IsReceiveAgeShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.IsTreeShown` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.PhysicsEnvironmentalThrottle` | `Enum.EnviromentalPhysicsThrottle` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.ShowDecompositionGeometry` | `bool` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.ShowFluidForcesForSelectedOrHoveredMechanisms` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.ShowInstanceNamesForDrawnForcesAndTorques` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.SolverConvergenceMetricType` | `Enum.SolverConvergenceMetricType` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.SolverConvergenceVisualizationMode` | `Enum.SolverConvergenceVisualizationMode` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.ThrottleAdjustTime` | `double` |  {security: PluginSecurity} |
+| `Class.PhysicsSettings.TorqueDrawScale` | `float` |  {security: RobloxScriptSecurity} |
+| `Class.PhysicsSettings.UseCSGv2` | `bool` |  {security: PluginSecurity} |

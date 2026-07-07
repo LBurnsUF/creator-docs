@@ -6,15 +6,19 @@ superclass: TriangleMeshPart
 
 # PartOperation
 
-**Inherits**: TriangleMeshPart > BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.TriangleMeshPart` > `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **RenderFidelity**: `RenderFidelity` (Security: Read=None, Write=PluginSecurity)
-- **SmoothingAngle**: `float` (Security: Read=None, Write=PluginSecurity)
-- **TriangleCount**: `int` (Security: Read=None, Write=RobloxSecurity)
-- **UsePartColor**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PartOperation.RenderFidelity` | `Enum.RenderFidelity` |  {write: PluginSecurity} |
+| `Class.PartOperation.SmoothingAngle` | `float` |  {write: PluginSecurity} |
+| `Class.PartOperation.TriangleCount` | `int` |  {write: RobloxSecurity} |
+| `Class.PartOperation.UsePartColor` | `bool` |  |
 
 ## Methods
 
-- **SubstituteGeometry**(`source: Instance`) -> `null`
+### `Class.PartOperation:SubstituteGeometry`
+
+``SubstituteGeometry(source: `Class.Instance`)`` → `null`

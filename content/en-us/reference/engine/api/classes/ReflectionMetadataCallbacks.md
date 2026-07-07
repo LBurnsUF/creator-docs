@@ -6,4 +6,4 @@ superclass: Instance
 
 # ReflectionMetadataCallbacks
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`

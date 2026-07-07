@@ -3,14 +3,16 @@ title: FrameStyle
 type: enum
 ---
 
-# FrameStyle (Enum)
+# `Enum.FrameStyle`
+
+The `Enum.FrameStyle` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| Custom | 0 |
-| ChatBlue | 1 |
-| RobloxSquare | 2 |
-| RobloxRound | 3 |
-| ChatGreen | 4 |
-| ChatRed | 5 |
-| DropShadow | 6 |
+| `Enum.FrameStyle.Custom` | 0 |
+| `Enum.FrameStyle.ChatBlue` | 1 |
+| `Enum.FrameStyle.RobloxSquare` | 2 |
+| `Enum.FrameStyle.RobloxRound` | 3 |
+| `Enum.FrameStyle.ChatGreen` | 4 |
+| `Enum.FrameStyle.ChatRed` | 5 |
+| `Enum.FrameStyle.DropShadow` | 6 |

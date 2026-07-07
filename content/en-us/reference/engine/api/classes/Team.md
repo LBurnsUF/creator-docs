@@ -6,21 +6,30 @@ superclass: Instance
 
 # Team
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AutoAssignable**: `bool`
-- **AutoColorCharacters**: `bool` [NotReplicated] [Deprecated]
-- **ChildOrder**: `int` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Score**: `int` [NotReplicated] [Deprecated]
-- **TeamColor**: `BrickColor`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Team.AutoAssignable` | `bool` |  |
+| `Class.Team.AutoColorCharacters` | `bool` | [NotReplicated] [Deprecated] |
+| `Class.Team.ChildOrder` | `int` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Team.Score` | `int` | [NotReplicated] [Deprecated] |
+| `Class.Team.TeamColor` | `Datatype.BrickColor` |  |
 
 ## Methods
 
-- **GetPlayers**() -> `Instances`
+### `Class.Team:GetPlayers`
+
+``GetPlayers()`` → `Datatype.Instances`
 
 ## Events
 
-- **PlayerAdded**(`player: Player`)
-- **PlayerRemoved**(`player: Player`)
+### `Class.Team.PlayerAdded`
+
+Fires with: (player: `Class.Player`)
+
+### `Class.Team.PlayerRemoved`
+
+Fires with: (player: `Class.Player`)

@@ -3,9 +3,11 @@ title: ChatVersion
 type: enum
 ---
 
-# ChatVersion (Enum)
+# `Enum.ChatVersion`
+
+The `Enum.ChatVersion` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| LegacyChatService | 0 |
-| TextChatService | 1 |
+| `Enum.ChatVersion.LegacyChatService` | 0 |
+| `Enum.ChatVersion.TextChatService` | 1 |

@@ -3,9 +3,11 @@ title: ExperienceStateCaptureSelectionMode
 type: enum
 ---
 
-# ExperienceStateCaptureSelectionMode (Enum)
+# `Enum.ExperienceStateCaptureSelectionMode`
+
+The `Enum.ExperienceStateCaptureSelectionMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| SafetyHighlightMode | 1 |
+| `Enum.ExperienceStateCaptureSelectionMode.Default` | 0 |
+| `Enum.ExperienceStateCaptureSelectionMode.SafetyHighlightMode` | 1 |

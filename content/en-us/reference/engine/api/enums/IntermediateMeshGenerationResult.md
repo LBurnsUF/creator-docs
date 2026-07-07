@@ -3,8 +3,10 @@ title: IntermediateMeshGenerationResult
 type: enum
 ---
 
-# IntermediateMeshGenerationResult (Enum)
+# `Enum.IntermediateMeshGenerationResult`
+
+The `Enum.IntermediateMeshGenerationResult` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| HighQualityMesh | 0 |
+| `Enum.IntermediateMeshGenerationResult.HighQualityMesh` | 0 |

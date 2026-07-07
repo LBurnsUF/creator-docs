@@ -7,75 +7,233 @@ tags: [NotCreatable, NotBrowsable]
 
 # Instance
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Properties
 
-- **Archivable**: `bool`
-- **Capabilities**: `SecurityCapabilities`
-- **DataCost**: `int` [Hidden] [ReadOnly] [NotReplicated] [Deprecated] (Security: Read=LocalUserSecurity, Write=LocalUserSecurity)
-- **IsInSandbox**: `bool` [ReadOnly] [NotReplicated] [NotScriptable]
-- **Name**: `string`
-- **Parent**: `Instance` [NotReplicated]
-- **PredictionMode**: `PredictionMode` [ReadOnly] [NotReplicated] [NotScriptable]
-- **RobloxLocked**: `bool` [Hidden] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **Sandboxed**: `bool` [NotReplicated]
-- **SourceAssetId**: `int64` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **UniqueId**: `UniqueId` [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxSecurity)
-- **archivable**: `bool` [Hidden] [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Instance.Archivable` | `bool` |  |
+| `Class.Instance.Capabilities` | `Datatype.SecurityCapabilities` |  |
+| `Class.Instance.DataCost` | `int` | [Hidden] [ReadOnly] [NotReplicated] [Deprecated] {security: LocalUserSecurity} |
+| `Class.Instance.IsInSandbox` | `bool` | [ReadOnly] [NotReplicated] [NotScriptable] |
+| `Class.Instance.Name` | `string` |  |
+| `Class.Instance.Parent` | `Class.Instance` | [NotReplicated] |
+| `Class.Instance.PredictionMode` | `Enum.PredictionMode` | [ReadOnly] [NotReplicated] [NotScriptable] |
+| `Class.Instance.RobloxLocked` | `bool` | [Hidden] {security: PluginSecurity} |
+| `Class.Instance.Sandboxed` | `bool` | [NotReplicated] |
+| `Class.Instance.SourceAssetId` | `int64` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Instance.UniqueId` | `Datatype.UniqueId` | [NotReplicated] {read: RobloxScriptSecurity, write: RobloxSecurity} |
+| `Class.Instance.archivable` | `bool` | [Hidden] [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **AddTag**(`tag: string`) -> `null`
-- **ClearAllChildren**() -> `null`
-- **Clone**() -> `Instance`
-- **Destroy**() -> `null`
-- **FindFirstAncestor**(`name: string`) -> `Instance`
-- **FindFirstAncestorOfClass**(`className: string`) -> `Instance`
-- **FindFirstAncestorWhichIsA**(`className: string`) -> `Instance`
-- **FindFirstChild**(`name: string`, `recursive: bool = false`) -> `Instance`
-- **FindFirstChildOfClass**(`className: string`) -> `Instance`
-- **FindFirstChildWhichIsA**(`className: string`, `recursive: bool = false`) -> `Instance`
-- **FindFirstDescendant**(`name: string`) -> `Instance`
-- **GetActor**() -> `Actor`
-- **GetAttribute**(`attribute: string`) -> `Variant`
-- **GetAttributeChangedSignal**(`attribute: string`) -> `RBXScriptSignal`
-- **GetAttributes**() -> `Dictionary` [CustomLuaState]
-- **GetChildren**() -> `Instances`
-- **GetDebugId**(`scopeLength: int = 4`) -> `string` [NotBrowsable]
-- **GetDescendants**() -> `Instances` [CustomLuaState]
-- **GetFullName**() -> `string`
-- **GetStyled**(`name: string`, `selector: string?`) -> `Variant`
-- **GetStyledPropertyChangedSignal**(`property: string`) -> `RBXScriptSignal`
-- **GetTags**() -> `Array`
-- **HasTag**(`tag: string`) -> `bool`
-- **IsAncestorOf**(`descendant: Instance`) -> `bool`
-- **IsDescendantOf**(`ancestor: Instance`) -> `bool`
-- **IsPropertyModified**(`property: string`) -> `bool`
-- **QueryDescendants**(`selector: string`) -> `Instances` [CustomLuaState]
-- **Remove**() -> `null` [Deprecated]
-- **RemoveTag**(`tag: string`) -> `null`
-- **ResetPropertyToDefault**(`property: string`) -> `null`
-- **SetAttribute**(`attribute: string`, `value: Variant`) -> `null`
-- **WaitForChild**(`childName: string`, `timeOut: double`) -> `Instance` [CustomLuaState] [CanYield]
-- **children**() -> `Instances` [Deprecated]
-- **clone**() -> `Instance` [Deprecated]
-- **destroy**() -> `null` [Deprecated]
-- **findFirstChild**(`name: string`, `recursive: bool = false`) -> `Instance` [Deprecated]
-- **getChildren**() -> `Instances` [Deprecated]
-- **isDescendantOf**(`ancestor: Instance`) -> `bool` [Deprecated]
-- **remove**() -> `null` [Deprecated]
+### `Class.Instance:AddTag`
+
+``AddTag(tag: `string`)`` → `null`
+
+### `Class.Instance:ClearAllChildren`
+
+``ClearAllChildren()`` → `null`
+
+### `Class.Instance:Clone`
+
+``Clone()`` → `Class.Instance`
+
+### `Class.Instance:Destroy`
+
+``Destroy()`` → `null`
+
+### `Class.Instance:FindFirstAncestor`
+
+``FindFirstAncestor(name: `string`)`` → `Class.Instance`
+
+### `Class.Instance:FindFirstAncestorOfClass`
+
+``FindFirstAncestorOfClass(className: `string`)`` → `Class.Instance`
+
+### `Class.Instance:FindFirstAncestorWhichIsA`
+
+``FindFirstAncestorWhichIsA(className: `string`)`` → `Class.Instance`
+
+### `Class.Instance:FindFirstChild`
+
+``FindFirstChild(name: `string`, recursive: `bool`)`` → `Class.Instance`
+
+### `Class.Instance:FindFirstChildOfClass`
+
+``FindFirstChildOfClass(className: `string`)`` → `Class.Instance`
+
+### `Class.Instance:FindFirstChildWhichIsA`
+
+``FindFirstChildWhichIsA(className: `string`, recursive: `bool`)`` → `Class.Instance`
+
+### `Class.Instance:FindFirstDescendant`
+
+``FindFirstDescendant(name: `string`)`` → `Class.Instance`
+
+### `Class.Instance:GetActor`
+
+``GetActor()`` → `Class.Actor`
+
+### `Class.Instance:GetAttribute`
+
+``GetAttribute(attribute: `string`)`` → `Variant`
+
+### `Class.Instance:GetAttributeChangedSignal`
+
+``GetAttributeChangedSignal(attribute: `string`)`` → `Datatype.RBXScriptSignal`
+
+### `Class.Instance:GetAttributes`
+
+``GetAttributes()`` → `Dictionary`
+  [CustomLuaState]
+
+### `Class.Instance:GetChildren`
+
+``GetChildren()`` → `Datatype.Instances`
+
+### `Class.Instance:GetDebugId`
+
+``GetDebugId(scopeLength: `int`)`` → `string`
+  [NotBrowsable] {security: PluginSecurity}
+
+### `Class.Instance:GetDescendants`
+
+``GetDescendants()`` → `Datatype.Instances`
+  [CustomLuaState]
+
+### `Class.Instance:GetFullName`
+
+``GetFullName()`` → `string`
+
+### `Class.Instance:GetStyled`
+
+``GetStyled(name: `string`, selector: `string?`)`` → `Variant`
+
+### `Class.Instance:GetStyledPropertyChangedSignal`
+
+``GetStyledPropertyChangedSignal(property: `string`)`` → `Datatype.RBXScriptSignal`
+
+### `Class.Instance:GetTags`
+
+``GetTags()`` → `Array`
+
+### `Class.Instance:HasTag`
+
+``HasTag(tag: `string`)`` → `bool`
+
+### `Class.Instance:IsAncestorOf`
+
+``IsAncestorOf(descendant: `Class.Instance`)`` → `bool`
+
+### `Class.Instance:IsDescendantOf`
+
+``IsDescendantOf(ancestor: `Class.Instance`)`` → `bool`
+
+### `Class.Instance:IsPropertyModified`
+
+``IsPropertyModified(property: `string`)`` → `bool`
+
+### `Class.Instance:QueryDescendants`
+
+``QueryDescendants(selector: `string`)`` → `Datatype.Instances`
+  [CustomLuaState]
+
+### `Class.Instance:Remove`
+
+``Remove()`` → `null`
+  [Deprecated]
+
+### `Class.Instance:RemoveTag`
+
+``RemoveTag(tag: `string`)`` → `null`
+
+### `Class.Instance:ResetPropertyToDefault`
+
+``ResetPropertyToDefault(property: `string`)`` → `null`
+
+### `Class.Instance:SetAttribute`
+
+``SetAttribute(attribute: `string`, value: `Variant`)`` → `null`
+
+### `Class.Instance:WaitForChild`
+
+``WaitForChild(childName: `string`, timeOut: `double`)`` → `Class.Instance`
+  [CustomLuaState] [CanYield]
+
+### `Class.Instance:children`
+
+``children()`` → `Datatype.Instances`
+  [Deprecated]
+
+### `Class.Instance:clone`
+
+``clone()`` → `Class.Instance`
+  [Deprecated]
+
+### `Class.Instance:destroy`
+
+``destroy()`` → `null`
+  [Deprecated]
+
+### `Class.Instance:findFirstChild`
+
+``findFirstChild(name: `string`, recursive: `bool`)`` → `Class.Instance`
+  [Deprecated]
+
+### `Class.Instance:getChildren`
+
+``getChildren()`` → `Datatype.Instances`
+  [Deprecated]
+
+### `Class.Instance:isDescendantOf`
+
+``isDescendantOf(ancestor: `Class.Instance`)`` → `bool`
+  [Deprecated]
+
+### `Class.Instance:remove`
+
+``remove()`` → `null`
+  [Deprecated]
 
 ## Events
 
-- **AncestryChanged**(`child: Instance`, `parent: Instance`)
-- **AttributeChanged**(`attribute: string`)
-- **ChildAdded**(`child: Instance`)
-- **ChildRemoved**(`child: Instance`)
-- **DescendantAdded**(`descendant: Instance`)
-- **DescendantRemoving**(`descendant: Instance`)
-- **Destroying**()
-- **StyledPropertiesChanged**()
-- **childAdded**(`child: Instance`) [Deprecated]
+### `Class.Instance.AncestryChanged`
+
+Fires with: (child: `Class.Instance`, parent: `Class.Instance`)
+
+### `Class.Instance.AttributeChanged`
+
+Fires with: (attribute: `string`)
+
+### `Class.Instance.ChildAdded`
+
+Fires with: (child: `Class.Instance`)
+
+### `Class.Instance.ChildRemoved`
+
+Fires with: (child: `Class.Instance`)
+
+### `Class.Instance.DescendantAdded`
+
+Fires with: (descendant: `Class.Instance`)
+
+### `Class.Instance.DescendantRemoving`
+
+Fires with: (descendant: `Class.Instance`)
+
+### `Class.Instance.Destroying`
+
+Fires with: ()
+
+### `Class.Instance.StyledPropertiesChanged`
+
+Fires with: ()
+
+### `Class.Instance.childAdded`
+
+Fires with: (child: `Class.Instance`)
+  [Deprecated]

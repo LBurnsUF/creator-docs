@@ -7,6 +7,6 @@ tags: [Deprecated]
 
 # Hole
 
-**Inherits**: Feature > Instance > Object
+**Inherits from:** `Class.Feature` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]

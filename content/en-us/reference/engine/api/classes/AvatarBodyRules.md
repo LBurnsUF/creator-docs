@@ -6,39 +6,41 @@ superclass: Instance
 
 # AvatarBodyRules
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AppearanceMode**: `AvatarSettingsAppearanceMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **BuildMode**: `AvatarSettingsBuildMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomBodyBundleId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomBodyType**: `AvatarSettingsCustomBodyType` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomBodyTypeScale**: `NumberRange` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomEyebrowEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomEyebrowId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomEyelashEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomEyelashId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomFaceEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomFaceId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomHeadEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomHeadId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomHeadScale**: `NumberRange` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomHeight**: `NumberRange` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomHeightScale**: `NumberRange` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomLeftArmEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomLeftArmId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomLeftLegEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomLeftLegId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomMoodEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomMoodId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomProportionsScale**: `NumberRange` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomRightArmEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomRightArmId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomRightLegEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomRightLegId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomTorsoEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomTorsoId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomWidthScale**: `NumberRange` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **KeepPlayerHead**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ScaleMode**: `AvatarSettingsScaleMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AvatarBodyRules.AppearanceMode` | `Enum.AvatarSettingsAppearanceMode` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.BuildMode` | `Enum.AvatarSettingsBuildMode` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomBodyBundleId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomBodyType` | `Enum.AvatarSettingsCustomBodyType` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomBodyTypeScale` | `Datatype.NumberRange` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomEyebrowEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomEyebrowId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomEyelashEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomEyelashId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomFaceEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomFaceId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomHeadEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomHeadId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomHeadScale` | `Datatype.NumberRange` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomHeight` | `Datatype.NumberRange` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomHeightScale` | `Datatype.NumberRange` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomLeftArmEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomLeftArmId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomLeftLegEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomLeftLegId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomMoodEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomMoodId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomProportionsScale` | `Datatype.NumberRange` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomRightArmEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomRightArmId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomRightLegEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomRightLegId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomTorsoEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomTorsoId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.CustomWidthScale` | `Datatype.NumberRange` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.KeepPlayerHead` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarBodyRules.ScaleMode` | `Enum.AvatarSettingsScaleMode` |  {security: RobloxScriptSecurity} |

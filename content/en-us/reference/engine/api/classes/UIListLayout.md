@@ -6,12 +6,14 @@ superclass: UIGridStyleLayout
 
 # UIListLayout
 
-**Inherits**: UIGridStyleLayout > UILayout > UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIGridStyleLayout` > `Class.UILayout` > `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **HorizontalFlex**: `UIFlexAlignment`
-- **ItemLineAlignment**: `ItemLineAlignment`
-- **Padding**: `UDim`
-- **VerticalFlex**: `UIFlexAlignment`
-- **Wraps**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIListLayout.HorizontalFlex` | `Enum.UIFlexAlignment` |  |
+| `Class.UIListLayout.ItemLineAlignment` | `Enum.ItemLineAlignment` |  |
+| `Class.UIListLayout.Padding` | `Datatype.UDim` |  |
+| `Class.UIListLayout.VerticalFlex` | `Enum.UIFlexAlignment` |  |
+| `Class.UIListLayout.Wraps` | `bool` |  |

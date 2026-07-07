@@ -3,10 +3,12 @@ title: UIDragDetectorDragSpace
 type: enum
 ---
 
-# UIDragDetectorDragSpace (Enum)
+# `Enum.UIDragDetectorDragSpace`
+
+The `Enum.UIDragDetectorDragSpace` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Parent | 0 |
-| LayerCollector | 1 |
-| Reference | 2 |
+| `Enum.UIDragDetectorDragSpace.Parent` | 0 |
+| `Enum.UIDragDetectorDragSpace.LayerCollector` | 1 |
+| `Enum.UIDragDetectorDragSpace.Reference` | 2 |

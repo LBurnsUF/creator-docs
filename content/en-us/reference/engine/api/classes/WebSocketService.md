@@ -7,10 +7,12 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # WebSocketService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CreateClient**(`uri: string`) -> `WebSocketClient`
+### `Class.WebSocketService:CreateClient`
+
+``CreateClient(uri: `string`)`` → `Class.WebSocketClient`

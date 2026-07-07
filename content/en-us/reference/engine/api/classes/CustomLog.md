@@ -7,13 +7,24 @@ tags: [NotReplicated]
 
 # CustomLog
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Methods
 
-- **Close**() -> `null`
-- **GetLogPath**() -> `string`
-- **Open**() -> `null`
-- **WriteAppend**(`append: string`) -> `null`
+### `Class.CustomLog:Close`
+
+``Close()`` → `null`
+
+### `Class.CustomLog:GetLogPath`
+
+``GetLogPath()`` → `string`
+
+### `Class.CustomLog:Open`
+
+``Open()`` → `null`
+
+### `Class.CustomLog:WriteAppend`
+
+``WriteAppend(append: `string`)`` → `null`

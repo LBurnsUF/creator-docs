@@ -7,11 +7,18 @@ tags: [NotCreatable]
 
 # HttpRequest
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Methods
 
-- **Cancel**() -> `null`
-- **Start**(`callback: Function`) -> `null`
+### `Class.HttpRequest:Cancel`
+
+``Cancel()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.HttpRequest:Start`
+
+``Start(callback: `Datatype.Function`)`` → `null`
+   {security: RobloxScriptSecurity}

@@ -6,33 +6,62 @@ superclass: Instance
 
 # AudioTextToSpeech
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **IsLoaded**: `bool` [ReadOnly] [NotReplicated]
-- **IsPlaying**: `bool` (Security: Read=None, Write=RobloxSecurity)
-- **Looping**: `bool`
-- **Pitch**: `float`
-- **PlaybackSpeed**: `float`
-- **Speed**: `float`
-- **Text**: `string`
-- **TimeLength**: `double` [ReadOnly] [NotReplicated]
-- **TimePosition**: `double`
-- **VoiceId**: `string`
-- **Volume**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioTextToSpeech.IsLoaded` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.AudioTextToSpeech.IsPlaying` | `bool` |  {write: RobloxSecurity} |
+| `Class.AudioTextToSpeech.Looping` | `bool` |  |
+| `Class.AudioTextToSpeech.Pitch` | `float` |  |
+| `Class.AudioTextToSpeech.PlaybackSpeed` | `float` |  |
+| `Class.AudioTextToSpeech.Speed` | `float` |  |
+| `Class.AudioTextToSpeech.Text` | `string` |  |
+| `Class.AudioTextToSpeech.TimeLength` | `double` | [ReadOnly] [NotReplicated] |
+| `Class.AudioTextToSpeech.TimePosition` | `double` |  |
+| `Class.AudioTextToSpeech.VoiceId` | `string` |  |
+| `Class.AudioTextToSpeech.Volume` | `float` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetWaveformAsync**(`timeRange: NumberRange`, `samples: int`) -> `Array` [Yields]
-- **LoadAsync**() -> `AssetFetchStatus` [Yields]
-- **Pause**() -> `null`
-- **Play**() -> `null`
-- **Unload**() -> `null`
+### `Class.AudioTextToSpeech:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioTextToSpeech:GetWaveformAsync`
+
+``GetWaveformAsync(timeRange: `Datatype.NumberRange`, samples: `int`)`` → `Array`
+  [Yields]
+
+### `Class.AudioTextToSpeech:LoadAsync`
+
+``LoadAsync()`` → `Enum.AssetFetchStatus`
+  [Yields]
+
+### `Class.AudioTextToSpeech:Pause`
+
+``Pause()`` → `null`
+
+### `Class.AudioTextToSpeech:Play`
+
+``Play()`` → `null`
+
+### `Class.AudioTextToSpeech:Unload`
+
+``Unload()`` → `null`
 
 ## Events
 
-- **Ended**()
-- **Looped**()
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioTextToSpeech.Ended`
+
+Fires with: ()
+
+### `Class.AudioTextToSpeech.Looped`
+
+Fires with: ()
+
+### `Class.AudioTextToSpeech.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

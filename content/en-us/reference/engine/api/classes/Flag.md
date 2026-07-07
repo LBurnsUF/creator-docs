@@ -7,10 +7,12 @@ tags: [Deprecated]
 
 # Flag
 
-**Inherits**: Tool > BackpackItem > Model > PVInstance > Instance > Object
+**Inherits from:** `Class.Tool` > `Class.BackpackItem` > `Class.Model` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **TeamColor**: `BrickColor`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Flag.TeamColor` | `Datatype.BrickColor` |  |

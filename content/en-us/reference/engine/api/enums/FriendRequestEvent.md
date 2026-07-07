@@ -3,11 +3,13 @@ title: FriendRequestEvent
 type: enum
 ---
 
-# FriendRequestEvent (Enum)
+# `Enum.FriendRequestEvent`
+
+The `Enum.FriendRequestEvent` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Issue | 0 |
-| Revoke | 1 |
-| Accept | 2 |
-| Deny | 3 |
+| `Enum.FriendRequestEvent.Issue` | 0 |
+| `Enum.FriendRequestEvent.Revoke` | 1 |
+| `Enum.FriendRequestEvent.Accept` | 2 |
+| `Enum.FriendRequestEvent.Deny` | 3 |

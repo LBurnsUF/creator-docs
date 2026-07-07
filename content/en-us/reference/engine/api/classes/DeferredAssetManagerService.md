@@ -7,14 +7,19 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # DeferredAssetManagerService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetPrefetchDownloadStatus**() -> `PrefetchDownloadStatus`
+### `Class.DeferredAssetManagerService:GetPrefetchDownloadStatus`
+
+``GetPrefetchDownloadStatus()`` → `Enum.PrefetchDownloadStatus`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **PrefetchDownloadStatusChanged**(`status: PrefetchDownloadStatus`)
+### `Class.DeferredAssetManagerService.PrefetchDownloadStatusChanged`
+
+Fires with: (status: `Enum.PrefetchDownloadStatus`)

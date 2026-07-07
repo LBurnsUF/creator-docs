@@ -7,20 +7,48 @@ tags: [Service, NotReplicated]
 
 # HeightmapImporterService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: Service, NotReplicated
+**Tags:** [Service] [NotReplicated]
 
 ## Methods
 
-- **CancelImportHeightmap**() -> `null`
-- **GetHeightmapPreviewAsync**(`heightmapAssetId: ContentId`) -> `Tuple` [Yields]
-- **ImportHeightmap**(`region: Region3`, `heightmapAssetId: ContentId`, `colormapAssetId: ContentId`, `defaultMaterial: Material`) -> `null` [Yields]
-- **IsValidColormap**(`colormapAssetId: ContentId`) -> `Tuple`
-- **IsValidHeightmap**(`heightmapAssetId: ContentId`) -> `Tuple`
-- **SetImportHeightmapPaused**(`paused: bool`) -> `null`
+### `Class.HeightmapImporterService:CancelImportHeightmap`
+
+``CancelImportHeightmap()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.HeightmapImporterService:GetHeightmapPreviewAsync`
+
+``GetHeightmapPreviewAsync(heightmapAssetId: `Datatype.ContentId`)`` → `Tuple`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.HeightmapImporterService:ImportHeightmap`
+
+``ImportHeightmap(region: `Datatype.Region3`, heightmapAssetId: `Datatype.ContentId`, colormapAssetId: `Datatype.ContentId`, defaultMaterial: `Enum.Material`)`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.HeightmapImporterService:IsValidColormap`
+
+``IsValidColormap(colormapAssetId: `Datatype.ContentId`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.HeightmapImporterService:IsValidHeightmap`
+
+``IsValidHeightmap(heightmapAssetId: `Datatype.ContentId`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.HeightmapImporterService:SetImportHeightmapPaused`
+
+``SetImportHeightmapPaused(paused: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **ColormapHasUnknownPixels**()
-- **ProgressUpdate**(`progressRatio: float`, `operation: string`)
+### `Class.HeightmapImporterService.ColormapHasUnknownPixels`
+
+Fires with: ()
+
+### `Class.HeightmapImporterService.ProgressUpdate`
+
+Fires with: (progressRatio: `float`, operation: `string`)

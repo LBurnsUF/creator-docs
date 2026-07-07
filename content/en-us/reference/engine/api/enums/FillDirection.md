@@ -3,9 +3,11 @@ title: FillDirection
 type: enum
 ---
 
-# FillDirection (Enum)
+# `Enum.FillDirection`
+
+The `Enum.FillDirection` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Horizontal | 0 |
-| Vertical | 1 |
+| `Enum.FillDirection.Horizontal` | 0 |
+| `Enum.FillDirection.Vertical` | 1 |

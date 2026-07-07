@@ -3,11 +3,13 @@ title: WebSocketState
 type: enum
 ---
 
-# WebSocketState (Enum)
+# `Enum.WebSocketState`
+
+The `Enum.WebSocketState` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Connecting | 0 |
-| Open | 1 |
-| Closing | 2 |
-| Closed | 3 |
+| `Enum.WebSocketState.Connecting` | 0 |
+| `Enum.WebSocketState.Open` | 1 |
+| `Enum.WebSocketState.Closing` | 2 |
+| `Enum.WebSocketState.Closed` | 3 |

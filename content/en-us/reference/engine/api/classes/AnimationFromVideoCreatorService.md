@@ -7,13 +7,28 @@ tags: [NotCreatable, Service]
 
 # AnimationFromVideoCreatorService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **CreateJob**(`filePath: string`) -> `string` [Yields]
-- **DownloadJobResult**(`jobId: string`, `outputFilePath: string`) -> `string` [Yields]
-- **FullProcess**(`videoFilePath: string`, `progressCallback: Function`) -> `string` [Yields]
-- **GetJobStatus**(`jobId: string`) -> `string` [Yields]
+### `Class.AnimationFromVideoCreatorService:CreateJob`
+
+``CreateJob(filePath: `string`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AnimationFromVideoCreatorService:DownloadJobResult`
+
+``DownloadJobResult(jobId: `string`, outputFilePath: `string`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AnimationFromVideoCreatorService:FullProcess`
+
+``FullProcess(videoFilePath: `string`, progressCallback: `Datatype.Function`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AnimationFromVideoCreatorService:GetJobStatus`
+
+``GetJobStatus(jobId: `string`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}

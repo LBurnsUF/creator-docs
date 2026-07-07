@@ -3,10 +3,12 @@ title: RunState
 type: enum
 ---
 
-# RunState (Enum)
+# `Enum.RunState`
+
+The `Enum.RunState` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Stopped | 0 |
-| Running | 1 |
-| Paused | 2 |
+| `Enum.RunState.Stopped` | 0 |
+| `Enum.RunState.Running` | 1 |
+| `Enum.RunState.Paused` | 2 |

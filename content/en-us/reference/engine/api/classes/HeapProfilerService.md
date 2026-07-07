@@ -7,15 +7,24 @@ tags: [NotCreatable, Service]
 
 # HeapProfilerService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **ClientRequestDataAsync**(`player: Player`) -> `string` [Yields]
-- **ServerRequestDataAsync**() -> `string` [Yields]
+### `Class.HeapProfilerService:ClientRequestDataAsync`
+
+``ClientRequestDataAsync(player: `Class.Player`)`` → `string`
+  [Yields] {security: PluginSecurity}
+
+### `Class.HeapProfilerService:ServerRequestDataAsync`
+
+``ServerRequestDataAsync()`` → `string`
+  [Yields] {security: PluginSecurity}
 
 ## Events
 
-- **OnNewData**(`player: Player`, `jsonString: buffer`, `id: int`, `compressedLength: int`, `uncompressedLength: int`)
+### `Class.HeapProfilerService.OnNewData`
+
+Fires with: (player: `Class.Player`, jsonString: `Datatype.buffer`, id: `int`, compressedLength: `int`, uncompressedLength: `int`)

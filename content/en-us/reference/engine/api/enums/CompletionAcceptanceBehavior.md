@@ -3,11 +3,13 @@ title: CompletionAcceptanceBehavior
 type: enum
 ---
 
-# CompletionAcceptanceBehavior (Enum)
+# `Enum.CompletionAcceptanceBehavior`
+
+The `Enum.CompletionAcceptanceBehavior` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Insert | 0 |
-| Replace | 1 |
-| ReplaceOnEnterInsertOnTab | 2 |
-| InsertOnEnterReplaceOnTab | 3 |
+| `Enum.CompletionAcceptanceBehavior.Insert` | 0 |
+| `Enum.CompletionAcceptanceBehavior.Replace` | 1 |
+| `Enum.CompletionAcceptanceBehavior.ReplaceOnEnterInsertOnTab` | 2 |
+| `Enum.CompletionAcceptanceBehavior.InsertOnEnterReplaceOnTab` | 3 |

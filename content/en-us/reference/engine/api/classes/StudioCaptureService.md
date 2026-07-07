@@ -7,12 +7,23 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StudioCaptureService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CanCaptureScreenshot**() -> `bool`
-- **CaptureScreenshot**(`screenshotOptions: Dictionary`) -> `StudioScreenshotCapture`
-- **RequestScreenshotPermissionAsync**() -> `bool` [Yields]
+### `Class.StudioCaptureService:CanCaptureScreenshot`
+
+``CanCaptureScreenshot()`` → `bool`
+   {security: PluginSecurity}
+
+### `Class.StudioCaptureService:CaptureScreenshot`
+
+``CaptureScreenshot(screenshotOptions: `Dictionary`)`` → `Class.StudioScreenshotCapture`
+   {security: PluginSecurity}
+
+### `Class.StudioCaptureService:RequestScreenshotPermissionAsync`
+
+``RequestScreenshotPermissionAsync()`` → `bool`
+  [Yields] {security: PluginSecurity}

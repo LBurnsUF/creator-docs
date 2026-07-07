@@ -3,12 +3,14 @@ title: AssetFetchStatus
 type: enum
 ---
 
-# AssetFetchStatus (Enum)
+# `Enum.AssetFetchStatus`
+
+The `Enum.AssetFetchStatus` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 0 |
-| Failure | 1 |
-| None | 2 |
-| Loading | 3 |
-| TimedOut | 4 |
+| `Enum.AssetFetchStatus.Success` | 0 |
+| `Enum.AssetFetchStatus.Failure` | 1 |
+| `Enum.AssetFetchStatus.None` | 2 |
+| `Enum.AssetFetchStatus.Loading` | 3 |
+| `Enum.AssetFetchStatus.TimedOut` | 4 |

@@ -3,9 +3,11 @@ title: AvatarSettingsAnimationClipsMode
 type: enum
 ---
 
-# AvatarSettingsAnimationClipsMode (Enum)
+# `Enum.AvatarSettingsAnimationClipsMode`
+
+The `Enum.AvatarSettingsAnimationClipsMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| PlayerChoice | 0 |
-| CustomClips | 1 |
+| `Enum.AvatarSettingsAnimationClipsMode.PlayerChoice` | 0 |
+| `Enum.AvatarSettingsAnimationClipsMode.CustomClips` | 1 |

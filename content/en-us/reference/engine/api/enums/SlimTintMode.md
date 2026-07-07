@@ -3,13 +3,15 @@ title: SlimTintMode
 type: enum
 ---
 
-# SlimTintMode (Enum)
+# `Enum.SlimTintMode`
+
+The `Enum.SlimTintMode` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| LOD | 1 |
-| Meshes | 2 |
-| MeshResourcePtr | 3 |
-| ContentId | 4 |
-| Zone | 5 |
+| `Enum.SlimTintMode.None` | 0 |
+| `Enum.SlimTintMode.LOD` | 1 |
+| `Enum.SlimTintMode.Meshes` | 2 |
+| `Enum.SlimTintMode.MeshResourcePtr` | 3 |
+| `Enum.SlimTintMode.ContentId` | 4 |
+| `Enum.SlimTintMode.Zone` | 5 |

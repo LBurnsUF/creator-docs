@@ -3,9 +3,11 @@ title: CameraMode
 type: enum
 ---
 
-# CameraMode (Enum)
+# `Enum.CameraMode`
+
+The `Enum.CameraMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Classic | 0 |
-| LockFirstPerson | 1 |
+| `Enum.CameraMode.Classic` | 0 |
+| `Enum.CameraMode.LockFirstPerson` | 1 |

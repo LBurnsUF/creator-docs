@@ -3,10 +3,12 @@ title: EasingDirection
 type: enum
 ---
 
-# EasingDirection (Enum)
+# `Enum.EasingDirection`
+
+The `Enum.EasingDirection` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| In | 0 |
-| Out | 1 |
-| InOut | 2 |
+| `Enum.EasingDirection.In` | 0 |
+| `Enum.EasingDirection.Out` | 1 |
+| `Enum.EasingDirection.InOut` | 2 |

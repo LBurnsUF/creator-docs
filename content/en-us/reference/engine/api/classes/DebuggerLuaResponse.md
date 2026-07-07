@@ -7,18 +7,23 @@ tags: [NotCreatable, NotReplicated]
 
 # DebuggerLuaResponse
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **IsError**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsSuccess**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Message**: `string` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RequestId**: `int` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Status**: `DebuggerStatus` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DebuggerLuaResponse.IsError` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.DebuggerLuaResponse.IsSuccess` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.DebuggerLuaResponse.Message` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.DebuggerLuaResponse.RequestId` | `int` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.DebuggerLuaResponse.Status` | `Enum.DebuggerStatus` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetArg**() -> `Variant`
+### `Class.DebuggerLuaResponse:GetArg`
+
+``GetArg()`` → `Variant`
+   {security: RobloxScriptSecurity}

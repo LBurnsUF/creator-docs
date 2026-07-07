@@ -3,12 +3,14 @@ title: HttpCachePolicy
 type: enum
 ---
 
-# HttpCachePolicy (Enum)
+# `Enum.HttpCachePolicy`
+
+The `Enum.HttpCachePolicy` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Full | 1 |
-| DataOnly | 2 |
-| Default | 3 |
-| InternalRedirectRefresh | 4 |
+| `Enum.HttpCachePolicy.None` | 0 |
+| `Enum.HttpCachePolicy.Full` | 1 |
+| `Enum.HttpCachePolicy.DataOnly` | 2 |
+| `Enum.HttpCachePolicy.Default` | 3 |
+| `Enum.HttpCachePolicy.InternalRedirectRefresh` | 4 |

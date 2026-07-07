@@ -3,10 +3,12 @@ title: DragDetectorResponseStyle
 type: enum
 ---
 
-# DragDetectorResponseStyle (Enum)
+# `Enum.DragDetectorResponseStyle`
+
+The `Enum.DragDetectorResponseStyle` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Geometric | 0 |
-| Physical | 1 |
-| Custom | 2 |
+| `Enum.DragDetectorResponseStyle.Geometric` | 0 |
+| `Enum.DragDetectorResponseStyle.Physical` | 1 |
+| `Enum.DragDetectorResponseStyle.Custom` | 2 |

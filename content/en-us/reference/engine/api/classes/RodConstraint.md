@@ -6,13 +6,15 @@ superclass: Constraint
 
 # RodConstraint
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CurrentDistance**: `float` [ReadOnly] [NotReplicated]
-- **Length**: `float`
-- **LimitAngle0**: `float`
-- **LimitAngle1**: `float`
-- **LimitsEnabled**: `bool`
-- **Thickness**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RodConstraint.CurrentDistance` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.RodConstraint.Length` | `float` |  |
+| `Class.RodConstraint.LimitAngle0` | `float` |  |
+| `Class.RodConstraint.LimitAngle1` | `float` |  |
+| `Class.RodConstraint.LimitsEnabled` | `bool` |  |
+| `Class.RodConstraint.Thickness` | `float` |  |

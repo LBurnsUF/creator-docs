@@ -3,10 +3,12 @@ title: RecommendationDepartureIntent
 type: enum
 ---
 
-# RecommendationDepartureIntent (Enum)
+# `Enum.RecommendationDepartureIntent`
+
+The `Enum.RecommendationDepartureIntent` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Neutral | 0 |
-| Positive | 1 |
-| Negative | 2 |
+| `Enum.RecommendationDepartureIntent.Neutral` | 0 |
+| `Enum.RecommendationDepartureIntent.Positive` | 1 |
+| `Enum.RecommendationDepartureIntent.Negative` | 2 |

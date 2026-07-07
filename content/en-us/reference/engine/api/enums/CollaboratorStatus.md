@@ -3,11 +3,13 @@ title: CollaboratorStatus
 type: enum
 ---
 
-# CollaboratorStatus (Enum)
+# `Enum.CollaboratorStatus`
+
+The `Enum.CollaboratorStatus` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Editing3D | 1 |
-| Scripting | 2 |
-| PrivateScripting | 3 |
+| `Enum.CollaboratorStatus.None` | 0 |
+| `Enum.CollaboratorStatus.Editing3D` | 1 |
+| `Enum.CollaboratorStatus.Scripting` | 2 |
+| `Enum.CollaboratorStatus.PrivateScripting` | 3 |

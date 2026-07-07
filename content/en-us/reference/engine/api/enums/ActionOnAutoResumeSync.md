@@ -3,10 +3,12 @@ title: ActionOnAutoResumeSync
 type: enum
 ---
 
-# ActionOnAutoResumeSync (Enum)
+# `Enum.ActionOnAutoResumeSync`
+
+The `Enum.ActionOnAutoResumeSync` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| DontResume | 0 |
-| KeepStudio | 1 |
-| KeepLocal | 2 |
+| `Enum.ActionOnAutoResumeSync.DontResume` | 0 |
+| `Enum.ActionOnAutoResumeSync.KeepStudio` | 1 |
+| `Enum.ActionOnAutoResumeSync.KeepLocal` | 2 |

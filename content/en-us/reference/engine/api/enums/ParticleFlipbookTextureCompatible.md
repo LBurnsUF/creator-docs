@@ -3,10 +3,12 @@ title: ParticleFlipbookTextureCompatible
 type: enum
 ---
 
-# ParticleFlipbookTextureCompatible (Enum)
+# `Enum.ParticleFlipbookTextureCompatible`
+
+The `Enum.ParticleFlipbookTextureCompatible` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| NotCompatible | 0 |
-| Compatible | 1 |
-| Unknown | 2 |
+| `Enum.ParticleFlipbookTextureCompatible.NotCompatible` | 0 |
+| `Enum.ParticleFlipbookTextureCompatible.Compatible` | 1 |
+| `Enum.ParticleFlipbookTextureCompatible.Unknown` | 2 |

@@ -3,11 +3,13 @@ title: ParticleEmitterShape
 type: enum
 ---
 
-# ParticleEmitterShape (Enum)
+# `Enum.ParticleEmitterShape`
+
+The `Enum.ParticleEmitterShape` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Box | 0 |
-| Sphere | 1 |
-| Cylinder | 2 |
-| Disc | 3 |
+| `Enum.ParticleEmitterShape.Box` | 0 |
+| `Enum.ParticleEmitterShape.Sphere` | 1 |
+| `Enum.ParticleEmitterShape.Cylinder` | 2 |
+| `Enum.ParticleEmitterShape.Disc` | 3 |

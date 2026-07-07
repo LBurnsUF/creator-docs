@@ -6,12 +6,17 @@ superclass: Instance
 
 # BindableFunction
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Methods
 
-- **Invoke**(`arguments: Tuple`) -> `Tuple` [Yields]
+### `Class.BindableFunction:Invoke`
+
+``Invoke(arguments: `Tuple`)`` → `Tuple`
+  [Yields]
 
 ## Callbacks
 
-- **OnInvoke**(`arguments: Tuple`) -> `Tuple`
+### `Class.BindableFunction.OnInvoke`
+
+``OnInvoke(arguments: `Tuple`)`` → `Tuple`

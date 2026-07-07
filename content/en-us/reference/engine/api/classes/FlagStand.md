@@ -7,14 +7,18 @@ tags: [Deprecated]
 
 # FlagStand
 
-**Inherits**: Part > FormFactorPart > BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.Part` > `Class.FormFactorPart` > `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **TeamColor**: `BrickColor`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FlagStand.TeamColor` | `Datatype.BrickColor` |  |
 
 ## Events
 
-- **FlagCaptured**(`player: Instance`)
+### `Class.FlagStand.FlagCaptured`
+
+Fires with: (player: `Class.Instance`)

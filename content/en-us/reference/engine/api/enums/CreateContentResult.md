@@ -3,12 +3,14 @@ title: CreateContentResult
 type: enum
 ---
 
-# CreateContentResult (Enum)
+# `Enum.CreateContentResult`
+
+The `Enum.CreateContentResult` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 1 |
-| PermissionDenied | 2 |
-| UploadFailed | 3 |
-| StorageLimitExceeded | 4 |
-| Unknown | 5 |
+| `Enum.CreateContentResult.Success` | 1 |
+| `Enum.CreateContentResult.PermissionDenied` | 2 |
+| `Enum.CreateContentResult.UploadFailed` | 3 |
+| `Enum.CreateContentResult.StorageLimitExceeded` | 4 |
+| `Enum.CreateContentResult.Unknown` | 5 |

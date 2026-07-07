@@ -6,28 +6,46 @@ superclass: Instance
 
 # Annotation
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AuthorColor3**: `Color3` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AuthorId**: `int64` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ChannelId**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Contents**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CreationTimeUnix**: `int64` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LastModifiedTimeUnix**: `int64` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LoadingReplies**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ReplyCount**: `int64` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Resolved**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **TaggedUsers**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Annotation.AuthorColor3` | `Datatype.Color3` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Annotation.AuthorId` | `int64` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Annotation.ChannelId` | `string` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Annotation.Contents` | `string` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Annotation.CreationTimeUnix` | `int64` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Annotation.LastModifiedTimeUnix` | `int64` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Annotation.LoadingReplies` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Annotation.ReplyCount` | `int64` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Annotation.Resolved` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Annotation.TaggedUsers` | `string` | [Hidden] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetRequests**() -> `Dictionary`
-- **GetStringUniqueId**() -> `string`
-- **IsThreadParent**() -> `bool`
+### `Class.Annotation:GetRequests`
+
+``GetRequests()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.Annotation:GetStringUniqueId`
+
+``GetStringUniqueId()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.Annotation:IsThreadParent`
+
+``IsThreadParent()`` → `bool`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **RequestCompleted**(`requestId: string`, `requestType: AnnotationRequestType`, `result: AnnotationRequestStatus`)
-- **RequestInitiated**(`requestId: string`, `requestType: AnnotationRequestType`)
+### `Class.Annotation.RequestCompleted`
+
+Fires with: (requestId: `string`, requestType: `Enum.AnnotationRequestType`, result: `Enum.AnnotationRequestStatus`)
+
+### `Class.Annotation.RequestInitiated`
+
+Fires with: (requestId: `string`, requestType: `Enum.AnnotationRequestType`)

@@ -3,10 +3,12 @@ title: ReceiptType
 type: enum
 ---
 
-# ReceiptType (Enum)
+# `Enum.ReceiptType`
+
+The `Enum.ReceiptType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| DeveloperProduct | 0 |
-| RobuxTransferSender | 1 |
-| RobuxTransferReceiver | 2 |
+| `Enum.ReceiptType.DeveloperProduct` | 0 |
+| `Enum.ReceiptType.RobuxTransferSender` | 1 |
+| `Enum.ReceiptType.RobuxTransferReceiver` | 2 |

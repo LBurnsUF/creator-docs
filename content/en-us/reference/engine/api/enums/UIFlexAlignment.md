@@ -3,12 +3,14 @@ title: UIFlexAlignment
 type: enum
 ---
 
-# UIFlexAlignment (Enum)
+# `Enum.UIFlexAlignment`
+
+The `Enum.UIFlexAlignment` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Fill | 1 |
-| SpaceAround | 2 |
-| SpaceBetween | 3 |
-| SpaceEvenly | 4 |
+| `Enum.UIFlexAlignment.None` | 0 |
+| `Enum.UIFlexAlignment.Fill` | 1 |
+| `Enum.UIFlexAlignment.SpaceAround` | 2 |
+| `Enum.UIFlexAlignment.SpaceBetween` | 3 |
+| `Enum.UIFlexAlignment.SpaceEvenly` | 4 |

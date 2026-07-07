@@ -3,10 +3,12 @@ title: CustomCameraMode
 type: enum
 ---
 
-# CustomCameraMode (Enum)
+# `Enum.CustomCameraMode`
+
+The `Enum.CustomCameraMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Classic | 1 |
-| Follow | 2 |
+| `Enum.CustomCameraMode.Default` | 0 |
+| `Enum.CustomCameraMode.Classic` | 1 |
+| `Enum.CustomCameraMode.Follow` | 2 |

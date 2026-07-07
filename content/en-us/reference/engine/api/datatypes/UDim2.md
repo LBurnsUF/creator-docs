@@ -3,49 +3,49 @@ title: UDim2
 type: datatype
 ---
 
-# UDim2 (DataType)
+# `Datatype.UDim2`
 
-Used in 34 locations across the API.
+Used in 34 locations across the Roblox API.
 
 ## Used as Property Type
 
-- BillboardGui.Size
-- GuiObject.Position
-- GuiObject.Size
-- ImageButton.TileSize
-- ImageLabel.TileSize
-- ScreenshotHud.CameraButtonPosition
-- ScreenshotHud.CloseButtonPosition
-- ScrollingFrame.CanvasSize
-- UIDragDetector.DragUDim2
-- UIDragDetector.MaxDragTranslation
-- UIDragDetector.MinDragTranslation
-- UIDragDetector.SelectionModeDragSpeed
-- UIGridLayout.CellPadding
-- UIGridLayout.CellSize
-- UIShadow.Offset
-- UIShadow.Spread
-- UITableLayout.Padding
-- VideoDisplay.TileSize
+- `Class.BillboardGui.Size`
+- `Class.GuiObject.Position`
+- `Class.GuiObject.Size`
+- `Class.ImageButton.TileSize`
+- `Class.ImageLabel.TileSize`
+- `Class.ScreenshotHud.CameraButtonPosition`
+- `Class.ScreenshotHud.CloseButtonPosition`
+- `Class.ScrollingFrame.CanvasSize`
+- `Class.UIDragDetector.DragUDim2`
+- `Class.UIDragDetector.MaxDragTranslation`
+- `Class.UIDragDetector.MinDragTranslation`
+- `Class.UIDragDetector.SelectionModeDragSpeed`
+- `Class.UIGridLayout.CellPadding`
+- `Class.UIGridLayout.CellSize`
+- `Class.UIShadow.Offset`
+- `Class.UIShadow.Spread`
+- `Class.UITableLayout.Padding`
+- `Class.VideoDisplay.TileSize`
 
 ## Used as Parameter Type
 
-- ContextActionService.SetPosition(position)
-- GuiObject.DragBegin(initialPosition)
-- GuiObject.TweenPosition(endPosition)
-- GuiObject.TweenPositionInternal(endPosition)
-- GuiObject.TweenSize(endSize)
-- GuiObject.TweenSizeAndPosition(endPosition)
-- GuiObject.TweenSizeAndPosition(endSize)
-- GuiObject.TweenSizeAndPositionInternal(endPosition)
-- GuiObject.TweenSizeAndPositionInternal(endSize)
-- GuiObject.TweenSizeInternal(endSize)
-- GuiService.SendUIOcclusionMetricsForQueryRegion(position)
-- GuiService.SendUIOcclusionMetricsForQueryRegion(size)
-- Plugin.SelectRibbonTool(position)
+- `Class.ContextActionService:SetPosition` (parameter `position`)
+- `Class.GuiObject:DragBegin` (parameter `initialPosition`)
+- `Class.GuiObject:TweenPosition` (parameter `endPosition`)
+- `Class.GuiObject:TweenPositionInternal` (parameter `endPosition`)
+- `Class.GuiObject:TweenSize` (parameter `endSize`)
+- `Class.GuiObject:TweenSizeAndPosition` (parameter `endPosition`)
+- `Class.GuiObject:TweenSizeAndPosition` (parameter `endSize`)
+- `Class.GuiObject:TweenSizeAndPositionInternal` (parameter `endPosition`)
+- `Class.GuiObject:TweenSizeAndPositionInternal` (parameter `endSize`)
+- `Class.GuiObject:TweenSizeInternal` (parameter `endSize`)
+- `Class.GuiService:SendUIOcclusionMetricsForQueryRegion` (parameter `position`)
+- `Class.GuiService:SendUIOcclusionMetricsForQueryRegion` (parameter `size`)
+- `Class.Plugin:SelectRibbonTool` (parameter `position`)
 
 ## Used as Return Type
 
-- Path2D.GetPositionOnCurve
-- Path2D.GetPositionOnCurveArcLength
-- UIDragDetector.GetReferencePosition
+- `Class.Path2D:GetPositionOnCurve`
+- `Class.Path2D:GetPositionOnCurveArcLength`
+- `Class.UIDragDetector:GetReferencePosition`

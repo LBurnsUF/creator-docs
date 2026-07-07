@@ -7,37 +7,100 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # Chat
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **BubbleChatEnabled**: `bool`
-- **IsAutoMigrated**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LoadDefaultChat**: `bool` (Security: Read=None, Write=NotAccessibleSecurity)
-- **ModerationMode**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Chat.BubbleChatEnabled` | `bool` |  |
+| `Class.Chat.IsAutoMigrated` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Chat.LoadDefaultChat` | `bool` |  {write: NotAccessibleSecurity} |
+| `Class.Chat.ModerationMode` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **CanUserChatAsync**(`userId: int64`) -> `bool` [Yields]
-- **CanUsersChatAsync**(`userIdFrom: int64`, `userIdTo: int64`) -> `bool` [Yields]
-- **Chat**(`partOrCharacter: Instance`, `message: string`, `color: ChatColor = Blue`) -> `null`
-- **ChatLocal**(`partOrCharacter: Instance`, `message: string`, `color: ChatColor = Blue`) -> `null`
-- **FilterStringAsync**(`stringToFilter: string`, `playerFrom: Player`, `playerTo: Player`) -> `string` [Yields]
-- **FilterStringForBroadcast**(`stringToFilter: string`, `playerFrom: Player`) -> `string` [Yields]
-- **FilterStringForPlayerAsync**(`stringToFilter: string`, `playerToFilterFor: Player`) -> `string` [Yields] [Deprecated]
-- **GetShouldUseLuaChat**() -> `bool`
-- **InvokeChatCallback**(`callbackType: ChatCallbackType`, `callbackArguments: Tuple`) -> `Tuple`
-- **ReconcileCommunicationAccess**() -> `null`
-- **RegisterChatCallback**(`callbackType: ChatCallbackType`, `callbackFunction: Function`) -> `null`
-- **RequestModerationModeEnabled**(`enabled: bool`) -> `null`
-- **SetBubbleChatSettings**(`settings: Variant`) -> `null`
+### `Class.Chat:CanUserChatAsync`
+
+``CanUserChatAsync(userId: `int64`)`` → `bool`
+  [Yields]
+
+### `Class.Chat:CanUsersChatAsync`
+
+``CanUsersChatAsync(userIdFrom: `int64`, userIdTo: `int64`)`` → `bool`
+  [Yields]
+
+### `Class.Chat:Chat`
+
+``Chat(partOrCharacter: `Class.Instance`, message: `string`, color: `Enum.ChatColor`)`` → `null`
+
+### `Class.Chat:ChatLocal`
+
+``ChatLocal(partOrCharacter: `Class.Instance`, message: `string`, color: `Enum.ChatColor`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Chat:FilterStringAsync`
+
+``FilterStringAsync(stringToFilter: `string`, playerFrom: `Class.Player`, playerTo: `Class.Player`)`` → `string`
+  [Yields]
+
+### `Class.Chat:FilterStringForBroadcast`
+
+``FilterStringForBroadcast(stringToFilter: `string`, playerFrom: `Class.Player`)`` → `string`
+  [Yields]
+
+### `Class.Chat:FilterStringForPlayerAsync`
+
+``FilterStringForPlayerAsync(stringToFilter: `string`, playerToFilterFor: `Class.Player`)`` → `string`
+  [Yields] [Deprecated]
+
+### `Class.Chat:GetShouldUseLuaChat`
+
+``GetShouldUseLuaChat()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.Chat:InvokeChatCallback`
+
+``InvokeChatCallback(callbackType: `Enum.ChatCallbackType`, callbackArguments: `Tuple`)`` → `Tuple`
+
+### `Class.Chat:ReconcileCommunicationAccess`
+
+``ReconcileCommunicationAccess()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Chat:RegisterChatCallback`
+
+``RegisterChatCallback(callbackType: `Enum.ChatCallbackType`, callbackFunction: `Datatype.Function`)`` → `null`
+
+### `Class.Chat:RequestModerationModeEnabled`
+
+``RequestModerationModeEnabled(enabled: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Chat:SetBubbleChatSettings`
+
+``SetBubbleChatSettings(settings: `Variant`)`` → `null`
 
 ## Events
 
-- **BubbleChatSettingsChanged**(`settings: Variant`)
-- **Chatted**(`part: Instance`, `message: string`, `color: ChatColor`)
-- **PlayerChatAvailabilityStatusChanged**(`player: Player`)
-- **ReconcileCommunicationAccessCompleted**(`chatAvailabilityStatus: string`)
-- **TimeoutChatAttempt**(`isPermanentTimeout: bool`, `endTime: int64`)
+### `Class.Chat.BubbleChatSettingsChanged`
+
+Fires with: (settings: `Variant`)
+
+### `Class.Chat.Chatted`
+
+Fires with: (part: `Class.Instance`, message: `string`, color: `Enum.ChatColor`)
+
+### `Class.Chat.PlayerChatAvailabilityStatusChanged`
+
+Fires with: (player: `Class.Player`)
+
+### `Class.Chat.ReconcileCommunicationAccessCompleted`
+
+Fires with: (chatAvailabilityStatus: `string`)
+
+### `Class.Chat.TimeoutChatAttempt`
+
+Fires with: (isPermanentTimeout: `bool`, endTime: `int64`)

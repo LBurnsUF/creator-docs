@@ -7,30 +7,95 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StudioAssetService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **AutoSetupAvatarAsync**(`modelId: ContentId`, `progressCallback: Function`, `notificationCallback: Function?`, `options: Dictionary?`) -> `Instance` [Yields]
-- **AutoSetupSerializedAvatarAsync**(`serializedInstance: string`, `publishInfo: Dictionary`, `telemetryMetadata: Dictionary`, `progressCallback: Function`, `notificationCallback: Function?`, `options: Dictionary?`) -> `Instance` [Yields]
-- **CancelAutoSetupAvatarAsync**(`jobId: string`) -> `null` [Yields]
-- **ConvertToPackageUpload**(`uploadUrl: string`, `cloneInstances: Instances`, `originalInstances: Instances`) -> `null`
-- **DEPRECATED_SerializeInstances**(`instances: Instances`) -> `string` [Yields]
-- **FireOnUGCSubmitCompleted**(`cancelled: bool`) -> `null`
-- **PromptSaveInstanceToRobloxAsync**(`instance: Instance`, `assetType: Variant`, `groupId: int64?`) -> `Tuple` [Yields]
-- **PublishPackage**(`instance: Instance`, `publishInfo: Dictionary`) -> `null`
-- **RequestAvatarAutosetupAsync**(`meshId: ContentId`, `textureId: ContentId`, `progressCallback: Function`) -> `Instance` [Yields]
-- **ResolveSaveInstanceToRoblox**(`requestId: string`, `assetId: int64?`, `assetName: string?`, `errorMessage: string?`) -> `null`
-- **SerializeInstances**(`instances: Instances`, `groupId: int64 = 0`, `isPackage: bool = false`) -> `string` [Yields]
-- **ShowSaveToRoblox**(`instances: Instances`, `assetType: Variant`, `hasSubsequent: bool = false`) -> `null`
-- **UpdatePublishedPackage**(`assetmetadata: Dictionary`, `rootInstance: Instance`, `isConvert: bool = false`, `addUndoWaypoint: bool = false`) -> `null`
+### `Class.StudioAssetService:AutoSetupAvatarAsync`
+
+``AutoSetupAvatarAsync(modelId: `Datatype.ContentId`, progressCallback: `Datatype.Function`, notificationCallback: `Datatype.Function`?, options: `Dictionary?`)`` → `Class.Instance`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:AutoSetupSerializedAvatarAsync`
+
+``AutoSetupSerializedAvatarAsync(serializedInstance: `string`, publishInfo: `Dictionary`, telemetryMetadata: `Dictionary`, progressCallback: `Datatype.Function`, notificationCallback: `Datatype.Function`?, options: `Dictionary?`)`` → `Class.Instance`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:CancelAutoSetupAvatarAsync`
+
+``CancelAutoSetupAvatarAsync(jobId: `string`)`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:ConvertToPackageUpload`
+
+``ConvertToPackageUpload(uploadUrl: `string`, cloneInstances: `Datatype.Instances`, originalInstances: `Datatype.Instances`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:DEPRECATED_SerializeInstances`
+
+``DEPRECATED_SerializeInstances(instances: `Datatype.Instances`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:FireOnUGCSubmitCompleted`
+
+``FireOnUGCSubmitCompleted(cancelled: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:PromptSaveInstanceToRobloxAsync`
+
+``PromptSaveInstanceToRobloxAsync(instance: `Class.Instance`, assetType: `Variant`, groupId: `int64?`)`` → `Tuple`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:PublishPackage`
+
+``PublishPackage(instance: `Class.Instance`, publishInfo: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:RequestAvatarAutosetupAsync`
+
+``RequestAvatarAutosetupAsync(meshId: `Datatype.ContentId`, textureId: `Datatype.ContentId`, progressCallback: `Datatype.Function`)`` → `Class.Instance`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:ResolveSaveInstanceToRoblox`
+
+``ResolveSaveInstanceToRoblox(requestId: `string`, assetId: `int64?`, assetName: `string?`, errorMessage: `string?`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:SerializeInstances`
+
+``SerializeInstances(instances: `Datatype.Instances`, groupId: `int64`, isPackage: `bool`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:ShowSaveToRoblox`
+
+``ShowSaveToRoblox(instances: `Datatype.Instances`, assetType: `Variant`, hasSubsequent: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioAssetService:UpdatePublishedPackage`
+
+``UpdatePublishedPackage(assetmetadata: `Dictionary`, rootInstance: `Class.Instance`, isConvert: `bool`, addUndoWaypoint: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **OnConvertToPackageResult**(`isSuccessful: bool`, `errorMessage: string`)
-- **OnPromptSaveInstanceToRobloxAsync**(`instance: Instance`, `assetType: Variant`, `requestId: string`, `groupId: int64?`)
-- **OnPublishPackageResult**(`result: Dictionary`, `errorMessage: string`)
-- **OnSaveToRoblox**(`instances: Instances`, `assetType: Variant`, `hasSubsequent: bool`)
-- **OnUGCSubmitCompleted**(`cancelled: bool`)
+### `Class.StudioAssetService.OnConvertToPackageResult`
+
+Fires with: (isSuccessful: `bool`, errorMessage: `string`)
+
+### `Class.StudioAssetService.OnPromptSaveInstanceToRobloxAsync`
+
+Fires with: (instance: `Class.Instance`, assetType: `Variant`, requestId: `string`, groupId: `int64?`)
+
+### `Class.StudioAssetService.OnPublishPackageResult`
+
+Fires with: (result: `Dictionary`, errorMessage: `string`)
+
+### `Class.StudioAssetService.OnSaveToRoblox`
+
+Fires with: (instances: `Datatype.Instances`, assetType: `Variant`, hasSubsequent: `bool`)
+
+### `Class.StudioAssetService.OnUGCSubmitCompleted`
+
+Fires with: (cancelled: `bool`)

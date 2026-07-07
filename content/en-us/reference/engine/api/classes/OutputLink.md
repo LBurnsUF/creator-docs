@@ -7,10 +7,13 @@ tags: [NotCreatable, NotReplicated]
 
 # OutputLink
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **Print**(`messageType: MessageType`, `message: string`, `urlText: string`) -> `null`
+### `Class.OutputLink:Print`
+
+``Print(messageType: `Enum.MessageType`, message: `string`, urlText: `string`)`` → `null`
+   {security: RobloxScriptSecurity}

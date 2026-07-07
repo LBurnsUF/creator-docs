@@ -7,13 +7,15 @@ tags: [NotCreatable]
 
 # TextSource
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **CanSend**: `bool`
-- **DisplayName**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **UserId**: `int64` [ReadOnly] [NotReplicated]
-- **Username**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextSource.CanSend` | `bool` |  |
+| `Class.TextSource.DisplayName` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextSource.UserId` | `int64` | [ReadOnly] [NotReplicated] |
+| `Class.TextSource.Username` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |

@@ -3,11 +3,13 @@ title: StudioScriptEditorColorPresets
 type: enum
 ---
 
-# StudioScriptEditorColorPresets (Enum)
+# `Enum.StudioScriptEditorColorPresets`
+
+The `Enum.StudioScriptEditorColorPresets` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| RobloxDefault | 0 |
-| Extra1 | 1 |
-| Extra2 | 2 |
-| Custom | 3 |
+| `Enum.StudioScriptEditorColorPresets.RobloxDefault` | 0 |
+| `Enum.StudioScriptEditorColorPresets.Extra1` | 1 |
+| `Enum.StudioScriptEditorColorPresets.Extra2` | 2 |
+| `Enum.StudioScriptEditorColorPresets.Custom` | 3 |

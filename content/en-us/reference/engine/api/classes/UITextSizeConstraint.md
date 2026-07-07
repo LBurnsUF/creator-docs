@@ -6,9 +6,11 @@ superclass: UIConstraint
 
 # UITextSizeConstraint
 
-**Inherits**: UIConstraint > UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIConstraint` > `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **MaxTextSize**: `int`
-- **MinTextSize**: `int`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UITextSizeConstraint.MaxTextSize` | `int` |  |
+| `Class.UITextSizeConstraint.MinTextSize` | `int` |  |

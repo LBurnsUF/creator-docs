@@ -3,9 +3,11 @@ title: AudioSimulationFidelity
 type: enum
 ---
 
-# AudioSimulationFidelity (Enum)
+# `Enum.AudioSimulationFidelity`
+
+The `Enum.AudioSimulationFidelity` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Automatic | 1 |
+| `Enum.AudioSimulationFidelity.None` | 0 |
+| `Enum.AudioSimulationFidelity.Automatic` | 1 |

@@ -3,14 +3,16 @@ title: AudioChannelLayout
 type: enum
 ---
 
-# AudioChannelLayout (Enum)
+# `Enum.AudioChannelLayout`
+
+The `Enum.AudioChannelLayout` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| Mono | 0 |
-| Stereo | 1 |
-| Quad | 2 |
-| Surround_5 | 3 |
-| Surround_5_1 | 4 |
-| Surround_7_1 | 5 |
-| Surround_7_1_4 | 6 |
+| `Enum.AudioChannelLayout.Mono` | 0 |
+| `Enum.AudioChannelLayout.Stereo` | 1 |
+| `Enum.AudioChannelLayout.Quad` | 2 |
+| `Enum.AudioChannelLayout.Surround_5` | 3 |
+| `Enum.AudioChannelLayout.Surround_5_1` | 4 |
+| `Enum.AudioChannelLayout.Surround_7_1` | 5 |
+| `Enum.AudioChannelLayout.Surround_7_1_4` | 6 |

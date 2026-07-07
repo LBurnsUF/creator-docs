@@ -6,59 +6,108 @@ superclass: Instance
 
 # Sound
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AcousticSimulationEnabled**: `bool`
-- **AssetRepresentation**: `AssetRepresentation` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AudioContent**: `Content` [Hidden]
-- **ChannelCount**: `int` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EmitterSize**: `float` [Deprecated]
-- **IsLoaded**: `bool` [ReadOnly] [NotReplicated]
-- **IsPaused**: `bool` [Hidden] [ReadOnly] [NotReplicated]
-- **IsPlaying**: `bool` [Hidden] [ReadOnly] [NotReplicated]
-- **IsSpatial**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LoopRegion**: `NumberRange`
-- **Looped**: `bool`
-- **MaxDistance**: `float` [Deprecated]
-- **MinDistance**: `float` [Deprecated]
-- **Pitch**: `float` [Deprecated]
-- **PlayOnRemove**: `bool`
-- **PlaybackLoudness**: `double` [ReadOnly] [NotReplicated]
-- **PlaybackRegion**: `NumberRange`
-- **PlaybackRegionsEnabled**: `bool`
-- **PlaybackSpeed**: `float` [NotReplicated]
-- **Playing**: `bool` [NotReplicated]
-- **RollOffGain**: `float` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RollOffMaxDistance**: `float`
-- **RollOffMinDistance**: `float`
-- **RollOffMode**: `RollOffMode`
-- **SoundGroup**: `SoundGroup`
-- **SoundId**: `ContentId`
-- **TimeLength**: `double` [ReadOnly] [NotReplicated]
-- **TimePosition**: `double` [NotReplicated]
-- **UsageContextPermission**: `UsageContext` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Volume**: `float`
-- **isPlaying**: `bool` [ReadOnly] [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Sound.AcousticSimulationEnabled` | `bool` |  |
+| `Class.Sound.AssetRepresentation` | `Enum.AssetRepresentation` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Sound.AudioContent` | `Datatype.Content` | [Hidden] |
+| `Class.Sound.ChannelCount` | `int` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Sound.EmitterSize` | `float` | [Deprecated] |
+| `Class.Sound.IsLoaded` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.Sound.IsPaused` | `bool` | [Hidden] [ReadOnly] [NotReplicated] |
+| `Class.Sound.IsPlaying` | `bool` | [Hidden] [ReadOnly] [NotReplicated] |
+| `Class.Sound.IsSpatial` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Sound.LoopRegion` | `Datatype.NumberRange` |  |
+| `Class.Sound.Looped` | `bool` |  |
+| `Class.Sound.MaxDistance` | `float` | [Deprecated] |
+| `Class.Sound.MinDistance` | `float` | [Deprecated] |
+| `Class.Sound.Pitch` | `float` | [Deprecated] |
+| `Class.Sound.PlayOnRemove` | `bool` |  |
+| `Class.Sound.PlaybackLoudness` | `double` | [ReadOnly] [NotReplicated] |
+| `Class.Sound.PlaybackRegion` | `Datatype.NumberRange` |  |
+| `Class.Sound.PlaybackRegionsEnabled` | `bool` |  |
+| `Class.Sound.PlaybackSpeed` | `float` | [NotReplicated] |
+| `Class.Sound.Playing` | `bool` | [NotReplicated] |
+| `Class.Sound.RollOffGain` | `float` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Sound.RollOffMaxDistance` | `float` |  |
+| `Class.Sound.RollOffMinDistance` | `float` |  |
+| `Class.Sound.RollOffMode` | `Enum.RollOffMode` |  |
+| `Class.Sound.SoundGroup` | `Class.SoundGroup` |  |
+| `Class.Sound.SoundId` | `Datatype.ContentId` |  |
+| `Class.Sound.TimeLength` | `double` | [ReadOnly] [NotReplicated] |
+| `Class.Sound.TimePosition` | `double` | [NotReplicated] |
+| `Class.Sound.UsageContextPermission` | `Enum.UsageContext` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Sound.Volume` | `float` |  |
+| `Class.Sound.isPlaying` | `bool` | [ReadOnly] [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **GetUnderlyingAudioPlayer**() -> `AudioPlayer`
-- **Pause**() -> `null`
-- **Play**() -> `null`
-- **Resume**() -> `null`
-- **Stop**() -> `null`
-- **pause**() -> `null` [Deprecated]
-- **play**() -> `null` [Deprecated]
-- **stop**() -> `null` [Deprecated]
+### `Class.Sound:GetUnderlyingAudioPlayer`
+
+``GetUnderlyingAudioPlayer()`` → `Class.AudioPlayer`
+   {security: RobloxScriptSecurity}
+
+### `Class.Sound:Pause`
+
+``Pause()`` → `null`
+
+### `Class.Sound:Play`
+
+``Play()`` → `null`
+
+### `Class.Sound:Resume`
+
+``Resume()`` → `null`
+
+### `Class.Sound:Stop`
+
+``Stop()`` → `null`
+
+### `Class.Sound:pause`
+
+``pause()`` → `null`
+  [Deprecated]
+
+### `Class.Sound:play`
+
+``play()`` → `null`
+  [Deprecated]
+
+### `Class.Sound:stop`
+
+``stop()`` → `null`
+  [Deprecated]
 
 ## Events
 
-- **DidLoop**(`soundId: string`, `numOfTimesLooped: int`)
-- **Ended**(`soundId: string`)
-- **Loaded**(`soundId: string`)
-- **Paused**(`soundId: string`)
-- **Played**(`soundId: string`)
-- **Resumed**(`soundId: string`)
-- **Stopped**(`soundId: string`)
+### `Class.Sound.DidLoop`
+
+Fires with: (soundId: `string`, numOfTimesLooped: `int`)
+
+### `Class.Sound.Ended`
+
+Fires with: (soundId: `string`)
+
+### `Class.Sound.Loaded`
+
+Fires with: (soundId: `string`)
+
+### `Class.Sound.Paused`
+
+Fires with: (soundId: `string`)
+
+### `Class.Sound.Played`
+
+Fires with: (soundId: `string`)
+
+### `Class.Sound.Resumed`
+
+Fires with: (soundId: `string`)
+
+### `Class.Sound.Stopped`
+
+Fires with: (soundId: `string`)

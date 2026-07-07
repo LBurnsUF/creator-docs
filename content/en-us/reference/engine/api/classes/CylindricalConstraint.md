@@ -6,24 +6,26 @@ superclass: SlidingBallConstraint
 
 # CylindricalConstraint
 
-**Inherits**: SlidingBallConstraint > Constraint > Instance > Object
+**Inherits from:** `Class.SlidingBallConstraint` > `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AngularActuatorType**: `ActuatorType`
-- **AngularLimitsEnabled**: `bool`
-- **AngularResponsiveness**: `float`
-- **AngularRestitution**: `float`
-- **AngularSpeed**: `float`
-- **AngularVelocity**: `float`
-- **CurrentAngle**: `float` [ReadOnly] [NotReplicated]
-- **InclinationAngle**: `float`
-- **LowerAngle**: `float`
-- **MotorMaxAngularAcceleration**: `float`
-- **MotorMaxTorque**: `float`
-- **RotationAxisVisible**: `bool`
-- **ServoMaxTorque**: `float`
-- **SoftlockAngularServoUponReachingTarget**: `bool` [Deprecated]
-- **TargetAngle**: `float`
-- **UpperAngle**: `float`
-- **WorldRotationAxis**: `Vector3` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CylindricalConstraint.AngularActuatorType` | `Enum.ActuatorType` |  |
+| `Class.CylindricalConstraint.AngularLimitsEnabled` | `bool` |  |
+| `Class.CylindricalConstraint.AngularResponsiveness` | `float` |  |
+| `Class.CylindricalConstraint.AngularRestitution` | `float` |  |
+| `Class.CylindricalConstraint.AngularSpeed` | `float` |  |
+| `Class.CylindricalConstraint.AngularVelocity` | `float` |  |
+| `Class.CylindricalConstraint.CurrentAngle` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.CylindricalConstraint.InclinationAngle` | `float` |  |
+| `Class.CylindricalConstraint.LowerAngle` | `float` |  |
+| `Class.CylindricalConstraint.MotorMaxAngularAcceleration` | `float` |  |
+| `Class.CylindricalConstraint.MotorMaxTorque` | `float` |  |
+| `Class.CylindricalConstraint.RotationAxisVisible` | `bool` |  |
+| `Class.CylindricalConstraint.ServoMaxTorque` | `float` |  |
+| `Class.CylindricalConstraint.SoftlockAngularServoUponReachingTarget` | `bool` | [Deprecated] |
+| `Class.CylindricalConstraint.TargetAngle` | `float` |  |
+| `Class.CylindricalConstraint.UpperAngle` | `float` |  |
+| `Class.CylindricalConstraint.WorldRotationAxis` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |

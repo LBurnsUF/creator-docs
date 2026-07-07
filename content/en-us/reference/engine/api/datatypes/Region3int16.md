@@ -3,19 +3,19 @@ title: Region3int16
 type: datatype
 ---
 
-# Region3int16 (DataType)
+# `Datatype.Region3int16`
 
-Used in 7 locations across the API.
+Used in 7 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Terrain.MaxExtents
+- `Class.Terrain.MaxExtents`
 
 ## Used as Parameter Type
 
-- Terrain.AutowedgeCells(region)
-- Terrain.CopyRegion(region)
-- Terrain.ReplaceMaterialInTransformSubregion(targetRegion)
-- Terrain.SetCells(region)
-- Terrain.SetMaterialInTransformSubregion(targetRegion)
-- TerrainRegion.ApplyTransformSubregion(region)
+- `Class.Terrain:AutowedgeCells` (parameter `region`)
+- `Class.Terrain:CopyRegion` (parameter `region`)
+- `Class.Terrain:ReplaceMaterialInTransformSubregion` (parameter `targetRegion`)
+- `Class.Terrain:SetCells` (parameter `region`)
+- `Class.Terrain:SetMaterialInTransformSubregion` (parameter `targetRegion`)
+- `Class.TerrainRegion:ApplyTransformSubregion` (parameter `region`)

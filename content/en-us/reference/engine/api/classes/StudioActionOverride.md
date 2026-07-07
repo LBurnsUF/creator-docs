@@ -7,20 +7,27 @@ tags: [NotCreatable, NotReplicated]
 
 # StudioActionOverride
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Enabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Released**: `bool` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **StudioAction**: `StudioAction` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StudioActionOverride.Enabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.StudioActionOverride.Released` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.StudioActionOverride.StudioAction` | `Enum.StudioAction` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **Release**() -> `null`
+### `Class.StudioActionOverride:Release`
+
+``Release()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **Triggered**()
+### `Class.StudioActionOverride.Triggered`
+
+Fires with: ()

@@ -3,32 +3,34 @@ title: CompletionItemKind
 type: enum
 ---
 
-# CompletionItemKind (Enum)
+# `Enum.CompletionItemKind`
+
+The `Enum.CompletionItemKind` enum has 25 item(s).
 
 | Name | Value |
 |------|-------|
-| Text | 1 |
-| Method | 2 |
-| Function | 3 |
-| Constructor | 4 |
-| Field | 5 |
-| Variable | 6 |
-| Class | 7 |
-| Interface | 8 |
-| Module | 9 |
-| Property | 10 |
-| Unit | 11 |
-| Value | 12 |
-| Enum | 13 |
-| Keyword | 14 |
-| Snippet | 15 |
-| Color | 16 |
-| File | 17 |
-| Reference | 18 |
-| Folder | 19 |
-| EnumMember | 20 |
-| Constant | 21 |
-| Struct | 22 |
-| Event | 23 |
-| Operator | 24 |
-| TypeParameter | 25 |
+| `Enum.CompletionItemKind.Text` | 1 |
+| `Enum.CompletionItemKind.Method` | 2 |
+| `Enum.CompletionItemKind.Function` | 3 |
+| `Enum.CompletionItemKind.Constructor` | 4 |
+| `Enum.CompletionItemKind.Field` | 5 |
+| `Enum.CompletionItemKind.Variable` | 6 |
+| `Enum.CompletionItemKind.Class` | 7 |
+| `Enum.CompletionItemKind.Interface` | 8 |
+| `Enum.CompletionItemKind.Module` | 9 |
+| `Enum.CompletionItemKind.Property` | 10 |
+| `Enum.CompletionItemKind.Unit` | 11 |
+| `Enum.CompletionItemKind.Value` | 12 |
+| `Enum.CompletionItemKind.Enum` | 13 |
+| `Enum.CompletionItemKind.Keyword` | 14 |
+| `Enum.CompletionItemKind.Snippet` | 15 |
+| `Enum.CompletionItemKind.Color` | 16 |
+| `Enum.CompletionItemKind.File` | 17 |
+| `Enum.CompletionItemKind.Reference` | 18 |
+| `Enum.CompletionItemKind.Folder` | 19 |
+| `Enum.CompletionItemKind.EnumMember` | 20 |
+| `Enum.CompletionItemKind.Constant` | 21 |
+| `Enum.CompletionItemKind.Struct` | 22 |
+| `Enum.CompletionItemKind.Event` | 23 |
+| `Enum.CompletionItemKind.Operator` | 24 |
+| `Enum.CompletionItemKind.TypeParameter` | 25 |

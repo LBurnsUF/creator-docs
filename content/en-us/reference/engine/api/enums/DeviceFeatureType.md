@@ -3,9 +3,11 @@ title: DeviceFeatureType
 type: enum
 ---
 
-# DeviceFeatureType (Enum)
+# `Enum.DeviceFeatureType`
+
+The `Enum.DeviceFeatureType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| DeviceCapture | 0 |
-| InExperienceFAE | 1 |
+| `Enum.DeviceFeatureType.DeviceCapture` | 0 |
+| `Enum.DeviceFeatureType.InExperienceFAE` | 1 |

@@ -3,14 +3,16 @@ title: DevTouchMovementMode
 type: enum
 ---
 
-# DevTouchMovementMode (Enum)
+# `Enum.DevTouchMovementMode`
+
+The `Enum.DevTouchMovementMode` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| UserChoice | 0 |
-| Thumbstick | 1 |
-| DPad | 2 |
-| Thumbpad | 3 |
-| ClickToMove | 4 |
-| Scriptable | 5 |
-| DynamicThumbstick | 6 |
+| `Enum.DevTouchMovementMode.UserChoice` | 0 |
+| `Enum.DevTouchMovementMode.Thumbstick` | 1 |
+| `Enum.DevTouchMovementMode.DPad` | 2 |
+| `Enum.DevTouchMovementMode.Thumbpad` | 3 |
+| `Enum.DevTouchMovementMode.ClickToMove` | 4 |
+| `Enum.DevTouchMovementMode.Scriptable` | 5 |
+| `Enum.DevTouchMovementMode.DynamicThumbstick` | 6 |

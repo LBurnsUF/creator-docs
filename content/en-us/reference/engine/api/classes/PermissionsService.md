@@ -7,14 +7,33 @@ tags: [NotCreatable, Service]
 
 # PermissionsService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **GetIsThirdPartyAssetAllowed**() -> `bool`
-- **GetIsThirdPartyPurchaseAllowed**() -> `bool`
-- **GetIsThirdPartyTeleportAllowed**() -> `bool`
-- **GetPermissions**(`assetId: string`) -> `Array`
-- **SetPermissions**(`assetId: string`, `permissions: Array`) -> `null`
+### `Class.PermissionsService:GetIsThirdPartyAssetAllowed`
+
+``GetIsThirdPartyAssetAllowed()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.PermissionsService:GetIsThirdPartyPurchaseAllowed`
+
+``GetIsThirdPartyPurchaseAllowed()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.PermissionsService:GetIsThirdPartyTeleportAllowed`
+
+``GetIsThirdPartyTeleportAllowed()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.PermissionsService:GetPermissions`
+
+``GetPermissions(assetId: `string`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.PermissionsService:SetPermissions`
+
+``SetPermissions(assetId: `string`, permissions: `Array`)`` → `null`
+   {security: RobloxScriptSecurity}

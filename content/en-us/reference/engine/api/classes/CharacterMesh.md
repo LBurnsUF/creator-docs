@@ -6,14 +6,16 @@ superclass: CharacterAppearance
 
 # CharacterMesh
 
-**Inherits**: CharacterAppearance > Instance > Object
+**Inherits from:** `Class.CharacterAppearance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **BaseTextureContent**: `Content`
-- **BaseTextureId**: `int64`
-- **BodyPart**: `BodyPart`
-- **MeshContent**: `Content`
-- **MeshId**: `int64`
-- **OverlayTextureContent**: `Content`
-- **OverlayTextureId**: `int64`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CharacterMesh.BaseTextureContent` | `Datatype.Content` |  |
+| `Class.CharacterMesh.BaseTextureId` | `int64` |  |
+| `Class.CharacterMesh.BodyPart` | `Enum.BodyPart` |  |
+| `Class.CharacterMesh.MeshContent` | `Datatype.Content` |  |
+| `Class.CharacterMesh.MeshId` | `int64` |  |
+| `Class.CharacterMesh.OverlayTextureContent` | `Datatype.Content` |  |
+| `Class.CharacterMesh.OverlayTextureId` | `int64` |  |

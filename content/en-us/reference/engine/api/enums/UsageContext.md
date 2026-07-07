@@ -3,9 +3,11 @@ title: UsageContext
 type: enum
 ---
 
-# UsageContext (Enum)
+# `Enum.UsageContext`
+
+The `Enum.UsageContext` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Preview | 1 |
+| `Enum.UsageContext.Default` | 0 |
+| `Enum.UsageContext.Preview` | 1 |

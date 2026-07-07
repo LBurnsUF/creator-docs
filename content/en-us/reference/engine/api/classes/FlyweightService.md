@@ -7,6 +7,6 @@ tags: [Service]
 
 # FlyweightService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: Service
+**Tags:** [Service]

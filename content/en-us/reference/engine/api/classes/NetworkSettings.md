@@ -7,26 +7,28 @@ tags: [NotCreatable, Service, NotReplicated, NotBrowsable]
 
 # NetworkSettings
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated, NotBrowsable
+**Tags:** [NotCreatable] [Service] [NotReplicated] [NotBrowsable]
 
 ## Properties
 
-- **EmulatedTotalMemoryInMB**: `int` [Hidden] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **FreeMemoryMBytes**: `float` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **HttpProxyEnabled**: `bool` (Security: Read=None, Write=RobloxScriptSecurity)
-- **HttpProxyURL**: `string` (Security: Read=None, Write=RobloxScriptSecurity)
-- **InboundNetworkJitterMs**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **InboundNetworkLossPercent**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **InboundNetworkMinDelayMs**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **IncomingReplicationLag**: `double`
-- **OutboundNetworkJitterMs**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **OutboundNetworkLossPercent**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **OutboundNetworkMinDelayMs**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **PrintJoinSizeBreakdown**: `bool`
-- **PrintPhysicsErrors**: `bool`
-- **PrintStreamInstanceQuota**: `bool`
-- **RandomizeJoinInstanceOrder**: `bool`
-- **RenderStreamedRegions**: `bool`
-- **ShowActiveAnimationAsset**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.NetworkSettings.EmulatedTotalMemoryInMB` | `int` | [Hidden] [NotReplicated] {security: PluginSecurity} |
+| `Class.NetworkSettings.FreeMemoryMBytes` | `float` | [Hidden] [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.NetworkSettings.HttpProxyEnabled` | `bool` |  {write: RobloxScriptSecurity} |
+| `Class.NetworkSettings.HttpProxyURL` | `string` |  {write: RobloxScriptSecurity} |
+| `Class.NetworkSettings.InboundNetworkJitterMs` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.NetworkSettings.InboundNetworkLossPercent` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.NetworkSettings.InboundNetworkMinDelayMs` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.NetworkSettings.IncomingReplicationLag` | `double` |  |
+| `Class.NetworkSettings.OutboundNetworkJitterMs` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.NetworkSettings.OutboundNetworkLossPercent` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.NetworkSettings.OutboundNetworkMinDelayMs` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.NetworkSettings.PrintJoinSizeBreakdown` | `bool` |  |
+| `Class.NetworkSettings.PrintPhysicsErrors` | `bool` |  |
+| `Class.NetworkSettings.PrintStreamInstanceQuota` | `bool` |  |
+| `Class.NetworkSettings.RandomizeJoinInstanceOrder` | `bool` |  |
+| `Class.NetworkSettings.RenderStreamedRegions` | `bool` |  |
+| `Class.NetworkSettings.ShowActiveAnimationAsset` | `bool` |  |

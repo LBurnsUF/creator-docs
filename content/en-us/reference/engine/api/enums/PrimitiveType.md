@@ -3,13 +3,15 @@ title: PrimitiveType
 type: enum
 ---
 
-# PrimitiveType (Enum)
+# `Enum.PrimitiveType`
+
+The `Enum.PrimitiveType` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Null | 0 |
-| Ball | 1 |
-| Cylinder | 2 |
-| Block | 3 |
-| Wedge | 4 |
-| CornerWedge | 5 |
+| `Enum.PrimitiveType.Null` | 0 |
+| `Enum.PrimitiveType.Ball` | 1 |
+| `Enum.PrimitiveType.Cylinder` | 2 |
+| `Enum.PrimitiveType.Block` | 3 |
+| `Enum.PrimitiveType.Wedge` | 4 |
+| `Enum.PrimitiveType.CornerWedge` | 5 |

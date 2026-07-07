@@ -6,8 +6,10 @@ superclass: Instance
 
 # DebuggerWatch
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Expression**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DebuggerWatch.Expression` | `string` |  |

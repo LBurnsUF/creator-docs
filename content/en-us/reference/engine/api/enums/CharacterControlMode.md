@@ -3,11 +3,13 @@ title: CharacterControlMode
 type: enum
 ---
 
-# CharacterControlMode (Enum)
+# `Enum.CharacterControlMode`
+
+The `Enum.CharacterControlMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Legacy | 1 |
-| NoCharacterController | 2 |
-| LuaCharacterController | 3 |
+| `Enum.CharacterControlMode.Default` | 0 |
+| `Enum.CharacterControlMode.Legacy` | 1 |
+| `Enum.CharacterControlMode.NoCharacterController` | 2 |
+| `Enum.CharacterControlMode.LuaCharacterController` | 3 |

@@ -6,15 +6,19 @@ superclass: Instance
 
 # TextChatCommand
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AutocompleteVisible**: `bool`
-- **Enabled**: `bool`
-- **PrimaryAlias**: `string`
-- **SecondaryAlias**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextChatCommand.AutocompleteVisible` | `bool` |  |
+| `Class.TextChatCommand.Enabled` | `bool` |  |
+| `Class.TextChatCommand.PrimaryAlias` | `string` |  |
+| `Class.TextChatCommand.SecondaryAlias` | `string` |  |
 
 ## Events
 
-- **Triggered**(`originTextSource: TextSource`, `unfilteredText: string`)
+### `Class.TextChatCommand.Triggered`
+
+Fires with: (originTextSource: `Class.TextSource`, unfilteredText: `string`)

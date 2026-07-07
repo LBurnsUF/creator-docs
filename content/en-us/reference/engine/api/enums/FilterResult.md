@@ -3,9 +3,11 @@ title: FilterResult
 type: enum
 ---
 
-# FilterResult (Enum)
+# `Enum.FilterResult`
+
+The `Enum.FilterResult` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Accepted | 0 |
-| Rejected | 1 |
+| `Enum.FilterResult.Accepted` | 0 |
+| `Enum.FilterResult.Rejected` | 1 |

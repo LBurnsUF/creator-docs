@@ -3,9 +3,11 @@ title: CaptureType
 type: enum
 ---
 
-# CaptureType (Enum)
+# `Enum.CaptureType`
+
+The `Enum.CaptureType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Screenshot | 1 |
-| Video | 2 |
+| `Enum.CaptureType.Screenshot` | 1 |
+| `Enum.CaptureType.Video` | 2 |

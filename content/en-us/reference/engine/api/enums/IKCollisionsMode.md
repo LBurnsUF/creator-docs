@@ -3,10 +3,12 @@ title: IKCollisionsMode
 type: enum
 ---
 
-# IKCollisionsMode (Enum)
+# `Enum.IKCollisionsMode`
+
+The `Enum.IKCollisionsMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| NoCollisions | 0 |
-| OtherMechanismsAnchored | 1 |
-| IncludeContactedMechanisms | 2 |
+| `Enum.IKCollisionsMode.NoCollisions` | 0 |
+| `Enum.IKCollisionsMode.OtherMechanismsAnchored` | 1 |
+| `Enum.IKCollisionsMode.IncludeContactedMechanisms` | 2 |

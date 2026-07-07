@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # ServerReplicator
 
-**Inherits**: NetworkReplicator > Instance > Object
+**Inherits from:** `Class.NetworkReplicator` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

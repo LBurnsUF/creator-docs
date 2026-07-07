@@ -3,10 +3,12 @@ title: PropertyStatus
 type: enum
 ---
 
-# PropertyStatus (Enum)
+# `Enum.PropertyStatus`
+
+The `Enum.PropertyStatus` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Ok | 0 |
-| Warning | 1 |
-| Error | 2 |
+| `Enum.PropertyStatus.Ok` | 0 |
+| `Enum.PropertyStatus.Warning` | 1 |
+| `Enum.PropertyStatus.Error` | 2 |

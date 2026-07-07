@@ -7,50 +7,119 @@ tags: [NotReplicated]
 
 # Camera
 
-**Inherits**: PVInstance > Instance > Object
+**Inherits from:** `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **CFrame**: `CFrame`
-- **CameraSubject**: `Instance`
-- **CameraType**: `CameraType`
-- **CoordinateFrame**: `CFrame` [Hidden] [NotReplicated] [Deprecated]
-- **DiagonalFieldOfView**: `float` [NotReplicated]
-- **FieldOfView**: `float`
-- **FieldOfViewMode**: `FieldOfViewMode`
-- **Focus**: `CFrame`
-- **HeadLocked**: `bool`
-- **HeadScale**: `float`
-- **MaxAxisFieldOfView**: `float` [NotReplicated]
-- **NearPlaneZ**: `float` [ReadOnly] [NotReplicated]
-- **VRTiltAndRollEnabled**: `bool`
-- **ViewportSize**: `Vector2` [ReadOnly] [NotReplicated]
-- **focus**: `CFrame` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Camera.CFrame` | `Datatype.CFrame` |  |
+| `Class.Camera.CameraSubject` | `Class.Instance` |  |
+| `Class.Camera.CameraType` | `Enum.CameraType` |  |
+| `Class.Camera.CoordinateFrame` | `Datatype.CFrame` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.Camera.DiagonalFieldOfView` | `float` | [NotReplicated] |
+| `Class.Camera.FieldOfView` | `float` |  |
+| `Class.Camera.FieldOfViewMode` | `Enum.FieldOfViewMode` |  |
+| `Class.Camera.Focus` | `Datatype.CFrame` |  |
+| `Class.Camera.HeadLocked` | `bool` |  |
+| `Class.Camera.HeadScale` | `float` |  |
+| `Class.Camera.MaxAxisFieldOfView` | `float` | [NotReplicated] |
+| `Class.Camera.NearPlaneZ` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Camera.VRTiltAndRollEnabled` | `bool` |  |
+| `Class.Camera.ViewportSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.Camera.focus` | `Datatype.CFrame` | [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **GetLargestCutoffDistance**(`ignoreList: Instances`) -> `float` [Deprecated]
-- **GetPanSpeed**() -> `float` [Deprecated]
-- **GetPartsObscuringTarget**(`castPoints: Array`, `ignoreList: Instances`) -> `Instances`
-- **GetRenderCFrame**() -> `CFrame`
-- **GetRoll**() -> `float`
-- **GetTiltSpeed**() -> `float` [Deprecated]
-- **Interpolate**(`endPos: CFrame`, `endFocus: CFrame`, `duration: float`) -> `null` [Deprecated]
-- **PanUnits**(`units: int`) -> `null` [Deprecated]
-- **ScreenPointToRay**(`x: float`, `y: float`, `depth: float = 0`) -> `Ray`
-- **SetCameraPanMode**(`mode: CameraPanMode = Classic`) -> `null` [Deprecated]
-- **SetImageServerView**(`modelCoord: CFrame`) -> `null`
-- **SetRoll**(`rollAngle: float`) -> `null`
-- **TiltUnits**(`units: int`) -> `bool` [Deprecated]
-- **ViewportPointToRay**(`x: float`, `y: float`, `depth: float = 0`) -> `Ray`
-- **WorldToScreenPoint**(`worldPoint: Vector3`) -> `Tuple`
-- **WorldToViewportPoint**(`worldPoint: Vector3`) -> `Tuple`
-- **Zoom**(`distance: float`) -> `bool`
-- **ZoomToExtents**(`boundingBoxCFrame: CFrame`, `boundingBoxSize: Vector3`) -> `null`
+### `Class.Camera:GetLargestCutoffDistance`
+
+``GetLargestCutoffDistance(ignoreList: `Datatype.Instances`)`` → `float`
+  [Deprecated]
+
+### `Class.Camera:GetPanSpeed`
+
+``GetPanSpeed()`` → `float`
+  [Deprecated]
+
+### `Class.Camera:GetPartsObscuringTarget`
+
+``GetPartsObscuringTarget(castPoints: `Array`, ignoreList: `Datatype.Instances`)`` → `Datatype.Instances`
+
+### `Class.Camera:GetRenderCFrame`
+
+``GetRenderCFrame()`` → `Datatype.CFrame`
+
+### `Class.Camera:GetRoll`
+
+``GetRoll()`` → `float`
+
+### `Class.Camera:GetTiltSpeed`
+
+``GetTiltSpeed()`` → `float`
+  [Deprecated]
+
+### `Class.Camera:Interpolate`
+
+``Interpolate(endPos: `Datatype.CFrame`, endFocus: `Datatype.CFrame`, duration: `float`)`` → `null`
+  [Deprecated]
+
+### `Class.Camera:PanUnits`
+
+``PanUnits(units: `int`)`` → `null`
+  [Deprecated]
+
+### `Class.Camera:ScreenPointToRay`
+
+``ScreenPointToRay(x: `float`, y: `float`, depth: `float`)`` → `Datatype.Ray`
+
+### `Class.Camera:SetCameraPanMode`
+
+``SetCameraPanMode(mode: `Enum.CameraPanMode`)`` → `null`
+  [Deprecated]
+
+### `Class.Camera:SetImageServerView`
+
+``SetImageServerView(modelCoord: `Datatype.CFrame`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Camera:SetRoll`
+
+``SetRoll(rollAngle: `float`)`` → `null`
+
+### `Class.Camera:TiltUnits`
+
+``TiltUnits(units: `int`)`` → `bool`
+  [Deprecated]
+
+### `Class.Camera:ViewportPointToRay`
+
+``ViewportPointToRay(x: `float`, y: `float`, depth: `float`)`` → `Datatype.Ray`
+
+### `Class.Camera:WorldToScreenPoint`
+
+``WorldToScreenPoint(worldPoint: `Datatype.Vector3`)`` → `Tuple`
+
+### `Class.Camera:WorldToViewportPoint`
+
+``WorldToViewportPoint(worldPoint: `Datatype.Vector3`)`` → `Tuple`
+
+### `Class.Camera:Zoom`
+
+``Zoom(distance: `float`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.Camera:ZoomToExtents`
+
+``ZoomToExtents(boundingBoxCFrame: `Datatype.CFrame`, boundingBoxSize: `Datatype.Vector3`)`` → `null`
 
 ## Events
 
-- **FirstPersonTransition**(`entering: bool`)
-- **InterpolationFinished**()
+### `Class.Camera.FirstPersonTransition`
+
+Fires with: (entering: `bool`)
+
+### `Class.Camera.InterpolationFinished`
+
+Fires with: ()

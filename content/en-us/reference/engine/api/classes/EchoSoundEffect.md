@@ -6,11 +6,13 @@ superclass: SoundEffect
 
 # EchoSoundEffect
 
-**Inherits**: SoundEffect > Instance > Object
+**Inherits from:** `Class.SoundEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Delay**: `float`
-- **DryLevel**: `float`
-- **Feedback**: `float`
-- **WetLevel**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.EchoSoundEffect.Delay` | `float` |  |
+| `Class.EchoSoundEffect.DryLevel` | `float` |  |
+| `Class.EchoSoundEffect.Feedback` | `float` |  |
+| `Class.EchoSoundEffect.WetLevel` | `float` |  |

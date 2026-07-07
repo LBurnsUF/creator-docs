@@ -7,25 +7,27 @@ tags: [NotCreatable]
 
 # BubbleChatConfiguration
 
-**Inherits**: TextChatConfigurations > Instance > Object
+**Inherits from:** `Class.TextChatConfigurations` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **AdorneeName**: `string`
-- **BackgroundColor3**: `Color3`
-- **BackgroundTransparency**: `double`
-- **BubbleDuration**: `float`
-- **BubblesSpacing**: `float`
-- **Enabled**: `bool`
-- **Font**: `Font` [Hidden]
-- **FontFace**: `Font`
-- **LocalPlayerStudsOffset**: `Vector3`
-- **MaxBubbles**: `float`
-- **MaxDistance**: `float`
-- **MinimizeDistance**: `float`
-- **TailVisible**: `bool`
-- **TextColor3**: `Color3`
-- **TextSize**: `int64`
-- **VerticalStudsOffset**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BubbleChatConfiguration.AdorneeName` | `string` |  |
+| `Class.BubbleChatConfiguration.BackgroundColor3` | `Datatype.Color3` |  |
+| `Class.BubbleChatConfiguration.BackgroundTransparency` | `double` |  |
+| `Class.BubbleChatConfiguration.BubbleDuration` | `float` |  |
+| `Class.BubbleChatConfiguration.BubblesSpacing` | `float` |  |
+| `Class.BubbleChatConfiguration.Enabled` | `bool` |  |
+| `Class.BubbleChatConfiguration.Font` | `Enum.Font` | [Hidden] |
+| `Class.BubbleChatConfiguration.FontFace` | `Datatype.Font` |  |
+| `Class.BubbleChatConfiguration.LocalPlayerStudsOffset` | `Datatype.Vector3` |  |
+| `Class.BubbleChatConfiguration.MaxBubbles` | `float` |  |
+| `Class.BubbleChatConfiguration.MaxDistance` | `float` |  |
+| `Class.BubbleChatConfiguration.MinimizeDistance` | `float` |  |
+| `Class.BubbleChatConfiguration.TailVisible` | `bool` |  |
+| `Class.BubbleChatConfiguration.TextColor3` | `Datatype.Color3` |  |
+| `Class.BubbleChatConfiguration.TextSize` | `int64` |  |
+| `Class.BubbleChatConfiguration.VerticalStudsOffset` | `float` |  |

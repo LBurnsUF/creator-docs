@@ -7,16 +7,28 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # CrossDMScriptChangeListener
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **IsWatchingScriptLine**(`scriptRef: string`, `lineNumber: int`) -> `bool`
-- **StartWatchingScriptLine**(`scriptRef: string`, `debuggerConnectionId: int`, `lineNumber: int`) -> `null`
+### `Class.CrossDMScriptChangeListener:IsWatchingScriptLine`
+
+``IsWatchingScriptLine(scriptRef: `string`, lineNumber: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.CrossDMScriptChangeListener:StartWatchingScriptLine`
+
+``StartWatchingScriptLine(scriptRef: `string`, debuggerConnectionId: `int`, lineNumber: `int`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **GuidLineContentsChanged**(`guid: string`, `lineNumber: int`, `contents: string`)
-- **GuidNameChanged**(`guid: string`, `fullName: string`)
+### `Class.CrossDMScriptChangeListener.GuidLineContentsChanged`
+
+Fires with: (guid: `string`, lineNumber: `int`, contents: `string`)
+
+### `Class.CrossDMScriptChangeListener.GuidNameChanged`
+
+Fires with: (guid: `string`, fullName: `string`)

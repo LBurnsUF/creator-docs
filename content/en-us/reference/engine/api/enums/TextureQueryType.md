@@ -3,11 +3,13 @@ title: TextureQueryType
 type: enum
 ---
 
-# TextureQueryType (Enum)
+# `Enum.TextureQueryType`
+
+The `Enum.TextureQueryType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| NonHumanoid | 0 |
-| NonHumanoidOrphaned | 1 |
-| Humanoid | 2 |
-| HumanoidOrphaned | 3 |
+| `Enum.TextureQueryType.NonHumanoid` | 0 |
+| `Enum.TextureQueryType.NonHumanoidOrphaned` | 1 |
+| `Enum.TextureQueryType.Humanoid` | 2 |
+| `Enum.TextureQueryType.HumanoidOrphaned` | 3 |

@@ -7,18 +7,38 @@ tags: [NotCreatable, NotReplicated]
 
 # ImportSession
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **Cancel**() -> `null`
-- **GetFilename**() -> `string`
-- **GetStatuses**() -> `Dictionary`
-- **Upload**() -> `null`
+### `Class.ImportSession:Cancel`
+
+``Cancel()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ImportSession:GetFilename`
+
+``GetFilename()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.ImportSession:GetStatuses`
+
+``GetStatuses()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.ImportSession:Upload`
+
+``Upload()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **UploadComplete**(`results: Dictionary`)
-- **UploadProgress**(`progressRatio: float`)
+### `Class.ImportSession.UploadComplete`
+
+Fires with: (results: `Dictionary`)
+
+### `Class.ImportSession.UploadProgress`
+
+Fires with: (progressRatio: `float`)

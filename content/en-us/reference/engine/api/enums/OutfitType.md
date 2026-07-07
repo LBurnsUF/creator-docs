@@ -3,12 +3,14 @@ title: OutfitType
 type: enum
 ---
 
-# OutfitType (Enum)
+# `Enum.OutfitType`
+
+The `Enum.OutfitType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| All | 1 |
-| Avatar | 2 |
-| DynamicHead | 3 |
-| Shoes | 4 |
-| Makeup | 5 |
+| `Enum.OutfitType.All` | 1 |
+| `Enum.OutfitType.Avatar` | 2 |
+| `Enum.OutfitType.DynamicHead` | 3 |
+| `Enum.OutfitType.Shoes` | 4 |
+| `Enum.OutfitType.Makeup` | 5 |

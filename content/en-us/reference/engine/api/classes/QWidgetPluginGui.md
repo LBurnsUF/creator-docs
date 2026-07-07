@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # QWidgetPluginGui
 
-**Inherits**: PluginGui > LayerCollector > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.PluginGui` > `Class.LayerCollector` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

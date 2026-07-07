@@ -3,9 +3,11 @@ title: VerticalScrollBarPosition
 type: enum
 ---
 
-# VerticalScrollBarPosition (Enum)
+# `Enum.VerticalScrollBarPosition`
+
+The `Enum.VerticalScrollBarPosition` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Right | 0 |
-| Left | 1 |
+| `Enum.VerticalScrollBarPosition.Right` | 0 |
+| `Enum.VerticalScrollBarPosition.Left` | 1 |

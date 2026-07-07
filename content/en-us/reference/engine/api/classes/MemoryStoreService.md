@@ -7,12 +7,20 @@ tags: [Service]
 
 # MemoryStoreService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: Service
+**Tags:** [Service]
 
 ## Methods
 
-- **GetHashMap**(`name: string`) -> `MemoryStoreHashMap`
-- **GetQueue**(`name: string`, `invisibilityTimeout: int = 30`) -> `MemoryStoreQueue`
-- **GetSortedMap**(`name: string`) -> `MemoryStoreSortedMap`
+### `Class.MemoryStoreService:GetHashMap`
+
+``GetHashMap(name: `string`)`` → `Class.MemoryStoreHashMap`
+
+### `Class.MemoryStoreService:GetQueue`
+
+``GetQueue(name: `string`, invisibilityTimeout: `int`)`` → `Class.MemoryStoreQueue`
+
+### `Class.MemoryStoreService:GetSortedMap`
+
+``GetSortedMap(name: `string`)`` → `Class.MemoryStoreSortedMap`

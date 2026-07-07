@@ -7,11 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StartupMessageService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **ExecuteActionButton**() -> `null`
-- **GetStartupMessage**() -> `Variant`
+### `Class.StartupMessageService:ExecuteActionButton`
+
+``ExecuteActionButton()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StartupMessageService:GetStartupMessage`
+
+``GetStartupMessage()`` → `Variant`
+   {security: RobloxScriptSecurity}

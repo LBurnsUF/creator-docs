@@ -3,11 +3,13 @@ title: AnnotationPlaceContentPreference
 type: enum
 ---
 
-# AnnotationPlaceContentPreference (Enum)
+# `Enum.AnnotationPlaceContentPreference`
+
+The `Enum.AnnotationPlaceContentPreference` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| All | 1 |
-| MentionsAndReplies | 2 |
-| Unknown | 3 |
+| `Enum.AnnotationPlaceContentPreference.None` | 0 |
+| `Enum.AnnotationPlaceContentPreference.All` | 1 |
+| `Enum.AnnotationPlaceContentPreference.MentionsAndReplies` | 2 |
+| `Enum.AnnotationPlaceContentPreference.Unknown` | 3 |

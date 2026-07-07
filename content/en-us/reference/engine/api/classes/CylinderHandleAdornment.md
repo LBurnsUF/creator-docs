@@ -6,12 +6,14 @@ superclass: HandleAdornment
 
 # CylinderHandleAdornment
 
-**Inherits**: HandleAdornment > PVAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.HandleAdornment` > `Class.PVAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Angle**: `float`
-- **Height**: `float`
-- **InnerRadius**: `float`
-- **Radius**: `float`
-- **Shading**: `AdornShading`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CylinderHandleAdornment.Angle` | `float` |  |
+| `Class.CylinderHandleAdornment.Height` | `float` |  |
+| `Class.CylinderHandleAdornment.InnerRadius` | `float` |  |
+| `Class.CylinderHandleAdornment.Radius` | `float` |  |
+| `Class.CylinderHandleAdornment.Shading` | `Enum.AdornShading` |  |

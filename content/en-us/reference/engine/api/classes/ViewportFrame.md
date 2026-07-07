@@ -6,18 +6,23 @@ superclass: GuiObject
 
 # ViewportFrame
 
-**Inherits**: GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Ambient**: `Color3`
-- **CurrentCamera**: `Camera` [NotReplicated]
-- **ImageColor3**: `Color3`
-- **ImageTransparency**: `float`
-- **IsMirrored**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LightColor**: `Color3`
-- **LightDirection**: `Vector3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ViewportFrame.Ambient` | `Datatype.Color3` |  |
+| `Class.ViewportFrame.CurrentCamera` | `Class.Camera` | [NotReplicated] |
+| `Class.ViewportFrame.ImageColor3` | `Datatype.Color3` |  |
+| `Class.ViewportFrame.ImageTransparency` | `float` |  |
+| `Class.ViewportFrame.IsMirrored` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ViewportFrame.LightColor` | `Datatype.Color3` |  |
+| `Class.ViewportFrame.LightDirection` | `Datatype.Vector3` |  |
 
 ## Methods
 
-- **CaptureSnapshotAsync**() -> `ContentId` [Yields]
+### `Class.ViewportFrame:CaptureSnapshotAsync`
+
+``CaptureSnapshotAsync()`` → `Datatype.ContentId`
+  [Yields] {security: RobloxScriptSecurity}

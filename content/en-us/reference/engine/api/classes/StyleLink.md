@@ -6,8 +6,10 @@ superclass: Instance
 
 # StyleLink
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **StyleSheet**: `StyleSheet`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StyleLink.StyleSheet` | `Class.StyleSheet` |  |

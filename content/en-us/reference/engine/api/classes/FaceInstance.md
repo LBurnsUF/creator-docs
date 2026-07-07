@@ -7,10 +7,12 @@ tags: [NotCreatable, NotBrowsable]
 
 # FaceInstance
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Properties
 
-- **Face**: `NormalId`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FaceInstance.Face` | `Enum.NormalId` |  |

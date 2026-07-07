@@ -7,13 +7,24 @@ tags: [NotCreatable, Service]
 
 # RuntimeContentService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Events
 
-- **RuntimeContentFail**(`id: string`)
-- **RuntimeContentLRCleanup**(`id: string`, `priorityList: string`)
-- **RuntimeContentQuery**(`id: string`, `expectedType: string`, `priorityList: string`)
-- **RuntimeContentShare**(`id: string`, `content: string`, `metadata: string`)
+### `Class.RuntimeContentService.RuntimeContentFail`
+
+Fires with: (id: `string`)
+
+### `Class.RuntimeContentService.RuntimeContentLRCleanup`
+
+Fires with: (id: `string`, priorityList: `string`)
+
+### `Class.RuntimeContentService.RuntimeContentQuery`
+
+Fires with: (id: `string`, expectedType: `string`, priorityList: `string`)
+
+### `Class.RuntimeContentService.RuntimeContentShare`
+
+Fires with: (id: `string`, content: `string`, metadata: `string`)

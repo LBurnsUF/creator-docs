@@ -6,20 +6,24 @@ superclass: TriangleMeshPart
 
 # MeshPart
 
-**Inherits**: TriangleMeshPart > BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.TriangleMeshPart` > `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **DoubleSided**: `bool`
-- **HasJointOffset**: `bool` [Hidden] [Deprecated] (Security: Read=None, Write=NotAccessibleSecurity)
-- **HasSkinnedMesh**: `bool` [Hidden] (Security: Read=None, Write=NotAccessibleSecurity)
-- **JointOffset**: `Vector3` [Hidden] [Deprecated] (Security: Read=None, Write=NotAccessibleSecurity)
-- **MeshContent**: `Content` (Security: Read=None, Write=NotAccessibleSecurity)
-- **MeshId**: `ContentId` (Security: Read=None, Write=NotAccessibleSecurity)
-- **RenderFidelity**: `RenderFidelity` [NotReplicated] (Security: Read=None, Write=PluginSecurity)
-- **TextureContent**: `Content`
-- **TextureID**: `ContentId`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.MeshPart.DoubleSided` | `bool` |  |
+| `Class.MeshPart.HasJointOffset` | `bool` | [Hidden] [Deprecated] {write: NotAccessibleSecurity} |
+| `Class.MeshPart.HasSkinnedMesh` | `bool` | [Hidden] {write: NotAccessibleSecurity} |
+| `Class.MeshPart.JointOffset` | `Datatype.Vector3` | [Hidden] [Deprecated] {write: NotAccessibleSecurity} |
+| `Class.MeshPart.MeshContent` | `Datatype.Content` |  {write: NotAccessibleSecurity} |
+| `Class.MeshPart.MeshId` | `Datatype.ContentId` |  {write: NotAccessibleSecurity} |
+| `Class.MeshPart.RenderFidelity` | `Enum.RenderFidelity` | [NotReplicated] {write: PluginSecurity} |
+| `Class.MeshPart.TextureContent` | `Datatype.Content` |  |
+| `Class.MeshPart.TextureID` | `Datatype.ContentId` |  |
 
 ## Methods
 
-- **ApplyMesh**(`meshPart: Instance`) -> `null`
+### `Class.MeshPart:ApplyMesh`
+
+``ApplyMesh(meshPart: `Class.Instance`)`` → `null`

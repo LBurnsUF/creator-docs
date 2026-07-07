@@ -6,20 +6,39 @@ superclass: Instance
 
 # AnimationNodeDefinition
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **NodeId**: `string` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **NodeType**: `AnimationNodeType`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AnimationNodeDefinition.NodeId` | `string` |  {security: RobloxScriptSecurity} |
+| `Class.AnimationNodeDefinition.NodeType` | `Enum.AnimationNodeType` |  |
 
 ## Methods
 
-- **AddInputPin**(`pin: string`) -> `null`
-- **GetOrderedInputPinNames**() -> `Array`
-- **RemoveInputPin**(`pin: string`) -> `null`
-- **SetOrderedInputPinNames**(`pins: Array`) -> `null`
+### `Class.AnimationNodeDefinition:AddInputPin`
+
+``AddInputPin(pin: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationNodeDefinition:GetOrderedInputPinNames`
+
+``GetOrderedInputPinNames()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationNodeDefinition:RemoveInputPin`
+
+``RemoveInputPin(pin: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationNodeDefinition:SetOrderedInputPinNames`
+
+``SetOrderedInputPinNames(pins: `Array`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **InputPinsChanged**()
+### `Class.AnimationNodeDefinition.InputPinsChanged`
+
+Fires with: ()

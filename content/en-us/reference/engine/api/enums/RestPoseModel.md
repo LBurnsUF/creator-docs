@@ -3,11 +3,13 @@ title: RestPoseModel
 type: enum
 ---
 
-# RestPoseModel (Enum)
+# `Enum.RestPoseModel`
+
+The `Enum.RestPoseModel` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| FromRigInACE | 0 |
-| FromRigInFile | 1 |
-| FromRigInFileZeroedRotations | 2 |
-| FromCustomClip | 3 |
+| `Enum.RestPoseModel.FromRigInACE` | 0 |
+| `Enum.RestPoseModel.FromRigInFile` | 1 |
+| `Enum.RestPoseModel.FromRigInFileZeroedRotations` | 2 |
+| `Enum.RestPoseModel.FromCustomClip` | 3 |

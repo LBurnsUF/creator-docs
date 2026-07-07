@@ -3,14 +3,14 @@ title: RotationCurveKey
 type: datatype
 ---
 
-# RotationCurveKey (DataType)
+# `Datatype.RotationCurveKey`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- RotationCurve.InsertKey(key)
+- `Class.RotationCurve:InsertKey` (parameter `key`)
 
 ## Used as Return Type
 
-- RotationCurve.GetKeyAtIndex
+- `Class.RotationCurve:GetKeyAtIndex`

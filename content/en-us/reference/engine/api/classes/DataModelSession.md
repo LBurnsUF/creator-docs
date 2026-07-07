@@ -7,16 +7,23 @@ tags: [NotCreatable]
 
 # DataModelSession
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **CurrentDataModelType**: `StudioDataModelType` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SessionId**: `string` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DataModelSession.CurrentDataModelType` | `Enum.StudioDataModelType` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.DataModelSession.SessionId` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Events
 
-- **CurrentDataModelTypeAboutToChange**(`dataModelType: StudioDataModelType`)
-- **CurrentDataModelTypeChanged**()
+### `Class.DataModelSession.CurrentDataModelTypeAboutToChange`
+
+Fires with: (dataModelType: `Enum.StudioDataModelType`)
+
+### `Class.DataModelSession.CurrentDataModelTypeChanged`
+
+Fires with: ()

@@ -6,9 +6,11 @@ superclass: Instance
 
 # PathfindingModifier
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Label**: `string`
-- **PassThrough**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PathfindingModifier.Label` | `string` |  |
+| `Class.PathfindingModifier.PassThrough` | `bool` |  |

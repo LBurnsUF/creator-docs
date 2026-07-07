@@ -6,18 +6,25 @@ superclass: Instance
 
 # InputContext
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Enabled**: `bool`
-- **Priority**: `int`
-- **Sink**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.InputContext.Enabled` | `bool` |  |
+| `Class.InputContext.Priority` | `int` |  |
+| `Class.InputContext.Sink` | `bool` |  |
 
 ## Methods
 
-- **GetInputActions**() -> `Instances`
+### `Class.InputContext:GetInputActions`
+
+``GetInputActions()`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **InputActionsChanged**()
+### `Class.InputContext.InputActionsChanged`
+
+Fires with: ()

@@ -3,9 +3,11 @@ title: ReceiptDecision
 type: enum
 ---
 
-# ReceiptDecision (Enum)
+# `Enum.ReceiptDecision`
+
+The `Enum.ReceiptDecision` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| NotProcessedYet | 0 |
-| Processed | 1 |
+| `Enum.ReceiptDecision.NotProcessedYet` | 0 |
+| `Enum.ReceiptDecision.Processed` | 1 |

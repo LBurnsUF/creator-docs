@@ -3,14 +3,16 @@ title: IXPLoadingStatus
 type: enum
 ---
 
-# IXPLoadingStatus (Enum)
+# `Enum.IXPLoadingStatus`
+
+The `Enum.IXPLoadingStatus` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Pending | 1 |
-| Initialized | 2 |
-| ErrorInvalidUser | 3 |
-| ErrorConnection | 4 |
-| ErrorJsonParse | 5 |
-| ErrorTimedOut | 6 |
+| `Enum.IXPLoadingStatus.None` | 0 |
+| `Enum.IXPLoadingStatus.Pending` | 1 |
+| `Enum.IXPLoadingStatus.Initialized` | 2 |
+| `Enum.IXPLoadingStatus.ErrorInvalidUser` | 3 |
+| `Enum.IXPLoadingStatus.ErrorConnection` | 4 |
+| `Enum.IXPLoadingStatus.ErrorJsonParse` | 5 |
+| `Enum.IXPLoadingStatus.ErrorTimedOut` | 6 |

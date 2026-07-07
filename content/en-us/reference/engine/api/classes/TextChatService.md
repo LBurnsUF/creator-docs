@@ -7,63 +7,190 @@ tags: [NotCreatable, Service]
 
 # TextChatService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **ChatTranslationEnabled**: `bool` [NotReplicated] (Security: Read=None, Write=RobloxScriptSecurity)
-- **ChatTranslationFTUXShown**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ChatTranslationToggleEnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ChatVersion**: `ChatVersion` (Security: Read=None, Write=RobloxScriptSecurity)
-- **CreateDefaultCommands**: `bool` (Security: Read=None, Write=PluginSecurity)
-- **CreateDefaultTextChannels**: `bool` (Security: Read=None, Write=PluginSecurity)
-- **EnableProtectedChat**: `RolloutState` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **HasSeenDeprecationDialog**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsLegacyChatDisabled**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextChatService.ChatTranslationEnabled` | `bool` | [NotReplicated] {write: RobloxScriptSecurity} |
+| `Class.TextChatService.ChatTranslationFTUXShown` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextChatService.ChatTranslationToggleEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextChatService.ChatVersion` | `Enum.ChatVersion` |  {write: RobloxScriptSecurity} |
+| `Class.TextChatService.CreateDefaultCommands` | `bool` |  {write: PluginSecurity} |
+| `Class.TextChatService.CreateDefaultTextChannels` | `bool` |  {write: PluginSecurity} |
+| `Class.TextChatService.EnableProtectedChat` | `Enum.RolloutState` |  {security: RobloxScriptSecurity} |
+| `Class.TextChatService.HasSeenDeprecationDialog` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextChatService.IsLegacyChatDisabled` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **CanUserChatAsync**(`userId: User`) -> `bool` [Yields]
-- **CanUsersChatAsync**(`userIdFrom: User`, `userIdTo: User`) -> `bool` [Yields]
-- **CanUsersDirectChatAsync**(`requesterUserId: User`, `userIds: Array`) -> `Array` [Yields]
-- **CanUsersWhisperAsync**(`fromUserId: User`, `toUserId: User`) -> `bool` [Yields]
-- **DisplayBubble**(`partOrCharacter: Instance`, `message: string`) -> `null`
-- **GetChatGroupsAsync**(`players: Instances`) -> `Array` [Yields]
-- **GetChatableUserCountAsync**(`userId: User`, `context: string`) -> `int` [Yields]
-- **GetPresetsAsync**() -> `Dictionary` [Yields]
-- **GetTextChannelWindows**() -> `Array`
-- **HasAllocatedUniverseChatContext**(`context: string`) -> `bool`
-- **OnUserChatSettingUpdateAsync**(`featureName: string`, `featureValue: string`) -> `bool` [Yields]
-- **SendDictatedSpeechUniverseChatAsync**(`text: string`) -> `TextChatMessage` [Yields]
-- **SendEnableChatButtonClicked**() -> `null`
-- **SendEnableChatButtonShown**() -> `null`
-- **SendExpChatLoadSuccess**(`loadingLatency: int`, `extras: Dictionary?`) -> `null`
-- **SendExpChatMessageClientRendered**(`textChatMessage: TextChatMessage`, `messageRenderedSurface: string = unknown`, `selectedChannelTab: int64 = -1`) -> `null`
-- **SendExpChatWindowScroll**() -> `null`
-- **SendExpChatWindowStatusChange**(`timeClosed: int`, `timeOpen: int`, `timeBackgroundIdle: int`, `timeTextIdle: int`) -> `null`
-- **SendUniverseChatMessageAsync**(`text: string`, `metadata: string`) -> `TextChatMessage` [Yields]
-- **SendUniverseChatPresetAsync**(`presetId: string`) -> `TextChatMessage` [Yields]
-- **setModerationModeEnabled**(`userId: int64`, `enabled: bool`) -> `bool`
+### `Class.TextChatService:CanUserChatAsync`
+
+``CanUserChatAsync(userId: `Datatype.User`)`` → `bool`
+  [Yields]
+
+### `Class.TextChatService:CanUsersChatAsync`
+
+``CanUsersChatAsync(userIdFrom: `Datatype.User`, userIdTo: `Datatype.User`)`` → `bool`
+  [Yields]
+
+### `Class.TextChatService:CanUsersDirectChatAsync`
+
+``CanUsersDirectChatAsync(requesterUserId: `Datatype.User`, userIds: `Array`)`` → `Array`
+  [Yields]
+
+### `Class.TextChatService:CanUsersWhisperAsync`
+
+``CanUsersWhisperAsync(fromUserId: `Datatype.User`, toUserId: `Datatype.User`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:DisplayBubble`
+
+``DisplayBubble(partOrCharacter: `Class.Instance`, message: `string`)`` → `null`
+
+### `Class.TextChatService:GetChatGroupsAsync`
+
+``GetChatGroupsAsync(players: `Datatype.Instances`)`` → `Array`
+  [Yields]
+
+### `Class.TextChatService:GetChatableUserCountAsync`
+
+``GetChatableUserCountAsync(userId: `Datatype.User`, context: `string`)`` → `int`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:GetPresetsAsync`
+
+``GetPresetsAsync()`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:GetTextChannelWindows`
+
+``GetTextChannelWindows()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:HasAllocatedUniverseChatContext`
+
+``HasAllocatedUniverseChatContext(context: `string`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:OnUserChatSettingUpdateAsync`
+
+``OnUserChatSettingUpdateAsync(featureName: `string`, featureValue: `string`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:SendDictatedSpeechUniverseChatAsync`
+
+``SendDictatedSpeechUniverseChatAsync(text: `string`)`` → `Class.TextChatMessage`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:SendEnableChatButtonClicked`
+
+``SendEnableChatButtonClicked()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:SendEnableChatButtonShown`
+
+``SendEnableChatButtonShown()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:SendExpChatLoadSuccess`
+
+``SendExpChatLoadSuccess(loadingLatency: `int`, extras: `Dictionary?`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:SendExpChatMessageClientRendered`
+
+``SendExpChatMessageClientRendered(textChatMessage: `Class.TextChatMessage`, messageRenderedSurface: `string`, selectedChannelTab: `int64`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:SendExpChatWindowScroll`
+
+``SendExpChatWindowScroll()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:SendExpChatWindowStatusChange`
+
+``SendExpChatWindowStatusChange(timeClosed: `int`, timeOpen: `int`, timeBackgroundIdle: `int`, timeTextIdle: `int`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:SendUniverseChatMessageAsync`
+
+``SendUniverseChatMessageAsync(text: `string`, metadata: `string`)`` → `Class.TextChatMessage`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:SendUniverseChatPresetAsync`
+
+``SendUniverseChatPresetAsync(presetId: `string`)`` → `Class.TextChatMessage`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextChatService:setModerationModeEnabled`
+
+``setModerationModeEnabled(userId: `int64`, enabled: `bool`)`` → `bool`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **BubbleDisplayed**(`partOrCharacter: Instance`, `textChatMessage: TextChatMessage`)
-- **ChatActionReceived**(`chatActionMessage: TextChatMessage`)
-- **ExpChatFeatureValueChanged**(`userId: int64`, `featureName: string`, `featureValue: string`)
-- **MessageReceived**(`textChatMessage: TextChatMessage`)
-- **OnIncomingMessageEvent**(`textChatMessage: TextChatMessage`)
-- **SendingMessage**(`textChatMessage: TextChatMessage`)
-- **SendingUniverseChatMessage**(`textChatMessage: TextChatMessage`)
-- **TextChannelWindowAdded**(`textChannelWindow: TextChannelWindow`)
-- **TextChannelWindowRemoved**(`textChannelWindow: TextChannelWindow`)
-- **UniverseChatChannelAllocated**(`context: string`)
-- **UniverseChatMessageReceived**(`textChatMessage: TextChatMessage`)
-- **UserMessageIntentSent**(`userIntentMessage: TextChatMessage`)
+### `Class.TextChatService.BubbleDisplayed`
+
+Fires with: (partOrCharacter: `Class.Instance`, textChatMessage: `Class.TextChatMessage`)
+
+### `Class.TextChatService.ChatActionReceived`
+
+Fires with: (chatActionMessage: `Class.TextChatMessage`)
+
+### `Class.TextChatService.ExpChatFeatureValueChanged`
+
+Fires with: (userId: `int64`, featureName: `string`, featureValue: `string`)
+
+### `Class.TextChatService.MessageReceived`
+
+Fires with: (textChatMessage: `Class.TextChatMessage`)
+
+### `Class.TextChatService.OnIncomingMessageEvent`
+
+Fires with: (textChatMessage: `Class.TextChatMessage`)
+
+### `Class.TextChatService.SendingMessage`
+
+Fires with: (textChatMessage: `Class.TextChatMessage`)
+
+### `Class.TextChatService.SendingUniverseChatMessage`
+
+Fires with: (textChatMessage: `Class.TextChatMessage`)
+
+### `Class.TextChatService.TextChannelWindowAdded`
+
+Fires with: (textChannelWindow: `Class.TextChannelWindow`)
+
+### `Class.TextChatService.TextChannelWindowRemoved`
+
+Fires with: (textChannelWindow: `Class.TextChannelWindow`)
+
+### `Class.TextChatService.UniverseChatChannelAllocated`
+
+Fires with: (context: `string`)
+
+### `Class.TextChatService.UniverseChatMessageReceived`
+
+Fires with: (textChatMessage: `Class.TextChatMessage`)
+
+### `Class.TextChatService.UserMessageIntentSent`
+
+Fires with: (userIntentMessage: `Class.TextChatMessage`)
 
 ## Callbacks
 
-- **OnBubbleAdded**(`message: TextChatMessage`, `adornee: Instance`) -> `Tuple`
-- **OnChatWindowAdded**(`message: TextChatMessage`) -> `Tuple`
-- **OnIncomingMessage**(`message: TextChatMessage`) -> `Tuple`
+### `Class.TextChatService.OnBubbleAdded`
+
+``OnBubbleAdded(message: `Class.TextChatMessage`, adornee: `Class.Instance`)`` → `Tuple`
+
+### `Class.TextChatService.OnChatWindowAdded`
+
+``OnChatWindowAdded(message: `Class.TextChatMessage`)`` → `Tuple`
+
+### `Class.TextChatService.OnIncomingMessage`
+
+``OnIncomingMessage(message: `Class.TextChatMessage`)`` → `Tuple`

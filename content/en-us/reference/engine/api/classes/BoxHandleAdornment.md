@@ -6,9 +6,11 @@ superclass: HandleAdornment
 
 # BoxHandleAdornment
 
-**Inherits**: HandleAdornment > PVAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.HandleAdornment` > `Class.PVAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Shading**: `AdornShading`
-- **Size**: `Vector3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BoxHandleAdornment.Shading` | `Enum.AdornShading` |  |
+| `Class.BoxHandleAdornment.Size` | `Datatype.Vector3` |  |

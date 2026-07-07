@@ -7,21 +7,36 @@ tags: [NotCreatable, NotReplicated]
 
 # WebSocketClient
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **ConnectionState**: `WebSocketState` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.WebSocketClient.ConnectionState` | `Enum.WebSocketState` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **Close**() -> `null`
-- **Send**(`data: string`) -> `null`
+### `Class.WebSocketClient:Close`
+
+``Close()`` → `null`
+
+### `Class.WebSocketClient:Send`
+
+``Send(data: `string`)`` → `null`
 
 ## Events
 
-- **Closed**()
-- **MessageReceived**(`data: string`)
-- **Opened**()
+### `Class.WebSocketClient.Closed`
+
+Fires with: ()
+
+### `Class.WebSocketClient.MessageReceived`
+
+Fires with: (data: `string`)
+
+### `Class.WebSocketClient.Opened`
+
+Fires with: ()

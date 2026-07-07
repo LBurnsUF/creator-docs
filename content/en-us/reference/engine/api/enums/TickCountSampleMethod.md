@@ -3,10 +3,12 @@ title: TickCountSampleMethod
 type: enum
 ---
 
-# TickCountSampleMethod (Enum)
+# `Enum.TickCountSampleMethod`
+
+The `Enum.TickCountSampleMethod` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Fast | 0 |
-| Benchmark | 1 |
-| Precise | 2 |
+| `Enum.TickCountSampleMethod.Fast` | 0 |
+| `Enum.TickCountSampleMethod.Benchmark` | 1 |
+| `Enum.TickCountSampleMethod.Precise` | 2 |

@@ -7,16 +7,18 @@ tags: [NotCreatable]
 
 # JointInstance
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Active**: `bool` [ReadOnly] [NotReplicated]
-- **C0**: `CFrame`
-- **C1**: `CFrame`
-- **Enabled**: `bool`
-- **Part0**: `BasePart`
-- **Part1**: `BasePart`
-- **part1**: `BasePart` [Hidden] [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.JointInstance.Active` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.JointInstance.C0` | `Datatype.CFrame` |  |
+| `Class.JointInstance.C1` | `Datatype.CFrame` |  |
+| `Class.JointInstance.Enabled` | `bool` |  |
+| `Class.JointInstance.Part0` | `Class.BasePart` |  |
+| `Class.JointInstance.Part1` | `Class.BasePart` |  |
+| `Class.JointInstance.part1` | `Class.BasePart` | [Hidden] [NotReplicated] [Deprecated] |

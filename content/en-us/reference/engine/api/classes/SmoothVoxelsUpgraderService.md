@@ -7,15 +7,24 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # SmoothVoxelsUpgraderService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **Cancel**() -> `null`
-- **Start**() -> `null`
+### `Class.SmoothVoxelsUpgraderService:Cancel`
+
+``Cancel()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SmoothVoxelsUpgraderService:Start`
+
+``Start()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **Status**(`progressRatio: float`)
+### `Class.SmoothVoxelsUpgraderService.Status`
+
+Fires with: (progressRatio: `float`)

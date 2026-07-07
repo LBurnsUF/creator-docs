@@ -6,13 +6,15 @@ superclass: TextChatMessageProperties
 
 # BubbleChatMessageProperties
 
-**Inherits**: TextChatMessageProperties > Instance > Object
+**Inherits from:** `Class.TextChatMessageProperties` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **BackgroundColor3**: `Color3`
-- **BackgroundTransparency**: `double`
-- **FontFace**: `Font`
-- **TailVisible**: `bool`
-- **TextColor3**: `Color3`
-- **TextSize**: `int64`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BubbleChatMessageProperties.BackgroundColor3` | `Datatype.Color3` |  |
+| `Class.BubbleChatMessageProperties.BackgroundTransparency` | `double` |  |
+| `Class.BubbleChatMessageProperties.FontFace` | `Datatype.Font` |  |
+| `Class.BubbleChatMessageProperties.TailVisible` | `bool` |  |
+| `Class.BubbleChatMessageProperties.TextColor3` | `Datatype.Color3` |  |
+| `Class.BubbleChatMessageProperties.TextSize` | `int64` |  |

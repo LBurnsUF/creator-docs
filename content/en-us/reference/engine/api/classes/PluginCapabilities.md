@@ -6,8 +6,10 @@ superclass: Instance
 
 # PluginCapabilities
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Manifest**: `string` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PluginCapabilities.Manifest` | `string` |  {security: RobloxScriptSecurity} |

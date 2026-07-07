@@ -3,9 +3,11 @@ title: TableMajorAxis
 type: enum
 ---
 
-# TableMajorAxis (Enum)
+# `Enum.TableMajorAxis`
+
+The `Enum.TableMajorAxis` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| RowMajor | 0 |
-| ColumnMajor | 1 |
+| `Enum.TableMajorAxis.RowMajor` | 0 |
+| `Enum.TableMajorAxis.ColumnMajor` | 1 |

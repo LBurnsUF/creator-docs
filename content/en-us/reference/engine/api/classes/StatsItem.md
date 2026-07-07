@@ -7,15 +7,24 @@ tags: [NotCreatable]
 
 # StatsItem
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **DisplayName**: `string` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StatsItem.DisplayName` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: PluginSecurity} |
 
 ## Methods
 
-- **GetValue**() -> `double`
-- **GetValueString**() -> `string`
+### `Class.StatsItem:GetValue`
+
+``GetValue()`` → `double`
+   {security: PluginSecurity}
+
+### `Class.StatsItem:GetValueString`
+
+``GetValueString()`` → `string`
+   {security: PluginSecurity}

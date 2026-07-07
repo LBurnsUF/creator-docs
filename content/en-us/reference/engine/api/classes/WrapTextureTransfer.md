@@ -6,10 +6,12 @@ superclass: Instance
 
 # WrapTextureTransfer
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ReferenceCageMeshContent**: `Content`
-- **UVMaxBound**: `Vector2`
-- **UVMinBound**: `Vector2`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.WrapTextureTransfer.ReferenceCageMeshContent` | `Datatype.Content` |  |
+| `Class.WrapTextureTransfer.UVMaxBound` | `Datatype.Vector2` |  |
+| `Class.WrapTextureTransfer.UVMinBound` | `Datatype.Vector2` |  |

@@ -6,14 +6,26 @@ superclass: Instance
 
 # RemoteFunction
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Methods
 
-- **InvokeClient**(`player: Player`, `arguments: Tuple`) -> `Tuple` [Yields]
-- **InvokeServer**(`arguments: Tuple`) -> `Tuple` [Yields]
+### `Class.RemoteFunction:InvokeClient`
+
+``InvokeClient(player: `Class.Player`, arguments: `Tuple`)`` → `Tuple`
+  [Yields]
+
+### `Class.RemoteFunction:InvokeServer`
+
+``InvokeServer(arguments: `Tuple`)`` → `Tuple`
+  [Yields]
 
 ## Callbacks
 
-- **OnClientInvoke**(`arguments: Tuple`) -> `Tuple`
-- **OnServerInvoke**(`player: Player`, `arguments: Tuple`) -> `Tuple`
+### `Class.RemoteFunction.OnClientInvoke`
+
+``OnClientInvoke(arguments: `Tuple`)`` → `Tuple`
+
+### `Class.RemoteFunction.OnServerInvoke`
+
+``OnServerInvoke(player: `Class.Player`, arguments: `Tuple`)`` → `Tuple`

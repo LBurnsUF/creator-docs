@@ -6,15 +6,17 @@ superclass: ControllerSensor
 
 # ControllerPartSensor
 
-**Inherits**: ControllerSensor > SensorBase > Instance > Object
+**Inherits from:** `Class.ControllerSensor` > `Class.SensorBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **HitFrame**: `CFrame`
-- **HitNormal**: `Vector3`
-- **LadderSearchHeight**: `float`
-- **LadderSearchOffset**: `float`
-- **SearchDistance**: `float`
-- **SensedMaterial**: `Material`
-- **SensedPart**: `BasePart`
-- **SensorMode**: `SensorMode`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ControllerPartSensor.HitFrame` | `Datatype.CFrame` |  |
+| `Class.ControllerPartSensor.HitNormal` | `Datatype.Vector3` |  |
+| `Class.ControllerPartSensor.LadderSearchHeight` | `float` |  |
+| `Class.ControllerPartSensor.LadderSearchOffset` | `float` |  |
+| `Class.ControllerPartSensor.SearchDistance` | `float` |  |
+| `Class.ControllerPartSensor.SensedMaterial` | `Enum.Material` |  |
+| `Class.ControllerPartSensor.SensedPart` | `Class.BasePart` |  |
+| `Class.ControllerPartSensor.SensorMode` | `Enum.SensorMode` |  |

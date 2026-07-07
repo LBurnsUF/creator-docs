@@ -3,11 +3,13 @@ title: SensorMode
 type: enum
 ---
 
-# SensorMode (Enum)
+# `Enum.SensorMode`
+
+The `Enum.SensorMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Floor | 0 |
-| Ladder | 1 |
-| ClassicFloor | 2 |
-| ClassicLadder | 3 |
+| `Enum.SensorMode.Floor` | 0 |
+| `Enum.SensorMode.Ladder` | 1 |
+| `Enum.SensorMode.ClassicFloor` | 2 |
+| `Enum.SensorMode.ClassicLadder` | 3 |

@@ -7,20 +7,22 @@ tags: [NotCreatable, NotReplicated]
 
 # ScreenshotHud
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **CameraButtonIcon**: `ContentId`
-- **CameraButtonIconContent**: `Content`
-- **CameraButtonPosition**: `UDim2`
-- **CloseButtonPosition**: `UDim2`
-- **CloseWhenScreenshotTaken**: `bool`
-- **ExperienceNameOverlayEnabled**: `bool` [Hidden] [Deprecated]
-- **HideCoreGuiForCaptures**: `bool`
-- **HidePlayerGuiForCaptures**: `bool`
-- **OverlayFont**: `Font` [Hidden] [Deprecated]
-- **UsernameOverlayEnabled**: `bool` [Hidden] [Deprecated]
-- **Visible**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ScreenshotHud.CameraButtonIcon` | `Datatype.ContentId` |  |
+| `Class.ScreenshotHud.CameraButtonIconContent` | `Datatype.Content` |  |
+| `Class.ScreenshotHud.CameraButtonPosition` | `Datatype.UDim2` |  |
+| `Class.ScreenshotHud.CloseButtonPosition` | `Datatype.UDim2` |  |
+| `Class.ScreenshotHud.CloseWhenScreenshotTaken` | `bool` |  |
+| `Class.ScreenshotHud.ExperienceNameOverlayEnabled` | `bool` | [Hidden] [Deprecated] |
+| `Class.ScreenshotHud.HideCoreGuiForCaptures` | `bool` |  |
+| `Class.ScreenshotHud.HidePlayerGuiForCaptures` | `bool` |  |
+| `Class.ScreenshotHud.OverlayFont` | `Enum.Font` | [Hidden] [Deprecated] |
+| `Class.ScreenshotHud.UsernameOverlayEnabled` | `bool` | [Hidden] [Deprecated] |
+| `Class.ScreenshotHud.Visible` | `bool` |  |

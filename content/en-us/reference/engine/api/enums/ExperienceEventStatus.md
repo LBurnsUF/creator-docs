@@ -3,12 +3,14 @@ title: ExperienceEventStatus
 type: enum
 ---
 
-# ExperienceEventStatus (Enum)
+# `Enum.ExperienceEventStatus`
+
+The `Enum.ExperienceEventStatus` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Active | 0 |
-| Cancelled | 1 |
-| Moderated | 2 |
-| Unpublished | 3 |
-| Unknown | 4 |
+| `Enum.ExperienceEventStatus.Active` | 0 |
+| `Enum.ExperienceEventStatus.Cancelled` | 1 |
+| `Enum.ExperienceEventStatus.Moderated` | 2 |
+| `Enum.ExperienceEventStatus.Unpublished` | 3 |
+| `Enum.ExperienceEventStatus.Unknown` | 4 |

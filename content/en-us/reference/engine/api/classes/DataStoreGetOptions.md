@@ -7,10 +7,12 @@ tags: [NotReplicated]
 
 # DataStoreGetOptions
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **UseCache**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DataStoreGetOptions.UseCache` | `bool` |  |

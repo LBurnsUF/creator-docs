@@ -3,13 +3,15 @@ title: PoseEasingStyle
 type: enum
 ---
 
-# PoseEasingStyle (Enum)
+# `Enum.PoseEasingStyle`
+
+The `Enum.PoseEasingStyle` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Linear | 0 |
-| Constant | 1 |
-| Elastic | 2 |
-| Cubic | 3 |
-| Bounce | 4 |
-| CubicV2 | 5 |
+| `Enum.PoseEasingStyle.Linear` | 0 |
+| `Enum.PoseEasingStyle.Constant` | 1 |
+| `Enum.PoseEasingStyle.Elastic` | 2 |
+| `Enum.PoseEasingStyle.Cubic` | 3 |
+| `Enum.PoseEasingStyle.Bounce` | 4 |
+| `Enum.PoseEasingStyle.CubicV2` | 5 |

@@ -7,38 +7,98 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # LocalizationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **ForcePlayModeGameLocaleId**: `string` [Hidden] [NotReplicated] (Security: Read=LocalUserSecurity, Write=LocalUserSecurity)
-- **ForcePlayModeRobloxLocaleId**: `string` [Hidden] [NotReplicated] (Security: Read=LocalUserSecurity, Write=LocalUserSecurity)
-- **IsTextScraperRunning**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RobloxForcePlayModeGameLocaleId**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RobloxForcePlayModeRobloxLocaleId**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RobloxLocaleId**: `string` [ReadOnly] [NotReplicated]
-- **SystemLocaleId**: `string` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.LocalizationService.ForcePlayModeGameLocaleId` | `string` | [Hidden] [NotReplicated] {security: LocalUserSecurity} |
+| `Class.LocalizationService.ForcePlayModeRobloxLocaleId` | `string` | [Hidden] [NotReplicated] {security: LocalUserSecurity} |
+| `Class.LocalizationService.IsTextScraperRunning` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.LocalizationService.RobloxForcePlayModeGameLocaleId` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.LocalizationService.RobloxForcePlayModeRobloxLocaleId` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.LocalizationService.RobloxLocaleId` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.LocalizationService.SystemLocaleId` | `string` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetCorescriptLocalizations**() -> `Instances`
-- **GetCountryRegionForPlayerAsync**(`player: Instance`) -> `string` [Yields]
-- **GetIsLoadingInternalTranslations**() -> `bool`
-- **GetTableEntries**(`instance: Instance = nil`) -> `Array`
-- **GetTranslatorForLocaleAsync**(`locale: string`) -> `Instance` [Yields]
-- **GetTranslatorForPlayer**(`player: Instance`) -> `Instance`
-- **GetTranslatorForPlayerAsync**(`player: Instance`) -> `Instance` [Yields]
-- **IsLoadingInternalTranslationsSettingChanged**(`newIsLoadingInternalTranslations: bool`) -> `null`
-- **PromptDownloadGameTableToCSV**(`table: Instance`) -> `null` [Yields]
-- **PromptExportToCSVs**() -> `null` [Yields]
-- **PromptImportFromCSVs**() -> `null` [Yields]
-- **PromptUploadCSVToGameTable**() -> `Instance` [Yields]
-- **SetRobloxLocaleId**(`locale: string`) -> `null`
-- **StartTextScraper**() -> `null`
-- **StopTextScraper**() -> `null`
+### `Class.LocalizationService:GetCorescriptLocalizations`
+
+``GetCorescriptLocalizations()`` → `Datatype.Instances`
+
+### `Class.LocalizationService:GetCountryRegionForPlayerAsync`
+
+``GetCountryRegionForPlayerAsync(player: `Class.Instance`)`` → `string`
+  [Yields]
+
+### `Class.LocalizationService:GetIsLoadingInternalTranslations`
+
+``GetIsLoadingInternalTranslations()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.LocalizationService:GetTableEntries`
+
+``GetTableEntries(instance: `Class.Instance`)`` → `Array`
+
+### `Class.LocalizationService:GetTranslatorForLocaleAsync`
+
+``GetTranslatorForLocaleAsync(locale: `string`)`` → `Class.Instance`
+  [Yields]
+
+### `Class.LocalizationService:GetTranslatorForPlayer`
+
+``GetTranslatorForPlayer(player: `Class.Instance`)`` → `Class.Instance`
+
+### `Class.LocalizationService:GetTranslatorForPlayerAsync`
+
+``GetTranslatorForPlayerAsync(player: `Class.Instance`)`` → `Class.Instance`
+  [Yields]
+
+### `Class.LocalizationService:IsLoadingInternalTranslationsSettingChanged`
+
+``IsLoadingInternalTranslationsSettingChanged(newIsLoadingInternalTranslations: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LocalizationService:PromptDownloadGameTableToCSV`
+
+``PromptDownloadGameTableToCSV(table: `Class.Instance`)`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.LocalizationService:PromptExportToCSVs`
+
+``PromptExportToCSVs()`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.LocalizationService:PromptImportFromCSVs`
+
+``PromptImportFromCSVs()`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.LocalizationService:PromptUploadCSVToGameTable`
+
+``PromptUploadCSVToGameTable()`` → `Class.Instance`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.LocalizationService:SetRobloxLocaleId`
+
+``SetRobloxLocaleId(locale: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LocalizationService:StartTextScraper`
+
+``StartTextScraper()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LocalizationService:StopTextScraper`
+
+``StopTextScraper()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **AutoTranslateWillRun**()
+### `Class.LocalizationService.AutoTranslateWillRun`
+
+Fires with: ()

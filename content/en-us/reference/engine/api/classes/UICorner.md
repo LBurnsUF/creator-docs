@@ -6,12 +6,14 @@ superclass: UIComponent
 
 # UICorner
 
-**Inherits**: UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **BottomLeftRadius**: `UDim`
-- **BottomRightRadius**: `UDim`
-- **CornerRadius**: `UDim` [NotReplicated]
-- **TopLeftRadius**: `UDim`
-- **TopRightRadius**: `UDim`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UICorner.BottomLeftRadius` | `Datatype.UDim` |  |
+| `Class.UICorner.BottomRightRadius` | `Datatype.UDim` |  |
+| `Class.UICorner.CornerRadius` | `Datatype.UDim` | [NotReplicated] |
+| `Class.UICorner.TopLeftRadius` | `Datatype.UDim` |  |
+| `Class.UICorner.TopRightRadius` | `Datatype.UDim` |  |

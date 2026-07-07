@@ -3,10 +3,12 @@ title: EngineFolder
 type: enum
 ---
 
-# EngineFolder (Enum)
+# `Enum.EngineFolder`
+
+The `Enum.EngineFolder` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Screenshots | 0 |
-| Videos | 1 |
-| Logs | 2 |
+| `Enum.EngineFolder.Screenshots` | 0 |
+| `Enum.EngineFolder.Videos` | 1 |
+| `Enum.EngineFolder.Logs` | 2 |

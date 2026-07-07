@@ -7,10 +7,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # CoreScriptSyncService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetScriptFilePath**(`script: Instance`) -> `Variant`
+### `Class.CoreScriptSyncService:GetScriptFilePath`
+
+``GetScriptFilePath(script: `Class.Instance`)`` → `Variant`
+   {security: RobloxScriptSecurity}

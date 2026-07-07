@@ -7,12 +7,22 @@ tags: [NotCreatable, Service]
 
 # UniqueIdLookupService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **GetInstanceByRfc4122String**(`id: string`) -> `Instance`
-- **GetOrCreateUniqueId**(`instance: Instance`) -> `string`
-- **GetOrCreateUniqueIdRemoteCommand**(`instance: Instance`) -> `string`
+### `Class.UniqueIdLookupService:GetInstanceByRfc4122String`
+
+``GetInstanceByRfc4122String(id: `string`)`` → `Class.Instance`
+   {security: RobloxScriptSecurity}
+
+### `Class.UniqueIdLookupService:GetOrCreateUniqueId`
+
+``GetOrCreateUniqueId(instance: `Class.Instance`)`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.UniqueIdLookupService:GetOrCreateUniqueIdRemoteCommand`
+
+``GetOrCreateUniqueIdRemoteCommand(instance: `Class.Instance`)`` → `string`

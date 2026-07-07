@@ -6,18 +6,20 @@ superclass: ControllerBase
 
 # GroundController
 
-**Inherits**: ControllerBase > Instance > Object
+**Inherits from:** `Class.ControllerBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AccelerationLean**: `float`
-- **AccelerationTime**: `float`
-- **BalanceMaxTorque**: `float`
-- **BalanceSpeed**: `float`
-- **DecelerationTime**: `float`
-- **Friction**: `float`
-- **FrictionWeight**: `float`
-- **GroundOffset**: `float`
-- **StandForce**: `float`
-- **StandSpeed**: `float`
-- **TurnSpeedFactor**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.GroundController.AccelerationLean` | `float` |  |
+| `Class.GroundController.AccelerationTime` | `float` |  |
+| `Class.GroundController.BalanceMaxTorque` | `float` |  |
+| `Class.GroundController.BalanceSpeed` | `float` |  |
+| `Class.GroundController.DecelerationTime` | `float` |  |
+| `Class.GroundController.Friction` | `float` |  |
+| `Class.GroundController.FrictionWeight` | `float` |  |
+| `Class.GroundController.GroundOffset` | `float` |  |
+| `Class.GroundController.StandForce` | `float` |  |
+| `Class.GroundController.StandSpeed` | `float` |  |
+| `Class.GroundController.TurnSpeedFactor` | `float` |  |

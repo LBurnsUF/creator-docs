@@ -3,14 +3,16 @@ title: ThumbnailSize
 type: enum
 ---
 
-# ThumbnailSize (Enum)
+# `Enum.ThumbnailSize`
+
+The `Enum.ThumbnailSize` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| Size48x48 | 0 |
-| Size180x180 | 1 |
-| Size420x420 | 2 |
-| Size60x60 | 3 |
-| Size100x100 | 4 |
-| Size150x150 | 5 |
-| Size352x352 | 6 |
+| `Enum.ThumbnailSize.Size48x48` | 0 |
+| `Enum.ThumbnailSize.Size180x180` | 1 |
+| `Enum.ThumbnailSize.Size420x420` | 2 |
+| `Enum.ThumbnailSize.Size60x60` | 3 |
+| `Enum.ThumbnailSize.Size100x100` | 4 |
+| `Enum.ThumbnailSize.Size150x150` | 5 |
+| `Enum.ThumbnailSize.Size352x352` | 6 |

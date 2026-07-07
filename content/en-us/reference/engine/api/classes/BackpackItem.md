@@ -7,11 +7,13 @@ tags: [NotCreatable]
 
 # BackpackItem
 
-**Inherits**: Model > PVInstance > Instance > Object
+**Inherits from:** `Class.Model` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **TextureContent**: `Content`
-- **TextureId**: `ContentId`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BackpackItem.TextureContent` | `Datatype.Content` |  |
+| `Class.BackpackItem.TextureId` | `Datatype.ContentId` |  |

@@ -6,13 +6,17 @@ superclass: Part
 
 # Seat
 
-**Inherits**: Part > FormFactorPart > BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.Part` > `Class.FormFactorPart` > `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Disabled**: `bool`
-- **Occupant**: `Humanoid` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Seat.Disabled` | `bool` |  |
+| `Class.Seat.Occupant` | `Class.Humanoid` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **Sit**(`humanoid: Instance`) -> `null`
+### `Class.Seat:Sit`
+
+``Sit(humanoid: `Class.Instance`)`` → `null`

@@ -7,11 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AppAgeSignalsService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetAppAgeSignalsAsync**() -> `Dictionary` [Yields]
-- **IsAvailable**() -> `bool`
+### `Class.AppAgeSignalsService:GetAppAgeSignalsAsync`
+
+``GetAppAgeSignalsAsync()`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AppAgeSignalsService:IsAvailable`
+
+``IsAvailable()`` → `bool`
+   {security: RobloxScriptSecurity}

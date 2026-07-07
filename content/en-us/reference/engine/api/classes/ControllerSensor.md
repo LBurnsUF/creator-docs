@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # ControllerSensor
 
-**Inherits**: SensorBase > Instance > Object
+**Inherits from:** `Class.SensorBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

@@ -7,10 +7,12 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # NetworkServer
 
-**Inherits**: NetworkPeer > Instance > Object
+**Inherits from:** `Class.NetworkPeer` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **EncryptStringForPlayerId**(`toEncrypt: string`, `playerId: int64`) -> `string`
+### `Class.NetworkServer:EncryptStringForPlayerId`
+
+``EncryptStringForPlayerId(toEncrypt: `string`, playerId: `int64`)`` → `string`

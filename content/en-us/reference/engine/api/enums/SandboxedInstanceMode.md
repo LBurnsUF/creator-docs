@@ -3,9 +3,11 @@ title: SandboxedInstanceMode
 type: enum
 ---
 
-# SandboxedInstanceMode (Enum)
+# `Enum.SandboxedInstanceMode`
+
+The `Enum.SandboxedInstanceMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Experimental | 1 |
+| `Enum.SandboxedInstanceMode.Default` | 0 |
+| `Enum.SandboxedInstanceMode.Experimental` | 1 |

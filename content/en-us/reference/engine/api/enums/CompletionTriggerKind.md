@@ -3,10 +3,12 @@ title: CompletionTriggerKind
 type: enum
 ---
 
-# CompletionTriggerKind (Enum)
+# `Enum.CompletionTriggerKind`
+
+The `Enum.CompletionTriggerKind` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Invoked | 1 |
-| TriggerCharacter | 2 |
-| TriggerForIncompleteCompletions | 3 |
+| `Enum.CompletionTriggerKind.Invoked` | 1 |
+| `Enum.CompletionTriggerKind.TriggerCharacter` | 2 |
+| `Enum.CompletionTriggerKind.TriggerForIncompleteCompletions` | 3 |

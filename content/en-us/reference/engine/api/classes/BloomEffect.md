@@ -6,10 +6,12 @@ superclass: PostEffect
 
 # BloomEffect
 
-**Inherits**: PostEffect > Instance > Object
+**Inherits from:** `Class.PostEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Intensity**: `float`
-- **Size**: `float`
-- **Threshold**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BloomEffect.Intensity` | `float` |  |
+| `Class.BloomEffect.Size` | `float` |  |
+| `Class.BloomEffect.Threshold` | `float` |  |

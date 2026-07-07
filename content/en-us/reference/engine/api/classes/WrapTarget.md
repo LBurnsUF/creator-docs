@@ -6,10 +6,12 @@ superclass: BaseWrap
 
 # WrapTarget
 
-**Inherits**: BaseWrap > Instance > Object
+**Inherits from:** `Class.BaseWrap` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Color**: `Color3` [NotReplicated] [NotScriptable]
-- **DebugMode**: `WrapTargetDebugMode` [NotReplicated] [NotScriptable]
-- **Stiffness**: `float` [Deprecated] (Security: Read=None, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.WrapTarget.Color` | `Datatype.Color3` | [NotReplicated] [NotScriptable] |
+| `Class.WrapTarget.DebugMode` | `Enum.WrapTargetDebugMode` | [NotReplicated] [NotScriptable] |
+| `Class.WrapTarget.Stiffness` | `float` | [Deprecated] {write: PluginSecurity} |

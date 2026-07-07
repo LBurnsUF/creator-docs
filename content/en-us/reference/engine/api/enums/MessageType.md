@@ -3,11 +3,13 @@ title: MessageType
 type: enum
 ---
 
-# MessageType (Enum)
+# `Enum.MessageType`
+
+The `Enum.MessageType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| MessageOutput | 0 |
-| MessageInfo | 1 |
-| MessageWarning | 2 |
-| MessageError | 3 |
+| `Enum.MessageType.MessageOutput` | 0 |
+| `Enum.MessageType.MessageInfo` | 1 |
+| `Enum.MessageType.MessageWarning` | 2 |
+| `Enum.MessageType.MessageError` | 3 |

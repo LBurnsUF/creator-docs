@@ -7,13 +7,15 @@ tags: [Deprecated]
 
 # Glue
 
-**Inherits**: JointInstance > Instance > Object
+**Inherits from:** `Class.JointInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **F0**: `Vector3`
-- **F1**: `Vector3`
-- **F2**: `Vector3`
-- **F3**: `Vector3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Glue.F0` | `Datatype.Vector3` |  |
+| `Class.Glue.F1` | `Datatype.Vector3` |  |
+| `Class.Glue.F2` | `Datatype.Vector3` |  |
+| `Class.Glue.F3` | `Datatype.Vector3` |  |

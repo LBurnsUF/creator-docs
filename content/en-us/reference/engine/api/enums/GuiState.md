@@ -3,11 +3,13 @@ title: GuiState
 type: enum
 ---
 
-# GuiState (Enum)
+# `Enum.GuiState`
+
+The `Enum.GuiState` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Idle | 0 |
-| Hover | 1 |
-| Press | 2 |
-| NonInteractable | 3 |
+| `Enum.GuiState.Idle` | 0 |
+| `Enum.GuiState.Hover` | 1 |
+| `Enum.GuiState.Press` | 2 |
+| `Enum.GuiState.NonInteractable` | 3 |

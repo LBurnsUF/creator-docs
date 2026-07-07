@@ -3,9 +3,11 @@ title: MarketplaceProductType
 type: enum
 ---
 
-# MarketplaceProductType (Enum)
+# `Enum.MarketplaceProductType`
+
+The `Enum.MarketplaceProductType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| AvatarAsset | 1 |
-| AvatarBundle | 2 |
+| `Enum.MarketplaceProductType.AvatarAsset` | 1 |
+| `Enum.MarketplaceProductType.AvatarBundle` | 2 |

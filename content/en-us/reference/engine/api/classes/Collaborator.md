@@ -7,18 +7,20 @@ tags: [NotCreatable]
 
 # Collaborator
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **CFrame**: `CFrame` [Hidden]
-- **CollaboratorColor**: `int` [Hidden] [Deprecated]
-- **CollaboratorColor3**: `Color3` [Hidden]
-- **CurDocGUID**: `string` [Hidden]
-- **CurScriptLineNumber**: `int` [Hidden]
-- **IsIdle**: `bool` [Hidden]
-- **Status**: `CollaboratorStatus` [Hidden]
-- **UserId**: `int64` [Hidden]
-- **Username**: `string` [Hidden]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Collaborator.CFrame` | `Datatype.CFrame` | [Hidden] |
+| `Class.Collaborator.CollaboratorColor` | `int` | [Hidden] [Deprecated] |
+| `Class.Collaborator.CollaboratorColor3` | `Datatype.Color3` | [Hidden] |
+| `Class.Collaborator.CurDocGUID` | `string` | [Hidden] |
+| `Class.Collaborator.CurScriptLineNumber` | `int` | [Hidden] |
+| `Class.Collaborator.IsIdle` | `bool` | [Hidden] |
+| `Class.Collaborator.Status` | `Enum.CollaboratorStatus` | [Hidden] |
+| `Class.Collaborator.UserId` | `int64` | [Hidden] |
+| `Class.Collaborator.Username` | `string` | [Hidden] |

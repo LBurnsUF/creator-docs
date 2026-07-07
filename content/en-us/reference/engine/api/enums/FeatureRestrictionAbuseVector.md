@@ -3,9 +3,11 @@ title: FeatureRestrictionAbuseVector
 type: enum
 ---
 
-# FeatureRestrictionAbuseVector (Enum)
+# `Enum.FeatureRestrictionAbuseVector`
+
+The `Enum.FeatureRestrictionAbuseVector` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| ExperienceChat | 0 |
-| Communication | 1 |
+| `Enum.FeatureRestrictionAbuseVector.ExperienceChat` | 0 |
+| `Enum.FeatureRestrictionAbuseVector.Communication` | 1 |

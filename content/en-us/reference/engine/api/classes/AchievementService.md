@@ -7,12 +7,23 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AchievementService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GrantAchievement**(`achievementName: string`) -> `bool` [Yields]
-- **HasAchieved**(`achievementName: string`) -> `bool` [Yields]
-- **IsAvailable**() -> `bool`
+### `Class.AchievementService:GrantAchievement`
+
+``GrantAchievement(achievementName: `string`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AchievementService:HasAchieved`
+
+``HasAchieved(achievementName: `string`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AchievementService:IsAvailable`
+
+``IsAvailable()`` → `bool`
+   {security: RobloxScriptSecurity}

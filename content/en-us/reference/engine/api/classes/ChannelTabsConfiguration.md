@@ -7,26 +7,35 @@ tags: [NotCreatable]
 
 # ChannelTabsConfiguration
 
-**Inherits**: TextChatConfigurations > Instance > Object
+**Inherits from:** `Class.TextChatConfigurations` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **AbsolutePosition**: `Vector2` [ReadOnly] [NotReplicated]
-- **AbsoluteSize**: `Vector2` [ReadOnly] [NotReplicated]
-- **BackgroundColor3**: `Color3`
-- **BackgroundTransparency**: `double`
-- **Enabled**: `bool`
-- **FontFace**: `Font`
-- **HoverBackgroundColor3**: `Color3`
-- **SelectedTabTextColor3**: `Color3`
-- **TextColor3**: `Color3`
-- **TextSize**: `int64`
-- **TextStrokeColor3**: `Color3`
-- **TextStrokeTransparency**: `double`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ChannelTabsConfiguration.AbsolutePosition` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.ChannelTabsConfiguration.AbsoluteSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.ChannelTabsConfiguration.BackgroundColor3` | `Datatype.Color3` |  |
+| `Class.ChannelTabsConfiguration.BackgroundTransparency` | `double` |  |
+| `Class.ChannelTabsConfiguration.Enabled` | `bool` |  |
+| `Class.ChannelTabsConfiguration.FontFace` | `Datatype.Font` |  |
+| `Class.ChannelTabsConfiguration.HoverBackgroundColor3` | `Datatype.Color3` |  |
+| `Class.ChannelTabsConfiguration.SelectedTabTextColor3` | `Datatype.Color3` |  |
+| `Class.ChannelTabsConfiguration.TextColor3` | `Datatype.Color3` |  |
+| `Class.ChannelTabsConfiguration.TextSize` | `int64` |  |
+| `Class.ChannelTabsConfiguration.TextStrokeColor3` | `Datatype.Color3` |  |
+| `Class.ChannelTabsConfiguration.TextStrokeTransparency` | `double` |  |
 
 ## Methods
 
-- **SetAbsolutePosition**(`value: Vector2`) -> `null`
-- **SetAbsoluteSize**(`value: Vector2`) -> `null`
+### `Class.ChannelTabsConfiguration:SetAbsolutePosition`
+
+``SetAbsolutePosition(value: `Datatype.Vector2`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ChannelTabsConfiguration:SetAbsoluteSize`
+
+``SetAbsoluteSize(value: `Datatype.Vector2`)`` → `null`
+   {security: RobloxScriptSecurity}

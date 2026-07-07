@@ -3,13 +3,15 @@ title: ReturnKeyType
 type: enum
 ---
 
-# ReturnKeyType (Enum)
+# `Enum.ReturnKeyType`
+
+The `Enum.ReturnKeyType` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Done | 1 |
-| Go | 2 |
-| Next | 3 |
-| Search | 4 |
-| Send | 5 |
+| `Enum.ReturnKeyType.Default` | 0 |
+| `Enum.ReturnKeyType.Done` | 1 |
+| `Enum.ReturnKeyType.Go` | 2 |
+| `Enum.ReturnKeyType.Next` | 3 |
+| `Enum.ReturnKeyType.Search` | 4 |
+| `Enum.ReturnKeyType.Send` | 5 |

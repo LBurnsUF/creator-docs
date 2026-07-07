@@ -7,14 +7,28 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ScriptChangeService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Events
 
-- **ScriptAdded**(`script: LuaSourceContainer`)
-- **ScriptBeingRemoved**(`script: LuaSourceContainer`)
-- **ScriptChanged**(`script: LuaSourceContainer`, `property: string`)
-- **ScriptFullNameChanged**(`script: LuaSourceContainer`)
-- **ScriptSourceChanged**(`script: LuaSourceContainer`)
+### `Class.ScriptChangeService.ScriptAdded`
+
+Fires with: (script: `Class.LuaSourceContainer`)
+
+### `Class.ScriptChangeService.ScriptBeingRemoved`
+
+Fires with: (script: `Class.LuaSourceContainer`)
+
+### `Class.ScriptChangeService.ScriptChanged`
+
+Fires with: (script: `Class.LuaSourceContainer`, property: `string`)
+
+### `Class.ScriptChangeService.ScriptFullNameChanged`
+
+Fires with: (script: `Class.LuaSourceContainer`)
+
+### `Class.ScriptChangeService.ScriptSourceChanged`
+
+Fires with: (script: `Class.LuaSourceContainer`)

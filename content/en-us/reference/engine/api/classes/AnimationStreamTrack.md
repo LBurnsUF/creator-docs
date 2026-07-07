@@ -7,28 +7,55 @@ tags: [NotCreatable, NotReplicated]
 
 # AnimationStreamTrack
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Animation**: `TrackerStreamAnimation` [Hidden] [ReadOnly] [NotReplicated]
-- **FACSDataLod**: `FACSDataLod` [Hidden] [ReadOnly] [NotReplicated]
-- **IsPlaying**: `bool` [Hidden] [ReadOnly] [NotReplicated]
-- **Priority**: `AnimationPriority` [Hidden] [NotReplicated]
-- **WeightCurrent**: `float` [Hidden] [ReadOnly] [NotReplicated]
-- **WeightTarget**: `float` [Hidden] [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AnimationStreamTrack.Animation` | `Class.TrackerStreamAnimation` | [Hidden] [ReadOnly] [NotReplicated] |
+| `Class.AnimationStreamTrack.FACSDataLod` | `Enum.FACSDataLod` | [Hidden] [ReadOnly] [NotReplicated] |
+| `Class.AnimationStreamTrack.IsPlaying` | `bool` | [Hidden] [ReadOnly] [NotReplicated] |
+| `Class.AnimationStreamTrack.Priority` | `Enum.AnimationPriority` | [Hidden] [NotReplicated] |
+| `Class.AnimationStreamTrack.WeightCurrent` | `float` | [Hidden] [ReadOnly] [NotReplicated] |
+| `Class.AnimationStreamTrack.WeightTarget` | `float` | [Hidden] [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **AdjustWeight**(`weight: float = 1`, `fadeTime: float = 0.100000001`) -> `null`
-- **GetActive**() -> `bool`
-- **GetTrackerData**() -> `Tuple`
-- **Play**(`fadeTime: float = 0.100000001`, `weight: float = 1`) -> `null`
-- **Stop**(`fadeTime: float = 0.100000001`) -> `null`
-- **TogglePause**(`paused: bool`) -> `null`
+### `Class.AnimationStreamTrack:AdjustWeight`
+
+``AdjustWeight(weight: `float`, fadeTime: `float`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationStreamTrack:GetActive`
+
+``GetActive()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationStreamTrack:GetTrackerData`
+
+``GetTrackerData()`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationStreamTrack:Play`
+
+``Play(fadeTime: `float`, weight: `float`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationStreamTrack:Stop`
+
+``Stop(fadeTime: `float`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationStreamTrack:TogglePause`
+
+``TogglePause(paused: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **Stopped**()
+### `Class.AnimationStreamTrack.Stopped`
+
+Fires with: ()

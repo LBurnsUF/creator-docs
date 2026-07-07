@@ -3,10 +3,12 @@ title: NegateOperationHiddenHistory
 type: enum
 ---
 
-# NegateOperationHiddenHistory (Enum)
+# `Enum.NegateOperationHiddenHistory`
+
+The `Enum.NegateOperationHiddenHistory` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| NegatedUnion | 1 |
-| NegatedIntersection | 2 |
+| `Enum.NegateOperationHiddenHistory.None` | 0 |
+| `Enum.NegateOperationHiddenHistory.NegatedUnion` | 1 |
+| `Enum.NegateOperationHiddenHistory.NegatedIntersection` | 2 |

@@ -6,11 +6,13 @@ superclass: Instance
 
 # Clouds
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Color**: `Color3`
-- **Cover**: `float`
-- **Density**: `float`
-- **Enabled**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Clouds.Color` | `Datatype.Color3` |  |
+| `Class.Clouds.Cover` | `float` |  |
+| `Class.Clouds.Density` | `float` |  |
+| `Class.Clouds.Enabled` | `bool` |  |

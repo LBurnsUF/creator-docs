@@ -3,16 +3,18 @@ title: DebuggerStatus
 type: enum
 ---
 
-# DebuggerStatus (Enum)
+# `Enum.DebuggerStatus`
+
+The `Enum.DebuggerStatus` enum has 9 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 0 |
-| Timeout | 1 |
-| ConnectionLost | 2 |
-| InvalidResponse | 3 |
-| InternalError | 4 |
-| InvalidState | 5 |
-| RpcError | 6 |
-| InvalidArgument | 7 |
-| ConnectionClosed | 8 |
+| `Enum.DebuggerStatus.Success` | 0 |
+| `Enum.DebuggerStatus.Timeout` | 1 |
+| `Enum.DebuggerStatus.ConnectionLost` | 2 |
+| `Enum.DebuggerStatus.InvalidResponse` | 3 |
+| `Enum.DebuggerStatus.InternalError` | 4 |
+| `Enum.DebuggerStatus.InvalidState` | 5 |
+| `Enum.DebuggerStatus.RpcError` | 6 |
+| `Enum.DebuggerStatus.InvalidArgument` | 7 |
+| `Enum.DebuggerStatus.ConnectionClosed` | 8 |

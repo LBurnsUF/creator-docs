@@ -7,30 +7,64 @@ tags: [NotCreatable, Service]
 
 # Selection
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **ActiveInstance**: `Instance` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RenderMode**: `SelectionRenderMode` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SelectionBoxThickness**: `float` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SelectionLineThickness**: `int` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SelectionThickness**: `float` [ReadOnly] [NotReplicated]
-- **ShowActiveInstanceHighlight**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Selection.ActiveInstance` | `Class.Instance` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Selection.RenderMode` | `Enum.SelectionRenderMode` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Selection.SelectionBoxThickness` | `float` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Selection.SelectionLineThickness` | `int` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Selection.SelectionThickness` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Selection.ShowActiveInstanceHighlight` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **Add**(`instancesToAdd: Instances`) -> `null`
-- **AddFocusCallback**(`priority: int`, `function: Function`) -> `RBXScriptConnection`
-- **ClearTerrainSelectionHack**() -> `null`
-- **Get**() -> `Instances`
-- **Remove**(`instancesToRemove: Instances`) -> `null`
-- **Set**(`selection: Instances`) -> `null`
-- **SetTerrainSelectionHack**(`center: Vector3`, `size: Vector3`) -> `null`
+### `Class.Selection:Add`
+
+``Add(instancesToAdd: `Datatype.Instances`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.Selection:AddFocusCallback`
+
+``AddFocusCallback(priority: `int`, function: `Datatype.Function`)`` → `Datatype.RBXScriptConnection`
+   {security: RobloxScriptSecurity}
+
+### `Class.Selection:ClearTerrainSelectionHack`
+
+``ClearTerrainSelectionHack()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Selection:Get`
+
+``Get()`` → `Datatype.Instances`
+   {security: PluginSecurity}
+
+### `Class.Selection:Remove`
+
+``Remove(instancesToRemove: `Datatype.Instances`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.Selection:Set`
+
+``Set(selection: `Datatype.Instances`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.Selection:SetTerrainSelectionHack`
+
+``SetTerrainSelectionHack(center: `Datatype.Vector3`, size: `Datatype.Vector3`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **SelectionChanged**()
-- **SelectionChangedThisFrame**()
+### `Class.Selection.SelectionChanged`
+
+Fires with: ()
+
+### `Class.Selection.SelectionChangedThisFrame`
+
+Fires with: ()

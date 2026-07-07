@@ -6,11 +6,22 @@ superclass: Instance
 
 # Vector3Curve
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Methods
 
-- **GetValueAtTime**(`time: float`) -> `Array`
-- **X**() -> `FloatCurve`
-- **Y**() -> `FloatCurve`
-- **Z**() -> `FloatCurve`
+### `Class.Vector3Curve:GetValueAtTime`
+
+``GetValueAtTime(time: `float`)`` → `Array`
+
+### `Class.Vector3Curve:X`
+
+``X()`` → `Class.FloatCurve`
+
+### `Class.Vector3Curve:Y`
+
+``Y()`` → `Class.FloatCurve`
+
+### `Class.Vector3Curve:Z`
+
+``Z()`` → `Class.FloatCurve`

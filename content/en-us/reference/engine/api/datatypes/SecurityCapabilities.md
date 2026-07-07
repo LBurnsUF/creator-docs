@@ -3,10 +3,10 @@ title: SecurityCapabilities
 type: datatype
 ---
 
-# SecurityCapabilities (DataType)
+# `Datatype.SecurityCapabilities`
 
-Used in 1 locations across the API.
+Used in 1 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Instance.Capabilities
+- `Class.Instance.Capabilities`

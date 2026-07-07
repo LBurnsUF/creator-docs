@@ -7,45 +7,71 @@ tags: [NotCreatable, Service]
 
 # Lighting
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **Ambient**: `Color3`
-- **Brightness**: `float`
-- **ClockTime**: `float` [NotReplicated]
-- **ColorShift_Bottom**: `Color3`
-- **ColorShift_Top**: `Color3`
-- **EnvironmentDiffuseScale**: `float`
-- **EnvironmentSpecularScale**: `float`
-- **ExposureCompensation**: `float`
-- **ExtendLightRangeTo120**: `RolloutState` [NotScriptable]
-- **FogColor**: `Color3`
-- **FogEnd**: `float`
-- **FogStart**: `float`
-- **GeographicLatitude**: `float`
-- **GlobalShadows**: `bool`
-- **LightingStyle**: `LightingStyle` (Security: Read=None, Write=RobloxScriptSecurity)
-- **OutdoorAmbient**: `Color3`
-- **Outlines**: `bool` [Deprecated]
-- **PrioritizeLightingQuality**: `bool` (Security: Read=None, Write=RobloxScriptSecurity)
-- **ShadowColor**: `Color3` [NotReplicated] [Deprecated]
-- **ShadowSoftness**: `float`
-- **Technology**: `Technology` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **TimeOfDay**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Lighting.Ambient` | `Datatype.Color3` |  |
+| `Class.Lighting.Brightness` | `float` |  |
+| `Class.Lighting.ClockTime` | `float` | [NotReplicated] |
+| `Class.Lighting.ColorShift_Bottom` | `Datatype.Color3` |  |
+| `Class.Lighting.ColorShift_Top` | `Datatype.Color3` |  |
+| `Class.Lighting.EnvironmentDiffuseScale` | `float` |  |
+| `Class.Lighting.EnvironmentSpecularScale` | `float` |  |
+| `Class.Lighting.ExposureCompensation` | `float` |  |
+| `Class.Lighting.ExtendLightRangeTo120` | `Enum.RolloutState` | [NotScriptable] |
+| `Class.Lighting.FogColor` | `Datatype.Color3` |  |
+| `Class.Lighting.FogEnd` | `float` |  |
+| `Class.Lighting.FogStart` | `float` |  |
+| `Class.Lighting.GeographicLatitude` | `float` |  |
+| `Class.Lighting.GlobalShadows` | `bool` |  |
+| `Class.Lighting.LightingStyle` | `Enum.LightingStyle` |  {write: RobloxScriptSecurity} |
+| `Class.Lighting.OutdoorAmbient` | `Datatype.Color3` |  |
+| `Class.Lighting.Outlines` | `bool` | [Deprecated] |
+| `Class.Lighting.PrioritizeLightingQuality` | `bool` |  {write: RobloxScriptSecurity} |
+| `Class.Lighting.ShadowColor` | `Datatype.Color3` | [NotReplicated] [Deprecated] |
+| `Class.Lighting.ShadowSoftness` | `float` |  |
+| `Class.Lighting.Technology` | `Enum.Technology` |  {security: RobloxScriptSecurity} |
+| `Class.Lighting.TimeOfDay` | `string` |  |
 
 ## Methods
 
-- **GetMinutesAfterMidnight**() -> `double`
-- **GetMoonDirection**() -> `Vector3`
-- **GetMoonPhase**() -> `float`
-- **GetSunDirection**() -> `Vector3`
-- **SetMinutesAfterMidnight**(`minutes: double`) -> `null`
-- **getMinutesAfterMidnight**() -> `double` [Deprecated]
-- **setMinutesAfterMidnight**(`minutes: double`) -> `null` [Deprecated]
+### `Class.Lighting:GetMinutesAfterMidnight`
+
+``GetMinutesAfterMidnight()`` → `double`
+
+### `Class.Lighting:GetMoonDirection`
+
+``GetMoonDirection()`` → `Datatype.Vector3`
+
+### `Class.Lighting:GetMoonPhase`
+
+``GetMoonPhase()`` → `float`
+
+### `Class.Lighting:GetSunDirection`
+
+``GetSunDirection()`` → `Datatype.Vector3`
+
+### `Class.Lighting:SetMinutesAfterMidnight`
+
+``SetMinutesAfterMidnight(minutes: `double`)`` → `null`
+
+### `Class.Lighting:getMinutesAfterMidnight`
+
+``getMinutesAfterMidnight()`` → `double`
+  [Deprecated]
+
+### `Class.Lighting:setMinutesAfterMidnight`
+
+``setMinutesAfterMidnight(minutes: `double`)`` → `null`
+  [Deprecated]
 
 ## Events
 
-- **LightingChanged**(`skyChanged: bool`)
+### `Class.Lighting.LightingChanged`
+
+Fires with: (skyChanged: `bool`)

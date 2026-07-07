@@ -7,10 +7,12 @@ tags: [NotCreatable, NotBrowsable]
 
 # NetworkMarker
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Events
 
-- **Received**()
+### `Class.NetworkMarker.Received`
+
+Fires with: ()

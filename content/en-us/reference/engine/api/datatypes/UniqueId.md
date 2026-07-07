@@ -3,10 +3,10 @@ title: UniqueId
 type: datatype
 ---
 
-# UniqueId (DataType)
+# `Datatype.UniqueId`
 
-Used in 1 locations across the API.
+Used in 1 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Instance.UniqueId
+- `Class.Instance.UniqueId`

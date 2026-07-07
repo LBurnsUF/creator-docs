@@ -3,11 +3,13 @@ title: ScreenshotCaptureResult
 type: enum
 ---
 
-# ScreenshotCaptureResult (Enum)
+# `Enum.ScreenshotCaptureResult`
+
+The `Enum.ScreenshotCaptureResult` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 0 |
-| OtherError | 1 |
-| NoDeviceSupport | 2 |
-| NoSpaceOnDevice | 3 |
+| `Enum.ScreenshotCaptureResult.Success` | 0 |
+| `Enum.ScreenshotCaptureResult.OtherError` | 1 |
+| `Enum.ScreenshotCaptureResult.NoDeviceSupport` | 2 |
+| `Enum.ScreenshotCaptureResult.NoSpaceOnDevice` | 3 |

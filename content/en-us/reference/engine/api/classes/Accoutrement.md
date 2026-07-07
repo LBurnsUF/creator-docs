@@ -6,12 +6,14 @@ superclass: Instance
 
 # Accoutrement
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AttachmentForward**: `Vector3` [Hidden] [NotReplicated]
-- **AttachmentPoint**: `CFrame`
-- **AttachmentPos**: `Vector3` [Hidden] [NotReplicated]
-- **AttachmentRight**: `Vector3` [Hidden] [NotReplicated]
-- **AttachmentUp**: `Vector3` [Hidden] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Accoutrement.AttachmentForward` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
+| `Class.Accoutrement.AttachmentPoint` | `Datatype.CFrame` |  |
+| `Class.Accoutrement.AttachmentPos` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
+| `Class.Accoutrement.AttachmentRight` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
+| `Class.Accoutrement.AttachmentUp` | `Datatype.Vector3` | [Hidden] [NotReplicated] |

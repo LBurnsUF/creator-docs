@@ -3,9 +3,11 @@ title: HumanoidRigType
 type: enum
 ---
 
-# HumanoidRigType (Enum)
+# `Enum.HumanoidRigType`
+
+The `Enum.HumanoidRigType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| R6 | 0 |
-| R15 | 1 |
+| `Enum.HumanoidRigType.R6` | 0 |
+| `Enum.HumanoidRigType.R15` | 1 |

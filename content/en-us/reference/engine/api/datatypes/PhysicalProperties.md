@@ -3,12 +3,12 @@ title: PhysicalProperties
 type: datatype
 ---
 
-# PhysicalProperties (DataType)
+# `Datatype.PhysicalProperties`
 
-Used in 3 locations across the API.
+Used in 3 locations across the Roblox API.
 
 ## Used as Property Type
 
-- BasePart.CurrentPhysicalProperties
-- BasePart.CustomPhysicalProperties
-- MaterialVariant.CustomPhysicalProperties
+- `Class.BasePart.CurrentPhysicalProperties`
+- `Class.BasePart.CustomPhysicalProperties`
+- `Class.MaterialVariant.CustomPhysicalProperties`

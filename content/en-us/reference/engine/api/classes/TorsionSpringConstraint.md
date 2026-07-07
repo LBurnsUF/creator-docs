@@ -6,17 +6,19 @@ superclass: Constraint
 
 # TorsionSpringConstraint
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Coils**: `float`
-- **CurrentAngle**: `float` [ReadOnly] [NotReplicated]
-- **Damping**: `float`
-- **LimitEnabled**: `bool` [Hidden] [Deprecated]
-- **LimitsEnabled**: `bool`
-- **MaxAngle**: `float`
-- **MaxTorque**: `float`
-- **Radius**: `float`
-- **Restitution**: `float`
-- **Stiffness**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TorsionSpringConstraint.Coils` | `float` |  |
+| `Class.TorsionSpringConstraint.CurrentAngle` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.TorsionSpringConstraint.Damping` | `float` |  |
+| `Class.TorsionSpringConstraint.LimitEnabled` | `bool` | [Hidden] [Deprecated] |
+| `Class.TorsionSpringConstraint.LimitsEnabled` | `bool` |  |
+| `Class.TorsionSpringConstraint.MaxAngle` | `float` |  |
+| `Class.TorsionSpringConstraint.MaxTorque` | `float` |  |
+| `Class.TorsionSpringConstraint.Radius` | `float` |  |
+| `Class.TorsionSpringConstraint.Restitution` | `float` |  |
+| `Class.TorsionSpringConstraint.Stiffness` | `float` |  |

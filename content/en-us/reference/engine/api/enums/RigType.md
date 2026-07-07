@@ -3,11 +3,13 @@ title: RigType
 type: enum
 ---
 
-# RigType (Enum)
+# `Enum.RigType`
+
+The `Enum.RigType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| R15 | 0 |
-| CustomHumanoid | 1 |
-| Custom | 2 |
-| None | 3 |
+| `Enum.RigType.R15` | 0 |
+| `Enum.RigType.CustomHumanoid` | 1 |
+| `Enum.RigType.Custom` | 2 |
+| `Enum.RigType.None` | 3 |

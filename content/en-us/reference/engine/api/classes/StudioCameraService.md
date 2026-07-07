@@ -7,27 +7,57 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StudioCameraService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **FocusDistance**: `float` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LockCameraSpeed**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LoggingEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StudioCameraService.FocusDistance` | `float` |  {security: RobloxScriptSecurity} |
+| `Class.StudioCameraService.LockCameraSpeed` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.StudioCameraService.LoggingEnabled` | `bool` |  {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **InFocusMode**() -> `bool`
-- **InterpolateView**(`target: CFrame`) -> `null`
-- **SetFocusLock**(`value: bool`) -> `null`
+### `Class.StudioCameraService:InFocusMode`
+
+``InFocusMode()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioCameraService:InterpolateView`
+
+``InterpolateView(target: `Datatype.CFrame`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioCameraService:SetFocusLock`
+
+``SetFocusLock(value: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **FocusStateChanged**()
-- **OnMouseCaptureBegin**()
-- **OnMouseCaptureEnd**()
-- **PointFocused**(`point: Vector3`)
-- **ShowCameraSpeed**(`speed: float`)
-- **UpdateUI**(`deltaTime: double`)
+### `Class.StudioCameraService.FocusStateChanged`
+
+Fires with: ()
+
+### `Class.StudioCameraService.OnMouseCaptureBegin`
+
+Fires with: ()
+
+### `Class.StudioCameraService.OnMouseCaptureEnd`
+
+Fires with: ()
+
+### `Class.StudioCameraService.PointFocused`
+
+Fires with: (point: `Datatype.Vector3`)
+
+### `Class.StudioCameraService.ShowCameraSpeed`
+
+Fires with: (speed: `float`)
+
+### `Class.StudioCameraService.UpdateUI`
+
+Fires with: (deltaTime: `double`)

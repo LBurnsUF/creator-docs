@@ -3,13 +3,15 @@ title: CatalogSortType
 type: enum
 ---
 
-# CatalogSortType (Enum)
+# `Enum.CatalogSortType`
+
+The `Enum.CatalogSortType` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Relevance | 1 |
-| PriceHighToLow | 2 |
-| PriceLowToHigh | 3 |
-| MostFavorited | 5 |
-| RecentlyCreated | 6 |
-| Bestselling | 7 |
+| `Enum.CatalogSortType.Relevance` | 1 |
+| `Enum.CatalogSortType.PriceHighToLow` | 2 |
+| `Enum.CatalogSortType.PriceLowToHigh` | 3 |
+| `Enum.CatalogSortType.MostFavorited` | 5 |
+| `Enum.CatalogSortType.RecentlyCreated` | 6 |
+| `Enum.CatalogSortType.Bestselling` | 7 |

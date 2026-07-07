@@ -6,13 +6,23 @@ superclass: Instance
 
 # AnimationController
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Methods
 
-- **GetPlayingAnimationTracks**() -> `Array` [Deprecated]
-- **LoadAnimation**(`animation: Animation`) -> `AnimationTrack` [Deprecated]
+### `Class.AnimationController:GetPlayingAnimationTracks`
+
+``GetPlayingAnimationTracks()`` → `Array`
+  [Deprecated]
+
+### `Class.AnimationController:LoadAnimation`
+
+``LoadAnimation(animation: `Class.Animation`)`` → `Class.AnimationTrack`
+  [Deprecated]
 
 ## Events
 
-- **AnimationPlayed**(`animationTrack: AnimationTrack`) [Deprecated]
+### `Class.AnimationController.AnimationPlayed`
+
+Fires with: (animationTrack: `Class.AnimationTrack`)
+  [Deprecated]

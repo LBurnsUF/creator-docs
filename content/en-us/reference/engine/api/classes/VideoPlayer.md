@@ -6,38 +6,76 @@ superclass: Instance
 
 # VideoPlayer
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AutoLoadInStudio**: `bool` [NotReplicated] [NotScriptable] (Security: Read=None, Write=RobloxScriptSecurity)
-- **AutoPlayInStudio**: `bool` [NotReplicated] [NotScriptable] (Security: Read=None, Write=RobloxScriptSecurity)
-- **InternalVideoUsage**: `InternalVideoUsage` [Hidden]
-- **IsLoaded**: `bool` [ReadOnly] [NotReplicated]
-- **IsPlaying**: `bool` [ReadOnly] [NotReplicated]
-- **Looping**: `bool`
-- **MaximumResolution**: `VideoSampleSize` [Hidden]
-- **PlaybackSpeed**: `float`
-- **Resolution**: `Vector2` [ReadOnly] [NotReplicated]
-- **TimeLength**: `double` [ReadOnly] [NotReplicated]
-- **TimePosition**: `double`
-- **VideoContent**: `Content`
-- **Volume**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VideoPlayer.AutoLoadInStudio` | `bool` | [NotReplicated] [NotScriptable] {write: RobloxScriptSecurity} |
+| `Class.VideoPlayer.AutoPlayInStudio` | `bool` | [NotReplicated] [NotScriptable] {write: RobloxScriptSecurity} |
+| `Class.VideoPlayer.InternalVideoUsage` | `Enum.InternalVideoUsage` | [Hidden] |
+| `Class.VideoPlayer.IsLoaded` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.VideoPlayer.IsPlaying` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.VideoPlayer.Looping` | `bool` |  |
+| `Class.VideoPlayer.MaximumResolution` | `Enum.VideoSampleSize` | [Hidden] |
+| `Class.VideoPlayer.PlaybackSpeed` | `float` |  |
+| `Class.VideoPlayer.Resolution` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.VideoPlayer.TimeLength` | `double` | [ReadOnly] [NotReplicated] |
+| `Class.VideoPlayer.TimePosition` | `double` |  |
+| `Class.VideoPlayer.VideoContent` | `Datatype.Content` |  |
+| `Class.VideoPlayer.Volume` | `float` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
-- **LoadAsync**() -> `AssetFetchStatus` [Yields]
-- **Pause**() -> `null`
-- **Play**() -> `null`
-- **SetStudioPreview**(`isPreview: bool`) -> `null`
-- **Unload**() -> `null`
+### `Class.VideoPlayer:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.VideoPlayer:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.VideoPlayer:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
+
+### `Class.VideoPlayer:LoadAsync`
+
+``LoadAsync()`` → `Enum.AssetFetchStatus`
+  [Yields]
+
+### `Class.VideoPlayer:Pause`
+
+``Pause()`` → `null`
+
+### `Class.VideoPlayer:Play`
+
+``Play()`` → `null`
+
+### `Class.VideoPlayer:SetStudioPreview`
+
+``SetStudioPreview(isPreview: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.VideoPlayer:Unload`
+
+``Unload()`` → `null`
 
 ## Events
 
-- **DidEnd**()
-- **DidLoop**()
-- **PlayFailed**(`error: AssetFetchStatus`)
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.VideoPlayer.DidEnd`
+
+Fires with: ()
+
+### `Class.VideoPlayer.DidLoop`
+
+Fires with: ()
+
+### `Class.VideoPlayer.PlayFailed`
+
+Fires with: (error: `Enum.AssetFetchStatus`)
+
+### `Class.VideoPlayer.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

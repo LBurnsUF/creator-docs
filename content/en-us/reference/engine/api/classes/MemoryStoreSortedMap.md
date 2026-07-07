@@ -7,15 +7,38 @@ tags: [NotCreatable, NotReplicated]
 
 # MemoryStoreSortedMap
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **GetAsync**(`key: string`) -> `Tuple` [Yields]
-- **GetRangeAsync**(`direction: SortDirection`, `count: int`, `exclusiveLowerBound: Variant`, `exclusiveUpperBound: Variant`) -> `Array` [Yields]
-- **GetSizeAsync**() -> `int` [Yields]
-- **RemoveAsync**(`key: string`) -> `null` [Yields]
-- **SetAsync**(`key: string`, `value: Variant`, `expiration: int64`, `sortKey: Variant`) -> `bool` [Yields]
-- **UpdateAsync**(`key: string`, `transformFunction: Function`, `expiration: int64`) -> `Tuple` [Yields]
+### `Class.MemoryStoreSortedMap:GetAsync`
+
+``GetAsync(key: `string`)`` → `Tuple`
+  [Yields]
+
+### `Class.MemoryStoreSortedMap:GetRangeAsync`
+
+``GetRangeAsync(direction: `Enum.SortDirection`, count: `int`, exclusiveLowerBound: `Variant`, exclusiveUpperBound: `Variant`)`` → `Array`
+  [Yields]
+
+### `Class.MemoryStoreSortedMap:GetSizeAsync`
+
+``GetSizeAsync()`` → `int`
+  [Yields]
+
+### `Class.MemoryStoreSortedMap:RemoveAsync`
+
+``RemoveAsync(key: `string`)`` → `null`
+  [Yields]
+
+### `Class.MemoryStoreSortedMap:SetAsync`
+
+``SetAsync(key: `string`, value: `Variant`, expiration: `int64`, sortKey: `Variant`)`` → `bool`
+  [Yields]
+
+### `Class.MemoryStoreSortedMap:UpdateAsync`
+
+``UpdateAsync(key: `string`, transformFunction: `Datatype.Function`, expiration: `int64`)`` → `Tuple`
+  [Yields]

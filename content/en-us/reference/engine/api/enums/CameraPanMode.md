@@ -3,9 +3,11 @@ title: CameraPanMode
 type: enum
 ---
 
-# CameraPanMode (Enum)
+# `Enum.CameraPanMode`
+
+The `Enum.CameraPanMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Classic | 0 |
-| EdgeBump | 1 |
+| `Enum.CameraPanMode.Classic` | 0 |
+| `Enum.CameraPanMode.EdgeBump` | 1 |

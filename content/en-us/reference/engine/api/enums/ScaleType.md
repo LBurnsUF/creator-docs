@@ -3,12 +3,14 @@ title: ScaleType
 type: enum
 ---
 
-# ScaleType (Enum)
+# `Enum.ScaleType`
+
+The `Enum.ScaleType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Stretch | 0 |
-| Slice | 1 |
-| Tile | 2 |
-| Fit | 3 |
-| Crop | 4 |
+| `Enum.ScaleType.Stretch` | 0 |
+| `Enum.ScaleType.Slice` | 1 |
+| `Enum.ScaleType.Tile` | 2 |
+| `Enum.ScaleType.Fit` | 3 |
+| `Enum.ScaleType.Crop` | 4 |

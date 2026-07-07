@@ -3,11 +3,13 @@ title: StartCorner
 type: enum
 ---
 
-# StartCorner (Enum)
+# `Enum.StartCorner`
+
+The `Enum.StartCorner` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| TopLeft | 0 |
-| TopRight | 1 |
-| BottomLeft | 2 |
-| BottomRight | 3 |
+| `Enum.StartCorner.TopLeft` | 0 |
+| `Enum.StartCorner.TopRight` | 1 |
+| `Enum.StartCorner.BottomLeft` | 2 |
+| `Enum.StartCorner.BottomRight` | 3 |

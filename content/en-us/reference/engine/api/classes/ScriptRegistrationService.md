@@ -7,10 +7,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ScriptRegistrationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetSourceContainerByScriptGuid**(`guid: string`) -> `LuaSourceContainer`
+### `Class.ScriptRegistrationService:GetSourceContainerByScriptGuid`
+
+``GetSourceContainerByScriptGuid(guid: `string`)`` → `Class.LuaSourceContainer`
+   {security: RobloxScriptSecurity}

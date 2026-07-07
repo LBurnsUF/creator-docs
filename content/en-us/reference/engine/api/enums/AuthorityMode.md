@@ -3,9 +3,11 @@ title: AuthorityMode
 type: enum
 ---
 
-# AuthorityMode (Enum)
+# `Enum.AuthorityMode`
+
+The `Enum.AuthorityMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Server | 0 |
-| Automatic | 1 |
+| `Enum.AuthorityMode.Server` | 0 |
+| `Enum.AuthorityMode.Automatic` | 1 |

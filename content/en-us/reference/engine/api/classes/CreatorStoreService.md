@@ -7,12 +7,23 @@ tags: [NotCreatable, Service]
 
 # CreatorStoreService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **GetAssetInfoAsync**(`assetId: int64`) -> `Dictionary` [Yields]
-- **GetCreatorStoreProductInfoAsync**(`productTargetId: int64`, `assetType: string`) -> `Dictionary` [Yields]
-- **PerformCreatorStorePurchase**(`productTargetId: int64`, `assetType: string`) -> `Dictionary` [Yields]
+### `Class.CreatorStoreService:GetAssetInfoAsync`
+
+``GetAssetInfoAsync(assetId: `int64`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CreatorStoreService:GetCreatorStoreProductInfoAsync`
+
+``GetCreatorStoreProductInfoAsync(productTargetId: `int64`, assetType: `string`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CreatorStoreService:PerformCreatorStorePurchase`
+
+``PerformCreatorStorePurchase(productTargetId: `int64`, assetType: `string`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}

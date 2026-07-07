@@ -7,19 +7,26 @@ tags: [NotCreatable, Service]
 
 # ServiceVisibilityService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **HiddenServices**: `BinaryString` (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **VisibleServices**: `BinaryString` (Security: Read=RobloxSecurity, Write=RobloxSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ServiceVisibilityService.HiddenServices` | `Datatype.BinaryString` |  {security: RobloxSecurity} |
+| `Class.ServiceVisibilityService.VisibleServices` | `Datatype.BinaryString` |  {security: RobloxSecurity} |
 
 ## Methods
 
-- **SetServiceVisibilityPreference**(`service: Instance`, `visible: bool`) -> `null`
+### `Class.ServiceVisibilityService:SetServiceVisibilityPreference`
+
+``SetServiceVisibilityPreference(service: `Class.Instance`, visible: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **ServiceVisibilityChanged**(`serviceName: string`)
+### `Class.ServiceVisibilityService.ServiceVisibilityChanged`
+
+Fires with: (serviceName: `string`)

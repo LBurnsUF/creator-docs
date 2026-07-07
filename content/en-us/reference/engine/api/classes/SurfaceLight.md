@@ -6,10 +6,12 @@ superclass: Light
 
 # SurfaceLight
 
-**Inherits**: Light > Instance > Object
+**Inherits from:** `Class.Light` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Angle**: `float`
-- **Face**: `NormalId`
-- **Range**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SurfaceLight.Angle` | `float` |  |
+| `Class.SurfaceLight.Face` | `Enum.NormalId` |  |
+| `Class.SurfaceLight.Range` | `float` |  |

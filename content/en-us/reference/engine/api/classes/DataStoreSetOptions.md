@@ -7,11 +7,16 @@ tags: [NotReplicated]
 
 # DataStoreSetOptions
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Methods
 
-- **GetMetadata**() -> `Dictionary`
-- **SetMetadata**(`attributes: Dictionary`) -> `null`
+### `Class.DataStoreSetOptions:GetMetadata`
+
+``GetMetadata()`` → `Dictionary`
+
+### `Class.DataStoreSetOptions:SetMetadata`
+
+``SetMetadata(attributes: `Dictionary`)`` → `null`

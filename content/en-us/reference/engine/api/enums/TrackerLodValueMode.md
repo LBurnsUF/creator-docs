@@ -3,10 +3,12 @@ title: TrackerLodValueMode
 type: enum
 ---
 
-# TrackerLodValueMode (Enum)
+# `Enum.TrackerLodValueMode`
+
+The `Enum.TrackerLodValueMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Force0 | 0 |
-| Force1 | 1 |
-| Auto | 2 |
+| `Enum.TrackerLodValueMode.Force0` | 0 |
+| `Enum.TrackerLodValueMode.Force1` | 1 |
+| `Enum.TrackerLodValueMode.Auto` | 2 |

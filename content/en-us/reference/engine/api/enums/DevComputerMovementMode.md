@@ -3,11 +3,13 @@ title: DevComputerMovementMode
 type: enum
 ---
 
-# DevComputerMovementMode (Enum)
+# `Enum.DevComputerMovementMode`
+
+The `Enum.DevComputerMovementMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| UserChoice | 0 |
-| KeyboardMouse | 1 |
-| ClickToMove | 2 |
-| Scriptable | 3 |
+| `Enum.DevComputerMovementMode.UserChoice` | 0 |
+| `Enum.DevComputerMovementMode.KeyboardMouse` | 1 |
+| `Enum.DevComputerMovementMode.ClickToMove` | 2 |
+| `Enum.DevComputerMovementMode.Scriptable` | 3 |

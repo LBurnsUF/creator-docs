@@ -3,18 +3,20 @@ title: AvatarChatServiceFeature
 type: enum
 ---
 
-# AvatarChatServiceFeature (Enum)
+# `Enum.AvatarChatServiceFeature`
+
+The `Enum.AvatarChatServiceFeature` enum has 11 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| UniverseAudio | 1 |
-| UniverseVideo | 2 |
-| PlaceAudio | 4 |
-| PlaceVideo | 8 |
-| UserAudioEligible | 16 |
-| UserAudio | 32 |
-| UserVideoEligible | 64 |
-| UserVideo | 128 |
-| UserBanned | 256 |
-| UserVerifiedForVoice | 512 |
+| `Enum.AvatarChatServiceFeature.None` | 0 |
+| `Enum.AvatarChatServiceFeature.UniverseAudio` | 1 |
+| `Enum.AvatarChatServiceFeature.UniverseVideo` | 2 |
+| `Enum.AvatarChatServiceFeature.PlaceAudio` | 4 |
+| `Enum.AvatarChatServiceFeature.PlaceVideo` | 8 |
+| `Enum.AvatarChatServiceFeature.UserAudioEligible` | 16 |
+| `Enum.AvatarChatServiceFeature.UserAudio` | 32 |
+| `Enum.AvatarChatServiceFeature.UserVideoEligible` | 64 |
+| `Enum.AvatarChatServiceFeature.UserVideo` | 128 |
+| `Enum.AvatarChatServiceFeature.UserBanned` | 256 |
+| `Enum.AvatarChatServiceFeature.UserVerifiedForVoice` | 512 |

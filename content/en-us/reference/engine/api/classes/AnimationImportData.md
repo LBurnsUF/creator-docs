@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # AnimationImportData
 
-**Inherits**: BaseImportData > Instance > Object
+**Inherits from:** `Class.BaseImportData` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

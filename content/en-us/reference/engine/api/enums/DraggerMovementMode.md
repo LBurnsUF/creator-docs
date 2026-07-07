@@ -3,9 +3,11 @@ title: DraggerMovementMode
 type: enum
 ---
 
-# DraggerMovementMode (Enum)
+# `Enum.DraggerMovementMode`
+
+The `Enum.DraggerMovementMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Geometric | 0 |
-| Physical | 1 |
+| `Enum.DraggerMovementMode.Geometric` | 0 |
+| `Enum.DraggerMovementMode.Physical` | 1 |

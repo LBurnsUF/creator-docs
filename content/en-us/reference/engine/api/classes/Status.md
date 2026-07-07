@@ -7,6 +7,6 @@ tags: [NotCreatable, Deprecated]
 
 # Status
 
-**Inherits**: Model > PVInstance > Instance > Object
+**Inherits from:** `Class.Model` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Deprecated
+**Tags:** [NotCreatable] [Deprecated]

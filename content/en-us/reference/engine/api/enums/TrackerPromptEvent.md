@@ -3,8 +3,10 @@ title: TrackerPromptEvent
 type: enum
 ---
 
-# TrackerPromptEvent (Enum)
+# `Enum.TrackerPromptEvent`
+
+The `Enum.TrackerPromptEvent` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| LODCameraRecommendDisable | 0 |
+| `Enum.TrackerPromptEvent.LODCameraRecommendDisable` | 0 |

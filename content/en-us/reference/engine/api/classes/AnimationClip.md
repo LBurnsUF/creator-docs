@@ -7,13 +7,15 @@ tags: [NotCreatable]
 
 # AnimationClip
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Guid**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Length**: `float` [ReadOnly] [NotReplicated]
-- **Loop**: `bool`
-- **Priority**: `AnimationPriority`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AnimationClip.Guid` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.AnimationClip.Length` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.AnimationClip.Loop` | `bool` |  |
+| `Class.AnimationClip.Priority` | `Enum.AnimationPriority` |  |

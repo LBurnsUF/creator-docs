@@ -3,10 +3,12 @@ title: PromptLinkSharingResult
 type: enum
 ---
 
-# PromptLinkSharingResult (Enum)
+# `Enum.PromptLinkSharingResult`
+
+The `Enum.PromptLinkSharingResult` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 1 |
-| PlayerLeft | 2 |
-| InvalidLaunchData | 3 |
+| `Enum.PromptLinkSharingResult.Success` | 1 |
+| `Enum.PromptLinkSharingResult.PlayerLeft` | 2 |
+| `Enum.PromptLinkSharingResult.InvalidLaunchData` | 3 |

@@ -7,10 +7,12 @@ tags: [NotCreatable]
 
 # PluginMouse
 
-**Inherits**: Mouse > Instance > Object
+**Inherits from:** `Class.Mouse` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Events
 
-- **DragEnter**(`instances: Instances`)
+### `Class.PluginMouse.DragEnter`
+
+Fires with: (instances: `Datatype.Instances`)

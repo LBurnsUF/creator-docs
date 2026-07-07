@@ -6,8 +6,10 @@ superclass: Instance
 
 # KeyframeMarker
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Value**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.KeyframeMarker.Value` | `string` |  |

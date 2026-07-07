@@ -7,32 +7,80 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StudioDeviceEmulatorService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **HasMultiTouchStarted**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsMultiTouchEmulationOn**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsMultiTouchEnabled**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PivotPosition**: `Vector2` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StudioDeviceEmulatorService.HasMultiTouchStarted` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.StudioDeviceEmulatorService.IsMultiTouchEmulationOn` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.StudioDeviceEmulatorService.IsMultiTouchEnabled` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.StudioDeviceEmulatorService.PivotPosition` | `Datatype.Vector2` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **EmulatePCDeviceWithResolution**(`deviceId: string`, `resolution: Vector2`) -> `bool` [Yields]
-- **GetCurrentDeviceId**() -> `string` [Yields]
-- **GetCurrentOrientation**() -> `ScreenOrientation` [Yields]
-- **GetMaxNumTouches**() -> `int`
-- **GetTouchInBounds**(`index: int`) -> `bool`
-- **GetTouchPosition**(`index: int`) -> `Vector2`
-- **HasDeviceWithId**(`deviceId: string`) -> `bool` [Yields]
-- **SetCurrentDeviceId**(`deviceId: string`) -> `null` [Yields]
-- **SetCurrentOrientation**(`orientation: ScreenOrientation`) -> `null` [Yields]
+### `Class.StudioDeviceEmulatorService:EmulatePCDeviceWithResolution`
+
+``EmulatePCDeviceWithResolution(deviceId: `string`, resolution: `Datatype.Vector2`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioDeviceEmulatorService:GetCurrentDeviceId`
+
+``GetCurrentDeviceId()`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioDeviceEmulatorService:GetCurrentOrientation`
+
+``GetCurrentOrientation()`` → `Enum.ScreenOrientation`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioDeviceEmulatorService:GetMaxNumTouches`
+
+``GetMaxNumTouches()`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioDeviceEmulatorService:GetTouchInBounds`
+
+``GetTouchInBounds(index: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioDeviceEmulatorService:GetTouchPosition`
+
+``GetTouchPosition(index: `int`)`` → `Datatype.Vector2`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioDeviceEmulatorService:HasDeviceWithId`
+
+``HasDeviceWithId(deviceId: `string`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioDeviceEmulatorService:SetCurrentDeviceId`
+
+``SetCurrentDeviceId(deviceId: `string`)`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.StudioDeviceEmulatorService:SetCurrentOrientation`
+
+``SetCurrentOrientation(orientation: `Enum.ScreenOrientation`)`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
 
 ## Events
 
-- **CurrentDeviceIdChanged**()
-- **OrientationChanged**()
-- **TouchInBoundsChanged**()
-- **TouchPositionsChanged**()
+### `Class.StudioDeviceEmulatorService.CurrentDeviceIdChanged`
+
+Fires with: ()
+
+### `Class.StudioDeviceEmulatorService.OrientationChanged`
+
+Fires with: ()
+
+### `Class.StudioDeviceEmulatorService.TouchInBoundsChanged`
+
+Fires with: ()
+
+### `Class.StudioDeviceEmulatorService.TouchPositionsChanged`
+
+Fires with: ()

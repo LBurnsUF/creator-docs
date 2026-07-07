@@ -3,9 +3,11 @@ title: AnimationNodePhaseSync
 type: enum
 ---
 
-# AnimationNodePhaseSync (Enum)
+# `Enum.AnimationNodePhaseSync`
+
+The `Enum.AnimationNodePhaseSync` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Synced | 0 |
-| Unsynced | 1 |
+| `Enum.AnimationNodePhaseSync.Synced` | 0 |
+| `Enum.AnimationNodePhaseSync.Unsynced` | 1 |

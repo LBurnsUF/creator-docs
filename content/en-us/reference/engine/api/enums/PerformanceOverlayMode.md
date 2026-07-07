@@ -3,11 +3,13 @@ title: PerformanceOverlayMode
 type: enum
 ---
 
-# PerformanceOverlayMode (Enum)
+# `Enum.PerformanceOverlayMode`
+
+The `Enum.PerformanceOverlayMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Overdraw | 0 |
-| Transparent | 1 |
-| Decals | 2 |
-| Lights | 3 |
+| `Enum.PerformanceOverlayMode.Overdraw` | 0 |
+| `Enum.PerformanceOverlayMode.Transparent` | 1 |
+| `Enum.PerformanceOverlayMode.Decals` | 2 |
+| `Enum.PerformanceOverlayMode.Lights` | 3 |

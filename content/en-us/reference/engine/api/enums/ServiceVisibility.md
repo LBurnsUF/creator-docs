@@ -3,10 +3,12 @@ title: ServiceVisibility
 type: enum
 ---
 
-# ServiceVisibility (Enum)
+# `Enum.ServiceVisibility`
+
+The `Enum.ServiceVisibility` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Always | 0 |
-| Off | 1 |
-| WithChildren | 2 |
+| `Enum.ServiceVisibility.Always` | 0 |
+| `Enum.ServiceVisibility.Off` | 1 |
+| `Enum.ServiceVisibility.WithChildren` | 2 |

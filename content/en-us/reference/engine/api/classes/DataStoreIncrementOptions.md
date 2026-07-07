@@ -7,11 +7,16 @@ tags: [NotReplicated]
 
 # DataStoreIncrementOptions
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Methods
 
-- **GetMetadata**() -> `Dictionary`
-- **SetMetadata**(`attributes: Dictionary`) -> `null`
+### `Class.DataStoreIncrementOptions:GetMetadata`
+
+``GetMetadata()`` → `Dictionary`
+
+### `Class.DataStoreIncrementOptions:SetMetadata`
+
+``SetMetadata(attributes: `Dictionary`)`` → `null`

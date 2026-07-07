@@ -7,10 +7,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # MeshContentProvider
 
-**Inherits**: CacheableContentProvider > Instance > Object
+**Inherits from:** `Class.CacheableContentProvider` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetContentMemoryData**() -> `Dictionary`
+### `Class.MeshContentProvider:GetContentMemoryData`
+
+``GetContentMemoryData()`` → `Dictionary`
+   {security: RobloxScriptSecurity}

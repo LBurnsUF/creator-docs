@@ -3,10 +3,12 @@ title: FunctionalTestResult
 type: enum
 ---
 
-# FunctionalTestResult (Enum)
+# `Enum.FunctionalTestResult`
+
+The `Enum.FunctionalTestResult` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Passed | 0 |
-| Warning | 1 |
-| Error | 2 |
+| `Enum.FunctionalTestResult.Passed` | 0 |
+| `Enum.FunctionalTestResult.Warning` | 1 |
+| `Enum.FunctionalTestResult.Error` | 2 |

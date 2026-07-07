@@ -3,10 +3,12 @@ title: VolumetricAudio
 type: enum
 ---
 
-# VolumetricAudio (Enum)
+# `Enum.VolumetricAudio`
+
+The `Enum.VolumetricAudio` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Disabled | 0 |
-| Automatic | 1 |
-| Enabled | 2 |
+| `Enum.VolumetricAudio.Disabled` | 0 |
+| `Enum.VolumetricAudio.Automatic` | 1 |
+| `Enum.VolumetricAudio.Enabled` | 2 |

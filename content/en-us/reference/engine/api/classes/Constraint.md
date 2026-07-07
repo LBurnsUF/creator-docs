@@ -7,20 +7,29 @@ tags: [NotCreatable]
 
 # Constraint
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Active**: `bool` [ReadOnly] [NotReplicated]
-- **Attachment0**: `Attachment`
-- **Attachment1**: `Attachment`
-- **Color**: `BrickColor`
-- **Enabled**: `bool`
-- **Visible**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Constraint.Active` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.Constraint.Attachment0` | `Class.Attachment` |  |
+| `Class.Constraint.Attachment1` | `Class.Attachment` |  |
+| `Class.Constraint.Color` | `Datatype.BrickColor` |  |
+| `Class.Constraint.Enabled` | `bool` |  |
+| `Class.Constraint.Visible` | `bool` |  |
 
 ## Methods
 
-- **GetDebugAppliedForce**(`bodyId: int`) -> `Vector3` [Deprecated]
-- **GetDebugAppliedTorque**(`bodyId: int`) -> `Vector3` [Deprecated]
+### `Class.Constraint:GetDebugAppliedForce`
+
+``GetDebugAppliedForce(bodyId: `int`)`` → `Datatype.Vector3`
+  [Deprecated]
+
+### `Class.Constraint:GetDebugAppliedTorque`
+
+``GetDebugAppliedTorque(bodyId: `int`)`` → `Datatype.Vector3`
+  [Deprecated]

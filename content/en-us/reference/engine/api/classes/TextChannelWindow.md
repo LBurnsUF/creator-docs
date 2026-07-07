@@ -7,11 +7,13 @@ tags: [NotBrowsable]
 
 # TextChannelWindow
 
-**Inherits**: GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotBrowsable
+**Tags:** [NotBrowsable]
 
 ## Properties
 
-- **IsRendering**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Target**: `TextChannel`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextChannelWindow.IsRendering` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextChannelWindow.Target` | `Class.TextChannel` |  |

@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # RunningAverageItemInt
 
-**Inherits**: StatsItem > Instance > Object
+**Inherits from:** `Class.StatsItem` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

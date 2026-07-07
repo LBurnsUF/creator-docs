@@ -6,21 +6,23 @@ superclass: Instance
 
 # TerrainDetail
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ColorMap**: `ContentId` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ColorMapContent**: `Content` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EmissiveMaskContent**: `Content` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EmissiveStrength**: `float`
-- **EmissiveTint**: `Color3`
-- **Face**: `TerrainFace`
-- **MaterialPattern**: `MaterialPattern`
-- **MetalnessMap**: `ContentId` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **MetalnessMapContent**: `Content` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **NormalMap**: `ContentId` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **NormalMapContent**: `Content` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RoughnessMap**: `ContentId` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RoughnessMapContent**: `Content` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **StudsPerTile**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TerrainDetail.ColorMap` | `Datatype.ContentId` |  {security: PluginSecurity} |
+| `Class.TerrainDetail.ColorMapContent` | `Datatype.Content` |  {security: PluginSecurity} |
+| `Class.TerrainDetail.EmissiveMaskContent` | `Datatype.Content` |  {security: PluginSecurity} |
+| `Class.TerrainDetail.EmissiveStrength` | `float` |  |
+| `Class.TerrainDetail.EmissiveTint` | `Datatype.Color3` |  |
+| `Class.TerrainDetail.Face` | `Enum.TerrainFace` |  |
+| `Class.TerrainDetail.MaterialPattern` | `Enum.MaterialPattern` |  |
+| `Class.TerrainDetail.MetalnessMap` | `Datatype.ContentId` |  {security: PluginSecurity} |
+| `Class.TerrainDetail.MetalnessMapContent` | `Datatype.Content` |  {security: PluginSecurity} |
+| `Class.TerrainDetail.NormalMap` | `Datatype.ContentId` |  {security: PluginSecurity} |
+| `Class.TerrainDetail.NormalMapContent` | `Datatype.Content` |  {security: PluginSecurity} |
+| `Class.TerrainDetail.RoughnessMap` | `Datatype.ContentId` |  {security: PluginSecurity} |
+| `Class.TerrainDetail.RoughnessMapContent` | `Datatype.Content` |  {security: PluginSecurity} |
+| `Class.TerrainDetail.StudsPerTile` | `float` |  |

@@ -6,12 +6,14 @@ superclass: InstanceAdornment
 
 # SelectionBox
 
-**Inherits**: InstanceAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.InstanceAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **LineThickness**: `float`
-- **StudioSelectionBox**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SurfaceColor**: `BrickColor` [Hidden] [NotReplicated] [Deprecated]
-- **SurfaceColor3**: `Color3`
-- **SurfaceTransparency**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SelectionBox.LineThickness` | `float` |  |
+| `Class.SelectionBox.StudioSelectionBox` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.SelectionBox.SurfaceColor` | `Datatype.BrickColor` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.SelectionBox.SurfaceColor3` | `Datatype.Color3` |  |
+| `Class.SelectionBox.SurfaceTransparency` | `float` |  |

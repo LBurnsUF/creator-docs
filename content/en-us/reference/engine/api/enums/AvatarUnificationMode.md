@@ -3,10 +3,12 @@ title: AvatarUnificationMode
 type: enum
 ---
 
-# AvatarUnificationMode (Enum)
+# `Enum.AvatarUnificationMode`
+
+The `Enum.AvatarUnificationMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.AvatarUnificationMode.Default` | 0 |
+| `Enum.AvatarUnificationMode.Disabled` | 1 |
+| `Enum.AvatarUnificationMode.Enabled` | 2 |

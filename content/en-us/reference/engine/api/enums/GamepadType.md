@@ -3,11 +3,13 @@ title: GamepadType
 type: enum
 ---
 
-# GamepadType (Enum)
+# `Enum.GamepadType`
+
+The `Enum.GamepadType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| PS4 | 1 |
-| PS5 | 2 |
-| XboxOne | 3 |
+| `Enum.GamepadType.Unknown` | 0 |
+| `Enum.GamepadType.PS4` | 1 |
+| `Enum.GamepadType.PS5` | 2 |
+| `Enum.GamepadType.XboxOne` | 3 |

@@ -3,11 +3,11 @@ title: DockWidgetPluginGuiInfo
 type: datatype
 ---
 
-# DockWidgetPluginGuiInfo (DataType)
+# `Datatype.DockWidgetPluginGuiInfo`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- Plugin.CreateDockWidgetPluginGui(dockWidgetPluginGuiInfo)
-- Plugin.CreateDockWidgetPluginGuiAsync(dockWidgetPluginGuiInfo)
+- `Class.Plugin:CreateDockWidgetPluginGui` (parameter `dockWidgetPluginGuiInfo`)
+- `Class.Plugin:CreateDockWidgetPluginGuiAsync` (parameter `dockWidgetPluginGuiInfo`)

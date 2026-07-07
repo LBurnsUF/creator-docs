@@ -3,15 +3,17 @@ title: AppShellFeature
 type: enum
 ---
 
-# AppShellFeature (Enum)
+# `Enum.AppShellFeature`
+
+The `Enum.AppShellFeature` enum has 8 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Chat | 1 |
-| AvatarEditor | 2 |
-| GamePage | 3 |
-| HomePage | 4 |
-| More | 5 |
-| Landing | 6 |
-| WatchPage | 7 |
+| `Enum.AppShellFeature.None` | 0 |
+| `Enum.AppShellFeature.Chat` | 1 |
+| `Enum.AppShellFeature.AvatarEditor` | 2 |
+| `Enum.AppShellFeature.GamePage` | 3 |
+| `Enum.AppShellFeature.HomePage` | 4 |
+| `Enum.AppShellFeature.More` | 5 |
+| `Enum.AppShellFeature.Landing` | 6 |
+| `Enum.AppShellFeature.WatchPage` | 7 |

@@ -3,12 +3,14 @@ title: ScreenOrientation
 type: enum
 ---
 
-# ScreenOrientation (Enum)
+# `Enum.ScreenOrientation`
+
+The `Enum.ScreenOrientation` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| LandscapeLeft | 0 |
-| LandscapeRight | 1 |
-| LandscapeSensor | 2 |
-| Portrait | 3 |
-| Sensor | 4 |
+| `Enum.ScreenOrientation.LandscapeLeft` | 0 |
+| `Enum.ScreenOrientation.LandscapeRight` | 1 |
+| `Enum.ScreenOrientation.LandscapeSensor` | 2 |
+| `Enum.ScreenOrientation.Portrait` | 3 |
+| `Enum.ScreenOrientation.Sensor` | 4 |

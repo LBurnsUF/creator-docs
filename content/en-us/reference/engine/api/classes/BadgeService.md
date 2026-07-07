@@ -7,22 +7,58 @@ tags: [NotCreatable, Service]
 
 # BadgeService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **AwardBadge**(`userId: User`, `badgeId: int64`) -> `bool` [Yields] [Deprecated]
-- **AwardBadgeAsync**(`userId: User`, `badgeId: int64`) -> `bool` [Yields]
-- **CheckUserBadgesAsync**(`userId: User`, `badgeIds: Array`) -> `Array` [Yields]
-- **GetBadgeInfoAsync**(`badgeId: int64`) -> `Dictionary` [Yields]
-- **IsDisabled**(`badgeId: int64`) -> `bool` [Yields] [Deprecated]
-- **IsLegal**(`badgeId: int64`) -> `bool` [Yields] [Deprecated]
-- **UserHasBadge**(`userId: User`, `badgeId: int64`) -> `bool` [Yields] [Deprecated]
-- **UserHasBadgeAsync**(`userId: User`, `badgeId: int64`) -> `bool` [Yields]
+### `Class.BadgeService:AwardBadge`
+
+``AwardBadge(userId: `Datatype.User`, badgeId: `int64`)`` → `bool`
+  [Yields] [Deprecated]
+
+### `Class.BadgeService:AwardBadgeAsync`
+
+``AwardBadgeAsync(userId: `Datatype.User`, badgeId: `int64`)`` → `bool`
+  [Yields]
+
+### `Class.BadgeService:CheckUserBadgesAsync`
+
+``CheckUserBadgesAsync(userId: `Datatype.User`, badgeIds: `Array`)`` → `Array`
+  [Yields]
+
+### `Class.BadgeService:GetBadgeInfoAsync`
+
+``GetBadgeInfoAsync(badgeId: `int64`)`` → `Dictionary`
+  [Yields]
+
+### `Class.BadgeService:IsDisabled`
+
+``IsDisabled(badgeId: `int64`)`` → `bool`
+  [Yields] [Deprecated]
+
+### `Class.BadgeService:IsLegal`
+
+``IsLegal(badgeId: `int64`)`` → `bool`
+  [Yields] [Deprecated]
+
+### `Class.BadgeService:UserHasBadge`
+
+``UserHasBadge(userId: `Datatype.User`, badgeId: `int64`)`` → `bool`
+  [Yields] [Deprecated]
+
+### `Class.BadgeService:UserHasBadgeAsync`
+
+``UserHasBadgeAsync(userId: `Datatype.User`, badgeId: `int64`)`` → `bool`
+  [Yields]
 
 ## Events
 
-- **BadgeAwarded**(`message: string`, `userId: int64`, `badgeId: int64`)
-- **OnBadgeAwarded**(`userId: int64`, `creatorId: int64`, `badgeId: int64`)
+### `Class.BadgeService.BadgeAwarded`
+
+Fires with: (message: `string`, userId: `int64`, badgeId: `int64`)
+
+### `Class.BadgeService.OnBadgeAwarded`
+
+Fires with: (userId: `int64`, creatorId: `int64`, badgeId: `int64`)

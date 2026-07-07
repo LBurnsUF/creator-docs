@@ -3,9 +3,11 @@ title: HighlightDepthMode
 type: enum
 ---
 
-# HighlightDepthMode (Enum)
+# `Enum.HighlightDepthMode`
+
+The `Enum.HighlightDepthMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| AlwaysOnTop | 0 |
-| Occluded | 1 |
+| `Enum.HighlightDepthMode.AlwaysOnTop` | 0 |
+| `Enum.HighlightDepthMode.Occluded` | 1 |

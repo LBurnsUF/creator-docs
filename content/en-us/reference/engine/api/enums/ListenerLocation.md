@@ -3,11 +3,13 @@ title: ListenerLocation
 type: enum
 ---
 
-# ListenerLocation (Enum)
+# `Enum.ListenerLocation`
+
+The `Enum.ListenerLocation` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| None | 1 |
-| Character | 2 |
-| Camera | 3 |
+| `Enum.ListenerLocation.Default` | 0 |
+| `Enum.ListenerLocation.None` | 1 |
+| `Enum.ListenerLocation.Character` | 2 |
+| `Enum.ListenerLocation.Camera` | 3 |

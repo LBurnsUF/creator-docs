@@ -7,16 +7,23 @@ tags: [NotCreatable, NotBrowsable]
 
 # PVInstance
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Properties
 
-- **Origin**: `CFrame` [NotReplicated] [NotScriptable]
-- **Pivot Offset**: `CFrame` [NotReplicated] [NotScriptable]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PVInstance.Origin` | `Datatype.CFrame` | [NotReplicated] [NotScriptable] |
+| `Class.PVInstance.Pivot Offset` | `Datatype.CFrame` | [NotReplicated] [NotScriptable] |
 
 ## Methods
 
-- **GetPivot**() -> `CFrame`
-- **PivotTo**(`targetCFrame: CFrame`) -> `null`
+### `Class.PVInstance:GetPivot`
+
+``GetPivot()`` → `Datatype.CFrame`
+
+### `Class.PVInstance:PivotTo`
+
+``PivotTo(targetCFrame: `Datatype.CFrame`)`` → `null`

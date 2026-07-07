@@ -7,12 +7,23 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # CalloutService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **AttachCallout**(`definitionId: string`, `locationId: string`, `target: Instance`) -> `null`
-- **DefineCallout**(`definitionId: string`, `title: string`, `description: string`, `learnMoreURL: string`) -> `null`
-- **DetachCalloutsByDefinitionId**(`definitionId: string`) -> `null`
+### `Class.CalloutService:AttachCallout`
+
+``AttachCallout(definitionId: `string`, locationId: `string`, target: `Class.Instance`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CalloutService:DefineCallout`
+
+``DefineCallout(definitionId: `string`, title: `string`, description: `string`, learnMoreURL: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CalloutService:DetachCalloutsByDefinitionId`
+
+``DetachCalloutsByDefinitionId(definitionId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}

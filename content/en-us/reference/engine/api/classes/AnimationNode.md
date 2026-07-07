@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # AnimationNode
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

@@ -7,21 +7,39 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # MicroProfilerService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **ContextLabel**: `string` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.MicroProfilerService.ContextLabel` | `string` |  {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **DumpToFileAsync**(`secondsToDelay: int`, `framesToDump: int`) -> `string` [Yields]
-- **GetDataInRange**(`slotId: int`, `offset: int`, `size: int`, `destBuffer: buffer`, `destBufferOffset: int`) -> `int` [CustomLuaState]
-- **GetDataSize**(`slotId: int`) -> `int`
-- **ProcessCommand**(`cmdBuf: buffer`, `cmdOffset: int`, `cmdSize: int`, `respBuf: buffer`, `respOffset: int`, `respSize: int`) -> `int` [CustomLuaState]
+### `Class.MicroProfilerService:DumpToFileAsync`
+
+``DumpToFileAsync(secondsToDelay: `int`, framesToDump: `int`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.MicroProfilerService:GetDataInRange`
+
+``GetDataInRange(slotId: `int`, offset: `int`, size: `int`, destBuffer: `Datatype.buffer`, destBufferOffset: `int`)`` → `int`
+  [CustomLuaState]
+
+### `Class.MicroProfilerService:GetDataSize`
+
+``GetDataSize(slotId: `int`)`` → `int`
+
+### `Class.MicroProfilerService:ProcessCommand`
+
+``ProcessCommand(cmdBuf: `Datatype.buffer`, cmdOffset: `int`, cmdSize: `int`, respBuf: `Datatype.buffer`, respOffset: `int`, respSize: `int`)`` → `int`
+  [CustomLuaState]
 
 ## Events
 
-- **DataChanged**(`slotId: int`, `flags: int`)
+### `Class.MicroProfilerService.DataChanged`
+
+Fires with: (slotId: `int`, flags: `int`)

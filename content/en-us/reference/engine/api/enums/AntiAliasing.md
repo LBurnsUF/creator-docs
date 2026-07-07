@@ -3,9 +3,11 @@ title: AntiAliasing
 type: enum
 ---
 
-# AntiAliasing (Enum)
+# `Enum.AntiAliasing`
+
+The `Enum.AntiAliasing` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Disabled | 0 |
-| Enabled | 1 |
+| `Enum.AntiAliasing.Disabled` | 0 |
+| `Enum.AntiAliasing.Enabled` | 1 |

@@ -7,12 +7,14 @@ tags: [NotCreatable]
 
 # ControllerBase
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Active**: `bool` [ReadOnly] [NotReplicated]
-- **BalanceRigidityEnabled**: `bool`
-- **MoveSpeedFactor**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ControllerBase.Active` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.ControllerBase.BalanceRigidityEnabled` | `bool` |  |
+| `Class.ControllerBase.MoveSpeedFactor` | `float` |  |

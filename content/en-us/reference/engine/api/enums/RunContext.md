@@ -3,11 +3,13 @@ title: RunContext
 type: enum
 ---
 
-# RunContext (Enum)
+# `Enum.RunContext`
+
+The `Enum.RunContext` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Legacy | 0 |
-| Server | 1 |
-| Client | 2 |
-| Plugin | 3 |
+| `Enum.RunContext.Legacy` | 0 |
+| `Enum.RunContext.Server` | 1 |
+| `Enum.RunContext.Client` | 2 |
+| `Enum.RunContext.Plugin` | 3 |

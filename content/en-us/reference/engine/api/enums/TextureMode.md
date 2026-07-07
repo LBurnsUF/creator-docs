@@ -3,10 +3,12 @@ title: TextureMode
 type: enum
 ---
 
-# TextureMode (Enum)
+# `Enum.TextureMode`
+
+The `Enum.TextureMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Stretch | 0 |
-| Wrap | 1 |
-| Static | 2 |
+| `Enum.TextureMode.Stretch` | 0 |
+| `Enum.TextureMode.Wrap` | 1 |
+| `Enum.TextureMode.Static` | 2 |

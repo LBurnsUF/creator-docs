@@ -3,12 +3,14 @@ title: HashAlgorithm
 type: enum
 ---
 
-# HashAlgorithm (Enum)
+# `Enum.HashAlgorithm`
+
+The `Enum.HashAlgorithm` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Blake2b | 0 |
-| Blake3 | 1 |
-| Md5 | 2 |
-| Sha1 | 3 |
-| Sha256 | 4 |
+| `Enum.HashAlgorithm.Blake2b` | 0 |
+| `Enum.HashAlgorithm.Blake3` | 1 |
+| `Enum.HashAlgorithm.Md5` | 2 |
+| `Enum.HashAlgorithm.Sha1` | 3 |
+| `Enum.HashAlgorithm.Sha256` | 4 |

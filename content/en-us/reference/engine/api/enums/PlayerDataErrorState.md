@@ -3,11 +3,13 @@ title: PlayerDataErrorState
 type: enum
 ---
 
-# PlayerDataErrorState (Enum)
+# `Enum.PlayerDataErrorState`
+
+The `Enum.PlayerDataErrorState` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| LoadFailed | 0 |
-| FlushFailed | 1 |
-| ReleaseFailed | 2 |
-| None | 3 |
+| `Enum.PlayerDataErrorState.LoadFailed` | 0 |
+| `Enum.PlayerDataErrorState.FlushFailed` | 1 |
+| `Enum.PlayerDataErrorState.ReleaseFailed` | 2 |
+| `Enum.PlayerDataErrorState.None` | 3 |

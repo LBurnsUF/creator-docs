@@ -7,12 +7,20 @@ tags: [NotCreatable, Service]
 
 # TweenService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **Create**(`instance: Instance`, `tweenInfo: TweenInfo`, `propertyTable: Dictionary`) -> `Tween`
-- **GetValue**(`alpha: float`, `easingStyle: EasingStyle`, `easingDirection: EasingDirection`) -> `float`
-- **SmoothDamp**(`current: Variant`, `target: Variant`, `velocity: Variant`, `smoothTime: float`, `maxSpeed: float?`, `dt: float?`) -> `[{'Category': 'Group', 'Name': 'Variant'}, {'Category': 'Group', 'Name': 'Variant'}]`
+### `Class.TweenService:Create`
+
+``Create(instance: `Class.Instance`, tweenInfo: `Datatype.TweenInfo`, propertyTable: `Dictionary`)`` → `Class.Tween`
+
+### `Class.TweenService:GetValue`
+
+``GetValue(alpha: `float`, easingStyle: `Enum.EasingStyle`, easingDirection: `Enum.EasingDirection`)`` → `float`
+
+### `Class.TweenService:SmoothDamp`
+
+``SmoothDamp(current: `Variant`, target: `Variant`, velocity: `Variant`, smoothTime: `float`, maxSpeed: `float?`, dt: `float?`)`` → `[{'Category': 'Group', 'Name': 'Variant'}, {'Category': 'Group', 'Name': 'Variant'}]`

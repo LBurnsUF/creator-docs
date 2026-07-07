@@ -3,10 +3,12 @@ title: FramerateManagerMode
 type: enum
 ---
 
-# FramerateManagerMode (Enum)
+# `Enum.FramerateManagerMode`
+
+The `Enum.FramerateManagerMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| On | 1 |
-| Off | 2 |
+| `Enum.FramerateManagerMode.Automatic` | 0 |
+| `Enum.FramerateManagerMode.On` | 1 |
+| `Enum.FramerateManagerMode.Off` | 2 |

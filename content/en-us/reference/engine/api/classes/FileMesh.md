@@ -6,11 +6,13 @@ superclass: DataModelMesh
 
 # FileMesh
 
-**Inherits**: DataModelMesh > Instance > Object
+**Inherits from:** `Class.DataModelMesh` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **MeshContent**: `Content`
-- **MeshId**: `ContentId`
-- **TextureContent**: `Content`
-- **TextureId**: `ContentId`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FileMesh.MeshContent` | `Datatype.Content` |  |
+| `Class.FileMesh.MeshId` | `Datatype.ContentId` |  |
+| `Class.FileMesh.TextureContent` | `Datatype.Content` |  |
+| `Class.FileMesh.TextureId` | `Datatype.ContentId` |  |

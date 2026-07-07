@@ -6,14 +6,16 @@ superclass: UIComponent
 
 # UIShadow
 
-**Inherits**: UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **BlurRadius**: `UDim`
-- **Color**: `Color3`
-- **Enabled**: `bool`
-- **Offset**: `UDim2`
-- **Spread**: `UDim2`
-- **Transparency**: `float`
-- **ZIndex**: `int`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIShadow.BlurRadius` | `Datatype.UDim` |  |
+| `Class.UIShadow.Color` | `Datatype.Color3` |  |
+| `Class.UIShadow.Enabled` | `bool` |  |
+| `Class.UIShadow.Offset` | `Datatype.UDim2` |  |
+| `Class.UIShadow.Spread` | `Datatype.UDim2` |  |
+| `Class.UIShadow.Transparency` | `float` |  |
+| `Class.UIShadow.ZIndex` | `int` |  |

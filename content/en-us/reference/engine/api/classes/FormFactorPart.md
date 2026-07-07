@@ -7,11 +7,13 @@ tags: [NotCreatable]
 
 # FormFactorPart
 
-**Inherits**: BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **FormFactor**: `FormFactor` [NotReplicated] [Deprecated]
-- **formFactor**: `FormFactor` [Hidden] [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FormFactorPart.FormFactor` | `Enum.FormFactor` | [NotReplicated] [Deprecated] |
+| `Class.FormFactorPart.formFactor` | `Enum.FormFactor` | [Hidden] [NotReplicated] [Deprecated] |

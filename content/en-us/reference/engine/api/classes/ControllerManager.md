@@ -6,16 +6,18 @@ superclass: Instance
 
 # ControllerManager
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ActiveController**: `ControllerBase`
-- **BaseMoveSpeed**: `float`
-- **BaseTurnSpeed**: `float`
-- **ClimbSensor**: `ControllerSensor`
-- **FacingDirection**: `Vector3`
-- **GroundSensor**: `ControllerSensor`
-- **MovingDirection**: `Vector3`
-- **RootPart**: `BasePart`
-- **UpDirection**: `Vector3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ControllerManager.ActiveController` | `Class.ControllerBase` |  |
+| `Class.ControllerManager.BaseMoveSpeed` | `float` |  |
+| `Class.ControllerManager.BaseTurnSpeed` | `float` |  |
+| `Class.ControllerManager.ClimbSensor` | `Class.ControllerSensor` |  |
+| `Class.ControllerManager.FacingDirection` | `Datatype.Vector3` |  |
+| `Class.ControllerManager.GroundSensor` | `Class.ControllerSensor` |  |
+| `Class.ControllerManager.MovingDirection` | `Datatype.Vector3` |  |
+| `Class.ControllerManager.RootPart` | `Class.BasePart` |  |
+| `Class.ControllerManager.UpDirection` | `Datatype.Vector3` |  |

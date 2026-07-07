@@ -3,9 +3,11 @@ title: AvatarSettingsLegacyCollisionMode
 type: enum
 ---
 
-# AvatarSettingsLegacyCollisionMode (Enum)
+# `Enum.AvatarSettingsLegacyCollisionMode`
+
+The `Enum.AvatarSettingsLegacyCollisionMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| R6Colliders | 0 |
-| InnerBoxColliders | 1 |
+| `Enum.AvatarSettingsLegacyCollisionMode.R6Colliders` | 0 |
+| `Enum.AvatarSettingsLegacyCollisionMode.InnerBoxColliders` | 1 |

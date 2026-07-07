@@ -3,14 +3,14 @@ title: ValueCurveKey
 type: datatype
 ---
 
-# ValueCurveKey (DataType)
+# `Datatype.ValueCurveKey`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- ValueCurve.InsertKey(key)
+- `Class.ValueCurve:InsertKey` (parameter `key`)
 
 ## Used as Return Type
 
-- ValueCurve.GetKeyAtIndex
+- `Class.ValueCurve:GetKeyAtIndex`

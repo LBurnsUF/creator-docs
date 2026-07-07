@@ -7,15 +7,17 @@ tags: [NotCreatable, NotReplicated]
 
 # Capture
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **CaptureTime**: `DateTime` [ReadOnly] [NotReplicated]
-- **CaptureType**: `CaptureType` [ReadOnly] [NotReplicated]
-- **FilePathString**: `string` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LocalId**: `string` [ReadOnly] [NotReplicated]
-- **SourcePlaceId**: `int64` [ReadOnly] [NotReplicated]
-- **SourceUniverseId**: `int64` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Capture.CaptureTime` | `Datatype.DateTime` | [ReadOnly] [NotReplicated] |
+| `Class.Capture.CaptureType` | `Enum.CaptureType` | [ReadOnly] [NotReplicated] |
+| `Class.Capture.FilePathString` | `string` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Capture.LocalId` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.Capture.SourcePlaceId` | `int64` | [ReadOnly] [NotReplicated] |
+| `Class.Capture.SourceUniverseId` | `int64` | [ReadOnly] [NotReplicated] |

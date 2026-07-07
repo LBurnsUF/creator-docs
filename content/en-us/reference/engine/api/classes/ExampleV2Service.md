@@ -7,14 +7,19 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ExampleV2Service
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **PrintHello**() -> `null`
+### `Class.ExampleV2Service:PrintHello`
+
+``PrintHello()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **OnPolo**(`message: string`)
+### `Class.ExampleV2Service.OnPolo`
+
+Fires with: (message: `string`)

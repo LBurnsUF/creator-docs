@@ -3,11 +3,13 @@ title: FormFactor
 type: enum
 ---
 
-# FormFactor (Enum)
+# `Enum.FormFactor`
+
+The `Enum.FormFactor` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Symmetric | 0 |
-| Brick | 1 |
-| Plate | 2 |
-| Custom | 3 |
+| `Enum.FormFactor.Symmetric` | 0 |
+| `Enum.FormFactor.Brick` | 1 |
+| `Enum.FormFactor.Plate` | 2 |
+| `Enum.FormFactor.Custom` | 3 |

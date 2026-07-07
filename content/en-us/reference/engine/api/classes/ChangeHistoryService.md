@@ -7,26 +7,76 @@ tags: [NotCreatable, Service]
 
 # ChangeHistoryService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **FinishRecording**(`identifier: string`, `operation: FinishRecordingOperation`, `finalOptions: Dictionary?`) -> `null`
-- **GetCanRedo**() -> `Tuple`
-- **GetCanUndo**() -> `Tuple`
-- **IsRecordingInProgress**(`identifier: string?`) -> `bool`
-- **Redo**() -> `null`
-- **ResetWaypoints**() -> `null`
-- **SetEnabled**(`state: bool`) -> `null`
-- **SetWaypoint**(`name: string`) -> `null`
-- **TryBeginRecording**(`name: string`, `displayName: string?`) -> `string?`
-- **Undo**() -> `null`
+### `Class.ChangeHistoryService:FinishRecording`
+
+``FinishRecording(identifier: `string`, operation: `Enum.FinishRecordingOperation`, finalOptions: `Dictionary?`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.ChangeHistoryService:GetCanRedo`
+
+``GetCanRedo()`` → `Tuple`
+   {security: PluginSecurity}
+
+### `Class.ChangeHistoryService:GetCanUndo`
+
+``GetCanUndo()`` → `Tuple`
+   {security: PluginSecurity}
+
+### `Class.ChangeHistoryService:IsRecordingInProgress`
+
+``IsRecordingInProgress(identifier: `string?`)`` → `bool`
+   {security: PluginSecurity}
+
+### `Class.ChangeHistoryService:Redo`
+
+``Redo()`` → `null`
+   {security: PluginSecurity}
+
+### `Class.ChangeHistoryService:ResetWaypoints`
+
+``ResetWaypoints()`` → `null`
+   {security: PluginSecurity}
+
+### `Class.ChangeHistoryService:SetEnabled`
+
+``SetEnabled(state: `bool`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.ChangeHistoryService:SetWaypoint`
+
+``SetWaypoint(name: `string`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.ChangeHistoryService:TryBeginRecording`
+
+``TryBeginRecording(name: `string`, displayName: `string?`)`` → `string?`
+   {security: PluginSecurity}
+
+### `Class.ChangeHistoryService:Undo`
+
+``Undo()`` → `null`
+   {security: PluginSecurity}
 
 ## Events
 
-- **OnRecordingFinished**(`name: string`, `displayName: string?`, `identifier: string?`, `operation: FinishRecordingOperation`, `finalOptions: Dictionary?`)
-- **OnRecordingStarted**(`name: string`, `displayName: string?`)
-- **OnRedo**(`waypoint: string`)
-- **OnUndo**(`waypoint: string`)
+### `Class.ChangeHistoryService.OnRecordingFinished`
+
+Fires with: (name: `string`, displayName: `string?`, identifier: `string?`, operation: `Enum.FinishRecordingOperation`, finalOptions: `Dictionary?`)
+
+### `Class.ChangeHistoryService.OnRecordingStarted`
+
+Fires with: (name: `string`, displayName: `string?`)
+
+### `Class.ChangeHistoryService.OnRedo`
+
+Fires with: (waypoint: `string`)
+
+### `Class.ChangeHistoryService.OnUndo`
+
+Fires with: (waypoint: `string`)

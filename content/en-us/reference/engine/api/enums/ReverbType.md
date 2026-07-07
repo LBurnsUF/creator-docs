@@ -3,31 +3,33 @@ title: ReverbType
 type: enum
 ---
 
-# ReverbType (Enum)
+# `Enum.ReverbType`
+
+The `Enum.ReverbType` enum has 24 item(s).
 
 | Name | Value |
 |------|-------|
-| NoReverb | 0 |
-| GenericReverb | 1 |
-| PaddedCell | 2 |
-| Room | 3 |
-| Bathroom | 4 |
-| LivingRoom | 5 |
-| StoneRoom | 6 |
-| Auditorium | 7 |
-| ConcertHall | 8 |
-| Cave | 9 |
-| Arena | 10 |
-| Hangar | 11 |
-| CarpettedHallway | 12 |
-| Hallway | 13 |
-| StoneCorridor | 14 |
-| Alley | 15 |
-| Forest | 16 |
-| City | 17 |
-| Mountains | 18 |
-| Quarry | 19 |
-| Plain | 20 |
-| ParkingLot | 21 |
-| SewerPipe | 22 |
-| UnderWater | 23 |
+| `Enum.ReverbType.NoReverb` | 0 |
+| `Enum.ReverbType.GenericReverb` | 1 |
+| `Enum.ReverbType.PaddedCell` | 2 |
+| `Enum.ReverbType.Room` | 3 |
+| `Enum.ReverbType.Bathroom` | 4 |
+| `Enum.ReverbType.LivingRoom` | 5 |
+| `Enum.ReverbType.StoneRoom` | 6 |
+| `Enum.ReverbType.Auditorium` | 7 |
+| `Enum.ReverbType.ConcertHall` | 8 |
+| `Enum.ReverbType.Cave` | 9 |
+| `Enum.ReverbType.Arena` | 10 |
+| `Enum.ReverbType.Hangar` | 11 |
+| `Enum.ReverbType.CarpettedHallway` | 12 |
+| `Enum.ReverbType.Hallway` | 13 |
+| `Enum.ReverbType.StoneCorridor` | 14 |
+| `Enum.ReverbType.Alley` | 15 |
+| `Enum.ReverbType.Forest` | 16 |
+| `Enum.ReverbType.City` | 17 |
+| `Enum.ReverbType.Mountains` | 18 |
+| `Enum.ReverbType.Quarry` | 19 |
+| `Enum.ReverbType.Plain` | 20 |
+| `Enum.ReverbType.ParkingLot` | 21 |
+| `Enum.ReverbType.SewerPipe` | 22 |
+| `Enum.ReverbType.UnderWater` | 23 |

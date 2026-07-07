@@ -7,10 +7,12 @@ tags: [NotCreatable]
 
 # Clothing
 
-**Inherits**: CharacterAppearance > Instance > Object
+**Inherits from:** `Class.CharacterAppearance` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Color3**: `Color3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Clothing.Color3` | `Datatype.Color3` |  |

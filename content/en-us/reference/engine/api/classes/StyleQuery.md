@@ -6,22 +6,35 @@ superclass: Instance
 
 # StyleQuery
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AspectRatioRange**: `NumberRange` [NotReplicated] [NotScriptable] (Security: Read=RobloxSecurity, Write=None)
-- **IsActive**: `bool` [ReadOnly] [NotReplicated]
-- **MaxSize**: `Vector2` [NotReplicated] [NotScriptable] (Security: Read=RobloxSecurity, Write=None)
-- **MinSize**: `Vector2` [NotReplicated] [NotScriptable] (Security: Read=RobloxSecurity, Write=None)
-- **PreferredInput**: `PreferredInput` [NotReplicated] [NotScriptable] (Security: Read=RobloxSecurity, Write=None)
-- **PreferredTextSize**: `PreferredTextSize` [NotReplicated] [NotScriptable] (Security: Read=RobloxSecurity, Write=None)
-- **ReducedMotionEnabled**: `bool` [NotReplicated] [NotScriptable] (Security: Read=RobloxSecurity, Write=None)
-- **ViewportDisplaySize**: `DisplaySize` [NotReplicated] [NotScriptable] (Security: Read=RobloxSecurity, Write=None)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StyleQuery.AspectRatioRange` | `Datatype.NumberRange` | [NotReplicated] [NotScriptable] {read: RobloxSecurity} |
+| `Class.StyleQuery.IsActive` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.StyleQuery.MaxSize` | `Datatype.Vector2` | [NotReplicated] [NotScriptable] {read: RobloxSecurity} |
+| `Class.StyleQuery.MinSize` | `Datatype.Vector2` | [NotReplicated] [NotScriptable] {read: RobloxSecurity} |
+| `Class.StyleQuery.PreferredInput` | `Enum.PreferredInput` | [NotReplicated] [NotScriptable] {read: RobloxSecurity} |
+| `Class.StyleQuery.PreferredTextSize` | `Enum.PreferredTextSize` | [NotReplicated] [NotScriptable] {read: RobloxSecurity} |
+| `Class.StyleQuery.ReducedMotionEnabled` | `bool` | [NotReplicated] [NotScriptable] {read: RobloxSecurity} |
+| `Class.StyleQuery.ViewportDisplaySize` | `Enum.DisplaySize` | [NotReplicated] [NotScriptable] {read: RobloxSecurity} |
 
 ## Methods
 
-- **GetCondition**(`name: string`) -> `Variant`
-- **GetConditions**() -> `Dictionary`
-- **SetCondition**(`name: string`, `value: Variant`) -> `null`
-- **SetConditions**(`conditions: Dictionary`) -> `null`
+### `Class.StyleQuery:GetCondition`
+
+``GetCondition(name: `string`)`` → `Variant`
+
+### `Class.StyleQuery:GetConditions`
+
+``GetConditions()`` → `Dictionary`
+
+### `Class.StyleQuery:SetCondition`
+
+``SetCondition(name: `string`, value: `Variant`)`` → `null`
+
+### `Class.StyleQuery:SetConditions`
+
+``SetConditions(conditions: `Dictionary`)`` → `null`

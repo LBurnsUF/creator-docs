@@ -3,9 +3,11 @@ title: ForceLimitMode
 type: enum
 ---
 
-# ForceLimitMode (Enum)
+# `Enum.ForceLimitMode`
+
+The `Enum.ForceLimitMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Magnitude | 0 |
-| PerAxis | 1 |
+| `Enum.ForceLimitMode.Magnitude` | 0 |
+| `Enum.ForceLimitMode.PerAxis` | 1 |

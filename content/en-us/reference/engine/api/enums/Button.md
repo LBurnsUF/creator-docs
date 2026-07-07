@@ -3,9 +3,11 @@ title: Button
 type: enum
 ---
 
-# Button (Enum)
+# `Enum.Button`
+
+The `Enum.Button` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Dismount | 8 |
-| Jump | 32 |
+| `Enum.Button.Dismount` | 8 |
+| `Enum.Button.Jump` | 32 |

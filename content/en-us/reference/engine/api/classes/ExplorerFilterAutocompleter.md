@@ -7,15 +7,20 @@ tags: [NotCreatable, NotReplicated]
 
 # ExplorerFilterAutocompleter
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **ReplaceRange**: `Vector2` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RequiresOutsideContext**: `bool` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ExplorerFilterAutocompleter.ReplaceRange` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ExplorerFilterAutocompleter.RequiresOutsideContext` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetSuggestions**() -> `Array`
+### `Class.ExplorerFilterAutocompleter:GetSuggestions`
+
+``GetSuggestions()`` → `Array`
+   {security: RobloxScriptSecurity}

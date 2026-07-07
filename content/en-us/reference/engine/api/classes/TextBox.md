@@ -6,63 +6,89 @@ superclass: GuiObject
 
 # TextBox
 
-**Inherits**: GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ClearTextOnFocus**: `bool`
-- **ContentText**: `string` [ReadOnly] [NotReplicated]
-- **CursorPosition**: `int`
-- **Font**: `Font` [Hidden] [NotReplicated]
-- **FontFace**: `Font`
-- **FontSize**: `FontSize` [NotReplicated] [Deprecated]
-- **LineHeight**: `float`
-- **LocalizationMatchIdentifier**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LocalizationMatchedSourceText**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ManualFocusRelease**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MaxVisibleGraphemes**: `int`
-- **MultiLine**: `bool`
-- **OpenTypeFeatures**: `string`
-- **OpenTypeFeaturesError**: `string` [ReadOnly] [NotReplicated]
-- **OverlayNativeInput**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PlaceholderColor3**: `Color3`
-- **PlaceholderText**: `string`
-- **ReturnKeyType**: `ReturnKeyType` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RichText**: `bool`
-- **SelectionStart**: `int`
-- **ShouldEmitReturnEvents**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ShouldEmitTabEvents**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ShouldEmitUpAndDownArrowEvents**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ShowNativeInput**: `bool`
-- **Text**: `string`
-- **TextBounds**: `Vector2` [ReadOnly] [NotReplicated]
-- **TextColor**: `BrickColor` [Hidden] [NotReplicated] [Deprecated]
-- **TextColor3**: `Color3`
-- **TextDirection**: `TextDirection`
-- **TextEditable**: `bool`
-- **TextFits**: `bool` [ReadOnly] [NotReplicated]
-- **TextInputType**: `TextInputType` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **TextScaled**: `bool`
-- **TextSize**: `float`
-- **TextStrokeColor3**: `Color3`
-- **TextStrokeTransparency**: `float`
-- **TextTransparency**: `float`
-- **TextTruncate**: `TextTruncate`
-- **TextWrap**: `bool` [NotReplicated] [Deprecated]
-- **TextWrapped**: `bool`
-- **TextXAlignment**: `TextXAlignment`
-- **TextYAlignment**: `TextYAlignment`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextBox.ClearTextOnFocus` | `bool` |  |
+| `Class.TextBox.ContentText` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.TextBox.CursorPosition` | `int` |  |
+| `Class.TextBox.Font` | `Enum.Font` | [Hidden] [NotReplicated] |
+| `Class.TextBox.FontFace` | `Datatype.Font` |  |
+| `Class.TextBox.FontSize` | `Enum.FontSize` | [NotReplicated] [Deprecated] |
+| `Class.TextBox.LineHeight` | `float` |  |
+| `Class.TextBox.LocalizationMatchIdentifier` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextBox.LocalizationMatchedSourceText` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextBox.ManualFocusRelease` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextBox.MaxVisibleGraphemes` | `int` |  |
+| `Class.TextBox.MultiLine` | `bool` |  |
+| `Class.TextBox.OpenTypeFeatures` | `string` |  |
+| `Class.TextBox.OpenTypeFeaturesError` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.TextBox.OverlayNativeInput` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextBox.PlaceholderColor3` | `Datatype.Color3` |  |
+| `Class.TextBox.PlaceholderText` | `string` |  |
+| `Class.TextBox.ReturnKeyType` | `Enum.ReturnKeyType` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextBox.RichText` | `bool` |  |
+| `Class.TextBox.SelectionStart` | `int` |  |
+| `Class.TextBox.ShouldEmitReturnEvents` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextBox.ShouldEmitTabEvents` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextBox.ShouldEmitUpAndDownArrowEvents` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextBox.ShowNativeInput` | `bool` |  |
+| `Class.TextBox.Text` | `string` |  |
+| `Class.TextBox.TextBounds` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.TextBox.TextColor` | `Datatype.BrickColor` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.TextBox.TextColor3` | `Datatype.Color3` |  |
+| `Class.TextBox.TextDirection` | `Enum.TextDirection` |  |
+| `Class.TextBox.TextEditable` | `bool` |  |
+| `Class.TextBox.TextFits` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.TextBox.TextInputType` | `Enum.TextInputType` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextBox.TextScaled` | `bool` |  |
+| `Class.TextBox.TextSize` | `float` |  |
+| `Class.TextBox.TextStrokeColor3` | `Datatype.Color3` |  |
+| `Class.TextBox.TextStrokeTransparency` | `float` |  |
+| `Class.TextBox.TextTransparency` | `float` |  |
+| `Class.TextBox.TextTruncate` | `Enum.TextTruncate` |  |
+| `Class.TextBox.TextWrap` | `bool` | [NotReplicated] [Deprecated] |
+| `Class.TextBox.TextWrapped` | `bool` |  |
+| `Class.TextBox.TextXAlignment` | `Enum.TextXAlignment` |  |
+| `Class.TextBox.TextYAlignment` | `Enum.TextYAlignment` |  |
 
 ## Methods
 
-- **CaptureFocus**() -> `null`
-- **IsFocused**() -> `bool`
-- **ReleaseFocus**(`submitted: bool = false`) -> `null`
-- **ResetKeyboardMode**() -> `null`
-- **SetTextFromInput**(`text: string`) -> `null`
+### `Class.TextBox:CaptureFocus`
+
+``CaptureFocus()`` → `null`
+
+### `Class.TextBox:IsFocused`
+
+``IsFocused()`` → `bool`
+
+### `Class.TextBox:ReleaseFocus`
+
+``ReleaseFocus(submitted: `bool`)`` → `null`
+
+### `Class.TextBox:ResetKeyboardMode`
+
+``ResetKeyboardMode()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextBox:SetTextFromInput`
+
+``SetTextFromInput(text: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **FocusLost**(`enterPressed: bool`, `inputThatCausedFocusLoss: InputObject`)
-- **Focused**()
-- **ReturnPressedFromOnScreenKeyboard**()
+### `Class.TextBox.FocusLost`
+
+Fires with: (enterPressed: `bool`, inputThatCausedFocusLoss: `Class.InputObject`)
+
+### `Class.TextBox.Focused`
+
+Fires with: ()
+
+### `Class.TextBox.ReturnPressedFromOnScreenKeyboard`
+
+Fires with: ()

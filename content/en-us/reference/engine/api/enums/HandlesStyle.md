@@ -3,9 +3,11 @@ title: HandlesStyle
 type: enum
 ---
 
-# HandlesStyle (Enum)
+# `Enum.HandlesStyle`
+
+The `Enum.HandlesStyle` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Resize | 0 |
-| Movement | 1 |
+| `Enum.HandlesStyle.Resize` | 0 |
+| `Enum.HandlesStyle.Movement` | 1 |

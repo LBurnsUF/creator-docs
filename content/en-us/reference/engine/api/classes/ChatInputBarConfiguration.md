@@ -7,28 +7,30 @@ tags: [NotCreatable]
 
 # ChatInputBarConfiguration
 
-**Inherits**: TextChatConfigurations > Instance > Object
+**Inherits from:** `Class.TextChatConfigurations` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **AbsolutePosition**: `Vector2` [ReadOnly] [NotReplicated]
-- **AbsolutePositionWrite**: `Vector2` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AbsoluteSize**: `Vector2` [ReadOnly] [NotReplicated]
-- **AbsoluteSizeWrite**: `Vector2` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AutocompleteEnabled**: `bool`
-- **BackgroundColor3**: `Color3`
-- **BackgroundTransparency**: `double`
-- **Enabled**: `bool`
-- **FontFace**: `Font`
-- **IsFocused**: `bool` [ReadOnly] [NotReplicated]
-- **IsFocusedWrite**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **KeyboardKeyCode**: `KeyCode`
-- **PlaceholderColor3**: `Color3`
-- **TargetTextChannel**: `TextChannel`
-- **TextBox**: `TextBox`
-- **TextColor3**: `Color3`
-- **TextSize**: `int64`
-- **TextStrokeColor3**: `Color3`
-- **TextStrokeTransparency**: `double`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ChatInputBarConfiguration.AbsolutePosition` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.ChatInputBarConfiguration.AbsolutePositionWrite` | `Datatype.Vector2` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.ChatInputBarConfiguration.AbsoluteSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.ChatInputBarConfiguration.AbsoluteSizeWrite` | `Datatype.Vector2` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.ChatInputBarConfiguration.AutocompleteEnabled` | `bool` |  |
+| `Class.ChatInputBarConfiguration.BackgroundColor3` | `Datatype.Color3` |  |
+| `Class.ChatInputBarConfiguration.BackgroundTransparency` | `double` |  |
+| `Class.ChatInputBarConfiguration.Enabled` | `bool` |  |
+| `Class.ChatInputBarConfiguration.FontFace` | `Datatype.Font` |  |
+| `Class.ChatInputBarConfiguration.IsFocused` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.ChatInputBarConfiguration.IsFocusedWrite` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.ChatInputBarConfiguration.KeyboardKeyCode` | `Enum.KeyCode` |  |
+| `Class.ChatInputBarConfiguration.PlaceholderColor3` | `Datatype.Color3` |  |
+| `Class.ChatInputBarConfiguration.TargetTextChannel` | `Class.TextChannel` |  |
+| `Class.ChatInputBarConfiguration.TextBox` | `Class.TextBox` |  |
+| `Class.ChatInputBarConfiguration.TextColor3` | `Datatype.Color3` |  |
+| `Class.ChatInputBarConfiguration.TextSize` | `int64` |  |
+| `Class.ChatInputBarConfiguration.TextStrokeColor3` | `Datatype.Color3` |  |
+| `Class.ChatInputBarConfiguration.TextStrokeTransparency` | `double` |  |

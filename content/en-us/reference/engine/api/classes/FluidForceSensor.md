@@ -6,14 +6,19 @@ superclass: SensorBase
 
 # FluidForceSensor
 
-**Inherits**: SensorBase > Instance > Object
+**Inherits from:** `Class.SensorBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CenterOfPressure**: `Vector3` [ReadOnly] [NotReplicated]
-- **Force**: `Vector3` [ReadOnly] [NotReplicated]
-- **Torque**: `Vector3` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FluidForceSensor.CenterOfPressure` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |
+| `Class.FluidForceSensor.Force` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |
+| `Class.FluidForceSensor.Torque` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **EvaluateAsync**(`linearVelocity: Vector3`, `angularVelocity: Vector3`, `cframe: CFrame`) -> `Tuple` [Yields]
+### `Class.FluidForceSensor:EvaluateAsync`
+
+``EvaluateAsync(linearVelocity: `Datatype.Vector3`, angularVelocity: `Datatype.Vector3`, cframe: `Datatype.CFrame`)`` → `Tuple`
+  [Yields]

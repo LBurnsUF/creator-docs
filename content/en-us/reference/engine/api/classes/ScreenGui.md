@@ -6,13 +6,15 @@ superclass: LayerCollector
 
 # ScreenGui
 
-**Inherits**: LayerCollector > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.LayerCollector` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ClipToDeviceSafeArea**: `bool`
-- **DisplayOrder**: `int`
-- **IgnoreGuiInset**: `bool` [NotReplicated]
-- **OnTopOfCoreBlur**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SafeAreaCompatibility**: `SafeAreaCompatibility`
-- **ScreenInsets**: `ScreenInsets`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ScreenGui.ClipToDeviceSafeArea` | `bool` |  |
+| `Class.ScreenGui.DisplayOrder` | `int` |  |
+| `Class.ScreenGui.IgnoreGuiInset` | `bool` | [NotReplicated] |
+| `Class.ScreenGui.OnTopOfCoreBlur` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.ScreenGui.SafeAreaCompatibility` | `Enum.SafeAreaCompatibility` |  |
+| `Class.ScreenGui.ScreenInsets` | `Enum.ScreenInsets` |  |

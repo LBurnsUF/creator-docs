@@ -3,10 +3,12 @@ title: VRLaserPointerMode
 type: enum
 ---
 
-# VRLaserPointerMode (Enum)
+# `Enum.VRLaserPointerMode`
+
+The `Enum.VRLaserPointerMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Disabled | 0 |
-| Pointer | 1 |
-| DualPointer | 2 |
+| `Enum.VRLaserPointerMode.Disabled` | 0 |
+| `Enum.VRLaserPointerMode.Pointer` | 1 |
+| `Enum.VRLaserPointerMode.DualPointer` | 2 |

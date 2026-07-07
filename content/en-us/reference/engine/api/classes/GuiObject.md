@@ -7,70 +7,147 @@ tags: [NotCreatable, NotBrowsable]
 
 # GuiObject
 
-**Inherits**: GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Properties
 
-- **Active**: `bool`
-- **AnchorPoint**: `Vector2`
-- **AutomaticSize**: `AutomaticSize`
-- **BackgroundColor**: `BrickColor` [Hidden] [NotReplicated] [Deprecated]
-- **BackgroundColor3**: `Color3`
-- **BackgroundTransparency**: `float`
-- **BorderColor**: `BrickColor` [Hidden] [NotReplicated] [Deprecated]
-- **BorderColor3**: `Color3`
-- **BorderMode**: `BorderMode`
-- **BorderSizePixel**: `int`
-- **ClipsDescendants**: `bool`
-- **Draggable**: `bool` [Deprecated]
-- **GuiState**: `GuiState` [ReadOnly] [NotReplicated]
-- **InputSink**: `InputSink`
-- **Interactable**: `bool`
-- **LayoutOrder**: `int`
-- **NextSelectionDown**: `GuiObject`
-- **NextSelectionLeft**: `GuiObject`
-- **NextSelectionRight**: `GuiObject`
-- **NextSelectionUp**: `GuiObject`
-- **Position**: `UDim2`
-- **Rotation**: `float`
-- **Selectable**: `bool`
-- **SelectionImageObject**: `GuiObject`
-- **SelectionOrder**: `int`
-- **SelectionRect2D**: `Rect` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Size**: `UDim2`
-- **SizeConstraint**: `SizeConstraint`
-- **Transparency**: `float` [Hidden] [NotReplicated]
-- **Visible**: `bool`
-- **ZIndex**: `int`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.GuiObject.Active` | `bool` |  |
+| `Class.GuiObject.AnchorPoint` | `Datatype.Vector2` |  |
+| `Class.GuiObject.AutomaticSize` | `Enum.AutomaticSize` |  |
+| `Class.GuiObject.BackgroundColor` | `Datatype.BrickColor` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.GuiObject.BackgroundColor3` | `Datatype.Color3` |  |
+| `Class.GuiObject.BackgroundTransparency` | `float` |  |
+| `Class.GuiObject.BorderColor` | `Datatype.BrickColor` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.GuiObject.BorderColor3` | `Datatype.Color3` |  |
+| `Class.GuiObject.BorderMode` | `Enum.BorderMode` |  |
+| `Class.GuiObject.BorderSizePixel` | `int` |  |
+| `Class.GuiObject.ClipsDescendants` | `bool` |  |
+| `Class.GuiObject.Draggable` | `bool` | [Deprecated] |
+| `Class.GuiObject.GuiState` | `Enum.GuiState` | [ReadOnly] [NotReplicated] |
+| `Class.GuiObject.InputSink` | `Enum.InputSink` |  |
+| `Class.GuiObject.Interactable` | `bool` |  |
+| `Class.GuiObject.LayoutOrder` | `int` |  |
+| `Class.GuiObject.NextSelectionDown` | `Class.GuiObject` |  |
+| `Class.GuiObject.NextSelectionLeft` | `Class.GuiObject` |  |
+| `Class.GuiObject.NextSelectionRight` | `Class.GuiObject` |  |
+| `Class.GuiObject.NextSelectionUp` | `Class.GuiObject` |  |
+| `Class.GuiObject.Position` | `Datatype.UDim2` |  |
+| `Class.GuiObject.Rotation` | `float` |  |
+| `Class.GuiObject.Selectable` | `bool` |  |
+| `Class.GuiObject.SelectionImageObject` | `Class.GuiObject` |  |
+| `Class.GuiObject.SelectionOrder` | `int` |  |
+| `Class.GuiObject.SelectionRect2D` | `Datatype.Rect` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.GuiObject.Size` | `Datatype.UDim2` |  |
+| `Class.GuiObject.SizeConstraint` | `Enum.SizeConstraint` |  |
+| `Class.GuiObject.Transparency` | `float` | [Hidden] [NotReplicated] |
+| `Class.GuiObject.Visible` | `bool` |  |
+| `Class.GuiObject.ZIndex` | `int` |  |
 
 ## Methods
 
-- **TweenPosition**(`endPosition: UDim2`, `easingDirection: EasingDirection = Out`, `easingStyle: EasingStyle = Quad`, `time: float = 1`, `override: bool = false`, `callback: Function = nil`) -> `bool`
-- **TweenPositionInternal**(`endPosition: UDim2`, `easingDirection: EasingDirection = Out`, `easingStyle: EasingStyle = Quad`, `time: float = 1`, `override: bool = false`, `callback: Function = nil`) -> `bool`
-- **TweenSize**(`endSize: UDim2`, `easingDirection: EasingDirection = Out`, `easingStyle: EasingStyle = Quad`, `time: float = 1`, `override: bool = false`, `callback: Function = nil`) -> `bool`
-- **TweenSizeAndPosition**(`endSize: UDim2`, `endPosition: UDim2`, `easingDirection: EasingDirection = Out`, `easingStyle: EasingStyle = Quad`, `time: float = 1`, `override: bool = false`, `callback: Function = nil`) -> `bool`
-- **TweenSizeAndPositionInternal**(`endSize: UDim2`, `endPosition: UDim2`, `easingDirection: EasingDirection = Out`, `easingStyle: EasingStyle = Quad`, `time: float = 1`, `override: bool = false`, `callback: Function = nil`) -> `bool`
-- **TweenSizeInternal**(`endSize: UDim2`, `easingDirection: EasingDirection = Out`, `easingStyle: EasingStyle = Quad`, `time: float = 1`, `override: bool = false`, `callback: Function = nil`) -> `bool`
+### `Class.GuiObject:TweenPosition`
+
+``TweenPosition(endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+
+### `Class.GuiObject:TweenPositionInternal`
+
+``TweenPositionInternal(endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.GuiObject:TweenSize`
+
+``TweenSize(endSize: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+
+### `Class.GuiObject:TweenSizeAndPosition`
+
+``TweenSizeAndPosition(endSize: `Datatype.UDim2`, endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+
+### `Class.GuiObject:TweenSizeAndPositionInternal`
+
+``TweenSizeAndPositionInternal(endSize: `Datatype.UDim2`, endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.GuiObject:TweenSizeInternal`
+
+``TweenSizeInternal(endSize: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **DragBegin**(`initialPosition: UDim2`) [Deprecated]
-- **DragStopped**(`x: int`, `y: int`) [Deprecated]
-- **InputBegan**(`input: InputObject`)
-- **InputChanged**(`input: InputObject`)
-- **InputEnded**(`input: InputObject`)
-- **MouseEnter**(`x: int`, `y: int`)
-- **MouseLeave**(`x: int`, `y: int`)
-- **MouseMoved**(`x: int`, `y: int`)
-- **MouseWheelBackward**(`x: int`, `y: int`)
-- **MouseWheelForward**(`x: int`, `y: int`)
-- **SelectionGained**()
-- **SelectionLost**()
-- **TouchLongPress**(`touchPositions: Array`, `state: UserInputState`)
-- **TouchPan**(`touchPositions: Array`, `totalTranslation: Vector2`, `velocity: Vector2`, `state: UserInputState`)
-- **TouchPinch**(`touchPositions: Array`, `scale: float`, `velocity: float`, `state: UserInputState`)
-- **TouchRotate**(`touchPositions: Array`, `rotation: float`, `velocity: float`, `state: UserInputState`)
-- **TouchSwipe**(`swipeDirection: SwipeDirection`, `numberOfTouches: int`)
-- **TouchTap**(`touchPositions: Array`)
+### `Class.GuiObject.DragBegin`
+
+Fires with: (initialPosition: `Datatype.UDim2`)
+  [Deprecated]
+
+### `Class.GuiObject.DragStopped`
+
+Fires with: (x: `int`, y: `int`)
+  [Deprecated]
+
+### `Class.GuiObject.InputBegan`
+
+Fires with: (input: `Class.InputObject`)
+
+### `Class.GuiObject.InputChanged`
+
+Fires with: (input: `Class.InputObject`)
+
+### `Class.GuiObject.InputEnded`
+
+Fires with: (input: `Class.InputObject`)
+
+### `Class.GuiObject.MouseEnter`
+
+Fires with: (x: `int`, y: `int`)
+
+### `Class.GuiObject.MouseLeave`
+
+Fires with: (x: `int`, y: `int`)
+
+### `Class.GuiObject.MouseMoved`
+
+Fires with: (x: `int`, y: `int`)
+
+### `Class.GuiObject.MouseWheelBackward`
+
+Fires with: (x: `int`, y: `int`)
+
+### `Class.GuiObject.MouseWheelForward`
+
+Fires with: (x: `int`, y: `int`)
+
+### `Class.GuiObject.SelectionGained`
+
+Fires with: ()
+
+### `Class.GuiObject.SelectionLost`
+
+Fires with: ()
+
+### `Class.GuiObject.TouchLongPress`
+
+Fires with: (touchPositions: `Array`, state: `Enum.UserInputState`)
+
+### `Class.GuiObject.TouchPan`
+
+Fires with: (touchPositions: `Array`, totalTranslation: `Datatype.Vector2`, velocity: `Datatype.Vector2`, state: `Enum.UserInputState`)
+
+### `Class.GuiObject.TouchPinch`
+
+Fires with: (touchPositions: `Array`, scale: `float`, velocity: `float`, state: `Enum.UserInputState`)
+
+### `Class.GuiObject.TouchRotate`
+
+Fires with: (touchPositions: `Array`, rotation: `float`, velocity: `float`, state: `Enum.UserInputState`)
+
+### `Class.GuiObject.TouchSwipe`
+
+Fires with: (swipeDirection: `Enum.SwipeDirection`, numberOfTouches: `int`)
+
+### `Class.GuiObject.TouchTap`
+
+Fires with: (touchPositions: `Array`)

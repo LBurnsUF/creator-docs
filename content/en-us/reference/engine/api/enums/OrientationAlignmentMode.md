@@ -3,9 +3,11 @@ title: OrientationAlignmentMode
 type: enum
 ---
 
-# OrientationAlignmentMode (Enum)
+# `Enum.OrientationAlignmentMode`
+
+The `Enum.OrientationAlignmentMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| OneAttachment | 0 |
-| TwoAttachment | 1 |
+| `Enum.OrientationAlignmentMode.OneAttachment` | 0 |
+| `Enum.OrientationAlignmentMode.TwoAttachment` | 1 |

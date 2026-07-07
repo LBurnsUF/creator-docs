@@ -6,11 +6,22 @@ superclass: Instance
 
 # Dragger
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Methods
 
-- **AxisRotate**(`axis: Axis = X`) -> `null`
-- **MouseDown**(`mousePart: Instance`, `pointOnMousePart: Vector3`, `parts: Instances`) -> `null`
-- **MouseMove**(`mouseRay: Ray`) -> `null`
-- **MouseUp**() -> `null`
+### `Class.Dragger:AxisRotate`
+
+``AxisRotate(axis: `Enum.Axis`)`` → `null`
+
+### `Class.Dragger:MouseDown`
+
+``MouseDown(mousePart: `Class.Instance`, pointOnMousePart: `Datatype.Vector3`, parts: `Datatype.Instances`)`` → `null`
+
+### `Class.Dragger:MouseMove`
+
+``MouseMove(mouseRay: `Datatype.Ray`)`` → `null`
+
+### `Class.Dragger:MouseUp`
+
+``MouseUp()`` → `null`

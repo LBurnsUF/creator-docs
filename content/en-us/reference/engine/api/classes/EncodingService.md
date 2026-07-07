@@ -7,16 +7,36 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # EncodingService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **Base64Decode**(`input: buffer`) -> `buffer`
-- **Base64Encode**(`input: buffer`) -> `buffer`
-- **CompressBuffer**(`input: buffer`, `algorithm: CompressionAlgorithm`, `compressionLevel: int = 1`) -> `buffer`
-- **ComputeBufferHash**(`input: buffer`, `algorithm: HashAlgorithm`) -> `buffer`
-- **ComputeStringHash**(`input: string`, `algorithm: HashAlgorithm`) -> `string`
-- **DecompressBuffer**(`input: buffer`, `algorithm: CompressionAlgorithm`) -> `buffer`
-- **GetDecompressedBufferSize**(`input: buffer`, `algorithm: CompressionAlgorithm`) -> `int?`
+### `Class.EncodingService:Base64Decode`
+
+``Base64Decode(input: `Datatype.buffer`)`` → `Datatype.buffer`
+
+### `Class.EncodingService:Base64Encode`
+
+``Base64Encode(input: `Datatype.buffer`)`` → `Datatype.buffer`
+
+### `Class.EncodingService:CompressBuffer`
+
+``CompressBuffer(input: `Datatype.buffer`, algorithm: `Enum.CompressionAlgorithm`, compressionLevel: `int`)`` → `Datatype.buffer`
+
+### `Class.EncodingService:ComputeBufferHash`
+
+``ComputeBufferHash(input: `Datatype.buffer`, algorithm: `Enum.HashAlgorithm`)`` → `Datatype.buffer`
+
+### `Class.EncodingService:ComputeStringHash`
+
+``ComputeStringHash(input: `string`, algorithm: `Enum.HashAlgorithm`)`` → `string`
+
+### `Class.EncodingService:DecompressBuffer`
+
+``DecompressBuffer(input: `Datatype.buffer`, algorithm: `Enum.CompressionAlgorithm`)`` → `Datatype.buffer`
+
+### `Class.EncodingService:GetDecompressedBufferSize`
+
+``GetDecompressedBufferSize(input: `Datatype.buffer`, algorithm: `Enum.CompressionAlgorithm`)`` → `int?`

@@ -7,6 +7,6 @@ tags: [NotCreatable, NotBrowsable]
 
 # LuaSourceContainer
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]

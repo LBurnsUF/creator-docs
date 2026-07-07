@@ -6,18 +6,30 @@ superclass: Instance
 
 # AudioChannelMixer
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Layout**: `AudioChannelLayout`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioChannelMixer.Layout` | `Enum.AudioChannelLayout` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
+### `Class.AudioChannelMixer:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioChannelMixer:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioChannelMixer:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioChannelMixer.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

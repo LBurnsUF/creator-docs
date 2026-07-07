@@ -3,11 +3,13 @@ title: PreferredTextSize
 type: enum
 ---
 
-# PreferredTextSize (Enum)
+# `Enum.PreferredTextSize`
+
+The `Enum.PreferredTextSize` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Medium | 1 |
-| Large | 2 |
-| Larger | 3 |
-| Largest | 4 |
+| `Enum.PreferredTextSize.Medium` | 1 |
+| `Enum.PreferredTextSize.Large` | 2 |
+| `Enum.PreferredTextSize.Larger` | 3 |
+| `Enum.PreferredTextSize.Largest` | 4 |

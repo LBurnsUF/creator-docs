@@ -7,28 +7,78 @@ tags: [NotCreatable, NotReplicated]
 
 # PlayerScripts
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **ClearComputerCameraMovementModes**() -> `null`
-- **ClearComputerMovementModes**() -> `null`
-- **ClearTouchCameraMovementModes**() -> `null`
-- **ClearTouchMovementModes**() -> `null`
-- **GetRegisteredComputerCameraMovementModes**() -> `Array`
-- **GetRegisteredComputerMovementModes**() -> `Array`
-- **GetRegisteredTouchCameraMovementModes**() -> `Array`
-- **GetRegisteredTouchMovementModes**() -> `Array`
-- **RegisterComputerCameraMovementMode**(`cameraMovementMode: ComputerCameraMovementMode`) -> `null`
-- **RegisterComputerMovementMode**(`movementMode: ComputerMovementMode`) -> `null`
-- **RegisterTouchCameraMovementMode**(`cameraMovementMode: TouchCameraMovementMode`) -> `null`
-- **RegisterTouchMovementMode**(`movementMode: TouchMovementMode`) -> `null`
+### `Class.PlayerScripts:ClearComputerCameraMovementModes`
+
+``ClearComputerCameraMovementModes()`` → `null`
+
+### `Class.PlayerScripts:ClearComputerMovementModes`
+
+``ClearComputerMovementModes()`` → `null`
+
+### `Class.PlayerScripts:ClearTouchCameraMovementModes`
+
+``ClearTouchCameraMovementModes()`` → `null`
+
+### `Class.PlayerScripts:ClearTouchMovementModes`
+
+``ClearTouchMovementModes()`` → `null`
+
+### `Class.PlayerScripts:GetRegisteredComputerCameraMovementModes`
+
+``GetRegisteredComputerCameraMovementModes()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.PlayerScripts:GetRegisteredComputerMovementModes`
+
+``GetRegisteredComputerMovementModes()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.PlayerScripts:GetRegisteredTouchCameraMovementModes`
+
+``GetRegisteredTouchCameraMovementModes()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.PlayerScripts:GetRegisteredTouchMovementModes`
+
+``GetRegisteredTouchMovementModes()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.PlayerScripts:RegisterComputerCameraMovementMode`
+
+``RegisterComputerCameraMovementMode(cameraMovementMode: `Enum.ComputerCameraMovementMode`)`` → `null`
+
+### `Class.PlayerScripts:RegisterComputerMovementMode`
+
+``RegisterComputerMovementMode(movementMode: `Enum.ComputerMovementMode`)`` → `null`
+
+### `Class.PlayerScripts:RegisterTouchCameraMovementMode`
+
+``RegisterTouchCameraMovementMode(cameraMovementMode: `Enum.TouchCameraMovementMode`)`` → `null`
+
+### `Class.PlayerScripts:RegisterTouchMovementMode`
+
+``RegisterTouchMovementMode(movementMode: `Enum.TouchMovementMode`)`` → `null`
 
 ## Events
 
-- **ComputerCameraMovementModeRegistered**()
-- **ComputerMovementModeRegistered**()
-- **TouchCameraMovementModeRegistered**()
-- **TouchMovementModeRegistered**()
+### `Class.PlayerScripts.ComputerCameraMovementModeRegistered`
+
+Fires with: ()
+
+### `Class.PlayerScripts.ComputerMovementModeRegistered`
+
+Fires with: ()
+
+### `Class.PlayerScripts.TouchCameraMovementModeRegistered`
+
+Fires with: ()
+
+### `Class.PlayerScripts.TouchMovementModeRegistered`
+
+Fires with: ()

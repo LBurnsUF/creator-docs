@@ -7,15 +7,17 @@ tags: [NotCreatable, NotReplicated]
 
 # MaterialImportData
 
-**Inherits**: BaseImportData > Instance > Object
+**Inherits from:** `Class.BaseImportData` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **DiffuseFilePath**: `string`
-- **EmissiveFilePath**: `string`
-- **IsPbr**: `bool` [ReadOnly] [NotReplicated]
-- **MetalnessFilePath**: `string`
-- **NormalFilePath**: `string`
-- **RoughnessFilePath**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.MaterialImportData.DiffuseFilePath` | `string` |  |
+| `Class.MaterialImportData.EmissiveFilePath` | `string` |  |
+| `Class.MaterialImportData.IsPbr` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.MaterialImportData.MetalnessFilePath` | `string` |  |
+| `Class.MaterialImportData.NormalFilePath` | `string` |  |
+| `Class.MaterialImportData.RoughnessFilePath` | `string` |  |

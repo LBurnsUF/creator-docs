@@ -7,14 +7,16 @@ tags: [NotReplicated]
 
 # StudioAttachment
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **AutoHideParent**: `bool`
-- **IsArrowVisible**: `bool`
-- **Offset**: `Vector2`
-- **SourceAnchorPoint**: `Vector2`
-- **TargetAnchorPoint**: `Vector2`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StudioAttachment.AutoHideParent` | `bool` |  |
+| `Class.StudioAttachment.IsArrowVisible` | `bool` |  |
+| `Class.StudioAttachment.Offset` | `Datatype.Vector2` |  |
+| `Class.StudioAttachment.SourceAnchorPoint` | `Datatype.Vector2` |  |
+| `Class.StudioAttachment.TargetAnchorPoint` | `Datatype.Vector2` |  |

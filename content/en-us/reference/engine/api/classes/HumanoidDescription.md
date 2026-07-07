@@ -6,66 +6,96 @@ superclass: Instance
 
 # HumanoidDescription
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AccessoryBlob**: `string` [NotReplicated] [NotScriptable]
-- **BackAccessory**: `string` [NotReplicated]
-- **BodyTypeScale**: `float`
-- **ClimbAnimation**: `int64`
-- **DepthScale**: `float`
-- **Face**: `int64`
-- **FaceAccessory**: `string` [NotReplicated]
-- **FallAnimation**: `int64`
-- **FrontAccessory**: `string` [NotReplicated]
-- **GraphicTShirt**: `int64`
-- **HairAccessory**: `string` [NotReplicated]
-- **HatAccessory**: `string` [NotReplicated]
-- **Head**: `int64` [NotReplicated]
-- **HeadColor**: `Color3` [NotReplicated]
-- **HeadScale**: `float`
-- **HeightScale**: `float`
-- **IdleAnimation**: `int64`
-- **JumpAnimation**: `int64`
-- **LeftArm**: `int64` [NotReplicated]
-- **LeftArmColor**: `Color3` [NotReplicated]
-- **LeftLeg**: `int64` [NotReplicated]
-- **LeftLegColor**: `Color3` [NotReplicated]
-- **MoodAnimation**: `int64`
-- **NeckAccessory**: `string` [NotReplicated]
-- **NumberEmotesLoaded**: `int` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Pants**: `int64`
-- **ProportionScale**: `float`
-- **ResetIncludesBodyParts**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RightArm**: `int64` [NotReplicated]
-- **RightArmColor**: `Color3` [NotReplicated]
-- **RightLeg**: `int64` [NotReplicated]
-- **RightLegColor**: `Color3` [NotReplicated]
-- **RunAnimation**: `int64`
-- **Shirt**: `int64`
-- **ShouldersAccessory**: `string` [NotReplicated]
-- **StaticFacialAnimation**: `bool`
-- **SwimAnimation**: `int64`
-- **Torso**: `int64` [NotReplicated]
-- **TorsoColor**: `Color3` [NotReplicated]
-- **UseAvatarSettings**: `bool`
-- **WaistAccessory**: `string` [NotReplicated]
-- **WalkAnimation**: `int64`
-- **WidthScale**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.HumanoidDescription.AccessoryBlob` | `string` | [NotReplicated] [NotScriptable] |
+| `Class.HumanoidDescription.BackAccessory` | `string` | [NotReplicated] |
+| `Class.HumanoidDescription.BodyTypeScale` | `float` |  |
+| `Class.HumanoidDescription.ClimbAnimation` | `int64` |  |
+| `Class.HumanoidDescription.DepthScale` | `float` |  |
+| `Class.HumanoidDescription.Face` | `int64` |  |
+| `Class.HumanoidDescription.FaceAccessory` | `string` | [NotReplicated] |
+| `Class.HumanoidDescription.FallAnimation` | `int64` |  |
+| `Class.HumanoidDescription.FrontAccessory` | `string` | [NotReplicated] |
+| `Class.HumanoidDescription.GraphicTShirt` | `int64` |  |
+| `Class.HumanoidDescription.HairAccessory` | `string` | [NotReplicated] |
+| `Class.HumanoidDescription.HatAccessory` | `string` | [NotReplicated] |
+| `Class.HumanoidDescription.Head` | `int64` | [NotReplicated] |
+| `Class.HumanoidDescription.HeadColor` | `Datatype.Color3` | [NotReplicated] |
+| `Class.HumanoidDescription.HeadScale` | `float` |  |
+| `Class.HumanoidDescription.HeightScale` | `float` |  |
+| `Class.HumanoidDescription.IdleAnimation` | `int64` |  |
+| `Class.HumanoidDescription.JumpAnimation` | `int64` |  |
+| `Class.HumanoidDescription.LeftArm` | `int64` | [NotReplicated] |
+| `Class.HumanoidDescription.LeftArmColor` | `Datatype.Color3` | [NotReplicated] |
+| `Class.HumanoidDescription.LeftLeg` | `int64` | [NotReplicated] |
+| `Class.HumanoidDescription.LeftLegColor` | `Datatype.Color3` | [NotReplicated] |
+| `Class.HumanoidDescription.MoodAnimation` | `int64` |  |
+| `Class.HumanoidDescription.NeckAccessory` | `string` | [NotReplicated] |
+| `Class.HumanoidDescription.NumberEmotesLoaded` | `int` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.HumanoidDescription.Pants` | `int64` |  |
+| `Class.HumanoidDescription.ProportionScale` | `float` |  |
+| `Class.HumanoidDescription.ResetIncludesBodyParts` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.HumanoidDescription.RightArm` | `int64` | [NotReplicated] |
+| `Class.HumanoidDescription.RightArmColor` | `Datatype.Color3` | [NotReplicated] |
+| `Class.HumanoidDescription.RightLeg` | `int64` | [NotReplicated] |
+| `Class.HumanoidDescription.RightLegColor` | `Datatype.Color3` | [NotReplicated] |
+| `Class.HumanoidDescription.RunAnimation` | `int64` |  |
+| `Class.HumanoidDescription.Shirt` | `int64` |  |
+| `Class.HumanoidDescription.ShouldersAccessory` | `string` | [NotReplicated] |
+| `Class.HumanoidDescription.StaticFacialAnimation` | `bool` |  |
+| `Class.HumanoidDescription.SwimAnimation` | `int64` |  |
+| `Class.HumanoidDescription.Torso` | `int64` | [NotReplicated] |
+| `Class.HumanoidDescription.TorsoColor` | `Datatype.Color3` | [NotReplicated] |
+| `Class.HumanoidDescription.UseAvatarSettings` | `bool` |  |
+| `Class.HumanoidDescription.WaistAccessory` | `string` | [NotReplicated] |
+| `Class.HumanoidDescription.WalkAnimation` | `int64` |  |
+| `Class.HumanoidDescription.WidthScale` | `float` |  |
 
 ## Methods
 
-- **AddEmote**(`name: string`, `assetId: int64`) -> `null`
-- **GetAccessories**(`includeRigidAccessories: bool`) -> `Array`
-- **GetEmotes**() -> `Dictionary`
-- **GetEquippedEmotes**() -> `Array`
-- **RemoveEmote**(`name: string`) -> `null`
-- **SetAccessories**(`accessories: Array`, `includeRigidAccessories: bool`) -> `null`
-- **SetEmotes**(`emotes: Dictionary`) -> `null`
-- **SetEquippedEmotes**(`equippedEmotes: Array`) -> `null`
+### `Class.HumanoidDescription:AddEmote`
+
+``AddEmote(name: `string`, assetId: `int64`)`` → `null`
+
+### `Class.HumanoidDescription:GetAccessories`
+
+``GetAccessories(includeRigidAccessories: `bool`)`` → `Array`
+
+### `Class.HumanoidDescription:GetEmotes`
+
+``GetEmotes()`` → `Dictionary`
+
+### `Class.HumanoidDescription:GetEquippedEmotes`
+
+``GetEquippedEmotes()`` → `Array`
+
+### `Class.HumanoidDescription:RemoveEmote`
+
+``RemoveEmote(name: `string`)`` → `null`
+
+### `Class.HumanoidDescription:SetAccessories`
+
+``SetAccessories(accessories: `Array`, includeRigidAccessories: `bool`)`` → `null`
+
+### `Class.HumanoidDescription:SetEmotes`
+
+``SetEmotes(emotes: `Dictionary`)`` → `null`
+
+### `Class.HumanoidDescription:SetEquippedEmotes`
+
+``SetEquippedEmotes(equippedEmotes: `Array`)`` → `null`
 
 ## Events
 
-- **EmotesChanged**(`newEmotes: Dictionary`)
-- **EquippedEmotesChanged**(`newEquippedEmotes: Array`)
+### `Class.HumanoidDescription.EmotesChanged`
+
+Fires with: (newEmotes: `Dictionary`)
+
+### `Class.HumanoidDescription.EquippedEmotesChanged`
+
+Fires with: (newEquippedEmotes: `Array`)

@@ -7,17 +7,31 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # RibbonNotificationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **OnNotificationUpdateFromPlugin**(`newNotificationId: string`, `seenNotificationId: string`) -> `null`
+### `Class.RibbonNotificationService:OnNotificationUpdateFromPlugin`
+
+``OnNotificationUpdateFromPlugin(newNotificationId: `string`, seenNotificationId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **AllNotificationsReadFromRibbon**()
-- **NewNotificationFromRibbon**(`newNotificationId: string`)
-- **NotificationReadFromRibbon**(`newNotificationId: string`)
-- **ToggleNotificationTray**(`checked: bool`, `newNotificationAvailable: bool`)
+### `Class.RibbonNotificationService.AllNotificationsReadFromRibbon`
+
+Fires with: ()
+
+### `Class.RibbonNotificationService.NewNotificationFromRibbon`
+
+Fires with: (newNotificationId: `string`)
+
+### `Class.RibbonNotificationService.NotificationReadFromRibbon`
+
+Fires with: (newNotificationId: `string`)
+
+### `Class.RibbonNotificationService.ToggleNotificationTray`
+
+Fires with: (checked: `bool`, newNotificationAvailable: `bool`)

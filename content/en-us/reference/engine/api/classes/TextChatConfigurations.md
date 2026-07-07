@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # TextChatConfigurations
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

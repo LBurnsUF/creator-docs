@@ -3,12 +3,14 @@ title: HttpContentType
 type: enum
 ---
 
-# HttpContentType (Enum)
+# `Enum.HttpContentType`
+
+The `Enum.HttpContentType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| ApplicationJson | 0 |
-| ApplicationXml | 1 |
-| ApplicationUrlEncoded | 2 |
-| TextPlain | 3 |
-| TextXml | 4 |
+| `Enum.HttpContentType.ApplicationJson` | 0 |
+| `Enum.HttpContentType.ApplicationXml` | 1 |
+| `Enum.HttpContentType.ApplicationUrlEncoded` | 2 |
+| `Enum.HttpContentType.TextPlain` | 3 |
+| `Enum.HttpContentType.TextXml` | 4 |

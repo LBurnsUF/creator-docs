@@ -3,10 +3,12 @@ title: LocationType
 type: enum
 ---
 
-# LocationType (Enum)
+# `Enum.LocationType`
+
+The `Enum.LocationType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Character | 0 |
-| Camera | 1 |
-| ObjectPosition | 2 |
+| `Enum.LocationType.Character` | 0 |
+| `Enum.LocationType.Camera` | 1 |
+| `Enum.LocationType.ObjectPosition` | 2 |

@@ -6,10 +6,12 @@ superclass: SoundEffect
 
 # EqualizerSoundEffect
 
-**Inherits**: SoundEffect > Instance > Object
+**Inherits from:** `Class.SoundEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **HighGain**: `float`
-- **LowGain**: `float`
-- **MidGain**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.EqualizerSoundEffect.HighGain` | `float` |  |
+| `Class.EqualizerSoundEffect.LowGain` | `float` |  |
+| `Class.EqualizerSoundEffect.MidGain` | `float` |  |

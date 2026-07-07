@@ -6,13 +6,21 @@ superclass: ValueBase
 
 # Vector3Value
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Value**: `Vector3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Vector3Value.Value` | `Datatype.Vector3` |  |
 
 ## Events
 
-- **Changed**(`value: Vector3`)
-- **changed**(`value: Vector3`) [Deprecated]
+### `Class.Vector3Value.Changed`
+
+Fires with: (value: `Datatype.Vector3`)
+
+### `Class.Vector3Value.changed`
+
+Fires with: (value: `Datatype.Vector3`)
+  [Deprecated]

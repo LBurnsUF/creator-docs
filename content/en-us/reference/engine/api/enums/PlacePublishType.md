@@ -3,10 +3,12 @@ title: PlacePublishType
 type: enum
 ---
 
-# PlacePublishType (Enum)
+# `Enum.PlacePublishType`
+
+The `Enum.PlacePublishType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Publish | 1 |
-| Save | 2 |
+| `Enum.PlacePublishType.None` | 0 |
+| `Enum.PlacePublishType.Publish` | 1 |
+| `Enum.PlacePublishType.Save` | 2 |

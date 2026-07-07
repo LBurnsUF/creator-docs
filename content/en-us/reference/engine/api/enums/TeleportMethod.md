@@ -3,14 +3,16 @@ title: TeleportMethod
 type: enum
 ---
 
-# TeleportMethod (Enum)
+# `Enum.TeleportMethod`
+
+The `Enum.TeleportMethod` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| TeleportToSpawnByName | 0 |
-| TeleportToPlaceInstance | 1 |
-| TeleportToPrivateServer | 2 |
-| TeleportPartyAsync | 3 |
-| TeleportToVIPServer | 4 |
-| TeleportToInstanceBack | 5 |
-| TeleportUnknown | 6 |
+| `Enum.TeleportMethod.TeleportToSpawnByName` | 0 |
+| `Enum.TeleportMethod.TeleportToPlaceInstance` | 1 |
+| `Enum.TeleportMethod.TeleportToPrivateServer` | 2 |
+| `Enum.TeleportMethod.TeleportPartyAsync` | 3 |
+| `Enum.TeleportMethod.TeleportToVIPServer` | 4 |
+| `Enum.TeleportMethod.TeleportToInstanceBack` | 5 |
+| `Enum.TeleportMethod.TeleportUnknown` | 6 |

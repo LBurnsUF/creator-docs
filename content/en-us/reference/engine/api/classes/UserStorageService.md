@@ -7,6 +7,6 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # UserStorageService
 
-**Inherits**: LocalStorageService > Instance > Object
+**Inherits from:** `Class.LocalStorageService` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]

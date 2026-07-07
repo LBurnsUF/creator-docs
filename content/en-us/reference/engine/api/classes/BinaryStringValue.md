@@ -6,8 +6,10 @@ superclass: ValueBase
 
 # BinaryStringValue
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
 ## Events
 
-- **Changed**(`value: BinaryString`)
+### `Class.BinaryStringValue.Changed`
+
+Fires with: (value: `Datatype.BinaryString`)

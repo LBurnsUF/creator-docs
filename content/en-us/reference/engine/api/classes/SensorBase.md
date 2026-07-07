@@ -7,18 +7,25 @@ tags: [NotCreatable]
 
 # SensorBase
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **UpdateType**: `SensorUpdateType`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SensorBase.UpdateType` | `Enum.SensorUpdateType` |  |
 
 ## Methods
 
-- **Sense**() -> `null` [Deprecated]
+### `Class.SensorBase:Sense`
+
+``Sense()`` → `null`
+  [Deprecated]
 
 ## Events
 
-- **OnSensorOutputChanged**()
+### `Class.SensorBase.OnSensorOutputChanged`
+
+Fires with: ()

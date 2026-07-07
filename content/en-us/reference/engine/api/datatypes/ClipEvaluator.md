@@ -3,10 +3,10 @@ title: ClipEvaluator
 type: datatype
 ---
 
-# ClipEvaluator (DataType)
+# `Datatype.ClipEvaluator`
 
-Used in 1 locations across the API.
+Used in 1 locations across the Roblox API.
 
 ## Used as Return Type
 
-- AnimationClipProvider.GetClipEvaluatorAsync
+- `Class.AnimationClipProvider:GetClipEvaluatorAsync`

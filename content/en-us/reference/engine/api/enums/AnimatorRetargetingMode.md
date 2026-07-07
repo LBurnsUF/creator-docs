@@ -3,10 +3,12 @@ title: AnimatorRetargetingMode
 type: enum
 ---
 
-# AnimatorRetargetingMode (Enum)
+# `Enum.AnimatorRetargetingMode`
+
+The `Enum.AnimatorRetargetingMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.AnimatorRetargetingMode.Default` | 0 |
+| `Enum.AnimatorRetargetingMode.Disabled` | 1 |
+| `Enum.AnimatorRetargetingMode.Enabled` | 2 |

@@ -3,10 +3,12 @@ title: AvatarSettingsAnimationPacksMode
 type: enum
 ---
 
-# AvatarSettingsAnimationPacksMode (Enum)
+# `Enum.AvatarSettingsAnimationPacksMode`
+
+The `Enum.AvatarSettingsAnimationPacksMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| PlayerChoice | 0 |
-| StandardR15 | 1 |
-| StandardR6 | 2 |
+| `Enum.AvatarSettingsAnimationPacksMode.PlayerChoice` | 0 |
+| `Enum.AvatarSettingsAnimationPacksMode.StandardR15` | 1 |
+| `Enum.AvatarSettingsAnimationPacksMode.StandardR6` | 2 |

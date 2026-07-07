@@ -6,9 +6,11 @@ superclass: Clothing
 
 # Pants
 
-**Inherits**: Clothing > CharacterAppearance > Instance > Object
+**Inherits from:** `Class.Clothing` > `Class.CharacterAppearance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **PantsTemplate**: `ContentId`
-- **PantsTemplateContent**: `Content`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Pants.PantsTemplate` | `Datatype.ContentId` |  |
+| `Class.Pants.PantsTemplateContent` | `Datatype.Content` |  |

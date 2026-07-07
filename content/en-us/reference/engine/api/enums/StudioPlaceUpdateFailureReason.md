@@ -3,9 +3,11 @@ title: StudioPlaceUpdateFailureReason
 type: enum
 ---
 
-# StudioPlaceUpdateFailureReason (Enum)
+# `Enum.StudioPlaceUpdateFailureReason`
+
+The `Enum.StudioPlaceUpdateFailureReason` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Other | 0 |
-| TeamCreateConflict | 1 |
+| `Enum.StudioPlaceUpdateFailureReason.Other` | 0 |
+| `Enum.StudioPlaceUpdateFailureReason.TeamCreateConflict` | 1 |

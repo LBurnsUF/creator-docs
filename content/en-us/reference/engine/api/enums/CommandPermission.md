@@ -3,9 +3,11 @@ title: CommandPermission
 type: enum
 ---
 
-# CommandPermission (Enum)
+# `Enum.CommandPermission`
+
+The `Enum.CommandPermission` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Plugin | 0 |
-| LocalUser | 1 |
+| `Enum.CommandPermission.Plugin` | 0 |
+| `Enum.CommandPermission.LocalUser` | 1 |

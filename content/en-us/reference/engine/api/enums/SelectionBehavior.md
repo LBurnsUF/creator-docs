@@ -3,9 +3,11 @@ title: SelectionBehavior
 type: enum
 ---
 
-# SelectionBehavior (Enum)
+# `Enum.SelectionBehavior`
+
+The `Enum.SelectionBehavior` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Escape | 0 |
-| Stop | 1 |
+| `Enum.SelectionBehavior.Escape` | 0 |
+| `Enum.SelectionBehavior.Stop` | 1 |

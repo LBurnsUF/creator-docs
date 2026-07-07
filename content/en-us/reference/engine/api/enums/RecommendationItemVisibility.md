@@ -3,9 +3,11 @@ title: RecommendationItemVisibility
 type: enum
 ---
 
-# RecommendationItemVisibility (Enum)
+# `Enum.RecommendationItemVisibility`
+
+The `Enum.RecommendationItemVisibility` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Private | 0 |
-| Public | 1 |
+| `Enum.RecommendationItemVisibility.Private` | 0 |
+| `Enum.RecommendationItemVisibility.Public` | 1 |

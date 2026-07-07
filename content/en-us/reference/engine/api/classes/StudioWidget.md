@@ -7,10 +7,13 @@ tags: [NotCreatable, NotReplicated]
 
 # StudioWidget
 
-**Inherits**: StudioObjectBase > Instance > Object
+**Inherits from:** `Class.StudioObjectBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **SetFixedSize**(`width: int`, `height: int`) -> `null`
+### `Class.StudioWidget:SetFixedSize`
+
+``SetFixedSize(width: `int`, height: `int`)`` → `null`
+   {security: RobloxScriptSecurity}

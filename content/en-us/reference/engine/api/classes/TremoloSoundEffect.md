@@ -6,10 +6,12 @@ superclass: SoundEffect
 
 # TremoloSoundEffect
 
-**Inherits**: SoundEffect > Instance > Object
+**Inherits from:** `Class.SoundEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Depth**: `float`
-- **Duty**: `float`
-- **Frequency**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TremoloSoundEffect.Depth` | `float` |  |
+| `Class.TremoloSoundEffect.Duty` | `float` |  |
+| `Class.TremoloSoundEffect.Frequency` | `float` |  |

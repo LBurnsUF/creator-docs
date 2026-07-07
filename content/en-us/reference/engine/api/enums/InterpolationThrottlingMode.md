@@ -3,10 +3,12 @@ title: InterpolationThrottlingMode
 type: enum
 ---
 
-# InterpolationThrottlingMode (Enum)
+# `Enum.InterpolationThrottlingMode`
+
+The `Enum.InterpolationThrottlingMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.InterpolationThrottlingMode.Default` | 0 |
+| `Enum.InterpolationThrottlingMode.Disabled` | 1 |
+| `Enum.InterpolationThrottlingMode.Enabled` | 2 |

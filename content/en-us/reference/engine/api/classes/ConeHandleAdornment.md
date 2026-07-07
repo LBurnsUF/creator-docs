@@ -6,11 +6,13 @@ superclass: HandleAdornment
 
 # ConeHandleAdornment
 
-**Inherits**: HandleAdornment > PVAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.HandleAdornment` > `Class.PVAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Height**: `float`
-- **Hollow**: `bool`
-- **Radius**: `float`
-- **Shading**: `AdornShading`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ConeHandleAdornment.Height` | `float` |  |
+| `Class.ConeHandleAdornment.Hollow` | `bool` |  |
+| `Class.ConeHandleAdornment.Radius` | `float` |  |
+| `Class.ConeHandleAdornment.Shading` | `Enum.AdornShading` |  |

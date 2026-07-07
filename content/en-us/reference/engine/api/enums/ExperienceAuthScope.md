@@ -3,9 +3,11 @@ title: ExperienceAuthScope
 type: enum
 ---
 
-# ExperienceAuthScope (Enum)
+# `Enum.ExperienceAuthScope`
+
+The `Enum.ExperienceAuthScope` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| DefaultScope | 0 |
-| CreatorAssetsCreate | 1 |
+| `Enum.ExperienceAuthScope.DefaultScope` | 0 |
+| `Enum.ExperienceAuthScope.CreatorAssetsCreate` | 1 |

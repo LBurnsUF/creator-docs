@@ -7,22 +7,35 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PlayerEmulatorService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **CustomPoliciesEnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EmulatedCountryCode**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EmulatedGameLocale**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PlayerEmulationEnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PseudolocalizationEnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SerializedEmulatedPolicyInfo**: `BinaryString` [Hidden] [NotReplicated] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **TextElongationFactor**: `int` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PlayerEmulatorService.CustomPoliciesEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PlayerEmulatorService.EmulatedCountryCode` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PlayerEmulatorService.EmulatedGameLocale` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PlayerEmulatorService.PlayerEmulationEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PlayerEmulatorService.PseudolocalizationEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PlayerEmulatorService.SerializedEmulatedPolicyInfo` | `Datatype.BinaryString` | [Hidden] [NotReplicated] {security: RobloxSecurity} |
+| `Class.PlayerEmulatorService.TextElongationFactor` | `int` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetEmulatedPolicyInfo**() -> `Dictionary`
-- **RegionCodeWillHaveAutomaticNonCustomPolicies**(`regionCode: string`) -> `bool`
-- **SetEmulatedPolicyInfo**(`emulatedPolicyInfo: Dictionary`) -> `null`
+### `Class.PlayerEmulatorService:GetEmulatedPolicyInfo`
+
+``GetEmulatedPolicyInfo()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.PlayerEmulatorService:RegionCodeWillHaveAutomaticNonCustomPolicies`
+
+``RegionCodeWillHaveAutomaticNonCustomPolicies(regionCode: `string`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.PlayerEmulatorService:SetEmulatedPolicyInfo`
+
+``SetEmulatedPolicyInfo(emulatedPolicyInfo: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}

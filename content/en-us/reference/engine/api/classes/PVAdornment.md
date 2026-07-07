@@ -7,10 +7,12 @@ tags: [NotCreatable]
 
 # PVAdornment
 
-**Inherits**: GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Adornee**: `PVInstance`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PVAdornment.Adornee` | `Class.PVInstance` |  |

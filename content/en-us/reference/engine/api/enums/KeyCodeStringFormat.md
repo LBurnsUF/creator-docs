@@ -3,9 +3,11 @@ title: KeyCodeStringFormat
 type: enum
 ---
 
-# KeyCodeStringFormat (Enum)
+# `Enum.KeyCodeStringFormat`
+
+The `Enum.KeyCodeStringFormat` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Abbreviated | 1 |
+| `Enum.KeyCodeStringFormat.Default` | 0 |
+| `Enum.KeyCodeStringFormat.Abbreviated` | 1 |

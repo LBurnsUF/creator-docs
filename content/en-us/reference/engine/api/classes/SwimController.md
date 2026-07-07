@@ -6,12 +6,14 @@ superclass: ControllerBase
 
 # SwimController
 
-**Inherits**: ControllerBase > Instance > Object
+**Inherits from:** `Class.ControllerBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AccelerationTime**: `float`
-- **PitchMaxTorque**: `float`
-- **PitchSpeedFactor**: `float`
-- **RollMaxTorque**: `float`
-- **RollSpeedFactor**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SwimController.AccelerationTime` | `float` |  |
+| `Class.SwimController.PitchMaxTorque` | `float` |  |
+| `Class.SwimController.PitchSpeedFactor` | `float` |  |
+| `Class.SwimController.RollMaxTorque` | `float` |  |
+| `Class.SwimController.RollSpeedFactor` | `float` |  |

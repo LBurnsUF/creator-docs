@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # Platform
 
-**Inherits**: Part > FormFactorPart > BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.Part` > `Class.FormFactorPart` > `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

@@ -3,12 +3,14 @@ title: InstanceFileSyncStatus
 type: enum
 ---
 
-# InstanceFileSyncStatus (Enum)
+# `Enum.InstanceFileSyncStatus`
+
+The `Enum.InstanceFileSyncStatus` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| NotSynced | 0 |
-| Errored | 1 |
-| SyncedAsRoot | 2 |
-| SyncedAsDescendant | 3 |
-| AncestorErrored | 4 |
+| `Enum.InstanceFileSyncStatus.NotSynced` | 0 |
+| `Enum.InstanceFileSyncStatus.Errored` | 1 |
+| `Enum.InstanceFileSyncStatus.SyncedAsRoot` | 2 |
+| `Enum.InstanceFileSyncStatus.SyncedAsDescendant` | 3 |
+| `Enum.InstanceFileSyncStatus.AncestorErrored` | 4 |

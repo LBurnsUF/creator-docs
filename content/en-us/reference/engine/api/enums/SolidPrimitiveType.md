@@ -3,10 +3,12 @@ title: SolidPrimitiveType
 type: enum
 ---
 
-# SolidPrimitiveType (Enum)
+# `Enum.SolidPrimitiveType`
+
+The `Enum.SolidPrimitiveType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Capsule | 5 |
-| Cone | 6 |
-| RoundedBox | 7 |
+| `Enum.SolidPrimitiveType.Capsule` | 5 |
+| `Enum.SolidPrimitiveType.Cone` | 6 |
+| `Enum.SolidPrimitiveType.RoundedBox` | 7 |

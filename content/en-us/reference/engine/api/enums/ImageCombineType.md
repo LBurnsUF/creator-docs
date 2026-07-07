@@ -3,13 +3,15 @@ title: ImageCombineType
 type: enum
 ---
 
-# ImageCombineType (Enum)
+# `Enum.ImageCombineType`
+
+The `Enum.ImageCombineType` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| BlendSourceOver | 1 |
-| Overwrite | 2 |
-| Add | 3 |
-| Multiply | 4 |
-| AlphaBlend | 5 |
-| NormalMapBlend | 6 |
+| `Enum.ImageCombineType.BlendSourceOver` | 1 |
+| `Enum.ImageCombineType.Overwrite` | 2 |
+| `Enum.ImageCombineType.Add` | 3 |
+| `Enum.ImageCombineType.Multiply` | 4 |
+| `Enum.ImageCombineType.AlphaBlend` | 5 |
+| `Enum.ImageCombineType.NormalMapBlend` | 6 |

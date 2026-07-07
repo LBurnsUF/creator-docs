@@ -3,13 +3,15 @@ title: ShowAdResult
 type: enum
 ---
 
-# ShowAdResult (Enum)
+# `Enum.ShowAdResult`
+
+The `Enum.ShowAdResult` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| ShowCompleted | 1 |
-| AdNotReady | 2 |
-| AdAlreadyShowing | 3 |
-| InternalError | 4 |
-| ShowInterrupted | 5 |
-| InsufficientMemory | 6 |
+| `Enum.ShowAdResult.ShowCompleted` | 1 |
+| `Enum.ShowAdResult.AdNotReady` | 2 |
+| `Enum.ShowAdResult.AdAlreadyShowing` | 3 |
+| `Enum.ShowAdResult.InternalError` | 4 |
+| `Enum.ShowAdResult.ShowInterrupted` | 5 |
+| `Enum.ShowAdResult.InsufficientMemory` | 6 |

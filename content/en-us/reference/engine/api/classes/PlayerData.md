@@ -7,11 +7,17 @@ tags: [NotCreatable, NotReplicated]
 
 # PlayerData
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **GetPlayer**() -> `Player`
-- **GetRecordAsync**(`recordName: string = Default`) -> `PlayerDataRecord` [Yields]
+### `Class.PlayerData:GetPlayer`
+
+``GetPlayer()`` → `Class.Player`
+
+### `Class.PlayerData:GetRecordAsync`
+
+``GetRecordAsync(recordName: `string`)`` → `Class.PlayerDataRecord`
+  [Yields]

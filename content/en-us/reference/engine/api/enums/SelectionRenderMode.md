@@ -3,10 +3,12 @@ title: SelectionRenderMode
 type: enum
 ---
 
-# SelectionRenderMode (Enum)
+# `Enum.SelectionRenderMode`
+
+The `Enum.SelectionRenderMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Outlines | 0 |
-| BoundingBoxes | 1 |
-| Both | 2 |
+| `Enum.SelectionRenderMode.Outlines` | 0 |
+| `Enum.SelectionRenderMode.BoundingBoxes` | 1 |
+| `Enum.SelectionRenderMode.Both` | 2 |

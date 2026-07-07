@@ -7,13 +7,15 @@ tags: [Deprecated]
 
 # BodyThrust
 
-**Inherits**: BodyMover > Instance > Object
+**Inherits from:** `Class.BodyMover` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **Force**: `Vector3`
-- **Location**: `Vector3`
-- **force**: `Vector3` [NotReplicated] [Deprecated]
-- **location**: `Vector3` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BodyThrust.Force` | `Datatype.Vector3` |  |
+| `Class.BodyThrust.Location` | `Datatype.Vector3` |  |
+| `Class.BodyThrust.force` | `Datatype.Vector3` | [NotReplicated] [Deprecated] |
+| `Class.BodyThrust.location` | `Datatype.Vector3` | [NotReplicated] [Deprecated] |

@@ -7,6 +7,6 @@ tags: [Deprecated]
 
 # GuiMain
 
-**Inherits**: ScreenGui > LayerCollector > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.ScreenGui` > `Class.LayerCollector` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]

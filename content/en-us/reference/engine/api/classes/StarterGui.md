@@ -7,31 +7,55 @@ tags: [NotCreatable, Service]
 
 # StarterGui
 
-**Inherits**: BasePlayerGui > Instance > Object
+**Inherits from:** `Class.BasePlayerGui` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **ClipsDescendantsSupportsRotation**: `RolloutState` [NotScriptable]
-- **ProcessUserInput**: `bool` [Hidden] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ResetPlayerGuiOnSpawn**: `bool` [Deprecated]
-- **RtlTextSupport**: `RtlTextSupport` [NotScriptable]
-- **ScreenOrientation**: `ScreenOrientation`
-- **ShowDevelopmentGui**: `bool`
-- **StudioDefaultStyleSheet**: `StyleSheet` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **StudioInsertWidgetLayerCollectorAutoLinkStyleSheet**: `StyleSheet` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VirtualCursorMode**: `VirtualCursorMode` [NotScriptable]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StarterGui.ClipsDescendantsSupportsRotation` | `Enum.RolloutState` | [NotScriptable] |
+| `Class.StarterGui.ProcessUserInput` | `bool` | [Hidden] [NotReplicated] {security: PluginSecurity} |
+| `Class.StarterGui.ResetPlayerGuiOnSpawn` | `bool` | [Deprecated] |
+| `Class.StarterGui.RtlTextSupport` | `Enum.RtlTextSupport` | [NotScriptable] |
+| `Class.StarterGui.ScreenOrientation` | `Enum.ScreenOrientation` |  |
+| `Class.StarterGui.ShowDevelopmentGui` | `bool` |  |
+| `Class.StarterGui.StudioDefaultStyleSheet` | `Class.StyleSheet` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.StarterGui.StudioInsertWidgetLayerCollectorAutoLinkStyleSheet` | `Class.StyleSheet` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.StarterGui.VirtualCursorMode` | `Enum.VirtualCursorMode` | [NotScriptable] |
 
 ## Methods
 
-- **GetCore**(`parameterName: string`) -> `Variant` [Yields]
-- **GetCoreGuiEnabled**(`coreGuiType: CoreGuiType`) -> `bool`
-- **RegisterGetCore**(`parameterName: string`, `getFunction: Function`) -> `null`
-- **RegisterSetCore**(`parameterName: string`, `setFunction: Function`) -> `null`
-- **SetCore**(`parameterName: string`, `value: Variant`) -> `null`
-- **SetCoreGuiEnabled**(`coreGuiType: CoreGuiType`, `enabled: bool`) -> `null`
+### `Class.StarterGui:GetCore`
+
+``GetCore(parameterName: `string`)`` → `Variant`
+  [Yields]
+
+### `Class.StarterGui:GetCoreGuiEnabled`
+
+``GetCoreGuiEnabled(coreGuiType: `Enum.CoreGuiType`)`` → `bool`
+
+### `Class.StarterGui:RegisterGetCore`
+
+``RegisterGetCore(parameterName: `string`, getFunction: `Datatype.Function`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StarterGui:RegisterSetCore`
+
+``RegisterSetCore(parameterName: `string`, setFunction: `Datatype.Function`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StarterGui:SetCore`
+
+``SetCore(parameterName: `string`, value: `Variant`)`` → `null`
+
+### `Class.StarterGui:SetCoreGuiEnabled`
+
+``SetCoreGuiEnabled(coreGuiType: `Enum.CoreGuiType`, enabled: `bool`)`` → `null`
 
 ## Events
 
-- **CoreGuiChangedSignal**(`coreGuiType: CoreGuiType`, `enabled: bool`)
+### `Class.StarterGui.CoreGuiChangedSignal`
+
+Fires with: (coreGuiType: `Enum.CoreGuiType`, enabled: `bool`)

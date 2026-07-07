@@ -3,9 +3,11 @@ title: AvatarSettingsScaleMode
 type: enum
 ---
 
-# AvatarSettingsScaleMode (Enum)
+# `Enum.AvatarSettingsScaleMode`
+
+The `Enum.AvatarSettingsScaleMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| PlayerChoice | 0 |
-| CustomScale | 1 |
+| `Enum.AvatarSettingsScaleMode.PlayerChoice` | 0 |
+| `Enum.AvatarSettingsScaleMode.CustomScale` | 1 |

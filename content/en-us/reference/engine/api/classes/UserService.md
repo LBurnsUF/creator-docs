@@ -7,11 +7,18 @@ tags: [NotCreatable, Service]
 
 # UserService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **GetUserFromGlobalUserIdAsync**(`userId: int64`) -> `User` [Yields]
-- **GetUserInfosByUserIdsAsync**(`userIds: Array`) -> `Array` [Yields]
+### `Class.UserService:GetUserFromGlobalUserIdAsync`
+
+``GetUserFromGlobalUserIdAsync(userId: `int64`)`` → `Datatype.User`
+  [Yields]
+
+### `Class.UserService:GetUserInfosByUserIdsAsync`
+
+``GetUserInfosByUserIdsAsync(userIds: `Array`)`` → `Array`
+  [Yields]

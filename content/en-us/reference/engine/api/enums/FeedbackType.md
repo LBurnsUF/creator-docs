@@ -3,9 +3,11 @@ title: FeedbackType
 type: enum
 ---
 
-# FeedbackType (Enum)
+# `Enum.FeedbackType`
+
+The `Enum.FeedbackType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Feedback | 0 |
-| PlayerSupport | 1 |
+| `Enum.FeedbackType.Feedback` | 0 |
+| `Enum.FeedbackType.PlayerSupport` | 1 |

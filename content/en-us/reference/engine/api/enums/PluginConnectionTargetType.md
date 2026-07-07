@@ -3,9 +3,11 @@ title: PluginConnectionTargetType
 type: enum
 ---
 
-# PluginConnectionTargetType (Enum)
+# `Enum.PluginConnectionTargetType`
+
+The `Enum.PluginConnectionTargetType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Edit | 0 |
-| Test | 1 |
+| `Enum.PluginConnectionTargetType.Edit` | 0 |
+| `Enum.PluginConnectionTargetType.Test` | 1 |

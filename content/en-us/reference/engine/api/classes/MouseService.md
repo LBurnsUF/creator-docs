@@ -7,11 +7,16 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # MouseService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Events
 
-- **MouseEnterStudioViewport**()
-- **MouseLeaveStudioViewport**()
+### `Class.MouseService.MouseEnterStudioViewport`
+
+Fires with: ()
+
+### `Class.MouseService.MouseLeaveStudioViewport`
+
+Fires with: ()

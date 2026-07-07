@@ -7,10 +7,12 @@ tags: [NotCreatable]
 
 # SelectionLasso
 
-**Inherits**: GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Humanoid**: `Humanoid`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SelectionLasso.Humanoid` | `Class.Humanoid` |  |

@@ -3,20 +3,22 @@ title: CanCollaborateError
 type: enum
 ---
 
-# CanCollaborateError (Enum)
+# `Enum.CanCollaborateError`
+
+The `Enum.CanCollaborateError` enum has 13 item(s).
 
 | Name | Value |
 |------|-------|
-| Invalid | 0 |
-| None | 1 |
-| NotAgeVerified | 2 |
-| OutsideAgeBucket | 3 |
-| TooManyCollaborators | 4 |
-| PCBlock | 5 |
-| NotFound | 6 |
-| OutsideOwnerAgeBucket | 7 |
-| NotAuthorized | 8 |
-| OutsideAgeBucketTcPc | 9 |
-| OtherCollaboratorSettingsPreventTrust | 10 |
-| AgeVerificationCountryBlocked | 11 |
-| OtherUserCannotCollaborate | 12 |
+| `Enum.CanCollaborateError.Invalid` | 0 |
+| `Enum.CanCollaborateError.None` | 1 |
+| `Enum.CanCollaborateError.NotAgeVerified` | 2 |
+| `Enum.CanCollaborateError.OutsideAgeBucket` | 3 |
+| `Enum.CanCollaborateError.TooManyCollaborators` | 4 |
+| `Enum.CanCollaborateError.PCBlock` | 5 |
+| `Enum.CanCollaborateError.NotFound` | 6 |
+| `Enum.CanCollaborateError.OutsideOwnerAgeBucket` | 7 |
+| `Enum.CanCollaborateError.NotAuthorized` | 8 |
+| `Enum.CanCollaborateError.OutsideAgeBucketTcPc` | 9 |
+| `Enum.CanCollaborateError.OtherCollaboratorSettingsPreventTrust` | 10 |
+| `Enum.CanCollaborateError.AgeVerificationCountryBlocked` | 11 |
+| `Enum.CanCollaborateError.OtherUserCannotCollaborate` | 12 |

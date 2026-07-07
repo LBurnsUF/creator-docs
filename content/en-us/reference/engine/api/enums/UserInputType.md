@@ -3,28 +3,30 @@ title: UserInputType
 type: enum
 ---
 
-# UserInputType (Enum)
+# `Enum.UserInputType`
+
+The `Enum.UserInputType` enum has 21 item(s).
 
 | Name | Value |
 |------|-------|
-| MouseButton1 | 0 |
-| MouseButton2 | 1 |
-| MouseButton3 | 2 |
-| MouseWheel | 3 |
-| MouseMovement | 4 |
-| Touch | 7 |
-| Keyboard | 8 |
-| Focus | 9 |
-| Accelerometer | 10 |
-| Gyro | 11 |
-| Gamepad1 | 12 |
-| Gamepad2 | 13 |
-| Gamepad3 | 14 |
-| Gamepad4 | 15 |
-| Gamepad5 | 16 |
-| Gamepad6 | 17 |
-| Gamepad7 | 18 |
-| Gamepad8 | 19 |
-| TextInput | 20 |
-| InputMethod | 21 |
-| None | 22 |
+| `Enum.UserInputType.MouseButton1` | 0 |
+| `Enum.UserInputType.MouseButton2` | 1 |
+| `Enum.UserInputType.MouseButton3` | 2 |
+| `Enum.UserInputType.MouseWheel` | 3 |
+| `Enum.UserInputType.MouseMovement` | 4 |
+| `Enum.UserInputType.Touch` | 7 |
+| `Enum.UserInputType.Keyboard` | 8 |
+| `Enum.UserInputType.Focus` | 9 |
+| `Enum.UserInputType.Accelerometer` | 10 |
+| `Enum.UserInputType.Gyro` | 11 |
+| `Enum.UserInputType.Gamepad1` | 12 |
+| `Enum.UserInputType.Gamepad2` | 13 |
+| `Enum.UserInputType.Gamepad3` | 14 |
+| `Enum.UserInputType.Gamepad4` | 15 |
+| `Enum.UserInputType.Gamepad5` | 16 |
+| `Enum.UserInputType.Gamepad6` | 17 |
+| `Enum.UserInputType.Gamepad7` | 18 |
+| `Enum.UserInputType.Gamepad8` | 19 |
+| `Enum.UserInputType.TextInput` | 20 |
+| `Enum.UserInputType.InputMethod` | 21 |
+| `Enum.UserInputType.None` | 22 |

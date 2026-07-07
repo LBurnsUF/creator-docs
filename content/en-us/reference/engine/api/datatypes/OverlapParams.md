@@ -3,12 +3,12 @@ title: OverlapParams
 type: datatype
 ---
 
-# OverlapParams (DataType)
+# `Datatype.OverlapParams`
 
-Used in 3 locations across the API.
+Used in 3 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- WorldRoot.GetPartBoundsInBox(overlapParams)
-- WorldRoot.GetPartBoundsInRadius(overlapParams)
-- WorldRoot.GetPartsInPart(overlapParams)
+- `Class.WorldRoot:GetPartBoundsInBox` (parameter `overlapParams`)
+- `Class.WorldRoot:GetPartBoundsInRadius` (parameter `overlapParams`)
+- `Class.WorldRoot:GetPartsInPart` (parameter `overlapParams`)

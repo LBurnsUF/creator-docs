@@ -3,9 +3,11 @@ title: MarkupKind
 type: enum
 ---
 
-# MarkupKind (Enum)
+# `Enum.MarkupKind`
+
+The `Enum.MarkupKind` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| PlainText | 0 |
-| Markdown | 1 |
+| `Enum.MarkupKind.PlainText` | 0 |
+| `Enum.MarkupKind.Markdown` | 1 |

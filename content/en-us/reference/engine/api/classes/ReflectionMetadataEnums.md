@@ -6,4 +6,4 @@ superclass: Instance
 
 # ReflectionMetadataEnums
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`

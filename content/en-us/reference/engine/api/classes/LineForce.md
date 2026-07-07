@@ -6,12 +6,14 @@ superclass: Constraint
 
 # LineForce
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ApplyAtCenterOfMass**: `bool`
-- **InverseSquareLaw**: `bool`
-- **Magnitude**: `float`
-- **MaxForce**: `float`
-- **ReactionForceEnabled**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.LineForce.ApplyAtCenterOfMass` | `bool` |  |
+| `Class.LineForce.InverseSquareLaw` | `bool` |  |
+| `Class.LineForce.Magnitude` | `float` |  |
+| `Class.LineForce.MaxForce` | `float` |  |
+| `Class.LineForce.ReactionForceEnabled` | `bool` |  |

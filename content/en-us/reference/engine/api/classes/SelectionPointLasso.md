@@ -7,10 +7,12 @@ tags: [Deprecated]
 
 # SelectionPointLasso
 
-**Inherits**: SelectionLasso > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.SelectionLasso` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **Point**: `Vector3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SelectionPointLasso.Point` | `Datatype.Vector3` |  |

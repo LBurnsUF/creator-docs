@@ -6,19 +6,25 @@ superclass: Instance
 
 # AudioSpeechToText
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **DictationEnabled**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Enabled**: `bool`
-- **Text**: `string`
-- **VoiceDetected**: `bool` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioSpeechToText.DictationEnabled` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.AudioSpeechToText.Enabled` | `bool` |  |
+| `Class.AudioSpeechToText.Text` | `string` |  |
+| `Class.AudioSpeechToText.VoiceDetected` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
+### `Class.AudioSpeechToText:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioSpeechToText.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

@@ -7,18 +7,26 @@ tags: [Deprecated]
 
 # DoubleConstrainedValue
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **ConstrainedValue**: `double` [Hidden] [NotReplicated]
-- **MaxValue**: `double`
-- **MinValue**: `double`
-- **Value**: `double` [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DoubleConstrainedValue.ConstrainedValue` | `double` | [Hidden] [NotReplicated] |
+| `Class.DoubleConstrainedValue.MaxValue` | `double` |  |
+| `Class.DoubleConstrainedValue.MinValue` | `double` |  |
+| `Class.DoubleConstrainedValue.Value` | `double` | [NotReplicated] |
 
 ## Events
 
-- **Changed**(`value: double`)
-- **changed**(`value: double`) [Deprecated]
+### `Class.DoubleConstrainedValue.Changed`
+
+Fires with: (value: `double`)
+
+### `Class.DoubleConstrainedValue.changed`
+
+Fires with: (value: `double`)
+  [Deprecated]

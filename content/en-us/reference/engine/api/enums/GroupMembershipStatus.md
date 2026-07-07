@@ -3,11 +3,13 @@ title: GroupMembershipStatus
 type: enum
 ---
 
-# GroupMembershipStatus (Enum)
+# `Enum.GroupMembershipStatus`
+
+The `Enum.GroupMembershipStatus` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Joined | 1 |
-| JoinRequestPending | 2 |
-| AlreadyMember | 3 |
+| `Enum.GroupMembershipStatus.None` | 0 |
+| `Enum.GroupMembershipStatus.Joined` | 1 |
+| `Enum.GroupMembershipStatus.JoinRequestPending` | 2 |
+| `Enum.GroupMembershipStatus.AlreadyMember` | 3 |

@@ -7,15 +7,38 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # SceneAnalysisService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetAnimationMemoryAsync**() -> `Dictionary` [Yields]
-- **GetAudioMemoryAsync**() -> `Dictionary` [Yields]
-- **GetInstanceCompositionAsync**() -> `Dictionary` [Yields]
-- **GetScriptMemoryAsync**() -> `Dictionary` [Yields]
-- **GetTriangleCompositionAsync**() -> `Dictionary` [Yields]
-- **GetUnparentedInstancesAsync**() -> `Dictionary` [Yields]
+### `Class.SceneAnalysisService:GetAnimationMemoryAsync`
+
+``GetAnimationMemoryAsync()`` → `Dictionary`
+  [Yields]
+
+### `Class.SceneAnalysisService:GetAudioMemoryAsync`
+
+``GetAudioMemoryAsync()`` → `Dictionary`
+  [Yields]
+
+### `Class.SceneAnalysisService:GetInstanceCompositionAsync`
+
+``GetInstanceCompositionAsync()`` → `Dictionary`
+  [Yields]
+
+### `Class.SceneAnalysisService:GetScriptMemoryAsync`
+
+``GetScriptMemoryAsync()`` → `Dictionary`
+  [Yields]
+
+### `Class.SceneAnalysisService:GetTriangleCompositionAsync`
+
+``GetTriangleCompositionAsync()`` → `Dictionary`
+  [Yields]
+
+### `Class.SceneAnalysisService:GetUnparentedInstancesAsync`
+
+``GetUnparentedInstancesAsync()`` → `Dictionary`
+  [Yields]

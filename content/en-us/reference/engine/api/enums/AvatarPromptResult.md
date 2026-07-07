@@ -3,10 +3,12 @@ title: AvatarPromptResult
 type: enum
 ---
 
-# AvatarPromptResult (Enum)
+# `Enum.AvatarPromptResult`
+
+The `Enum.AvatarPromptResult` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 1 |
-| PermissionDenied | 2 |
-| Failed | 3 |
+| `Enum.AvatarPromptResult.Success` | 1 |
+| `Enum.AvatarPromptResult.PermissionDenied` | 2 |
+| `Enum.AvatarPromptResult.Failed` | 3 |

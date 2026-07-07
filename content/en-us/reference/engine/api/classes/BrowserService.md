@@ -7,25 +7,71 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # BrowserService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CloseBrowserWindow**() -> `null`
-- **CopyAuthCookieFromBrowserToEngine**() -> `null`
-- **EmitHybridEvent**(`moduleName: string`, `eventName: string`, `params: string`) -> `null`
-- **ExecuteJavaScript**(`javascript: string`) -> `null`
-- **OpenBrowserWindow**(`url: string`) -> `null`
-- **OpenNativeOverlay**(`title: string`, `url: string`) -> `null`
-- **OpenWeChatAuthWindow**() -> `null`
-- **ReturnToJavaScript**(`callbackId: string`, `success: bool`, `params: string`) -> `null`
-- **SendCommand**(`command: string`) -> `null`
+### `Class.BrowserService:CloseBrowserWindow`
+
+``CloseBrowserWindow()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.BrowserService:CopyAuthCookieFromBrowserToEngine`
+
+``CopyAuthCookieFromBrowserToEngine()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.BrowserService:EmitHybridEvent`
+
+``EmitHybridEvent(moduleName: `string`, eventName: `string`, params: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.BrowserService:ExecuteJavaScript`
+
+``ExecuteJavaScript(javascript: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.BrowserService:OpenBrowserWindow`
+
+``OpenBrowserWindow(url: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.BrowserService:OpenNativeOverlay`
+
+``OpenNativeOverlay(title: `string`, url: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.BrowserService:OpenWeChatAuthWindow`
+
+``OpenWeChatAuthWindow()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.BrowserService:ReturnToJavaScript`
+
+``ReturnToJavaScript(callbackId: `string`, success: `bool`, params: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.BrowserService:SendCommand`
+
+``SendCommand(command: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **AuthCookieCopiedToEngine**()
-- **BrowserWindowClosed**()
-- **BrowserWindowWillNavigate**(`url: string`)
-- **JavaScriptCallback**(`content: string`)
+### `Class.BrowserService.AuthCookieCopiedToEngine`
+
+Fires with: ()
+
+### `Class.BrowserService.BrowserWindowClosed`
+
+Fires with: ()
+
+### `Class.BrowserService.BrowserWindowWillNavigate`
+
+Fires with: (url: `string`)
+
+### `Class.BrowserService.JavaScriptCallback`
+
+Fires with: (content: `string`)

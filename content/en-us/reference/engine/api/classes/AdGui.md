@@ -6,26 +6,43 @@ superclass: SurfaceGuiBase
 
 # AdGui
 
-**Inherits**: SurfaceGuiBase > LayerCollector > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.SurfaceGuiBase` > `Class.LayerCollector` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AdShape**: `AdShape`
-- **EnableVideoAds**: `bool`
-- **FallbackImage**: `ContentId`
-- **FallbackImageContent**: `Content`
-- **Status**: `AdUnitStatus` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AdGui.AdShape` | `Enum.AdShape` |  |
+| `Class.AdGui.EnableVideoAds` | `bool` |  |
+| `Class.AdGui.FallbackImage` | `Datatype.ContentId` |  |
+| `Class.AdGui.FallbackImageContent` | `Datatype.Content` |  |
+| `Class.AdGui.Status` | `Enum.AdUnitStatus` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetSingleReportAdInfo**() -> `Map`
-- **HandleLuaUIEvent**(`eventType: AdUIEventType`) -> `null`
-- **forwardStateToLuaUI**() -> `null`
+### `Class.AdGui:GetSingleReportAdInfo`
+
+``GetSingleReportAdInfo()`` → `Map`
+   {security: RobloxScriptSecurity}
+
+### `Class.AdGui:HandleLuaUIEvent`
+
+``HandleLuaUIEvent(eventType: `Enum.AdUIEventType`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AdGui:forwardStateToLuaUI`
+
+``forwardStateToLuaUI()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **adGuiStateChanged**(`adUIState: Variant`)
+### `Class.AdGui.adGuiStateChanged`
+
+Fires with: (adUIState: `Variant`)
 
 ## Callbacks
 
-- **OnAdEvent**(`eventInfo: Dictionary`) -> `bool`
+### `Class.AdGui.OnAdEvent`
+
+``OnAdEvent(eventInfo: `Dictionary`)`` → `bool`

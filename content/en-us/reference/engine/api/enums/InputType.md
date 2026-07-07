@@ -3,10 +3,12 @@ title: InputType
 type: enum
 ---
 
-# InputType (Enum)
+# `Enum.InputType`
+
+The `Enum.InputType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| NoInput | 0 |
-| Constant | 12 |
-| Sin | 13 |
+| `Enum.InputType.NoInput` | 0 |
+| `Enum.InputType.Constant` | 12 |
+| `Enum.InputType.Sin` | 13 |

@@ -7,20 +7,49 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AccountService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **DeviceAccessTokenAvailable**() -> `bool`
-- **DeviceIntegrityAvailable**() -> `bool`
-- **GetCredentialsHeaders**() -> `string` [Yields]
-- **GetDeviceAccessToken**() -> `string` [Yields]
-- **GetDeviceIntegrityToken**(`data: string`) -> `string`
-- **GetDeviceIntegrityTokenYield**(`data: string`) -> `string` [Yields]
-- **MagicLogin**(`data: string`) -> `null`
+### `Class.AccountService:DeviceAccessTokenAvailable`
+
+``DeviceAccessTokenAvailable()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.AccountService:DeviceIntegrityAvailable`
+
+``DeviceIntegrityAvailable()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.AccountService:GetCredentialsHeaders`
+
+``GetCredentialsHeaders()`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AccountService:GetDeviceAccessToken`
+
+``GetDeviceAccessToken()`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AccountService:GetDeviceIntegrityToken`
+
+``GetDeviceIntegrityToken(data: `string`)`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.AccountService:GetDeviceIntegrityTokenYield`
+
+``GetDeviceIntegrityTokenYield(data: `string`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AccountService:MagicLogin`
+
+``MagicLogin(data: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **MagicLoginEvent**(`data: string`)
+### `Class.AccountService.MagicLoginEvent`
+
+Fires with: (data: `string`)

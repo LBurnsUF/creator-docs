@@ -7,10 +7,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # MaterialGenerationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GenerateMaterialVariantsAsync**(`prompt: string`, `samples: int64`) -> `Dictionary` [Yields]
+### `Class.MaterialGenerationService:GenerateMaterialVariantsAsync`
+
+``GenerateMaterialVariantsAsync(prompt: `string`, samples: `int64`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}

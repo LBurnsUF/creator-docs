@@ -6,19 +6,24 @@ superclass: Instance
 
 # Fire
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Color**: `Color3`
-- **Enabled**: `bool`
-- **Heat**: `float` [NotReplicated]
-- **LocalTransparencyModifier**: `float` [Hidden] [NotReplicated]
-- **SecondaryColor**: `Color3`
-- **Size**: `float` [NotReplicated]
-- **TimeScale**: `float`
-- **size**: `float` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Fire.Color` | `Datatype.Color3` |  |
+| `Class.Fire.Enabled` | `bool` |  |
+| `Class.Fire.Heat` | `float` | [NotReplicated] |
+| `Class.Fire.LocalTransparencyModifier` | `float` | [Hidden] [NotReplicated] |
+| `Class.Fire.SecondaryColor` | `Datatype.Color3` |  |
+| `Class.Fire.Size` | `float` | [NotReplicated] |
+| `Class.Fire.TimeScale` | `float` |  |
+| `Class.Fire.size` | `float` | [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **FastForward**(`numFrames: int`) -> `null`
+### `Class.Fire:FastForward`
+
+``FastForward(numFrames: `int`)`` → `null`
+   {security: RobloxScriptSecurity}

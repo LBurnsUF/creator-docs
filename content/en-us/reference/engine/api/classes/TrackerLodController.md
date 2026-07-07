@@ -7,24 +7,43 @@ tags: [NotCreatable, NotReplicated]
 
 # TrackerLodController
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **AudioMode**: `TrackerLodFlagMode`
-- **VideoExtrapolationMode**: `TrackerExtrapolationFlagMode`
-- **VideoLodMode**: `TrackerLodValueMode`
-- **VideoMode**: `TrackerLodFlagMode`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TrackerLodController.AudioMode` | `Enum.TrackerLodFlagMode` |  |
+| `Class.TrackerLodController.VideoExtrapolationMode` | `Enum.TrackerExtrapolationFlagMode` |  |
+| `Class.TrackerLodController.VideoLodMode` | `Enum.TrackerLodValueMode` |  |
+| `Class.TrackerLodController.VideoMode` | `Enum.TrackerLodFlagMode` |  |
 
 ## Methods
 
-- **getExtrapolation**() -> `int`
-- **getVideoLod**() -> `int`
-- **isAudioEnabled**() -> `bool`
-- **isVideoEnabled**() -> `bool`
+### `Class.TrackerLodController:getExtrapolation`
+
+``getExtrapolation()`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.TrackerLodController:getVideoLod`
+
+``getVideoLod()`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.TrackerLodController:isAudioEnabled`
+
+``isAudioEnabled()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.TrackerLodController:isVideoEnabled`
+
+``isVideoEnabled()`` → `bool`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **UpdateState**()
+### `Class.TrackerLodController.UpdateState`
+
+Fires with: ()

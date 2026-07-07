@@ -7,22 +7,35 @@ tags: [NotCreatable]
 
 # HandleAdornment
 
-**Inherits**: PVAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.PVAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **AdornCullingMode**: `AdornCullingMode`
-- **AlwaysOnTop**: `bool`
-- **CFrame**: `CFrame`
-- **GizmoReference**: `Instance` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SizeRelativeOffset**: `Vector3`
-- **ZIndex**: `int`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.HandleAdornment.AdornCullingMode` | `Enum.AdornCullingMode` |  |
+| `Class.HandleAdornment.AlwaysOnTop` | `bool` |  |
+| `Class.HandleAdornment.CFrame` | `Datatype.CFrame` |  |
+| `Class.HandleAdornment.GizmoReference` | `Class.Instance` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.HandleAdornment.SizeRelativeOffset` | `Datatype.Vector3` |  |
+| `Class.HandleAdornment.ZIndex` | `int` |  |
 
 ## Events
 
-- **MouseButton1Down**()
-- **MouseButton1Up**()
-- **MouseEnter**()
-- **MouseLeave**()
+### `Class.HandleAdornment.MouseButton1Down`
+
+Fires with: ()
+
+### `Class.HandleAdornment.MouseButton1Up`
+
+Fires with: ()
+
+### `Class.HandleAdornment.MouseEnter`
+
+Fires with: ()
+
+### `Class.HandleAdornment.MouseLeave`
+
+Fires with: ()

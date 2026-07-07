@@ -3,9 +3,11 @@ title: ListenerPositionType
 type: enum
 ---
 
-# ListenerPositionType (Enum)
+# `Enum.ListenerPositionType`
+
+The `Enum.ListenerPositionType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Parent | 0 |
-| Instance | 1 |
+| `Enum.ListenerPositionType.Parent` | 0 |
+| `Enum.ListenerPositionType.Instance` | 1 |

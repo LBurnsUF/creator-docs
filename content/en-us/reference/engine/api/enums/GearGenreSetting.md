@@ -3,9 +3,11 @@ title: GearGenreSetting
 type: enum
 ---
 
-# GearGenreSetting (Enum)
+# `Enum.GearGenreSetting`
+
+The `Enum.GearGenreSetting` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| AllGenres | 0 |
-| MatchingGenreOnly | 1 |
+| `Enum.GearGenreSetting.AllGenres` | 0 |
+| `Enum.GearGenreSetting.MatchingGenreOnly` | 1 |

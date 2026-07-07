@@ -7,10 +7,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # LanguageService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetCapabilitiesUsedInPackageAsync**(`instances: Instances`) -> `Dictionary` [Yields]
+### `Class.LanguageService:GetCapabilitiesUsedInPackageAsync`
+
+``GetCapabilitiesUsedInPackageAsync(instances: `Datatype.Instances`)`` → `Dictionary`
+  [Yields]

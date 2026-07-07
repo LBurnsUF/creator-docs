@@ -3,10 +3,12 @@ title: InOut
 type: enum
 ---
 
-# InOut (Enum)
+# `Enum.InOut`
+
+The `Enum.InOut` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Edge | 0 |
-| Inset | 1 |
-| Center | 2 |
+| `Enum.InOut.Edge` | 0 |
+| `Enum.InOut.Inset` | 1 |
+| `Enum.InOut.Center` | 2 |

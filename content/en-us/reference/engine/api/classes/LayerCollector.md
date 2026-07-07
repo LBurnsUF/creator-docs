@@ -7,18 +7,27 @@ tags: [NotCreatable, NotBrowsable]
 
 # LayerCollector
 
-**Inherits**: GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Properties
 
-- **Enabled**: `bool`
-- **ResetOnSpawn**: `bool`
-- **TabKeyboardNavigation**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ZIndexBehavior**: `ZIndexBehavior`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.LayerCollector.Enabled` | `bool` |  |
+| `Class.LayerCollector.ResetOnSpawn` | `bool` |  |
+| `Class.LayerCollector.TabKeyboardNavigation` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.LayerCollector.ZIndexBehavior` | `Enum.ZIndexBehavior` |  |
 
 ## Methods
 
-- **GetGuiObjectsAtPosition**(`x: int`, `y: int`) -> `Instances`
-- **GetLayoutNodeTree**() -> `Dictionary` [Deprecated]
+### `Class.LayerCollector:GetGuiObjectsAtPosition`
+
+``GetGuiObjectsAtPosition(x: `int`, y: `int`)`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}
+
+### `Class.LayerCollector:GetLayoutNodeTree`
+
+``GetLayoutNodeTree()`` → `Dictionary`
+  [Deprecated]

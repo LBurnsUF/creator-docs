@@ -3,12 +3,14 @@ title: InitialDockState
 type: enum
 ---
 
-# InitialDockState (Enum)
+# `Enum.InitialDockState`
+
+The `Enum.InitialDockState` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Top | 0 |
-| Bottom | 1 |
-| Left | 2 |
-| Right | 3 |
-| Float | 4 |
+| `Enum.InitialDockState.Top` | 0 |
+| `Enum.InitialDockState.Bottom` | 1 |
+| `Enum.InitialDockState.Left` | 2 |
+| `Enum.InitialDockState.Right` | 3 |
+| `Enum.InitialDockState.Float` | 4 |

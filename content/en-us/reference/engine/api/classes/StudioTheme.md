@@ -7,10 +7,13 @@ tags: [NotCreatable, NotReplicated]
 
 # StudioTheme
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **GetColor**(`styleguideitem: StudioStyleGuideColor`, `modifier: StudioStyleGuideModifier = Default`) -> `Color3`
+### `Class.StudioTheme:GetColor`
+
+``GetColor(styleguideitem: `Enum.StudioStyleGuideColor`, modifier: `Enum.StudioStyleGuideModifier`)`` → `Datatype.Color3`
+   {security: PluginSecurity}

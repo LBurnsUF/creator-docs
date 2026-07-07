@@ -7,25 +7,69 @@ tags: [NotCreatable, Service]
 
 # CollectionService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **AddTag**(`instance: Instance`, `tag: string`) -> `null` [CustomLuaState]
-- **GetAllTags**() -> `Array`
-- **GetCollection**(`class: string`) -> `Instances` [Deprecated]
-- **GetInstanceAddedSignal**(`tag: string`) -> `RBXScriptSignal`
-- **GetInstanceRemovedSignal**(`tag: string`) -> `RBXScriptSignal`
-- **GetTagged**(`tag: string`) -> `Instances`
-- **GetTags**(`instance: Instance`) -> `Array` [CustomLuaState]
-- **HasTag**(`instance: Instance`, `tag: string`) -> `bool` [CustomLuaState]
-- **RemoveTag**(`instance: Instance`, `tag: string`) -> `null` [CustomLuaState]
+### `Class.CollectionService:AddTag`
+
+``AddTag(instance: `Class.Instance`, tag: `string`)`` → `null`
+  [CustomLuaState]
+
+### `Class.CollectionService:GetAllTags`
+
+``GetAllTags()`` → `Array`
+
+### `Class.CollectionService:GetCollection`
+
+``GetCollection(class: `string`)`` → `Datatype.Instances`
+  [Deprecated]
+
+### `Class.CollectionService:GetInstanceAddedSignal`
+
+``GetInstanceAddedSignal(tag: `string`)`` → `Datatype.RBXScriptSignal`
+
+### `Class.CollectionService:GetInstanceRemovedSignal`
+
+``GetInstanceRemovedSignal(tag: `string`)`` → `Datatype.RBXScriptSignal`
+
+### `Class.CollectionService:GetTagged`
+
+``GetTagged(tag: `string`)`` → `Datatype.Instances`
+
+### `Class.CollectionService:GetTags`
+
+``GetTags(instance: `Class.Instance`)`` → `Array`
+  [CustomLuaState]
+
+### `Class.CollectionService:HasTag`
+
+``HasTag(instance: `Class.Instance`, tag: `string`)`` → `bool`
+  [CustomLuaState]
+
+### `Class.CollectionService:RemoveTag`
+
+``RemoveTag(instance: `Class.Instance`, tag: `string`)`` → `null`
+  [CustomLuaState]
 
 ## Events
 
-- **ItemAdded**(`instance: Instance`) [Deprecated]
-- **ItemRemoved**(`instance: Instance`) [Deprecated]
-- **TagAdded**(`tag: string`)
-- **TagRemoved**(`tag: string`)
+### `Class.CollectionService.ItemAdded`
+
+Fires with: (instance: `Class.Instance`)
+  [Deprecated]
+
+### `Class.CollectionService.ItemRemoved`
+
+Fires with: (instance: `Class.Instance`)
+  [Deprecated]
+
+### `Class.CollectionService.TagAdded`
+
+Fires with: (tag: `string`)
+
+### `Class.CollectionService.TagRemoved`
+
+Fires with: (tag: `string`)

@@ -3,11 +3,13 @@ title: AutomaticSize
 type: enum
 ---
 
-# AutomaticSize (Enum)
+# `Enum.AutomaticSize`
+
+The `Enum.AutomaticSize` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| X | 1 |
-| Y | 2 |
-| XY | 3 |
+| `Enum.AutomaticSize.None` | 0 |
+| `Enum.AutomaticSize.X` | 1 |
+| `Enum.AutomaticSize.Y` | 2 |
+| `Enum.AutomaticSize.XY` | 3 |

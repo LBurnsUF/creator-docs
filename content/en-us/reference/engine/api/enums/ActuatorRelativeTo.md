@@ -3,10 +3,12 @@ title: ActuatorRelativeTo
 type: enum
 ---
 
-# ActuatorRelativeTo (Enum)
+# `Enum.ActuatorRelativeTo`
+
+The `Enum.ActuatorRelativeTo` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Attachment0 | 0 |
-| Attachment1 | 1 |
-| World | 2 |
+| `Enum.ActuatorRelativeTo.Attachment0` | 0 |
+| `Enum.ActuatorRelativeTo.Attachment1` | 1 |
+| `Enum.ActuatorRelativeTo.World` | 2 |

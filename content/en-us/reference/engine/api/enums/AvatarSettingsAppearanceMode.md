@@ -3,10 +3,12 @@ title: AvatarSettingsAppearanceMode
 type: enum
 ---
 
-# AvatarSettingsAppearanceMode (Enum)
+# `Enum.AvatarSettingsAppearanceMode`
+
+The `Enum.AvatarSettingsAppearanceMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| PlayerChoice | 0 |
-| CustomParts | 1 |
-| CustomBody | 2 |
+| `Enum.AvatarSettingsAppearanceMode.PlayerChoice` | 0 |
+| `Enum.AvatarSettingsAppearanceMode.CustomParts` | 1 |
+| `Enum.AvatarSettingsAppearanceMode.CustomBody` | 2 |

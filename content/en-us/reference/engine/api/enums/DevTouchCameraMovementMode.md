@@ -3,11 +3,13 @@ title: DevTouchCameraMovementMode
 type: enum
 ---
 
-# DevTouchCameraMovementMode (Enum)
+# `Enum.DevTouchCameraMovementMode`
+
+The `Enum.DevTouchCameraMovementMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| UserChoice | 0 |
-| Classic | 1 |
-| Follow | 2 |
-| Orbital | 3 |
+| `Enum.DevTouchCameraMovementMode.UserChoice` | 0 |
+| `Enum.DevTouchCameraMovementMode.Classic` | 1 |
+| `Enum.DevTouchCameraMovementMode.Follow` | 2 |
+| `Enum.DevTouchCameraMovementMode.Orbital` | 3 |

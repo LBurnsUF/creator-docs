@@ -3,8 +3,10 @@ title: Language
 type: enum
 ---
 
-# Language (Enum)
+# `Enum.Language`
+
+The `Enum.Language` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
+| `Enum.Language.Default` | 0 |

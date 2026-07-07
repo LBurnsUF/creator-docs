@@ -3,10 +3,12 @@ title: WrapLayerAutoSkin
 type: enum
 ---
 
-# WrapLayerAutoSkin (Enum)
+# `Enum.WrapLayerAutoSkin`
+
+The `Enum.WrapLayerAutoSkin` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Disabled | 0 |
-| EnabledPreserve | 1 |
-| EnabledOverride | 2 |
+| `Enum.WrapLayerAutoSkin.Disabled` | 0 |
+| `Enum.WrapLayerAutoSkin.EnabledPreserve` | 1 |
+| `Enum.WrapLayerAutoSkin.EnabledOverride` | 2 |

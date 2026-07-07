@@ -3,97 +3,117 @@ title: CFrame
 type: datatype
 ---
 
-# CFrame (DataType)
+# `Datatype.CFrame`
 
-Used in 165 locations across the API.
+Used in 165 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Accoutrement.AttachmentPoint
-- AlignOrientation.CFrame
-- AnimationConstraint.C0
-- AnimationConstraint.C1
-- AnimationConstraint.Transform
-- Animator.RootMotion
-- Attachment.CFrame
-- Attachment.WorldCFrame
-- BasePart.CFrame
-- BasePart.ExtentsCFrame
-- BasePart.PivotOffset
-- BaseWrap.CageOrigin
-- BaseWrap.CageOriginWorld
-- BaseWrap.ImportOrigin
-- BaseWrap.ImportOriginWorld
-- BodyGyro.CFrame
-- BodyGyro.cframe
-- Bone.Transform
-- Bone.TransformedCFrame
-- Bone.TransformedWorldCFrame
-- CFrameValue.Value
-- Camera.CFrame
-- Camera.CoordinateFrame
-- Camera.Focus
-- Camera.focus
-- Collaborator.CFrame
-- ControllerPartSensor.HitFrame
-- DigitsRigDescription.Index1TposeAdjustment
-- DigitsRigDescription.Index2TposeAdjustment
-- DigitsRigDescription.Index3TposeAdjustment
-- ...and 57 more
+- `Class.Accoutrement.AttachmentPoint`
+- `Class.AlignOrientation.CFrame`
+- `Class.AnimationConstraint.C0`
+- `Class.AnimationConstraint.C1`
+- `Class.AnimationConstraint.Transform`
+- `Class.Animator.RootMotion`
+- `Class.Attachment.CFrame`
+- `Class.Attachment.WorldCFrame`
+- `Class.BasePart.CFrame`
+- `Class.BasePart.ExtentsCFrame`
+- `Class.BasePart.PivotOffset`
+- `Class.BaseWrap.CageOrigin`
+- `Class.BaseWrap.CageOriginWorld`
+- `Class.BaseWrap.ImportOrigin`
+- `Class.BaseWrap.ImportOriginWorld`
+- `Class.BodyGyro.CFrame`
+- `Class.BodyGyro.cframe`
+- `Class.Bone.Transform`
+- `Class.Bone.TransformedCFrame`
+- `Class.Bone.TransformedWorldCFrame`
+- `Class.CFrameValue.Value`
+- `Class.Camera.CFrame`
+- `Class.Camera.CoordinateFrame`
+- `Class.Camera.Focus`
+- `Class.Camera.focus`
+- `Class.Collaborator.CFrame`
+- `Class.ControllerPartSensor.HitFrame`
+- `Class.DigitsRigDescription.Index1TposeAdjustment`
+- `Class.DigitsRigDescription.Index2TposeAdjustment`
+- `Class.DigitsRigDescription.Index3TposeAdjustment`
+- `Class.DigitsRigDescription.Middle1TposeAdjustment`
+- `Class.DigitsRigDescription.Middle2TposeAdjustment`
+- `Class.DigitsRigDescription.Middle3TposeAdjustment`
+- `Class.DigitsRigDescription.Pinky1TposeAdjustment`
+- `Class.DigitsRigDescription.Pinky2TposeAdjustment`
+- `Class.DigitsRigDescription.Pinky3TposeAdjustment`
+- `Class.DigitsRigDescription.Ring1TposeAdjustment`
+- `Class.DigitsRigDescription.Ring2TposeAdjustment`
+- `Class.DigitsRigDescription.Ring3TposeAdjustment`
+- `Class.DigitsRigDescription.Thumb1TposeAdjustment`
+- ...and 47 more
 
 ## Used as Parameter Type
 
-- CFrameValue.Changed(value)
-- CFrameValue.changed(value)
-- Camera.Interpolate(endFocus)
-- Camera.Interpolate(endPos)
-- Camera.SetImageServerView(modelCoord)
-- Camera.ZoomToExtents(boundingBoxCFrame)
-- DigitsRigDescription.SetTposeAdjustment(transform)
-- DragDetector.DragContinue(viewFrame)
-- DragDetector.DragStart(hitFrame)
-- DragDetector.DragStart(viewFrame)
-- EditableMesh.SetBoneCFrame(cframe)
-- EditableMesh.SetFacsBonePose(cframe)
-- FluidForceSensor.EvaluateAsync(cframe)
-- HumanoidRigDescription.SetTposeAdjustment(transform)
-- Model.SetPrimaryPartCFrame(cframe)
-- PVInstance.PivotTo(targetCFrame)
-- PhysicsService.IkSolve(target)
-- PhysicsService.LocalIkSolve(target)
-- PlayerViewService.UpdateDeviceCFrame(cframe)
-- StudioCameraService.InterpolateView(target)
-- Terrain.DrawBufferAsync(cframe)
-- Terrain.FillBlock(cframe)
-- Terrain.FillCylinder(cframe)
-- Terrain.FillWedge(cframe)
-- Terrain.GetTerrainWireframe(cframe)
-- Terrain.ReplaceMaterialInTransform(cframe)
-- Terrain.ReplaceMaterialInTransformSubregion(cframe)
-- Terrain.SetMaterialInTransform(cframe)
-- Terrain.SetMaterialInTransformSubregion(cframe)
-- TerrainRegion.ApplyTransform(rotation)
-- ...and 28 more
+- `Class.CFrameValue:Changed` (parameter `value`)
+- `Class.CFrameValue:changed` (parameter `value`)
+- `Class.Camera:Interpolate` (parameter `endFocus`)
+- `Class.Camera:Interpolate` (parameter `endPos`)
+- `Class.Camera:SetImageServerView` (parameter `modelCoord`)
+- `Class.Camera:ZoomToExtents` (parameter `boundingBoxCFrame`)
+- `Class.DigitsRigDescription:SetTposeAdjustment` (parameter `transform`)
+- `Class.DragDetector:DragContinue` (parameter `viewFrame`)
+- `Class.DragDetector:DragStart` (parameter `hitFrame`)
+- `Class.DragDetector:DragStart` (parameter `viewFrame`)
+- `Class.EditableMesh:SetBoneCFrame` (parameter `cframe`)
+- `Class.EditableMesh:SetFacsBonePose` (parameter `cframe`)
+- `Class.FluidForceSensor:EvaluateAsync` (parameter `cframe`)
+- `Class.HumanoidRigDescription:SetTposeAdjustment` (parameter `transform`)
+- `Class.Model:SetPrimaryPartCFrame` (parameter `cframe`)
+- `Class.PVInstance:PivotTo` (parameter `targetCFrame`)
+- `Class.PhysicsService:IkSolve` (parameter `target`)
+- `Class.PhysicsService:LocalIkSolve` (parameter `target`)
+- `Class.PlayerViewService:UpdateDeviceCFrame` (parameter `cframe`)
+- `Class.StudioCameraService:InterpolateView` (parameter `target`)
+- `Class.Terrain:DrawBufferAsync` (parameter `cframe`)
+- `Class.Terrain:FillBlock` (parameter `cframe`)
+- `Class.Terrain:FillCylinder` (parameter `cframe`)
+- `Class.Terrain:FillWedge` (parameter `cframe`)
+- `Class.Terrain:GetTerrainWireframe` (parameter `cframe`)
+- `Class.Terrain:ReplaceMaterialInTransform` (parameter `cframe`)
+- `Class.Terrain:ReplaceMaterialInTransformSubregion` (parameter `cframe`)
+- `Class.Terrain:SetMaterialInTransform` (parameter `cframe`)
+- `Class.Terrain:SetMaterialInTransformSubregion` (parameter `cframe`)
+- `Class.TerrainRegion:ApplyTransform` (parameter `rotation`)
+- `Class.TerrainRegion:ApplyTransformSubregion` (parameter `rotation`)
+- `Class.UGCValidationService:CalculateAverageEditableCageMeshDistance` (parameter `innerTransform`)
+- `Class.UGCValidationService:CalculateAverageEditableCageMeshDistance` (parameter `outerTransform`)
+- `Class.UGCValidationService:CalculateEditableMeshInsideMeshPercentage` (parameter `meshQueryTransform`)
+- `Class.UGCValidationService:CalculateEditableMeshModifiedCageBoundingBox` (parameter `innerTransform`)
+- `Class.UGCValidationService:CalculateEditableMeshModifiedCageBoundingBox` (parameter `outerTransform`)
+- `Class.UGCValidationService:CalculateEditableMeshNumModifiedCageUVsInSet` (parameter `innerTransform`)
+- `Class.UGCValidationService:CalculateEditableMeshNumModifiedCageUVsInSet` (parameter `outerTransform`)
+- `Class.UGCValidationService:CheckEditableMeshInCameraFrustum` (parameter `cameraWorldCF`)
+- `Class.UGCValidationService:CheckEditableMeshInCameraFrustum` (parameter `handleWorldCF`)
+- ...and 18 more
 
 ## Used as Return Type
 
-- BasePart.GetRenderCFrame
-- Camera.GetRenderCFrame
-- DigitsRigDescription.GetTposeAdjustment
-- DragDetector.GetReferenceFrame
-- EditableMesh.GetBoneCFrame
-- EulerRotationCurve.GetRotationAtTime
-- HumanoidRigDescription.GetTposeAdjustment
-- IKControl.GetNodeLocalCFrame
-- IKControl.GetNodeWorldCFrame
-- IKControl.GetRawFinalTarget
-- IKControl.GetSmoothedFinalTarget
-- Model.GetModelCFrame
-- Model.GetPrimaryPartCFrame
-- PVInstance.GetPivot
-- PlayerViewService.GetDeviceCameraCFrame
-- PlayerViewService.GetDeviceCameraCFrameForSelfView
-- UGCValidationService.GetExpectedTposeRotation
-- UserInputService.GetUserCFrame
-- VRService.GetUserCFrame
-- WrapDeformer.GetDeformedCFrameAsync
+- `Class.BasePart:GetRenderCFrame`
+- `Class.Camera:GetRenderCFrame`
+- `Class.DigitsRigDescription:GetTposeAdjustment`
+- `Class.DragDetector:GetReferenceFrame`
+- `Class.EditableMesh:GetBoneCFrame`
+- `Class.EulerRotationCurve:GetRotationAtTime`
+- `Class.HumanoidRigDescription:GetTposeAdjustment`
+- `Class.IKControl:GetNodeLocalCFrame`
+- `Class.IKControl:GetNodeWorldCFrame`
+- `Class.IKControl:GetRawFinalTarget`
+- `Class.IKControl:GetSmoothedFinalTarget`
+- `Class.Model:GetModelCFrame`
+- `Class.Model:GetPrimaryPartCFrame`
+- `Class.PVInstance:GetPivot`
+- `Class.PlayerViewService:GetDeviceCameraCFrame`
+- `Class.PlayerViewService:GetDeviceCameraCFrameForSelfView`
+- `Class.UGCValidationService:GetExpectedTposeRotation`
+- `Class.UserInputService:GetUserCFrame`
+- `Class.VRService:GetUserCFrame`
+- `Class.WrapDeformer:GetDeformedCFrameAsync`

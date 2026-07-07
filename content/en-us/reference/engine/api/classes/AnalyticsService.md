@@ -7,28 +7,80 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AnalyticsService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **ApiKey**: `string` [Deprecated] (Security: Read=LocalUserSecurity, Write=LocalUserSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AnalyticsService.ApiKey` | `string` | [Deprecated] {security: LocalUserSecurity} |
 
 ## Methods
 
-- **FireCustomEvent**(`player: Instance`, `eventCategory: string`, `customData: Variant`) -> `null` [Deprecated]
-- **FireEvent**(`category: string`, `value: Variant`) -> `null` [Deprecated]
-- **FireInGameEconomyEvent**(`player: Instance`, `itemName: string`, `economyAction: AnalyticsEconomyAction`, `itemCategory: string`, `amount: int`, `currency: string`, `location: Variant`, `customData: Variant`) -> `null` [Deprecated]
-- **FireLogEvent**(`player: Instance`, `logLevel: AnalyticsLogLevel`, `message: string`, `debugInfo: Variant`, `customData: Variant`) -> `null` [Deprecated]
-- **FirePlayerProgressionEvent**(`player: Instance`, `category: string`, `progressionStatus: AnalyticsProgressionStatus`, `location: Variant`, `statistics: Variant`, `customData: Variant`) -> `null` [Deprecated]
-- **GetDurationLoggerTimestamp**() -> `int`
-- **GetPlayerSegmentsAsync**(`player: Player`) -> `Dictionary` [Yields]
-- **LogCustomEvent**(`player: Player`, `eventName: string`, `value: double = 1`, `customFields: Dictionary = nil`) -> `null`
-- **LogEconomyEvent**(`player: Player`, `flowType: AnalyticsEconomyFlowType`, `currencyType: string`, `amount: float`, `endingBalance: float`, `transactionType: string`, `itemSku: string = `, `customFields: Dictionary = nil`) -> `null`
-- **LogFunnelStepEvent**(`player: Player`, `funnelName: string`, `funnelSessionId: string = `, `step: int = 1`, `stepName: string = `, `customFields: Dictionary = nil`) -> `null`
-- **LogOnboardingFunnelStepEvent**(`player: Player`, `step: int`, `stepName: string = `, `customFields: Dictionary = nil`) -> `null`
-- **LogProgressionCompleteEvent**(`player: Player`, `progressionPathName: string`, `level: int`, `levelName: string = `, `customFields: Dictionary = nil`) -> `null`
-- **LogProgressionEvent**(`player: Player`, `progressionPathName: string`, `status: AnalyticsProgressionType`, `level: int`, `levelName: string = `, `customFields: Dictionary = nil`) -> `null`
-- **LogProgressionFailEvent**(`player: Player`, `progressionPathName: string`, `level: int`, `levelName: string = `, `customFields: Dictionary = nil`) -> `null`
-- **LogProgressionStartEvent**(`player: Player`, `progressionPathName: string`, `level: int`, `levelName: string = `, `customFields: Dictionary = nil`) -> `null`
+### `Class.AnalyticsService:FireCustomEvent`
+
+``FireCustomEvent(player: `Class.Instance`, eventCategory: `string`, customData: `Variant`)`` → `null`
+  [Deprecated]
+
+### `Class.AnalyticsService:FireEvent`
+
+``FireEvent(category: `string`, value: `Variant`)`` → `null`
+  [Deprecated]
+
+### `Class.AnalyticsService:FireInGameEconomyEvent`
+
+``FireInGameEconomyEvent(player: `Class.Instance`, itemName: `string`, economyAction: `Enum.AnalyticsEconomyAction`, itemCategory: `string`, amount: `int`, currency: `string`, location: `Variant`, customData: `Variant`)`` → `null`
+  [Deprecated]
+
+### `Class.AnalyticsService:FireLogEvent`
+
+``FireLogEvent(player: `Class.Instance`, logLevel: `Enum.AnalyticsLogLevel`, message: `string`, debugInfo: `Variant`, customData: `Variant`)`` → `null`
+  [Deprecated]
+
+### `Class.AnalyticsService:FirePlayerProgressionEvent`
+
+``FirePlayerProgressionEvent(player: `Class.Instance`, category: `string`, progressionStatus: `Enum.AnalyticsProgressionStatus`, location: `Variant`, statistics: `Variant`, customData: `Variant`)`` → `null`
+  [Deprecated]
+
+### `Class.AnalyticsService:GetDurationLoggerTimestamp`
+
+``GetDurationLoggerTimestamp()`` → `int`
+
+### `Class.AnalyticsService:GetPlayerSegmentsAsync`
+
+``GetPlayerSegmentsAsync(player: `Class.Player`)`` → `Dictionary`
+  [Yields]
+
+### `Class.AnalyticsService:LogCustomEvent`
+
+``LogCustomEvent(player: `Class.Player`, eventName: `string`, value: `double`, customFields: `Dictionary`)`` → `null`
+
+### `Class.AnalyticsService:LogEconomyEvent`
+
+``LogEconomyEvent(player: `Class.Player`, flowType: `Enum.AnalyticsEconomyFlowType`, currencyType: `string`, amount: `float`, endingBalance: `float`, transactionType: `string`, itemSku: `string`, customFields: `Dictionary`)`` → `null`
+
+### `Class.AnalyticsService:LogFunnelStepEvent`
+
+``LogFunnelStepEvent(player: `Class.Player`, funnelName: `string`, funnelSessionId: `string`, step: `int`, stepName: `string`, customFields: `Dictionary`)`` → `null`
+
+### `Class.AnalyticsService:LogOnboardingFunnelStepEvent`
+
+``LogOnboardingFunnelStepEvent(player: `Class.Player`, step: `int`, stepName: `string`, customFields: `Dictionary`)`` → `null`
+
+### `Class.AnalyticsService:LogProgressionCompleteEvent`
+
+``LogProgressionCompleteEvent(player: `Class.Player`, progressionPathName: `string`, level: `int`, levelName: `string`, customFields: `Dictionary`)`` → `null`
+
+### `Class.AnalyticsService:LogProgressionEvent`
+
+``LogProgressionEvent(player: `Class.Player`, progressionPathName: `string`, status: `Enum.AnalyticsProgressionType`, level: `int`, levelName: `string`, customFields: `Dictionary`)`` → `null`
+
+### `Class.AnalyticsService:LogProgressionFailEvent`
+
+``LogProgressionFailEvent(player: `Class.Player`, progressionPathName: `string`, level: `int`, levelName: `string`, customFields: `Dictionary`)`` → `null`
+
+### `Class.AnalyticsService:LogProgressionStartEvent`
+
+``LogProgressionStartEvent(player: `Class.Player`, progressionPathName: `string`, level: `int`, levelName: `string`, customFields: `Dictionary`)`` → `null`

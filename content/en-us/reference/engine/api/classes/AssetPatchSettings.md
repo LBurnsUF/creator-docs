@@ -7,12 +7,14 @@ tags: [NotCreatable, NotReplicated]
 
 # AssetPatchSettings
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **ContentId**: `string`
-- **OutputPath**: `string`
-- **PatchId**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AssetPatchSettings.ContentId` | `string` |  |
+| `Class.AssetPatchSettings.OutputPath` | `string` |  |
+| `Class.AssetPatchSettings.PatchId` | `string` |  |

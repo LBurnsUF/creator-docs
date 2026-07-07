@@ -3,10 +3,12 @@ title: SaveFilter
 type: enum
 ---
 
-# SaveFilter (Enum)
+# `Enum.SaveFilter`
+
+The `Enum.SaveFilter` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| SaveWorld | 0 |
-| SaveGame | 1 |
-| SaveAll | 2 |
+| `Enum.SaveFilter.SaveWorld` | 0 |
+| `Enum.SaveFilter.SaveGame` | 1 |
+| `Enum.SaveFilter.SaveAll` | 2 |

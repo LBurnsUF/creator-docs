@@ -6,9 +6,11 @@ superclass: TweenBase
 
 # Tween
 
-**Inherits**: TweenBase > Instance > Object
+**Inherits from:** `Class.TweenBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Instance**: `Instance` [ReadOnly] [NotReplicated]
-- **TweenInfo**: `TweenInfo` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Tween.Instance` | `Class.Instance` | [ReadOnly] [NotReplicated] |
+| `Class.Tween.TweenInfo` | `Datatype.TweenInfo` | [ReadOnly] [NotReplicated] |

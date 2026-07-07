@@ -7,13 +7,15 @@ tags: [NotCreatable, NotReplicated]
 
 # PluginDragEvent
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Data**: `string` [ReadOnly] [NotReplicated]
-- **MimeType**: `string` [ReadOnly] [NotReplicated]
-- **Position**: `Vector2` [ReadOnly] [NotReplicated]
-- **Sender**: `string` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PluginDragEvent.Data` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.PluginDragEvent.MimeType` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.PluginDragEvent.Position` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.PluginDragEvent.Sender` | `string` | [ReadOnly] [NotReplicated] |

@@ -3,9 +3,11 @@ title: AgeCheckStatus
 type: enum
 ---
 
-# AgeCheckStatus (Enum)
+# `Enum.AgeCheckStatus`
+
+The `Enum.AgeCheckStatus` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Unchecked | 0 |
-| Checked | 1 |
+| `Enum.AgeCheckStatus.Unchecked` | 0 |
+| `Enum.AgeCheckStatus.Checked` | 1 |

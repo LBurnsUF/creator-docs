@@ -7,13 +7,15 @@ tags: [NotReplicated]
 
 # VideoDeviceInput
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **Active**: `bool`
-- **CameraId**: `string`
-- **CaptureQuality**: `VideoDeviceCaptureQuality`
-- **IsReady**: `bool` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VideoDeviceInput.Active` | `bool` |  |
+| `Class.VideoDeviceInput.CameraId` | `string` |  |
+| `Class.VideoDeviceInput.CaptureQuality` | `Enum.VideoDeviceCaptureQuality` |  |
+| `Class.VideoDeviceInput.IsReady` | `bool` | [ReadOnly] [NotReplicated] |

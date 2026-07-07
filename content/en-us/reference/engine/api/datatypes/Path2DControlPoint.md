@@ -3,19 +3,19 @@ title: Path2DControlPoint
 type: datatype
 ---
 
-# Path2DControlPoint (DataType)
+# `Datatype.Path2DControlPoint`
 
-Used in 4 locations across the API.
+Used in 4 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Path2D.SelectedControlPointData
+- `Class.Path2D.SelectedControlPointData`
 
 ## Used as Parameter Type
 
-- Path2D.InsertControlPoint(point)
-- Path2D.UpdateControlPoint(point)
+- `Class.Path2D:InsertControlPoint` (parameter `point`)
+- `Class.Path2D:UpdateControlPoint` (parameter `point`)
 
 ## Used as Return Type
 
-- Path2D.GetControlPoint
+- `Class.Path2D:GetControlPoint`

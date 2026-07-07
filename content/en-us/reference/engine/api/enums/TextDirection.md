@@ -3,10 +3,12 @@ title: TextDirection
 type: enum
 ---
 
-# TextDirection (Enum)
+# `Enum.TextDirection`
+
+The `Enum.TextDirection` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Auto | 0 |
-| LeftToRight | 1 |
-| RightToLeft | 2 |
+| `Enum.TextDirection.Auto` | 0 |
+| `Enum.TextDirection.LeftToRight` | 1 |
+| `Enum.TextDirection.RightToLeft` | 2 |

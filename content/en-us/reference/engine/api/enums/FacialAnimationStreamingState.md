@@ -3,12 +3,14 @@ title: FacialAnimationStreamingState
 type: enum
 ---
 
-# FacialAnimationStreamingState (Enum)
+# `Enum.FacialAnimationStreamingState`
+
+The `Enum.FacialAnimationStreamingState` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Audio | 1 |
-| Video | 2 |
-| Place | 4 |
-| Server | 8 |
+| `Enum.FacialAnimationStreamingState.None` | 0 |
+| `Enum.FacialAnimationStreamingState.Audio` | 1 |
+| `Enum.FacialAnimationStreamingState.Video` | 2 |
+| `Enum.FacialAnimationStreamingState.Place` | 4 |
+| `Enum.FacialAnimationStreamingState.Server` | 8 |

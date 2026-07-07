@@ -6,4 +6,4 @@ superclass: Instance
 
 # OperationGraph
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`

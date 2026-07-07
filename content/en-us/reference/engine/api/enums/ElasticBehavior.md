@@ -3,10 +3,12 @@ title: ElasticBehavior
 type: enum
 ---
 
-# ElasticBehavior (Enum)
+# `Enum.ElasticBehavior`
+
+The `Enum.ElasticBehavior` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| WhenScrollable | 0 |
-| Always | 1 |
-| Never | 2 |
+| `Enum.ElasticBehavior.WhenScrollable` | 0 |
+| `Enum.ElasticBehavior.Always` | 1 |
+| `Enum.ElasticBehavior.Never` | 2 |

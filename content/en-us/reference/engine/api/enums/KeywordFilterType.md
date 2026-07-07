@@ -3,9 +3,11 @@ title: KeywordFilterType
 type: enum
 ---
 
-# KeywordFilterType (Enum)
+# `Enum.KeywordFilterType`
+
+The `Enum.KeywordFilterType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Include | 0 |
-| Exclude | 1 |
+| `Enum.KeywordFilterType.Include` | 0 |
+| `Enum.KeywordFilterType.Exclude` | 1 |

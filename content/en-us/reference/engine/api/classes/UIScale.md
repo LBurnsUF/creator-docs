@@ -6,8 +6,10 @@ superclass: UIComponent
 
 # UIScale
 
-**Inherits**: UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Scale**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIScale.Scale` | `float` |  |

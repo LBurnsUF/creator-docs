@@ -7,14 +7,33 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # TelemetryService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **LogCounter**(`config: Dictionary`, `data: Dictionary?`, `value: float = 1`) -> `Variant`
-- **LogDurationEvent**(`key: string`) -> `Variant`
-- **LogDurationEventWithTimestamp**(`key: string`, `timestamp: int64`) -> `Variant`
-- **LogEvent**(`config: Dictionary`, `data: Dictionary = nil`) -> `Variant`
-- **LogStat**(`config: Dictionary`, `data: Dictionary?`, `value: float`) -> `Variant`
+### `Class.TelemetryService:LogCounter`
+
+``LogCounter(config: `Dictionary`, data: `Dictionary?`, value: `float`)`` → `Variant`
+   {security: RobloxScriptSecurity}
+
+### `Class.TelemetryService:LogDurationEvent`
+
+``LogDurationEvent(key: `string`)`` → `Variant`
+   {security: RobloxScriptSecurity}
+
+### `Class.TelemetryService:LogDurationEventWithTimestamp`
+
+``LogDurationEventWithTimestamp(key: `string`, timestamp: `int64`)`` → `Variant`
+   {security: RobloxScriptSecurity}
+
+### `Class.TelemetryService:LogEvent`
+
+``LogEvent(config: `Dictionary`, data: `Dictionary`)`` → `Variant`
+   {security: RobloxScriptSecurity}
+
+### `Class.TelemetryService:LogStat`
+
+``LogStat(config: `Dictionary`, data: `Dictionary?`, value: `float`)`` → `Variant`
+   {security: RobloxScriptSecurity}

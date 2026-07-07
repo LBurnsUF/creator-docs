@@ -7,16 +7,23 @@ tags: [NotCreatable, NotReplicated]
 
 # TextFilterTranslatedResult
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **SourceLanguage**: `string` [ReadOnly] [NotReplicated]
-- **SourceText**: `TextFilterResult` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextFilterTranslatedResult.SourceLanguage` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.TextFilterTranslatedResult.SourceText` | `Class.TextFilterResult` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetTranslationForLocale**(`locale: string`) -> `TextFilterResult`
-- **GetTranslations**() -> `Dictionary`
+### `Class.TextFilterTranslatedResult:GetTranslationForLocale`
+
+``GetTranslationForLocale(locale: `string`)`` → `Class.TextFilterResult`
+
+### `Class.TextFilterTranslatedResult:GetTranslations`
+
+``GetTranslations()`` → `Dictionary`

@@ -7,26 +7,85 @@ tags: [NotCreatable, Service]
 
 # PhysicsService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **CollisionGroupContainsPart**(`name: string`, `part: BasePart`) -> `bool` [Deprecated]
-- **CollisionGroupSetCollidable**(`name1: string`, `name2: string`, `collidable: bool`) -> `null`
-- **CollisionGroupsAreCollidable**(`name1: string`, `name2: string`) -> `bool`
-- **CreateCollisionGroup**(`name: string`) -> `int` [Deprecated]
-- **GetCollisionGroupId**(`name: string`) -> `int` [Deprecated]
-- **GetCollisionGroupName**(`name: int`) -> `string` [Deprecated]
-- **GetCollisionGroups**() -> `Array` [Deprecated]
-- **GetMaxCollisionGroups**() -> `int`
-- **GetRegisteredCollisionGroups**() -> `Array`
-- **IkSolve**(`part: BasePart`, `target: CFrame`, `translateStiffness: float`, `rotateStiffness: float`) -> `null`
-- **IsCollisionGroupRegistered**(`name: string`) -> `bool`
-- **LocalIkSolve**(`part: BasePart`, `target: CFrame`, `translateStiffness: float`, `rotateStiffness: float`) -> `null`
-- **RegisterCollisionGroup**(`name: string`) -> `null`
-- **RemoveCollisionGroup**(`name: string`) -> `null` [Deprecated]
-- **RenameCollisionGroup**(`from: string`, `to: string`) -> `null`
-- **SetPartCollisionGroup**(`part: BasePart`, `name: string`) -> `null` [Deprecated]
-- **UnregisterCollisionGroup**(`name: string`) -> `null`
+### `Class.PhysicsService:CollisionGroupContainsPart`
+
+``CollisionGroupContainsPart(name: `string`, part: `Class.BasePart`)`` → `bool`
+  [Deprecated]
+
+### `Class.PhysicsService:CollisionGroupSetCollidable`
+
+``CollisionGroupSetCollidable(name1: `string`, name2: `string`, collidable: `bool`)`` → `null`
+
+### `Class.PhysicsService:CollisionGroupsAreCollidable`
+
+``CollisionGroupsAreCollidable(name1: `string`, name2: `string`)`` → `bool`
+
+### `Class.PhysicsService:CreateCollisionGroup`
+
+``CreateCollisionGroup(name: `string`)`` → `int`
+  [Deprecated]
+
+### `Class.PhysicsService:GetCollisionGroupId`
+
+``GetCollisionGroupId(name: `string`)`` → `int`
+  [Deprecated]
+
+### `Class.PhysicsService:GetCollisionGroupName`
+
+``GetCollisionGroupName(name: `int`)`` → `string`
+  [Deprecated]
+
+### `Class.PhysicsService:GetCollisionGroups`
+
+``GetCollisionGroups()`` → `Array`
+  [Deprecated]
+
+### `Class.PhysicsService:GetMaxCollisionGroups`
+
+``GetMaxCollisionGroups()`` → `int`
+
+### `Class.PhysicsService:GetRegisteredCollisionGroups`
+
+``GetRegisteredCollisionGroups()`` → `Array`
+
+### `Class.PhysicsService:IkSolve`
+
+``IkSolve(part: `Class.BasePart`, target: `Datatype.CFrame`, translateStiffness: `float`, rotateStiffness: `float`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.PhysicsService:IsCollisionGroupRegistered`
+
+``IsCollisionGroupRegistered(name: `string`)`` → `bool`
+
+### `Class.PhysicsService:LocalIkSolve`
+
+``LocalIkSolve(part: `Class.BasePart`, target: `Datatype.CFrame`, translateStiffness: `float`, rotateStiffness: `float`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.PhysicsService:RegisterCollisionGroup`
+
+``RegisterCollisionGroup(name: `string`)`` → `null`
+
+### `Class.PhysicsService:RemoveCollisionGroup`
+
+``RemoveCollisionGroup(name: `string`)`` → `null`
+  [Deprecated]
+
+### `Class.PhysicsService:RenameCollisionGroup`
+
+``RenameCollisionGroup(from: `string`, to: `string`)`` → `null`
+
+### `Class.PhysicsService:SetPartCollisionGroup`
+
+``SetPartCollisionGroup(part: `Class.BasePart`, name: `string`)`` → `null`
+  [Deprecated]
+
+### `Class.PhysicsService:UnregisterCollisionGroup`
+
+``UnregisterCollisionGroup(name: `string`)`` → `null`

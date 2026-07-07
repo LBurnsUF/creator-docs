@@ -3,12 +3,14 @@ title: PlayerActions
 type: enum
 ---
 
-# PlayerActions (Enum)
+# `Enum.PlayerActions`
+
+The `Enum.PlayerActions` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| CharacterForward | 0 |
-| CharacterBackward | 1 |
-| CharacterLeft | 2 |
-| CharacterRight | 3 |
-| CharacterJump | 4 |
+| `Enum.PlayerActions.CharacterForward` | 0 |
+| `Enum.PlayerActions.CharacterBackward` | 1 |
+| `Enum.PlayerActions.CharacterLeft` | 2 |
+| `Enum.PlayerActions.CharacterRight` | 3 |
+| `Enum.PlayerActions.CharacterJump` | 4 |

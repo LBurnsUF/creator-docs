@@ -3,10 +3,12 @@ title: DebuggerExceptionBreakMode
 type: enum
 ---
 
-# DebuggerExceptionBreakMode (Enum)
+# `Enum.DebuggerExceptionBreakMode`
+
+The `Enum.DebuggerExceptionBreakMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Never | 0 |
-| Always | 1 |
-| Unhandled | 2 |
+| `Enum.DebuggerExceptionBreakMode.Never` | 0 |
+| `Enum.DebuggerExceptionBreakMode.Always` | 1 |
+| `Enum.DebuggerExceptionBreakMode.Unhandled` | 2 |

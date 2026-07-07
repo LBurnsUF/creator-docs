@@ -7,13 +7,28 @@ tags: [NotCreatable, Service]
 
 # EventIngestService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **SendEventDeferred**(`target: string`, `eventContext: string`, `eventName: string`, `additionalArgs: Dictionary`) -> `null`
-- **SendEventImmediately**(`target: string`, `eventContext: string`, `eventName: string`, `additionalArgs: Dictionary`) -> `null`
-- **SetRBXEvent**(`target: string`, `eventContext: string`, `eventName: string`, `additionalArgs: Dictionary`) -> `null`
-- **SetRBXEventStream**(`target: string`, `eventContext: string`, `eventName: string`, `additionalArgs: Dictionary`) -> `null`
+### `Class.EventIngestService:SendEventDeferred`
+
+``SendEventDeferred(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.EventIngestService:SendEventImmediately`
+
+``SendEventImmediately(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.EventIngestService:SetRBXEvent`
+
+``SetRBXEvent(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.EventIngestService:SetRBXEventStream`
+
+``SetRBXEventStream(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}

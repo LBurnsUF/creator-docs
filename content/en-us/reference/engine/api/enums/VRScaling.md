@@ -3,9 +3,11 @@ title: VRScaling
 type: enum
 ---
 
-# VRScaling (Enum)
+# `Enum.VRScaling`
+
+The `Enum.VRScaling` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| World | 0 |
-| Off | 1 |
+| `Enum.VRScaling.World` | 0 |
+| `Enum.VRScaling.Off` | 1 |

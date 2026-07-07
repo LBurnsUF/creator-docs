@@ -6,4 +6,4 @@ superclass: FormFactorPart
 
 # WedgePart
 
-**Inherits**: FormFactorPart > BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.FormFactorPart` > `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`

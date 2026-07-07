@@ -3,10 +3,12 @@ title: PathfindingUseImprovedSearch
 type: enum
 ---
 
-# PathfindingUseImprovedSearch (Enum)
+# `Enum.PathfindingUseImprovedSearch`
+
+The `Enum.PathfindingUseImprovedSearch` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.PathfindingUseImprovedSearch.Default` | 0 |
+| `Enum.PathfindingUseImprovedSearch.Disabled` | 1 |
+| `Enum.PathfindingUseImprovedSearch.Enabled` | 2 |

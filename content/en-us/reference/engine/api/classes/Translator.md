@@ -7,16 +7,27 @@ tags: [NotCreatable, NotReplicated]
 
 # Translator
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **LocaleId**: `string` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Translator.LocaleId` | `string` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **FormatByKey**(`key: string`, `args: Variant`) -> `string`
-- **RobloxOnlyTranslate**(`context: Instance`, `text: string`) -> `string`
-- **Translate**(`context: Instance`, `text: string`) -> `string`
+### `Class.Translator:FormatByKey`
+
+``FormatByKey(key: `string`, args: `Variant`)`` → `string`
+
+### `Class.Translator:RobloxOnlyTranslate`
+
+``RobloxOnlyTranslate(context: `Class.Instance`, text: `string`)`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.Translator:Translate`
+
+``Translate(context: `Class.Instance`, text: `string`)`` → `string`

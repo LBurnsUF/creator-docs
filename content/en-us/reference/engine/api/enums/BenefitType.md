@@ -3,10 +3,12 @@ title: BenefitType
 type: enum
 ---
 
-# BenefitType (Enum)
+# `Enum.BenefitType`
+
+The `Enum.BenefitType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| DeveloperProduct | 0 |
-| AvatarAsset | 1 |
-| AvatarBundle | 2 |
+| `Enum.BenefitType.DeveloperProduct` | 0 |
+| `Enum.BenefitType.AvatarAsset` | 1 |
+| `Enum.BenefitType.AvatarBundle` | 2 |

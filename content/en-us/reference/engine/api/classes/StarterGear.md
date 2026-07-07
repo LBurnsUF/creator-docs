@@ -6,4 +6,4 @@ superclass: Instance
 
 # StarterGear
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`

@@ -7,6 +7,6 @@ tags: [Deprecated]
 
 # Hint
 
-**Inherits**: Message > Instance > Object
+**Inherits from:** `Class.Message` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]

@@ -3,12 +3,14 @@ title: AdornShading
 type: enum
 ---
 
-# AdornShading (Enum)
+# `Enum.AdornShading`
+
+The `Enum.AdornShading` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Shaded | 1 |
-| XRay | 2 |
-| XRayShaded | 3 |
-| AlwaysOnTop | 4 |
+| `Enum.AdornShading.Default` | 0 |
+| `Enum.AdornShading.Shaded` | 1 |
+| `Enum.AdornShading.XRay` | 2 |
+| `Enum.AdornShading.XRayShaded` | 3 |
+| `Enum.AdornShading.AlwaysOnTop` | 4 |

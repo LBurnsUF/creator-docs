@@ -3,12 +3,14 @@ title: VRDeviceType
 type: enum
 ---
 
-# VRDeviceType (Enum)
+# `Enum.VRDeviceType`
+
+The `Enum.VRDeviceType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| OculusRift | 1 |
-| HTCVive | 2 |
-| ValveIndex | 3 |
-| OculusQuest | 4 |
+| `Enum.VRDeviceType.Unknown` | 0 |
+| `Enum.VRDeviceType.OculusRift` | 1 |
+| `Enum.VRDeviceType.HTCVive` | 2 |
+| `Enum.VRDeviceType.ValveIndex` | 3 |
+| `Enum.VRDeviceType.OculusQuest` | 4 |

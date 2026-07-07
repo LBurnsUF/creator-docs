@@ -6,15 +6,23 @@ superclass: Model
 
 # ProceduralModel
 
-**Inherits**: Model > PVInstance > Instance > Object
+**Inherits from:** `Class.Model` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **GenerationError**: `string` [ReadOnly] [NotReplicated]
-- **Generator**: `ModuleScript`
-- **Size**: `Vector3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ProceduralModel.GenerationError` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.ProceduralModel.Generator` | `Class.ModuleScript` |  |
+| `Class.ProceduralModel.Size` | `Datatype.Vector3` |  |
 
 ## Methods
 
-- **ForceGeneration**() -> `bool`
-- **WaitForGenerationAsync**() -> `bool` [Yields]
+### `Class.ProceduralModel:ForceGeneration`
+
+``ForceGeneration()`` → `bool`
+
+### `Class.ProceduralModel:WaitForGenerationAsync`
+
+``WaitForGenerationAsync()`` → `bool`
+  [Yields]

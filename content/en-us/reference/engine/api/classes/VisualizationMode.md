@@ -6,10 +6,12 @@ superclass: Instance
 
 # VisualizationMode
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Enabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Title**: `string` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ToolTip**: `string` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VisualizationMode.Enabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.VisualizationMode.Title` | `string` |  {security: RobloxScriptSecurity} |
+| `Class.VisualizationMode.ToolTip` | `string` |  {security: RobloxScriptSecurity} |

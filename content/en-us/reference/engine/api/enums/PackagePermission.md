@@ -3,13 +3,15 @@ title: PackagePermission
 type: enum
 ---
 
-# PackagePermission (Enum)
+# `Enum.PackagePermission`
+
+The `Enum.PackagePermission` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| NoAccess | 1 |
-| Revoked | 2 |
-| UseView | 3 |
-| Edit | 4 |
-| Own | 5 |
+| `Enum.PackagePermission.None` | 0 |
+| `Enum.PackagePermission.NoAccess` | 1 |
+| `Enum.PackagePermission.Revoked` | 2 |
+| `Enum.PackagePermission.UseView` | 3 |
+| `Enum.PackagePermission.Edit` | 4 |
+| `Enum.PackagePermission.Own` | 5 |

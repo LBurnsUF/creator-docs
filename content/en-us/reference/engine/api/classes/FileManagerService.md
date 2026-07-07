@@ -7,13 +7,28 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # FileManagerService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **ListFilesInFolderAsync**(`folder: EngineFolder`) -> `Array` [Yields]
-- **OpenFileInWebBrowser**(`folder: EngineFolder`, `fileName: string`) -> `null`
-- **OpenFolder**(`folder: EngineFolder`) -> `null`
-- **RevealFileInFolder**(`folder: EngineFolder`, `fileName: string`) -> `null`
+### `Class.FileManagerService:ListFilesInFolderAsync`
+
+``ListFilesInFolderAsync(folder: `Enum.EngineFolder`)`` → `Array`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.FileManagerService:OpenFileInWebBrowser`
+
+``OpenFileInWebBrowser(folder: `Enum.EngineFolder`, fileName: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.FileManagerService:OpenFolder`
+
+``OpenFolder(folder: `Enum.EngineFolder`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.FileManagerService:RevealFileInFolder`
+
+``RevealFileInFolder(folder: `Enum.EngineFolder`, fileName: `string`)`` → `null`
+   {security: RobloxScriptSecurity}

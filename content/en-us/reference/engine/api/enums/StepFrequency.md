@@ -3,13 +3,15 @@ title: StepFrequency
 type: enum
 ---
 
-# StepFrequency (Enum)
+# `Enum.StepFrequency`
+
+The `Enum.StepFrequency` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Hz60 | 0 |
-| Hz30 | 1 |
-| Hz15 | 2 |
-| Hz10 | 3 |
-| Hz5 | 4 |
-| Hz1 | 5 |
+| `Enum.StepFrequency.Hz60` | 0 |
+| `Enum.StepFrequency.Hz30` | 1 |
+| `Enum.StepFrequency.Hz15` | 2 |
+| `Enum.StepFrequency.Hz10` | 3 |
+| `Enum.StepFrequency.Hz5` | 4 |
+| `Enum.StepFrequency.Hz1` | 5 |

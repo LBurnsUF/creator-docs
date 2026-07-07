@@ -7,11 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ToastNotificationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **HideNotification**(`notificationId: string`) -> `null`
-- **ShowNotification**(`message: string`, `notificationId: string`) -> `null`
+### `Class.ToastNotificationService:HideNotification`
+
+``HideNotification(notificationId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ToastNotificationService:ShowNotification`
+
+``ShowNotification(message: `string`, notificationId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}

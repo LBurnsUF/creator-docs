@@ -3,11 +3,13 @@ title: CenterDialogType
 type: enum
 ---
 
-# CenterDialogType (Enum)
+# `Enum.CenterDialogType`
+
+The `Enum.CenterDialogType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| UnsolicitedDialog | 1 |
-| PlayerInitiatedDialog | 2 |
-| ModalDialog | 3 |
-| QuitDialog | 4 |
+| `Enum.CenterDialogType.UnsolicitedDialog` | 1 |
+| `Enum.CenterDialogType.PlayerInitiatedDialog` | 2 |
+| `Enum.CenterDialogType.ModalDialog` | 3 |
+| `Enum.CenterDialogType.QuitDialog` | 4 |

@@ -6,17 +6,36 @@ superclass: Instance
 
 # Keyframe
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Time**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Keyframe.Time` | `float` |  |
 
 ## Methods
 
-- **AddMarker**(`marker: Instance`) -> `null`
-- **AddPose**(`pose: Instance`) -> `null`
-- **GetMarkers**() -> `Instances`
-- **GetPoses**() -> `Instances`
-- **RemoveMarker**(`marker: Instance`) -> `null`
-- **RemovePose**(`pose: Instance`) -> `null`
+### `Class.Keyframe:AddMarker`
+
+``AddMarker(marker: `Class.Instance`)`` → `null`
+
+### `Class.Keyframe:AddPose`
+
+``AddPose(pose: `Class.Instance`)`` → `null`
+
+### `Class.Keyframe:GetMarkers`
+
+``GetMarkers()`` → `Datatype.Instances`
+
+### `Class.Keyframe:GetPoses`
+
+``GetPoses()`` → `Datatype.Instances`
+
+### `Class.Keyframe:RemoveMarker`
+
+``RemoveMarker(marker: `Class.Instance`)`` → `null`
+
+### `Class.Keyframe:RemovePose`
+
+``RemovePose(pose: `Class.Instance`)`` → `null`

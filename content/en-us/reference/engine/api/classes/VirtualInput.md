@@ -7,15 +7,32 @@ tags: [NotCreatable, NotReplicated]
 
 # VirtualInput
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **SendKey**(`isPressed: bool`, `keyCode: KeyCode`, `isRepeatedKey: bool = false`) -> `null`
-- **SendMouseButton**(`position: Vector2`, `button: UserInputType`, `isDown: bool`, `repeatCount: int = 0`) -> `null`
-- **SendMouseDelta**(`positionDelta: Vector2`) -> `null`
-- **SendMousePosition**(`position: Vector2`) -> `null`
-- **SendPointerAction**(`position: Vector2`, `pointerAction: Dictionary`) -> `null`
-- **SendTextInput**(`text: string`) -> `null`
+### `Class.VirtualInput:SendKey`
+
+``SendKey(isPressed: `bool`, keyCode: `Enum.KeyCode`, isRepeatedKey: `bool`)`` → `null`
+
+### `Class.VirtualInput:SendMouseButton`
+
+``SendMouseButton(position: `Datatype.Vector2`, button: `Enum.UserInputType`, isDown: `bool`, repeatCount: `int`)`` → `null`
+
+### `Class.VirtualInput:SendMouseDelta`
+
+``SendMouseDelta(positionDelta: `Datatype.Vector2`)`` → `null`
+
+### `Class.VirtualInput:SendMousePosition`
+
+``SendMousePosition(position: `Datatype.Vector2`)`` → `null`
+
+### `Class.VirtualInput:SendPointerAction`
+
+``SendPointerAction(position: `Datatype.Vector2`, pointerAction: `Dictionary`)`` → `null`
+
+### `Class.VirtualInput:SendTextInput`
+
+``SendTextInput(text: `string`)`` → `null`

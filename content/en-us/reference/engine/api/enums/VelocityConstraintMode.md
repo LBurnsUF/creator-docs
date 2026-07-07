@@ -3,10 +3,12 @@ title: VelocityConstraintMode
 type: enum
 ---
 
-# VelocityConstraintMode (Enum)
+# `Enum.VelocityConstraintMode`
+
+The `Enum.VelocityConstraintMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Line | 0 |
-| Plane | 1 |
-| Vector | 2 |
+| `Enum.VelocityConstraintMode.Line` | 0 |
+| `Enum.VelocityConstraintMode.Plane` | 1 |
+| `Enum.VelocityConstraintMode.Vector` | 2 |

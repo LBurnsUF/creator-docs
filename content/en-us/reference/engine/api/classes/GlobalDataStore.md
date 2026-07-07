@@ -7,15 +7,38 @@ tags: [NotCreatable, NotReplicated]
 
 # GlobalDataStore
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **GetAsync**(`key: string`, `options: DataStoreGetOptions = nil`) -> `Tuple` [Yields]
-- **IncrementAsync**(`key: string`, `delta: int = 1`, `userIds: Array = {}`, `options: DataStoreIncrementOptions = nil`) -> `Variant` [Yields]
-- **OnUpdate**(`key: string`, `callback: Function`) -> `RBXScriptConnection` [Deprecated]
-- **RemoveAsync**(`key: string`) -> `Tuple` [Yields]
-- **SetAsync**(`key: string`, `value: Variant`, `userIds: Array = {}`, `options: DataStoreSetOptions = nil`) -> `Variant` [Yields]
-- **UpdateAsync**(`key: string`, `transformFunction: Function`) -> `Tuple` [Yields]
+### `Class.GlobalDataStore:GetAsync`
+
+``GetAsync(key: `string`, options: `Class.DataStoreGetOptions`)`` → `Tuple`
+  [Yields]
+
+### `Class.GlobalDataStore:IncrementAsync`
+
+``IncrementAsync(key: `string`, delta: `int`, userIds: `Array`, options: `Class.DataStoreIncrementOptions`)`` → `Variant`
+  [Yields]
+
+### `Class.GlobalDataStore:OnUpdate`
+
+``OnUpdate(key: `string`, callback: `Datatype.Function`)`` → `Datatype.RBXScriptConnection`
+  [Deprecated]
+
+### `Class.GlobalDataStore:RemoveAsync`
+
+``RemoveAsync(key: `string`)`` → `Tuple`
+  [Yields]
+
+### `Class.GlobalDataStore:SetAsync`
+
+``SetAsync(key: `string`, value: `Variant`, userIds: `Array`, options: `Class.DataStoreSetOptions`)`` → `Variant`
+  [Yields]
+
+### `Class.GlobalDataStore:UpdateAsync`
+
+``UpdateAsync(key: `string`, transformFunction: `Datatype.Function`)`` → `Tuple`
+  [Yields]

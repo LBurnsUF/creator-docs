@@ -6,16 +6,32 @@ superclass: Instance
 
 # EulerRotationCurve
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **RotationOrder**: `RotationOrder`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.EulerRotationCurve.RotationOrder` | `Enum.RotationOrder` |  |
 
 ## Methods
 
-- **GetAnglesAtTime**(`time: float`) -> `Array`
-- **GetRotationAtTime**(`time: float`) -> `CFrame`
-- **X**() -> `FloatCurve`
-- **Y**() -> `FloatCurve`
-- **Z**() -> `FloatCurve`
+### `Class.EulerRotationCurve:GetAnglesAtTime`
+
+``GetAnglesAtTime(time: `float`)`` → `Array`
+
+### `Class.EulerRotationCurve:GetRotationAtTime`
+
+``GetRotationAtTime(time: `float`)`` → `Datatype.CFrame`
+
+### `Class.EulerRotationCurve:X`
+
+``X()`` → `Class.FloatCurve`
+
+### `Class.EulerRotationCurve:Y`
+
+``Y()`` → `Class.FloatCurve`
+
+### `Class.EulerRotationCurve:Z`
+
+``Z()`` → `Class.FloatCurve`

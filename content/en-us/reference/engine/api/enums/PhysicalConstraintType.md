@@ -3,9 +3,11 @@ title: PhysicalConstraintType
 type: enum
 ---
 
-# PhysicalConstraintType (Enum)
+# `Enum.PhysicalConstraintType`
+
+The `Enum.PhysicalConstraintType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| AnimationConstraint | 0 |
-| Motor6D | 1 |
+| `Enum.PhysicalConstraintType.AnimationConstraint` | 0 |
+| `Enum.PhysicalConstraintType.Motor6D` | 1 |

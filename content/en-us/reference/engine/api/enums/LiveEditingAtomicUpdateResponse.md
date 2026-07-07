@@ -3,11 +3,13 @@ title: LiveEditingAtomicUpdateResponse
 type: enum
 ---
 
-# LiveEditingAtomicUpdateResponse (Enum)
+# `Enum.LiveEditingAtomicUpdateResponse`
+
+The `Enum.LiveEditingAtomicUpdateResponse` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 0 |
-| FailureGuidNotFound | 1 |
-| FailureHashMismatch | 2 |
-| FailureOperationIllegal | 3 |
+| `Enum.LiveEditingAtomicUpdateResponse.Success` | 0 |
+| `Enum.LiveEditingAtomicUpdateResponse.FailureGuidNotFound` | 1 |
+| `Enum.LiveEditingAtomicUpdateResponse.FailureHashMismatch` | 2 |
+| `Enum.LiveEditingAtomicUpdateResponse.FailureOperationIllegal` | 3 |

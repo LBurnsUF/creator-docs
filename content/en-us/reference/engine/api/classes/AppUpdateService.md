@@ -7,14 +7,33 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AppUpdateService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CanPerformBinaryUpdate**() -> `bool`
-- **CheckForUpdate**(`handler: Function = nil`) -> `null`
-- **GetProtocolLaunchUpdateName**() -> `string`
-- **GetProtocolLaunchUpdateType**() -> `string`
-- **PerformManagedUpdate**() -> `bool`
+### `Class.AppUpdateService:CanPerformBinaryUpdate`
+
+``CanPerformBinaryUpdate()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.AppUpdateService:CheckForUpdate`
+
+``CheckForUpdate(handler: `Datatype.Function`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AppUpdateService:GetProtocolLaunchUpdateName`
+
+``GetProtocolLaunchUpdateName()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.AppUpdateService:GetProtocolLaunchUpdateType`
+
+``GetProtocolLaunchUpdateType()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.AppUpdateService:PerformManagedUpdate`
+
+``PerformManagedUpdate()`` → `bool`
+   {security: RobloxScriptSecurity}

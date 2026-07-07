@@ -3,10 +3,12 @@ title: StreamingPauseMode
 type: enum
 ---
 
-# StreamingPauseMode (Enum)
+# `Enum.StreamingPauseMode`
+
+The `Enum.StreamingPauseMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| ClientPhysicsPause | 2 |
+| `Enum.StreamingPauseMode.Default` | 0 |
+| `Enum.StreamingPauseMode.Disabled` | 1 |
+| `Enum.StreamingPauseMode.ClientPhysicsPause` | 2 |

@@ -6,26 +6,30 @@ superclass: Instance
 
 # RenderingTest
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CFrame**: `CFrame`
-- **ComparisonDiffThreshold**: `int`
-- **ComparisonMethod**: `RenderingTestComparisonMethod`
-- **ComparisonPsnrThreshold**: `float`
-- **Description**: `string`
-- **FieldOfView**: `float`
-- **Orientation**: `Vector3` [Hidden] [NotReplicated]
-- **PerfTest**: `bool`
-- **Position**: `Vector3` [Hidden] [NotReplicated]
-- **QualityAuto**: `bool`
-- **QualityLevel**: `int`
-- **RenderingTestFrameCount**: `int`
-- **ShouldSkip**: `bool`
-- **Ticket**: `string`
-- **Timeout**: `int`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RenderingTest.CFrame` | `Datatype.CFrame` |  |
+| `Class.RenderingTest.ComparisonDiffThreshold` | `int` |  |
+| `Class.RenderingTest.ComparisonMethod` | `Enum.RenderingTestComparisonMethod` |  |
+| `Class.RenderingTest.ComparisonPsnrThreshold` | `float` |  |
+| `Class.RenderingTest.Description` | `string` |  |
+| `Class.RenderingTest.FieldOfView` | `float` |  |
+| `Class.RenderingTest.Orientation` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
+| `Class.RenderingTest.PerfTest` | `bool` |  |
+| `Class.RenderingTest.Position` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
+| `Class.RenderingTest.QualityAuto` | `bool` |  |
+| `Class.RenderingTest.QualityLevel` | `int` |  |
+| `Class.RenderingTest.RenderingTestFrameCount` | `int` |  |
+| `Class.RenderingTest.ShouldSkip` | `bool` |  |
+| `Class.RenderingTest.Ticket` | `string` |  |
+| `Class.RenderingTest.Timeout` | `int` |  |
 
 ## Methods
 
-- **RenderdocTriggerCapture**() -> `null`
+### `Class.RenderingTest:RenderdocTriggerCapture`
+
+``RenderdocTriggerCapture()`` → `null`

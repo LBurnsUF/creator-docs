@@ -3,9 +3,11 @@ title: AdornCullingMode
 type: enum
 ---
 
-# AdornCullingMode (Enum)
+# `Enum.AdornCullingMode`
+
+The `Enum.AdornCullingMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| Never | 1 |
+| `Enum.AdornCullingMode.Automatic` | 0 |
+| `Enum.AdornCullingMode.Never` | 1 |

@@ -6,20 +6,24 @@ superclass: Instance
 
 # AccessoryDescription
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AccessoryType**: `AccessoryType`
-- **AssetId**: `int64`
-- **Instance**: `Instance`
-- **IsLayered**: `bool`
-- **Order**: `int`
-- **Position**: `Vector3`
-- **Puffiness**: `float` [Deprecated]
-- **Rotation**: `Vector3`
-- **Scale**: `Vector3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AccessoryDescription.AccessoryType` | `Enum.AccessoryType` |  |
+| `Class.AccessoryDescription.AssetId` | `int64` |  |
+| `Class.AccessoryDescription.Instance` | `Class.Instance` |  |
+| `Class.AccessoryDescription.IsLayered` | `bool` |  |
+| `Class.AccessoryDescription.Order` | `int` |  |
+| `Class.AccessoryDescription.Position` | `Datatype.Vector3` |  |
+| `Class.AccessoryDescription.Puffiness` | `float` | [Deprecated] |
+| `Class.AccessoryDescription.Rotation` | `Datatype.Vector3` |  |
+| `Class.AccessoryDescription.Scale` | `Datatype.Vector3` |  |
 
 ## Methods
 
-- **GetAppliedInstance**() -> `Instance`
+### `Class.AccessoryDescription:GetAppliedInstance`
+
+``GetAppliedInstance()`` → `Class.Instance`

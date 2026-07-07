@@ -6,10 +6,12 @@ superclass: PVAdornment
 
 # SelectionSphere
 
-**Inherits**: PVAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.PVAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **SurfaceColor**: `BrickColor` [Hidden] [NotReplicated] [Deprecated]
-- **SurfaceColor3**: `Color3`
-- **SurfaceTransparency**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SelectionSphere.SurfaceColor` | `Datatype.BrickColor` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.SelectionSphere.SurfaceColor3` | `Datatype.Color3` |  |
+| `Class.SelectionSphere.SurfaceTransparency` | `float` |  |

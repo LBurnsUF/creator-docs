@@ -7,11 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # DesignFoundationsService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **ClearTokens**() -> `null`
-- **SetTokens**(`payload: Dictionary`) -> `null`
+### `Class.DesignFoundationsService:ClearTokens`
+
+``ClearTokens()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DesignFoundationsService:SetTokens`
+
+``SetTokens(payload: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}

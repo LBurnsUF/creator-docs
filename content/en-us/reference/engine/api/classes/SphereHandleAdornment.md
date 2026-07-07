@@ -6,9 +6,11 @@ superclass: HandleAdornment
 
 # SphereHandleAdornment
 
-**Inherits**: HandleAdornment > PVAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.HandleAdornment` > `Class.PVAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Radius**: `float`
-- **Shading**: `AdornShading`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SphereHandleAdornment.Radius` | `float` |  |
+| `Class.SphereHandleAdornment.Shading` | `Enum.AdornShading` |  |

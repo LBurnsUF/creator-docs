@@ -3,27 +3,29 @@ title: AccessoryType
 type: enum
 ---
 
-# AccessoryType (Enum)
+# `Enum.AccessoryType`
+
+The `Enum.AccessoryType` enum has 20 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| Hat | 1 |
-| Hair | 2 |
-| Face | 3 |
-| Neck | 4 |
-| Shoulder | 5 |
-| Front | 6 |
-| Back | 7 |
-| Waist | 8 |
-| TShirt | 9 |
-| Shirt | 10 |
-| Pants | 11 |
-| Jacket | 12 |
-| Sweater | 13 |
-| Shorts | 14 |
-| LeftShoe | 15 |
-| RightShoe | 16 |
-| DressSkirt | 17 |
-| Eyebrow | 18 |
-| Eyelash | 19 |
+| `Enum.AccessoryType.Unknown` | 0 |
+| `Enum.AccessoryType.Hat` | 1 |
+| `Enum.AccessoryType.Hair` | 2 |
+| `Enum.AccessoryType.Face` | 3 |
+| `Enum.AccessoryType.Neck` | 4 |
+| `Enum.AccessoryType.Shoulder` | 5 |
+| `Enum.AccessoryType.Front` | 6 |
+| `Enum.AccessoryType.Back` | 7 |
+| `Enum.AccessoryType.Waist` | 8 |
+| `Enum.AccessoryType.TShirt` | 9 |
+| `Enum.AccessoryType.Shirt` | 10 |
+| `Enum.AccessoryType.Pants` | 11 |
+| `Enum.AccessoryType.Jacket` | 12 |
+| `Enum.AccessoryType.Sweater` | 13 |
+| `Enum.AccessoryType.Shorts` | 14 |
+| `Enum.AccessoryType.LeftShoe` | 15 |
+| `Enum.AccessoryType.RightShoe` | 16 |
+| `Enum.AccessoryType.DressSkirt` | 17 |
+| `Enum.AccessoryType.Eyebrow` | 18 |
+| `Enum.AccessoryType.Eyelash` | 19 |

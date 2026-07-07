@@ -6,24 +6,29 @@ superclass: GuiLabel
 
 # ImageLabel
 
-**Inherits**: GuiLabel > GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiLabel` > `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ContentImageSize**: `Vector2` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Image**: `ContentId`
-- **ImageColor3**: `Color3`
-- **ImageContent**: `Content`
-- **ImageRectOffset**: `Vector2`
-- **ImageRectSize**: `Vector2`
-- **ImageTransparency**: `float`
-- **IsLoaded**: `bool` [ReadOnly] [NotReplicated]
-- **ResampleMode**: `ResamplerMode`
-- **ScaleType**: `ScaleType`
-- **SliceCenter**: `Rect`
-- **SliceScale**: `float`
-- **TileSize**: `UDim2`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ImageLabel.ContentImageSize` | `Datatype.Vector2` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ImageLabel.Image` | `Datatype.ContentId` |  |
+| `Class.ImageLabel.ImageColor3` | `Datatype.Color3` |  |
+| `Class.ImageLabel.ImageContent` | `Datatype.Content` |  |
+| `Class.ImageLabel.ImageRectOffset` | `Datatype.Vector2` |  |
+| `Class.ImageLabel.ImageRectSize` | `Datatype.Vector2` |  |
+| `Class.ImageLabel.ImageTransparency` | `float` |  |
+| `Class.ImageLabel.IsLoaded` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.ImageLabel.ResampleMode` | `Enum.ResamplerMode` |  |
+| `Class.ImageLabel.ScaleType` | `Enum.ScaleType` |  |
+| `Class.ImageLabel.SliceCenter` | `Datatype.Rect` |  |
+| `Class.ImageLabel.SliceScale` | `float` |  |
+| `Class.ImageLabel.TileSize` | `Datatype.UDim2` |  |
 
 ## Methods
 
-- **SetEnableContentImageSizeChangedEvents**(`enabled: bool`) -> `null`
+### `Class.ImageLabel:SetEnableContentImageSizeChangedEvents`
+
+``SetEnableContentImageSizeChangedEvents(enabled: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}

@@ -7,14 +7,19 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # BugReporterService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **IsAvailable**() -> `bool` [Yields]
+### `Class.BugReporterService:IsAvailable`
+
+``IsAvailable()`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
 
 ## Events
 
-- **BugReportRequested**(`trigger: string`)
+### `Class.BugReporterService.BugReportRequested`
+
+Fires with: (trigger: `string`)

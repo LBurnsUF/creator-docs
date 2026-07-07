@@ -3,9 +3,11 @@ title: SafeAreaCompatibility
 type: enum
 ---
 
-# SafeAreaCompatibility (Enum)
+# `Enum.SafeAreaCompatibility`
+
+The `Enum.SafeAreaCompatibility` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| FullscreenExtension | 1 |
+| `Enum.SafeAreaCompatibility.None` | 0 |
+| `Enum.SafeAreaCompatibility.FullscreenExtension` | 1 |

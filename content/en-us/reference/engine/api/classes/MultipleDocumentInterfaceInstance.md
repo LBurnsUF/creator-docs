@@ -7,15 +7,22 @@ tags: [NotCreatable, NotReplicated]
 
 # MultipleDocumentInterfaceInstance
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **FocusedDataModelSession**: `DataModelSession` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.MultipleDocumentInterfaceInstance.FocusedDataModelSession` | `Class.DataModelSession` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Events
 
-- **DataModelSessionEnded**(`dataModelSession: Instance`)
-- **DataModelSessionStarted**(`dataModelSession: Instance`)
+### `Class.MultipleDocumentInterfaceInstance.DataModelSessionEnded`
+
+Fires with: (dataModelSession: `Class.Instance`)
+
+### `Class.MultipleDocumentInterfaceInstance.DataModelSessionStarted`
+
+Fires with: (dataModelSession: `Class.Instance`)

@@ -3,9 +3,11 @@ title: MuteState
 type: enum
 ---
 
-# MuteState (Enum)
+# `Enum.MuteState`
+
+The `Enum.MuteState` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Unmuted | 0 |
-| Muted | 1 |
+| `Enum.MuteState.Unmuted` | 0 |
+| `Enum.MuteState.Muted` | 1 |

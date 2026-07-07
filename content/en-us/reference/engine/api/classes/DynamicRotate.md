@@ -7,10 +7,12 @@ tags: [NotCreatable]
 
 # DynamicRotate
 
-**Inherits**: JointInstance > Instance > Object
+**Inherits from:** `Class.JointInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **BaseAngle**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DynamicRotate.BaseAngle` | `float` |  |

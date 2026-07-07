@@ -7,16 +7,18 @@ tags: [NotCreatable]
 
 # TriangleMeshPart
 
-**Inherits**: BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **CollisionFidelity**: `CollisionFidelity` [NotReplicated] (Security: Read=None, Write=PluginSecurity)
-- **FluidFidelity**: `FluidFidelity` [NotReplicated] (Security: Read=None, Write=PluginSecurity)
-- **MeshSize**: `Vector3` [ReadOnly] [NotReplicated]
-- **UnscaledCofm**: `Vector3` [Hidden] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **UnscaledVolInertiaDiags**: `Vector3` [Hidden] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **UnscaledVolInertiaOffDiags**: `Vector3` [Hidden] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **UnscaledVolume**: `float` [Hidden] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TriangleMeshPart.CollisionFidelity` | `Enum.CollisionFidelity` | [NotReplicated] {write: PluginSecurity} |
+| `Class.TriangleMeshPart.FluidFidelity` | `Enum.FluidFidelity` | [NotReplicated] {write: PluginSecurity} |
+| `Class.TriangleMeshPart.MeshSize` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |
+| `Class.TriangleMeshPart.UnscaledCofm` | `Datatype.Vector3` | [Hidden] {security: RobloxSecurity} |
+| `Class.TriangleMeshPart.UnscaledVolInertiaDiags` | `Datatype.Vector3` | [Hidden] {security: RobloxSecurity} |
+| `Class.TriangleMeshPart.UnscaledVolInertiaOffDiags` | `Datatype.Vector3` | [Hidden] {security: RobloxSecurity} |
+| `Class.TriangleMeshPart.UnscaledVolume` | `float` | [Hidden] {security: RobloxSecurity} |

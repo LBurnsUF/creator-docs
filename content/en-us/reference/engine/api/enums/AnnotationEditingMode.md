@@ -3,10 +3,12 @@ title: AnnotationEditingMode
 type: enum
 ---
 
-# AnnotationEditingMode (Enum)
+# `Enum.AnnotationEditingMode`
+
+The `Enum.AnnotationEditingMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| PlacingNew | 1 |
-| WritingNew | 2 |
+| `Enum.AnnotationEditingMode.None` | 0 |
+| `Enum.AnnotationEditingMode.PlacingNew` | 1 |
+| `Enum.AnnotationEditingMode.WritingNew` | 2 |

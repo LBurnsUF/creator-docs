@@ -6,20 +6,22 @@ superclass: Instance
 
 # AvatarAbilityRules
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CharacterControllerMode**: `AvatarSettingsCharacterControllerMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableClimbing**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableCrouching**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableFallingDown**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableGettingUp**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableHolding**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableJumping**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableReaching**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableRunning**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableSitting**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableSprinting**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableStrafing**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableSwimming**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AvatarAbilityRules.CharacterControllerMode` | `Enum.AvatarSettingsCharacterControllerMode` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableClimbing` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableCrouching` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableFallingDown` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableGettingUp` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableHolding` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableJumping` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableReaching` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableRunning` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableSitting` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableSprinting` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableStrafing` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAbilityRules.EnableSwimming` | `bool` |  {security: RobloxScriptSecurity} |

@@ -3,10 +3,12 @@ title: SimulationMode
 type: enum
 ---
 
-# SimulationMode (Enum)
+# `Enum.SimulationMode`
+
+The `Enum.SimulationMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Enabled | 1 |
-| Disabled | 2 |
+| `Enum.SimulationMode.Default` | 0 |
+| `Enum.SimulationMode.Enabled` | 1 |
+| `Enum.SimulationMode.Disabled` | 2 |

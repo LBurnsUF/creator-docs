@@ -6,10 +6,12 @@ superclass: GuiObject
 
 # CanvasGroup
 
-**Inherits**: GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **GroupColor3**: `Color3`
-- **GroupTransparency**: `float`
-- **ResolutionScale**: `float` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CanvasGroup.GroupColor3` | `Datatype.Color3` |  |
+| `Class.CanvasGroup.GroupTransparency` | `float` |  |
+| `Class.CanvasGroup.ResolutionScale` | `float` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |

@@ -3,9 +3,11 @@ title: DraggerCoordinateSpace
 type: enum
 ---
 
-# DraggerCoordinateSpace (Enum)
+# `Enum.DraggerCoordinateSpace`
+
+The `Enum.DraggerCoordinateSpace` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Object | 0 |
-| World | 1 |
+| `Enum.DraggerCoordinateSpace.Object` | 0 |
+| `Enum.DraggerCoordinateSpace.World` | 1 |

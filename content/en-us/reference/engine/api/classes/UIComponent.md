@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # UIComponent
 
-**Inherits**: UIBase > Instance > Object
+**Inherits from:** `Class.UIBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

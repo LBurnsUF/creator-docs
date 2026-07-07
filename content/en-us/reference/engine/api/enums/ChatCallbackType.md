@@ -3,11 +3,13 @@ title: ChatCallbackType
 type: enum
 ---
 
-# ChatCallbackType (Enum)
+# `Enum.ChatCallbackType`
+
+The `Enum.ChatCallbackType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| OnCreatingChatWindow | 1 |
-| OnClientSendingMessage | 2 |
-| OnClientFormattingMessage | 3 |
-| OnServerReceivingMessage | 17 |
+| `Enum.ChatCallbackType.OnCreatingChatWindow` | 1 |
+| `Enum.ChatCallbackType.OnClientSendingMessage` | 2 |
+| `Enum.ChatCallbackType.OnClientFormattingMessage` | 3 |
+| `Enum.ChatCallbackType.OnServerReceivingMessage` | 17 |

@@ -7,11 +7,18 @@ tags: [NotCreatable]
 
 # PluginToolbar
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Methods
 
-- **CreateButton**(`buttonId: string`, `tooltip: string`, `iconname: string`, `text: string = `) -> `PluginToolbarButton`
-- **CreatePopupButton**(`buttonId: string`, `tooltip: string`, `iconname: string`, `text: string = `) -> `PluginToolbarButton`
+### `Class.PluginToolbar:CreateButton`
+
+``CreateButton(buttonId: `string`, tooltip: `string`, iconname: `string`, text: `string`)`` → `Class.PluginToolbarButton`
+   {security: PluginSecurity}
+
+### `Class.PluginToolbar:CreatePopupButton`
+
+``CreatePopupButton(buttonId: `string`, tooltip: `string`, iconname: `string`, text: `string`)`` → `Class.PluginToolbarButton`
+   {security: RobloxScriptSecurity}

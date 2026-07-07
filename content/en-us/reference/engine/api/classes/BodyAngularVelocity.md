@@ -7,14 +7,16 @@ tags: [Deprecated]
 
 # BodyAngularVelocity
 
-**Inherits**: BodyMover > Instance > Object
+**Inherits from:** `Class.BodyMover` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **AngularVelocity**: `Vector3`
-- **MaxTorque**: `Vector3`
-- **P**: `float`
-- **angularvelocity**: `Vector3` [NotReplicated] [Deprecated]
-- **maxTorque**: `Vector3` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BodyAngularVelocity.AngularVelocity` | `Datatype.Vector3` |  |
+| `Class.BodyAngularVelocity.MaxTorque` | `Datatype.Vector3` |  |
+| `Class.BodyAngularVelocity.P` | `float` |  |
+| `Class.BodyAngularVelocity.angularvelocity` | `Datatype.Vector3` | [NotReplicated] [Deprecated] |
+| `Class.BodyAngularVelocity.maxTorque` | `Datatype.Vector3` | [NotReplicated] [Deprecated] |

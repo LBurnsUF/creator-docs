@@ -7,11 +7,16 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # NetworkClient
 
-**Inherits**: NetworkPeer > Instance > Object
+**Inherits from:** `Class.NetworkPeer` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Events
 
-- **ConnectionAccepted**(`peer: string`, `replicator: Instance`)
-- **ConnectionFailed**(`peer: string`, `code: int`)
+### `Class.NetworkClient.ConnectionAccepted`
+
+Fires with: (peer: `string`, replicator: `Class.Instance`)
+
+### `Class.NetworkClient.ConnectionFailed`
+
+Fires with: (peer: `string`, code: `int`)

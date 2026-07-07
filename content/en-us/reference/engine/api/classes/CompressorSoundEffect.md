@@ -6,13 +6,15 @@ superclass: SoundEffect
 
 # CompressorSoundEffect
 
-**Inherits**: SoundEffect > Instance > Object
+**Inherits from:** `Class.SoundEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Attack**: `float`
-- **GainMakeup**: `float`
-- **Ratio**: `float`
-- **Release**: `float`
-- **SideChain**: `Instance`
-- **Threshold**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CompressorSoundEffect.Attack` | `float` |  |
+| `Class.CompressorSoundEffect.GainMakeup` | `float` |  |
+| `Class.CompressorSoundEffect.Ratio` | `float` |  |
+| `Class.CompressorSoundEffect.Release` | `float` |  |
+| `Class.CompressorSoundEffect.SideChain` | `Class.Instance` |  |
+| `Class.CompressorSoundEffect.Threshold` | `float` |  |

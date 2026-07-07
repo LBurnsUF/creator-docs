@@ -6,42 +6,63 @@ superclass: UIComponent
 
 # UIDragDetector
 
-**Inherits**: UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ActivatedCursorIcon**: `ContentId`
-- **ActivatedCursorIconContent**: `Content`
-- **BoundingBehavior**: `UIDragDetectorBoundingBehavior`
-- **BoundingUI**: `GuiBase2d`
-- **CursorIcon**: `ContentId`
-- **CursorIconContent**: `Content`
-- **DragAxis**: `Vector2`
-- **DragRelativity**: `UIDragDetectorDragRelativity`
-- **DragRotation**: `float`
-- **DragSpace**: `UIDragDetectorDragSpace`
-- **DragStyle**: `UIDragDetectorDragStyle`
-- **DragUDim2**: `UDim2`
-- **Enabled**: `bool`
-- **MaxDragAngle**: `float`
-- **MaxDragTranslation**: `UDim2`
-- **MinDragAngle**: `float`
-- **MinDragTranslation**: `UDim2`
-- **ReferenceUIInstance**: `GuiObject`
-- **ResponseStyle**: `UIDragDetectorResponseStyle`
-- **SelectionModeDragSpeed**: `UDim2`
-- **SelectionModeRotateSpeed**: `float`
-- **UIDragSpeedAxisMapping**: `UIDragSpeedAxisMapping`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIDragDetector.ActivatedCursorIcon` | `Datatype.ContentId` |  |
+| `Class.UIDragDetector.ActivatedCursorIconContent` | `Datatype.Content` |  |
+| `Class.UIDragDetector.BoundingBehavior` | `Enum.UIDragDetectorBoundingBehavior` |  |
+| `Class.UIDragDetector.BoundingUI` | `Class.GuiBase2d` |  |
+| `Class.UIDragDetector.CursorIcon` | `Datatype.ContentId` |  |
+| `Class.UIDragDetector.CursorIconContent` | `Datatype.Content` |  |
+| `Class.UIDragDetector.DragAxis` | `Datatype.Vector2` |  |
+| `Class.UIDragDetector.DragRelativity` | `Enum.UIDragDetectorDragRelativity` |  |
+| `Class.UIDragDetector.DragRotation` | `float` |  |
+| `Class.UIDragDetector.DragSpace` | `Enum.UIDragDetectorDragSpace` |  |
+| `Class.UIDragDetector.DragStyle` | `Enum.UIDragDetectorDragStyle` |  |
+| `Class.UIDragDetector.DragUDim2` | `Datatype.UDim2` |  |
+| `Class.UIDragDetector.Enabled` | `bool` |  |
+| `Class.UIDragDetector.MaxDragAngle` | `float` |  |
+| `Class.UIDragDetector.MaxDragTranslation` | `Datatype.UDim2` |  |
+| `Class.UIDragDetector.MinDragAngle` | `float` |  |
+| `Class.UIDragDetector.MinDragTranslation` | `Datatype.UDim2` |  |
+| `Class.UIDragDetector.ReferenceUIInstance` | `Class.GuiObject` |  |
+| `Class.UIDragDetector.ResponseStyle` | `Enum.UIDragDetectorResponseStyle` |  |
+| `Class.UIDragDetector.SelectionModeDragSpeed` | `Datatype.UDim2` |  |
+| `Class.UIDragDetector.SelectionModeRotateSpeed` | `float` |  |
+| `Class.UIDragDetector.UIDragSpeedAxisMapping` | `Enum.UIDragSpeedAxisMapping` |  |
 
 ## Methods
 
-- **AddConstraintFunction**(`priority: int`, `function: Function`) -> `RBXScriptConnection`
-- **GetReferencePosition**() -> `UDim2`
-- **GetReferenceRotation**() -> `float`
-- **SetDragStyleFunction**(`function: Function`) -> `null`
+### `Class.UIDragDetector:AddConstraintFunction`
+
+``AddConstraintFunction(priority: `int`, function: `Datatype.Function`)`` → `Datatype.RBXScriptConnection`
+
+### `Class.UIDragDetector:GetReferencePosition`
+
+``GetReferencePosition()`` → `Datatype.UDim2`
+
+### `Class.UIDragDetector:GetReferenceRotation`
+
+``GetReferenceRotation()`` → `float`
+
+### `Class.UIDragDetector:SetDragStyleFunction`
+
+``SetDragStyleFunction(function: `Datatype.Function`)`` → `null`
 
 ## Events
 
-- **DragContinue**(`inputPosition: Vector2`)
-- **DragEnd**(`inputPosition: Vector2`)
-- **DragStart**(`inputPosition: Vector2`)
+### `Class.UIDragDetector.DragContinue`
+
+Fires with: (inputPosition: `Datatype.Vector2`)
+
+### `Class.UIDragDetector.DragEnd`
+
+Fires with: (inputPosition: `Datatype.Vector2`)
+
+### `Class.UIDragDetector.DragStart`
+
+Fires with: (inputPosition: `Datatype.Vector2`)

@@ -3,10 +3,12 @@ title: NetworkOwnership
 type: enum
 ---
 
-# NetworkOwnership (Enum)
+# `Enum.NetworkOwnership`
+
+The `Enum.NetworkOwnership` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| Manual | 1 |
-| OnContact | 2 |
+| `Enum.NetworkOwnership.Automatic` | 0 |
+| `Enum.NetworkOwnership.Manual` | 1 |
+| `Enum.NetworkOwnership.OnContact` | 2 |

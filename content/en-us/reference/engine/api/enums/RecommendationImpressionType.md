@@ -3,9 +3,11 @@ title: RecommendationImpressionType
 type: enum
 ---
 
-# RecommendationImpressionType (Enum)
+# `Enum.RecommendationImpressionType`
+
+The `Enum.RecommendationImpressionType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| View | 0 |
-| NotViewable | 1 |
+| `Enum.RecommendationImpressionType.View` | 0 |
+| `Enum.RecommendationImpressionType.NotViewable` | 1 |

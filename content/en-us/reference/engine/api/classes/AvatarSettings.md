@@ -7,19 +7,30 @@ tags: [NotCreatable, Service]
 
 # AvatarSettings
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **Loaded**: `bool` (Security: Read=RobloxScriptSecurity, Write=NotAccessibleSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AvatarSettings.Loaded` | `bool` |  {read: RobloxScriptSecurity, write: NotAccessibleSecurity} |
 
 ## Methods
 
-- **Discard**() -> `null`
-- **Publish**() -> `null`
+### `Class.AvatarSettings:Discard`
+
+``Discard()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AvatarSettings:Publish`
+
+``Publish()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **RefreshPluginState**()
+### `Class.AvatarSettings.RefreshPluginState`
+
+Fires with: ()

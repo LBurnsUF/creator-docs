@@ -7,11 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PlacesService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **StartPlaySolo**() -> `null`
-- **StopPlaySolo**() -> `null`
+### `Class.PlacesService:StartPlaySolo`
+
+``StartPlaySolo()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.PlacesService:StopPlaySolo`
+
+``StopPlaySolo()`` → `null`
+   {security: RobloxScriptSecurity}

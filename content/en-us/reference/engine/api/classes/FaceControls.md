@@ -6,65 +6,72 @@ superclass: Instance
 
 # FaceControls
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ChinRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ChinRaiserUpperLip**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **Corrugator**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EyesLookDown**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EyesLookLeft**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EyesLookRight**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EyesLookUp**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **FlatPucker**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **Funneler**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **JawDrop**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **JawLeft**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **JawRight**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftBrowLowerer**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftCheekPuff**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftCheekRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftDimpler**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftEyeClosed**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftEyeUpperLidRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftInnerBrowRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftLipCornerDown**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftLipCornerPuller**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftLipStretcher**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftLowerLipDepressor**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftNoseWrinkler**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftOuterBrowRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LeftUpperLipRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LipPresser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LipsTogether**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **LowerLipSuck**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **MouthLeft**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **MouthRight**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **Pucker**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightBrowLowerer**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightCheekPuff**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightCheekRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightDimpler**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightEyeClosed**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightEyeUpperLidRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightInnerBrowRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightLipCornerDown**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightLipCornerPuller**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightLipStretcher**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightLowerLipDepressor**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightNoseWrinkler**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightOuterBrowRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RightUpperLipRaiser**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **TongueDown**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **TongueOut**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **TongueUp**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **UpperLipSuck**: `float` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FaceControls.ChinRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.ChinRaiserUpperLip` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.Corrugator` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.EyesLookDown` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.EyesLookLeft` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.EyesLookRight` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.EyesLookUp` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.FlatPucker` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.Funneler` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.JawDrop` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.JawLeft` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.JawRight` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftBrowLowerer` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftCheekPuff` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftCheekRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftDimpler` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftEyeClosed` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftEyeUpperLidRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftInnerBrowRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftLipCornerDown` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftLipCornerPuller` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftLipStretcher` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftLowerLipDepressor` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftNoseWrinkler` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftOuterBrowRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LeftUpperLipRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LipPresser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LipsTogether` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.LowerLipSuck` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.MouthLeft` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.MouthRight` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.Pucker` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightBrowLowerer` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightCheekPuff` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightCheekRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightDimpler` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightEyeClosed` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightEyeUpperLidRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightInnerBrowRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightLipCornerDown` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightLipCornerPuller` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightLipStretcher` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightLowerLipDepressor` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightNoseWrinkler` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightOuterBrowRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.RightUpperLipRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.TongueDown` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.TongueOut` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.TongueUp` | `float` | [NotReplicated] {security: PluginSecurity} |
+| `Class.FaceControls.UpperLipSuck` | `float` | [NotReplicated] {security: PluginSecurity} |
 
 ## Methods
 
-- **HasOverrideFACSData**() -> `bool`
+### `Class.FaceControls:HasOverrideFACSData`
+
+``HasOverrideFACSData()`` → `bool`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **InternalFacsOverrideChanged**()
+### `Class.FaceControls.InternalFacsOverrideChanged`
+
+Fires with: ()

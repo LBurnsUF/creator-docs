@@ -7,30 +7,92 @@ tags: [NotCreatable, Service]
 
 # LogService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **ClearOutput**() -> `null`
-- **Error**(`message: string`, `context: Dictionary = nil`) -> `null` [CustomLuaState]
-- **ExecuteScript**(`source: string`) -> `null`
-- **GetHttpResultHistory**() -> `Array`
-- **GetLogHistory**() -> `Array`
-- **Info**(`message: string`, `context: Dictionary = nil`) -> `null` [CustomLuaState]
-- **Log**(`messageType: MessageType`, `message: string`, `context: Dictionary = nil`) -> `null` [CustomLuaState]
-- **Output**(`message: string`, `context: Dictionary = nil`) -> `null` [CustomLuaState]
-- **RequestHttpResultApproved**() -> `null`
-- **RequestServerHttpResult**() -> `null`
-- **RequestServerOutput**() -> `null`
-- **Warn**(`message: string`, `context: Dictionary = nil`) -> `null` [CustomLuaState]
+### `Class.LogService:ClearOutput`
+
+``ClearOutput()`` → `null`
+
+### `Class.LogService:Error`
+
+``Error(message: `string`, context: `Dictionary`)`` → `null`
+  [CustomLuaState]
+
+### `Class.LogService:ExecuteScript`
+
+``ExecuteScript(source: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LogService:GetHttpResultHistory`
+
+``GetHttpResultHistory()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.LogService:GetLogHistory`
+
+``GetLogHistory()`` → `Array`
+
+### `Class.LogService:Info`
+
+``Info(message: `string`, context: `Dictionary`)`` → `null`
+  [CustomLuaState]
+
+### `Class.LogService:Log`
+
+``Log(messageType: `Enum.MessageType`, message: `string`, context: `Dictionary`)`` → `null`
+  [CustomLuaState]
+
+### `Class.LogService:Output`
+
+``Output(message: `string`, context: `Dictionary`)`` → `null`
+  [CustomLuaState]
+
+### `Class.LogService:RequestHttpResultApproved`
+
+``RequestHttpResultApproved()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LogService:RequestServerHttpResult`
+
+``RequestServerHttpResult()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LogService:RequestServerOutput`
+
+``RequestServerOutput()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LogService:Warn`
+
+``Warn(message: `string`, context: `Dictionary`)`` → `null`
+  [CustomLuaState]
 
 ## Events
 
-- **HttpResultOut**(`httpResult: Dictionary`)
-- **MessageOut**(`message: string`, `messageType: MessageType`, `context: Dictionary`)
-- **OnHttpResultApproved**(`isApproved: bool`)
-- **ServerContextOut**(`contextData: Dictionary`)
-- **ServerHttpResultOut**(`httpResult: Dictionary`)
-- **ServerMessageOut**(`message: string`, `messageType: MessageType`, `timestamp: double`)
+### `Class.LogService.HttpResultOut`
+
+Fires with: (httpResult: `Dictionary`)
+
+### `Class.LogService.MessageOut`
+
+Fires with: (message: `string`, messageType: `Enum.MessageType`, context: `Dictionary`)
+
+### `Class.LogService.OnHttpResultApproved`
+
+Fires with: (isApproved: `bool`)
+
+### `Class.LogService.ServerContextOut`
+
+Fires with: (contextData: `Dictionary`)
+
+### `Class.LogService.ServerHttpResultOut`
+
+Fires with: (httpResult: `Dictionary`)
+
+### `Class.LogService.ServerMessageOut`
+
+Fires with: (message: `string`, messageType: `Enum.MessageType`, timestamp: `double`)

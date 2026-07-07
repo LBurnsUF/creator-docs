@@ -6,11 +6,13 @@ superclass: Decal
 
 # Texture
 
-**Inherits**: Decal > FaceInstance > Instance > Object
+**Inherits from:** `Class.Decal` > `Class.FaceInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **OffsetStudsU**: `float`
-- **OffsetStudsV**: `float`
-- **StudsPerTileU**: `float`
-- **StudsPerTileV**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Texture.OffsetStudsU` | `float` |  |
+| `Class.Texture.OffsetStudsV` | `float` |  |
+| `Class.Texture.StudsPerTileU` | `float` |  |
+| `Class.Texture.StudsPerTileV` | `float` |  |

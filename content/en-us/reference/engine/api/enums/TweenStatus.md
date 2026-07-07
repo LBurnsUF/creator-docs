@@ -3,9 +3,11 @@ title: TweenStatus
 type: enum
 ---
 
-# TweenStatus (Enum)
+# `Enum.TweenStatus`
+
+The `Enum.TweenStatus` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Canceled | 0 |
-| Completed | 1 |
+| `Enum.TweenStatus.Canceled` | 0 |
+| `Enum.TweenStatus.Completed` | 1 |

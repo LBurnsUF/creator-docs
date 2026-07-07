@@ -3,11 +3,11 @@ title: OptionalCoordinateFrame
 type: datatype
 ---
 
-# OptionalCoordinateFrame (DataType)
+# `Datatype.OptionalCoordinateFrame`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- DragDetector.DragContinue(vrInputFrame)
-- DragDetector.DragStart(vrInputFrame)
+- `Class.DragDetector:DragContinue` (parameter `vrInputFrame`)
+- `Class.DragDetector:DragStart` (parameter `vrInputFrame`)

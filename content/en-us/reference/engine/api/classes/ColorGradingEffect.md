@@ -6,8 +6,10 @@ superclass: PostEffect
 
 # ColorGradingEffect
 
-**Inherits**: PostEffect > Instance > Object
+**Inherits from:** `Class.PostEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **TonemapperPreset**: `TonemapperPreset`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ColorGradingEffect.TonemapperPreset` | `Enum.TonemapperPreset` |  |

@@ -6,8 +6,10 @@ superclass: PartAdornment
 
 # SurfaceSelection
 
-**Inherits**: PartAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.PartAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **TargetSurface**: `NormalId`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SurfaceSelection.TargetSurface` | `Enum.NormalId` |  |

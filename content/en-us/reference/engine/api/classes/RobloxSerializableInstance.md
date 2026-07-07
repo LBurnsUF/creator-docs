@@ -7,10 +7,12 @@ tags: [NotCreatable, NotReplicated]
 
 # RobloxSerializableInstance
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Data**: `BinaryString` (Security: Read=RobloxSecurity, Write=RobloxSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RobloxSerializableInstance.Data` | `Datatype.BinaryString` |  {security: RobloxSecurity} |

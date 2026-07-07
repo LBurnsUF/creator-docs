@@ -3,23 +3,23 @@ title: BinaryString
 type: datatype
 ---
 
-# BinaryString (DataType)
+# `Datatype.BinaryString`
 
-Used in 11 locations across the API.
+Used in 11 locations across the Roblox API.
 
 ## Used as Property Type
 
-- AudioEmitter.AngleAttenuation
-- AudioEmitter.DistanceAttenuation
-- AudioListener.AngleAttenuation
-- AudioListener.DistanceAttenuation
-- PackageLink.SerializedDefaultAttributes
-- PlayerEmulatorService.SerializedEmulatedPolicyInfo
-- RobloxSerializableInstance.Data
-- ServiceVisibilityService.HiddenServices
-- ServiceVisibilityService.VisibleServices
-- Terrain.MaterialColors
+- `Class.AudioEmitter.AngleAttenuation`
+- `Class.AudioEmitter.DistanceAttenuation`
+- `Class.AudioListener.AngleAttenuation`
+- `Class.AudioListener.DistanceAttenuation`
+- `Class.PackageLink.SerializedDefaultAttributes`
+- `Class.PlayerEmulatorService.SerializedEmulatedPolicyInfo`
+- `Class.RobloxSerializableInstance.Data`
+- `Class.ServiceVisibilityService.HiddenServices`
+- `Class.ServiceVisibilityService.VisibleServices`
+- `Class.Terrain.MaterialColors`
 
 ## Used as Parameter Type
 
-- BinaryStringValue.Changed(value)
+- `Class.BinaryStringValue:Changed` (parameter `value`)

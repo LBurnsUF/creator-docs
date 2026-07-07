@@ -3,9 +3,11 @@ title: SensorUpdateType
 type: enum
 ---
 
-# SensorUpdateType (Enum)
+# `Enum.SensorUpdateType`
+
+The `Enum.SensorUpdateType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| OnRead | 0 |
-| Manual | 1 |
+| `Enum.SensorUpdateType.OnRead` | 0 |
+| `Enum.SensorUpdateType.Manual` | 1 |

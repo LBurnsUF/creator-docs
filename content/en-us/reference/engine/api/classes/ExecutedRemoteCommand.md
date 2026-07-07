@@ -7,16 +7,26 @@ tags: [NotCreatable, NotReplicated]
 
 # ExecutedRemoteCommand
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **RunMoreCode**(`code: string`, `args: Tuple`) -> `null`
-- **SendUpdate**(`args: Tuple`) -> `null`
-- **Stop**() -> `null`
+### `Class.ExecutedRemoteCommand:RunMoreCode`
+
+``RunMoreCode(code: `string`, args: `Tuple`)`` → `null`
+
+### `Class.ExecutedRemoteCommand:SendUpdate`
+
+``SendUpdate(args: `Tuple`)`` → `null`
+
+### `Class.ExecutedRemoteCommand:Stop`
+
+``Stop()`` → `null`
 
 ## Events
 
-- **ReceivedUpdate**(`args: Tuple`)
+### `Class.ExecutedRemoteCommand.ReceivedUpdate`
+
+Fires with: (args: `Tuple`)

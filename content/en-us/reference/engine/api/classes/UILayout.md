@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # UILayout
 
-**Inherits**: UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

@@ -6,16 +6,18 @@ superclass: Instance
 
 # Highlight
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Adornee**: `Instance`
-- **DepthMode**: `HighlightDepthMode`
-- **Enabled**: `bool`
-- **FillColor**: `Color3`
-- **FillTransparency**: `float`
-- **LineThickness**: `int` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **OutlineColor**: `Color3`
-- **OutlineTransparency**: `float`
-- **ReservedId**: `ReservedHighlightId` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Highlight.Adornee` | `Class.Instance` |  |
+| `Class.Highlight.DepthMode` | `Enum.HighlightDepthMode` |  |
+| `Class.Highlight.Enabled` | `bool` |  |
+| `Class.Highlight.FillColor` | `Datatype.Color3` |  |
+| `Class.Highlight.FillTransparency` | `float` |  |
+| `Class.Highlight.LineThickness` | `int` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Highlight.OutlineColor` | `Datatype.Color3` |  |
+| `Class.Highlight.OutlineTransparency` | `float` |  |
+| `Class.Highlight.ReservedId` | `Enum.ReservedHighlightId` | [Hidden] {security: RobloxScriptSecurity} |

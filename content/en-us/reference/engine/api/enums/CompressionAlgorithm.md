@@ -3,8 +3,10 @@ title: CompressionAlgorithm
 type: enum
 ---
 
-# CompressionAlgorithm (Enum)
+# `Enum.CompressionAlgorithm`
+
+The `Enum.CompressionAlgorithm` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| Zstd | 0 |
+| `Enum.CompressionAlgorithm.Zstd` | 0 |

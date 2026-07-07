@@ -3,10 +3,12 @@ title: CreatorTypeFilter
 type: enum
 ---
 
-# CreatorTypeFilter (Enum)
+# `Enum.CreatorTypeFilter`
+
+The `Enum.CreatorTypeFilter` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| User | 0 |
-| Group | 1 |
-| All | 2 |
+| `Enum.CreatorTypeFilter.User` | 0 |
+| `Enum.CreatorTypeFilter.Group` | 1 |
+| `Enum.CreatorTypeFilter.All` | 2 |

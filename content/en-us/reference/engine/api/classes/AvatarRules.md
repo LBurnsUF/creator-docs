@@ -6,8 +6,10 @@ superclass: Instance
 
 # AvatarRules
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AvatarType**: `GameAvatarType` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AvatarRules.AvatarType` | `Enum.GameAvatarType` |  {security: RobloxScriptSecurity} |

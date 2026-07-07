@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # CoreScript
 
-**Inherits**: BaseScript > LuaSourceContainer > Instance > Object
+**Inherits from:** `Class.BaseScript` > `Class.LuaSourceContainer` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

@@ -7,69 +7,278 @@ tags: [NotCreatable, Service]
 
 # CaptureService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **CanCaptureVideo**() -> `bool`
-- **CaptureScreenshot**(`onCaptureReady: Function`) -> `null`
-- **CheckUploadCaptureStatusAsync**(`token: string`) -> `Tuple` [Yields]
-- **CreatePostAsync**(`pathArr: Array`, `caption: string`) -> `Dictionary` [Yields]
-- **DeleteCapture**(`capturePath: string`) -> `null`
-- **DeleteCapturesAsync**(`pathArr: Array`) -> `int64` [Yields]
-- **DeleteVideoCapture**(`videoCapture: VideoCapture`) -> `null`
-- **DeleteVideoCaptureAsync**(`videoCapture: VideoCapture`) -> `bool` [Yields]
-- **GetCaptureFilePathAsync**(`captureContent: Content`) -> `string` [Yields]
-- **GetCaptureSizeAsync**(`captureContent: Content`) -> `Vector2` [Yields]
-- **GetCaptureStorageSizeAsync**(`pathArr: Array`) -> `int64` [Yields]
-- **GetCaptureUploadDataAsync**(`capturePath: string`) -> `Dictionary` [Yields]
-- **GetDeviceInfo**() -> `Dictionary`
-- **GetScreenshotCaptureObject**(`capturePath: string`) -> `Capture`
-- **InternalCheckPlayabilityAsync**(`universeId: int64`) -> `bool` [Yields]
-- **InternalGetStartPlaceIdAsync**(`universeId: int64`) -> `int64` [Yields]
-- **IsCapturingVideo**() -> `bool`
-- **OnCaptureBegan**() -> `null`
-- **OnCaptureEnded**() -> `null`
-- **OnCaptureObjectShared**(`capture: Capture`) -> `null`
-- **OnCapturePermissionsPromptFinished**(`promptId: int64`, `wasAccepted: bool`) -> `null`
-- **OnCaptureShared**(`capturePath: string`) -> `null`
-- **OnSavePromptFinished**(`promptId: int64`, `results: Dictionary`) -> `null` [CustomLuaState]
-- **OnSharePromptFinished**(`promptId: int64`, `accepted: bool`) -> `null`
-- **OnVideoCaptureShared**(`videoCapture: VideoCapture`) -> `null`
-- **PreCaptureShared**(`capture: Capture`) -> `string`
-- **PreVideoCaptureShared**(`videoCapture: VideoCapture`) -> `string`
-- **PromptCaptureGalleryPermissionAsync**(`captureGalleryPermission: CaptureGalleryPermission`) -> `bool` [Yields]
-- **PromptSaveCapturesToGallery**(`captures: Array`, `resultCallback: Function`) -> `null`
-- **PromptShareCapture**(`captureContent: Content`, `launchData: string`, `onAcceptedCallback: Function`, `onDeniedCallback: Function`) -> `null`
-- **ReadCapturesFromGalleryAsync**(`captureTypeFilters: Array = {}`, `readFromAllEligibleExperiences: bool = false`) -> `Tuple` [Yields]
-- **RetrieveCaptures**() -> `Array`
-- **SaveCaptureObjectToExternalStorage**(`capture: Capture`) -> `null`
-- **SaveCaptureToExternalStorage**(`capturePath: string`) -> `null`
-- **SaveCapturesToExternalStorageAsync**(`pathArr: Array`) -> `int64` [Yields]
-- **SaveScreenshotCapture**(`additionalInfo: string = `) -> `null`
-- **SaveVideoCaptureToExternalStorage**(`videoCapture: VideoCapture`) -> `null`
-- **StartUploadCaptureAsync**(`capture: Capture`) -> `Tuple` [Yields]
-- **StartVideoCaptureAsync**(`onCaptureReady: Function`, `captureParams: Dictionary = nil`) -> `VideoCaptureStartedResult` [Yields]
-- **StartVideoCaptureInternalAsync**() -> `VideoCaptureStartedResult` [Yields]
-- **StopVideoCapture**() -> `null`
-- **StopVideoCaptureInternal**() -> `null`
-- **TakeScreenshotCaptureAsync**(`onCaptureReady: Function`, `captureParams: Dictionary = nil`) -> `null`
-- **UploadCaptureAndPostMoment**(`capture: Capture`, `momentMetadata: Dictionary = nil`, `feedRegistrationInfo: Dictionary = nil`) -> `null`
-- **UploadCaptureAsync**(`capture: Capture`) -> `Tuple` [Yields]
+### `Class.CaptureService:CanCaptureVideo`
+
+``CanCaptureVideo()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:CaptureScreenshot`
+
+``CaptureScreenshot(onCaptureReady: `Datatype.Function`)`` → `null`
+
+### `Class.CaptureService:CheckUploadCaptureStatusAsync`
+
+``CheckUploadCaptureStatusAsync(token: `string`)`` → `Tuple`
+  [Yields]
+
+### `Class.CaptureService:CreatePostAsync`
+
+``CreatePostAsync(pathArr: `Array`, caption: `string`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:DeleteCapture`
+
+``DeleteCapture(capturePath: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:DeleteCapturesAsync`
+
+``DeleteCapturesAsync(pathArr: `Array`)`` → `int64`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:DeleteVideoCapture`
+
+``DeleteVideoCapture(videoCapture: `Class.VideoCapture`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:DeleteVideoCaptureAsync`
+
+``DeleteVideoCaptureAsync(videoCapture: `Class.VideoCapture`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:GetCaptureFilePathAsync`
+
+``GetCaptureFilePathAsync(captureContent: `Datatype.Content`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:GetCaptureSizeAsync`
+
+``GetCaptureSizeAsync(captureContent: `Datatype.Content`)`` → `Datatype.Vector2`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:GetCaptureStorageSizeAsync`
+
+``GetCaptureStorageSizeAsync(pathArr: `Array`)`` → `int64`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:GetCaptureUploadDataAsync`
+
+``GetCaptureUploadDataAsync(capturePath: `string`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:GetDeviceInfo`
+
+``GetDeviceInfo()`` → `Dictionary`
+
+### `Class.CaptureService:GetScreenshotCaptureObject`
+
+``GetScreenshotCaptureObject(capturePath: `string`)`` → `Class.Capture`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:InternalCheckPlayabilityAsync`
+
+``InternalCheckPlayabilityAsync(universeId: `int64`)`` → `bool`
+  [Yields]
+
+### `Class.CaptureService:InternalGetStartPlaceIdAsync`
+
+``InternalGetStartPlaceIdAsync(universeId: `int64`)`` → `int64`
+  [Yields]
+
+### `Class.CaptureService:IsCapturingVideo`
+
+``IsCapturingVideo()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:OnCaptureBegan`
+
+``OnCaptureBegan()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:OnCaptureEnded`
+
+``OnCaptureEnded()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:OnCaptureObjectShared`
+
+``OnCaptureObjectShared(capture: `Class.Capture`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:OnCapturePermissionsPromptFinished`
+
+``OnCapturePermissionsPromptFinished(promptId: `int64`, wasAccepted: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:OnCaptureShared`
+
+``OnCaptureShared(capturePath: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:OnSavePromptFinished`
+
+``OnSavePromptFinished(promptId: `int64`, results: `Dictionary`)`` → `null`
+  [CustomLuaState] {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:OnSharePromptFinished`
+
+``OnSharePromptFinished(promptId: `int64`, accepted: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:OnVideoCaptureShared`
+
+``OnVideoCaptureShared(videoCapture: `Class.VideoCapture`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:PreCaptureShared`
+
+``PreCaptureShared(capture: `Class.Capture`)`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:PreVideoCaptureShared`
+
+``PreVideoCaptureShared(videoCapture: `Class.VideoCapture`)`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:PromptCaptureGalleryPermissionAsync`
+
+``PromptCaptureGalleryPermissionAsync(captureGalleryPermission: `Enum.CaptureGalleryPermission`)`` → `bool`
+  [Yields]
+
+### `Class.CaptureService:PromptSaveCapturesToGallery`
+
+``PromptSaveCapturesToGallery(captures: `Array`, resultCallback: `Datatype.Function`)`` → `null`
+
+### `Class.CaptureService:PromptShareCapture`
+
+``PromptShareCapture(captureContent: `Datatype.Content`, launchData: `string`, onAcceptedCallback: `Datatype.Function`, onDeniedCallback: `Datatype.Function`)`` → `null`
+
+### `Class.CaptureService:ReadCapturesFromGalleryAsync`
+
+``ReadCapturesFromGalleryAsync(captureTypeFilters: `Array`, readFromAllEligibleExperiences: `bool`)`` → `Tuple`
+  [Yields]
+
+### `Class.CaptureService:RetrieveCaptures`
+
+``RetrieveCaptures()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:SaveCaptureObjectToExternalStorage`
+
+``SaveCaptureObjectToExternalStorage(capture: `Class.Capture`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:SaveCaptureToExternalStorage`
+
+``SaveCaptureToExternalStorage(capturePath: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:SaveCapturesToExternalStorageAsync`
+
+``SaveCapturesToExternalStorageAsync(pathArr: `Array`)`` → `int64`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:SaveScreenshotCapture`
+
+``SaveScreenshotCapture(additionalInfo: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:SaveVideoCaptureToExternalStorage`
+
+``SaveVideoCaptureToExternalStorage(videoCapture: `Class.VideoCapture`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:StartUploadCaptureAsync`
+
+``StartUploadCaptureAsync(capture: `Class.Capture`)`` → `Tuple`
+  [Yields]
+
+### `Class.CaptureService:StartVideoCaptureAsync`
+
+``StartVideoCaptureAsync(onCaptureReady: `Datatype.Function`, captureParams: `Dictionary`)`` → `Enum.VideoCaptureStartedResult`
+  [Yields]
+
+### `Class.CaptureService:StartVideoCaptureInternalAsync`
+
+``StartVideoCaptureInternalAsync()`` → `Enum.VideoCaptureStartedResult`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:StopVideoCapture`
+
+``StopVideoCapture()`` → `null`
+
+### `Class.CaptureService:StopVideoCaptureInternal`
+
+``StopVideoCaptureInternal()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:TakeScreenshotCaptureAsync`
+
+``TakeScreenshotCaptureAsync(onCaptureReady: `Datatype.Function`, captureParams: `Dictionary`)`` → `null`
+
+### `Class.CaptureService:UploadCaptureAndPostMoment`
+
+``UploadCaptureAndPostMoment(capture: `Class.Capture`, momentMetadata: `Dictionary`, feedRegistrationInfo: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CaptureService:UploadCaptureAsync`
+
+``UploadCaptureAsync(capture: `Class.Capture`)`` → `Tuple`
+  [Yields]
 
 ## Events
 
-- **CaptureBegan**(`captureType: CaptureType`)
-- **CaptureEnded**(`captureType: CaptureType`)
-- **CaptureObjectSavedInternal**(`capture: Capture`, `triggerSource: string`)
-- **CaptureSaved**(`captureInfo: Dictionary`) [Deprecated]
-- **CaptureSavedInternal**(`captureInfo: Dictionary`, `triggerSource: string`)
-- **OpenCapturePermissionsPrompt**(`promptId: int64`, `captureGalleryPermission: CaptureGalleryPermission`)
-- **OpenSaveCapturesPrompt**(`promptId: int64`, `captures: Array`)
-- **OpenShareCapturePrompt**(`promptId: int64`, `captureContent: Variant`, `launchData: string`)
-- **UserCaptureSaved**(`captureContentId: ContentId`)
-- **UserVideoCaptureFailed**(`result: VideoCaptureResult`)
-- **UserVideoCaptureStartFailed**(`result: VideoCaptureStartedResult`)
-- **VideoCaptureInProgress**(`isInProgress: bool`, `captureTrigger: string`)
+### `Class.CaptureService.CaptureBegan`
+
+Fires with: (captureType: `Enum.CaptureType`)
+
+### `Class.CaptureService.CaptureEnded`
+
+Fires with: (captureType: `Enum.CaptureType`)
+
+### `Class.CaptureService.CaptureObjectSavedInternal`
+
+Fires with: (capture: `Class.Capture`, triggerSource: `string`)
+
+### `Class.CaptureService.CaptureSaved`
+
+Fires with: (captureInfo: `Dictionary`)
+  [Deprecated]
+
+### `Class.CaptureService.CaptureSavedInternal`
+
+Fires with: (captureInfo: `Dictionary`, triggerSource: `string`)
+
+### `Class.CaptureService.OpenCapturePermissionsPrompt`
+
+Fires with: (promptId: `int64`, captureGalleryPermission: `Enum.CaptureGalleryPermission`)
+
+### `Class.CaptureService.OpenSaveCapturesPrompt`
+
+Fires with: (promptId: `int64`, captures: `Array`)
+
+### `Class.CaptureService.OpenShareCapturePrompt`
+
+Fires with: (promptId: `int64`, captureContent: `Variant`, launchData: `string`)
+
+### `Class.CaptureService.UserCaptureSaved`
+
+Fires with: (captureContentId: `Datatype.ContentId`)
+
+### `Class.CaptureService.UserVideoCaptureFailed`
+
+Fires with: (result: `Enum.VideoCaptureResult`)
+
+### `Class.CaptureService.UserVideoCaptureStartFailed`
+
+Fires with: (result: `Enum.VideoCaptureStartedResult`)
+
+### `Class.CaptureService.VideoCaptureInProgress`
+
+Fires with: (isInProgress: `bool`, captureTrigger: `string`)

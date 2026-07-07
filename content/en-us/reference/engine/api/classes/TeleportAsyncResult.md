@@ -7,11 +7,13 @@ tags: [NotCreatable]
 
 # TeleportAsyncResult
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **PrivateServerId**: `string` [ReadOnly] [NotReplicated]
-- **ReservedServerAccessCode**: `string` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TeleportAsyncResult.PrivateServerId` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.TeleportAsyncResult.ReservedServerAccessCode` | `string` | [ReadOnly] [NotReplicated] |

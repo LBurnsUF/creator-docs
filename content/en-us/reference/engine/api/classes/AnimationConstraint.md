@@ -6,20 +6,22 @@ superclass: Constraint
 
 # AnimationConstraint
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AngularDamping**: `float`
-- **AngularStrength**: `float`
-- **C0**: `CFrame` [Hidden] [ReadOnly] [NotReplicated] [Deprecated]
-- **C1**: `CFrame` [Hidden] [ReadOnly] [NotReplicated] [Deprecated]
-- **EnableSkinning**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsKinematic**: `bool`
-- **LinearDamping**: `float`
-- **LinearStrength**: `float`
-- **MaxForce**: `float`
-- **MaxTorque**: `float`
-- **Part0**: `BasePart` [Hidden] [ReadOnly] [NotReplicated] [Deprecated]
-- **Part1**: `BasePart` [Hidden] [ReadOnly] [NotReplicated] [Deprecated]
-- **Transform**: `CFrame`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AnimationConstraint.AngularDamping` | `float` |  |
+| `Class.AnimationConstraint.AngularStrength` | `float` |  |
+| `Class.AnimationConstraint.C0` | `Datatype.CFrame` | [Hidden] [ReadOnly] [NotReplicated] [Deprecated] |
+| `Class.AnimationConstraint.C1` | `Datatype.CFrame` | [Hidden] [ReadOnly] [NotReplicated] [Deprecated] |
+| `Class.AnimationConstraint.EnableSkinning` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AnimationConstraint.IsKinematic` | `bool` |  |
+| `Class.AnimationConstraint.LinearDamping` | `float` |  |
+| `Class.AnimationConstraint.LinearStrength` | `float` |  |
+| `Class.AnimationConstraint.MaxForce` | `float` |  |
+| `Class.AnimationConstraint.MaxTorque` | `float` |  |
+| `Class.AnimationConstraint.Part0` | `Class.BasePart` | [Hidden] [ReadOnly] [NotReplicated] [Deprecated] |
+| `Class.AnimationConstraint.Part1` | `Class.BasePart` | [Hidden] [ReadOnly] [NotReplicated] [Deprecated] |
+| `Class.AnimationConstraint.Transform` | `Datatype.CFrame` |  |

@@ -3,11 +3,13 @@ title: ExperienceStateRecordingPlaybackMode
 type: enum
 ---
 
-# ExperienceStateRecordingPlaybackMode (Enum)
+# `Enum.ExperienceStateRecordingPlaybackMode`
+
+The `Enum.ExperienceStateRecordingPlaybackMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Undefined | 0 |
-| Stopped | 1 |
-| Playing | 2 |
-| Rewinding | 3 |
+| `Enum.ExperienceStateRecordingPlaybackMode.Undefined` | 0 |
+| `Enum.ExperienceStateRecordingPlaybackMode.Stopped` | 1 |
+| `Enum.ExperienceStateRecordingPlaybackMode.Playing` | 2 |
+| `Enum.ExperienceStateRecordingPlaybackMode.Rewinding` | 3 |

@@ -7,17 +7,19 @@ tags: [Deprecated]
 
 # FloorWire
 
-**Inherits**: GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **CycleOffset**: `float`
-- **From**: `BasePart`
-- **StudsBetweenTextures**: `float`
-- **Texture**: `ContentId`
-- **TextureSize**: `Vector2`
-- **To**: `BasePart`
-- **Velocity**: `float`
-- **WireRadius**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FloorWire.CycleOffset` | `float` |  |
+| `Class.FloorWire.From` | `Class.BasePart` |  |
+| `Class.FloorWire.StudsBetweenTextures` | `float` |  |
+| `Class.FloorWire.Texture` | `Datatype.ContentId` |  |
+| `Class.FloorWire.TextureSize` | `Datatype.Vector2` |  |
+| `Class.FloorWire.To` | `Class.BasePart` |  |
+| `Class.FloorWire.Velocity` | `float` |  |
+| `Class.FloorWire.WireRadius` | `float` |  |

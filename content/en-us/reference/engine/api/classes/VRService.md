@@ -7,44 +7,85 @@ tags: [NotCreatable, Service]
 
 # VRService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **AutomaticScaling**: `VRScaling`
-- **AvatarGestures**: `bool`
-- **ControllerModels**: `VRControllerModelMode`
-- **DidPointerHit**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **FadeOutViewOnCollision**: `bool`
-- **GuiInputUserCFrame**: `UserCFrame` [NotReplicated]
-- **LaserDistance**: `float` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LaserPointer**: `VRLaserPointerMode`
-- **PointerHitCFrame**: `CFrame` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **QuestASWState**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **QuestDisplayRefreshRate**: `float` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ThirdPersonFollowCamEnabled**: `bool` [ReadOnly] [NotReplicated]
-- **VRDeviceAvailable**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VRDeviceName**: `string` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VREnabled**: `bool` [ReadOnly] [NotReplicated]
-- **VRSessionState**: `VRSessionState` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VRService.AutomaticScaling` | `Enum.VRScaling` |  |
+| `Class.VRService.AvatarGestures` | `bool` |  |
+| `Class.VRService.ControllerModels` | `Enum.VRControllerModelMode` |  |
+| `Class.VRService.DidPointerHit` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.VRService.FadeOutViewOnCollision` | `bool` |  |
+| `Class.VRService.GuiInputUserCFrame` | `Enum.UserCFrame` | [NotReplicated] |
+| `Class.VRService.LaserDistance` | `float` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.VRService.LaserPointer` | `Enum.VRLaserPointerMode` |  |
+| `Class.VRService.PointerHitCFrame` | `Datatype.CFrame` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.VRService.QuestASWState` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.VRService.QuestDisplayRefreshRate` | `float` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.VRService.ThirdPersonFollowCamEnabled` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.VRService.VRDeviceAvailable` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.VRService.VRDeviceName` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.VRService.VREnabled` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.VRService.VRSessionState` | `Enum.VRSessionState` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetTouchpadMode**(`pad: VRTouchpad`) -> `VRTouchpadMode`
-- **GetUserCFrame**(`type: UserCFrame`) -> `CFrame`
-- **GetUserCFrameEnabled**(`type: UserCFrame`) -> `bool`
-- **IsMaquettes**() -> `bool`
-- **IsVRAppBuild**() -> `bool`
-- **RecenterUserHeadCFrame**() -> `null`
-- **RequestNavigation**(`cframe: CFrame`, `inputUserCFrame: UserCFrame`) -> `null`
-- **SetTouchpadMode**(`pad: VRTouchpad`, `mode: VRTouchpadMode`) -> `null`
+### `Class.VRService:GetTouchpadMode`
+
+``GetTouchpadMode(pad: `Enum.VRTouchpad`)`` → `Enum.VRTouchpadMode`
+
+### `Class.VRService:GetUserCFrame`
+
+``GetUserCFrame(type: `Enum.UserCFrame`)`` → `Datatype.CFrame`
+
+### `Class.VRService:GetUserCFrameEnabled`
+
+``GetUserCFrameEnabled(type: `Enum.UserCFrame`)`` → `bool`
+
+### `Class.VRService:IsMaquettes`
+
+``IsMaquettes()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.VRService:IsVRAppBuild`
+
+``IsVRAppBuild()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.VRService:RecenterUserHeadCFrame`
+
+``RecenterUserHeadCFrame()`` → `null`
+
+### `Class.VRService:RequestNavigation`
+
+``RequestNavigation(cframe: `Datatype.CFrame`, inputUserCFrame: `Enum.UserCFrame`)`` → `null`
+
+### `Class.VRService:SetTouchpadMode`
+
+``SetTouchpadMode(pad: `Enum.VRTouchpad`, mode: `Enum.VRTouchpadMode`)`` → `null`
 
 ## Events
 
-- **LaserPointerTriggered**(`input: InputObject`)
-- **NavigationRequested**(`cframe: CFrame`, `inputUserCFrame: UserCFrame`)
-- **TouchpadModeChanged**(`pad: VRTouchpad`, `mode: VRTouchpadMode`)
-- **UserCFrameChanged**(`type: UserCFrame`, `value: CFrame`)
-- **UserCFrameEnabled**(`type: UserCFrame`, `enabled: bool`)
+### `Class.VRService.LaserPointerTriggered`
+
+Fires with: (input: `Class.InputObject`)
+
+### `Class.VRService.NavigationRequested`
+
+Fires with: (cframe: `Datatype.CFrame`, inputUserCFrame: `Enum.UserCFrame`)
+
+### `Class.VRService.TouchpadModeChanged`
+
+Fires with: (pad: `Enum.VRTouchpad`, mode: `Enum.VRTouchpadMode`)
+
+### `Class.VRService.UserCFrameChanged`
+
+Fires with: (type: `Enum.UserCFrame`, value: `Datatype.CFrame`)
+
+### `Class.VRService.UserCFrameEnabled`
+
+Fires with: (type: `Enum.UserCFrame`, enabled: `bool`)

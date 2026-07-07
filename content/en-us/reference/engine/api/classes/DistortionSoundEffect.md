@@ -6,8 +6,10 @@ superclass: SoundEffect
 
 # DistortionSoundEffect
 
-**Inherits**: SoundEffect > Instance > Object
+**Inherits from:** `Class.SoundEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Level**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DistortionSoundEffect.Level` | `float` |  |

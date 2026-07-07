@@ -3,10 +3,10 @@ title: Axes
 type: datatype
 ---
 
-# Axes (DataType)
+# `Datatype.Axes`
 
-Used in 1 locations across the API.
+Used in 1 locations across the Roblox API.
 
 ## Used as Property Type
 
-- ArcHandles.Axes
+- `Class.ArcHandles.Axes`

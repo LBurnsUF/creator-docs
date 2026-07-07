@@ -3,18 +3,20 @@ title: TrackerError
 type: enum
 ---
 
-# TrackerError (Enum)
+# `Enum.TrackerError`
+
+The `Enum.TrackerError` enum has 11 item(s).
 
 | Name | Value |
 |------|-------|
-| Ok | 0 |
-| NoService | 1 |
-| InitFailed | 2 |
-| NoVideo | 3 |
-| VideoError | 4 |
-| VideoNoPermission | 5 |
-| VideoUnsupported | 6 |
-| NoAudio | 7 |
-| AudioError | 8 |
-| AudioNoPermission | 9 |
-| UnsupportedDevice | 10 |
+| `Enum.TrackerError.Ok` | 0 |
+| `Enum.TrackerError.NoService` | 1 |
+| `Enum.TrackerError.InitFailed` | 2 |
+| `Enum.TrackerError.NoVideo` | 3 |
+| `Enum.TrackerError.VideoError` | 4 |
+| `Enum.TrackerError.VideoNoPermission` | 5 |
+| `Enum.TrackerError.VideoUnsupported` | 6 |
+| `Enum.TrackerError.NoAudio` | 7 |
+| `Enum.TrackerError.AudioError` | 8 |
+| `Enum.TrackerError.AudioNoPermission` | 9 |
+| `Enum.TrackerError.UnsupportedDevice` | 10 |

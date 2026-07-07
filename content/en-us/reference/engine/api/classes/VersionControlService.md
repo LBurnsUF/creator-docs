@@ -7,10 +7,12 @@ tags: [NotCreatable, Service]
 
 # VersionControlService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **ScriptCollabEnabled**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VersionControlService.ScriptCollabEnabled` | `bool` | [Hidden] {security: RobloxScriptSecurity} |

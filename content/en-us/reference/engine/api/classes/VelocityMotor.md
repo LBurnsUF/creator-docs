@@ -6,11 +6,13 @@ superclass: JointInstance
 
 # VelocityMotor
 
-**Inherits**: JointInstance > Instance > Object
+**Inherits from:** `Class.JointInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CurrentAngle**: `float`
-- **DesiredAngle**: `float`
-- **Hole**: `Hole`
-- **MaxVelocity**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VelocityMotor.CurrentAngle` | `float` |  |
+| `Class.VelocityMotor.DesiredAngle` | `float` |  |
+| `Class.VelocityMotor.Hole` | `Class.Hole` |  |
+| `Class.VelocityMotor.MaxVelocity` | `float` |  |

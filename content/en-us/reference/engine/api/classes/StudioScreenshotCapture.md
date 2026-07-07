@@ -7,21 +7,34 @@ tags: [NotCreatable, NotReplicated]
 
 # StudioScreenshotCapture
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **BufferFormat**: `StudioCaptureScreenshotFormat` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **BufferStatus**: `StudioCaptureBufferStatus` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **OriginalSize**: `Vector2` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **Position**: `Vector2` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **Resolution**: `Vector2` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **UICaptureMode**: `UICaptureMode` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StudioScreenshotCapture.BufferFormat` | `Enum.StudioCaptureScreenshotFormat` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.StudioScreenshotCapture.BufferStatus` | `Enum.StudioCaptureBufferStatus` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.StudioScreenshotCapture.OriginalSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.StudioScreenshotCapture.Position` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.StudioScreenshotCapture.Resolution` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.StudioScreenshotCapture.UICaptureMode` | `Enum.UICaptureMode` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
 
 ## Methods
 
-- **GetBuffer**() -> `buffer`
-- **GetErrors**() -> `Array`
-- **ScaleAsync**(`strategy: ResamplerMode`, `newSize: Vector2`) -> `StudioScreenshotCapture` [Yields]
+### `Class.StudioScreenshotCapture:GetBuffer`
+
+``GetBuffer()`` → `Datatype.buffer`
+   {security: PluginSecurity}
+
+### `Class.StudioScreenshotCapture:GetErrors`
+
+``GetErrors()`` → `Array`
+   {security: PluginSecurity}
+
+### `Class.StudioScreenshotCapture:ScaleAsync`
+
+``ScaleAsync(strategy: `Enum.ResamplerMode`, newSize: `Datatype.Vector2`)`` → `Class.StudioScreenshotCapture`
+  [Yields] {security: PluginSecurity}

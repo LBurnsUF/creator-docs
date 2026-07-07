@@ -7,18 +7,24 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # LiveSyncService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **HasSyncedInstances**: `bool` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.LiveSyncService.HasSyncedInstances` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetSyncState**(`instance: Instance`) -> `Tuple`
+### `Class.LiveSyncService:GetSyncState`
+
+``GetSyncState(instance: `Class.Instance`)`` → `Tuple`
 
 ## Events
 
-- **SyncStatusChanged**(`instance: Instance`)
+### `Class.LiveSyncService.SyncStatusChanged`
+
+Fires with: (instance: `Class.Instance`)

@@ -6,18 +6,23 @@ superclass: Instance
 
 # Smoke
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Color**: `Color3`
-- **Enabled**: `bool`
-- **LocalTransparencyModifier**: `float` [Hidden] [NotReplicated]
-- **Opacity**: `float` [NotReplicated]
-- **RiseVelocity**: `float` [NotReplicated]
-- **Size**: `float` [NotReplicated]
-- **TimeScale**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Smoke.Color` | `Datatype.Color3` |  |
+| `Class.Smoke.Enabled` | `bool` |  |
+| `Class.Smoke.LocalTransparencyModifier` | `float` | [Hidden] [NotReplicated] |
+| `Class.Smoke.Opacity` | `float` | [NotReplicated] |
+| `Class.Smoke.RiseVelocity` | `float` | [NotReplicated] |
+| `Class.Smoke.Size` | `float` | [NotReplicated] |
+| `Class.Smoke.TimeScale` | `float` |  |
 
 ## Methods
 
-- **FastForward**(`numFrames: int`) -> `null`
+### `Class.Smoke:FastForward`
+
+``FastForward(numFrames: `int`)`` → `null`
+   {security: RobloxScriptSecurity}

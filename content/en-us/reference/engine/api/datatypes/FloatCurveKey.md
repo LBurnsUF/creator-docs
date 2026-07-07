@@ -3,14 +3,14 @@ title: FloatCurveKey
 type: datatype
 ---
 
-# FloatCurveKey (DataType)
+# `Datatype.FloatCurveKey`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- FloatCurve.InsertKey(key)
+- `Class.FloatCurve:InsertKey` (parameter `key`)
 
 ## Used as Return Type
 
-- FloatCurve.GetKeyAtIndex
+- `Class.FloatCurve:GetKeyAtIndex`

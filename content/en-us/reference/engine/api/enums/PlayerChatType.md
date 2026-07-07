@@ -3,10 +3,12 @@ title: PlayerChatType
 type: enum
 ---
 
-# PlayerChatType (Enum)
+# `Enum.PlayerChatType`
+
+The `Enum.PlayerChatType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| All | 0 |
-| Team | 1 |
-| Whisper | 2 |
+| `Enum.PlayerChatType.All` | 0 |
+| `Enum.PlayerChatType.Team` | 1 |
+| `Enum.PlayerChatType.Whisper` | 2 |

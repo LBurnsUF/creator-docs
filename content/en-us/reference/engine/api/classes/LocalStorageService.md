@@ -7,18 +7,38 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # LocalStorageService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **Flush**() -> `null`
-- **GetItem**(`key: string`) -> `string`
-- **SetItem**(`key: string`, `value: string`) -> `null`
-- **WhenLoaded**(`callback: Function`) -> `null`
+### `Class.LocalStorageService:Flush`
+
+``Flush()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LocalStorageService:GetItem`
+
+``GetItem(key: `string`)`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.LocalStorageService:SetItem`
+
+``SetItem(key: `string`, value: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.LocalStorageService:WhenLoaded`
+
+``WhenLoaded(callback: `Datatype.Function`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **ItemWasSet**(`key: string`, `value: string`)
-- **StoreWasCleared**()
+### `Class.LocalStorageService.ItemWasSet`
+
+Fires with: (key: `string`, value: `string`)
+
+### `Class.LocalStorageService.StoreWasCleared`
+
+Fires with: ()

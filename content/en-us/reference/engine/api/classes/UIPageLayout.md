@@ -6,30 +6,51 @@ superclass: UIGridStyleLayout
 
 # UIPageLayout
 
-**Inherits**: UIGridStyleLayout > UILayout > UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIGridStyleLayout` > `Class.UILayout` > `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Animated**: `bool`
-- **Circular**: `bool`
-- **CurrentPage**: `GuiObject` [ReadOnly] [NotReplicated]
-- **EasingDirection**: `EasingDirection`
-- **EasingStyle**: `EasingStyle`
-- **GamepadInputEnabled**: `bool`
-- **Padding**: `UDim`
-- **ScrollWheelInputEnabled**: `bool`
-- **TouchInputEnabled**: `bool`
-- **TweenTime**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIPageLayout.Animated` | `bool` |  |
+| `Class.UIPageLayout.Circular` | `bool` |  |
+| `Class.UIPageLayout.CurrentPage` | `Class.GuiObject` | [ReadOnly] [NotReplicated] |
+| `Class.UIPageLayout.EasingDirection` | `Enum.EasingDirection` |  |
+| `Class.UIPageLayout.EasingStyle` | `Enum.EasingStyle` |  |
+| `Class.UIPageLayout.GamepadInputEnabled` | `bool` |  |
+| `Class.UIPageLayout.Padding` | `Datatype.UDim` |  |
+| `Class.UIPageLayout.ScrollWheelInputEnabled` | `bool` |  |
+| `Class.UIPageLayout.TouchInputEnabled` | `bool` |  |
+| `Class.UIPageLayout.TweenTime` | `float` |  |
 
 ## Methods
 
-- **JumpTo**(`page: Instance`) -> `null`
-- **JumpToIndex**(`index: int`) -> `null`
-- **Next**() -> `null`
-- **Previous**() -> `null`
+### `Class.UIPageLayout:JumpTo`
+
+``JumpTo(page: `Class.Instance`)`` → `null`
+
+### `Class.UIPageLayout:JumpToIndex`
+
+``JumpToIndex(index: `int`)`` → `null`
+
+### `Class.UIPageLayout:Next`
+
+``Next()`` → `null`
+
+### `Class.UIPageLayout:Previous`
+
+``Previous()`` → `null`
 
 ## Events
 
-- **PageEnter**(`page: Instance`)
-- **PageLeave**(`page: Instance`)
-- **Stopped**(`currentPage: Instance`)
+### `Class.UIPageLayout.PageEnter`
+
+Fires with: (page: `Class.Instance`)
+
+### `Class.UIPageLayout.PageLeave`
+
+Fires with: (page: `Class.Instance`)
+
+### `Class.UIPageLayout.Stopped`
+
+Fires with: (currentPage: `Class.Instance`)

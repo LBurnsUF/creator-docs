@@ -3,9 +3,11 @@ title: DominantAxis
 type: enum
 ---
 
-# DominantAxis (Enum)
+# `Enum.DominantAxis`
+
+The `Enum.DominantAxis` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Width | 0 |
-| Height | 1 |
+| `Enum.DominantAxis.Width` | 0 |
+| `Enum.DominantAxis.Height` | 1 |

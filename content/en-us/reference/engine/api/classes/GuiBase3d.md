@@ -7,13 +7,15 @@ tags: [NotCreatable]
 
 # GuiBase3d
 
-**Inherits**: GuiBase > Instance > Object
+**Inherits from:** `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Color**: `BrickColor` [Hidden] [NotReplicated] [Deprecated]
-- **Color3**: `Color3`
-- **Transparency**: `float`
-- **Visible**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.GuiBase3d.Color` | `Datatype.BrickColor` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.GuiBase3d.Color3` | `Datatype.Color3` |  |
+| `Class.GuiBase3d.Transparency` | `float` |  |
+| `Class.GuiBase3d.Visible` | `bool` |  |

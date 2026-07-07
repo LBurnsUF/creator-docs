@@ -6,21 +6,23 @@ superclass: BaseWrap
 
 # WrapLayer
 
-**Inherits**: BaseWrap > Instance > Object
+**Inherits from:** `Class.BaseWrap` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AutoSkin**: `WrapLayerAutoSkin`
-- **BindOffset**: `CFrame` (Security: Read=None, Write=PluginSecurity)
-- **Color**: `Color3` [NotReplicated] [NotScriptable]
-- **DebugMode**: `WrapLayerDebugMode` [NotReplicated] [NotScriptable]
-- **Enabled**: `bool`
-- **MaxSize**: `Vector3` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Offset**: `Vector3` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Order**: `int`
-- **Puffiness**: `float` [Deprecated]
-- **ReferenceMeshContent**: `Content` (Security: Read=None, Write=PluginSecurity)
-- **ReferenceMeshId**: `ContentId` (Security: Read=None, Write=PluginSecurity)
-- **ReferenceOrigin**: `CFrame` (Security: Read=None, Write=PluginSecurity)
-- **ReferenceOriginWorld**: `CFrame` [ReadOnly] [NotReplicated]
-- **ShrinkFactor**: `float` [Deprecated] (Security: Read=None, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.WrapLayer.AutoSkin` | `Enum.WrapLayerAutoSkin` |  |
+| `Class.WrapLayer.BindOffset` | `Datatype.CFrame` |  {write: PluginSecurity} |
+| `Class.WrapLayer.Color` | `Datatype.Color3` | [NotReplicated] [NotScriptable] |
+| `Class.WrapLayer.DebugMode` | `Enum.WrapLayerDebugMode` | [NotReplicated] [NotScriptable] |
+| `Class.WrapLayer.Enabled` | `bool` |  |
+| `Class.WrapLayer.MaxSize` | `Datatype.Vector3` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.WrapLayer.Offset` | `Datatype.Vector3` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.WrapLayer.Order` | `int` |  |
+| `Class.WrapLayer.Puffiness` | `float` | [Deprecated] |
+| `Class.WrapLayer.ReferenceMeshContent` | `Datatype.Content` |  {write: PluginSecurity} |
+| `Class.WrapLayer.ReferenceMeshId` | `Datatype.ContentId` |  {write: PluginSecurity} |
+| `Class.WrapLayer.ReferenceOrigin` | `Datatype.CFrame` |  {write: PluginSecurity} |
+| `Class.WrapLayer.ReferenceOriginWorld` | `Datatype.CFrame` | [ReadOnly] [NotReplicated] |
+| `Class.WrapLayer.ShrinkFactor` | `float` | [Deprecated] {write: PluginSecurity} |

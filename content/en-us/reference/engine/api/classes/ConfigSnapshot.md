@@ -7,21 +7,33 @@ tags: [NotCreatable, NotReplicated]
 
 # ConfigSnapshot
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Error**: `ConfigSnapshotErrorState` [ReadOnly] [NotReplicated]
-- **Outdated**: `bool` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ConfigSnapshot.Error` | `Enum.ConfigSnapshotErrorState` | [ReadOnly] [NotReplicated] |
+| `Class.ConfigSnapshot.Outdated` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetValue**(`key: string`) -> `Variant`
-- **GetValueChangedSignal**(`key: string`) -> `RBXScriptSignal`
-- **Refresh**() -> `null`
+### `Class.ConfigSnapshot:GetValue`
+
+``GetValue(key: `string`)`` → `Variant`
+
+### `Class.ConfigSnapshot:GetValueChangedSignal`
+
+``GetValueChangedSignal(key: `string`)`` → `Datatype.RBXScriptSignal`
+
+### `Class.ConfigSnapshot:Refresh`
+
+``Refresh()`` → `null`
 
 ## Events
 
-- **UpdateAvailable**()
+### `Class.ConfigSnapshot.UpdateAvailable`
+
+Fires with: ()

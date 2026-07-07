@@ -7,13 +7,24 @@ tags: [NotCreatable, Service]
 
 # ChangeHistoryStreamingService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Events
 
-- **SendCreateInstanceFromStudio**(`parentInstance: Instance`, `instance: Instance`)
-- **SendDeleteInstanceFromStudio**(`instance: Instance`, `setParentToNull: bool`)
-- **SendReparentInstanceFromStudio**(`parentInstance: Instance`, `instance: Instance`)
-- **SendTerrainChangeFromStudio**(`instance: Instance`, `chunkX: int`, `chunkY: int`, `chunkZ: int`, `cells: string`)
+### `Class.ChangeHistoryStreamingService.SendCreateInstanceFromStudio`
+
+Fires with: (parentInstance: `Class.Instance`, instance: `Class.Instance`)
+
+### `Class.ChangeHistoryStreamingService.SendDeleteInstanceFromStudio`
+
+Fires with: (instance: `Class.Instance`, setParentToNull: `bool`)
+
+### `Class.ChangeHistoryStreamingService.SendReparentInstanceFromStudio`
+
+Fires with: (parentInstance: `Class.Instance`, instance: `Class.Instance`)
+
+### `Class.ChangeHistoryStreamingService.SendTerrainChangeFromStudio`
+
+Fires with: (instance: `Class.Instance`, chunkX: `int`, chunkY: `int`, chunkZ: `int`, cells: `string`)

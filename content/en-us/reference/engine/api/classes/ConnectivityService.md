@@ -7,14 +7,19 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ConnectivityService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **NetworkStatus**: `NetworkStatus` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ConnectivityService.NetworkStatus` | `Enum.NetworkStatus` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **IsNetworkStateAvailable**() -> `bool`
+### `Class.ConnectivityService:IsNetworkStateAvailable`
+
+``IsNetworkStateAvailable()`` → `bool`
+   {security: RobloxScriptSecurity}

@@ -6,8 +6,10 @@ superclass: BasePart
 
 # TrussPart
 
-**Inherits**: BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Style**: `Style` [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TrussPart.Style` | `Enum.Style` | [NotReplicated] |

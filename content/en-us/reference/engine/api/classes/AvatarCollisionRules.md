@@ -6,11 +6,13 @@ superclass: Instance
 
 # AvatarCollisionRules
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CollisionMode**: `AvatarSettingsCollisionMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **HitAndTouchDetectionMode**: `AvatarSettingsHitAndTouchDetectionMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LegacyCollisionMode**: `AvatarSettingsLegacyCollisionMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SingleColliderSize**: `Vector3` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AvatarCollisionRules.CollisionMode` | `Enum.AvatarSettingsCollisionMode` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarCollisionRules.HitAndTouchDetectionMode` | `Enum.AvatarSettingsHitAndTouchDetectionMode` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarCollisionRules.LegacyCollisionMode` | `Enum.AvatarSettingsLegacyCollisionMode` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarCollisionRules.SingleColliderSize` | `Datatype.Vector3` |  {security: RobloxScriptSecurity} |

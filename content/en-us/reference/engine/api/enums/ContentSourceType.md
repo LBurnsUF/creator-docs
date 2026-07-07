@@ -3,11 +3,13 @@ title: ContentSourceType
 type: enum
 ---
 
-# ContentSourceType (Enum)
+# `Enum.ContentSourceType`
+
+The `Enum.ContentSourceType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Uri | 1 |
-| Object | 2 |
-| Opaque | 3 |
+| `Enum.ContentSourceType.None` | 0 |
+| `Enum.ContentSourceType.Uri` | 1 |
+| `Enum.ContentSourceType.Object` | 2 |
+| `Enum.ContentSourceType.Opaque` | 3 |

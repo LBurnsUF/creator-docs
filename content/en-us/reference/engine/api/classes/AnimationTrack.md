@@ -7,43 +7,107 @@ tags: [NotCreatable]
 
 # AnimationTrack
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Animation**: `Animation` [ReadOnly] [NotReplicated]
-- **IsPlaying**: `bool` [ReadOnly] [NotReplicated]
-- **Length**: `float` [ReadOnly] [NotReplicated]
-- **Looped**: `bool`
-- **Priority**: `AnimationPriority`
-- **Speed**: `float` [ReadOnly] [NotReplicated]
-- **TimePosition**: `float` [NotReplicated]
-- **WeightCurrent**: `float` [ReadOnly] [NotReplicated]
-- **WeightTarget**: `float` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AnimationTrack.Animation` | `Class.Animation` | [ReadOnly] [NotReplicated] |
+| `Class.AnimationTrack.IsPlaying` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.AnimationTrack.Length` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.AnimationTrack.Looped` | `bool` |  |
+| `Class.AnimationTrack.Priority` | `Enum.AnimationPriority` |  |
+| `Class.AnimationTrack.Speed` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.AnimationTrack.TimePosition` | `float` | [NotReplicated] |
+| `Class.AnimationTrack.WeightCurrent` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.AnimationTrack.WeightTarget` | `float` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **AdjustSpeed**(`speed: float = 1`) -> `null` [CustomLuaState]
-- **AdjustWeight**(`weight: float = 1`, `fadeTime: float = 0.100000001`) -> `null` [CustomLuaState]
-- **GetDebugData**() -> `Dictionary`
-- **GetMarkerReachedSignal**(`name: string`) -> `RBXScriptSignal`
-- **GetParameter**(`key: string`) -> `Variant`
-- **GetParameterDefaults**() -> `Dictionary`
-- **GetTargetInstance**(`name: string`) -> `Instance`
-- **GetTargetNames**() -> `Array`
-- **GetTimeOfKeyframe**(`keyframeName: string`) -> `double`
-- **Play**(`fadeTime: float = 0.100000001`, `weight: float = 1`, `speed: float = 1`) -> `null` [CustomLuaState]
-- **ResetGraph**() -> `null`
-- **SetParameter**(`key: string`, `value: Variant`) -> `null`
-- **SetTargetInstance**(`name: string`, `target: Instance`) -> `null`
-- **Stop**(`fadeTime: float = 0.100000001`) -> `null` [CustomLuaState]
-- **UpdateGraphNodeProperty**(`nodeId: string`, `propertyName: string`, `value: Variant`, `inputPinName: string = `) -> `bool`
+### `Class.AnimationTrack:AdjustSpeed`
+
+``AdjustSpeed(speed: `float`)`` → `null`
+  [CustomLuaState]
+
+### `Class.AnimationTrack:AdjustWeight`
+
+``AdjustWeight(weight: `float`, fadeTime: `float`)`` → `null`
+  [CustomLuaState]
+
+### `Class.AnimationTrack:GetDebugData`
+
+``GetDebugData()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationTrack:GetMarkerReachedSignal`
+
+``GetMarkerReachedSignal(name: `string`)`` → `Datatype.RBXScriptSignal`
+
+### `Class.AnimationTrack:GetParameter`
+
+``GetParameter(key: `string`)`` → `Variant`
+
+### `Class.AnimationTrack:GetParameterDefaults`
+
+``GetParameterDefaults()`` → `Dictionary`
+
+### `Class.AnimationTrack:GetTargetInstance`
+
+``GetTargetInstance(name: `string`)`` → `Class.Instance`
+
+### `Class.AnimationTrack:GetTargetNames`
+
+``GetTargetNames()`` → `Array`
+
+### `Class.AnimationTrack:GetTimeOfKeyframe`
+
+``GetTimeOfKeyframe(keyframeName: `string`)`` → `double`
+
+### `Class.AnimationTrack:Play`
+
+``Play(fadeTime: `float`, weight: `float`, speed: `float`)`` → `null`
+  [CustomLuaState]
+
+### `Class.AnimationTrack:ResetGraph`
+
+``ResetGraph()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationTrack:SetParameter`
+
+``SetParameter(key: `string`, value: `Variant`)`` → `null`
+
+### `Class.AnimationTrack:SetTargetInstance`
+
+``SetTargetInstance(name: `string`, target: `Class.Instance`)`` → `null`
+
+### `Class.AnimationTrack:Stop`
+
+``Stop(fadeTime: `float`)`` → `null`
+  [CustomLuaState]
+
+### `Class.AnimationTrack:UpdateGraphNodeProperty`
+
+``UpdateGraphNodeProperty(nodeId: `string`, propertyName: `string`, value: `Variant`, inputPinName: `string`)`` → `bool`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **DidLoop**()
-- **Ended**()
-- **KeyframeReached**(`keyframeName: string`)
-- **Stopped**()
+### `Class.AnimationTrack.DidLoop`
+
+Fires with: ()
+
+### `Class.AnimationTrack.Ended`
+
+Fires with: ()
+
+### `Class.AnimationTrack.KeyframeReached`
+
+Fires with: (keyframeName: `string`)
+
+### `Class.AnimationTrack.Stopped`
+
+Fires with: ()

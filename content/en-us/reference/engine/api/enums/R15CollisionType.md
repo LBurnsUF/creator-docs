@@ -3,9 +3,11 @@ title: R15CollisionType
 type: enum
 ---
 
-# R15CollisionType (Enum)
+# `Enum.R15CollisionType`
+
+The `Enum.R15CollisionType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| OuterBox | 0 |
-| InnerBox | 1 |
+| `Enum.R15CollisionType.OuterBox` | 0 |
+| `Enum.R15CollisionType.InnerBox` | 1 |

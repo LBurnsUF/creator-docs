@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # CloudLocalizationTable
 
-**Inherits**: LocalizationTable > Instance > Object
+**Inherits from:** `Class.LocalizationTable` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

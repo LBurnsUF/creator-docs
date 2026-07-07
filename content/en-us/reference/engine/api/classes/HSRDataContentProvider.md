@@ -7,6 +7,6 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # HSRDataContentProvider
 
-**Inherits**: CacheableContentProvider > Instance > Object
+**Inherits from:** `Class.CacheableContentProvider` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]

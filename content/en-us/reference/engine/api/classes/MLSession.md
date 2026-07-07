@@ -7,10 +7,13 @@ tags: [NotCreatable, NotReplicated]
 
 # MLSession
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **ForwardAsync**(`data: Dictionary`) -> `Dictionary` [Yields]
+### `Class.MLSession:ForwardAsync`
+
+``ForwardAsync(data: `Dictionary`)`` → `Dictionary`
+  [Yields]

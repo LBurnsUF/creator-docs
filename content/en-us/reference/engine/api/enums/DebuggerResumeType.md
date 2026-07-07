@@ -3,11 +3,13 @@ title: DebuggerResumeType
 type: enum
 ---
 
-# DebuggerResumeType (Enum)
+# `Enum.DebuggerResumeType`
+
+The `Enum.DebuggerResumeType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| StepInto | 0 |
-| StepOut | 1 |
-| StepOver | 2 |
-| Resume | 3 |
+| `Enum.DebuggerResumeType.StepInto` | 0 |
+| `Enum.DebuggerResumeType.StepOut` | 1 |
+| `Enum.DebuggerResumeType.StepOver` | 2 |
+| `Enum.DebuggerResumeType.Resume` | 3 |

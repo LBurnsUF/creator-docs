@@ -6,16 +6,18 @@ superclass: Constraint
 
 # RopeConstraint
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CurrentDistance**: `float` [ReadOnly] [NotReplicated]
-- **Length**: `float`
-- **Restitution**: `float`
-- **Thickness**: `float`
-- **WinchEnabled**: `bool`
-- **WinchForce**: `float`
-- **WinchResponsiveness**: `float`
-- **WinchSpeed**: `float`
-- **WinchTarget**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RopeConstraint.CurrentDistance` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.RopeConstraint.Length` | `float` |  |
+| `Class.RopeConstraint.Restitution` | `float` |  |
+| `Class.RopeConstraint.Thickness` | `float` |  |
+| `Class.RopeConstraint.WinchEnabled` | `bool` |  |
+| `Class.RopeConstraint.WinchForce` | `float` |  |
+| `Class.RopeConstraint.WinchResponsiveness` | `float` |  |
+| `Class.RopeConstraint.WinchSpeed` | `float` |  |
+| `Class.RopeConstraint.WinchTarget` | `float` |  |

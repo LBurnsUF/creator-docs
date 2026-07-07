@@ -7,6 +7,6 @@ tags: [NotCreatable, NotBrowsable, Deprecated]
 
 # BevelMesh
 
-**Inherits**: DataModelMesh > Instance > Object
+**Inherits from:** `Class.DataModelMesh` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable, Deprecated
+**Tags:** [NotCreatable] [NotBrowsable] [Deprecated]

@@ -3,38 +3,38 @@ title: BrickColor
 type: datatype
 ---
 
-# BrickColor (DataType)
+# `Datatype.BrickColor`
 
-Used in 26 locations across the API.
+Used in 26 locations across the Roblox API.
 
 ## Used as Property Type
 
-- BasePart.BrickColor
-- BasePart.brickColor
-- BodyColors.HeadColor
-- BodyColors.LeftArmColor
-- BodyColors.LeftLegColor
-- BodyColors.RightArmColor
-- BodyColors.RightLegColor
-- BodyColors.TorsoColor
-- BrickColorValue.Value
-- Constraint.Color
-- Flag.TeamColor
-- FlagStand.TeamColor
-- GuiBase3d.Color
-- GuiObject.BackgroundColor
-- GuiObject.BorderColor
-- Player.TeamColor
-- SelectionBox.SurfaceColor
-- SelectionSphere.SurfaceColor
-- Skin.SkinColor
-- SpawnLocation.TeamColor
-- Team.TeamColor
-- TextBox.TextColor
-- TextButton.TextColor
-- TextLabel.TextColor
+- `Class.BasePart.BrickColor`
+- `Class.BasePart.brickColor`
+- `Class.BodyColors.HeadColor`
+- `Class.BodyColors.LeftArmColor`
+- `Class.BodyColors.LeftLegColor`
+- `Class.BodyColors.RightArmColor`
+- `Class.BodyColors.RightLegColor`
+- `Class.BodyColors.TorsoColor`
+- `Class.BrickColorValue.Value`
+- `Class.Constraint.Color`
+- `Class.Flag.TeamColor`
+- `Class.FlagStand.TeamColor`
+- `Class.GuiBase3d.Color`
+- `Class.GuiObject.BackgroundColor`
+- `Class.GuiObject.BorderColor`
+- `Class.Player.TeamColor`
+- `Class.SelectionBox.SurfaceColor`
+- `Class.SelectionSphere.SurfaceColor`
+- `Class.Skin.SkinColor`
+- `Class.SpawnLocation.TeamColor`
+- `Class.Team.TeamColor`
+- `Class.TextBox.TextColor`
+- `Class.TextButton.TextColor`
+- `Class.TextLabel.TextColor`
 
 ## Used as Parameter Type
 
-- BrickColorValue.Changed(value)
-- BrickColorValue.changed(value)
+- `Class.BrickColorValue:Changed` (parameter `value`)
+- `Class.BrickColorValue:changed` (parameter `value`)

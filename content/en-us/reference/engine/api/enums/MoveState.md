@@ -3,12 +3,14 @@ title: MoveState
 type: enum
 ---
 
-# MoveState (Enum)
+# `Enum.MoveState`
+
+The `Enum.MoveState` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Stopped | 0 |
-| Coasting | 1 |
-| Pushing | 2 |
-| Stopping | 3 |
-| AirFree | 4 |
+| `Enum.MoveState.Stopped` | 0 |
+| `Enum.MoveState.Coasting` | 1 |
+| `Enum.MoveState.Pushing` | 2 |
+| `Enum.MoveState.Stopping` | 3 |
+| `Enum.MoveState.AirFree` | 4 |

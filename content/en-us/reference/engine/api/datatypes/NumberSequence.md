@@ -3,16 +3,16 @@ title: NumberSequence
 type: datatype
 ---
 
-# NumberSequence (DataType)
+# `Datatype.NumberSequence`
 
-Used in 7 locations across the API.
+Used in 7 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Beam.Transparency
-- ParticleEmitter.Size
-- ParticleEmitter.Squash
-- ParticleEmitter.Transparency
-- Trail.Transparency
-- Trail.WidthScale
-- UIGradient.Transparency
+- `Class.Beam.Transparency`
+- `Class.ParticleEmitter.Size`
+- `Class.ParticleEmitter.Squash`
+- `Class.ParticleEmitter.Transparency`
+- `Class.Trail.Transparency`
+- `Class.Trail.WidthScale`
+- `Class.UIGradient.Transparency`

@@ -7,6 +7,6 @@ tags: [NotReplicated]
 
 # TrackerStreamAnimation
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]

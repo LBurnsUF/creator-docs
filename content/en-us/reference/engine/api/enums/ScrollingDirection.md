@@ -3,10 +3,12 @@ title: ScrollingDirection
 type: enum
 ---
 
-# ScrollingDirection (Enum)
+# `Enum.ScrollingDirection`
+
+The `Enum.ScrollingDirection` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| X | 1 |
-| Y | 2 |
-| XY | 4 |
+| `Enum.ScrollingDirection.X` | 1 |
+| `Enum.ScrollingDirection.Y` | 2 |
+| `Enum.ScrollingDirection.XY` | 4 |

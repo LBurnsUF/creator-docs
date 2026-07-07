@@ -7,18 +7,34 @@ tags: [Deprecated]
 
 # FunctionalTest
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **Description**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FunctionalTest.Description` | `string` |  |
 
 ## Methods
 
-- **Error**(`message: string = `) -> `null`
-- **Failed**(`message: string = `) -> `null`
-- **Pass**(`message: string = `) -> `null`
-- **Passed**(`message: string = `) -> `null`
-- **Warn**(`message: string = `) -> `null`
+### `Class.FunctionalTest:Error`
+
+``Error(message: `string`)`` → `null`
+
+### `Class.FunctionalTest:Failed`
+
+``Failed(message: `string`)`` → `null`
+
+### `Class.FunctionalTest:Pass`
+
+``Pass(message: `string`)`` → `null`
+
+### `Class.FunctionalTest:Passed`
+
+``Passed(message: `string`)`` → `null`
+
+### `Class.FunctionalTest:Warn`
+
+``Warn(message: `string`)`` → `null`

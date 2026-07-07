@@ -3,10 +3,12 @@ title: DraggingScrollBar
 type: enum
 ---
 
-# DraggingScrollBar (Enum)
+# `Enum.DraggingScrollBar`
+
+The `Enum.DraggingScrollBar` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Horizontal | 1 |
-| Vertical | 2 |
+| `Enum.DraggingScrollBar.None` | 0 |
+| `Enum.DraggingScrollBar.Horizontal` | 1 |
+| `Enum.DraggingScrollBar.Vertical` | 2 |

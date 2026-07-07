@@ -7,13 +7,24 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # HapticService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetMotor**(`inputType: UserInputType`, `vibrationMotor: VibrationMotor`) -> `Tuple`
-- **IsMotorSupported**(`inputType: UserInputType`, `vibrationMotor: VibrationMotor`) -> `bool`
-- **IsVibrationSupported**(`inputType: UserInputType`) -> `bool`
-- **SetMotor**(`inputType: UserInputType`, `vibrationMotor: VibrationMotor`, `vibrationValues: Tuple`) -> `null`
+### `Class.HapticService:GetMotor`
+
+``GetMotor(inputType: `Enum.UserInputType`, vibrationMotor: `Enum.VibrationMotor`)`` → `Tuple`
+
+### `Class.HapticService:IsMotorSupported`
+
+``IsMotorSupported(inputType: `Enum.UserInputType`, vibrationMotor: `Enum.VibrationMotor`)`` → `bool`
+
+### `Class.HapticService:IsVibrationSupported`
+
+``IsVibrationSupported(inputType: `Enum.UserInputType`)`` → `bool`
+
+### `Class.HapticService:SetMotor`
+
+``SetMotor(inputType: `Enum.UserInputType`, vibrationMotor: `Enum.VibrationMotor`, vibrationValues: `Tuple`)`` → `null`

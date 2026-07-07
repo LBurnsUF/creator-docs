@@ -3,10 +3,12 @@ title: ImageAlphaType
 type: enum
 ---
 
-# ImageAlphaType (Enum)
+# `Enum.ImageAlphaType`
+
+The `Enum.ImageAlphaType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 1 |
-| LockCanvasAlpha | 2 |
-| LockCanvasColor | 3 |
+| `Enum.ImageAlphaType.Default` | 1 |
+| `Enum.ImageAlphaType.LockCanvasAlpha` | 2 |
+| `Enum.ImageAlphaType.LockCanvasColor` | 3 |

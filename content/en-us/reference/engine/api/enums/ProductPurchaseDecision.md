@@ -3,9 +3,11 @@ title: ProductPurchaseDecision
 type: enum
 ---
 
-# ProductPurchaseDecision (Enum)
+# `Enum.ProductPurchaseDecision`
+
+The `Enum.ProductPurchaseDecision` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| NotProcessedYet | 0 |
-| PurchaseGranted | 1 |
+| `Enum.ProductPurchaseDecision.NotProcessedYet` | 0 |
+| `Enum.ProductPurchaseDecision.PurchaseGranted` | 1 |

@@ -3,23 +3,23 @@ title: RBXScriptConnection
 type: datatype
 ---
 
-# RBXScriptConnection (DataType)
+# `Datatype.RBXScriptConnection`
 
-Used in 14 locations across the API.
+Used in 14 locations across the Roblox API.
 
 ## Used as Return Type
 
-- Actor.BindToMessage
-- Actor.BindToMessageParallel
-- DragDetector.AddConstraintFunction
-- ExperienceService.RegisterForExperienceJoin
-- ExperienceService.RegisterForExperienceLeave
-- GlobalDataStore.OnUpdate
-- MarketplaceService.BindReceiptHandler
-- MessagingService.SubscribeAsync
-- ModerationService.BindReviewableContentEventProcessor
-- PluginConnection.BindToMessage
-- RunService.BindToSimulation
-- Selection.AddFocusCallback
-- StudioPublishService.RegisterPublishHold
-- UIDragDetector.AddConstraintFunction
+- `Class.Actor:BindToMessage`
+- `Class.Actor:BindToMessageParallel`
+- `Class.DragDetector:AddConstraintFunction`
+- `Class.ExperienceService:RegisterForExperienceJoin`
+- `Class.ExperienceService:RegisterForExperienceLeave`
+- `Class.GlobalDataStore:OnUpdate`
+- `Class.MarketplaceService:BindReceiptHandler`
+- `Class.MessagingService:SubscribeAsync`
+- `Class.ModerationService:BindReviewableContentEventProcessor`
+- `Class.PluginConnection:BindToMessage`
+- `Class.RunService:BindToSimulation`
+- `Class.Selection:AddFocusCallback`
+- `Class.StudioPublishService:RegisterPublishHold`
+- `Class.UIDragDetector:AddConstraintFunction`

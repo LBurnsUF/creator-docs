@@ -7,11 +7,13 @@ tags: [NotCreatable, NotReplicated]
 
 # VideoCapture
 
-**Inherits**: Capture > Object
+**Inherits from:** `Class.Capture` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **FilePath**: `string` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **TimeLength**: `double` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VideoCapture.FilePath` | `string` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.VideoCapture.TimeLength` | `double` | [ReadOnly] [NotReplicated] |

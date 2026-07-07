@@ -3,11 +3,13 @@ title: AnalyticsProgressionType
 type: enum
 ---
 
-# AnalyticsProgressionType (Enum)
+# `Enum.AnalyticsProgressionType`
+
+The `Enum.AnalyticsProgressionType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Custom | 0 |
-| Start | 1 |
-| Fail | 2 |
-| Complete | 3 |
+| `Enum.AnalyticsProgressionType.Custom` | 0 |
+| `Enum.AnalyticsProgressionType.Start` | 1 |
+| `Enum.AnalyticsProgressionType.Fail` | 2 |
+| `Enum.AnalyticsProgressionType.Complete` | 3 |

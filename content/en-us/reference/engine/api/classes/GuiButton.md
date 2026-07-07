@@ -7,26 +7,51 @@ tags: [NotCreatable, NotBrowsable]
 
 # GuiButton
 
-**Inherits**: GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Properties
 
-- **AutoButtonColor**: `bool`
-- **HoverHapticEffect**: `HapticEffect`
-- **Modal**: `bool`
-- **PressHapticEffect**: `HapticEffect`
-- **Selected**: `bool`
-- **Style**: `ButtonStyle`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.GuiButton.AutoButtonColor` | `bool` |  |
+| `Class.GuiButton.HoverHapticEffect` | `Class.HapticEffect` |  |
+| `Class.GuiButton.Modal` | `bool` |  |
+| `Class.GuiButton.PressHapticEffect` | `Class.HapticEffect` |  |
+| `Class.GuiButton.Selected` | `bool` |  |
+| `Class.GuiButton.Style` | `Enum.ButtonStyle` |  |
 
 ## Events
 
-- **Activated**(`inputObject: InputObject`, `clickCount: int`)
-- **MouseButton1Click**()
-- **MouseButton1Down**(`x: int`, `y: int`)
-- **MouseButton1Up**(`x: int`, `y: int`)
-- **MouseButton2Click**()
-- **MouseButton2Down**(`x: int`, `y: int`)
-- **MouseButton2Up**(`x: int`, `y: int`)
-- **SecondaryActivated**(`inputObject: InputObject`)
+### `Class.GuiButton.Activated`
+
+Fires with: (inputObject: `Class.InputObject`, clickCount: `int`)
+
+### `Class.GuiButton.MouseButton1Click`
+
+Fires with: ()
+
+### `Class.GuiButton.MouseButton1Down`
+
+Fires with: (x: `int`, y: `int`)
+
+### `Class.GuiButton.MouseButton1Up`
+
+Fires with: (x: `int`, y: `int`)
+
+### `Class.GuiButton.MouseButton2Click`
+
+Fires with: ()
+
+### `Class.GuiButton.MouseButton2Down`
+
+Fires with: (x: `int`, y: `int`)
+
+### `Class.GuiButton.MouseButton2Up`
+
+Fires with: (x: `int`, y: `int`)
+
+### `Class.GuiButton.SecondaryActivated`
+
+Fires with: (inputObject: `Class.InputObject`)

@@ -3,12 +3,14 @@ title: MembershipType
 type: enum
 ---
 
-# MembershipType (Enum)
+# `Enum.MembershipType`
+
+The `Enum.MembershipType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| BuildersClub | 1 |
-| TurboBuildersClub | 2 |
-| OutrageousBuildersClub | 3 |
-| Premium | 4 |
+| `Enum.MembershipType.None` | 0 |
+| `Enum.MembershipType.BuildersClub` | 1 |
+| `Enum.MembershipType.TurboBuildersClub` | 2 |
+| `Enum.MembershipType.OutrageousBuildersClub` | 3 |
+| `Enum.MembershipType.Premium` | 4 |

@@ -7,29 +7,90 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ExperienceService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **ExecuteCrossExperienceCall**(`callId: string`, `params: Dictionary`, `successCallback: Function`, `errorCallback: Function`) -> `null`
-- **GetFollowUserId**() -> `int64`
-- **GetPendingJoinAttempt**() -> `Dictionary`
-- **GetPlaceJoinState**() -> `string`
-- **GetQueuePosition**() -> `int`
-- **LaunchExperience**(`params: Dictionary`) -> `string`
-- **LaunchExperienceFromSource**(`params: Dictionary`, `source: string`) -> `string`
-- **LaunchExperienceFromSourceWithCallback**(`params: Dictionary`, `source: string`, `callback: Function`) -> `null`
-- **RegisterForExperienceJoin**(`callback: Function`) -> `RBXScriptConnection`
-- **RegisterForExperienceLeave**(`callback: Function`) -> `RBXScriptConnection`
-- **StartCrossExperience**(`type: string`, `params: Dictionary`) -> `null`
-- **StopCrossExperience**(`type: string`, `params: Dictionary`) -> `null`
+### `Class.ExperienceService:ExecuteCrossExperienceCall`
+
+``ExecuteCrossExperienceCall(callId: `string`, params: `Dictionary`, successCallback: `Datatype.Function`, errorCallback: `Datatype.Function`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:GetFollowUserId`
+
+``GetFollowUserId()`` → `int64`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:GetPendingJoinAttempt`
+
+``GetPendingJoinAttempt()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:GetPlaceJoinState`
+
+``GetPlaceJoinState()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:GetQueuePosition`
+
+``GetQueuePosition()`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:LaunchExperience`
+
+``LaunchExperience(params: `Dictionary`)`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:LaunchExperienceFromSource`
+
+``LaunchExperienceFromSource(params: `Dictionary`, source: `string`)`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:LaunchExperienceFromSourceWithCallback`
+
+``LaunchExperienceFromSourceWithCallback(params: `Dictionary`, source: `string`, callback: `Datatype.Function`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:RegisterForExperienceJoin`
+
+``RegisterForExperienceJoin(callback: `Datatype.Function`)`` → `Datatype.RBXScriptConnection`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:RegisterForExperienceLeave`
+
+``RegisterForExperienceLeave(callback: `Datatype.Function`)`` → `Datatype.RBXScriptConnection`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:StartCrossExperience`
+
+``StartCrossExperience(type: `string`, params: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceService:StopCrossExperience`
+
+``StopCrossExperience(type: `string`, params: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **OnCrossExperienceStarted**(`type: string`, `params: Dictionary`)
-- **OnCrossExperienceStopped**(`type: string`, `params: Dictionary`)
-- **OnNewJoinAttempt**(`params: Dictionary`)
-- **PlaceJoinStateChanged**(`state: string`)
-- **QueuePositionChanged**(`position: int`)
+### `Class.ExperienceService.OnCrossExperienceStarted`
+
+Fires with: (type: `string`, params: `Dictionary`)
+
+### `Class.ExperienceService.OnCrossExperienceStopped`
+
+Fires with: (type: `string`, params: `Dictionary`)
+
+### `Class.ExperienceService.OnNewJoinAttempt`
+
+Fires with: (params: `Dictionary`)
+
+### `Class.ExperienceService.PlaceJoinStateChanged`
+
+Fires with: (state: `string`)
+
+### `Class.ExperienceService.QueuePositionChanged`
+
+Fires with: (position: `int`)

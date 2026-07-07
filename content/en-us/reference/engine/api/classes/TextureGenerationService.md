@@ -7,19 +7,43 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # TextureGenerationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CancelGenerationRequest**(`jobUuid: string`) -> `null`
-- **CreatePartGroup**(`instances: Instances`) -> `TextureGenerationPartGroup`
-- **GenerateTexture**(`previewJobId: string`) -> `Dictionary`
-- **GetQuotasAsync**() -> `Dictionary` [Yields]
-- **PreviewTexture**(`partGroup: TextureGenerationPartGroup`, `prompt: string`, `options: Dictionary`) -> `Dictionary`
+### `Class.TextureGenerationService:CancelGenerationRequest`
+
+``CancelGenerationRequest(jobUuid: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextureGenerationService:CreatePartGroup`
+
+``CreatePartGroup(instances: `Datatype.Instances`)`` → `Class.TextureGenerationPartGroup`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextureGenerationService:GenerateTexture`
+
+``GenerateTexture(previewJobId: `string`)`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextureGenerationService:GetQuotasAsync`
+
+``GetQuotasAsync()`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextureGenerationService:PreviewTexture`
+
+``PreviewTexture(partGroup: `Class.TextureGenerationPartGroup`, prompt: `string`, options: `Dictionary`)`` → `Dictionary`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **GenerationNotificationSignal**(`notificationData: Dictionary`)
-- **PreviewNotificationSignal**(`notificationData: Dictionary`)
+### `Class.TextureGenerationService.GenerationNotificationSignal`
+
+Fires with: (notificationData: `Dictionary`)
+
+### `Class.TextureGenerationService.PreviewNotificationSignal`
+
+Fires with: (notificationData: `Dictionary`)

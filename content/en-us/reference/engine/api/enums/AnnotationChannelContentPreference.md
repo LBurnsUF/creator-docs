@@ -3,10 +3,12 @@ title: AnnotationChannelContentPreference
 type: enum
 ---
 
-# AnnotationChannelContentPreference (Enum)
+# `Enum.AnnotationChannelContentPreference`
+
+The `Enum.AnnotationChannelContentPreference` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| All | 1 |
-| Unknown | 2 |
+| `Enum.AnnotationChannelContentPreference.None` | 0 |
+| `Enum.AnnotationChannelContentPreference.All` | 1 |
+| `Enum.AnnotationChannelContentPreference.Unknown` | 2 |

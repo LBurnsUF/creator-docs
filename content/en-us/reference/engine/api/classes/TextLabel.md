@@ -6,39 +6,44 @@ superclass: GuiLabel
 
 # TextLabel
 
-**Inherits**: GuiLabel > GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiLabel` > `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ContentText**: `string` [ReadOnly] [NotReplicated]
-- **Font**: `Font` [Hidden] [NotReplicated]
-- **FontFace**: `Font`
-- **FontSize**: `FontSize` [NotReplicated] [Deprecated]
-- **LineHeight**: `float`
-- **LocalizationMatchIdentifier**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LocalizationMatchedSourceText**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LocalizedText**: `string` [Hidden] [ReadOnly] [NotReplicated]
-- **MaxVisibleGraphemes**: `int`
-- **OpenTypeFeatures**: `string`
-- **OpenTypeFeaturesError**: `string` [ReadOnly] [NotReplicated]
-- **RichText**: `bool`
-- **Text**: `string`
-- **TextBounds**: `Vector2` [ReadOnly] [NotReplicated]
-- **TextColor**: `BrickColor` [Hidden] [NotReplicated] [Deprecated]
-- **TextColor3**: `Color3`
-- **TextDirection**: `TextDirection`
-- **TextFits**: `bool` [ReadOnly] [NotReplicated]
-- **TextScaled**: `bool`
-- **TextSize**: `float`
-- **TextStrokeColor3**: `Color3`
-- **TextStrokeTransparency**: `float`
-- **TextTransparency**: `float`
-- **TextTruncate**: `TextTruncate`
-- **TextWrap**: `bool` [NotReplicated] [Deprecated]
-- **TextWrapped**: `bool`
-- **TextXAlignment**: `TextXAlignment`
-- **TextYAlignment**: `TextYAlignment`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextLabel.ContentText` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.TextLabel.Font` | `Enum.Font` | [Hidden] [NotReplicated] |
+| `Class.TextLabel.FontFace` | `Datatype.Font` |  |
+| `Class.TextLabel.FontSize` | `Enum.FontSize` | [NotReplicated] [Deprecated] |
+| `Class.TextLabel.LineHeight` | `float` |  |
+| `Class.TextLabel.LocalizationMatchIdentifier` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextLabel.LocalizationMatchedSourceText` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextLabel.LocalizedText` | `string` | [Hidden] [ReadOnly] [NotReplicated] |
+| `Class.TextLabel.MaxVisibleGraphemes` | `int` |  |
+| `Class.TextLabel.OpenTypeFeatures` | `string` |  |
+| `Class.TextLabel.OpenTypeFeaturesError` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.TextLabel.RichText` | `bool` |  |
+| `Class.TextLabel.Text` | `string` |  |
+| `Class.TextLabel.TextBounds` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.TextLabel.TextColor` | `Datatype.BrickColor` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.TextLabel.TextColor3` | `Datatype.Color3` |  |
+| `Class.TextLabel.TextDirection` | `Enum.TextDirection` |  |
+| `Class.TextLabel.TextFits` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.TextLabel.TextScaled` | `bool` |  |
+| `Class.TextLabel.TextSize` | `float` |  |
+| `Class.TextLabel.TextStrokeColor3` | `Datatype.Color3` |  |
+| `Class.TextLabel.TextStrokeTransparency` | `float` |  |
+| `Class.TextLabel.TextTransparency` | `float` |  |
+| `Class.TextLabel.TextTruncate` | `Enum.TextTruncate` |  |
+| `Class.TextLabel.TextWrap` | `bool` | [NotReplicated] [Deprecated] |
+| `Class.TextLabel.TextWrapped` | `bool` |  |
+| `Class.TextLabel.TextXAlignment` | `Enum.TextXAlignment` |  |
+| `Class.TextLabel.TextYAlignment` | `Enum.TextYAlignment` |  |
 
 ## Methods
 
-- **SetTextFromInput**(`text: string`) -> `null`
+### `Class.TextLabel:SetTextFromInput`
+
+``SetTextFromInput(text: `string`)`` → `null`
+   {security: RobloxScriptSecurity}

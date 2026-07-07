@@ -3,10 +3,12 @@ title: FieldOfViewMode
 type: enum
 ---
 
-# FieldOfViewMode (Enum)
+# `Enum.FieldOfViewMode`
+
+The `Enum.FieldOfViewMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Vertical | 0 |
-| Diagonal | 1 |
-| MaxAxis | 2 |
+| `Enum.FieldOfViewMode.Vertical` | 0 |
+| `Enum.FieldOfViewMode.Diagonal` | 1 |
+| `Enum.FieldOfViewMode.MaxAxis` | 2 |

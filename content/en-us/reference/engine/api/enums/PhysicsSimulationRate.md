@@ -3,10 +3,12 @@ title: PhysicsSimulationRate
 type: enum
 ---
 
-# PhysicsSimulationRate (Enum)
+# `Enum.PhysicsSimulationRate`
+
+The `Enum.PhysicsSimulationRate` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Fixed240Hz | 0 |
-| Fixed120Hz | 1 |
-| Fixed60Hz | 2 |
+| `Enum.PhysicsSimulationRate.Fixed240Hz` | 0 |
+| `Enum.PhysicsSimulationRate.Fixed120Hz` | 1 |
+| `Enum.PhysicsSimulationRate.Fixed60Hz` | 2 |

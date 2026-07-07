@@ -3,10 +3,12 @@ title: DisplaySize
 type: enum
 ---
 
-# DisplaySize (Enum)
+# `Enum.DisplaySize`
+
+The `Enum.DisplaySize` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Small | 0 |
-| Medium | 1 |
-| Large | 2 |
+| `Enum.DisplaySize.Small` | 0 |
+| `Enum.DisplaySize.Medium` | 1 |
+| `Enum.DisplaySize.Large` | 2 |

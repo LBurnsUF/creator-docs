@@ -7,10 +7,12 @@ tags: [NotCreatable, NotReplicated]
 
 # NetworkReplicator
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **GetPlayer**() -> `Instance`
+### `Class.NetworkReplicator:GetPlayer`
+
+``GetPlayer()`` → `Class.Instance`

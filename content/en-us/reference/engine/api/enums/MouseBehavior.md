@@ -3,10 +3,12 @@ title: MouseBehavior
 type: enum
 ---
 
-# MouseBehavior (Enum)
+# `Enum.MouseBehavior`
+
+The `Enum.MouseBehavior` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| LockCenter | 1 |
-| LockCurrentPosition | 2 |
+| `Enum.MouseBehavior.Default` | 0 |
+| `Enum.MouseBehavior.LockCenter` | 1 |
+| `Enum.MouseBehavior.LockCurrentPosition` | 2 |

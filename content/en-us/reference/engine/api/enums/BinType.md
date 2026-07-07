@@ -3,12 +3,14 @@ title: BinType
 type: enum
 ---
 
-# BinType (Enum)
+# `Enum.BinType`
+
+The `Enum.BinType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Script | 0 |
-| GameTool | 1 |
-| Grab | 2 |
-| Clone | 3 |
-| Hammer | 4 |
+| `Enum.BinType.Script` | 0 |
+| `Enum.BinType.GameTool` | 1 |
+| `Enum.BinType.Grab` | 2 |
+| `Enum.BinType.Clone` | 3 |
+| `Enum.BinType.Hammer` | 4 |

@@ -3,10 +3,12 @@ title: RsvpStatus
 type: enum
 ---
 
-# RsvpStatus (Enum)
+# `Enum.RsvpStatus`
+
+The `Enum.RsvpStatus` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Going | 1 |
-| NotGoing | 2 |
+| `Enum.RsvpStatus.None` | 0 |
+| `Enum.RsvpStatus.Going` | 1 |
+| `Enum.RsvpStatus.NotGoing` | 2 |

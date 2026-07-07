@@ -3,10 +3,12 @@ title: ChatRestrictionStatus
 type: enum
 ---
 
-# ChatRestrictionStatus (Enum)
+# `Enum.ChatRestrictionStatus`
+
+The `Enum.ChatRestrictionStatus` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| NotRestricted | 1 |
-| Restricted | 2 |
+| `Enum.ChatRestrictionStatus.Unknown` | 0 |
+| `Enum.ChatRestrictionStatus.NotRestricted` | 1 |
+| `Enum.ChatRestrictionStatus.Restricted` | 2 |

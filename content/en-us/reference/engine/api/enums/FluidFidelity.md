@@ -3,10 +3,12 @@ title: FluidFidelity
 type: enum
 ---
 
-# FluidFidelity (Enum)
+# `Enum.FluidFidelity`
+
+The `Enum.FluidFidelity` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| UseCollisionGeometry | 1 |
-| UsePreciseGeometry | 2 |
+| `Enum.FluidFidelity.Automatic` | 0 |
+| `Enum.FluidFidelity.UseCollisionGeometry` | 1 |
+| `Enum.FluidFidelity.UsePreciseGeometry` | 2 |

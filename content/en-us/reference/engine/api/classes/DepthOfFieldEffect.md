@@ -6,11 +6,13 @@ superclass: PostEffect
 
 # DepthOfFieldEffect
 
-**Inherits**: PostEffect > Instance > Object
+**Inherits from:** `Class.PostEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **FarIntensity**: `float`
-- **FocusDistance**: `float`
-- **InFocusRadius**: `float`
-- **NearIntensity**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DepthOfFieldEffect.FarIntensity` | `float` |  |
+| `Class.DepthOfFieldEffect.FocusDistance` | `float` |  |
+| `Class.DepthOfFieldEffect.InFocusRadius` | `float` |  |
+| `Class.DepthOfFieldEffect.NearIntensity` | `float` |  |

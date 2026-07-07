@@ -6,12 +6,16 @@ superclass: Instance
 
 # BindableEvent
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Methods
 
-- **Fire**(`arguments: Tuple`) -> `null`
+### `Class.BindableEvent:Fire`
+
+``Fire(arguments: `Tuple`)`` → `null`
 
 ## Events
 
-- **Event**(`arguments: Tuple`)
+### `Class.BindableEvent.Event`
+
+Fires with: (arguments: `Tuple`)

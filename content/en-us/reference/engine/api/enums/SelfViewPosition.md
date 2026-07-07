@@ -3,12 +3,14 @@ title: SelfViewPosition
 type: enum
 ---
 
-# SelfViewPosition (Enum)
+# `Enum.SelfViewPosition`
+
+The `Enum.SelfViewPosition` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| LastPosition | 0 |
-| TopLeft | 1 |
-| TopRight | 2 |
-| BottomLeft | 3 |
-| BottomRight | 4 |
+| `Enum.SelfViewPosition.LastPosition` | 0 |
+| `Enum.SelfViewPosition.TopLeft` | 1 |
+| `Enum.SelfViewPosition.TopRight` | 2 |
+| `Enum.SelfViewPosition.BottomLeft` | 3 |
+| `Enum.SelfViewPosition.BottomRight` | 4 |

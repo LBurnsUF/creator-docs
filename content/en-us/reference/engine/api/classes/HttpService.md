@@ -7,30 +7,95 @@ tags: [NotCreatable, Service]
 
 # HttpService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **HttpEnabled**: `bool` (Security: Read=None, Write=LocalUserSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.HttpService.HttpEnabled` | `bool` |  {write: LocalUserSecurity} |
 
 ## Methods
 
-- **CreateWebStreamClient**(`streamClientType: WebStreamClientType`, `requestOptions: Dictionary`) -> `WebStreamClient`
-- **CreateWebStreamClientInternal**(`streamClientType: WebStreamClientType`, `requestOptions: Dictionary`) -> `WebStreamClient`
-- **GenerateGUID**(`wrapInCurlyBraces: bool = true`) -> `string`
-- **GetAsync**(`url: Variant`, `nocache: bool = false`, `headers: Variant`) -> `string` [Yields]
-- **GetHttpEnabled**() -> `bool`
-- **GetSecret**(`key: string`) -> `Secret`
-- **GetUserAgent**() -> `string`
-- **JSONDecode**(`input: string`) -> `Variant` [CustomLuaState]
-- **JSONDecodeAsync**(`input: string`) -> `Variant` [Yields]
-- **JSONEncode**(`input: Variant`) -> `string` [CustomLuaState]
-- **JSONEncodeAsync**(`obj: Variant`) -> `string` [Yields]
-- **PostAsync**(`url: Variant`, `data: string`, `content_type: HttpContentType = ApplicationJson`, `compress: bool = false`, `headers: Variant`) -> `string` [Yields]
-- **RequestAccessTokenScopesAsync**(`requiredScopes: Array`) -> `Secret` [Yields]
-- **RequestAsync**(`requestOptions: Dictionary`) -> `Dictionary` [Yields]
-- **RequestInternal**(`options: Dictionary`) -> `Instance`
-- **SetHttpEnabled**(`enabled: bool`) -> `null`
-- **UrlEncode**(`input: string`) -> `string`
+### `Class.HttpService:CreateWebStreamClient`
+
+``CreateWebStreamClient(streamClientType: `Enum.WebStreamClientType`, requestOptions: `Dictionary`)`` → `Class.WebStreamClient`
+
+### `Class.HttpService:CreateWebStreamClientInternal`
+
+``CreateWebStreamClientInternal(streamClientType: `Enum.WebStreamClientType`, requestOptions: `Dictionary`)`` → `Class.WebStreamClient`
+   {security: RobloxScriptSecurity}
+
+### `Class.HttpService:GenerateGUID`
+
+``GenerateGUID(wrapInCurlyBraces: `bool`)`` → `string`
+
+### `Class.HttpService:GetAsync`
+
+``GetAsync(url: `Variant`, nocache: `bool`, headers: `Variant`)`` → `string`
+  [Yields]
+
+### `Class.HttpService:GetHttpEnabled`
+
+``GetHttpEnabled()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.HttpService:GetSecret`
+
+``GetSecret(key: `string`)`` → `Datatype.Secret`
+
+### `Class.HttpService:GetUserAgent`
+
+``GetUserAgent()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.HttpService:JSONDecode`
+
+``JSONDecode(input: `string`)`` → `Variant`
+  [CustomLuaState]
+
+### `Class.HttpService:JSONDecodeAsync`
+
+``JSONDecodeAsync(input: `string`)`` → `Variant`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.HttpService:JSONEncode`
+
+``JSONEncode(input: `Variant`)`` → `string`
+  [CustomLuaState]
+
+### `Class.HttpService:JSONEncodeAsync`
+
+``JSONEncodeAsync(obj: `Variant`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.HttpService:PostAsync`
+
+``PostAsync(url: `Variant`, data: `string`, content_type: `Enum.HttpContentType`, compress: `bool`, headers: `Variant`)`` → `string`
+  [Yields]
+
+### `Class.HttpService:RequestAccessTokenScopesAsync`
+
+``RequestAccessTokenScopesAsync(requiredScopes: `Array`)`` → `Datatype.Secret`
+  [Yields] {security: LocalUserSecurity}
+
+### `Class.HttpService:RequestAsync`
+
+``RequestAsync(requestOptions: `Dictionary`)`` → `Dictionary`
+  [Yields]
+
+### `Class.HttpService:RequestInternal`
+
+``RequestInternal(options: `Dictionary`)`` → `Class.Instance`
+   {security: RobloxScriptSecurity}
+
+### `Class.HttpService:SetHttpEnabled`
+
+``SetHttpEnabled(enabled: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.HttpService:UrlEncode`
+
+``UrlEncode(input: `string`)`` → `string`

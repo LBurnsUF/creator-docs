@@ -7,17 +7,24 @@ tags: [NotCreatable, NotReplicated]
 
 # DataStoreKeyInfo
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **CreatedTime**: `int64` [ReadOnly] [NotReplicated]
-- **UpdatedTime**: `int64` [ReadOnly] [NotReplicated]
-- **Version**: `string` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DataStoreKeyInfo.CreatedTime` | `int64` | [ReadOnly] [NotReplicated] |
+| `Class.DataStoreKeyInfo.UpdatedTime` | `int64` | [ReadOnly] [NotReplicated] |
+| `Class.DataStoreKeyInfo.Version` | `string` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetMetadata**() -> `Dictionary`
-- **GetUserIds**() -> `Array`
+### `Class.DataStoreKeyInfo:GetMetadata`
+
+``GetMetadata()`` → `Dictionary`
+
+### `Class.DataStoreKeyInfo:GetUserIds`
+
+``GetUserIds()`` → `Array`

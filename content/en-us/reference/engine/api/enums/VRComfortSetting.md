@@ -3,11 +3,13 @@ title: VRComfortSetting
 type: enum
 ---
 
-# VRComfortSetting (Enum)
+# `Enum.VRComfortSetting`
+
+The `Enum.VRComfortSetting` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Comfort | 0 |
-| Normal | 1 |
-| Expert | 2 |
-| Custom | 3 |
+| `Enum.VRComfortSetting.Comfort` | 0 |
+| `Enum.VRComfortSetting.Normal` | 1 |
+| `Enum.VRComfortSetting.Expert` | 2 |
+| `Enum.VRComfortSetting.Custom` | 3 |

@@ -7,32 +7,79 @@ tags: [NotCreatable, NotReplicated]
 
 # PluginGui
 
-**Inherits**: LayerCollector > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.LayerCollector` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Plugin**: `Plugin` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Title**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PluginGui.Plugin` | `Class.Plugin` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PluginGui.Title` | `string` |  |
 
 ## Methods
 
-- **BindToClose**(`function: Function = nil`) -> `null`
-- **GetRelativeMousePosition**() -> `Vector2`
-- **OverrideStudioAction**(`studioAction: StudioAction`) -> `StudioActionOverride`
+### `Class.PluginGui:BindToClose`
+
+``BindToClose(function: `Datatype.Function`)`` → `null`
+
+### `Class.PluginGui:GetRelativeMousePosition`
+
+``GetRelativeMousePosition()`` → `Datatype.Vector2`
+   {security: PluginSecurity}
+
+### `Class.PluginGui:OverrideStudioAction`
+
+``OverrideStudioAction(studioAction: `Enum.StudioAction`)`` → `Class.StudioActionOverride`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **InputBegan**(`input: InputObject`, `gameProcessedEvent: bool`)
-- **InputChanged**(`input: InputObject`, `gameProcessedEvent: bool`)
-- **InputEnded**(`input: InputObject`, `gameProcessedEvent: bool`)
-- **MouseEnter**()
-- **MouseLeave**()
-- **PluginDragDropped**(`dragData: Dictionary`)
-- **PluginDragEntered**(`dragData: Dictionary`)
-- **PluginDragLeft**(`dragData: Dictionary`)
-- **PluginDragMoved**(`dragData: Dictionary`)
-- **PointerAction**(`wheel: float`, `pan: Vector2`, `pinch: float`, `gameProcessedEvent: bool`)
-- **WindowFocusReleased**()
-- **WindowFocused**()
+### `Class.PluginGui.InputBegan`
+
+Fires with: (input: `Class.InputObject`, gameProcessedEvent: `bool`)
+
+### `Class.PluginGui.InputChanged`
+
+Fires with: (input: `Class.InputObject`, gameProcessedEvent: `bool`)
+
+### `Class.PluginGui.InputEnded`
+
+Fires with: (input: `Class.InputObject`, gameProcessedEvent: `bool`)
+
+### `Class.PluginGui.MouseEnter`
+
+Fires with: ()
+
+### `Class.PluginGui.MouseLeave`
+
+Fires with: ()
+
+### `Class.PluginGui.PluginDragDropped`
+
+Fires with: (dragData: `Dictionary`)
+
+### `Class.PluginGui.PluginDragEntered`
+
+Fires with: (dragData: `Dictionary`)
+
+### `Class.PluginGui.PluginDragLeft`
+
+Fires with: (dragData: `Dictionary`)
+
+### `Class.PluginGui.PluginDragMoved`
+
+Fires with: (dragData: `Dictionary`)
+
+### `Class.PluginGui.PointerAction`
+
+Fires with: (wheel: `float`, pan: `Datatype.Vector2`, pinch: `float`, gameProcessedEvent: `bool`)
+
+### `Class.PluginGui.WindowFocusReleased`
+
+Fires with: ()
+
+### `Class.PluginGui.WindowFocused`
+
+Fires with: ()

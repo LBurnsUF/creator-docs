@@ -3,12 +3,14 @@ title: InfoType
 type: enum
 ---
 
-# InfoType (Enum)
+# `Enum.InfoType`
+
+The `Enum.InfoType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Asset | 0 |
-| Product | 1 |
-| GamePass | 2 |
-| Subscription | 3 |
-| Bundle | 4 |
+| `Enum.InfoType.Asset` | 0 |
+| `Enum.InfoType.Product` | 1 |
+| `Enum.InfoType.GamePass` | 2 |
+| `Enum.InfoType.Subscription` | 3 |
+| `Enum.InfoType.Bundle` | 4 |

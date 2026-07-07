@@ -7,29 +7,94 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StudioDeviceSimulatorService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CreateDeviceAsync**(`config: Dictionary`) -> `string` [Yields]
-- **GetDeviceAsync**() -> `string` [Yields]
-- **GetDeviceInfoAsync**(`deviceId: string`) -> `Dictionary` [Yields]
-- **GetDeviceListAsync**() -> `Array` [Yields]
-- **GetOrientationAsync**() -> `ScreenOrientation` [Yields]
-- **GetPixelDensityAsync**() -> `float` [Yields]
-- **GetResolutionAsync**() -> `Vector2` [Yields]
-- **GetScalingModeAsync**() -> `DeviceSimulatorScalingMode` [Yields]
-- **RemoveDeviceAsync**(`deviceId: string`) -> `null` [Yields]
-- **SetDeviceAsync**(`deviceId: string`) -> `null` [Yields]
-- **SetOrientationAsync**(`orientation: ScreenOrientation`) -> `null` [Yields]
-- **SetPixelDensityAsync**(`density: float`) -> `null` [Yields]
-- **SetResolutionAsync**(`width: int`, `height: int`) -> `null` [Yields]
-- **SetScalingModeAsync**(`mode: DeviceSimulatorScalingMode`) -> `null` [Yields]
-- **StopSimulationAsync**() -> `null` [Yields]
-- **UpdateDeviceAsync**(`deviceId: string`, `config: Dictionary`) -> `null` [Yields]
+### `Class.StudioDeviceSimulatorService:CreateDeviceAsync`
+
+``CreateDeviceAsync(config: `Dictionary`)`` → `string`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:GetDeviceAsync`
+
+``GetDeviceAsync()`` → `string`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:GetDeviceInfoAsync`
+
+``GetDeviceInfoAsync(deviceId: `string`)`` → `Dictionary`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:GetDeviceListAsync`
+
+``GetDeviceListAsync()`` → `Array`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:GetOrientationAsync`
+
+``GetOrientationAsync()`` → `Enum.ScreenOrientation`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:GetPixelDensityAsync`
+
+``GetPixelDensityAsync()`` → `float`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:GetResolutionAsync`
+
+``GetResolutionAsync()`` → `Datatype.Vector2`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:GetScalingModeAsync`
+
+``GetScalingModeAsync()`` → `Enum.DeviceSimulatorScalingMode`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:RemoveDeviceAsync`
+
+``RemoveDeviceAsync(deviceId: `string`)`` → `null`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:SetDeviceAsync`
+
+``SetDeviceAsync(deviceId: `string`)`` → `null`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:SetOrientationAsync`
+
+``SetOrientationAsync(orientation: `Enum.ScreenOrientation`)`` → `null`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:SetPixelDensityAsync`
+
+``SetPixelDensityAsync(density: `float`)`` → `null`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:SetResolutionAsync`
+
+``SetResolutionAsync(width: `int`, height: `int`)`` → `null`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:SetScalingModeAsync`
+
+``SetScalingModeAsync(mode: `Enum.DeviceSimulatorScalingMode`)`` → `null`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:StopSimulationAsync`
+
+``StopSimulationAsync()`` → `null`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioDeviceSimulatorService:UpdateDeviceAsync`
+
+``UpdateDeviceAsync(deviceId: `string`, config: `Dictionary`)`` → `null`
+  [Yields] {security: PluginSecurity}
 
 ## Events
 
-- **ConfigurationChanged**()
+### `Class.StudioDeviceSimulatorService.ConfigurationChanged`
+
+Fires with: ()

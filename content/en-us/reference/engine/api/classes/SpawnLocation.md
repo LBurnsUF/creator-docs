@@ -6,12 +6,14 @@ superclass: Part
 
 # SpawnLocation
 
-**Inherits**: Part > FormFactorPart > BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.Part` > `Class.FormFactorPart` > `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AllowTeamChangeOnTouch**: `bool`
-- **Duration**: `int`
-- **Enabled**: `bool`
-- **Neutral**: `bool`
-- **TeamColor**: `BrickColor`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SpawnLocation.AllowTeamChangeOnTouch` | `bool` |  |
+| `Class.SpawnLocation.Duration` | `int` |  |
+| `Class.SpawnLocation.Enabled` | `bool` |  |
+| `Class.SpawnLocation.Neutral` | `bool` |  |
+| `Class.SpawnLocation.TeamColor` | `Datatype.BrickColor` |  |

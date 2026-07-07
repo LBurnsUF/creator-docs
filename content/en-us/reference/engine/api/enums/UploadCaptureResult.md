@@ -3,15 +3,17 @@ title: UploadCaptureResult
 type: enum
 ---
 
-# UploadCaptureResult (Enum)
+# `Enum.UploadCaptureResult`
+
+The `Enum.UploadCaptureResult` enum has 8 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 0 |
-| NeedPermission | 1 |
-| CaptureModerated | 2 |
-| CaptureNotInGallery | 3 |
-| IneligibleCapture | 4 |
-| UploadQuotaReached | 5 |
-| UploadPending | 6 |
-| UploadFailed | 7 |
+| `Enum.UploadCaptureResult.Success` | 0 |
+| `Enum.UploadCaptureResult.NeedPermission` | 1 |
+| `Enum.UploadCaptureResult.CaptureModerated` | 2 |
+| `Enum.UploadCaptureResult.CaptureNotInGallery` | 3 |
+| `Enum.UploadCaptureResult.IneligibleCapture` | 4 |
+| `Enum.UploadCaptureResult.UploadQuotaReached` | 5 |
+| `Enum.UploadCaptureResult.UploadPending` | 6 |
+| `Enum.UploadCaptureResult.UploadFailed` | 7 |

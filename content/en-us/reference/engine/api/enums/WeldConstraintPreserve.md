@@ -3,10 +3,12 @@ title: WeldConstraintPreserve
 type: enum
 ---
 
-# WeldConstraintPreserve (Enum)
+# `Enum.WeldConstraintPreserve`
+
+The `Enum.WeldConstraintPreserve` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| All | 0 |
-| None | 1 |
-| Touching | 2 |
+| `Enum.WeldConstraintPreserve.All` | 0 |
+| `Enum.WeldConstraintPreserve.None` | 1 |
+| `Enum.WeldConstraintPreserve.Touching` | 2 |

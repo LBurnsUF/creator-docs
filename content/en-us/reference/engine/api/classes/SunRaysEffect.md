@@ -6,9 +6,11 @@ superclass: PostEffect
 
 # SunRaysEffect
 
-**Inherits**: PostEffect > Instance > Object
+**Inherits from:** `Class.PostEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Intensity**: `float`
-- **Spread**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SunRaysEffect.Intensity` | `float` |  |
+| `Class.SunRaysEffect.Spread` | `float` |  |

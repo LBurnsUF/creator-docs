@@ -7,10 +7,12 @@ tags: [NotCreatable]
 
 # InstanceAdornment
 
-**Inherits**: GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Adornee**: `Instance`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.InstanceAdornment.Adornee` | `Class.Instance` |  |

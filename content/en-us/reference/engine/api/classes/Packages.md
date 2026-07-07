@@ -7,12 +7,14 @@ tags: [NotCreatable, Service]
 
 # Packages
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **IsDehydrated**: `bool` [Hidden] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **ShellPackagesCount**: `int` [Hidden] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **SkippedInstancesCount**: `int` [Hidden] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Packages.IsDehydrated` | `bool` | [Hidden] {security: RobloxSecurity} |
+| `Class.Packages.ShellPackagesCount` | `int` | [Hidden] {security: RobloxSecurity} |
+| `Class.Packages.SkippedInstancesCount` | `int` | [Hidden] {security: RobloxSecurity} |

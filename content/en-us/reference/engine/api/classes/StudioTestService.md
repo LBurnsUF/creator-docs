@@ -7,21 +7,49 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StudioTestService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **EditModeActive**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StudioTestService.EditModeActive` | `bool` |  {security: PluginSecurity} |
 
 ## Methods
 
-- **AddPlayers**(`numPlayers: int`) -> `null`
-- **CanLeaveTest**() -> `bool`
-- **EndTest**(`value: Variant`) -> `null`
-- **ExecuteMultiplayerTestAsync**(`numPlayers: int`, `args: Variant`) -> `Variant` [Yields]
-- **ExecutePlayModeAsync**(`args: Variant`) -> `Variant` [Yields]
-- **ExecuteRunModeAsync**(`args: Variant`) -> `Variant` [Yields]
-- **GetTestArgs**() -> `Variant`
-- **LeaveTest**() -> `null`
+### `Class.StudioTestService:AddPlayers`
+
+``AddPlayers(numPlayers: `int`)`` → `null`
+
+### `Class.StudioTestService:CanLeaveTest`
+
+``CanLeaveTest()`` → `bool`
+
+### `Class.StudioTestService:EndTest`
+
+``EndTest(value: `Variant`)`` → `null`
+
+### `Class.StudioTestService:ExecuteMultiplayerTestAsync`
+
+``ExecuteMultiplayerTestAsync(numPlayers: `int`, args: `Variant`)`` → `Variant`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioTestService:ExecutePlayModeAsync`
+
+``ExecutePlayModeAsync(args: `Variant`)`` → `Variant`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioTestService:ExecuteRunModeAsync`
+
+``ExecuteRunModeAsync(args: `Variant`)`` → `Variant`
+  [Yields] {security: PluginSecurity}
+
+### `Class.StudioTestService:GetTestArgs`
+
+``GetTestArgs()`` → `Variant`
+
+### `Class.StudioTestService:LeaveTest`
+
+``LeaveTest()`` → `null`

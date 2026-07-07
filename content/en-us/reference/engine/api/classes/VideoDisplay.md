@@ -6,24 +6,36 @@ superclass: GuiObject
 
 # VideoDisplay
 
-**Inherits**: GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ResampleMode**: `ResamplerMode`
-- **ScaleType**: `ScaleType`
-- **TileSize**: `UDim2`
-- **VideoColor3**: `Color3`
-- **VideoRectOffset**: `Vector2`
-- **VideoRectSize**: `Vector2`
-- **VideoTransparency**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VideoDisplay.ResampleMode` | `Enum.ResamplerMode` |  |
+| `Class.VideoDisplay.ScaleType` | `Enum.ScaleType` |  |
+| `Class.VideoDisplay.TileSize` | `Datatype.UDim2` |  |
+| `Class.VideoDisplay.VideoColor3` | `Datatype.Color3` |  |
+| `Class.VideoDisplay.VideoRectOffset` | `Datatype.Vector2` |  |
+| `Class.VideoDisplay.VideoRectSize` | `Datatype.Vector2` |  |
+| `Class.VideoDisplay.VideoTransparency` | `float` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
+### `Class.VideoDisplay:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.VideoDisplay:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.VideoDisplay:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.VideoDisplay.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

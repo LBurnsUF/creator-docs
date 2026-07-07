@@ -3,12 +3,14 @@ title: SubscriptionExpirationReason
 type: enum
 ---
 
-# SubscriptionExpirationReason (Enum)
+# `Enum.SubscriptionExpirationReason`
+
+The `Enum.SubscriptionExpirationReason` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| ProductInactive | 0 |
-| ProductDeleted | 1 |
-| SubscriberCancelled | 2 |
-| SubscriberRefunded | 3 |
-| Lapsed | 4 |
+| `Enum.SubscriptionExpirationReason.ProductInactive` | 0 |
+| `Enum.SubscriptionExpirationReason.ProductDeleted` | 1 |
+| `Enum.SubscriptionExpirationReason.SubscriberCancelled` | 2 |
+| `Enum.SubscriptionExpirationReason.SubscriberRefunded` | 3 |
+| `Enum.SubscriptionExpirationReason.Lapsed` | 4 |

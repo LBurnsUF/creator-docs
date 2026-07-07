@@ -3,10 +3,12 @@ title: GradientType
 type: enum
 ---
 
-# GradientType (Enum)
+# `Enum.GradientType`
+
+The `Enum.GradientType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Linear | 0 |
-| Radial | 1 |
-| Conical | 2 |
+| `Enum.GradientType.Linear` | 0 |
+| `Enum.GradientType.Radial` | 1 |
+| `Enum.GradientType.Conical` | 2 |

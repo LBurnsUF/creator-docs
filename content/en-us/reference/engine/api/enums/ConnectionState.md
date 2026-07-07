@@ -3,9 +3,11 @@ title: ConnectionState
 type: enum
 ---
 
-# ConnectionState (Enum)
+# `Enum.ConnectionState`
+
+The `Enum.ConnectionState` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Connected | 0 |
-| Disconnected | 1 |
+| `Enum.ConnectionState.Connected` | 0 |
+| `Enum.ConnectionState.Disconnected` | 1 |

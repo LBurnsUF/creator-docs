@@ -3,9 +3,11 @@ title: RenderingTestComparisonMethod
 type: enum
 ---
 
-# RenderingTestComparisonMethod (Enum)
+# `Enum.RenderingTestComparisonMethod`
+
+The `Enum.RenderingTestComparisonMethod` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| psnr | 0 |
-| diff | 1 |
+| `Enum.RenderingTestComparisonMethod.psnr` | 0 |
+| `Enum.RenderingTestComparisonMethod.diff` | 1 |

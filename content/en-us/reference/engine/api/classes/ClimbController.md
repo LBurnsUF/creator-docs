@@ -6,11 +6,13 @@ superclass: ControllerBase
 
 # ClimbController
 
-**Inherits**: ControllerBase > Instance > Object
+**Inherits from:** `Class.ControllerBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AccelerationTime**: `float`
-- **BalanceMaxTorque**: `float`
-- **BalanceSpeed**: `float`
-- **MoveMaxForce**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ClimbController.AccelerationTime` | `float` |  |
+| `Class.ClimbController.BalanceMaxTorque` | `float` |  |
+| `Class.ClimbController.BalanceSpeed` | `float` |  |
+| `Class.ClimbController.MoveMaxForce` | `float` |  |

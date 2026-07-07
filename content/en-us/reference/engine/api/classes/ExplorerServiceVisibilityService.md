@@ -7,10 +7,12 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ExplorerServiceVisibilityService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetServiceVisibility**(`service: Instance`) -> `bool`
+### `Class.ExplorerServiceVisibilityService:GetServiceVisibility`
+
+``GetServiceVisibility(service: `Class.Instance`)`` → `bool`

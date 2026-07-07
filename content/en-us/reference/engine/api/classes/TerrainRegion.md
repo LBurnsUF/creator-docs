@@ -6,16 +6,33 @@ superclass: Instance
 
 # TerrainRegion
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **IsSmooth**: `bool` [ReadOnly] [NotReplicated] [Deprecated]
-- **SizeInCells**: `Vector3` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TerrainRegion.IsSmooth` | `bool` | [ReadOnly] [NotReplicated] [Deprecated] |
+| `Class.TerrainRegion.SizeInCells` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **ApplyTransform**(`rotation: CFrame`, `size: Vector3`) -> `null`
-- **ApplyTransformSubregion**(`rotation: CFrame`, `size: Vector3`, `region: Region3int16`) -> `TerrainRegion`
-- **ConvertToSmooth**() -> `null` [Deprecated]
-- **GetRegionWireframe**() -> `Array`
+### `Class.TerrainRegion:ApplyTransform`
+
+``ApplyTransform(rotation: `Datatype.CFrame`, size: `Datatype.Vector3`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TerrainRegion:ApplyTransformSubregion`
+
+``ApplyTransformSubregion(rotation: `Datatype.CFrame`, size: `Datatype.Vector3`, region: `Datatype.Region3int16`)`` → `Class.TerrainRegion`
+   {security: RobloxScriptSecurity}
+
+### `Class.TerrainRegion:ConvertToSmooth`
+
+``ConvertToSmooth()`` → `null`
+  [Deprecated] {security: PluginSecurity}
+
+### `Class.TerrainRegion:GetRegionWireframe`
+
+``GetRegionWireframe()`` → `Array`
+   {security: RobloxScriptSecurity}

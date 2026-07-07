@@ -3,13 +3,15 @@ title: RotationOrder
 type: enum
 ---
 
-# RotationOrder (Enum)
+# `Enum.RotationOrder`
+
+The `Enum.RotationOrder` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| XYZ | 0 |
-| XZY | 1 |
-| YZX | 2 |
-| YXZ | 3 |
-| ZXY | 4 |
-| ZYX | 5 |
+| `Enum.RotationOrder.XYZ` | 0 |
+| `Enum.RotationOrder.XZY` | 1 |
+| `Enum.RotationOrder.YZX` | 2 |
+| `Enum.RotationOrder.YXZ` | 3 |
+| `Enum.RotationOrder.ZXY` | 4 |
+| `Enum.RotationOrder.ZYX` | 5 |

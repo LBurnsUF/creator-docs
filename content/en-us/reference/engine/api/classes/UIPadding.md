@@ -6,11 +6,13 @@ superclass: UIComponent
 
 # UIPadding
 
-**Inherits**: UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **PaddingBottom**: `UDim`
-- **PaddingLeft**: `UDim`
-- **PaddingRight**: `UDim`
-- **PaddingTop**: `UDim`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIPadding.PaddingBottom` | `Datatype.UDim` |  |
+| `Class.UIPadding.PaddingLeft` | `Datatype.UDim` |  |
+| `Class.UIPadding.PaddingRight` | `Datatype.UDim` |  |
+| `Class.UIPadding.PaddingTop` | `Datatype.UDim` |  |

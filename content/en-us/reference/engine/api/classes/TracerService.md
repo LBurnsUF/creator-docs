@@ -7,11 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # TracerService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **FinishSpan**(`spanId: string`) -> `null`
-- **StartSpan**(`name: string`, `parentId: string`) -> `string`
+### `Class.TracerService:FinishSpan`
+
+``FinishSpan(spanId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TracerService:StartSpan`
+
+``StartSpan(name: `string`, parentId: `string`)`` → `string`
+   {security: RobloxScriptSecurity}

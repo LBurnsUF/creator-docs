@@ -3,10 +3,12 @@ title: ScrollBarInset
 type: enum
 ---
 
-# ScrollBarInset (Enum)
+# `Enum.ScrollBarInset`
+
+The `Enum.ScrollBarInset` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| ScrollBar | 1 |
-| Always | 2 |
+| `Enum.ScrollBarInset.None` | 0 |
+| `Enum.ScrollBarInset.ScrollBar` | 1 |
+| `Enum.ScrollBarInset.Always` | 2 |

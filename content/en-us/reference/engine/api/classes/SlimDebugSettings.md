@@ -7,11 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # SlimDebugSettings
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetTintMode**() -> `SlimTintMode`
-- **SetTintMode**(`mode: SlimTintMode`) -> `null`
+### `Class.SlimDebugSettings:GetTintMode`
+
+``GetTintMode()`` → `Enum.SlimTintMode`
+   {security: RobloxScriptSecurity}
+
+### `Class.SlimDebugSettings:SetTintMode`
+
+``SetTintMode(mode: `Enum.SlimTintMode`)`` → `null`
+   {security: RobloxScriptSecurity}

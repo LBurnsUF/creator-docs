@@ -3,10 +3,12 @@ title: VirtualCursorMode
 type: enum
 ---
 
-# VirtualCursorMode (Enum)
+# `Enum.VirtualCursorMode`
+
+The `Enum.VirtualCursorMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.VirtualCursorMode.Default` | 0 |
+| `Enum.VirtualCursorMode.Disabled` | 1 |
+| `Enum.VirtualCursorMode.Enabled` | 2 |

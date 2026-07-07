@@ -7,19 +7,44 @@ tags: [NotCreatable, Service]
 
 # FacialAnimationStreamingServiceV2
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **ServiceState**: `int` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FacialAnimationStreamingServiceV2.ServiceState` | `int` | [Hidden] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetStats**() -> `FacialAnimationStreamingServiceStats`
-- **IsAudioEnabled**(`mask: int`) -> `bool`
-- **IsPlaceEnabled**(`mask: int`) -> `bool`
-- **IsServerEnabled**(`mask: int`) -> `bool`
-- **IsVideoEnabled**(`mask: int`) -> `bool`
-- **ResolveStateForUser**(`userId: int64`) -> `int` [Yields]
+### `Class.FacialAnimationStreamingServiceV2:GetStats`
+
+``GetStats()`` → `Class.FacialAnimationStreamingServiceStats`
+   {security: RobloxScriptSecurity}
+
+### `Class.FacialAnimationStreamingServiceV2:IsAudioEnabled`
+
+``IsAudioEnabled(mask: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.FacialAnimationStreamingServiceV2:IsPlaceEnabled`
+
+``IsPlaceEnabled(mask: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.FacialAnimationStreamingServiceV2:IsServerEnabled`
+
+``IsServerEnabled(mask: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.FacialAnimationStreamingServiceV2:IsVideoEnabled`
+
+``IsVideoEnabled(mask: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.FacialAnimationStreamingServiceV2:ResolveStateForUser`
+
+``ResolveStateForUser(userId: `int64`)`` → `int`
+  [Yields] {security: RobloxScriptSecurity}

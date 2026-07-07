@@ -3,10 +3,12 @@ title: HumanoidDisplayDistanceType
 type: enum
 ---
 
-# HumanoidDisplayDistanceType (Enum)
+# `Enum.HumanoidDisplayDistanceType`
+
+The `Enum.HumanoidDisplayDistanceType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Viewer | 0 |
-| Subject | 1 |
-| None | 2 |
+| `Enum.HumanoidDisplayDistanceType.Viewer` | 0 |
+| `Enum.HumanoidDisplayDistanceType.Subject` | 1 |
+| `Enum.HumanoidDisplayDistanceType.None` | 2 |

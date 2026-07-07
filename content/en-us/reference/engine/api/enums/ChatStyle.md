@@ -3,10 +3,12 @@ title: ChatStyle
 type: enum
 ---
 
-# ChatStyle (Enum)
+# `Enum.ChatStyle`
+
+The `Enum.ChatStyle` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Classic | 0 |
-| Bubble | 1 |
-| ClassicAndBubble | 2 |
+| `Enum.ChatStyle.Classic` | 0 |
+| `Enum.ChatStyle.Bubble` | 1 |
+| `Enum.ChatStyle.ClassicAndBubble` | 2 |

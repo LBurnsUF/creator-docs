@@ -3,10 +3,12 @@ title: ProductLocationRestriction
 type: enum
 ---
 
-# ProductLocationRestriction (Enum)
+# `Enum.ProductLocationRestriction`
+
+The `Enum.ProductLocationRestriction` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| AvatarShop | 0 |
-| AllowedGames | 1 |
-| AllGames | 2 |
+| `Enum.ProductLocationRestriction.AvatarShop` | 0 |
+| `Enum.ProductLocationRestriction.AllowedGames` | 1 |
+| `Enum.ProductLocationRestriction.AllGames` | 2 |

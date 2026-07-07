@@ -3,10 +3,12 @@ title: SizeConstraint
 type: enum
 ---
 
-# SizeConstraint (Enum)
+# `Enum.SizeConstraint`
+
+The `Enum.SizeConstraint` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| RelativeXY | 0 |
-| RelativeXX | 1 |
-| RelativeYY | 2 |
+| `Enum.SizeConstraint.RelativeXY` | 0 |
+| `Enum.SizeConstraint.RelativeXX` | 1 |
+| `Enum.SizeConstraint.RelativeYY` | 2 |

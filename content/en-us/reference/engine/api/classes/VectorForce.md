@@ -6,10 +6,12 @@ superclass: Constraint
 
 # VectorForce
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ApplyAtCenterOfMass**: `bool`
-- **Force**: `Vector3`
-- **RelativeTo**: `ActuatorRelativeTo`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VectorForce.ApplyAtCenterOfMass` | `bool` |  |
+| `Class.VectorForce.Force` | `Datatype.Vector3` |  |
+| `Class.VectorForce.RelativeTo` | `Enum.ActuatorRelativeTo` |  |

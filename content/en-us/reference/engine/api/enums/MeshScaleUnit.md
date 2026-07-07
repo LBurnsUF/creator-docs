@@ -3,13 +3,15 @@ title: MeshScaleUnit
 type: enum
 ---
 
-# MeshScaleUnit (Enum)
+# `Enum.MeshScaleUnit`
+
+The `Enum.MeshScaleUnit` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Stud | 0 |
-| Meter | 1 |
-| CM | 2 |
-| MM | 3 |
-| Foot | 4 |
-| Inch | 5 |
+| `Enum.MeshScaleUnit.Stud` | 0 |
+| `Enum.MeshScaleUnit.Meter` | 1 |
+| `Enum.MeshScaleUnit.CM` | 2 |
+| `Enum.MeshScaleUnit.MM` | 3 |
+| `Enum.MeshScaleUnit.Foot` | 4 |
+| `Enum.MeshScaleUnit.Inch` | 5 |

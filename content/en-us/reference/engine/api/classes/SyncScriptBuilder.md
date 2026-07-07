@@ -7,14 +7,16 @@ tags: [NotCreatable, NotReplicated]
 
 # SyncScriptBuilder
 
-**Inherits**: ScriptBuilder > Instance > Object
+**Inherits from:** `Class.ScriptBuilder` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **CompileTarget**: `CompileTarget`
-- **CoverageInfo**: `bool`
-- **DebugInfo**: `bool`
-- **PackAsSource**: `bool`
-- **RawBytecode**: `bool` [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SyncScriptBuilder.CompileTarget` | `Enum.CompileTarget` |  |
+| `Class.SyncScriptBuilder.CoverageInfo` | `bool` |  |
+| `Class.SyncScriptBuilder.DebugInfo` | `bool` |  |
+| `Class.SyncScriptBuilder.PackAsSource` | `bool` |  |
+| `Class.SyncScriptBuilder.RawBytecode` | `bool` | [Deprecated] |

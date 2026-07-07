@@ -6,13 +6,21 @@ superclass: ValueBase
 
 # IntValue
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Value**: `int64`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.IntValue.Value` | `int64` |  |
 
 ## Events
 
-- **Changed**(`value: int64`)
-- **changed**(`value: int64`) [Deprecated]
+### `Class.IntValue.Changed`
+
+Fires with: (value: `int64`)
+
+### `Class.IntValue.changed`
+
+Fires with: (value: `int64`)
+  [Deprecated]

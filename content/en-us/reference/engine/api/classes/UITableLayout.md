@@ -6,11 +6,13 @@ superclass: UIGridStyleLayout
 
 # UITableLayout
 
-**Inherits**: UIGridStyleLayout > UILayout > UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIGridStyleLayout` > `Class.UILayout` > `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **FillEmptySpaceColumns**: `bool`
-- **FillEmptySpaceRows**: `bool`
-- **MajorAxis**: `TableMajorAxis`
-- **Padding**: `UDim2`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UITableLayout.FillEmptySpaceColumns` | `bool` |  |
+| `Class.UITableLayout.FillEmptySpaceRows` | `bool` |  |
+| `Class.UITableLayout.MajorAxis` | `Enum.TableMajorAxis` |  |
+| `Class.UITableLayout.Padding` | `Datatype.UDim2` |  |

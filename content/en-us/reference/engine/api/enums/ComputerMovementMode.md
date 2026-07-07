@@ -3,10 +3,12 @@ title: ComputerMovementMode
 type: enum
 ---
 
-# ComputerMovementMode (Enum)
+# `Enum.ComputerMovementMode`
+
+The `Enum.ComputerMovementMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| KeyboardMouse | 1 |
-| ClickToMove | 2 |
+| `Enum.ComputerMovementMode.Default` | 0 |
+| `Enum.ComputerMovementMode.KeyboardMouse` | 1 |
+| `Enum.ComputerMovementMode.ClickToMove` | 2 |

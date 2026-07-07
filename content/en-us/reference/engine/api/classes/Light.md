@@ -7,13 +7,15 @@ tags: [NotCreatable]
 
 # Light
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Brightness**: `float`
-- **Color**: `Color3`
-- **Enabled**: `bool`
-- **Shadows**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Light.Brightness` | `float` |  |
+| `Class.Light.Color` | `Datatype.Color3` |  |
+| `Class.Light.Enabled` | `bool` |  |
+| `Class.Light.Shadows` | `bool` |  |

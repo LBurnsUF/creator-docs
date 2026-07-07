@@ -6,9 +6,11 @@ superclass: Constraint
 
 # Torque
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **RelativeTo**: `ActuatorRelativeTo`
-- **Torque**: `Vector3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Torque.RelativeTo` | `Enum.ActuatorRelativeTo` |  |
+| `Class.Torque.Torque` | `Datatype.Vector3` |  |

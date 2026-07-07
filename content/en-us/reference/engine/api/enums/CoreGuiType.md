@@ -3,17 +3,19 @@ title: CoreGuiType
 type: enum
 ---
 
-# CoreGuiType (Enum)
+# `Enum.CoreGuiType`
+
+The `Enum.CoreGuiType` enum has 10 item(s).
 
 | Name | Value |
 |------|-------|
-| PlayerList | 0 |
-| Health | 1 |
-| Backpack | 2 |
-| Chat | 3 |
-| All | 4 |
-| EmotesMenu | 5 |
-| SelfView | 6 |
-| Captures | 7 |
-| AvatarSwitcher | 8 |
-| ExperienceShop | 9 |
+| `Enum.CoreGuiType.PlayerList` | 0 |
+| `Enum.CoreGuiType.Health` | 1 |
+| `Enum.CoreGuiType.Backpack` | 2 |
+| `Enum.CoreGuiType.Chat` | 3 |
+| `Enum.CoreGuiType.All` | 4 |
+| `Enum.CoreGuiType.EmotesMenu` | 5 |
+| `Enum.CoreGuiType.SelfView` | 6 |
+| `Enum.CoreGuiType.Captures` | 7 |
+| `Enum.CoreGuiType.AvatarSwitcher` | 8 |
+| `Enum.CoreGuiType.ExperienceShop` | 9 |

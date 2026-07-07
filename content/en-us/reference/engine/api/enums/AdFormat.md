@@ -3,8 +3,10 @@ title: AdFormat
 type: enum
 ---
 
-# AdFormat (Enum)
+# `Enum.AdFormat`
+
+The `Enum.AdFormat` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| RewardedVideo | 0 |
+| `Enum.AdFormat.RewardedVideo` | 0 |

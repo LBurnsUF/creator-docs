@@ -6,10 +6,12 @@ superclass: CharacterAppearance
 
 # ShirtGraphic
 
-**Inherits**: CharacterAppearance > Instance > Object
+**Inherits from:** `Class.CharacterAppearance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Color3**: `Color3`
-- **Graphic**: `ContentId`
-- **TextureContent**: `Content`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ShirtGraphic.Color3` | `Datatype.Color3` |  |
+| `Class.ShirtGraphic.Graphic` | `Datatype.ContentId` |  |
+| `Class.ShirtGraphic.TextureContent` | `Datatype.Content` |  |

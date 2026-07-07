@@ -3,12 +3,14 @@ title: DevComputerCameraMovementMode
 type: enum
 ---
 
-# DevComputerCameraMovementMode (Enum)
+# `Enum.DevComputerCameraMovementMode`
+
+The `Enum.DevComputerCameraMovementMode` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| UserChoice | 0 |
-| Classic | 1 |
-| Follow | 2 |
-| Orbital | 3 |
-| CameraToggle | 4 |
+| `Enum.DevComputerCameraMovementMode.UserChoice` | 0 |
+| `Enum.DevComputerCameraMovementMode.Classic` | 1 |
+| `Enum.DevComputerCameraMovementMode.Follow` | 2 |
+| `Enum.DevComputerCameraMovementMode.Orbital` | 3 |
+| `Enum.DevComputerCameraMovementMode.CameraToggle` | 4 |

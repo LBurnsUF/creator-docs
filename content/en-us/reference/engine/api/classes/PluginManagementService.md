@@ -7,11 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PluginManagementService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetOTAPluginVersion**(`pluginName: string = `) -> `int64` [Yields]
-- **SetAutoUpdate**(`pluginId: int64`, `state: bool`) -> `null`
+### `Class.PluginManagementService:GetOTAPluginVersion`
+
+``GetOTAPluginVersion(pluginName: `string`)`` → `int64`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.PluginManagementService:SetAutoUpdate`
+
+``SetAutoUpdate(pluginId: `int64`, state: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}

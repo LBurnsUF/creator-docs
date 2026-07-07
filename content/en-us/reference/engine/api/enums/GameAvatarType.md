@@ -3,10 +3,12 @@ title: GameAvatarType
 type: enum
 ---
 
-# GameAvatarType (Enum)
+# `Enum.GameAvatarType`
+
+The `Enum.GameAvatarType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| R6 | 0 |
-| R15 | 1 |
-| PlayerChoice | 2 |
+| `Enum.GameAvatarType.R6` | 0 |
+| `Enum.GameAvatarType.R15` | 1 |
+| `Enum.GameAvatarType.PlayerChoice` | 2 |

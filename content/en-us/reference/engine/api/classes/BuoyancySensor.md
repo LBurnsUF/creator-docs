@@ -6,9 +6,11 @@ superclass: SensorBase
 
 # BuoyancySensor
 
-**Inherits**: SensorBase > Instance > Object
+**Inherits from:** `Class.SensorBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **FullySubmerged**: `bool`
-- **TouchingSurface**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BuoyancySensor.FullySubmerged` | `bool` |  |
+| `Class.BuoyancySensor.TouchingSurface` | `bool` |  |

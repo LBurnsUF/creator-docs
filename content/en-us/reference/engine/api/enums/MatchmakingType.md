@@ -3,10 +3,12 @@ title: MatchmakingType
 type: enum
 ---
 
-# MatchmakingType (Enum)
+# `Enum.MatchmakingType`
+
+The `Enum.MatchmakingType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 1 |
-| XboxOnly | 2 |
-| PlayStationOnly | 3 |
+| `Enum.MatchmakingType.Default` | 1 |
+| `Enum.MatchmakingType.XboxOnly` | 2 |
+| `Enum.MatchmakingType.PlayStationOnly` | 3 |

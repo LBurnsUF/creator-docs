@@ -3,11 +3,13 @@ title: InviteState
 type: enum
 ---
 
-# InviteState (Enum)
+# `Enum.InviteState`
+
+The `Enum.InviteState` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Placed | 0 |
-| Accepted | 1 |
-| Declined | 2 |
-| Missed | 3 |
+| `Enum.InviteState.Placed` | 0 |
+| `Enum.InviteState.Accepted` | 1 |
+| `Enum.InviteState.Declined` | 2 |
+| `Enum.InviteState.Missed` | 3 |

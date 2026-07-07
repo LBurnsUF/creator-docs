@@ -7,40 +7,103 @@ tags: [NotCreatable, Service]
 
 # VoiceChatService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **DefaultDistanceAttenuation**: `VoiceChatDistanceAttenuationType` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EnableDefaultVoice**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **UseAudioApi**: `AudioApiRollout` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **UseNewAudioApi**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **UseNewControlPaths**: `bool` [Hidden] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **UseNewJoinFlow**: `bool` [Hidden] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **UseStreamSwitching**: `bool` [Hidden] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **VoiceChatEnabledForPlaceOnRcc**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VoiceChatEnabledForUniverseOnRcc**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VoiceChatService.DefaultDistanceAttenuation` | `Enum.VoiceChatDistanceAttenuationType` |  {security: PluginSecurity} |
+| `Class.VoiceChatService.EnableDefaultVoice` | `bool` |  {security: PluginSecurity} |
+| `Class.VoiceChatService.UseAudioApi` | `Enum.AudioApiRollout` |  {security: PluginSecurity} |
+| `Class.VoiceChatService.UseNewAudioApi` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.VoiceChatService.UseNewControlPaths` | `bool` | [Hidden] {security: RobloxSecurity} |
+| `Class.VoiceChatService.UseNewJoinFlow` | `bool` | [Hidden] {security: RobloxSecurity} |
+| `Class.VoiceChatService.UseStreamSwitching` | `bool` | [Hidden] {security: RobloxSecurity} |
+| `Class.VoiceChatService.VoiceChatEnabledForPlaceOnRcc` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.VoiceChatService.VoiceChatEnabledForUniverseOnRcc` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetChatGroupsAsync**(`players: Instances`) -> `Array` [Yields]
-- **IsVoiceEnabledForUserIdAsync**(`userId: User`) -> `bool` [Yields]
-- **getInternalChannelId**() -> `string`
-- **getInternalGroupId**() -> `string`
-- **getInternalPublishPause**() -> `bool`
-- **getInternalSessionId**() -> `string`
-- **getInternalSubscribePause**(`userId: int64`) -> `bool`
-- **getInternalSubscribePauseAll**() -> `bool`
-- **getInternalVoiceChatApiVersion**() -> `int`
-- **isInternalPublishPaused**() -> `bool`
-- **joinVoice**() -> `null`
-- **lastVoiceChatStats**() -> `Dictionary`
-- **leaveVoice**(`leaveReason: VoiceClientLeaveReasons = LuaInitiated`) -> `null`
-- **notifyServerACSCleanup**() -> `null`
-- **rejoinVoice**() -> `null`
+### `Class.VoiceChatService:GetChatGroupsAsync`
+
+``GetChatGroupsAsync(players: `Datatype.Instances`)`` → `Array`
+  [Yields]
+
+### `Class.VoiceChatService:IsVoiceEnabledForUserIdAsync`
+
+``IsVoiceEnabledForUserIdAsync(userId: `Datatype.User`)`` → `bool`
+  [Yields]
+
+### `Class.VoiceChatService:getInternalChannelId`
+
+``getInternalChannelId()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:getInternalGroupId`
+
+``getInternalGroupId()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:getInternalPublishPause`
+
+``getInternalPublishPause()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:getInternalSessionId`
+
+``getInternalSessionId()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:getInternalSubscribePause`
+
+``getInternalSubscribePause(userId: `int64`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:getInternalSubscribePauseAll`
+
+``getInternalSubscribePauseAll()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:getInternalVoiceChatApiVersion`
+
+``getInternalVoiceChatApiVersion()`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:isInternalPublishPaused`
+
+``isInternalPublishPaused()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:joinVoice`
+
+``joinVoice()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:lastVoiceChatStats`
+
+``lastVoiceChatStats()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:leaveVoice`
+
+``leaveVoice(leaveReason: `Enum.VoiceClientLeaveReasons`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:notifyServerACSCleanup`
+
+``notifyServerACSCleanup()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.VoiceChatService:rejoinVoice`
+
+``rejoinVoice()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **VoiceChatStatsCollected**()
+### `Class.VoiceChatService.VoiceChatStatsCollected`
+
+Fires with: ()

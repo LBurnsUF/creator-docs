@@ -3,10 +3,12 @@ title: PredictionStatus
 type: enum
 ---
 
-# PredictionStatus (Enum)
+# `Enum.PredictionStatus`
+
+The `Enum.PredictionStatus` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Authoritative | 0 |
-| Predicted | 1 |
-| None | 2 |
+| `Enum.PredictionStatus.Authoritative` | 0 |
+| `Enum.PredictionStatus.Predicted` | 1 |
+| `Enum.PredictionStatus.None` | 2 |

@@ -7,21 +7,35 @@ tags: [Deprecated]
 
 # HopperBin
 
-**Inherits**: BackpackItem > Model > PVInstance > Instance > Object
+**Inherits from:** `Class.BackpackItem` > `Class.Model` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **Active**: `bool`
-- **BinType**: `BinType`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.HopperBin.Active` | `bool` |  |
+| `Class.HopperBin.BinType` | `Enum.BinType` |  |
 
 ## Methods
 
-- **Disable**() -> `null`
-- **ToggleSelect**() -> `null`
+### `Class.HopperBin:Disable`
+
+``Disable()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.HopperBin:ToggleSelect`
+
+``ToggleSelect()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **Deselected**()
-- **Selected**(`mouse: Instance`)
+### `Class.HopperBin.Deselected`
+
+Fires with: ()
+
+### `Class.HopperBin.Selected`
+
+Fires with: (mouse: `Class.Instance`)

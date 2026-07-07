@@ -3,10 +3,12 @@ title: EditableStatus
 type: enum
 ---
 
-# EditableStatus (Enum)
+# `Enum.EditableStatus`
+
+The `Enum.EditableStatus` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| Allowed | 1 |
-| Disallowed | 2 |
+| `Enum.EditableStatus.Unknown` | 0 |
+| `Enum.EditableStatus.Allowed` | 1 |
+| `Enum.EditableStatus.Disallowed` | 2 |

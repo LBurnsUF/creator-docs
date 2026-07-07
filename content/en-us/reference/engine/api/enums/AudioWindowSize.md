@@ -3,10 +3,12 @@ title: AudioWindowSize
 type: enum
 ---
 
-# AudioWindowSize (Enum)
+# `Enum.AudioWindowSize`
+
+The `Enum.AudioWindowSize` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Small | 0 |
-| Medium | 1 |
-| Large | 2 |
+| `Enum.AudioWindowSize.Small` | 0 |
+| `Enum.AudioWindowSize.Medium` | 1 |
+| `Enum.AudioWindowSize.Large` | 2 |

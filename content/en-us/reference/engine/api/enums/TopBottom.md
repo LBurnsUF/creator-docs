@@ -3,10 +3,12 @@ title: TopBottom
 type: enum
 ---
 
-# TopBottom (Enum)
+# `Enum.TopBottom`
+
+The `Enum.TopBottom` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Top | 0 |
-| Center | 1 |
-| Bottom | 2 |
+| `Enum.TopBottom.Top` | 0 |
+| `Enum.TopBottom.Center` | 1 |
+| `Enum.TopBottom.Bottom` | 2 |

@@ -7,12 +7,23 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StopWatchReporter
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **FinishTask**(`taskId: int`) -> `null`
-- **SendReport**(`reportName: string`) -> `null`
-- **StartTask**(`reportName: string`, `taskName: string`) -> `int`
+### `Class.StopWatchReporter:FinishTask`
+
+``FinishTask(taskId: `int`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StopWatchReporter:SendReport`
+
+``SendReport(reportName: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.StopWatchReporter:StartTask`
+
+``StartTask(reportName: `string`, taskName: `string`)`` → `int`
+   {security: RobloxScriptSecurity}

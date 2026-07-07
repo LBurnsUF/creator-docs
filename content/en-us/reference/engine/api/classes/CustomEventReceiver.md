@@ -7,20 +7,32 @@ tags: [Deprecated]
 
 # CustomEventReceiver
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **Source**: `Instance`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CustomEventReceiver.Source` | `Class.Instance` |  |
 
 ## Methods
 
-- **GetCurrentValue**() -> `float`
+### `Class.CustomEventReceiver:GetCurrentValue`
+
+``GetCurrentValue()`` → `float`
 
 ## Events
 
-- **EventConnected**(`event: Instance`)
-- **EventDisconnected**(`event: Instance`)
-- **SourceValueChanged**(`newValue: float`)
+### `Class.CustomEventReceiver.EventConnected`
+
+Fires with: (event: `Class.Instance`)
+
+### `Class.CustomEventReceiver.EventDisconnected`
+
+Fires with: (event: `Class.Instance`)
+
+### `Class.CustomEventReceiver.SourceValueChanged`
+
+Fires with: (newValue: `float`)

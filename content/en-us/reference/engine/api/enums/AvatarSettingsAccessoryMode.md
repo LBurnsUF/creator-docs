@@ -3,9 +3,11 @@ title: AvatarSettingsAccessoryMode
 type: enum
 ---
 
-# AvatarSettingsAccessoryMode (Enum)
+# `Enum.AvatarSettingsAccessoryMode`
+
+The `Enum.AvatarSettingsAccessoryMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| PlayerChoice | 0 |
-| CustomLimit | 1 |
+| `Enum.AvatarSettingsAccessoryMode.PlayerChoice` | 0 |
+| `Enum.AvatarSettingsAccessoryMode.CustomLimit` | 1 |

@@ -6,16 +6,21 @@ superclass: Instance
 
 # Sparkles
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Color**: `Color3` [Hidden] [NotReplicated]
-- **Enabled**: `bool`
-- **LocalTransparencyModifier**: `float` [Hidden] [NotReplicated]
-- **SparkleColor**: `Color3`
-- **TimeScale**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Sparkles.Color` | `Datatype.Color3` | [Hidden] [NotReplicated] |
+| `Class.Sparkles.Enabled` | `bool` |  |
+| `Class.Sparkles.LocalTransparencyModifier` | `float` | [Hidden] [NotReplicated] |
+| `Class.Sparkles.SparkleColor` | `Datatype.Color3` |  |
+| `Class.Sparkles.TimeScale` | `float` |  |
 
 ## Methods
 
-- **FastForward**(`numFrames: int`) -> `null`
+### `Class.Sparkles:FastForward`
+
+``FastForward(numFrames: `int`)`` → `null`
+   {security: RobloxScriptSecurity}

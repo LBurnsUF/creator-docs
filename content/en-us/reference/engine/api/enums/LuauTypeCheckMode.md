@@ -3,11 +3,13 @@ title: LuauTypeCheckMode
 type: enum
 ---
 
-# LuauTypeCheckMode (Enum)
+# `Enum.LuauTypeCheckMode`
+
+The `Enum.LuauTypeCheckMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| NoCheck | 1 |
-| Nonstrict | 2 |
-| Strict | 3 |
+| `Enum.LuauTypeCheckMode.Default` | 0 |
+| `Enum.LuauTypeCheckMode.NoCheck` | 1 |
+| `Enum.LuauTypeCheckMode.Nonstrict` | 2 |
+| `Enum.LuauTypeCheckMode.Strict` | 3 |

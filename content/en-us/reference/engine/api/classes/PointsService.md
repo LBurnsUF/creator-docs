@@ -7,17 +7,34 @@ tags: [NotCreatable, Service, Deprecated]
 
 # PointsService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, Deprecated
+**Tags:** [NotCreatable] [Service] [Deprecated]
 
 ## Methods
 
-- **AwardPoints**(`userId: int64`, `amount: int`) -> `Tuple` [Yields] [Deprecated]
-- **GetAwardablePoints**() -> `int` [Deprecated]
-- **GetGamePointBalance**(`userId: int64`) -> `int` [Yields] [Deprecated]
-- **GetPointBalance**(`userId: int64`) -> `int` [Yields] [Deprecated]
+### `Class.PointsService:AwardPoints`
+
+``AwardPoints(userId: `int64`, amount: `int`)`` → `Tuple`
+  [Yields] [Deprecated]
+
+### `Class.PointsService:GetAwardablePoints`
+
+``GetAwardablePoints()`` → `int`
+  [Deprecated]
+
+### `Class.PointsService:GetGamePointBalance`
+
+``GetGamePointBalance(userId: `int64`)`` → `int`
+  [Yields] [Deprecated]
+
+### `Class.PointsService:GetPointBalance`
+
+``GetPointBalance(userId: `int64`)`` → `int`
+  [Yields] [Deprecated]
 
 ## Events
 
-- **PointsAwarded**(`userId: int64`, `pointsAwarded: int`, `userBalanceInGame: int`, `userTotalBalance: int`)
+### `Class.PointsService.PointsAwarded`
+
+Fires with: (userId: `int64`, pointsAwarded: `int`, userBalanceInGame: `int`, userTotalBalance: `int`)

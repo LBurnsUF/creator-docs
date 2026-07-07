@@ -3,13 +3,15 @@ title: AdEventType
 type: enum
 ---
 
-# AdEventType (Enum)
+# `Enum.AdEventType`
+
+The `Enum.AdEventType` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| VideoLoaded | 0 |
-| VideoRemoved | 1 |
-| UserCompletedVideo | 2 |
-| RewardedAdLoaded | 3 |
-| RewardedAdGrant | 4 |
-| RewardedAdUnloaded | 5 |
+| `Enum.AdEventType.VideoLoaded` | 0 |
+| `Enum.AdEventType.VideoRemoved` | 1 |
+| `Enum.AdEventType.UserCompletedVideo` | 2 |
+| `Enum.AdEventType.RewardedAdLoaded` | 3 |
+| `Enum.AdEventType.RewardedAdGrant` | 4 |
+| `Enum.AdEventType.RewardedAdUnloaded` | 5 |

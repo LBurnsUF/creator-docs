@@ -3,29 +3,31 @@ title: QualityLevel
 type: enum
 ---
 
-# QualityLevel (Enum)
+# `Enum.QualityLevel`
+
+The `Enum.QualityLevel` enum has 22 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| Level01 | 1 |
-| Level02 | 2 |
-| Level03 | 3 |
-| Level04 | 4 |
-| Level05 | 5 |
-| Level06 | 6 |
-| Level07 | 7 |
-| Level08 | 8 |
-| Level09 | 9 |
-| Level10 | 10 |
-| Level11 | 11 |
-| Level12 | 12 |
-| Level13 | 13 |
-| Level14 | 14 |
-| Level15 | 15 |
-| Level16 | 16 |
-| Level17 | 17 |
-| Level18 | 18 |
-| Level19 | 19 |
-| Level20 | 20 |
-| Level21 | 21 |
+| `Enum.QualityLevel.Automatic` | 0 |
+| `Enum.QualityLevel.Level01` | 1 |
+| `Enum.QualityLevel.Level02` | 2 |
+| `Enum.QualityLevel.Level03` | 3 |
+| `Enum.QualityLevel.Level04` | 4 |
+| `Enum.QualityLevel.Level05` | 5 |
+| `Enum.QualityLevel.Level06` | 6 |
+| `Enum.QualityLevel.Level07` | 7 |
+| `Enum.QualityLevel.Level08` | 8 |
+| `Enum.QualityLevel.Level09` | 9 |
+| `Enum.QualityLevel.Level10` | 10 |
+| `Enum.QualityLevel.Level11` | 11 |
+| `Enum.QualityLevel.Level12` | 12 |
+| `Enum.QualityLevel.Level13` | 13 |
+| `Enum.QualityLevel.Level14` | 14 |
+| `Enum.QualityLevel.Level15` | 15 |
+| `Enum.QualityLevel.Level16` | 16 |
+| `Enum.QualityLevel.Level17` | 17 |
+| `Enum.QualityLevel.Level18` | 18 |
+| `Enum.QualityLevel.Level19` | 19 |
+| `Enum.QualityLevel.Level20` | 20 |
+| `Enum.QualityLevel.Level21` | 21 |

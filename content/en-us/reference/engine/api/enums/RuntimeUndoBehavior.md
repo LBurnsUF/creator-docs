@@ -3,10 +3,12 @@ title: RuntimeUndoBehavior
 type: enum
 ---
 
-# RuntimeUndoBehavior (Enum)
+# `Enum.RuntimeUndoBehavior`
+
+The `Enum.RuntimeUndoBehavior` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Aggregate | 0 |
-| Snapshot | 1 |
-| Hybrid | 2 |
+| `Enum.RuntimeUndoBehavior.Aggregate` | 0 |
+| `Enum.RuntimeUndoBehavior.Snapshot` | 1 |
+| `Enum.RuntimeUndoBehavior.Hybrid` | 2 |

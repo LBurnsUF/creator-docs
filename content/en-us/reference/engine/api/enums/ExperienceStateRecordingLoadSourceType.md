@@ -3,9 +3,11 @@ title: ExperienceStateRecordingLoadSourceType
 type: enum
 ---
 
-# ExperienceStateRecordingLoadSourceType (Enum)
+# `Enum.ExperienceStateRecordingLoadSourceType`
+
+The `Enum.ExperienceStateRecordingLoadSourceType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| S3Url | 0 |
-| File | 1 |
+| `Enum.ExperienceStateRecordingLoadSourceType.S3Url` | 0 |
+| `Enum.ExperienceStateRecordingLoadSourceType.File` | 1 |

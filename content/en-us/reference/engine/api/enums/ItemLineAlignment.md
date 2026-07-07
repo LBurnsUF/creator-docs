@@ -3,12 +3,14 @@ title: ItemLineAlignment
 type: enum
 ---
 
-# ItemLineAlignment (Enum)
+# `Enum.ItemLineAlignment`
+
+The `Enum.ItemLineAlignment` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| Start | 1 |
-| Center | 2 |
-| End | 3 |
-| Stretch | 4 |
+| `Enum.ItemLineAlignment.Automatic` | 0 |
+| `Enum.ItemLineAlignment.Start` | 1 |
+| `Enum.ItemLineAlignment.Center` | 2 |
+| `Enum.ItemLineAlignment.End` | 3 |
+| `Enum.ItemLineAlignment.Stretch` | 4 |

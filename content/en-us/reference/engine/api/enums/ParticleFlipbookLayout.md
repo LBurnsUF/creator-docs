@@ -3,12 +3,14 @@ title: ParticleFlipbookLayout
 type: enum
 ---
 
-# ParticleFlipbookLayout (Enum)
+# `Enum.ParticleFlipbookLayout`
+
+The `Enum.ParticleFlipbookLayout` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Grid2x2 | 1 |
-| Grid4x4 | 2 |
-| Grid8x8 | 3 |
-| Custom | 4 |
+| `Enum.ParticleFlipbookLayout.None` | 0 |
+| `Enum.ParticleFlipbookLayout.Grid2x2` | 1 |
+| `Enum.ParticleFlipbookLayout.Grid4x4` | 2 |
+| `Enum.ParticleFlipbookLayout.Grid8x8` | 3 |
+| `Enum.ParticleFlipbookLayout.Custom` | 4 |

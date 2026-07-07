@@ -7,10 +7,12 @@ tags: [NotCreatable, NotReplicated]
 
 # DataStoreKey
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **KeyName**: `string` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DataStoreKey.KeyName` | `string` | [ReadOnly] [NotReplicated] |

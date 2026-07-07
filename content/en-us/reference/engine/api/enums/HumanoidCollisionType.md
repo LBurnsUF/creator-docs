@@ -3,9 +3,11 @@ title: HumanoidCollisionType
 type: enum
 ---
 
-# HumanoidCollisionType (Enum)
+# `Enum.HumanoidCollisionType`
+
+The `Enum.HumanoidCollisionType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| OuterBox | 0 |
-| InnerBox | 1 |
+| `Enum.HumanoidCollisionType.OuterBox` | 0 |
+| `Enum.HumanoidCollisionType.InnerBox` | 1 |

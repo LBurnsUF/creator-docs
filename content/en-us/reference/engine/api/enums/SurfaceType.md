@@ -3,17 +3,19 @@ title: SurfaceType
 type: enum
 ---
 
-# SurfaceType (Enum)
+# `Enum.SurfaceType`
+
+The `Enum.SurfaceType` enum has 10 item(s).
 
 | Name | Value |
 |------|-------|
-| Smooth | 0 |
-| Glue | 1 |
-| Weld | 2 |
-| Studs | 3 |
-| Inlet | 4 |
-| Universal | 5 |
-| Hinge | 6 |
-| Motor | 7 |
-| SteppingMotor | 8 |
-| SmoothNoOutlines | 10 |
+| `Enum.SurfaceType.Smooth` | 0 |
+| `Enum.SurfaceType.Glue` | 1 |
+| `Enum.SurfaceType.Weld` | 2 |
+| `Enum.SurfaceType.Studs` | 3 |
+| `Enum.SurfaceType.Inlet` | 4 |
+| `Enum.SurfaceType.Universal` | 5 |
+| `Enum.SurfaceType.Hinge` | 6 |
+| `Enum.SurfaceType.Motor` | 7 |
+| `Enum.SurfaceType.SteppingMotor` | 8 |
+| `Enum.SurfaceType.SmoothNoOutlines` | 10 |

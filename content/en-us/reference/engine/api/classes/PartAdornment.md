@@ -7,10 +7,12 @@ tags: [NotCreatable]
 
 # PartAdornment
 
-**Inherits**: GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Adornee**: `BasePart`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PartAdornment.Adornee` | `Class.BasePart` |  |

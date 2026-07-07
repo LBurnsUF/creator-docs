@@ -3,9 +3,11 @@ title: AvatarThumbnailCustomizationType
 type: enum
 ---
 
-# AvatarThumbnailCustomizationType (Enum)
+# `Enum.AvatarThumbnailCustomizationType`
+
+The `Enum.AvatarThumbnailCustomizationType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Closeup | 1 |
-| FullBody | 2 |
+| `Enum.AvatarThumbnailCustomizationType.Closeup` | 1 |
+| `Enum.AvatarThumbnailCustomizationType.FullBody` | 2 |

@@ -3,9 +3,11 @@ title: NotificationButtonType
 type: enum
 ---
 
-# NotificationButtonType (Enum)
+# `Enum.NotificationButtonType`
+
+The `Enum.NotificationButtonType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Primary | 0 |
-| Secondary | 1 |
+| `Enum.NotificationButtonType.Primary` | 0 |
+| `Enum.NotificationButtonType.Secondary` | 1 |

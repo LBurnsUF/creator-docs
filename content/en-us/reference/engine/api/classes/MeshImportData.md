@@ -7,29 +7,31 @@ tags: [NotCreatable, NotReplicated]
 
 # MeshImportData
 
-**Inherits**: BaseImportData > Instance > Object
+**Inherits from:** `Class.BaseImportData` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Anchored**: `bool`
-- **CageManifold**: `bool` [ReadOnly] [NotReplicated]
-- **CageMeshIntersectedPreview**: `bool`
-- **CageMeshNotIntersected**: `bool` [ReadOnly] [NotReplicated]
-- **CageNoOverlappingVertices**: `bool` [ReadOnly] [NotReplicated]
-- **CageNonManifoldPreview**: `bool`
-- **CageOverlappingVerticesPreview**: `bool`
-- **CageUVMatched**: `bool` [ReadOnly] [NotReplicated]
-- **CageUVMisMatchedPreview**: `bool`
-- **Dimensions**: `Vector3` [ReadOnly] [NotReplicated]
-- **DoubleSided**: `bool`
-- **IgnoreVertexColors**: `bool`
-- **IrrelevantCageModifiedPreview**: `bool`
-- **MeshHoleDetectedPreview**: `bool`
-- **MeshNoHoleDetected**: `bool` [ReadOnly] [NotReplicated]
-- **NoIrrelevantCageModified**: `bool` [ReadOnly] [NotReplicated]
-- **NoOuterCageFarExtendedFromMesh**: `bool` [ReadOnly] [NotReplicated]
-- **OuterCageFarExtendedFromMeshPreview**: `bool`
-- **PolygonCount**: `float` [ReadOnly] [NotReplicated]
-- **UseImportedPivot**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.MeshImportData.Anchored` | `bool` |  |
+| `Class.MeshImportData.CageManifold` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.MeshImportData.CageMeshIntersectedPreview` | `bool` |  |
+| `Class.MeshImportData.CageMeshNotIntersected` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.MeshImportData.CageNoOverlappingVertices` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.MeshImportData.CageNonManifoldPreview` | `bool` |  |
+| `Class.MeshImportData.CageOverlappingVerticesPreview` | `bool` |  |
+| `Class.MeshImportData.CageUVMatched` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.MeshImportData.CageUVMisMatchedPreview` | `bool` |  |
+| `Class.MeshImportData.Dimensions` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |
+| `Class.MeshImportData.DoubleSided` | `bool` |  |
+| `Class.MeshImportData.IgnoreVertexColors` | `bool` |  |
+| `Class.MeshImportData.IrrelevantCageModifiedPreview` | `bool` |  |
+| `Class.MeshImportData.MeshHoleDetectedPreview` | `bool` |  |
+| `Class.MeshImportData.MeshNoHoleDetected` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.MeshImportData.NoIrrelevantCageModified` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.MeshImportData.NoOuterCageFarExtendedFromMesh` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.MeshImportData.OuterCageFarExtendedFromMeshPreview` | `bool` |  |
+| `Class.MeshImportData.PolygonCount` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.MeshImportData.UseImportedPivot` | `bool` |  |

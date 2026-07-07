@@ -3,18 +3,20 @@ title: EasingStyle
 type: enum
 ---
 
-# EasingStyle (Enum)
+# `Enum.EasingStyle`
+
+The `Enum.EasingStyle` enum has 11 item(s).
 
 | Name | Value |
 |------|-------|
-| Linear | 0 |
-| Sine | 1 |
-| Back | 2 |
-| Quad | 3 |
-| Quart | 4 |
-| Quint | 5 |
-| Bounce | 6 |
-| Elastic | 7 |
-| Exponential | 8 |
-| Circular | 9 |
-| Cubic | 10 |
+| `Enum.EasingStyle.Linear` | 0 |
+| `Enum.EasingStyle.Sine` | 1 |
+| `Enum.EasingStyle.Back` | 2 |
+| `Enum.EasingStyle.Quad` | 3 |
+| `Enum.EasingStyle.Quart` | 4 |
+| `Enum.EasingStyle.Quint` | 5 |
+| `Enum.EasingStyle.Bounce` | 6 |
+| `Enum.EasingStyle.Elastic` | 7 |
+| `Enum.EasingStyle.Exponential` | 8 |
+| `Enum.EasingStyle.Circular` | 9 |
+| `Enum.EasingStyle.Cubic` | 10 |

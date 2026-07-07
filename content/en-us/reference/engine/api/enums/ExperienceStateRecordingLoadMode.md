@@ -3,10 +3,12 @@ title: ExperienceStateRecordingLoadMode
 type: enum
 ---
 
-# ExperienceStateRecordingLoadMode (Enum)
+# `Enum.ExperienceStateRecordingLoadMode`
+
+The `Enum.ExperienceStateRecordingLoadMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| NewReplay | 0 |
-| ContiguousSlice | 1 |
-| NoncontiguousSlice | 2 |
+| `Enum.ExperienceStateRecordingLoadMode.NewReplay` | 0 |
+| `Enum.ExperienceStateRecordingLoadMode.ContiguousSlice` | 1 |
+| `Enum.ExperienceStateRecordingLoadMode.NoncontiguousSlice` | 2 |

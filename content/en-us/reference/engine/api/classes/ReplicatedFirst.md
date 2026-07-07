@@ -7,19 +7,41 @@ tags: [NotCreatable, Service]
 
 # ReplicatedFirst
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **IsDefaultLoadingGuiRemoved**() -> `bool`
-- **IsFinishedReplicating**() -> `bool`
-- **RemoveDefaultLoadingScreen**() -> `null`
-- **SetDefaultLoadingGuiRemoved**() -> `null`
+### `Class.ReplicatedFirst:IsDefaultLoadingGuiRemoved`
+
+``IsDefaultLoadingGuiRemoved()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.ReplicatedFirst:IsFinishedReplicating`
+
+``IsFinishedReplicating()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.ReplicatedFirst:RemoveDefaultLoadingScreen`
+
+``RemoveDefaultLoadingScreen()`` → `null`
+
+### `Class.ReplicatedFirst:SetDefaultLoadingGuiRemoved`
+
+``SetDefaultLoadingGuiRemoved()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **DefaultLoadingGuiRemoved**()
-- **FinishedReplicating**()
-- **RemoveDefaultLoadingGuiSignal**()
+### `Class.ReplicatedFirst.DefaultLoadingGuiRemoved`
+
+Fires with: ()
+
+### `Class.ReplicatedFirst.FinishedReplicating`
+
+Fires with: ()
+
+### `Class.ReplicatedFirst.RemoveDefaultLoadingGuiSignal`
+
+Fires with: ()

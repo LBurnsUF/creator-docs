@@ -3,9 +3,11 @@ title: ApplyStrokeMode
 type: enum
 ---
 
-# ApplyStrokeMode (Enum)
+# `Enum.ApplyStrokeMode`
+
+The `Enum.ApplyStrokeMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Contextual | 0 |
-| Border | 1 |
+| `Enum.ApplyStrokeMode.Contextual` | 0 |
+| `Enum.ApplyStrokeMode.Border` | 1 |

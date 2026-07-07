@@ -7,10 +7,12 @@ tags: [NotCreatable, NotReplicated]
 
 # PausedStateException
 
-**Inherits**: PausedState > Instance > Object
+**Inherits from:** `Class.PausedState` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **ExceptionText**: `string` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PausedStateException.ExceptionText` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |

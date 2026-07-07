@@ -7,25 +7,73 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # DebuggerUIService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **EditBreakpoint**(`metaBreakpointId: int`) -> `null`
-- **EditWatch**(`expression: string`) -> `null`
-- **IsConnectionForPlayDataModel**(`debuggerConnectionId: int`) -> `bool`
-- **OpenExceptionMessagePopup**(`exceptionMessage: string`, `pausedLine: int`) -> `null`
-- **OpenScriptAtLine**(`guid: string`, `debuggerConnectionId: int`, `line: int`, `showErrorOnFail: bool`) -> `null`
-- **Pause**() -> `null`
-- **RemoveScriptLineMarkers**(`debuggerConnectionId: int`, `allMarkers: bool`) -> `null`
-- **Resume**() -> `null`
-- **SetCurrentThreadId**(`debuggerThreadId: int`) -> `null`
-- **SetScriptLineMarker**(`guid: string`, `debuggerConnectionId: int`, `line: int`, `lineMarkerType: bool`) -> `null`
-- **SetWatchExpressions**(`expressions: Array`) -> `null`
+### `Class.DebuggerUIService:EditBreakpoint`
+
+``EditBreakpoint(metaBreakpointId: `int`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerUIService:EditWatch`
+
+``EditWatch(expression: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerUIService:IsConnectionForPlayDataModel`
+
+``IsConnectionForPlayDataModel(debuggerConnectionId: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerUIService:OpenExceptionMessagePopup`
+
+``OpenExceptionMessagePopup(exceptionMessage: `string`, pausedLine: `int`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerUIService:OpenScriptAtLine`
+
+``OpenScriptAtLine(guid: `string`, debuggerConnectionId: `int`, line: `int`, showErrorOnFail: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerUIService:Pause`
+
+``Pause()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerUIService:RemoveScriptLineMarkers`
+
+``RemoveScriptLineMarkers(debuggerConnectionId: `int`, allMarkers: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerUIService:Resume`
+
+``Resume()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerUIService:SetCurrentThreadId`
+
+``SetCurrentThreadId(debuggerThreadId: `int`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerUIService:SetScriptLineMarker`
+
+``SetScriptLineMarker(guid: `string`, debuggerConnectionId: `int`, line: `int`, lineMarkerType: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerUIService:SetWatchExpressions`
+
+``SetWatchExpressions(expressions: `Array`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **ExpressionAdded**(`expression: string`)
-- **ExpressionsCleared**()
+### `Class.DebuggerUIService.ExpressionAdded`
+
+Fires with: (expression: `string`)
+
+### `Class.DebuggerUIService.ExpressionsCleared`
+
+Fires with: ()

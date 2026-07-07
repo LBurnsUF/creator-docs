@@ -6,17 +6,19 @@ superclass: UIComponent
 
 # UIStroke
 
-**Inherits**: UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ApplyStrokeMode**: `ApplyStrokeMode`
-- **BorderOffset**: `UDim`
-- **BorderStrokePosition**: `BorderStrokePosition`
-- **Color**: `Color3`
-- **Enabled**: `bool`
-- **LineJoinMode**: `LineJoinMode`
-- **StrokeSizingMode**: `StrokeSizingMode`
-- **Thickness**: `float`
-- **Transparency**: `float`
-- **ZIndex**: `int`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIStroke.ApplyStrokeMode` | `Enum.ApplyStrokeMode` |  |
+| `Class.UIStroke.BorderOffset` | `Datatype.UDim` |  |
+| `Class.UIStroke.BorderStrokePosition` | `Enum.BorderStrokePosition` |  |
+| `Class.UIStroke.Color` | `Datatype.Color3` |  |
+| `Class.UIStroke.Enabled` | `bool` |  |
+| `Class.UIStroke.LineJoinMode` | `Enum.LineJoinMode` |  |
+| `Class.UIStroke.StrokeSizingMode` | `Enum.StrokeSizingMode` |  |
+| `Class.UIStroke.Thickness` | `float` |  |
+| `Class.UIStroke.Transparency` | `float` |  |
+| `Class.UIStroke.ZIndex` | `int` |  |

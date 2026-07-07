@@ -7,19 +7,28 @@ tags: [NotCreatable, NotBrowsable]
 
 # UIGridStyleLayout
 
-**Inherits**: UILayout > UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UILayout` > `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Properties
 
-- **AbsoluteContentSize**: `Vector2` [ReadOnly] [NotReplicated]
-- **FillDirection**: `FillDirection`
-- **HorizontalAlignment**: `HorizontalAlignment`
-- **SortOrder**: `SortOrder`
-- **VerticalAlignment**: `VerticalAlignment`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIGridStyleLayout.AbsoluteContentSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.UIGridStyleLayout.FillDirection` | `Enum.FillDirection` |  |
+| `Class.UIGridStyleLayout.HorizontalAlignment` | `Enum.HorizontalAlignment` |  |
+| `Class.UIGridStyleLayout.SortOrder` | `Enum.SortOrder` |  |
+| `Class.UIGridStyleLayout.VerticalAlignment` | `Enum.VerticalAlignment` |  |
 
 ## Methods
 
-- **ApplyLayout**() -> `null` [Deprecated]
-- **SetCustomSortFunction**(`function: Function = nil`) -> `null` [Deprecated]
+### `Class.UIGridStyleLayout:ApplyLayout`
+
+``ApplyLayout()`` → `null`
+  [Deprecated]
+
+### `Class.UIGridStyleLayout:SetCustomSortFunction`
+
+``SetCustomSortFunction(function: `Datatype.Function`)`` → `null`
+  [Deprecated]

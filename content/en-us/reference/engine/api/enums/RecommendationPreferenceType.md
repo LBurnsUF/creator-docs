@@ -3,11 +3,13 @@ title: RecommendationPreferenceType
 type: enum
 ---
 
-# RecommendationPreferenceType (Enum)
+# `Enum.RecommendationPreferenceType`
+
+The `Enum.RecommendationPreferenceType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| AddFollow | 0 |
-| RemoveFollow | 1 |
-| AddMute | 2 |
-| RemoveMute | 3 |
+| `Enum.RecommendationPreferenceType.AddFollow` | 0 |
+| `Enum.RecommendationPreferenceType.RemoveFollow` | 1 |
+| `Enum.RecommendationPreferenceType.AddMute` | 2 |
+| `Enum.RecommendationPreferenceType.RemoveMute` | 3 |

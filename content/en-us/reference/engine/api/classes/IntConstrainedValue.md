@@ -7,18 +7,26 @@ tags: [Deprecated]
 
 # IntConstrainedValue
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **ConstrainedValue**: `int64` [Hidden] [NotReplicated]
-- **MaxValue**: `int64`
-- **MinValue**: `int64`
-- **Value**: `int64` [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.IntConstrainedValue.ConstrainedValue` | `int64` | [Hidden] [NotReplicated] |
+| `Class.IntConstrainedValue.MaxValue` | `int64` |  |
+| `Class.IntConstrainedValue.MinValue` | `int64` |  |
+| `Class.IntConstrainedValue.Value` | `int64` | [NotReplicated] |
 
 ## Events
 
-- **Changed**(`value: int64`)
-- **changed**(`value: int64`) [Deprecated]
+### `Class.IntConstrainedValue.Changed`
+
+Fires with: (value: `int64`)
+
+### `Class.IntConstrainedValue.changed`
+
+Fires with: (value: `int64`)
+  [Deprecated]

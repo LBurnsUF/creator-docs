@@ -3,12 +3,14 @@ title: VoiceRccReconnectReason
 type: enum
 ---
 
-# VoiceRccReconnectReason (Enum)
+# `Enum.VoiceRccReconnectReason`
+
+The `Enum.VoiceRccReconnectReason` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| Migration | 1 |
-| CloseRoom | 2 |
-| FAEUpdate | 3 |
-| BlockListChanged | 4 |
+| `Enum.VoiceRccReconnectReason.Unknown` | 0 |
+| `Enum.VoiceRccReconnectReason.Migration` | 1 |
+| `Enum.VoiceRccReconnectReason.CloseRoom` | 2 |
+| `Enum.VoiceRccReconnectReason.FAEUpdate` | 3 |
+| `Enum.VoiceRccReconnectReason.BlockListChanged` | 4 |

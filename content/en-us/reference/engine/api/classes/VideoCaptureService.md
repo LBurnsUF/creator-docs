@@ -7,22 +7,38 @@ tags: [NotCreatable, Service]
 
 # VideoCaptureService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **Active**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CameraID**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VideoCaptureService.Active` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.VideoCaptureService.CameraID` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetCameraDevices**() -> `Map`
+### `Class.VideoCaptureService:GetCameraDevices`
+
+``GetCameraDevices()`` → `Map`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **DevicesChanged**()
-- **Error**(`cameraid: string`, `errorcode: string`)
-- **Started**(`cameraid: string`)
-- **Stopped**(`cameraid: string`)
+### `Class.VideoCaptureService.DevicesChanged`
+
+Fires with: ()
+
+### `Class.VideoCaptureService.Error`
+
+Fires with: (cameraid: `string`, errorcode: `string`)
+
+### `Class.VideoCaptureService.Started`
+
+Fires with: (cameraid: `string`)
+
+### `Class.VideoCaptureService.Stopped`
+
+Fires with: (cameraid: `string`)

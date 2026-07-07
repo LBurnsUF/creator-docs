@@ -6,10 +6,12 @@ superclass: Attachment
 
 # Bone
 
-**Inherits**: Attachment > Instance > Object
+**Inherits from:** `Class.Attachment` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Transform**: `CFrame` [NotReplicated]
-- **TransformedCFrame**: `CFrame` [Hidden] [ReadOnly] [NotReplicated]
-- **TransformedWorldCFrame**: `CFrame` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Bone.Transform` | `Datatype.CFrame` | [NotReplicated] |
+| `Class.Bone.TransformedCFrame` | `Datatype.CFrame` | [Hidden] [ReadOnly] [NotReplicated] |
+| `Class.Bone.TransformedWorldCFrame` | `Datatype.CFrame` | [ReadOnly] [NotReplicated] |

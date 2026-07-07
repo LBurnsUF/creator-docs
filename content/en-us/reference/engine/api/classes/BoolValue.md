@@ -6,13 +6,21 @@ superclass: ValueBase
 
 # BoolValue
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Value**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BoolValue.Value` | `bool` |  |
 
 ## Events
 
-- **Changed**(`value: bool`)
-- **changed**(`value: bool`) [Deprecated]
+### `Class.BoolValue.Changed`
+
+Fires with: (value: `bool`)
+
+### `Class.BoolValue.changed`
+
+Fires with: (value: `bool`)
+  [Deprecated]

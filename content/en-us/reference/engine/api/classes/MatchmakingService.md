@@ -7,12 +7,20 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # MatchmakingService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetServerAttribute**(`name: string`) -> `Tuple`
-- **InitializeServerAttributesForStudio**(`serverAttributes: Dictionary`) -> `Tuple`
-- **SetServerAttribute**(`name: string`, `value: Variant`) -> `Tuple`
+### `Class.MatchmakingService:GetServerAttribute`
+
+``GetServerAttribute(name: `string`)`` → `Tuple`
+
+### `Class.MatchmakingService:InitializeServerAttributesForStudio`
+
+``InitializeServerAttributesForStudio(serverAttributes: `Dictionary`)`` → `Tuple`
+
+### `Class.MatchmakingService:SetServerAttribute`
+
+``SetServerAttribute(name: `string`, value: `Variant`)`` → `Tuple`

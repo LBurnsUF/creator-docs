@@ -3,9 +3,11 @@ title: AdUnitStatus
 type: enum
 ---
 
-# AdUnitStatus (Enum)
+# `Enum.AdUnitStatus`
+
+The `Enum.AdUnitStatus` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Inactive | 0 |
-| Active | 1 |
+| `Enum.AdUnitStatus.Inactive` | 0 |
+| `Enum.AdUnitStatus.Active` | 1 |

@@ -6,9 +6,14 @@ superclass: StyleBase
 
 # StyleSheet
 
-**Inherits**: StyleBase > Instance > Object
+**Inherits from:** `Class.StyleBase` > `Class.Instance` > `Class.Object`
 
 ## Methods
 
-- **GetDerives**() -> `Instances`
-- **SetDerives**(`derives: Instances`) -> `null`
+### `Class.StyleSheet:GetDerives`
+
+``GetDerives()`` → `Datatype.Instances`
+
+### `Class.StyleSheet:SetDerives`
+
+``SetDerives(derives: `Datatype.Instances`)`` → `null`

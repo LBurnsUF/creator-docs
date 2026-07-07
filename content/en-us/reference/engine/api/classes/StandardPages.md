@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # StandardPages
 
-**Inherits**: Pages > Instance > Object
+**Inherits from:** `Class.Pages` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

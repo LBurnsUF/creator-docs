@@ -6,10 +6,12 @@ superclass: HandleAdornment
 
 # ImageHandleAdornment
 
-**Inherits**: HandleAdornment > PVAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.HandleAdornment` > `Class.PVAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Image**: `ContentId`
-- **ImageContent**: `Content`
-- **Size**: `Vector2`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ImageHandleAdornment.Image` | `Datatype.ContentId` |  |
+| `Class.ImageHandleAdornment.ImageContent` | `Datatype.Content` |  |
+| `Class.ImageHandleAdornment.Size` | `Datatype.Vector2` |  |

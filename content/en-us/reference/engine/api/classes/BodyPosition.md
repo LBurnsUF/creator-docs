@@ -7,24 +7,34 @@ tags: [Deprecated]
 
 # BodyPosition
 
-**Inherits**: BodyMover > Instance > Object
+**Inherits from:** `Class.BodyMover` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **D**: `float`
-- **MaxForce**: `Vector3`
-- **P**: `float`
-- **Position**: `Vector3`
-- **maxForce**: `Vector3` [NotReplicated] [Deprecated]
-- **position**: `Vector3` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BodyPosition.D` | `float` |  |
+| `Class.BodyPosition.MaxForce` | `Datatype.Vector3` |  |
+| `Class.BodyPosition.P` | `float` |  |
+| `Class.BodyPosition.Position` | `Datatype.Vector3` |  |
+| `Class.BodyPosition.maxForce` | `Datatype.Vector3` | [NotReplicated] [Deprecated] |
+| `Class.BodyPosition.position` | `Datatype.Vector3` | [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **GetLastForce**() -> `Vector3`
-- **lastForce**() -> `Vector3` [Deprecated]
+### `Class.BodyPosition:GetLastForce`
+
+``GetLastForce()`` → `Datatype.Vector3`
+
+### `Class.BodyPosition:lastForce`
+
+``lastForce()`` → `Datatype.Vector3`
+  [Deprecated]
 
 ## Events
 
-- **ReachedTarget**()
+### `Class.BodyPosition.ReachedTarget`
+
+Fires with: ()

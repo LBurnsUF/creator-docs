@@ -7,46 +7,152 @@ tags: [NotCreatable, Service]
 
 # TeleportService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **CustomizedTeleportUI**: `bool` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TeleportService.CustomizedTeleportUI` | `bool` | [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **Block**() -> `null`
-- **GetArrivingTeleportGui**() -> `Instance`
-- **GetLocalPlayerTeleportData**() -> `Variant`
-- **GetPlayerPlaceInstanceAsync**(`userId: User`) -> `Tuple` [Yields]
-- **GetTeleportSetting**(`setting: string`) -> `Variant`
-- **GetThirdPartyTeleportInfo**(`goForth: bool`) -> `Tuple`
-- **PromptExperienceDetailsAsync**(`player: Player`, `universeId: int64`) -> `PromptExperienceDetailsResult` [Yields]
-- **PromptExperienceDetailsCompleted**(`resultEnum: PromptExperienceDetailsResult`, `errorMessage: string = `) -> `null`
-- **ReserveServer**(`placeId: int64`) -> `Tuple` [Yields] [Deprecated]
-- **ReserveServerAsync**(`placeId: int64`) -> `Tuple` [Yields]
-- **SetTeleportGui**(`gui: Instance`) -> `null`
-- **SetTeleportSetting**(`setting: string`, `value: Variant`) -> `null`
-- **Teleport**(`placeId: int64`, `player: Instance = nil`, `teleportData: Variant`, `customLoadingScreen: Instance = nil`) -> `null`
-- **TeleportAsync**(`placeId: int64`, `players: Instances`, `teleportOptions: Instance = nil`) -> `Instance` [Yields]
-- **TeleportCancel**() -> `null`
-- **TeleportPartyAsync**(`placeId: int64`, `players: Instances`, `teleportData: Variant`, `customLoadingScreen: Instance = nil`) -> `string` [Yields]
-- **TeleportReconnect**() -> `null`
-- **TeleportToPlaceInstance**(`placeId: int64`, `instanceId: string`, `player: Instance = nil`, `spawnName: string = `, `teleportData: Variant`, `customLoadingScreen: Instance = nil`) -> `null`
-- **TeleportToPrivateServer**(`placeId: int64`, `reservedServerAccessCode: string`, `players: Instances`, `spawnName: string = `, `teleportData: Variant`, `customLoadingScreen: Instance = nil`) -> `null`
-- **TeleportToSpawnByName**(`placeId: int64`, `spawnName: string`, `player: Instance = nil`, `teleportData: Variant`, `customLoadingScreen: Instance = nil`) -> `null`
-- **TeleportTrustedBackForth**(`goForth: bool`) -> `null`
-- **TeleportTrustedBackHistory**(`placeId: int64`) -> `null`
-- **TeleportedPlacesBackHistory**() -> `Array`
-- **TeleportedUniversesBackHistory**() -> `Array`
-- **UnblockAsync**() -> `Tuple` [Yields]
+### `Class.TeleportService:Block`
+
+``Block()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TeleportService:GetArrivingTeleportGui`
+
+``GetArrivingTeleportGui()`` → `Class.Instance`
+
+### `Class.TeleportService:GetLocalPlayerTeleportData`
+
+``GetLocalPlayerTeleportData()`` → `Variant`
+
+### `Class.TeleportService:GetPlayerPlaceInstanceAsync`
+
+``GetPlayerPlaceInstanceAsync(userId: `Datatype.User`)`` → `Tuple`
+  [Yields]
+
+### `Class.TeleportService:GetTeleportSetting`
+
+``GetTeleportSetting(setting: `string`)`` → `Variant`
+
+### `Class.TeleportService:GetThirdPartyTeleportInfo`
+
+``GetThirdPartyTeleportInfo(goForth: `bool`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.TeleportService:PromptExperienceDetailsAsync`
+
+``PromptExperienceDetailsAsync(player: `Class.Player`, universeId: `int64`)`` → `Enum.PromptExperienceDetailsResult`
+  [Yields]
+
+### `Class.TeleportService:PromptExperienceDetailsCompleted`
+
+``PromptExperienceDetailsCompleted(resultEnum: `Enum.PromptExperienceDetailsResult`, errorMessage: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TeleportService:ReserveServer`
+
+``ReserveServer(placeId: `int64`)`` → `Tuple`
+  [Yields] [Deprecated]
+
+### `Class.TeleportService:ReserveServerAsync`
+
+``ReserveServerAsync(placeId: `int64`)`` → `Tuple`
+  [Yields]
+
+### `Class.TeleportService:SetTeleportGui`
+
+``SetTeleportGui(gui: `Class.Instance`)`` → `null`
+
+### `Class.TeleportService:SetTeleportSetting`
+
+``SetTeleportSetting(setting: `string`, value: `Variant`)`` → `null`
+
+### `Class.TeleportService:Teleport`
+
+``Teleport(placeId: `int64`, player: `Class.Instance`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` → `null`
+
+### `Class.TeleportService:TeleportAsync`
+
+``TeleportAsync(placeId: `int64`, players: `Datatype.Instances`, teleportOptions: `Class.Instance`)`` → `Class.Instance`
+  [Yields]
+
+### `Class.TeleportService:TeleportCancel`
+
+``TeleportCancel()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TeleportService:TeleportPartyAsync`
+
+``TeleportPartyAsync(placeId: `int64`, players: `Datatype.Instances`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` → `string`
+  [Yields]
+
+### `Class.TeleportService:TeleportReconnect`
+
+``TeleportReconnect()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TeleportService:TeleportToPlaceInstance`
+
+``TeleportToPlaceInstance(placeId: `int64`, instanceId: `string`, player: `Class.Instance`, spawnName: `string`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` → `null`
+
+### `Class.TeleportService:TeleportToPrivateServer`
+
+``TeleportToPrivateServer(placeId: `int64`, reservedServerAccessCode: `string`, players: `Datatype.Instances`, spawnName: `string`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` → `null`
+
+### `Class.TeleportService:TeleportToSpawnByName`
+
+``TeleportToSpawnByName(placeId: `int64`, spawnName: `string`, player: `Class.Instance`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` → `null`
+
+### `Class.TeleportService:TeleportTrustedBackForth`
+
+``TeleportTrustedBackForth(goForth: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TeleportService:TeleportTrustedBackHistory`
+
+``TeleportTrustedBackHistory(placeId: `int64`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.TeleportService:TeleportedPlacesBackHistory`
+
+``TeleportedPlacesBackHistory()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.TeleportService:TeleportedUniversesBackHistory`
+
+``TeleportedUniversesBackHistory()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.TeleportService:UnblockAsync`
+
+``UnblockAsync()`` → `Tuple`
+  [Yields] {security: RobloxScriptSecurity}
 
 ## Events
 
-- **LocalPlayerArrivedFromTeleport**(`loadingGui: Instance`, `dataTable: Variant`)
-- **MenuTeleportAttempt**()
-- **OpenExperienceDetailsPrompt**(`universeId: int64`)
-- **ReconnectTeleportInitFailed**(`player: Instance`, `teleportResult: TeleportResult`, `errorMessage: string`, `placeId: int64`, `teleportOptions: Instance`)
-- **TeleportInitFailed**(`player: Instance`, `teleportResult: TeleportResult`, `errorMessage: string`, `placeId: int64`, `teleportOptions: Instance`)
+### `Class.TeleportService.LocalPlayerArrivedFromTeleport`
+
+Fires with: (loadingGui: `Class.Instance`, dataTable: `Variant`)
+
+### `Class.TeleportService.MenuTeleportAttempt`
+
+Fires with: ()
+
+### `Class.TeleportService.OpenExperienceDetailsPrompt`
+
+Fires with: (universeId: `int64`)
+
+### `Class.TeleportService.ReconnectTeleportInitFailed`
+
+Fires with: (player: `Class.Instance`, teleportResult: `Enum.TeleportResult`, errorMessage: `string`, placeId: `int64`, teleportOptions: `Class.Instance`)
+
+### `Class.TeleportService.TeleportInitFailed`
+
+Fires with: (player: `Class.Instance`, teleportResult: `Enum.TeleportResult`, errorMessage: `string`, placeId: `int64`, teleportOptions: `Class.Instance`)

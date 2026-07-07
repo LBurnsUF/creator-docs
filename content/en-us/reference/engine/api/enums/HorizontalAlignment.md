@@ -3,10 +3,12 @@ title: HorizontalAlignment
 type: enum
 ---
 
-# HorizontalAlignment (Enum)
+# `Enum.HorizontalAlignment`
+
+The `Enum.HorizontalAlignment` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Center | 0 |
-| Left | 1 |
-| Right | 2 |
+| `Enum.HorizontalAlignment.Center` | 0 |
+| `Enum.HorizontalAlignment.Left` | 1 |
+| `Enum.HorizontalAlignment.Right` | 2 |

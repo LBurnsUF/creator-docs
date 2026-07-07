@@ -7,10 +7,12 @@ tags: [NotCreatable, Service]
 
 # StudioData
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **EnableScriptCollabByDefaultOnLoad**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StudioData.EnableScriptCollabByDefaultOnLoad` | `bool` | [Hidden] {security: RobloxScriptSecurity} |

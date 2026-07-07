@@ -7,12 +7,14 @@ tags: [NotCreatable, NotReplicated]
 
 # GroupImportData
 
-**Inherits**: BaseImportData > Instance > Object
+**Inherits from:** `Class.BaseImportData` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Anchored**: `bool`
-- **ImportAsModelAsset**: `bool`
-- **InsertInWorkspace**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.GroupImportData.Anchored` | `bool` |  |
+| `Class.GroupImportData.ImportAsModelAsset` | `bool` |  |
+| `Class.GroupImportData.InsertInWorkspace` | `bool` |  |

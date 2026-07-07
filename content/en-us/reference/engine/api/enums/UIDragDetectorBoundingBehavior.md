@@ -3,10 +3,12 @@ title: UIDragDetectorBoundingBehavior
 type: enum
 ---
 
-# UIDragDetectorBoundingBehavior (Enum)
+# `Enum.UIDragDetectorBoundingBehavior`
+
+The `Enum.UIDragDetectorBoundingBehavior` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| EntireObject | 1 |
-| HitPoint | 2 |
+| `Enum.UIDragDetectorBoundingBehavior.Automatic` | 0 |
+| `Enum.UIDragDetectorBoundingBehavior.EntireObject` | 1 |
+| `Enum.UIDragDetectorBoundingBehavior.HitPoint` | 2 |

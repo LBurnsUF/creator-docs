@@ -7,12 +7,14 @@ tags: [NotCreatable]
 
 # SurfaceGuiBase
 
-**Inherits**: LayerCollector > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.LayerCollector` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Active**: `bool`
-- **Adornee**: `Instance`
-- **Face**: `NormalId`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SurfaceGuiBase.Active` | `bool` |  |
+| `Class.SurfaceGuiBase.Adornee` | `Class.Instance` |  |
+| `Class.SurfaceGuiBase.Face` | `Enum.NormalId` |  |

@@ -3,12 +3,14 @@ title: WaterForce
 type: enum
 ---
 
-# WaterForce (Enum)
+# `Enum.WaterForce`
+
+The `Enum.WaterForce` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Small | 1 |
-| Medium | 2 |
-| Strong | 3 |
-| Max | 4 |
+| `Enum.WaterForce.None` | 0 |
+| `Enum.WaterForce.Small` | 1 |
+| `Enum.WaterForce.Medium` | 2 |
+| `Enum.WaterForce.Strong` | 3 |
+| `Enum.WaterForce.Max` | 4 |

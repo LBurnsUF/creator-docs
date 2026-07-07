@@ -3,10 +3,12 @@ title: ModerationResultCategory
 type: enum
 ---
 
-# ModerationResultCategory (Enum)
+# `Enum.ModerationResultCategory`
+
+The `Enum.ModerationResultCategory` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| ViolationDetected | 0 |
-| Borderline | 1 |
-| NoViolationDetected | 2 |
+| `Enum.ModerationResultCategory.ViolationDetected` | 0 |
+| `Enum.ModerationResultCategory.Borderline` | 1 |
+| `Enum.ModerationResultCategory.NoViolationDetected` | 2 |

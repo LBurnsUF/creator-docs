@@ -3,10 +3,12 @@ title: KeyInterpolationMode
 type: enum
 ---
 
-# KeyInterpolationMode (Enum)
+# `Enum.KeyInterpolationMode`
+
+The `Enum.KeyInterpolationMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Constant | 0 |
-| Linear | 1 |
-| Cubic | 2 |
+| `Enum.KeyInterpolationMode.Constant` | 0 |
+| `Enum.KeyInterpolationMode.Linear` | 1 |
+| `Enum.KeyInterpolationMode.Cubic` | 2 |

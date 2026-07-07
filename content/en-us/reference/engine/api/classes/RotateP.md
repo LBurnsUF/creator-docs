@@ -7,6 +7,6 @@ tags: [Deprecated]
 
 # RotateP
 
-**Inherits**: DynamicRotate > JointInstance > Instance > Object
+**Inherits from:** `Class.DynamicRotate` > `Class.JointInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]

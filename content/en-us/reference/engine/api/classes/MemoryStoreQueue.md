@@ -7,13 +7,28 @@ tags: [NotCreatable, NotReplicated]
 
 # MemoryStoreQueue
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **AddAsync**(`value: Variant`, `expiration: int64`, `priority: double = 0`) -> `null` [Yields]
-- **GetSizeAsync**(`excludeInvisible: bool = false`) -> `int` [Yields]
-- **ReadAsync**(`count: int`, `allOrNothing: bool = false`, `waitTimeout: double = -1`) -> `Tuple` [Yields]
-- **RemoveAsync**(`id: string`) -> `null` [Yields]
+### `Class.MemoryStoreQueue:AddAsync`
+
+``AddAsync(value: `Variant`, expiration: `int64`, priority: `double`)`` → `null`
+  [Yields]
+
+### `Class.MemoryStoreQueue:GetSizeAsync`
+
+``GetSizeAsync(excludeInvisible: `bool`)`` → `int`
+  [Yields]
+
+### `Class.MemoryStoreQueue:ReadAsync`
+
+``ReadAsync(count: `int`, allOrNothing: `bool`, waitTimeout: `double`)`` → `Tuple`
+  [Yields]
+
+### `Class.MemoryStoreQueue:RemoveAsync`
+
+``RemoveAsync(id: `string`)`` → `null`
+  [Yields]

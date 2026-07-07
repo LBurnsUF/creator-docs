@@ -3,18 +3,20 @@ title: ModerationResultLabel
 type: enum
 ---
 
-# ModerationResultLabel (Enum)
+# `Enum.ModerationResultLabel`
+
+The `Enum.ModerationResultLabel` enum has 11 item(s).
 
 | Name | Value |
 |------|-------|
-| ChildExploitation | 0 |
-| SuicideSelfInjuryAndHarmfulBehavior | 1 |
-| ThreatsBullyingAndHarassment | 2 |
-| TerrorismAndViolentExtremism | 3 |
-| DiscriminationSlursAndHateSpeech | 4 |
-| RealWorldSensitiveEvents | 5 |
-| ViolentContentAndGore | 6 |
-| RomanticAndSexualContent | 7 |
-| IllegalAndRegulatedGoodsAndActivities | 8 |
-| Profanity | 9 |
-| Other | 100 |
+| `Enum.ModerationResultLabel.ChildExploitation` | 0 |
+| `Enum.ModerationResultLabel.SuicideSelfInjuryAndHarmfulBehavior` | 1 |
+| `Enum.ModerationResultLabel.ThreatsBullyingAndHarassment` | 2 |
+| `Enum.ModerationResultLabel.TerrorismAndViolentExtremism` | 3 |
+| `Enum.ModerationResultLabel.DiscriminationSlursAndHateSpeech` | 4 |
+| `Enum.ModerationResultLabel.RealWorldSensitiveEvents` | 5 |
+| `Enum.ModerationResultLabel.ViolentContentAndGore` | 6 |
+| `Enum.ModerationResultLabel.RomanticAndSexualContent` | 7 |
+| `Enum.ModerationResultLabel.IllegalAndRegulatedGoodsAndActivities` | 8 |
+| `Enum.ModerationResultLabel.Profanity` | 9 |
+| `Enum.ModerationResultLabel.Other` | 100 |

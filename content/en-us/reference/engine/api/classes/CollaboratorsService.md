@@ -7,25 +7,68 @@ tags: [NotCreatable, Service]
 
 # CollaboratorsService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **GetCollaboratorsList**() -> `Instances`
-- **GetSelectionHighlightsEnabled**() -> `bool`
-- **MultiGetCanCollaborate**(`userIds: string`) -> `null`
-- **RequestFlyToCollaborator**(`collaboratorId: int64`) -> `null`
-- **ToggleSelectionHighlights**(`showHighlights: bool`) -> `null`
-- **ToggleTeamCreate**(`on: bool`) -> `null`
+### `Class.CollaboratorsService:GetCollaboratorsList`
+
+``GetCollaboratorsList()`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}
+
+### `Class.CollaboratorsService:GetSelectionHighlightsEnabled`
+
+``GetSelectionHighlightsEnabled()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.CollaboratorsService:MultiGetCanCollaborate`
+
+``MultiGetCanCollaborate(userIds: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CollaboratorsService:RequestFlyToCollaborator`
+
+``RequestFlyToCollaborator(collaboratorId: `int64`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CollaboratorsService:ToggleSelectionHighlights`
+
+``ToggleSelectionHighlights(showHighlights: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CollaboratorsService:ToggleTeamCreate`
+
+``ToggleTeamCreate(on: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **CollaboratorIdleUpdate**(`collaboratorId: int64`, `isIdle: bool`)
-- **CollaboratorInstanceCreatedSignal**(`collaboratorId: int64`)
-- **CollaboratorInstanceDestroyedSignal**(`collaboratorId: int64`)
-- **CollaboratorStatusUpdatedSignal**(`collaboratorId: int64`, `newStatus: CollaboratorStatus`)
-- **MultiGetCanCollaborateRetrieved**(`requestId: string`, `canCollaborateResponses: Array`)
-- **ServerMultiGetCanCollaborateRequested**(`userIds: string`)
-- **ToggleSelectionHighlightsSignal**(`areHighlightsShown: bool`)
+### `Class.CollaboratorsService.CollaboratorIdleUpdate`
+
+Fires with: (collaboratorId: `int64`, isIdle: `bool`)
+
+### `Class.CollaboratorsService.CollaboratorInstanceCreatedSignal`
+
+Fires with: (collaboratorId: `int64`)
+
+### `Class.CollaboratorsService.CollaboratorInstanceDestroyedSignal`
+
+Fires with: (collaboratorId: `int64`)
+
+### `Class.CollaboratorsService.CollaboratorStatusUpdatedSignal`
+
+Fires with: (collaboratorId: `int64`, newStatus: `Enum.CollaboratorStatus`)
+
+### `Class.CollaboratorsService.MultiGetCanCollaborateRetrieved`
+
+Fires with: (requestId: `string`, canCollaborateResponses: `Array`)
+
+### `Class.CollaboratorsService.ServerMultiGetCanCollaborateRequested`
+
+Fires with: (userIds: `string`)
+
+### `Class.CollaboratorsService.ToggleSelectionHighlightsSignal`
+
+Fires with: (areHighlightsShown: `bool`)

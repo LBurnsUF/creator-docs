@@ -3,10 +3,12 @@ title: VerticalAlignment
 type: enum
 ---
 
-# VerticalAlignment (Enum)
+# `Enum.VerticalAlignment`
+
+The `Enum.VerticalAlignment` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Center | 0 |
-| Top | 1 |
-| Bottom | 2 |
+| `Enum.VerticalAlignment.Center` | 0 |
+| `Enum.VerticalAlignment.Top` | 1 |
+| `Enum.VerticalAlignment.Bottom` | 2 |

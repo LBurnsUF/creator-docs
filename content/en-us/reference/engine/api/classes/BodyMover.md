@@ -7,6 +7,6 @@ tags: [NotCreatable, Deprecated]
 
 # BodyMover
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Deprecated
+**Tags:** [NotCreatable] [Deprecated]

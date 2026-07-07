@@ -6,15 +6,28 @@ superclass: BaseRemoteEvent
 
 # UnreliableRemoteEvent
 
-**Inherits**: BaseRemoteEvent > Instance > Object
+**Inherits from:** `Class.BaseRemoteEvent` > `Class.Instance` > `Class.Object`
 
 ## Methods
 
-- **FireAllClients**(`arguments: Tuple`) -> `null`
-- **FireClient**(`player: Player`, `arguments: Tuple`) -> `null`
-- **FireServer**(`arguments: Tuple`) -> `null`
+### `Class.UnreliableRemoteEvent:FireAllClients`
+
+``FireAllClients(arguments: `Tuple`)`` → `null`
+
+### `Class.UnreliableRemoteEvent:FireClient`
+
+``FireClient(player: `Class.Player`, arguments: `Tuple`)`` → `null`
+
+### `Class.UnreliableRemoteEvent:FireServer`
+
+``FireServer(arguments: `Tuple`)`` → `null`
 
 ## Events
 
-- **OnClientEvent**(`arguments: Tuple`)
-- **OnServerEvent**(`player: Player`, `arguments: Tuple`)
+### `Class.UnreliableRemoteEvent.OnClientEvent`
+
+Fires with: (arguments: `Tuple`)
+
+### `Class.UnreliableRemoteEvent.OnServerEvent`
+
+Fires with: (player: `Class.Player`, arguments: `Tuple`)

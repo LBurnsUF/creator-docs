@@ -7,11 +7,18 @@ tags: [NotCreatable, NotBrowsable]
 
 # NetworkPeer
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Methods
 
-- **InitializeRemoteAllowList**(`names: Array`) -> `null`
-- **SetOutgoingKBPSLimit**(`limit: int`) -> `null`
+### `Class.NetworkPeer:InitializeRemoteAllowList`
+
+``InitializeRemoteAllowList(names: `Array`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.NetworkPeer:SetOutgoingKBPSLimit`
+
+``SetOutgoingKBPSLimit(limit: `int`)`` → `null`
+   {security: PluginSecurity}

@@ -3,59 +3,69 @@ title: Color3
 type: datatype
 ---
 
-# Color3 (DataType)
+# `Datatype.Color3`
 
-Used in 155 locations across the API.
+Used in 155 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Annotation.AuthorColor3
-- Atmosphere.Color
-- Atmosphere.Decay
-- BasePart.Color
-- BodyColors.HeadColor3
-- BodyColors.LeftArmColor3
-- BodyColors.LeftLegColor3
-- BodyColors.RightArmColor3
-- BodyColors.RightLegColor3
-- BodyColors.TorsoColor3
-- BodyPartDescription.Color
-- BubbleChatConfiguration.BackgroundColor3
-- BubbleChatConfiguration.TextColor3
-- BubbleChatMessageProperties.BackgroundColor3
-- BubbleChatMessageProperties.TextColor3
-- CanvasGroup.GroupColor3
-- ChannelTabsConfiguration.BackgroundColor3
-- ChannelTabsConfiguration.HoverBackgroundColor3
-- ChannelTabsConfiguration.SelectedTabTextColor3
-- ChannelTabsConfiguration.TextColor3
-- ChannelTabsConfiguration.TextStrokeColor3
-- ChatInputBarConfiguration.BackgroundColor3
-- ChatInputBarConfiguration.PlaceholderColor3
-- ChatInputBarConfiguration.TextColor3
-- ChatInputBarConfiguration.TextStrokeColor3
-- ChatWindowConfiguration.BackgroundColor3
-- ChatWindowConfiguration.TextColor3
-- ChatWindowConfiguration.TextStrokeColor3
-- ChatWindowMessageProperties.TextColor3
-- ChatWindowMessageProperties.TextStrokeColor3
-- ...and 112 more
+- `Class.Annotation.AuthorColor3`
+- `Class.Atmosphere.Color`
+- `Class.Atmosphere.Decay`
+- `Class.BasePart.Color`
+- `Class.BodyColors.HeadColor3`
+- `Class.BodyColors.LeftArmColor3`
+- `Class.BodyColors.LeftLegColor3`
+- `Class.BodyColors.RightArmColor3`
+- `Class.BodyColors.RightLegColor3`
+- `Class.BodyColors.TorsoColor3`
+- `Class.BodyPartDescription.Color`
+- `Class.BubbleChatConfiguration.BackgroundColor3`
+- `Class.BubbleChatConfiguration.TextColor3`
+- `Class.BubbleChatMessageProperties.BackgroundColor3`
+- `Class.BubbleChatMessageProperties.TextColor3`
+- `Class.CanvasGroup.GroupColor3`
+- `Class.ChannelTabsConfiguration.BackgroundColor3`
+- `Class.ChannelTabsConfiguration.HoverBackgroundColor3`
+- `Class.ChannelTabsConfiguration.SelectedTabTextColor3`
+- `Class.ChannelTabsConfiguration.TextColor3`
+- `Class.ChannelTabsConfiguration.TextStrokeColor3`
+- `Class.ChatInputBarConfiguration.BackgroundColor3`
+- `Class.ChatInputBarConfiguration.PlaceholderColor3`
+- `Class.ChatInputBarConfiguration.TextColor3`
+- `Class.ChatInputBarConfiguration.TextStrokeColor3`
+- `Class.ChatWindowConfiguration.BackgroundColor3`
+- `Class.ChatWindowConfiguration.TextColor3`
+- `Class.ChatWindowConfiguration.TextStrokeColor3`
+- `Class.ChatWindowMessageProperties.TextColor3`
+- `Class.ChatWindowMessageProperties.TextStrokeColor3`
+- `Class.Clothing.Color3`
+- `Class.Clouds.Color`
+- `Class.Collaborator.CollaboratorColor3`
+- `Class.Color3Value.Value`
+- `Class.ColorCorrectionEffect.TintColor`
+- `Class.Decal.Color3`
+- `Class.DraggerService.GeometrySnapColor`
+- `Class.Fire.Color`
+- `Class.Fire.SecondaryColor`
+- `Class.GuiBase3d.Color3`
+- ...and 102 more
 
 ## Used as Parameter Type
 
-- Color3Value.Changed(value)
-- Color3Value.changed(value)
-- EditableImage.DrawCircle(color)
-- EditableImage.DrawLine(color)
-- EditableImage.DrawRectangle(color)
-- EditableImage.DrawTriangle(color)
-- EditableMesh.AddColor(color)
-- EditableMesh.SetColor(color)
-- Terrain.SetMaterialColor(value)
-- Terrain.SetMaterialSlot(color)
+- `Class.Color3Value:Changed` (parameter `value`)
+- `Class.Color3Value:changed` (parameter `value`)
+- `Class.EditableImage:DrawCircle` (parameter `color`)
+- `Class.EditableImage:DrawLine` (parameter `color`)
+- `Class.EditableImage:DrawRectangle` (parameter `color`)
+- `Class.EditableImage:DrawTriangle` (parameter `color`)
+- `Class.EditableMesh:AddColor` (parameter `color`)
+- `Class.EditableMesh:SetColor` (parameter `color`)
+- `Class.Terrain:SetMaterialColor` (parameter `value`)
+- `Class.Terrain:SetMaterialSlot` (parameter `color`)
 
 ## Used as Return Type
 
-- EditableMesh.GetColor
-- StudioTheme.GetColor
-- Terrain.GetMaterialColor
+- `Class.EditableMesh:GetColor`
+- `Class.StudioTheme:GetColor`
+- `Class.Terrain:GetMaterialColor`

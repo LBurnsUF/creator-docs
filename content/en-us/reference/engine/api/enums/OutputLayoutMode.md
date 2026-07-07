@@ -3,9 +3,11 @@ title: OutputLayoutMode
 type: enum
 ---
 
-# OutputLayoutMode (Enum)
+# `Enum.OutputLayoutMode`
+
+The `Enum.OutputLayoutMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Horizontal | 0 |
-| Vertical | 1 |
+| `Enum.OutputLayoutMode.Horizontal` | 0 |
+| `Enum.OutputLayoutMode.Vertical` | 1 |

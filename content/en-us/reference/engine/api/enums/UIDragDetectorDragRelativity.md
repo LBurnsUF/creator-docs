@@ -3,9 +3,11 @@ title: UIDragDetectorDragRelativity
 type: enum
 ---
 
-# UIDragDetectorDragRelativity (Enum)
+# `Enum.UIDragDetectorDragRelativity`
+
+The `Enum.UIDragDetectorDragRelativity` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Absolute | 0 |
-| Relative | 1 |
+| `Enum.UIDragDetectorDragRelativity.Absolute` | 0 |
+| `Enum.UIDragDetectorDragRelativity.Relative` | 1 |

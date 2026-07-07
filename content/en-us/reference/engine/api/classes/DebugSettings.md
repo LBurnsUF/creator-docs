@@ -7,17 +7,19 @@ tags: [NotCreatable, Service, NotReplicated, NotBrowsable]
 
 # DebugSettings
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated, NotBrowsable
+**Tags:** [NotCreatable] [Service] [NotReplicated] [NotBrowsable]
 
 ## Properties
 
-- **DataModel**: `int` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **InstanceCount**: `int` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **IsScriptStackTracingEnabled**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **JobCount**: `int` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **PlayerCount**: `int` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ReportSoundWarnings**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RobloxVersion**: `string` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **TickCountPreciseOverride**: `TickCountSampleMethod` (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DebugSettings.DataModel` | `int` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.DebugSettings.InstanceCount` | `int` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.DebugSettings.IsScriptStackTracingEnabled` | `bool` |  {security: PluginSecurity} |
+| `Class.DebugSettings.JobCount` | `int` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.DebugSettings.PlayerCount` | `int` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.DebugSettings.ReportSoundWarnings` | `bool` |  {security: PluginSecurity} |
+| `Class.DebugSettings.RobloxVersion` | `string` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.DebugSettings.TickCountPreciseOverride` | `Enum.TickCountSampleMethod` |  {security: PluginSecurity} |

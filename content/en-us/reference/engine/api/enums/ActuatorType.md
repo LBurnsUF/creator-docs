@@ -3,10 +3,12 @@ title: ActuatorType
 type: enum
 ---
 
-# ActuatorType (Enum)
+# `Enum.ActuatorType`
+
+The `Enum.ActuatorType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Motor | 1 |
-| Servo | 2 |
+| `Enum.ActuatorType.None` | 0 |
+| `Enum.ActuatorType.Motor` | 1 |
+| `Enum.ActuatorType.Servo` | 2 |

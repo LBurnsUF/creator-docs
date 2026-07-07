@@ -6,17 +6,33 @@ superclass: HandleAdornment
 
 # WireframeHandleAdornment
 
-**Inherits**: HandleAdornment > PVAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.HandleAdornment` > `Class.PVAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Scale**: `Vector3`
-- **Thickness**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.WireframeHandleAdornment.Scale` | `Datatype.Vector3` |  |
+| `Class.WireframeHandleAdornment.Thickness` | `float` |  |
 
 ## Methods
 
-- **AddLine**(`from: Vector3`, `to: Vector3`) -> `null`
-- **AddLines**(`points: Array`) -> `null`
-- **AddPath**(`points: Array`, `loop: bool`) -> `null`
-- **AddText**(`point: Vector3`, `text: string`, `size: int = 12`) -> `null`
-- **Clear**() -> `null`
+### `Class.WireframeHandleAdornment:AddLine`
+
+``AddLine(from: `Datatype.Vector3`, to: `Datatype.Vector3`)`` → `null`
+
+### `Class.WireframeHandleAdornment:AddLines`
+
+``AddLines(points: `Array`)`` → `null`
+
+### `Class.WireframeHandleAdornment:AddPath`
+
+``AddPath(points: `Array`, loop: `bool`)`` → `null`
+
+### `Class.WireframeHandleAdornment:AddText`
+
+``AddText(point: `Datatype.Vector3`, text: `string`, size: `int`)`` → `null`
+
+### `Class.WireframeHandleAdornment:Clear`
+
+``Clear()`` → `null`

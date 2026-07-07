@@ -3,10 +3,12 @@ title: ThumbnailType
 type: enum
 ---
 
-# ThumbnailType (Enum)
+# `Enum.ThumbnailType`
+
+The `Enum.ThumbnailType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| HeadShot | 0 |
-| AvatarBust | 1 |
-| AvatarThumbnail | 2 |
+| `Enum.ThumbnailType.HeadShot` | 0 |
+| `Enum.ThumbnailType.AvatarBust` | 1 |
+| `Enum.ThumbnailType.AvatarThumbnail` | 2 |

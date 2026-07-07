@@ -7,13 +7,28 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ClientStorageService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **Clear**() -> `null`
-- **GetItem**(`key: string`) -> `string`
-- **RemoveItem**(`key: string`) -> `null`
-- **SetItem**(`key: string`, `value: string`, `options: Dictionary = nil`) -> `null`
+### `Class.ClientStorageService:Clear`
+
+``Clear()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ClientStorageService:GetItem`
+
+``GetItem(key: `string`)`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.ClientStorageService:RemoveItem`
+
+``RemoveItem(key: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ClientStorageService:SetItem`
+
+``SetItem(key: `string`, value: `string`, options: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}

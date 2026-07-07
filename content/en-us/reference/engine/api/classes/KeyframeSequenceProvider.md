@@ -7,17 +7,46 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # KeyframeSequenceProvider
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetAnimations**(`userId: User`) -> `Instance` [Yields] [Deprecated]
-- **GetAnimationsAsync**(`userId: User`) -> `Instance` [Yields]
-- **GetKeyframeSequence**(`assetId: ContentId`) -> `Instance` [Deprecated]
-- **GetKeyframeSequenceAsync**(`assetId: ContentId`) -> `Instance` [Yields]
-- **GetKeyframeSequenceById**(`assetId: int64`, `useCache: bool`) -> `Instance` [Deprecated]
-- **GetMemStats**() -> `Dictionary`
-- **RegisterActiveKeyframeSequence**(`keyframeSequence: Instance`) -> `ContentId`
-- **RegisterKeyframeSequence**(`keyframeSequence: Instance`) -> `ContentId`
+### `Class.KeyframeSequenceProvider:GetAnimations`
+
+``GetAnimations(userId: `Datatype.User`)`` → `Class.Instance`
+  [Yields] [Deprecated]
+
+### `Class.KeyframeSequenceProvider:GetAnimationsAsync`
+
+``GetAnimationsAsync(userId: `Datatype.User`)`` → `Class.Instance`
+  [Yields]
+
+### `Class.KeyframeSequenceProvider:GetKeyframeSequence`
+
+``GetKeyframeSequence(assetId: `Datatype.ContentId`)`` → `Class.Instance`
+  [Deprecated] {security: PluginSecurity}
+
+### `Class.KeyframeSequenceProvider:GetKeyframeSequenceAsync`
+
+``GetKeyframeSequenceAsync(assetId: `Datatype.ContentId`)`` → `Class.Instance`
+  [Yields]
+
+### `Class.KeyframeSequenceProvider:GetKeyframeSequenceById`
+
+``GetKeyframeSequenceById(assetId: `int64`, useCache: `bool`)`` → `Class.Instance`
+  [Deprecated] {security: PluginSecurity}
+
+### `Class.KeyframeSequenceProvider:GetMemStats`
+
+``GetMemStats()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.KeyframeSequenceProvider:RegisterActiveKeyframeSequence`
+
+``RegisterActiveKeyframeSequence(keyframeSequence: `Class.Instance`)`` → `Datatype.ContentId`
+
+### `Class.KeyframeSequenceProvider:RegisterKeyframeSequence`
+
+``RegisterKeyframeSequence(keyframeSequence: `Class.Instance`)`` → `Datatype.ContentId`

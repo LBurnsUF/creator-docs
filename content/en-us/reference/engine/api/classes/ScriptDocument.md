@@ -7,31 +7,103 @@ tags: [NotCreatable, NotReplicated]
 
 # ScriptDocument
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **CloseAsync**() -> `Tuple` [Yields]
-- **EditTextAsync**(`newText: string`, `startLine: int`, `startCharacter: int`, `endLine: int`, `endCharacter: int`) -> `Tuple` [Yields]
-- **ForceSetSelectionAsync**(`cursorLine: int`, `cursorCharacter: int`, `anchorLine: int? = nil`, `anchorCharacter: int? = nil`) -> `Tuple` [Yields]
-- **GetInternalUri**() -> `string`
-- **GetLine**(`lineIndex: int? = nil`) -> `string`
-- **GetLineCount**() -> `int`
-- **GetScript**() -> `LuaSourceContainer`
-- **GetSelectedText**() -> `string`
-- **GetSelection**() -> `Tuple`
-- **GetSelectionEnd**() -> `Tuple`
-- **GetSelectionStart**() -> `Tuple`
-- **GetText**(`startLine: int? = nil`, `startCharacter: int? = nil`, `endLine: int? = nil`, `endCharacter: int? = nil`) -> `string`
-- **GetViewport**() -> `Tuple`
-- **HasSelectedText**() -> `bool`
-- **IsCommandBar**() -> `bool`
-- **MultiEditTextAsync**(`edits: Array`) -> `Tuple` [Yields]
-- **RequestSetSelectionAsync**(`cursorLine: int`, `cursorCharacter: int`, `anchorLine: int? = nil`, `anchorCharacter: int? = nil`) -> `Tuple` [Yields]
+### `Class.ScriptDocument:CloseAsync`
+
+``CloseAsync()`` → `Tuple`
+  [Yields] {security: PluginSecurity}
+
+### `Class.ScriptDocument:EditTextAsync`
+
+``EditTextAsync(newText: `string`, startLine: `int`, startCharacter: `int`, endLine: `int`, endCharacter: `int`)`` → `Tuple`
+  [Yields] {security: PluginSecurity}
+
+### `Class.ScriptDocument:ForceSetSelectionAsync`
+
+``ForceSetSelectionAsync(cursorLine: `int`, cursorCharacter: `int`, anchorLine: `int?`, anchorCharacter: `int?`)`` → `Tuple`
+  [Yields] {security: PluginSecurity}
+
+### `Class.ScriptDocument:GetInternalUri`
+
+``GetInternalUri()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.ScriptDocument:GetLine`
+
+``GetLine(lineIndex: `int?`)`` → `string`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:GetLineCount`
+
+``GetLineCount()`` → `int`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:GetScript`
+
+``GetScript()`` → `Class.LuaSourceContainer`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:GetSelectedText`
+
+``GetSelectedText()`` → `string`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:GetSelection`
+
+``GetSelection()`` → `Tuple`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:GetSelectionEnd`
+
+``GetSelectionEnd()`` → `Tuple`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:GetSelectionStart`
+
+``GetSelectionStart()`` → `Tuple`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:GetText`
+
+``GetText(startLine: `int?`, startCharacter: `int?`, endLine: `int?`, endCharacter: `int?`)`` → `string`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:GetViewport`
+
+``GetViewport()`` → `Tuple`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:HasSelectedText`
+
+``HasSelectedText()`` → `bool`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:IsCommandBar`
+
+``IsCommandBar()`` → `bool`
+   {security: PluginSecurity}
+
+### `Class.ScriptDocument:MultiEditTextAsync`
+
+``MultiEditTextAsync(edits: `Array`)`` → `Tuple`
+  [Yields] {security: PluginSecurity}
+
+### `Class.ScriptDocument:RequestSetSelectionAsync`
+
+``RequestSetSelectionAsync(cursorLine: `int`, cursorCharacter: `int`, anchorLine: `int?`, anchorCharacter: `int?`)`` → `Tuple`
+  [Yields] {security: PluginSecurity}
 
 ## Events
 
-- **SelectionChanged**(`positionLine: int64`, `positionCharacter: int64`, `anchorLine: int64`, `anchorCharacter: int64`)
-- **ViewportChanged**(`startLine: int64`, `endLine: int64`)
+### `Class.ScriptDocument.SelectionChanged`
+
+Fires with: (positionLine: `int64`, positionCharacter: `int64`, anchorLine: `int64`, anchorCharacter: `int64`)
+
+### `Class.ScriptDocument.ViewportChanged`
+
+Fires with: (startLine: `int64`, endLine: `int64`)

@@ -6,17 +6,33 @@ superclass: HandlesBase
 
 # Handles
 
-**Inherits**: HandlesBase > PartAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.HandlesBase` > `Class.PartAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Faces**: `Faces`
-- **Style**: `HandlesStyle`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Handles.Faces` | `Datatype.Faces` |  |
+| `Class.Handles.Style` | `Enum.HandlesStyle` |  |
 
 ## Events
 
-- **MouseButton1Down**(`face: NormalId`)
-- **MouseButton1Up**(`face: NormalId`)
-- **MouseDrag**(`face: NormalId`, `distance: float`)
-- **MouseEnter**(`face: NormalId`)
-- **MouseLeave**(`face: NormalId`)
+### `Class.Handles.MouseButton1Down`
+
+Fires with: (face: `Enum.NormalId`)
+
+### `Class.Handles.MouseButton1Up`
+
+Fires with: (face: `Enum.NormalId`)
+
+### `Class.Handles.MouseDrag`
+
+Fires with: (face: `Enum.NormalId`, distance: `float`)
+
+### `Class.Handles.MouseEnter`
+
+Fires with: (face: `Enum.NormalId`)
+
+### `Class.Handles.MouseLeave`
+
+Fires with: (face: `Enum.NormalId`)

@@ -6,4 +6,4 @@ superclass: BasePart
 
 # CornerWedgePart
 
-**Inherits**: BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`

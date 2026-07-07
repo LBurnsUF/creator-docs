@@ -3,10 +3,12 @@ title: InputSink
 type: enum
 ---
 
-# InputSink (Enum)
+# `Enum.InputSink`
+
+The `Enum.InputSink` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Activate | 1 |
-| All | 100 |
+| `Enum.InputSink.None` | 0 |
+| `Enum.InputSink.Activate` | 1 |
+| `Enum.InputSink.All` | 100 |

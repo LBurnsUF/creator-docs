@@ -3,11 +3,13 @@ title: VideoSampleSize
 type: enum
 ---
 
-# VideoSampleSize (Enum)
+# `Enum.VideoSampleSize`
+
+The `Enum.VideoSampleSize` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Small | 0 |
-| Medium | 1 |
-| Large | 2 |
-| Full | 3 |
+| `Enum.VideoSampleSize.Small` | 0 |
+| `Enum.VideoSampleSize.Medium` | 1 |
+| `Enum.VideoSampleSize.Large` | 2 |
+| `Enum.VideoSampleSize.Full` | 3 |

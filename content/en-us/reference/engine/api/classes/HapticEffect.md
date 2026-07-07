@@ -6,21 +6,33 @@ superclass: Instance
 
 # HapticEffect
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Looped**: `bool`
-- **Position**: `Vector3`
-- **Radius**: `float`
-- **Type**: `HapticEffectType`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.HapticEffect.Looped` | `bool` |  |
+| `Class.HapticEffect.Position` | `Datatype.Vector3` |  |
+| `Class.HapticEffect.Radius` | `float` |  |
+| `Class.HapticEffect.Type` | `Enum.HapticEffectType` |  |
 
 ## Methods
 
-- **Play**() -> `null`
-- **SetWaveformKeys**(`keys: Array`) -> `null`
-- **Stop**() -> `null`
+### `Class.HapticEffect:Play`
+
+``Play()`` → `null`
+
+### `Class.HapticEffect:SetWaveformKeys`
+
+``SetWaveformKeys(keys: `Array`)`` → `null`
+
+### `Class.HapticEffect:Stop`
+
+``Stop()`` → `null`
 
 ## Events
 
-- **Ended**()
+### `Class.HapticEffect.Ended`
+
+Fires with: ()

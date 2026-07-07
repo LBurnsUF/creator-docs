@@ -3,11 +3,13 @@ title: WebStreamClientState
 type: enum
 ---
 
-# WebStreamClientState (Enum)
+# `Enum.WebStreamClientState`
+
+The `Enum.WebStreamClientState` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Connecting | 0 |
-| Open | 1 |
-| Error | 2 |
-| Closed | 3 |
+| `Enum.WebStreamClientState.Connecting` | 0 |
+| `Enum.WebStreamClientState.Open` | 1 |
+| `Enum.WebStreamClientState.Error` | 2 |
+| `Enum.WebStreamClientState.Closed` | 3 |

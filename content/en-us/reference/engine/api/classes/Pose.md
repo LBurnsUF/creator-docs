@@ -6,15 +6,25 @@ superclass: PoseBase
 
 # Pose
 
-**Inherits**: PoseBase > Instance > Object
+**Inherits from:** `Class.PoseBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CFrame**: `CFrame`
-- **MaskWeight**: `float` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Pose.CFrame` | `Datatype.CFrame` |  |
+| `Class.Pose.MaskWeight` | `float` | [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **AddSubPose**(`pose: Instance`) -> `null`
-- **GetSubPoses**() -> `Instances`
-- **RemoveSubPose**(`pose: Instance`) -> `null`
+### `Class.Pose:AddSubPose`
+
+``AddSubPose(pose: `Class.Instance`)`` → `null`
+
+### `Class.Pose:GetSubPoses`
+
+``GetSubPoses()`` → `Datatype.Instances`
+
+### `Class.Pose:RemoveSubPose`
+
+``RemoveSubPose(pose: `Class.Instance`)`` → `null`

@@ -6,23 +6,48 @@ superclass: Instance
 
 # RealtimeMedia
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ForwardInput**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsConnected**: `bool` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RealtimeMedia.ForwardInput` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.RealtimeMedia.IsConnected` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **ConnectAsync**(`serverUrl: string`, `connectParams: Dictionary = nil`) -> `bool` [Yields]
-- **Disconnect**() -> `null`
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
-- **SendMessage**(`message: string`, `binary: bool`) -> `bool`
+### `Class.RealtimeMedia:ConnectAsync`
+
+``ConnectAsync(serverUrl: `string`, connectParams: `Dictionary`)`` → `bool`
+  [Yields]
+
+### `Class.RealtimeMedia:Disconnect`
+
+``Disconnect()`` → `null`
+
+### `Class.RealtimeMedia:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.RealtimeMedia:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.RealtimeMedia:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
+
+### `Class.RealtimeMedia:SendMessage`
+
+``SendMessage(message: `string`, binary: `bool`)`` → `bool`
 
 ## Events
 
-- **OnMessage**(`message: string`, `binary: bool`)
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.RealtimeMedia.OnMessage`
+
+Fires with: (message: `string`, binary: `bool`)
+
+### `Class.RealtimeMedia.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

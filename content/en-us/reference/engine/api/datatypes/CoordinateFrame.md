@@ -3,14 +3,14 @@ title: CoordinateFrame
 type: datatype
 ---
 
-# CoordinateFrame (DataType)
+# `Datatype.CoordinateFrame`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- WrapDeformer.SetCageMeshContent(cageOrigin)
+- `Class.WrapDeformer:SetCageMeshContent` (parameter `cageOrigin`)
 
 ## Used as Return Type
 
-- RotationCurve.GetValueAtTime
+- `Class.RotationCurve:GetValueAtTime`

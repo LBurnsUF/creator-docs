@@ -6,27 +6,61 @@ superclass: Instance
 
 # TextChannel
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **DirectChatRequester**: `Player` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextChannel.DirectChatRequester` | `Class.Player` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **AddUserAsync**(`userId: User`) -> `Tuple` [Yields]
-- **DisplaySystemMessage**(`systemMessage: string`, `metadata: string = `) -> `TextChatMessage`
-- **SendAsync**(`message: string`, `metadata: string = `) -> `TextChatMessage` [Yields]
-- **SendDictatedSpeechAsync**(`message: string`) -> `TextChatMessage` [Yields]
-- **SendInternalAsync**(`message: string`, `metadata: string = `) -> `TextChatMessage` [Yields]
-- **SendPresetAsync**(`presetId: string`) -> `TextChatMessage` [Yields]
-- **SetDirectChatRequester**(`requester: Player`) -> `null`
+### `Class.TextChannel:AddUserAsync`
+
+``AddUserAsync(userId: `Datatype.User`)`` → `Tuple`
+  [Yields]
+
+### `Class.TextChannel:DisplaySystemMessage`
+
+``DisplaySystemMessage(systemMessage: `string`, metadata: `string`)`` → `Class.TextChatMessage`
+
+### `Class.TextChannel:SendAsync`
+
+``SendAsync(message: `string`, metadata: `string`)`` → `Class.TextChatMessage`
+  [Yields]
+
+### `Class.TextChannel:SendDictatedSpeechAsync`
+
+``SendDictatedSpeechAsync(message: `string`)`` → `Class.TextChatMessage`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextChannel:SendInternalAsync`
+
+``SendInternalAsync(message: `string`, metadata: `string`)`` → `Class.TextChatMessage`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextChannel:SendPresetAsync`
+
+``SendPresetAsync(presetId: `string`)`` → `Class.TextChatMessage`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.TextChannel:SetDirectChatRequester`
+
+``SetDirectChatRequester(requester: `Class.Player`)`` → `null`
 
 ## Events
 
-- **MessageReceived**(`incomingMessage: TextChatMessage`)
+### `Class.TextChannel.MessageReceived`
+
+Fires with: (incomingMessage: `Class.TextChatMessage`)
 
 ## Callbacks
 
-- **OnIncomingMessage**(`message: TextChatMessage`) -> `Tuple`
-- **ShouldDeliverCallback**(`message: TextChatMessage`, `textSource: TextSource`) -> `Tuple`
+### `Class.TextChannel.OnIncomingMessage`
+
+``OnIncomingMessage(message: `Class.TextChatMessage`)`` → `Tuple`
+
+### `Class.TextChannel.ShouldDeliverCallback`
+
+``ShouldDeliverCallback(message: `Class.TextChatMessage`, textSource: `Class.TextSource`)`` → `Tuple`

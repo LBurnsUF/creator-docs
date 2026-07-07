@@ -7,21 +7,33 @@ tags: [NotCreatable, PlayerReplicated]
 
 # PlayerGui
 
-**Inherits**: BasePlayerGui > Instance > Object
+**Inherits from:** `Class.BasePlayerGui` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, PlayerReplicated
+**Tags:** [NotCreatable] [PlayerReplicated]
 
 ## Properties
 
-- **CurrentScreenOrientation**: `ScreenOrientation` [ReadOnly] [NotReplicated]
-- **ScreenOrientation**: `ScreenOrientation`
-- **SelectionImageObject**: `GuiObject`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PlayerGui.CurrentScreenOrientation` | `Enum.ScreenOrientation` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerGui.ScreenOrientation` | `Enum.ScreenOrientation` |  |
+| `Class.PlayerGui.SelectionImageObject` | `Class.GuiObject` |  |
 
 ## Methods
 
-- **GetTopbarTransparency**() -> `float` [Deprecated]
-- **SetTopbarTransparency**(`transparency: float`) -> `null` [Deprecated]
+### `Class.PlayerGui:GetTopbarTransparency`
+
+``GetTopbarTransparency()`` → `float`
+  [Deprecated]
+
+### `Class.PlayerGui:SetTopbarTransparency`
+
+``SetTopbarTransparency(transparency: `float`)`` → `null`
+  [Deprecated]
 
 ## Events
 
-- **TopbarTransparencyChangedSignal**(`transparency: float`) [Deprecated]
+### `Class.PlayerGui.TopbarTransparencyChangedSignal`
+
+Fires with: (transparency: `float`)
+  [Deprecated]

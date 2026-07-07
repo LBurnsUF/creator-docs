@@ -3,12 +3,14 @@ title: SubscriptionState
 type: enum
 ---
 
-# SubscriptionState (Enum)
+# `Enum.SubscriptionState`
+
+The `Enum.SubscriptionState` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| NeverSubscribed | 0 |
-| SubscribedWillRenew | 1 |
-| SubscribedWillNotRenew | 2 |
-| SubscribedRenewalPaymentPending | 3 |
-| Expired | 4 |
+| `Enum.SubscriptionState.NeverSubscribed` | 0 |
+| `Enum.SubscriptionState.SubscribedWillRenew` | 1 |
+| `Enum.SubscriptionState.SubscribedWillNotRenew` | 2 |
+| `Enum.SubscriptionState.SubscribedRenewalPaymentPending` | 3 |
+| `Enum.SubscriptionState.Expired` | 4 |

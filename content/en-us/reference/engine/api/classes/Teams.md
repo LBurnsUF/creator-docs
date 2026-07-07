@@ -7,11 +7,17 @@ tags: [NotCreatable, Service]
 
 # Teams
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **GetTeams**() -> `Instances`
-- **RebalanceTeams**() -> `null` [Deprecated]
+### `Class.Teams:GetTeams`
+
+``GetTeams()`` → `Datatype.Instances`
+
+### `Class.Teams:RebalanceTeams`
+
+``RebalanceTeams()`` → `null`
+  [Deprecated]

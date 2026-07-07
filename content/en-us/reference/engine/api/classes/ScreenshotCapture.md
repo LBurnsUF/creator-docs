@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # ScreenshotCapture
 
-**Inherits**: Capture > Object
+**Inherits from:** `Class.Capture` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

@@ -7,36 +7,127 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # IXPService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **ClearCreatorLayers**() -> `null`
-- **ClearUserLayers**() -> `null`
-- **GetBrowserTrackerLayerLoadingStatus**() -> `IXPLoadingStatus`
-- **GetBrowserTrackerLayerVariables**(`layerName: string`) -> `Dictionary`
-- **GetBrowserTrackerStatusForLayer**(`layerName: string`) -> `IXPLoadingStatus?`
-- **GetCreatorLayerLoadingStatus**() -> `IXPLoadingStatus`
-- **GetCreatorLayerVariables**(`layerName: string`) -> `Dictionary`
-- **GetCreatorStatusForLayer**(`layerName: string`) -> `IXPLoadingStatus?`
-- **GetRegisteredCreatorLayersToStatus**() -> `Dictionary`
-- **GetRegisteredUserLayersToStatus**() -> `Dictionary`
-- **GetUserLayerLoadingStatus**() -> `IXPLoadingStatus`
-- **GetUserLayerVariables**(`layerName: string`) -> `Dictionary`
-- **GetUserStatusForLayer**(`layerName: string`) -> `IXPLoadingStatus?`
-- **InitializeCreatorLayers**(`creatorId: int64`) -> `null`
-- **InitializeUserLayers**(`userId: int64`) -> `null`
-- **LogBrowserTrackerLayerExposure**(`layerName: string`) -> `null`
-- **LogCreatorLayerExposure**(`layerName: string`) -> `null`
-- **LogFlagLinkedUserLayerExposure**(`layerName: string`) -> `null`
-- **LogUserLayerExposure**(`layerName: string`) -> `null`
-- **RegisterCreatorLayers**(`creatorLayers: Variant`) -> `null`
-- **RegisterUserLayers**(`userLayers: Variant`) -> `null`
+### `Class.IXPService:ClearCreatorLayers`
+
+``ClearCreatorLayers()`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:ClearUserLayers`
+
+``ClearUserLayers()`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetBrowserTrackerLayerLoadingStatus`
+
+``GetBrowserTrackerLayerLoadingStatus()`` → `Enum.IXPLoadingStatus`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetBrowserTrackerLayerVariables`
+
+``GetBrowserTrackerLayerVariables(layerName: `string`)`` → `Dictionary`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetBrowserTrackerStatusForLayer`
+
+``GetBrowserTrackerStatusForLayer(layerName: `string`)`` → `Enum.IXPLoadingStatus?`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetCreatorLayerLoadingStatus`
+
+``GetCreatorLayerLoadingStatus()`` → `Enum.IXPLoadingStatus`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetCreatorLayerVariables`
+
+``GetCreatorLayerVariables(layerName: `string`)`` → `Dictionary`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetCreatorStatusForLayer`
+
+``GetCreatorStatusForLayer(layerName: `string`)`` → `Enum.IXPLoadingStatus?`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetRegisteredCreatorLayersToStatus`
+
+``GetRegisteredCreatorLayersToStatus()`` → `Dictionary`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetRegisteredUserLayersToStatus`
+
+``GetRegisteredUserLayersToStatus()`` → `Dictionary`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetUserLayerLoadingStatus`
+
+``GetUserLayerLoadingStatus()`` → `Enum.IXPLoadingStatus`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetUserLayerVariables`
+
+``GetUserLayerVariables(layerName: `string`)`` → `Dictionary`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:GetUserStatusForLayer`
+
+``GetUserStatusForLayer(layerName: `string`)`` → `Enum.IXPLoadingStatus?`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:InitializeCreatorLayers`
+
+``InitializeCreatorLayers(creatorId: `int64`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:InitializeUserLayers`
+
+``InitializeUserLayers(userId: `int64`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:LogBrowserTrackerLayerExposure`
+
+``LogBrowserTrackerLayerExposure(layerName: `string`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:LogCreatorLayerExposure`
+
+``LogCreatorLayerExposure(layerName: `string`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:LogFlagLinkedUserLayerExposure`
+
+``LogFlagLinkedUserLayerExposure(layerName: `string`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:LogUserLayerExposure`
+
+``LogUserLayerExposure(layerName: `string`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:RegisterCreatorLayers`
+
+``RegisterCreatorLayers(creatorLayers: `Variant`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.IXPService:RegisterUserLayers`
+
+``RegisterUserLayers(userLayers: `Variant`)`` → `null`
+   {security: LocalUserSecurity}
 
 ## Events
 
-- **OnBrowserTrackerLayerLoadingStatusChanged**(`status: IXPLoadingStatus`)
-- **OnCreatorLayerLoadingStatusChanged**(`status: IXPLoadingStatus`)
-- **OnUserLayerLoadingStatusChanged**(`status: IXPLoadingStatus`)
+### `Class.IXPService.OnBrowserTrackerLayerLoadingStatusChanged`
+
+Fires with: (status: `Enum.IXPLoadingStatus`)
+
+### `Class.IXPService.OnCreatorLayerLoadingStatusChanged`
+
+Fires with: (status: `Enum.IXPLoadingStatus`)
+
+### `Class.IXPService.OnUserLayerLoadingStatusChanged`
+
+Fires with: (status: `Enum.IXPLoadingStatus`)

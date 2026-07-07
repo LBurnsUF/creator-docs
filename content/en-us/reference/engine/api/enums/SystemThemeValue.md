@@ -3,12 +3,14 @@ title: SystemThemeValue
 type: enum
 ---
 
-# SystemThemeValue (Enum)
+# `Enum.SystemThemeValue`
+
+The `Enum.SystemThemeValue` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| error | 0 |
-| light | 1 |
-| dark | 2 |
-| systemLight | 3 |
-| systemDark | 4 |
+| `Enum.SystemThemeValue.error` | 0 |
+| `Enum.SystemThemeValue.light` | 1 |
+| `Enum.SystemThemeValue.dark` | 2 |
+| `Enum.SystemThemeValue.systemLight` | 3 |
+| `Enum.SystemThemeValue.systemDark` | 4 |

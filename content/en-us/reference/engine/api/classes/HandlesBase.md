@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # HandlesBase
 
-**Inherits**: PartAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.PartAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

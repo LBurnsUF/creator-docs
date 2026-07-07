@@ -7,14 +7,19 @@ tags: [NotCreatable, Service]
 
 # FriendService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **GetPlatformFriends**() -> `Array` [Yields]
+### `Class.FriendService:GetPlatformFriends`
+
+``GetPlatformFriends()`` → `Array`
+  [Yields] {security: RobloxScriptSecurity}
 
 ## Events
 
-- **FriendsUpdated**(`friendData: Array`)
+### `Class.FriendService.FriendsUpdated`
+
+Fires with: (friendData: `Array`)

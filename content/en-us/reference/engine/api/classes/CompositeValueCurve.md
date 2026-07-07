@@ -6,13 +6,20 @@ superclass: Instance
 
 # CompositeValueCurve
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CurveType**: `CompositeValueCurveType`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CompositeValueCurve.CurveType` | `Enum.CompositeValueCurveType` |  |
 
 ## Methods
 
-- **GetComponentCurves**() -> `Instances`
-- **GetValueAtTime**(`time: float`) -> `Variant`
+### `Class.CompositeValueCurve:GetComponentCurves`
+
+``GetComponentCurves()`` → `Datatype.Instances`
+
+### `Class.CompositeValueCurve:GetValueAtTime`
+
+``GetValueAtTime(time: `float`)`` → `Variant`

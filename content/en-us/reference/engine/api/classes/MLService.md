@@ -7,15 +7,36 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # MLService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CreateSessionAsync**(`assetId: string`) -> `MLSession` [Yields]
-- **GetNPCInferenceSpecAsync**(`server: string`, `port: int`) -> `Dictionary` [Yields]
-- **IsPostProcessReady**() -> `bool`
-- **LoadPostProcessModelAsync**(`assetId: int64`) -> `null` [Yields]
-- **RunNPCInferenceAsync**(`server: string`, `port: int`, `features: Dictionary`) -> `Dictionary` [Yields]
-- **SetPostProcessEnabled**(`enabled: bool`) -> `null`
+### `Class.MLService:CreateSessionAsync`
+
+``CreateSessionAsync(assetId: `string`)`` → `Class.MLSession`
+  [Yields]
+
+### `Class.MLService:GetNPCInferenceSpecAsync`
+
+``GetNPCInferenceSpecAsync(server: `string`, port: `int`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.MLService:IsPostProcessReady`
+
+``IsPostProcessReady()`` → `bool`
+
+### `Class.MLService:LoadPostProcessModelAsync`
+
+``LoadPostProcessModelAsync(assetId: `int64`)`` → `null`
+  [Yields]
+
+### `Class.MLService:RunNPCInferenceAsync`
+
+``RunNPCInferenceAsync(server: `string`, port: `int`, features: `Dictionary`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.MLService:SetPostProcessEnabled`
+
+``SetPostProcessEnabled(enabled: `bool`)`` → `null`

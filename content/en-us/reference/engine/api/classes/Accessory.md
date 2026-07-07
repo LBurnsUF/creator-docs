@@ -6,8 +6,10 @@ superclass: Accoutrement
 
 # Accessory
 
-**Inherits**: Accoutrement > Instance > Object
+**Inherits from:** `Class.Accoutrement` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AccessoryType**: `AccessoryType`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Accessory.AccessoryType` | `Enum.AccessoryType` |  |

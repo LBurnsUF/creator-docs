@@ -7,22 +7,43 @@ tags: [NotCreatable, NotReplicated]
 
 # Path
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Status**: `PathStatus` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Path.Status` | `Enum.PathStatus` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **CheckOcclusionAsync**(`start: int`) -> `int` [Yields]
-- **ComputeAsync**(`start: Vector3`, `finish: Vector3`) -> `null` [Yields]
-- **GetPointCoordinates**() -> `Array` [Deprecated]
-- **GetWaypoints**() -> `Array`
+### `Class.Path:CheckOcclusionAsync`
+
+``CheckOcclusionAsync(start: `int`)`` → `int`
+  [Yields]
+
+### `Class.Path:ComputeAsync`
+
+``ComputeAsync(start: `Datatype.Vector3`, finish: `Datatype.Vector3`)`` → `null`
+  [Yields]
+
+### `Class.Path:GetPointCoordinates`
+
+``GetPointCoordinates()`` → `Array`
+  [Deprecated]
+
+### `Class.Path:GetWaypoints`
+
+``GetWaypoints()`` → `Array`
 
 ## Events
 
-- **Blocked**(`blockedWaypointIdx: int`)
-- **Unblocked**(`unblockedWaypointIdx: int`)
+### `Class.Path.Blocked`
+
+Fires with: (blockedWaypointIdx: `int`)
+
+### `Class.Path.Unblocked`
+
+Fires with: (unblockedWaypointIdx: `int`)

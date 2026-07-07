@@ -6,15 +6,17 @@ superclass: ControllerBase
 
 # AirController
 
-**Inherits**: ControllerBase > Instance > Object
+**Inherits from:** `Class.ControllerBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **BalanceMaxTorque**: `float`
-- **BalanceSpeed**: `float`
-- **LinearImpulse**: `Vector3` [Hidden] [NotReplicated]
-- **MaintainAngularMomentum**: `bool`
-- **MaintainLinearMomentum**: `bool`
-- **MoveMaxForce**: `float`
-- **TurnMaxTorque**: `float`
-- **TurnSpeedFactor**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AirController.BalanceMaxTorque` | `float` |  |
+| `Class.AirController.BalanceSpeed` | `float` |  |
+| `Class.AirController.LinearImpulse` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
+| `Class.AirController.MaintainAngularMomentum` | `bool` |  |
+| `Class.AirController.MaintainLinearMomentum` | `bool` |  |
+| `Class.AirController.MoveMaxForce` | `float` |  |
+| `Class.AirController.TurnMaxTorque` | `float` |  |
+| `Class.AirController.TurnSpeedFactor` | `float` |  |

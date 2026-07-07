@@ -3,10 +3,12 @@ title: JointCreationMode
 type: enum
 ---
 
-# JointCreationMode (Enum)
+# `Enum.JointCreationMode`
+
+The `Enum.JointCreationMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| All | 0 |
-| Surface | 1 |
-| None | 2 |
+| `Enum.JointCreationMode.All` | 0 |
+| `Enum.JointCreationMode.Surface` | 1 |
+| `Enum.JointCreationMode.None` | 2 |

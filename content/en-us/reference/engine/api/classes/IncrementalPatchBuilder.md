@@ -7,15 +7,17 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # IncrementalPatchBuilder
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **AddPathsToBundle**: `bool`
-- **BuildDebouncePeriod**: `double`
-- **HighCompression**: `bool`
-- **SerializePatch**: `bool`
-- **UseFileLevelCompressionInsteadOfChunk**: `bool`
-- **ZstdCompression**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.IncrementalPatchBuilder.AddPathsToBundle` | `bool` |  |
+| `Class.IncrementalPatchBuilder.BuildDebouncePeriod` | `double` |  |
+| `Class.IncrementalPatchBuilder.HighCompression` | `bool` |  |
+| `Class.IncrementalPatchBuilder.SerializePatch` | `bool` |  |
+| `Class.IncrementalPatchBuilder.UseFileLevelCompressionInsteadOfChunk` | `bool` |  |
+| `Class.IncrementalPatchBuilder.ZstdCompression` | `bool` |  |

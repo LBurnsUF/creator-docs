@@ -7,11 +7,17 @@ tags: [NotCreatable]
 
 # BasePlayerGui
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Methods
 
-- **GetGuiObjectsAtPosition**(`x: int`, `y: int`) -> `Instances`
-- **GetGuiObjectsInCircle**(`position: Vector2`, `radius: float`) -> `Instances`
+### `Class.BasePlayerGui:GetGuiObjectsAtPosition`
+
+``GetGuiObjectsAtPosition(x: `int`, y: `int`)`` → `Datatype.Instances`
+
+### `Class.BasePlayerGui:GetGuiObjectsInCircle`
+
+``GetGuiObjectsInCircle(position: `Datatype.Vector2`, radius: `float`)`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}

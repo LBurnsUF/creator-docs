@@ -6,11 +6,13 @@ superclass: Motor
 
 # Motor6D
 
-**Inherits**: Motor > JointInstance > Instance > Object
+**Inherits from:** `Class.Motor` > `Class.JointInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ChildName**: `string` [ReadOnly] [NotReplicated] [NotScriptable]
-- **EnableSkinning**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ParentName**: `string` [ReadOnly] [NotReplicated] [NotScriptable]
-- **Transform**: `CFrame` [Hidden] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Motor6D.ChildName` | `string` | [ReadOnly] [NotReplicated] [NotScriptable] |
+| `Class.Motor6D.EnableSkinning` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.Motor6D.ParentName` | `string` | [ReadOnly] [NotReplicated] [NotScriptable] |
+| `Class.Motor6D.Transform` | `Datatype.CFrame` | [Hidden] [NotReplicated] |

@@ -3,11 +3,13 @@ title: ListenerType
 type: enum
 ---
 
-# ListenerType (Enum)
+# `Enum.ListenerType`
+
+The `Enum.ListenerType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Camera | 0 |
-| CFrame | 1 |
-| ObjectPosition | 2 |
-| ObjectCFrame | 3 |
+| `Enum.ListenerType.Camera` | 0 |
+| `Enum.ListenerType.CFrame` | 1 |
+| `Enum.ListenerType.ObjectPosition` | 2 |
+| `Enum.ListenerType.ObjectCFrame` | 3 |

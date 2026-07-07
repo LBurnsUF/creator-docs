@@ -6,34 +6,39 @@ superclass: Instance
 
 # AvatarAccessoryRules
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AccessoryMode**: `AvatarSettingsAccessoryMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomAccessoryMode**: `AvatarSettingsCustomAccessoryMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomBackAccessoryEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomBackAccessoryId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomFaceAccessoryEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomFaceAccessoryId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomFrontAccessoryEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomFrontAccessoryId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomHairAccessoryEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomHairAccessoryId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomHeadAccessoryEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomHeadAccessoryId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomNeckAccessoryEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomNeckAccessoryId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomShoulderAccessoryEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomShoulderAccessoryId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomWaistAccessoryEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CustomWaistAccessoryId**: `int64` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableEmissives**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableSound**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **EnableVFX**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LimitBounds**: `Vector3` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LimitMethod**: `AvatarSettingsAccessoryLimitMethod` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AvatarAccessoryRules.AccessoryMode` | `Enum.AvatarSettingsAccessoryMode` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomAccessoryMode` | `Enum.AvatarSettingsCustomAccessoryMode` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomBackAccessoryEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomBackAccessoryId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomFaceAccessoryEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomFaceAccessoryId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomFrontAccessoryEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomFrontAccessoryId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomHairAccessoryEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomHairAccessoryId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomHeadAccessoryEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomHeadAccessoryId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomNeckAccessoryEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomNeckAccessoryId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomShoulderAccessoryEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomShoulderAccessoryId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomWaistAccessoryEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.CustomWaistAccessoryId` | `int64` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.EnableEmissives` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.EnableSound` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.EnableVFX` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.LimitBounds` | `Datatype.Vector3` |  {security: RobloxScriptSecurity} |
+| `Class.AvatarAccessoryRules.LimitMethod` | `Enum.AvatarSettingsAccessoryLimitMethod` |  {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **willRemoveAccessory**(`humanoid: Humanoid`, `accessory: Accoutrement`) -> `bool`
+### `Class.AvatarAccessoryRules:willRemoveAccessory`
+
+``willRemoveAccessory(humanoid: `Class.Humanoid`, accessory: `Class.Accoutrement`)`` → `bool`
+   {security: RobloxScriptSecurity}

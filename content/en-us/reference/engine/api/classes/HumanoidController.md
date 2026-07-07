@@ -6,4 +6,4 @@ superclass: Controller
 
 # HumanoidController
 
-**Inherits**: Controller > Instance > Object
+**Inherits from:** `Class.Controller` > `Class.Instance` > `Class.Object`

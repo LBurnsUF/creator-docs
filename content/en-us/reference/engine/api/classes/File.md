@@ -7,15 +7,24 @@ tags: [NotCreatable, NotReplicated]
 
 # File
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Size**: `int64` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.File.Size` | `int64` | [Hidden] [ReadOnly] [NotReplicated] {security: PluginSecurity} |
 
 ## Methods
 
-- **GetBinaryContents**() -> `string`
-- **GetTemporaryId**() -> `ContentId`
+### `Class.File:GetBinaryContents`
+
+``GetBinaryContents()`` → `string`
+   {security: PluginSecurity}
+
+### `Class.File:GetTemporaryId`
+
+``GetTemporaryId()`` → `Datatype.ContentId`
+   {security: PluginSecurity}

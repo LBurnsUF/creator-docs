@@ -3,11 +3,13 @@ title: ViewMode
 type: enum
 ---
 
-# ViewMode (Enum)
+# `Enum.ViewMode`
+
+The `Enum.ViewMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| GeometryComplexity | 1 |
-| Transparent | 2 |
-| Decal | 3 |
+| `Enum.ViewMode.None` | 0 |
+| `Enum.ViewMode.GeometryComplexity` | 1 |
+| `Enum.ViewMode.Transparent` | 2 |
+| `Enum.ViewMode.Decal` | 3 |

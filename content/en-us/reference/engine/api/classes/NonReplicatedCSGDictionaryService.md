@@ -7,6 +7,6 @@ tags: [Service]
 
 # NonReplicatedCSGDictionaryService
 
-**Inherits**: FlyweightService > Instance > Object
+**Inherits from:** `Class.FlyweightService` > `Class.Instance` > `Class.Object`
 
-**Tags**: Service
+**Tags:** [Service]

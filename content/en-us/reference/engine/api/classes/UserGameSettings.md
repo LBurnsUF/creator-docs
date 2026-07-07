@@ -7,98 +7,144 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # UserGameSettings
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **AllTutorialsDisabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **BadgeVisible**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CameraMode**: `CustomCameraMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **CameraYInverted**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ChatTranslationEnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ChatTranslationFTUXShown**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ChatTranslationLocale**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ChatTranslationToggleEnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ChatVisible**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ComputerCameraMovementMode**: `ComputerCameraMovementMode`
-- **ComputerMovementMode**: `ComputerMovementMode`
-- **ControlMode**: `ControlMode`
-- **DefaultCameraID**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **FramerateCap**: `int` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Fullscreen**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **GamepadCameraSensitivity**: `float`
-- **GraphicsOptimizationMode**: `GraphicsOptimizationMode` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **GraphicsQualityLevel**: `int` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **HapticStrength**: `float` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **HasEverUsedVR**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsUsingCameraYInverted**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsUsingGamepadCameraSensitivity**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MasterVolume**: `float` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MasterVolumeStudio**: `float` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MaxQualityEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MicroProfilerWebServerEnabled**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MicroProfilerWebServerIP**: `string` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MicroProfilerWebServerPort**: `int` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MouseSensitivity**: `float`
-- **MouseSensitivityFirstPerson**: `Vector2` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MouseSensitivityThirdPerson**: `Vector2` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **OnScreenProfilerEnabled**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **OnboardingsCompleted**: `string` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PartyVoiceVolume**: `float` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PeoplePageLayout**: `PeoplePageLayout` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PerformanceStatsVisible**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PlayerHeight**: `float` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PlayerListVisible**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PlayerNamesEnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PreferredTextSize**: `PreferredTextSize` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PreferredTransparency**: `float` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **QualityResetLevel**: `int` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RCCProfilerRecordFrameRate**: `int`
-- **RCCProfilerRecordTimeFrame**: `int`
-- **ReadAloud**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ReducedMotion**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RotationType**: `RotationType`
-- **SavedQualityLevel**: `SavedQualitySetting`
-- **StartMaximized**: `bool` [NotReplicated] [NotScriptable] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **StartScreenPosition**: `Vector2` [NotReplicated] [NotScriptable] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **StartScreenSize**: `Vector2` [NotReplicated] [NotScriptable] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **StudioPreferredTextSize**: `PreferredTextSize` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **TouchCameraMovementMode**: `TouchCameraMovementMode`
-- **TouchMovementMode**: `TouchMovementMode`
-- **UiNavigationKeyBindEnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **UsedCoreGuiIsVisibleToggle**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **UsedCustomGuiIsVisibleToggle**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **UsedHideHudShortcut**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VRComfortSetting**: `VRComfortSetting` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VREnabled**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VRRotationIntensity**: `int` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VRSafetyBubbleMode**: `VRSafetyBubbleMode` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VRSmoothRotationEnabled**: `bool` (Security: Read=None, Write=RobloxScriptSecurity)
-- **VRSmoothRotationEnabledCustomOption**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VRThirdPersonFollowCamEnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VRThirdPersonFollowCamEnabledCustomOption**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VignetteEnabled**: `bool` (Security: Read=None, Write=RobloxScriptSecurity)
-- **VignetteEnabledCustomOption**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VoiceChatVolume**: `float` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UserGameSettings.AllTutorialsDisabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.BadgeVisible` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.CameraMode` | `Enum.CustomCameraMode` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.CameraYInverted` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.ChatTranslationEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.ChatTranslationFTUXShown` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.ChatTranslationLocale` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.ChatTranslationToggleEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.ChatVisible` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.ComputerCameraMovementMode` | `Enum.ComputerCameraMovementMode` |  |
+| `Class.UserGameSettings.ComputerMovementMode` | `Enum.ComputerMovementMode` |  |
+| `Class.UserGameSettings.ControlMode` | `Enum.ControlMode` |  |
+| `Class.UserGameSettings.DefaultCameraID` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.FramerateCap` | `int` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.Fullscreen` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.GamepadCameraSensitivity` | `float` |  |
+| `Class.UserGameSettings.GraphicsOptimizationMode` | `Enum.GraphicsOptimizationMode` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.GraphicsQualityLevel` | `int` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.HapticStrength` | `float` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.HasEverUsedVR` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.IsUsingCameraYInverted` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.IsUsingGamepadCameraSensitivity` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.MasterVolume` | `float` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.MasterVolumeStudio` | `float` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.MaxQualityEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.MicroProfilerWebServerEnabled` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.MicroProfilerWebServerIP` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.MicroProfilerWebServerPort` | `int` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.MouseSensitivity` | `float` |  |
+| `Class.UserGameSettings.MouseSensitivityFirstPerson` | `Datatype.Vector2` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.MouseSensitivityThirdPerson` | `Datatype.Vector2` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.OnScreenProfilerEnabled` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.OnboardingsCompleted` | `string` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.PartyVoiceVolume` | `float` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.PeoplePageLayout` | `Enum.PeoplePageLayout` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.PerformanceStatsVisible` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.PlayerHeight` | `float` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.PlayerListVisible` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.PlayerNamesEnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.PreferredTextSize` | `Enum.PreferredTextSize` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.PreferredTransparency` | `float` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.QualityResetLevel` | `int` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.RCCProfilerRecordFrameRate` | `int` |  |
+| `Class.UserGameSettings.RCCProfilerRecordTimeFrame` | `int` |  |
+| `Class.UserGameSettings.ReadAloud` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.ReducedMotion` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.RotationType` | `Enum.RotationType` |  |
+| `Class.UserGameSettings.SavedQualityLevel` | `Enum.SavedQualitySetting` |  |
+| `Class.UserGameSettings.StartMaximized` | `bool` | [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.StartScreenPosition` | `Datatype.Vector2` | [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.StartScreenSize` | `Datatype.Vector2` | [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.StudioPreferredTextSize` | `Enum.PreferredTextSize` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.TouchCameraMovementMode` | `Enum.TouchCameraMovementMode` |  |
+| `Class.UserGameSettings.TouchMovementMode` | `Enum.TouchMovementMode` |  |
+| `Class.UserGameSettings.UiNavigationKeyBindEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.UsedCoreGuiIsVisibleToggle` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.UsedCustomGuiIsVisibleToggle` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.UsedHideHudShortcut` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VRComfortSetting` | `Enum.VRComfortSetting` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VREnabled` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VRRotationIntensity` | `int` |  {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VRSafetyBubbleMode` | `Enum.VRSafetyBubbleMode` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VRSmoothRotationEnabled` | `bool` |  {write: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VRSmoothRotationEnabledCustomOption` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VRThirdPersonFollowCamEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VRThirdPersonFollowCamEnabledCustomOption` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VignetteEnabled` | `bool` |  {write: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VignetteEnabledCustomOption` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserGameSettings.VoiceChatVolume` | `float` |  {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetCameraYInvertValue**() -> `int`
-- **GetDefaultFramerateCap**() -> `int`
-- **GetOnboardingCompleted**(`onboardingId: string`) -> `bool`
-- **GetTutorialState**(`tutorialId: string`) -> `bool`
-- **InFullScreen**() -> `bool`
-- **InStudioMode**() -> `bool`
-- **ResetOnboardingCompleted**(`onboardingId: string`) -> `null`
-- **SetCameraYInvertVisible**() -> `null`
-- **SetGamepadCameraSensitivityVisible**() -> `null`
-- **SetOnboardingCompleted**(`onboardingId: string`) -> `null`
-- **SetTutorialState**(`tutorialId: string`, `value: bool`) -> `null`
+### `Class.UserGameSettings:GetCameraYInvertValue`
+
+``GetCameraYInvertValue()`` → `int`
+
+### `Class.UserGameSettings:GetDefaultFramerateCap`
+
+``GetDefaultFramerateCap()`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.UserGameSettings:GetOnboardingCompleted`
+
+``GetOnboardingCompleted(onboardingId: `string`)`` → `bool`
+
+### `Class.UserGameSettings:GetTutorialState`
+
+``GetTutorialState(tutorialId: `string`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UserGameSettings:InFullScreen`
+
+``InFullScreen()`` → `bool`
+
+### `Class.UserGameSettings:InStudioMode`
+
+``InStudioMode()`` → `bool`
+
+### `Class.UserGameSettings:ResetOnboardingCompleted`
+
+``ResetOnboardingCompleted(onboardingId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.UserGameSettings:SetCameraYInvertVisible`
+
+``SetCameraYInvertVisible()`` → `null`
+
+### `Class.UserGameSettings:SetGamepadCameraSensitivityVisible`
+
+``SetGamepadCameraSensitivityVisible()`` → `null`
+
+### `Class.UserGameSettings:SetOnboardingCompleted`
+
+``SetOnboardingCompleted(onboardingId: `string`)`` → `null`
+
+### `Class.UserGameSettings:SetTutorialState`
+
+``SetTutorialState(tutorialId: `string`, value: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **FullscreenChanged**(`isFullscreen: bool`)
-- **PerformanceStatsVisibleChanged**(`isPerformanceStatsVisible: bool`)
-- **StudioModeChanged**(`isStudioMode: bool`)
+### `Class.UserGameSettings.FullscreenChanged`
+
+Fires with: (isFullscreen: `bool`)
+
+### `Class.UserGameSettings.PerformanceStatsVisibleChanged`
+
+Fires with: (isPerformanceStatsVisible: `bool`)
+
+### `Class.UserGameSettings.StudioModeChanged`
+
+Fires with: (isStudioMode: `bool`)

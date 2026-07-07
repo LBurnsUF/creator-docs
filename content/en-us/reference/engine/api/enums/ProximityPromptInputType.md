@@ -3,10 +3,12 @@ title: ProximityPromptInputType
 type: enum
 ---
 
-# ProximityPromptInputType (Enum)
+# `Enum.ProximityPromptInputType`
+
+The `Enum.ProximityPromptInputType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Keyboard | 0 |
-| Gamepad | 1 |
-| Touch | 2 |
+| `Enum.ProximityPromptInputType.Keyboard` | 0 |
+| `Enum.ProximityPromptInputType.Gamepad` | 1 |
+| `Enum.ProximityPromptInputType.Touch` | 2 |

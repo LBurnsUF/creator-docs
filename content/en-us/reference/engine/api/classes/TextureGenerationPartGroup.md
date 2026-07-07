@@ -7,11 +7,18 @@ tags: [NotCreatable, NotReplicated]
 
 # TextureGenerationPartGroup
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **GetInstances**() -> `Instances`
-- **GetMeshIdsHash**() -> `string`
+### `Class.TextureGenerationPartGroup:GetInstances`
+
+``GetInstances()`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextureGenerationPartGroup:GetMeshIdsHash`
+
+``GetMeshIdsHash()`` → `string`
+   {security: RobloxScriptSecurity}

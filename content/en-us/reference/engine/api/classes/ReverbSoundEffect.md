@@ -6,12 +6,14 @@ superclass: SoundEffect
 
 # ReverbSoundEffect
 
-**Inherits**: SoundEffect > Instance > Object
+**Inherits from:** `Class.SoundEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **DecayTime**: `float`
-- **Density**: `float`
-- **Diffusion**: `float`
-- **DryLevel**: `float`
-- **WetLevel**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ReverbSoundEffect.DecayTime` | `float` |  |
+| `Class.ReverbSoundEffect.Density` | `float` |  |
+| `Class.ReverbSoundEffect.Diffusion` | `float` |  |
+| `Class.ReverbSoundEffect.DryLevel` | `float` |  |
+| `Class.ReverbSoundEffect.WetLevel` | `float` |  |

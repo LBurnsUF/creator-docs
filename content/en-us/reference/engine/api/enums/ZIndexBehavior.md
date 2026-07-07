@@ -3,9 +3,11 @@ title: ZIndexBehavior
 type: enum
 ---
 
-# ZIndexBehavior (Enum)
+# `Enum.ZIndexBehavior`
+
+The `Enum.ZIndexBehavior` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Global | 0 |
-| Sibling | 1 |
+| `Enum.ZIndexBehavior.Global` | 0 |
+| `Enum.ZIndexBehavior.Sibling` | 1 |

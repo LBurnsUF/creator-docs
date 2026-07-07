@@ -3,10 +3,12 @@ title: ClientAnimatorThrottlingMode
 type: enum
 ---
 
-# ClientAnimatorThrottlingMode (Enum)
+# `Enum.ClientAnimatorThrottlingMode`
+
+The `Enum.ClientAnimatorThrottlingMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.ClientAnimatorThrottlingMode.Default` | 0 |
+| `Enum.ClientAnimatorThrottlingMode.Disabled` | 1 |
+| `Enum.ClientAnimatorThrottlingMode.Enabled` | 2 |

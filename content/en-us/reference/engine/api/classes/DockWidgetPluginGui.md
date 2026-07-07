@@ -7,14 +7,19 @@ tags: [NotCreatable, NotReplicated]
 
 # DockWidgetPluginGui
 
-**Inherits**: PluginGui > LayerCollector > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.PluginGui` > `Class.LayerCollector` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **HostWidgetWasRestored**: `bool` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DockWidgetPluginGui.HostWidgetWasRestored` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **RequestRaise**() -> `null`
+### `Class.DockWidgetPluginGui:RequestRaise`
+
+``RequestRaise()`` → `null`
+   {security: RobloxScriptSecurity}

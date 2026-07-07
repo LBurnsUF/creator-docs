@@ -3,10 +3,12 @@ title: RestPose
 type: enum
 ---
 
-# RestPose (Enum)
+# `Enum.RestPose`
+
+The `Enum.RestPose` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| RotationsReset | 1 |
-| Custom | 2 |
+| `Enum.RestPose.Default` | 0 |
+| `Enum.RestPose.RotationsReset` | 1 |
+| `Enum.RestPose.Custom` | 2 |

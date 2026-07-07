@@ -3,12 +3,14 @@ title: TerrainLiquidMergeOperation
 type: enum
 ---
 
-# TerrainLiquidMergeOperation (Enum)
+# `Enum.TerrainLiquidMergeOperation`
+
+The `Enum.TerrainLiquidMergeOperation` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Source | 1 |
-| Union | 2 |
-| Difference | 3 |
-| Intersect | 4 |
+| `Enum.TerrainLiquidMergeOperation.None` | 0 |
+| `Enum.TerrainLiquidMergeOperation.Source` | 1 |
+| `Enum.TerrainLiquidMergeOperation.Union` | 2 |
+| `Enum.TerrainLiquidMergeOperation.Difference` | 3 |
+| `Enum.TerrainLiquidMergeOperation.Intersect` | 4 |

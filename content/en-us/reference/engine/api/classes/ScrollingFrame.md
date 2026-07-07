@@ -6,42 +6,61 @@ superclass: GuiObject
 
 # ScrollingFrame
 
-**Inherits**: GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AbsoluteCanvasSize**: `Vector2` [ReadOnly] [NotReplicated]
-- **AbsoluteWindowSize**: `Vector2` [ReadOnly] [NotReplicated]
-- **AutomaticCanvasSize**: `AutomaticSize`
-- **BottomImage**: `ContentId`
-- **BottomImageContent**: `Content`
-- **CanvasPosition**: `Vector2`
-- **CanvasSize**: `UDim2`
-- **DraggingScrollBar**: `DraggingScrollBar` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ElasticBehavior**: `ElasticBehavior`
-- **HorizontalBarRect**: `Rect` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **HorizontalScrollBarInset**: `ScrollBarInset`
-- **MaxCanvasPosition**: `Vector2` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MidImage**: `ContentId`
-- **MidImageContent**: `Content`
-- **ScrollBarImageColor3**: `Color3`
-- **ScrollBarImageTransparency**: `float`
-- **ScrollBarThickness**: `int`
-- **ScrollRate**: `float` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ScrollVelocity**: `Vector2` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ScrollingDirection**: `ScrollingDirection`
-- **ScrollingEnabled**: `bool`
-- **SmoothScroll**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **TopImage**: `ContentId`
-- **TopImageContent**: `Content`
-- **VerticalBarRect**: `Rect` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VerticalScrollBarInset**: `ScrollBarInset`
-- **VerticalScrollBarPosition**: `VerticalScrollBarPosition`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ScrollingFrame.AbsoluteCanvasSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.ScrollingFrame.AbsoluteWindowSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.ScrollingFrame.AutomaticCanvasSize` | `Enum.AutomaticSize` |  |
+| `Class.ScrollingFrame.BottomImage` | `Datatype.ContentId` |  |
+| `Class.ScrollingFrame.BottomImageContent` | `Datatype.Content` |  |
+| `Class.ScrollingFrame.CanvasPosition` | `Datatype.Vector2` |  |
+| `Class.ScrollingFrame.CanvasSize` | `Datatype.UDim2` |  |
+| `Class.ScrollingFrame.DraggingScrollBar` | `Enum.DraggingScrollBar` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ScrollingFrame.ElasticBehavior` | `Enum.ElasticBehavior` |  |
+| `Class.ScrollingFrame.HorizontalBarRect` | `Datatype.Rect` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ScrollingFrame.HorizontalScrollBarInset` | `Enum.ScrollBarInset` |  |
+| `Class.ScrollingFrame.MaxCanvasPosition` | `Datatype.Vector2` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ScrollingFrame.MidImage` | `Datatype.ContentId` |  |
+| `Class.ScrollingFrame.MidImageContent` | `Datatype.Content` |  |
+| `Class.ScrollingFrame.ScrollBarImageColor3` | `Datatype.Color3` |  |
+| `Class.ScrollingFrame.ScrollBarImageTransparency` | `float` |  |
+| `Class.ScrollingFrame.ScrollBarThickness` | `int` |  |
+| `Class.ScrollingFrame.ScrollRate` | `float` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ScrollingFrame.ScrollVelocity` | `Datatype.Vector2` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ScrollingFrame.ScrollingDirection` | `Enum.ScrollingDirection` |  |
+| `Class.ScrollingFrame.ScrollingEnabled` | `bool` |  |
+| `Class.ScrollingFrame.SmoothScroll` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ScrollingFrame.TopImage` | `Datatype.ContentId` |  |
+| `Class.ScrollingFrame.TopImageContent` | `Datatype.Content` |  |
+| `Class.ScrollingFrame.VerticalBarRect` | `Datatype.Rect` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ScrollingFrame.VerticalScrollBarInset` | `Enum.ScrollBarInset` |  |
+| `Class.ScrollingFrame.VerticalScrollBarPosition` | `Enum.VerticalScrollBarPosition` |  |
 
 ## Methods
 
-- **ClearInertialScrolling**() -> `null`
-- **GetSampledInertialVelocity**() -> `Vector2`
-- **GetScrollVelocity**() -> `Vector2`
-- **ResetScrollVelocity**() -> `null`
-- **ScrollToTop**() -> `null`
+### `Class.ScrollingFrame:ClearInertialScrolling`
+
+``ClearInertialScrolling()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ScrollingFrame:GetSampledInertialVelocity`
+
+``GetSampledInertialVelocity()`` → `Datatype.Vector2`
+   {security: RobloxScriptSecurity}
+
+### `Class.ScrollingFrame:GetScrollVelocity`
+
+``GetScrollVelocity()`` → `Datatype.Vector2`
+
+### `Class.ScrollingFrame:ResetScrollVelocity`
+
+``ResetScrollVelocity()`` → `null`
+
+### `Class.ScrollingFrame:ScrollToTop`
+
+``ScrollToTop()`` → `null`
+   {security: RobloxScriptSecurity}

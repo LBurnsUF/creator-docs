@@ -7,16 +7,28 @@ tags: [NotCreatable, Service]
 
 # Debris
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **MaxItems**: `int` [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Debris.MaxItems` | `int` | [Deprecated] |
 
 ## Methods
 
-- **AddItem**(`item: Instance`, `lifetime: double = 10`) -> `null`
-- **SetLegacyMaxItems**(`enabled: bool`) -> `null`
-- **addItem**(`item: Instance`, `lifetime: double = 10`) -> `null` [Deprecated]
+### `Class.Debris:AddItem`
+
+``AddItem(item: `Class.Instance`, lifetime: `double`)`` → `null`
+
+### `Class.Debris:SetLegacyMaxItems`
+
+``SetLegacyMaxItems(enabled: `bool`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.Debris:addItem`
+
+``addItem(item: `Class.Instance`, lifetime: `double`)`` → `null`
+  [Deprecated]

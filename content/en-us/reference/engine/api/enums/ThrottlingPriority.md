@@ -3,10 +3,12 @@ title: ThrottlingPriority
 type: enum
 ---
 
-# ThrottlingPriority (Enum)
+# `Enum.ThrottlingPriority`
+
+The `Enum.ThrottlingPriority` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| ElevatedOnServer | 1 |
-| Extreme | 2 |
+| `Enum.ThrottlingPriority.Default` | 0 |
+| `Enum.ThrottlingPriority.ElevatedOnServer` | 1 |
+| `Enum.ThrottlingPriority.Extreme` | 2 |

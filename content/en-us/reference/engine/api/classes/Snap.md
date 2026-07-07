@@ -7,6 +7,6 @@ tags: [Deprecated]
 
 # Snap
 
-**Inherits**: JointInstance > Instance > Object
+**Inherits from:** `Class.JointInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]

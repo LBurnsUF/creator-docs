@@ -3,9 +3,11 @@ title: InputBindingType
 type: enum
 ---
 
-# InputBindingType (Enum)
+# `Enum.InputBindingType`
+
+The `Enum.InputBindingType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| Scriptable | 1 |
+| `Enum.InputBindingType.Automatic` | 0 |
+| `Enum.InputBindingType.Scriptable` | 1 |

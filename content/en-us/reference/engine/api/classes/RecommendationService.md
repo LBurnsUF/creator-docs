@@ -7,17 +7,45 @@ tags: [NotCreatable, Service]
 
 # RecommendationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **GenerateItemListAsync**(`generateRecommendationItemListRequest: Dictionary`) -> `RecommendationPages` [Yields]
-- **GetRecommendationItemAsync**(`itemId: string`) -> `Dictionary` [Yields]
-- **LogActionEvent**(`actionType: RecommendationActionType`, `itemId: string`, `tracingId: string`, `actionEventDetails: Dictionary = nil`) -> `null`
-- **LogImpressionEvent**(`impressionType: RecommendationImpressionType`, `itemId: string`, `tracingId: string`, `impressionEventDetails: Dictionary = nil`) -> `null`
-- **LogPreferenceEvent**(`preferenceType: RecommendationPreferenceType`, `targetType: RecommendationPreferenceTargetType`, `targetId: string`, `tracingId: string = `, `itemId: string = `) -> `null`
-- **RegisterItemAsync**(`player: Player`, `registerRecommendationItemsRequest: Dictionary`) -> `Dictionary` [Yields]
-- **RemoveItemAsync**(`itemId: string`) -> `null` [Yields]
-- **UpdateItemAsync**(`updateRecommendationItemRequest: Dictionary`) -> `null` [Yields]
+### `Class.RecommendationService:GenerateItemListAsync`
+
+``GenerateItemListAsync(generateRecommendationItemListRequest: `Dictionary`)`` → `Class.RecommendationPages`
+  [Yields]
+
+### `Class.RecommendationService:GetRecommendationItemAsync`
+
+``GetRecommendationItemAsync(itemId: `string`)`` → `Dictionary`
+  [Yields]
+
+### `Class.RecommendationService:LogActionEvent`
+
+``LogActionEvent(actionType: `Enum.RecommendationActionType`, itemId: `string`, tracingId: `string`, actionEventDetails: `Dictionary`)`` → `null`
+
+### `Class.RecommendationService:LogImpressionEvent`
+
+``LogImpressionEvent(impressionType: `Enum.RecommendationImpressionType`, itemId: `string`, tracingId: `string`, impressionEventDetails: `Dictionary`)`` → `null`
+
+### `Class.RecommendationService:LogPreferenceEvent`
+
+``LogPreferenceEvent(preferenceType: `Enum.RecommendationPreferenceType`, targetType: `Enum.RecommendationPreferenceTargetType`, targetId: `string`, tracingId: `string`, itemId: `string`)`` → `null`
+
+### `Class.RecommendationService:RegisterItemAsync`
+
+``RegisterItemAsync(player: `Class.Player`, registerRecommendationItemsRequest: `Dictionary`)`` → `Dictionary`
+  [Yields]
+
+### `Class.RecommendationService:RemoveItemAsync`
+
+``RemoveItemAsync(itemId: `string`)`` → `null`
+  [Yields]
+
+### `Class.RecommendationService:UpdateItemAsync`
+
+``UpdateItemAsync(updateRecommendationItemRequest: `Dictionary`)`` → `null`
+  [Yields]

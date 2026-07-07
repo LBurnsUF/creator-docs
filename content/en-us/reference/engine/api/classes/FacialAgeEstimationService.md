@@ -7,11 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # FacialAgeEstimationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **InquiryAsync**(`inquiryRequest: Dictionary`) -> `Dictionary` [Yields]
-- **IsAvailable**() -> `bool`
+### `Class.FacialAgeEstimationService:InquiryAsync`
+
+``InquiryAsync(inquiryRequest: `Dictionary`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.FacialAgeEstimationService:IsAvailable`
+
+``IsAvailable()`` → `bool`
+   {security: RobloxScriptSecurity}

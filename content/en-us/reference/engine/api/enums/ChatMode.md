@@ -3,9 +3,11 @@ title: ChatMode
 type: enum
 ---
 
-# ChatMode (Enum)
+# `Enum.ChatMode`
+
+The `Enum.ChatMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Menu | 0 |
-| TextAndMenu | 1 |
+| `Enum.ChatMode.Menu` | 0 |
+| `Enum.ChatMode.TextAndMenu` | 1 |

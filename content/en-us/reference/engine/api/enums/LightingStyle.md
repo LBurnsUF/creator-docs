@@ -3,9 +3,11 @@ title: LightingStyle
 type: enum
 ---
 
-# LightingStyle (Enum)
+# `Enum.LightingStyle`
+
+The `Enum.LightingStyle` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Realistic | 0 |
-| Soft | 1 |
+| `Enum.LightingStyle.Realistic` | 0 |
+| `Enum.LightingStyle.Soft` | 1 |

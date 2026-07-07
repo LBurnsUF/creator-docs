@@ -3,9 +3,11 @@ title: ConfigSnapshotErrorState
 type: enum
 ---
 
-# ConfigSnapshotErrorState (Enum)
+# `Enum.ConfigSnapshotErrorState`
+
+The `Enum.ConfigSnapshotErrorState` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| LoadFailed | 1 |
+| `Enum.ConfigSnapshotErrorState.None` | 0 |
+| `Enum.ConfigSnapshotErrorState.LoadFailed` | 1 |

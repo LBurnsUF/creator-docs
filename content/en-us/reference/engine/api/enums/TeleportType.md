@@ -3,12 +3,14 @@ title: TeleportType
 type: enum
 ---
 
-# TeleportType (Enum)
+# `Enum.TeleportType`
+
+The `Enum.TeleportType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| ToPlace | 0 |
-| ToInstance | 1 |
-| ToReservedServer | 2 |
-| ToVIPServer | 3 |
-| ToInstanceBack | 4 |
+| `Enum.TeleportType.ToPlace` | 0 |
+| `Enum.TeleportType.ToInstance` | 1 |
+| `Enum.TeleportType.ToReservedServer` | 2 |
+| `Enum.TeleportType.ToVIPServer` | 3 |
+| `Enum.TeleportType.ToInstanceBack` | 4 |

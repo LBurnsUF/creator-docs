@@ -3,10 +3,12 @@ title: RecommendationPreferenceTargetType
 type: enum
 ---
 
-# RecommendationPreferenceTargetType (Enum)
+# `Enum.RecommendationPreferenceTargetType`
+
+The `Enum.RecommendationPreferenceTargetType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| User | 0 |
-| Universe | 1 |
-| CustomTag | 2 |
+| `Enum.RecommendationPreferenceTargetType.User` | 0 |
+| `Enum.RecommendationPreferenceTargetType.Universe` | 1 |
+| `Enum.RecommendationPreferenceTargetType.CustomTag` | 2 |

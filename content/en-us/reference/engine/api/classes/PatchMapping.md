@@ -7,12 +7,14 @@ tags: [NotCreatable, NotReplicated]
 
 # PatchMapping
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **FlattenTree**: `bool`
-- **PatchId**: `string`
-- **TargetPath**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PatchMapping.FlattenTree` | `bool` |  |
+| `Class.PatchMapping.PatchId` | `string` |  |
+| `Class.PatchMapping.TargetPath` | `string` |  |

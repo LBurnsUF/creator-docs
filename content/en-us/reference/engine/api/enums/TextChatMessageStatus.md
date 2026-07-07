@@ -3,16 +3,18 @@ title: TextChatMessageStatus
 type: enum
 ---
 
-# TextChatMessageStatus (Enum)
+# `Enum.TextChatMessageStatus`
+
+The `Enum.TextChatMessageStatus` enum has 9 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 1 |
-| Success | 2 |
-| Sending | 3 |
-| TextFilterFailed | 4 |
-| Floodchecked | 5 |
-| InvalidPrivacySettings | 6 |
-| InvalidTextChannelPermissions | 7 |
-| MessageTooLong | 8 |
-| ModerationTimeout | 9 |
+| `Enum.TextChatMessageStatus.Unknown` | 1 |
+| `Enum.TextChatMessageStatus.Success` | 2 |
+| `Enum.TextChatMessageStatus.Sending` | 3 |
+| `Enum.TextChatMessageStatus.TextFilterFailed` | 4 |
+| `Enum.TextChatMessageStatus.Floodchecked` | 5 |
+| `Enum.TextChatMessageStatus.InvalidPrivacySettings` | 6 |
+| `Enum.TextChatMessageStatus.InvalidTextChannelPermissions` | 7 |
+| `Enum.TextChatMessageStatus.MessageTooLong` | 8 |
+| `Enum.TextChatMessageStatus.ModerationTimeout` | 9 |

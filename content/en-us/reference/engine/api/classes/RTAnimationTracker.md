@@ -7,23 +7,33 @@ tags: [NotReplicated]
 
 # RTAnimationTracker
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **Active**: `bool` [Hidden] [NotReplicated]
-- **EnableFallbackAudioInput**: `bool` [Hidden] [NotReplicated]
-- **SessionName**: `string` [Hidden] [NotReplicated]
-- **TrackerMode**: `TrackerMode` [Hidden] [ReadOnly] [NotReplicated]
-- **TrackerType**: `TrackerType` [Hidden] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RTAnimationTracker.Active` | `bool` | [Hidden] [NotReplicated] |
+| `Class.RTAnimationTracker.EnableFallbackAudioInput` | `bool` | [Hidden] [NotReplicated] |
+| `Class.RTAnimationTracker.SessionName` | `string` | [Hidden] [NotReplicated] |
+| `Class.RTAnimationTracker.TrackerMode` | `Enum.TrackerMode` | [Hidden] [ReadOnly] [NotReplicated] |
+| `Class.RTAnimationTracker.TrackerType` | `Enum.TrackerType` | [Hidden] [NotReplicated] |
 
 ## Methods
 
-- **Step**() -> `null`
+### `Class.RTAnimationTracker:Step`
+
+``Step()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **TrackerError**(`errorCode: TrackerError`, `msg: string`)
-- **TrackerPrompt**(`prompt: TrackerPromptEvent`)
+### `Class.RTAnimationTracker.TrackerError`
+
+Fires with: (errorCode: `Enum.TrackerError`, msg: `string`)
+
+### `Class.RTAnimationTracker.TrackerPrompt`
+
+Fires with: (prompt: `Enum.TrackerPromptEvent`)

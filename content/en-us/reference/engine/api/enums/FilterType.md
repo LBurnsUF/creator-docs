@@ -3,9 +3,11 @@ title: FilterType
 type: enum
 ---
 
-# FilterType (Enum)
+# `Enum.FilterType`
+
+The `Enum.FilterType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Exclude | 0 |
-| Include | 1 |
+| `Enum.FilterType.Exclude` | 0 |
+| `Enum.FilterType.Include` | 1 |

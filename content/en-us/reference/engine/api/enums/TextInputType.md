@@ -3,18 +3,20 @@ title: TextInputType
 type: enum
 ---
 
-# TextInputType (Enum)
+# `Enum.TextInputType`
+
+The `Enum.TextInputType` enum has 11 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| NoSuggestions | 1 |
-| Number | 2 |
-| Email | 3 |
-| Phone | 4 |
-| Password | 5 |
-| PasswordShown | 6 |
-| Username | 7 |
-| OneTimePassword | 8 |
-| NewPassword | 9 |
-| NewPasswordShown | 10 |
+| `Enum.TextInputType.Default` | 0 |
+| `Enum.TextInputType.NoSuggestions` | 1 |
+| `Enum.TextInputType.Number` | 2 |
+| `Enum.TextInputType.Email` | 3 |
+| `Enum.TextInputType.Phone` | 4 |
+| `Enum.TextInputType.Password` | 5 |
+| `Enum.TextInputType.PasswordShown` | 6 |
+| `Enum.TextInputType.Username` | 7 |
+| `Enum.TextInputType.OneTimePassword` | 8 |
+| `Enum.TextInputType.NewPassword` | 9 |
+| `Enum.TextInputType.NewPasswordShown` | 10 |

@@ -3,10 +3,12 @@ title: AudioApiRollout
 type: enum
 ---
 
-# AudioApiRollout (Enum)
+# `Enum.AudioApiRollout`
+
+The `Enum.AudioApiRollout` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Disabled | 0 |
-| Automatic | 1 |
-| Enabled | 2 |
+| `Enum.AudioApiRollout.Disabled` | 0 |
+| `Enum.AudioApiRollout.Automatic` | 1 |
+| `Enum.AudioApiRollout.Enabled` | 2 |

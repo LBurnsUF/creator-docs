@@ -7,14 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PlayerDataService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **LoadFailureBehavior**: `PlayerDataLoadFailureBehavior`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PlayerDataService.LoadFailureBehavior` | `Enum.PlayerDataLoadFailureBehavior` |  |
 
 ## Methods
 
-- **GetRecordConfig**(`recordName: string = Default`) -> `PlayerDataRecordConfig`
+### `Class.PlayerDataService:GetRecordConfig`
+
+``GetRecordConfig(recordName: `string`)`` → `Class.PlayerDataRecordConfig`

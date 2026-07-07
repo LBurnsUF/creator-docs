@@ -3,14 +3,16 @@ title: VoiceChatState
 type: enum
 ---
 
-# VoiceChatState (Enum)
+# `Enum.VoiceChatState`
+
+The `Enum.VoiceChatState` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| Idle | 0 |
-| Joining | 1 |
-| JoiningRetry | 2 |
-| Joined | 3 |
-| Leaving | 4 |
-| Ended | 5 |
-| Failed | 6 |
+| `Enum.VoiceChatState.Idle` | 0 |
+| `Enum.VoiceChatState.Joining` | 1 |
+| `Enum.VoiceChatState.JoiningRetry` | 2 |
+| `Enum.VoiceChatState.Joined` | 3 |
+| `Enum.VoiceChatState.Leaving` | 4 |
+| `Enum.VoiceChatState.Ended` | 5 |
+| `Enum.VoiceChatState.Failed` | 6 |

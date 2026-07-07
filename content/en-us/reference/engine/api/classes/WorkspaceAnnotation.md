@@ -6,14 +6,23 @@ superclass: Annotation
 
 # WorkspaceAnnotation
 
-**Inherits**: Annotation > Instance > Object
+**Inherits from:** `Class.Annotation` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Adornee**: `PVInstance` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **AdorneeOffset**: `Vector3` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.WorkspaceAnnotation.Adornee` | `Class.PVInstance` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.WorkspaceAnnotation.AdorneeOffset` | `Datatype.Vector3` | [Hidden] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetAbsolutePosition**() -> `Vector3`
-- **SetAdorneeOffsetFromAbsolutePosition**(`position: Vector3`) -> `null`
+### `Class.WorkspaceAnnotation:GetAbsolutePosition`
+
+``GetAbsolutePosition()`` → `Datatype.Vector3`
+   {security: RobloxScriptSecurity}
+
+### `Class.WorkspaceAnnotation:SetAdorneeOffsetFromAbsolutePosition`
+
+``SetAdorneeOffsetFromAbsolutePosition(position: `Datatype.Vector3`)`` → `null`
+   {security: RobloxScriptSecurity}

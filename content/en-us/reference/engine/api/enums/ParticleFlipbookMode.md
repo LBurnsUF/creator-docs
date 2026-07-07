@@ -3,11 +3,13 @@ title: ParticleFlipbookMode
 type: enum
 ---
 
-# ParticleFlipbookMode (Enum)
+# `Enum.ParticleFlipbookMode`
+
+The `Enum.ParticleFlipbookMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Loop | 0 |
-| OneShot | 1 |
-| PingPong | 2 |
-| Random | 3 |
+| `Enum.ParticleFlipbookMode.Loop` | 0 |
+| `Enum.ParticleFlipbookMode.OneShot` | 1 |
+| `Enum.ParticleFlipbookMode.PingPong` | 2 |
+| `Enum.ParticleFlipbookMode.Random` | 3 |

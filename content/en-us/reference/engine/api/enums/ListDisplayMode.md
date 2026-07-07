@@ -3,9 +3,11 @@ title: ListDisplayMode
 type: enum
 ---
 
-# ListDisplayMode (Enum)
+# `Enum.ListDisplayMode`
+
+The `Enum.ListDisplayMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Horizontal | 0 |
-| Vertical | 1 |
+| `Enum.ListDisplayMode.Horizontal` | 0 |
+| `Enum.ListDisplayMode.Vertical` | 1 |

@@ -3,10 +3,12 @@ title: FacialAgeEstimationResultType
 type: enum
 ---
 
-# FacialAgeEstimationResultType (Enum)
+# `Enum.FacialAgeEstimationResultType`
+
+The `Enum.FacialAgeEstimationResultType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Complete | 0 |
-| Cancel | 1 |
-| Error | 2 |
+| `Enum.FacialAgeEstimationResultType.Complete` | 0 |
+| `Enum.FacialAgeEstimationResultType.Cancel` | 1 |
+| `Enum.FacialAgeEstimationResultType.Error` | 2 |

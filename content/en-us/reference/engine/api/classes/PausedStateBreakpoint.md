@@ -7,10 +7,12 @@ tags: [NotCreatable, NotReplicated]
 
 # PausedStateBreakpoint
 
-**Inherits**: PausedState > Instance > Object
+**Inherits from:** `Class.PausedState` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Breakpoint**: `Breakpoint` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PausedStateBreakpoint.Breakpoint` | `Class.Breakpoint` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |

@@ -3,13 +3,15 @@ title: PlaybackState
 type: enum
 ---
 
-# PlaybackState (Enum)
+# `Enum.PlaybackState`
+
+The `Enum.PlaybackState` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Begin | 0 |
-| Delayed | 1 |
-| Playing | 2 |
-| Paused | 3 |
-| Completed | 4 |
-| Cancelled | 5 |
+| `Enum.PlaybackState.Begin` | 0 |
+| `Enum.PlaybackState.Delayed` | 1 |
+| `Enum.PlaybackState.Playing` | 2 |
+| `Enum.PlaybackState.Paused` | 3 |
+| `Enum.PlaybackState.Completed` | 4 |
+| `Enum.PlaybackState.Cancelled` | 5 |

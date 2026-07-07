@@ -3,12 +3,14 @@ title: EngagementLevel
 type: enum
 ---
 
-# EngagementLevel (Enum)
+# `Enum.EngagementLevel`
+
+The `Enum.EngagementLevel` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| Inactive | 1 |
-| Low | 2 |
-| Medium | 3 |
-| High | 4 |
+| `Enum.EngagementLevel.Unknown` | 0 |
+| `Enum.EngagementLevel.Inactive` | 1 |
+| `Enum.EngagementLevel.Low` | 2 |
+| `Enum.EngagementLevel.Medium` | 3 |
+| `Enum.EngagementLevel.High` | 4 |

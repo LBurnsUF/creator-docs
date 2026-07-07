@@ -7,17 +7,26 @@ tags: [NotCreatable, NotReplicated]
 
 # PluginConnection
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Connected**: `bool` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **TargetId**: `string` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **Type**: `PluginConnectionTargetType` [ReadOnly] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PluginConnection.Connected` | `bool` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.PluginConnection.TargetId` | `string` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
+| `Class.PluginConnection.Type` | `Enum.PluginConnectionTargetType` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
 
 ## Methods
 
-- **BindToMessage**(`callbackFunction: Function`) -> `RBXScriptConnection`
-- **SendMessage**(`message: Variant`) -> `null`
+### `Class.PluginConnection:BindToMessage`
+
+``BindToMessage(callbackFunction: `Datatype.Function`)`` → `Datatype.RBXScriptConnection`
+   {security: PluginSecurity}
+
+### `Class.PluginConnection:SendMessage`
+
+``SendMessage(message: `Variant`)`` → `null`
+   {security: PluginSecurity}

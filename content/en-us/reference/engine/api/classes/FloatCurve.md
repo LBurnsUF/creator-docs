@@ -6,18 +6,40 @@ superclass: Instance
 
 # FloatCurve
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Length**: `int` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FloatCurve.Length` | `int` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetKeyAtIndex**(`index: int`) -> `FloatCurveKey`
-- **GetKeyIndicesAtTime**(`time: float`) -> `Array`
-- **GetKeys**() -> `Array`
-- **GetValueAtTime**(`time: float`) -> `float?`
-- **InsertKey**(`key: FloatCurveKey`) -> `Array`
-- **RemoveKeyAtIndex**(`startingIndex: int`, `count: int = 1`) -> `int`
-- **SetKeys**(`keys: Array`) -> `int`
+### `Class.FloatCurve:GetKeyAtIndex`
+
+``GetKeyAtIndex(index: `int`)`` → `Datatype.FloatCurveKey`
+
+### `Class.FloatCurve:GetKeyIndicesAtTime`
+
+``GetKeyIndicesAtTime(time: `float`)`` → `Array`
+
+### `Class.FloatCurve:GetKeys`
+
+``GetKeys()`` → `Array`
+
+### `Class.FloatCurve:GetValueAtTime`
+
+``GetValueAtTime(time: `float`)`` → `float?`
+
+### `Class.FloatCurve:InsertKey`
+
+``InsertKey(key: `Datatype.FloatCurveKey`)`` → `Array`
+
+### `Class.FloatCurve:RemoveKeyAtIndex`
+
+``RemoveKeyAtIndex(startingIndex: `int`, count: `int`)`` → `int`
+
+### `Class.FloatCurve:SetKeys`
+
+``SetKeys(keys: `Array`)`` → `int`

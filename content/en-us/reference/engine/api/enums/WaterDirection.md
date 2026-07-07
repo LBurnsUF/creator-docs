@@ -3,13 +3,15 @@ title: WaterDirection
 type: enum
 ---
 
-# WaterDirection (Enum)
+# `Enum.WaterDirection`
+
+The `Enum.WaterDirection` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| NegX | 0 |
-| X | 1 |
-| NegY | 2 |
-| Y | 3 |
-| NegZ | 4 |
-| Z | 5 |
+| `Enum.WaterDirection.NegX` | 0 |
+| `Enum.WaterDirection.X` | 1 |
+| `Enum.WaterDirection.NegY` | 2 |
+| `Enum.WaterDirection.Y` | 3 |
+| `Enum.WaterDirection.NegZ` | 4 |
+| `Enum.WaterDirection.Z` | 5 |

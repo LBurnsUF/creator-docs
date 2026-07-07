@@ -6,18 +6,30 @@ superclass: Instance
 
 # AudioDeviceOutput
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Player**: `Player`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioDeviceOutput.Player` | `Class.Player` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
+### `Class.AudioDeviceOutput:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioDeviceOutput:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioDeviceOutput:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioDeviceOutput.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

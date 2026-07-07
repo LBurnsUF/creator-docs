@@ -3,9 +3,11 @@ title: AvatarSettingsCharacterControllerMode
 type: enum
 ---
 
-# AvatarSettingsCharacterControllerMode (Enum)
+# `Enum.AvatarSettingsCharacterControllerMode`
+
+The `Enum.AvatarSettingsCharacterControllerMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| LegacyHumanoid | 0 |
-| LuaCharacterController | 1 |
+| `Enum.AvatarSettingsCharacterControllerMode.LegacyHumanoid` | 0 |
+| `Enum.AvatarSettingsCharacterControllerMode.LuaCharacterController` | 1 |

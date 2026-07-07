@@ -3,10 +3,12 @@ title: MeshPartHeadsAndAccessories
 type: enum
 ---
 
-# MeshPartHeadsAndAccessories (Enum)
+# `Enum.MeshPartHeadsAndAccessories`
+
+The `Enum.MeshPartHeadsAndAccessories` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.MeshPartHeadsAndAccessories.Default` | 0 |
+| `Enum.MeshPartHeadsAndAccessories.Disabled` | 1 |
+| `Enum.MeshPartHeadsAndAccessories.Enabled` | 2 |

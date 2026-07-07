@@ -7,28 +7,33 @@ tags: [NotCreatable, Service, NotReplicated, NotBrowsable]
 
 # RenderSettings
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated, NotBrowsable
+**Tags:** [NotCreatable] [Service] [NotReplicated] [NotBrowsable]
 
 ## Properties
 
-- **AutoFRMLevel**: `int` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EagerBulkExecution**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EditQualityLevel**: `QualityLevel` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **Enable VR Mode**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EnableFRM**: `bool` [Hidden] [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ExportMergeByMaterial**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **FrameRateManager**: `FramerateManagerMode` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **GraphicsMode**: `GraphicsMode` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **MeshCacheSize**: `int` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **MeshPartDetailLevel**: `MeshPartDetailLevel` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **QualityLevel**: `QualityLevel` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ReloadAssets**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RenderCSGTrianglesDebug**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ShowBoundingBoxes**: `bool` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ViewMode**: `ViewMode` (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RenderSettings.AutoFRMLevel` | `int` |  {security: PluginSecurity} |
+| `Class.RenderSettings.EagerBulkExecution` | `bool` |  {security: PluginSecurity} |
+| `Class.RenderSettings.EditQualityLevel` | `Enum.QualityLevel` |  {security: PluginSecurity} |
+| `Class.RenderSettings.Enable VR Mode` | `bool` |  {security: PluginSecurity} |
+| `Class.RenderSettings.EnableFRM` | `bool` | [Hidden] [NotReplicated] {security: PluginSecurity} |
+| `Class.RenderSettings.ExportMergeByMaterial` | `bool` |  {security: PluginSecurity} |
+| `Class.RenderSettings.FrameRateManager` | `Enum.FramerateManagerMode` |  {security: PluginSecurity} |
+| `Class.RenderSettings.GraphicsMode` | `Enum.GraphicsMode` |  {security: PluginSecurity} |
+| `Class.RenderSettings.MeshCacheSize` | `int` |  {security: PluginSecurity} |
+| `Class.RenderSettings.MeshPartDetailLevel` | `Enum.MeshPartDetailLevel` |  {security: PluginSecurity} |
+| `Class.RenderSettings.QualityLevel` | `Enum.QualityLevel` |  {security: PluginSecurity} |
+| `Class.RenderSettings.ReloadAssets` | `bool` |  {security: PluginSecurity} |
+| `Class.RenderSettings.RenderCSGTrianglesDebug` | `bool` |  {security: PluginSecurity} |
+| `Class.RenderSettings.ShowBoundingBoxes` | `bool` |  {security: PluginSecurity} |
+| `Class.RenderSettings.ViewMode` | `Enum.ViewMode` |  {security: PluginSecurity} |
 
 ## Methods
 
-- **GetMaxQualityLevel**() -> `int`
+### `Class.RenderSettings:GetMaxQualityLevel`
+
+``GetMaxQualityLevel()`` → `int`
+   {security: PluginSecurity}

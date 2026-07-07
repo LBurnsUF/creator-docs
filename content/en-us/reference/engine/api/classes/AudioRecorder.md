@@ -7,27 +7,60 @@ tags: [NotBrowsable]
 
 # AudioRecorder
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotBrowsable
+**Tags:** [NotBrowsable]
 
 ## Properties
 
-- **IsRecording**: `bool` (Security: Read=None, Write=RobloxSecurity)
-- **TimeLength**: `double` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioRecorder.IsRecording` | `bool` |  {write: RobloxSecurity} |
+| `Class.AudioRecorder.TimeLength` | `double` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **CanRecordAsync**() -> `bool` [Yields]
-- **Clear**() -> `null`
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
-- **GetTemporaryContent**() -> `Content`
-- **GetUnrecordableInstancesAsync**() -> `Instances` [Yields]
-- **RecordAsync**() -> `null` [Yields]
-- **Stop**() -> `null`
+### `Class.AudioRecorder:CanRecordAsync`
+
+``CanRecordAsync()`` → `bool`
+  [Yields]
+
+### `Class.AudioRecorder:Clear`
+
+``Clear()`` → `null`
+
+### `Class.AudioRecorder:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioRecorder:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioRecorder:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
+
+### `Class.AudioRecorder:GetTemporaryContent`
+
+``GetTemporaryContent()`` → `Datatype.Content`
+
+### `Class.AudioRecorder:GetUnrecordableInstancesAsync`
+
+``GetUnrecordableInstancesAsync()`` → `Datatype.Instances`
+  [Yields]
+
+### `Class.AudioRecorder:RecordAsync`
+
+``RecordAsync()`` → `null`
+  [Yields]
+
+### `Class.AudioRecorder:Stop`
+
+``Stop()`` → `null`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioRecorder.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

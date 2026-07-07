@@ -6,11 +6,13 @@ superclass: UIComponent
 
 # UIFlexItem
 
-**Inherits**: UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **FlexMode**: `UIFlexMode`
-- **GrowRatio**: `float`
-- **ItemLineAlignment**: `ItemLineAlignment`
-- **ShrinkRatio**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIFlexItem.FlexMode` | `Enum.UIFlexMode` |  |
+| `Class.UIFlexItem.GrowRatio` | `float` |  |
+| `Class.UIFlexItem.ItemLineAlignment` | `Enum.ItemLineAlignment` |  |
+| `Class.UIFlexItem.ShrinkRatio` | `float` |  |

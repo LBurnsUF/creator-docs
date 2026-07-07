@@ -6,11 +6,13 @@ superclass: Instance
 
 # PathfindingLink
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Attachment0**: `Attachment`
-- **Attachment1**: `Attachment`
-- **IsBidirectional**: `bool`
-- **Label**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PathfindingLink.Attachment0` | `Class.Attachment` |  |
+| `Class.PathfindingLink.Attachment1` | `Class.Attachment` |  |
+| `Class.PathfindingLink.IsBidirectional` | `bool` |  |
+| `Class.PathfindingLink.Label` | `string` |  |

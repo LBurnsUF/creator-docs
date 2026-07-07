@@ -3,10 +3,12 @@ title: BorderStrokePosition
 type: enum
 ---
 
-# BorderStrokePosition (Enum)
+# `Enum.BorderStrokePosition`
+
+The `Enum.BorderStrokePosition` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Outer | 0 |
-| Center | 1 |
-| Inner | 2 |
+| `Enum.BorderStrokePosition.Outer` | 0 |
+| `Enum.BorderStrokePosition.Center` | 1 |
+| `Enum.BorderStrokePosition.Inner` | 2 |

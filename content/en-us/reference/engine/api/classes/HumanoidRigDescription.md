@@ -6,141 +6,218 @@ superclass: Instance
 
 # HumanoidRigDescription
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Chest**: `Instance`
-- **ChestRangeMax**: `Vector3`
-- **ChestRangeMin**: `Vector3`
-- **ChestSize**: `float`
-- **ChestTposeAdjustment**: `CFrame`
-- **HeadBase**: `Instance`
-- **HeadBaseRangeMax**: `Vector3`
-- **HeadBaseRangeMin**: `Vector3`
-- **HeadBaseSize**: `float`
-- **HeadBaseTposeAdjustment**: `CFrame`
-- **LeftAnkle**: `Instance`
-- **LeftAnkleRangeMax**: `Vector3`
-- **LeftAnkleRangeMin**: `Vector3`
-- **LeftAnkleSize**: `float`
-- **LeftAnkleTposeAdjustment**: `CFrame`
-- **LeftClavicle**: `Instance`
-- **LeftClavicleRangeMax**: `Vector3`
-- **LeftClavicleRangeMin**: `Vector3`
-- **LeftClavicleSize**: `float`
-- **LeftClavicleTposeAdjustment**: `CFrame`
-- **LeftElbow**: `Instance`
-- **LeftElbowRangeMax**: `Vector3`
-- **LeftElbowRangeMin**: `Vector3`
-- **LeftElbowSize**: `float`
-- **LeftElbowTposeAdjustment**: `CFrame`
-- **LeftHip**: `Instance`
-- **LeftHipRangeMax**: `Vector3`
-- **LeftHipRangeMin**: `Vector3`
-- **LeftHipSize**: `float`
-- **LeftHipTposeAdjustment**: `CFrame`
-- **LeftKnee**: `Instance`
-- **LeftKneeRangeMax**: `Vector3`
-- **LeftKneeRangeMin**: `Vector3`
-- **LeftKneeSize**: `float`
-- **LeftKneeTposeAdjustment**: `CFrame`
-- **LeftShoulder**: `Instance`
-- **LeftShoulderRangeMax**: `Vector3`
-- **LeftShoulderRangeMin**: `Vector3`
-- **LeftShoulderSize**: `float`
-- **LeftShoulderTposeAdjustment**: `CFrame`
-- **LeftToeBase**: `Instance`
-- **LeftToeBaseRangeMax**: `Vector3`
-- **LeftToeBaseRangeMin**: `Vector3`
-- **LeftToeBaseSize**: `float`
-- **LeftToeBaseTposeAdjustment**: `CFrame`
-- **LeftWrist**: `Instance`
-- **LeftWristRangeMax**: `Vector3`
-- **LeftWristRangeMin**: `Vector3`
-- **LeftWristSize**: `float`
-- **LeftWristTposeAdjustment**: `CFrame`
-- **Neck**: `Instance`
-- **NeckRangeMax**: `Vector3`
-- **NeckRangeMin**: `Vector3`
-- **NeckSize**: `float`
-- **NeckTposeAdjustment**: `CFrame`
-- **OriginOffset**: `CFrame` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RightAnkle**: `Instance`
-- **RightAnkleRangeMax**: `Vector3`
-- **RightAnkleRangeMin**: `Vector3`
-- **RightAnkleSize**: `float`
-- **RightAnkleTposeAdjustment**: `CFrame`
-- **RightClavicle**: `Instance`
-- **RightClavicleRangeMax**: `Vector3`
-- **RightClavicleRangeMin**: `Vector3`
-- **RightClavicleSize**: `float`
-- **RightClavicleTposeAdjustment**: `CFrame`
-- **RightElbow**: `Instance`
-- **RightElbowRangeMax**: `Vector3`
-- **RightElbowRangeMin**: `Vector3`
-- **RightElbowSize**: `float`
-- **RightElbowTposeAdjustment**: `CFrame`
-- **RightHip**: `Instance`
-- **RightHipRangeMax**: `Vector3`
-- **RightHipRangeMin**: `Vector3`
-- **RightHipSize**: `float`
-- **RightHipTposeAdjustment**: `CFrame`
-- **RightKnee**: `Instance`
-- **RightKneeRangeMax**: `Vector3`
-- **RightKneeRangeMin**: `Vector3`
-- **RightKneeSize**: `float`
-- **RightKneeTposeAdjustment**: `CFrame`
-- **RightShoulder**: `Instance`
-- **RightShoulderRangeMax**: `Vector3`
-- **RightShoulderRangeMin**: `Vector3`
-- **RightShoulderSize**: `float`
-- **RightShoulderTposeAdjustment**: `CFrame`
-- **RightToeBase**: `Instance`
-- **RightToeBaseRangeMax**: `Vector3`
-- **RightToeBaseRangeMin**: `Vector3`
-- **RightToeBaseSize**: `float`
-- **RightToeBaseTposeAdjustment**: `CFrame`
-- **RightWrist**: `Instance`
-- **RightWristRangeMax**: `Vector3`
-- **RightWristRangeMin**: `Vector3`
-- **RightWristSize**: `float`
-- **RightWristTposeAdjustment**: `CFrame`
-- **Root**: `Instance`
-- **RootRangeMax**: `Vector3`
-- **RootRangeMin**: `Vector3`
-- **RootSize**: `float`
-- **RootTposeAdjustment**: `CFrame`
-- **Spine**: `Instance`
-- **SpineRangeMax**: `Vector3`
-- **SpineRangeMin**: `Vector3`
-- **SpineSize**: `float`
-- **SpineTposeAdjustment**: `CFrame`
-- **Waist**: `Instance`
-- **WaistRangeMax**: `Vector3`
-- **WaistRangeMin**: `Vector3`
-- **WaistSize**: `float`
-- **WaistTposeAdjustment**: `CFrame`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.HumanoidRigDescription.Chest` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.ChestRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.ChestRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.ChestSize` | `float` |  |
+| `Class.HumanoidRigDescription.ChestTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.HeadBase` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.HeadBaseRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.HeadBaseRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.HeadBaseSize` | `float` |  |
+| `Class.HumanoidRigDescription.HeadBaseTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.LeftAnkle` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.LeftAnkleRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftAnkleRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftAnkleSize` | `float` |  |
+| `Class.HumanoidRigDescription.LeftAnkleTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.LeftClavicle` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.LeftClavicleRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftClavicleRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftClavicleSize` | `float` |  |
+| `Class.HumanoidRigDescription.LeftClavicleTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.LeftElbow` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.LeftElbowRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftElbowRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftElbowSize` | `float` |  |
+| `Class.HumanoidRigDescription.LeftElbowTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.LeftHip` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.LeftHipRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftHipRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftHipSize` | `float` |  |
+| `Class.HumanoidRigDescription.LeftHipTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.LeftKnee` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.LeftKneeRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftKneeRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftKneeSize` | `float` |  |
+| `Class.HumanoidRigDescription.LeftKneeTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.LeftShoulder` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.LeftShoulderRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftShoulderRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftShoulderSize` | `float` |  |
+| `Class.HumanoidRigDescription.LeftShoulderTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.LeftToeBase` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.LeftToeBaseRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftToeBaseRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftToeBaseSize` | `float` |  |
+| `Class.HumanoidRigDescription.LeftToeBaseTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.LeftWrist` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.LeftWristRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftWristRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.LeftWristSize` | `float` |  |
+| `Class.HumanoidRigDescription.LeftWristTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.Neck` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.NeckRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.NeckRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.NeckSize` | `float` |  |
+| `Class.HumanoidRigDescription.NeckTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.OriginOffset` | `Datatype.CFrame` |  {security: RobloxScriptSecurity} |
+| `Class.HumanoidRigDescription.RightAnkle` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.RightAnkleRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightAnkleRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightAnkleSize` | `float` |  |
+| `Class.HumanoidRigDescription.RightAnkleTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.RightClavicle` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.RightClavicleRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightClavicleRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightClavicleSize` | `float` |  |
+| `Class.HumanoidRigDescription.RightClavicleTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.RightElbow` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.RightElbowRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightElbowRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightElbowSize` | `float` |  |
+| `Class.HumanoidRigDescription.RightElbowTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.RightHip` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.RightHipRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightHipRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightHipSize` | `float` |  |
+| `Class.HumanoidRigDescription.RightHipTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.RightKnee` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.RightKneeRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightKneeRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightKneeSize` | `float` |  |
+| `Class.HumanoidRigDescription.RightKneeTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.RightShoulder` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.RightShoulderRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightShoulderRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightShoulderSize` | `float` |  |
+| `Class.HumanoidRigDescription.RightShoulderTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.RightToeBase` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.RightToeBaseRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightToeBaseRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightToeBaseSize` | `float` |  |
+| `Class.HumanoidRigDescription.RightToeBaseTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.RightWrist` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.RightWristRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightWristRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RightWristSize` | `float` |  |
+| `Class.HumanoidRigDescription.RightWristTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.Root` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.RootRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RootRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.RootSize` | `float` |  |
+| `Class.HumanoidRigDescription.RootTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.Spine` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.SpineRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.SpineRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.SpineSize` | `float` |  |
+| `Class.HumanoidRigDescription.SpineTposeAdjustment` | `Datatype.CFrame` |  |
+| `Class.HumanoidRigDescription.Waist` | `Class.Instance` |  |
+| `Class.HumanoidRigDescription.WaistRangeMax` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.WaistRangeMin` | `Datatype.Vector3` |  |
+| `Class.HumanoidRigDescription.WaistSize` | `float` |  |
+| `Class.HumanoidRigDescription.WaistTposeAdjustment` | `Datatype.CFrame` |  |
 
 ## Methods
 
-- **AutoRig**(`character: Instance`) -> `null`
-- **GetContainedJointLabels**(`bodyMeshPartName: string`) -> `Array`
-- **GetJoint**(`label: RigLabel`) -> `Instance`
-- **GetJointFromName**(`name: string`) -> `Instance`
-- **GetJointLabels**() -> `Array`
-- **GetJointNames**() -> `Array`
-- **GetJointRangeMax**(`rigLabel: RigLabel`) -> `Vector3`
-- **GetJointRangeMin**(`rigLabel: RigLabel`) -> `Vector3`
-- **GetJointSize**(`label: RigLabel`) -> `float`
-- **GetR15JointLabels**() -> `Array`
-- **GetR15JointNames**() -> `Array`
-- **GetR6JointLabels**() -> `Array`
-- **GetR6JointNames**() -> `Array`
-- **GetTposeAdjustment**(`label: RigLabel`) -> `CFrame`
-- **SetJoint**(`label: RigLabel`, `joint: Instance`) -> `null`
-- **SetJointRangeMax**(`rigLabel: RigLabel`, `rangeMax: Vector3`) -> `null`
-- **SetJointRangeMin**(`rigLabel: RigLabel`, `rangeMin: Vector3`) -> `null`
-- **SetJointSize**(`label: RigLabel`, `size: float`) -> `null`
-- **SetTposeAdjustment**(`label: RigLabel`, `transform: CFrame`) -> `null`
-- **ShowVolumes**(`show: bool`) -> `null`
+### `Class.HumanoidRigDescription:AutoRig`
+
+``AutoRig(character: `Class.Instance`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:GetContainedJointLabels`
+
+``GetContainedJointLabels(bodyMeshPartName: `string`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:GetJoint`
+
+``GetJoint(label: `Enum.RigLabel`)`` → `Class.Instance`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:GetJointFromName`
+
+``GetJointFromName(name: `string`)`` → `Class.Instance`
+
+### `Class.HumanoidRigDescription:GetJointLabels`
+
+``GetJointLabels()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:GetJointNames`
+
+``GetJointNames()`` → `Array`
+
+### `Class.HumanoidRigDescription:GetJointRangeMax`
+
+``GetJointRangeMax(rigLabel: `Enum.RigLabel`)`` → `Datatype.Vector3`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:GetJointRangeMin`
+
+``GetJointRangeMin(rigLabel: `Enum.RigLabel`)`` → `Datatype.Vector3`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:GetJointSize`
+
+``GetJointSize(label: `Enum.RigLabel`)`` → `float`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:GetR15JointLabels`
+
+``GetR15JointLabels()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:GetR15JointNames`
+
+``GetR15JointNames()`` → `Array`
+
+### `Class.HumanoidRigDescription:GetR6JointLabels`
+
+``GetR6JointLabels()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:GetR6JointNames`
+
+``GetR6JointNames()`` → `Array`
+
+### `Class.HumanoidRigDescription:GetTposeAdjustment`
+
+``GetTposeAdjustment(label: `Enum.RigLabel`)`` → `Datatype.CFrame`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:SetJoint`
+
+``SetJoint(label: `Enum.RigLabel`, joint: `Class.Instance`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:SetJointRangeMax`
+
+``SetJointRangeMax(rigLabel: `Enum.RigLabel`, rangeMax: `Datatype.Vector3`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:SetJointRangeMin`
+
+``SetJointRangeMin(rigLabel: `Enum.RigLabel`, rangeMin: `Datatype.Vector3`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:SetJointSize`
+
+``SetJointSize(label: `Enum.RigLabel`, size: `float`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:SetTposeAdjustment`
+
+``SetTposeAdjustment(label: `Enum.RigLabel`, transform: `Datatype.CFrame`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.HumanoidRigDescription:ShowVolumes`
+
+``ShowVolumes(show: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}

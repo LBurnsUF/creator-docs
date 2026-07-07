@@ -3,9 +3,11 @@ title: DebuggerFrameType
 type: enum
 ---
 
-# DebuggerFrameType (Enum)
+# `Enum.DebuggerFrameType`
+
+The `Enum.DebuggerFrameType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| C | 0 |
-| Lua | 1 |
+| `Enum.DebuggerFrameType.C` | 0 |
+| `Enum.DebuggerFrameType.Lua` | 1 |

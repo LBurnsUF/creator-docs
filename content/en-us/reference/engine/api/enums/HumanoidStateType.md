@@ -3,24 +3,26 @@ title: HumanoidStateType
 type: enum
 ---
 
-# HumanoidStateType (Enum)
+# `Enum.HumanoidStateType`
+
+The `Enum.HumanoidStateType` enum has 17 item(s).
 
 | Name | Value |
 |------|-------|
-| FallingDown | 0 |
-| Ragdoll | 1 |
-| GettingUp | 2 |
-| Jumping | 3 |
-| Swimming | 4 |
-| Freefall | 5 |
-| Flying | 6 |
-| Landed | 7 |
-| Running | 8 |
-| RunningNoPhysics | 10 |
-| StrafingNoPhysics | 11 |
-| Climbing | 12 |
-| Seated | 13 |
-| PlatformStanding | 14 |
-| Dead | 15 |
-| Physics | 16 |
-| None | 18 |
+| `Enum.HumanoidStateType.FallingDown` | 0 |
+| `Enum.HumanoidStateType.Ragdoll` | 1 |
+| `Enum.HumanoidStateType.GettingUp` | 2 |
+| `Enum.HumanoidStateType.Jumping` | 3 |
+| `Enum.HumanoidStateType.Swimming` | 4 |
+| `Enum.HumanoidStateType.Freefall` | 5 |
+| `Enum.HumanoidStateType.Flying` | 6 |
+| `Enum.HumanoidStateType.Landed` | 7 |
+| `Enum.HumanoidStateType.Running` | 8 |
+| `Enum.HumanoidStateType.RunningNoPhysics` | 10 |
+| `Enum.HumanoidStateType.StrafingNoPhysics` | 11 |
+| `Enum.HumanoidStateType.Climbing` | 12 |
+| `Enum.HumanoidStateType.Seated` | 13 |
+| `Enum.HumanoidStateType.PlatformStanding` | 14 |
+| `Enum.HumanoidStateType.Dead` | 15 |
+| `Enum.HumanoidStateType.Physics` | 16 |
+| `Enum.HumanoidStateType.None` | 18 |

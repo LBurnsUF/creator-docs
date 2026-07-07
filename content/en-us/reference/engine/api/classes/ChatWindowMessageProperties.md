@@ -7,15 +7,17 @@ tags: [NotCreatable]
 
 # ChatWindowMessageProperties
 
-**Inherits**: TextChatMessageProperties > Instance > Object
+**Inherits from:** `Class.TextChatMessageProperties` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **FontFace**: `Font`
-- **PrefixTextProperties**: `ChatWindowMessageProperties`
-- **TextColor3**: `Color3`
-- **TextSize**: `int`
-- **TextStrokeColor3**: `Color3`
-- **TextStrokeTransparency**: `double`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ChatWindowMessageProperties.FontFace` | `Datatype.Font` |  |
+| `Class.ChatWindowMessageProperties.PrefixTextProperties` | `Class.ChatWindowMessageProperties` |  |
+| `Class.ChatWindowMessageProperties.TextColor3` | `Datatype.Color3` |  |
+| `Class.ChatWindowMessageProperties.TextSize` | `int` |  |
+| `Class.ChatWindowMessageProperties.TextStrokeColor3` | `Datatype.Color3` |  |
+| `Class.ChatWindowMessageProperties.TextStrokeTransparency` | `double` |  |

@@ -7,14 +7,33 @@ tags: [NotCreatable, NotReplicated]
 
 # DataStore
 
-**Inherits**: GlobalDataStore > Instance > Object
+**Inherits from:** `Class.GlobalDataStore` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **GetVersionAsync**(`key: string`, `version: string`) -> `Tuple` [Yields]
-- **GetVersionAtTimeAsync**(`key: string`, `timestamp: int64`) -> `Tuple` [Yields]
-- **ListKeysAsync**(`prefix: string = `, `pageSize: int = 0`, `cursor: string = `, `excludeDeleted: bool = false`) -> `DataStoreKeyPages` [Yields]
-- **ListVersionsAsync**(`key: string`, `sortDirection: SortDirection = Ascending`, `minDate: int64 = 0`, `maxDate: int64 = 0`, `pageSize: int = 0`) -> `DataStoreVersionPages` [Yields]
-- **RemoveVersionAsync**(`key: string`, `version: string`) -> `null` [Yields] [Deprecated]
+### `Class.DataStore:GetVersionAsync`
+
+``GetVersionAsync(key: `string`, version: `string`)`` → `Tuple`
+  [Yields]
+
+### `Class.DataStore:GetVersionAtTimeAsync`
+
+``GetVersionAtTimeAsync(key: `string`, timestamp: `int64`)`` → `Tuple`
+  [Yields]
+
+### `Class.DataStore:ListKeysAsync`
+
+``ListKeysAsync(prefix: `string`, pageSize: `int`, cursor: `string`, excludeDeleted: `bool`)`` → `Class.DataStoreKeyPages`
+  [Yields]
+
+### `Class.DataStore:ListVersionsAsync`
+
+``ListVersionsAsync(key: `string`, sortDirection: `Enum.SortDirection`, minDate: `int64`, maxDate: `int64`, pageSize: `int`)`` → `Class.DataStoreVersionPages`
+  [Yields]
+
+### `Class.DataStore:RemoveVersionAsync`
+
+``RemoveVersionAsync(key: `string`, version: `string`)`` → `null`
+  [Yields] [Deprecated]

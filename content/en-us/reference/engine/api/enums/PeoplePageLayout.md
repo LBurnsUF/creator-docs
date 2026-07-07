@@ -3,9 +3,11 @@ title: PeoplePageLayout
 type: enum
 ---
 
-# PeoplePageLayout (Enum)
+# `Enum.PeoplePageLayout`
+
+The `Enum.PeoplePageLayout` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Card | 0 |
-| List | 1 |
+| `Enum.PeoplePageLayout.Card` | 0 |
+| `Enum.PeoplePageLayout.List` | 1 |

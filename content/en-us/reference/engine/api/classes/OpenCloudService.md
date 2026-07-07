@@ -7,14 +7,33 @@ tags: [NotCreatable, Service, NotReplicated, Deprecated]
 
 # OpenCloudService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated, Deprecated
+**Tags:** [NotCreatable] [Service] [NotReplicated] [Deprecated]
 
 ## Methods
 
-- **GetApiV1**() -> `OpenCloudApiV1` [Deprecated]
-- **HttpRequestAsync**(`options: Dictionary`) -> `Dictionary` [Yields]
-- **InvokeAsync**(`version: string`, `methodName: string`, `arguments: Dictionary`, `headers: Dictionary = nil`) -> `Dictionary` [Yields] [Deprecated]
-- **RegisterOpenCloud**(`version: string`, `methodName: string`, `method: Function`) -> `null`
-- **RegistrationComplete**() -> `null`
+### `Class.OpenCloudService:GetApiV1`
+
+``GetApiV1()`` → `Class.OpenCloudApiV1`
+  [Deprecated]
+
+### `Class.OpenCloudService:HttpRequestAsync`
+
+``HttpRequestAsync(options: `Dictionary`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.OpenCloudService:InvokeAsync`
+
+``InvokeAsync(version: `string`, methodName: `string`, arguments: `Dictionary`, headers: `Dictionary`)`` → `Dictionary`
+  [Yields] [Deprecated]
+
+### `Class.OpenCloudService:RegisterOpenCloud`
+
+``RegisterOpenCloud(version: `string`, methodName: `string`, method: `Datatype.Function`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.OpenCloudService:RegistrationComplete`
+
+``RegistrationComplete()`` → `null`
+   {security: RobloxScriptSecurity}

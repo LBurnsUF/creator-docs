@@ -7,13 +7,26 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ModerationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **BindReviewableContentEventProcessor**(`priority: int`, `callback: Function`) -> `RBXScriptConnection`
-- **CreateReviewableContentAsync**(`config: Dictionary`) -> `string` [Yields]
-- **CreateReviewableContentKey**(`content: Content`) -> `string`
-- **InternalRequestReviewableContentReviewAsync**(`config: Dictionary`) -> `null` [Yields]
+### `Class.ModerationService:BindReviewableContentEventProcessor`
+
+``BindReviewableContentEventProcessor(priority: `int`, callback: `Datatype.Function`)`` → `Datatype.RBXScriptConnection`
+
+### `Class.ModerationService:CreateReviewableContentAsync`
+
+``CreateReviewableContentAsync(config: `Dictionary`)`` → `string`
+  [Yields]
+
+### `Class.ModerationService:CreateReviewableContentKey`
+
+``CreateReviewableContentKey(content: `Datatype.Content`)`` → `string`
+
+### `Class.ModerationService:InternalRequestReviewableContentReviewAsync`
+
+``InternalRequestReviewableContentReviewAsync(config: `Dictionary`)`` → `null`
+  [Yields]

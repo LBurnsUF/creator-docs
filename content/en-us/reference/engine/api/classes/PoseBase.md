@@ -7,12 +7,14 @@ tags: [NotCreatable]
 
 # PoseBase
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **EasingDirection**: `PoseEasingDirection`
-- **EasingStyle**: `PoseEasingStyle`
-- **Weight**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PoseBase.EasingDirection` | `Enum.PoseEasingDirection` |  |
+| `Class.PoseBase.EasingStyle` | `Enum.PoseEasingStyle` |  |
+| `Class.PoseBase.Weight` | `float` |  |

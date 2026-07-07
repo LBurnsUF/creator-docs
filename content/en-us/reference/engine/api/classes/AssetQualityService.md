@@ -7,14 +7,33 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AssetQualityService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **FetchAssetQualitySummaryFromGltfAsync**(`gltfData: string`, `desiredQualityChecks: Array`) -> `Dictionary` [Yields]
-- **FetchAssetQualitySummaryFromJobIdAsync**(`jobId: string`, `desiredQualityChecks: Array`) -> `Dictionary` [Yields]
-- **FetchAssetQualityValidationEntriesFromModelsAsync**(`models: Array`, `assetTypeIds: Array`, `settings: Dictionary`) -> `Dictionary` [Yields]
-- **FetchAssetQualityVisualizationDataFromUrlAsync**(`visualizationUrl: string`) -> `Dictionary` [Yields]
-- **GenerateAssetQualityGltfFromInstanceAsync**(`uploadModel: Model`) -> `string` [Yields]
+### `Class.AssetQualityService:FetchAssetQualitySummaryFromGltfAsync`
+
+``FetchAssetQualitySummaryFromGltfAsync(gltfData: `string`, desiredQualityChecks: `Array`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AssetQualityService:FetchAssetQualitySummaryFromJobIdAsync`
+
+``FetchAssetQualitySummaryFromJobIdAsync(jobId: `string`, desiredQualityChecks: `Array`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AssetQualityService:FetchAssetQualityValidationEntriesFromModelsAsync`
+
+``FetchAssetQualityValidationEntriesFromModelsAsync(models: `Array`, assetTypeIds: `Array`, settings: `Dictionary`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AssetQualityService:FetchAssetQualityVisualizationDataFromUrlAsync`
+
+``FetchAssetQualityVisualizationDataFromUrlAsync(visualizationUrl: `string`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AssetQualityService:GenerateAssetQualityGltfFromInstanceAsync`
+
+``GenerateAssetQualityGltfFromInstanceAsync(uploadModel: `Class.Model`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}

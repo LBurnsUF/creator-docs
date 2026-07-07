@@ -6,18 +6,40 @@ superclass: Instance
 
 # RotationCurve
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Length**: `int` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RotationCurve.Length` | `int` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetKeyAtIndex**(`index: int`) -> `RotationCurveKey`
-- **GetKeyIndicesAtTime**(`time: float`) -> `Array`
-- **GetKeys**() -> `Array`
-- **GetValueAtTime**(`time: float`) -> `CoordinateFrame?`
-- **InsertKey**(`key: RotationCurveKey`) -> `Array`
-- **RemoveKeyAtIndex**(`startingIndex: int`, `count: int = 1`) -> `int`
-- **SetKeys**(`keys: Array`) -> `int`
+### `Class.RotationCurve:GetKeyAtIndex`
+
+``GetKeyAtIndex(index: `int`)`` → `Datatype.RotationCurveKey`
+
+### `Class.RotationCurve:GetKeyIndicesAtTime`
+
+``GetKeyIndicesAtTime(time: `float`)`` → `Array`
+
+### `Class.RotationCurve:GetKeys`
+
+``GetKeys()`` → `Array`
+
+### `Class.RotationCurve:GetValueAtTime`
+
+``GetValueAtTime(time: `float`)`` → `Datatype.CoordinateFrame`?
+
+### `Class.RotationCurve:InsertKey`
+
+``InsertKey(key: `Datatype.RotationCurveKey`)`` → `Array`
+
+### `Class.RotationCurve:RemoveKeyAtIndex`
+
+``RemoveKeyAtIndex(startingIndex: `int`, count: `int`)`` → `int`
+
+### `Class.RotationCurve:SetKeys`
+
+``SetKeys(keys: `Array`)`` → `int`

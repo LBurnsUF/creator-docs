@@ -3,24 +3,26 @@ title: DataStoreRequestType
 type: enum
 ---
 
-# DataStoreRequestType (Enum)
+# `Enum.DataStoreRequestType`
+
+The `Enum.DataStoreRequestType` enum has 17 item(s).
 
 | Name | Value |
 |------|-------|
-| GetAsync | 0 |
-| SetIncrementAsync | 1 |
-| UpdateAsync | 2 |
-| GetSortedAsync | 3 |
-| SetIncrementSortedAsync | 4 |
-| OnUpdate | 5 |
-| ListAsync | 6 |
-| GetVersionAsync | 7 |
-| RemoveVersionAsync | 8 |
-| StandardRead | 9 |
-| StandardWrite | 10 |
-| StandardList | 11 |
-| StandardRemove | 12 |
-| OrderedRead | 13 |
-| OrderedWrite | 14 |
-| OrderedList | 15 |
-| OrderedRemove | 16 |
+| `Enum.DataStoreRequestType.GetAsync` | 0 |
+| `Enum.DataStoreRequestType.SetIncrementAsync` | 1 |
+| `Enum.DataStoreRequestType.UpdateAsync` | 2 |
+| `Enum.DataStoreRequestType.GetSortedAsync` | 3 |
+| `Enum.DataStoreRequestType.SetIncrementSortedAsync` | 4 |
+| `Enum.DataStoreRequestType.OnUpdate` | 5 |
+| `Enum.DataStoreRequestType.ListAsync` | 6 |
+| `Enum.DataStoreRequestType.GetVersionAsync` | 7 |
+| `Enum.DataStoreRequestType.RemoveVersionAsync` | 8 |
+| `Enum.DataStoreRequestType.StandardRead` | 9 |
+| `Enum.DataStoreRequestType.StandardWrite` | 10 |
+| `Enum.DataStoreRequestType.StandardList` | 11 |
+| `Enum.DataStoreRequestType.StandardRemove` | 12 |
+| `Enum.DataStoreRequestType.OrderedRead` | 13 |
+| `Enum.DataStoreRequestType.OrderedWrite` | 14 |
+| `Enum.DataStoreRequestType.OrderedList` | 15 |
+| `Enum.DataStoreRequestType.OrderedRemove` | 16 |

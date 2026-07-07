@@ -3,10 +3,12 @@ title: SortOrder
 type: enum
 ---
 
-# SortOrder (Enum)
+# `Enum.SortOrder`
+
+The `Enum.SortOrder` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Name | 0 |
-| Custom | 1 |
-| LayoutOrder | 2 |
+| `Enum.SortOrder.Name` | 0 |
+| `Enum.SortOrder.Custom` | 1 |
+| `Enum.SortOrder.LayoutOrder` | 2 |

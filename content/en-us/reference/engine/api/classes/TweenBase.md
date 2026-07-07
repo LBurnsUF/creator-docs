@@ -7,20 +7,32 @@ tags: [NotCreatable, NotBrowsable]
 
 # TweenBase
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Properties
 
-- **PlaybackState**: `PlaybackState` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TweenBase.PlaybackState` | `Enum.PlaybackState` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **Cancel**() -> `null`
-- **Pause**() -> `null`
-- **Play**() -> `null`
+### `Class.TweenBase:Cancel`
+
+``Cancel()`` → `null`
+
+### `Class.TweenBase:Pause`
+
+``Pause()`` → `null`
+
+### `Class.TweenBase:Play`
+
+``Play()`` → `null`
 
 ## Events
 
-- **Completed**(`playbackState: PlaybackState`)
+### `Class.TweenBase.Completed`
+
+Fires with: (playbackState: `Enum.PlaybackState`)

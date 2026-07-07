@@ -7,15 +7,24 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AppRatingPromptService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **isAppRatingPromptAvailable**() -> `bool`
-- **showAppRatingPrompt**() -> `null`
+### `Class.AppRatingPromptService:isAppRatingPromptAvailable`
+
+``isAppRatingPromptAvailable()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.AppRatingPromptService:showAppRatingPrompt`
+
+``showAppRatingPrompt()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **OnGameLeft**(`gameTime: double`)
+### `Class.AppRatingPromptService.OnGameLeft`
+
+Fires with: (gameTime: `double`)

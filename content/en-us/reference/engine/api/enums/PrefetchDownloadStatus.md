@@ -3,11 +3,13 @@ title: PrefetchDownloadStatus
 type: enum
 ---
 
-# PrefetchDownloadStatus (Enum)
+# `Enum.PrefetchDownloadStatus`
+
+The `Enum.PrefetchDownloadStatus` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| NotStarted | 0 |
-| InProgress | 1 |
-| Completed | 2 |
-| Failed | 3 |
+| `Enum.PrefetchDownloadStatus.NotStarted` | 0 |
+| `Enum.PrefetchDownloadStatus.InProgress` | 1 |
+| `Enum.PrefetchDownloadStatus.Completed` | 2 |
+| `Enum.PrefetchDownloadStatus.Failed` | 3 |

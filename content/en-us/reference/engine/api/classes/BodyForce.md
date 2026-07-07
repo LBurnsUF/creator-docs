@@ -7,11 +7,13 @@ tags: [Deprecated]
 
 # BodyForce
 
-**Inherits**: BodyMover > Instance > Object
+**Inherits from:** `Class.BodyMover` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **Force**: `Vector3`
-- **force**: `Vector3` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BodyForce.Force` | `Datatype.Vector3` |  |
+| `Class.BodyForce.force` | `Datatype.Vector3` | [NotReplicated] [Deprecated] |

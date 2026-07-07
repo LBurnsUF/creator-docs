@@ -7,14 +7,28 @@ tags: [NotCreatable, Service]
 
 # FeatureRestrictionManager
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Events
 
-- **FeatureTimeoutAttempt**(`permanent: bool`, `startTime: int64`, `duration: int64`, `featureRestrictionAbuseVector: FeatureRestrictionAbuseVector`)
-- **FeatureTimeoutRestored**(`featureRestrictionAbuseVector: FeatureRestrictionAbuseVector`)
-- **ShowFeatureInterventionDetails**(`featureRestrictionAbuseVector: FeatureRestrictionAbuseVector`)
-- **ShowFeatureInterventionDetailsV2**(`featureRestrictionAbuseVector: FeatureRestrictionAbuseVector`, `isGameJoin: bool`)
-- **TimeoutChatAttempt**(`isPermanentTimeout: bool`, `endTime: int64`)
+### `Class.FeatureRestrictionManager.FeatureTimeoutAttempt`
+
+Fires with: (permanent: `bool`, startTime: `int64`, duration: `int64`, featureRestrictionAbuseVector: `Enum.FeatureRestrictionAbuseVector`)
+
+### `Class.FeatureRestrictionManager.FeatureTimeoutRestored`
+
+Fires with: (featureRestrictionAbuseVector: `Enum.FeatureRestrictionAbuseVector`)
+
+### `Class.FeatureRestrictionManager.ShowFeatureInterventionDetails`
+
+Fires with: (featureRestrictionAbuseVector: `Enum.FeatureRestrictionAbuseVector`)
+
+### `Class.FeatureRestrictionManager.ShowFeatureInterventionDetailsV2`
+
+Fires with: (featureRestrictionAbuseVector: `Enum.FeatureRestrictionAbuseVector`, isGameJoin: `bool`)
+
+### `Class.FeatureRestrictionManager.TimeoutChatAttempt`
+
+Fires with: (isPermanentTimeout: `bool`, endTime: `int64`)

@@ -7,11 +7,17 @@ tags: [NotCreatable, NotReplicated]
 
 # TerrainWriteOperation
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **CommitBlock**(`block: Dictionary`) -> `RBXScriptSignal`
-- **GetBlock**() -> `Dictionary` [CustomLuaState]
+### `Class.TerrainWriteOperation:CommitBlock`
+
+``CommitBlock(block: `Dictionary`)`` → `Datatype.RBXScriptSignal`
+
+### `Class.TerrainWriteOperation:GetBlock`
+
+``GetBlock()`` → `Dictionary`
+  [CustomLuaState]

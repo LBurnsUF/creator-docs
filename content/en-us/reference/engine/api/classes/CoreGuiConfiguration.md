@@ -7,12 +7,14 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # CoreGuiConfiguration
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **CapturesViewConfiguration**: `CapturesViewConfiguration`
-- **PlayerListConfiguration**: `PlayerListConfiguration`
-- **SelfViewConfiguration**: `SelfViewConfiguration`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CoreGuiConfiguration.CapturesViewConfiguration` | `Class.CapturesViewConfiguration` |  |
+| `Class.CoreGuiConfiguration.PlayerListConfiguration` | `Class.PlayerListConfiguration` |  |
+| `Class.CoreGuiConfiguration.SelfViewConfiguration` | `Class.SelfViewConfiguration` |  |

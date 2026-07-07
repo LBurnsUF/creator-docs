@@ -7,33 +7,83 @@ tags: [NotCreatable, Service]
 
 # NotificationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **IsConnected**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsLuaChatEnabled**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsLuaGameDetailsEnabled**: `bool` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **SelectedTheme**: `string` [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.NotificationService.IsConnected` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.NotificationService.IsLuaChatEnabled` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.NotificationService.IsLuaGameDetailsEnabled` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.NotificationService.SelectedTheme` | `string` | [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **ActionEnabled**(`actionType: AppShellActionType`) -> `null`
-- **ActionTaken**(`actionType: AppShellActionType`) -> `null`
-- **CancelAllNotification**(`userId: int64`) -> `null`
-- **CancelNotification**(`userId: int64`, `alertId: int`) -> `null`
-- **GetScheduledNotifications**(`userId: int64`) -> `Array` [Yields]
-- **ScheduleNotification**(`userId: int64`, `alertId: int`, `alertMsg: string`, `minutesToFire: int`) -> `null`
-- **SubscribeToRccEventNamespace**(`eventNamespace: string`) -> `null`
-- **SwitchedToAppShellFeature**(`appShellFeature: AppShellFeature`) -> `null`
+### `Class.NotificationService:ActionEnabled`
+
+``ActionEnabled(actionType: `Enum.AppShellActionType`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.NotificationService:ActionTaken`
+
+``ActionTaken(actionType: `Enum.AppShellActionType`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.NotificationService:CancelAllNotification`
+
+``CancelAllNotification(userId: `int64`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.NotificationService:CancelNotification`
+
+``CancelNotification(userId: `int64`, alertId: `int`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.NotificationService:GetScheduledNotifications`
+
+``GetScheduledNotifications(userId: `int64`)`` → `Array`
+  [Yields] {security: LocalUserSecurity}
+
+### `Class.NotificationService:ScheduleNotification`
+
+``ScheduleNotification(userId: `int64`, alertId: `int`, alertMsg: `string`, minutesToFire: `int`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.NotificationService:SubscribeToRccEventNamespace`
+
+``SubscribeToRccEventNamespace(eventNamespace: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.NotificationService:SwitchedToAppShellFeature`
+
+``SwitchedToAppShellFeature(appShellFeature: `Enum.AppShellFeature`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **RccConnectionChanged**(`connectionName: string`, `connectionState: ConnectionState`, `rccSequenceNumber: string`, `userIdToNamespaceSequenceNumbers: Map`)
-- **RccEventReceived**(`eventData: Map`, `userId: int64`)
-- **Roblox17sConnectionChanged**(`connectionName: string`, `connectionState: ConnectionState`, `namespaceSequenceNumbers: string`)
-- **Roblox17sEventReceived**(`eventData: Map`)
-- **RobloxConnectionChanged**(`connectionName: string`, `connectionState: ConnectionState`, `sequenceNumber: string`, `namespaceSequenceNumbers: string`)
-- **RobloxEventReceived**(`eventData: Map`)
+### `Class.NotificationService.RccConnectionChanged`
+
+Fires with: (connectionName: `string`, connectionState: `Enum.ConnectionState`, rccSequenceNumber: `string`, userIdToNamespaceSequenceNumbers: `Map`)
+
+### `Class.NotificationService.RccEventReceived`
+
+Fires with: (eventData: `Map`, userId: `int64`)
+
+### `Class.NotificationService.Roblox17sConnectionChanged`
+
+Fires with: (connectionName: `string`, connectionState: `Enum.ConnectionState`, namespaceSequenceNumbers: `string`)
+
+### `Class.NotificationService.Roblox17sEventReceived`
+
+Fires with: (eventData: `Map`)
+
+### `Class.NotificationService.RobloxConnectionChanged`
+
+Fires with: (connectionName: `string`, connectionState: `Enum.ConnectionState`, sequenceNumber: `string`, namespaceSequenceNumbers: `string`)
+
+### `Class.NotificationService.RobloxEventReceived`
+
+Fires with: (eventData: `Map`)

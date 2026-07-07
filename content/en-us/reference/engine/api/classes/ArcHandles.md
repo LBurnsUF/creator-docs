@@ -6,16 +6,32 @@ superclass: HandlesBase
 
 # ArcHandles
 
-**Inherits**: HandlesBase > PartAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.HandlesBase` > `Class.PartAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Axes**: `Axes`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ArcHandles.Axes` | `Datatype.Axes` |  |
 
 ## Events
 
-- **MouseButton1Down**(`axis: Axis`)
-- **MouseButton1Up**(`axis: Axis`)
-- **MouseDrag**(`axis: Axis`, `relativeAngle: float`, `deltaRadius: float`)
-- **MouseEnter**(`axis: Axis`)
-- **MouseLeave**(`axis: Axis`)
+### `Class.ArcHandles.MouseButton1Down`
+
+Fires with: (axis: `Enum.Axis`)
+
+### `Class.ArcHandles.MouseButton1Up`
+
+Fires with: (axis: `Enum.Axis`)
+
+### `Class.ArcHandles.MouseDrag`
+
+Fires with: (axis: `Enum.Axis`, relativeAngle: `float`, deltaRadius: `float`)
+
+### `Class.ArcHandles.MouseEnter`
+
+Fires with: (axis: `Enum.Axis`)
+
+### `Class.ArcHandles.MouseLeave`
+
+Fires with: (axis: `Enum.Axis`)

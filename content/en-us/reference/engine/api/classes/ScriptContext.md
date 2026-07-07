@@ -7,26 +7,62 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ScriptContext
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **ScriptsDisabled**: `bool` [Hidden] (Security: Read=LocalUserSecurity, Write=LocalUserSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ScriptContext.ScriptsDisabled` | `bool` | [Hidden] {security: LocalUserSecurity} |
 
 ## Methods
 
-- **AddCoreScriptLocal**(`name: string`, `parent: Instance`) -> `null`
-- **CompressLuaApp**() -> `null`
-- **EnableCoverage**(`instance: Instance`) -> `null`
-- **GetCoverageStats**() -> `Array`
-- **GetLuauHeapInstanceReferenceReport**(`target: string`) -> `Dictionary` [CustomLuaState]
-- **GetLuauHeapMemoryReport**(`target: string`) -> `Dictionary` [CustomLuaState]
-- **ReportLuaRequireCount**() -> `null`
-- **SetTimeout**(`seconds: double`) -> `null`
+### `Class.ScriptContext:AddCoreScriptLocal`
+
+``AddCoreScriptLocal(name: `string`, parent: `Class.Instance`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ScriptContext:CompressLuaApp`
+
+``CompressLuaApp()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ScriptContext:EnableCoverage`
+
+``EnableCoverage(instance: `Class.Instance`)`` → `null`
+
+### `Class.ScriptContext:GetCoverageStats`
+
+``GetCoverageStats()`` → `Array`
+
+### `Class.ScriptContext:GetLuauHeapInstanceReferenceReport`
+
+``GetLuauHeapInstanceReferenceReport(target: `string`)`` → `Dictionary`
+  [CustomLuaState] {security: RobloxScriptSecurity}
+
+### `Class.ScriptContext:GetLuauHeapMemoryReport`
+
+``GetLuauHeapMemoryReport(target: `string`)`` → `Dictionary`
+  [CustomLuaState] {security: RobloxScriptSecurity}
+
+### `Class.ScriptContext:ReportLuaRequireCount`
+
+``ReportLuaRequireCount()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ScriptContext:SetTimeout`
+
+``SetTimeout(seconds: `double`)`` → `null`
+   {security: PluginSecurity}
 
 ## Events
 
-- **Error**(`message: string`, `stackTrace: string`, `script: Instance`)
-- **ErrorDetailed**(`message: string`, `stackTrace: string`, `script: Instance`, `details: string`, `securityLevel: int`, `messageId: string`)
+### `Class.ScriptContext.Error`
+
+Fires with: (message: `string`, stackTrace: `string`, script: `Class.Instance`)
+
+### `Class.ScriptContext.ErrorDetailed`
+
+Fires with: (message: `string`, stackTrace: `string`, script: `Class.Instance`, details: `string`, securityLevel: `int`, messageId: `string`)

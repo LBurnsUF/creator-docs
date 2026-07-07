@@ -3,33 +3,33 @@ title: buffer
 type: datatype
 ---
 
-# buffer (DataType)
+# `Datatype.buffer`
 
-Used in 21 locations across the API.
+Used in 21 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- EditableImage.WritePixelsBuffer(buffer)
-- EncodingService.Base64Decode(input)
-- EncodingService.Base64Encode(input)
-- EncodingService.CompressBuffer(input)
-- EncodingService.ComputeBufferHash(input)
-- EncodingService.DecompressBuffer(input)
-- EncodingService.GetDecompressedBufferSize(input)
-- HeapProfilerService.OnNewData(jsonString)
-- MicroProfilerService.GetDataInRange(destBuffer)
-- MicroProfilerService.ProcessCommand(cmdBuf)
-- MicroProfilerService.ProcessCommand(respBuf)
-- SerializationService.DeserializeInstancesAsync(buffer)
-- VoxelBuffer.FromHeightmapAsync(heightMap)
+- `Class.EditableImage:WritePixelsBuffer` (parameter `buffer`)
+- `Class.EncodingService:Base64Decode` (parameter `input`)
+- `Class.EncodingService:Base64Encode` (parameter `input`)
+- `Class.EncodingService:CompressBuffer` (parameter `input`)
+- `Class.EncodingService:ComputeBufferHash` (parameter `input`)
+- `Class.EncodingService:DecompressBuffer` (parameter `input`)
+- `Class.EncodingService:GetDecompressedBufferSize` (parameter `input`)
+- `Class.HeapProfilerService:OnNewData` (parameter `jsonString`)
+- `Class.MicroProfilerService:GetDataInRange` (parameter `destBuffer`)
+- `Class.MicroProfilerService:ProcessCommand` (parameter `cmdBuf`)
+- `Class.MicroProfilerService:ProcessCommand` (parameter `respBuf`)
+- `Class.SerializationService:DeserializeInstancesAsync` (parameter `buffer`)
+- `Class.VoxelBuffer:FromHeightmapAsync` (parameter `heightMap`)
 
 ## Used as Return Type
 
-- EditableImage.ReadPixelsBuffer
-- EncodingService.Base64Decode
-- EncodingService.Base64Encode
-- EncodingService.CompressBuffer
-- EncodingService.ComputeBufferHash
-- EncodingService.DecompressBuffer
-- SerializationService.SerializeInstancesAsync
-- StudioScreenshotCapture.GetBuffer
+- `Class.EditableImage:ReadPixelsBuffer`
+- `Class.EncodingService:Base64Decode`
+- `Class.EncodingService:Base64Encode`
+- `Class.EncodingService:CompressBuffer`
+- `Class.EncodingService:ComputeBufferHash`
+- `Class.EncodingService:DecompressBuffer`
+- `Class.SerializationService:SerializeInstancesAsync`
+- `Class.StudioScreenshotCapture:GetBuffer`

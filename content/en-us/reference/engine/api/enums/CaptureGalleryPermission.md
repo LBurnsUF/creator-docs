@@ -3,8 +3,10 @@ title: CaptureGalleryPermission
 type: enum
 ---
 
-# CaptureGalleryPermission (Enum)
+# `Enum.CaptureGalleryPermission`
+
+The `Enum.CaptureGalleryPermission` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| ReadAndUpload | 0 |
+| `Enum.CaptureGalleryPermission.ReadAndUpload` | 0 |

@@ -6,4 +6,4 @@ superclass: Script
 
 # LocalScript
 
-**Inherits**: Script > BaseScript > LuaSourceContainer > Instance > Object
+**Inherits from:** `Class.Script` > `Class.BaseScript` > `Class.LuaSourceContainer` > `Class.Instance` > `Class.Object`

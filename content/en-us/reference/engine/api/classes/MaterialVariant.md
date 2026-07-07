@@ -6,23 +6,25 @@ superclass: Instance
 
 # MaterialVariant
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AlphaMode**: `AlphaMode`
-- **BaseMaterial**: `Material` (Security: Read=None, Write=PluginSecurity)
-- **ColorMap**: `ContentId` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **ColorMapContent**: `Content` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **CustomPhysicalProperties**: `PhysicalProperties`
-- **EmissiveMaskContent**: `Content` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **EmissiveStrength**: `float`
-- **EmissiveTint**: `Color3`
-- **MaterialPattern**: `MaterialPattern`
-- **MetalnessMap**: `ContentId` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **MetalnessMapContent**: `Content` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **NormalMap**: `ContentId` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **NormalMapContent**: `Content` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RoughnessMap**: `ContentId` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **RoughnessMapContent**: `Content` (Security: Read=PluginSecurity, Write=PluginSecurity)
-- **StudsPerTile**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.MaterialVariant.AlphaMode` | `Enum.AlphaMode` |  |
+| `Class.MaterialVariant.BaseMaterial` | `Enum.Material` |  {write: PluginSecurity} |
+| `Class.MaterialVariant.ColorMap` | `Datatype.ContentId` |  {security: PluginSecurity} |
+| `Class.MaterialVariant.ColorMapContent` | `Datatype.Content` |  {security: PluginSecurity} |
+| `Class.MaterialVariant.CustomPhysicalProperties` | `Datatype.PhysicalProperties` |  |
+| `Class.MaterialVariant.EmissiveMaskContent` | `Datatype.Content` |  {security: PluginSecurity} |
+| `Class.MaterialVariant.EmissiveStrength` | `float` |  |
+| `Class.MaterialVariant.EmissiveTint` | `Datatype.Color3` |  |
+| `Class.MaterialVariant.MaterialPattern` | `Enum.MaterialPattern` |  |
+| `Class.MaterialVariant.MetalnessMap` | `Datatype.ContentId` |  {security: PluginSecurity} |
+| `Class.MaterialVariant.MetalnessMapContent` | `Datatype.Content` |  {security: PluginSecurity} |
+| `Class.MaterialVariant.NormalMap` | `Datatype.ContentId` |  {security: PluginSecurity} |
+| `Class.MaterialVariant.NormalMapContent` | `Datatype.Content` |  {security: PluginSecurity} |
+| `Class.MaterialVariant.RoughnessMap` | `Datatype.ContentId` |  {security: PluginSecurity} |
+| `Class.MaterialVariant.RoughnessMapContent` | `Datatype.Content` |  {security: PluginSecurity} |
+| `Class.MaterialVariant.StudsPerTile` | `float` |  |

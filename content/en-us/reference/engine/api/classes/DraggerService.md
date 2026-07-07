@@ -7,27 +7,29 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # DraggerService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **AlignDraggedObjects**: `bool` [NotReplicated]
-- **AngleSnapEnabled**: `bool` [NotReplicated]
-- **AngleSnapIncrement**: `float` [NotReplicated]
-- **AnimateHover**: `bool` [NotReplicated]
-- **CollisionsEnabled**: `bool` [NotReplicated]
-- **DraggerCoordinateSpace**: `DraggerCoordinateSpace` [NotReplicated]
-- **DraggerMovementMode**: `DraggerMovementMode` [NotReplicated]
-- **GeometrySnapColor**: `Color3` [NotReplicated]
-- **HoverAnimateFrequency**: `float` [NotReplicated]
-- **HoverLineThickness**: `int` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **HoverThickness**: `float` [NotReplicated]
-- **JointsEnabled**: `bool` [NotReplicated]
-- **LinearSnapEnabled**: `bool` [NotReplicated]
-- **LinearSnapIncrement**: `float` [NotReplicated]
-- **PartSnapEnabled**: `bool` [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PivotSnapToGeometry**: `bool` [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ShowHover**: `bool` [NotReplicated]
-- **ShowPivotIndicator**: `bool` [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DraggerService.AlignDraggedObjects` | `bool` | [NotReplicated] |
+| `Class.DraggerService.AngleSnapEnabled` | `bool` | [NotReplicated] |
+| `Class.DraggerService.AngleSnapIncrement` | `float` | [NotReplicated] |
+| `Class.DraggerService.AnimateHover` | `bool` | [NotReplicated] |
+| `Class.DraggerService.CollisionsEnabled` | `bool` | [NotReplicated] |
+| `Class.DraggerService.DraggerCoordinateSpace` | `Enum.DraggerCoordinateSpace` | [NotReplicated] |
+| `Class.DraggerService.DraggerMovementMode` | `Enum.DraggerMovementMode` | [NotReplicated] |
+| `Class.DraggerService.GeometrySnapColor` | `Datatype.Color3` | [NotReplicated] |
+| `Class.DraggerService.HoverAnimateFrequency` | `float` | [NotReplicated] |
+| `Class.DraggerService.HoverLineThickness` | `int` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.DraggerService.HoverThickness` | `float` | [NotReplicated] |
+| `Class.DraggerService.JointsEnabled` | `bool` | [NotReplicated] |
+| `Class.DraggerService.LinearSnapEnabled` | `bool` | [NotReplicated] |
+| `Class.DraggerService.LinearSnapIncrement` | `float` | [NotReplicated] |
+| `Class.DraggerService.PartSnapEnabled` | `bool` | [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.DraggerService.PivotSnapToGeometry` | `bool` | [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.DraggerService.ShowHover` | `bool` | [NotReplicated] |
+| `Class.DraggerService.ShowPivotIndicator` | `bool` | [NotReplicated] |

@@ -3,9 +3,11 @@ title: UICaptureMode
 type: enum
 ---
 
-# UICaptureMode (Enum)
+# `Enum.UICaptureMode`
+
+The `Enum.UICaptureMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| All | 0 |
-| None | 1 |
+| `Enum.UICaptureMode.All` | 0 |
+| `Enum.UICaptureMode.None` | 1 |

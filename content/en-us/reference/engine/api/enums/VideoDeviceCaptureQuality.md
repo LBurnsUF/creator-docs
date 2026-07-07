@@ -3,11 +3,13 @@ title: VideoDeviceCaptureQuality
 type: enum
 ---
 
-# VideoDeviceCaptureQuality (Enum)
+# `Enum.VideoDeviceCaptureQuality`
+
+The `Enum.VideoDeviceCaptureQuality` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Low | 1 |
-| Medium | 2 |
-| High | 3 |
+| `Enum.VideoDeviceCaptureQuality.Default` | 0 |
+| `Enum.VideoDeviceCaptureQuality.Low` | 1 |
+| `Enum.VideoDeviceCaptureQuality.Medium` | 2 |
+| `Enum.VideoDeviceCaptureQuality.High` | 3 |

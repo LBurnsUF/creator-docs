@@ -3,18 +3,20 @@ title: CompletionItemTag
 type: enum
 ---
 
-# CompletionItemTag (Enum)
+# `Enum.CompletionItemTag`
+
+The `Enum.CompletionItemTag` enum has 11 item(s).
 
 | Name | Value |
 |------|-------|
-| Deprecated | 1 |
-| IncorrectIndexType | 2 |
-| PluginPermissions | 3 |
-| CommandLinePermissions | 4 |
-| RobloxPermissions | 5 |
-| AddParens | 6 |
-| PutCursorInParens | 7 |
-| TypeCorrect | 8 |
-| ClientServerBoundaryViolation | 9 |
-| Invalidated | 10 |
-| PutCursorBeforeEnd | 11 |
+| `Enum.CompletionItemTag.Deprecated` | 1 |
+| `Enum.CompletionItemTag.IncorrectIndexType` | 2 |
+| `Enum.CompletionItemTag.PluginPermissions` | 3 |
+| `Enum.CompletionItemTag.CommandLinePermissions` | 4 |
+| `Enum.CompletionItemTag.RobloxPermissions` | 5 |
+| `Enum.CompletionItemTag.AddParens` | 6 |
+| `Enum.CompletionItemTag.PutCursorInParens` | 7 |
+| `Enum.CompletionItemTag.TypeCorrect` | 8 |
+| `Enum.CompletionItemTag.ClientServerBoundaryViolation` | 9 |
+| `Enum.CompletionItemTag.Invalidated` | 10 |
+| `Enum.CompletionItemTag.PutCursorBeforeEnd` | 11 |

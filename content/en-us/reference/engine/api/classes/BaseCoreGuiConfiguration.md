@@ -7,10 +7,12 @@ tags: [NotCreatable, NotReplicated]
 
 # BaseCoreGuiConfiguration
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Enabled**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BaseCoreGuiConfiguration.Enabled` | `bool` |  |

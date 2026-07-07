@@ -6,12 +6,14 @@ superclass: Instance
 
 # BodyPartDescription
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AssetId**: `int64`
-- **BodyPart**: `BodyPart`
-- **Color**: `Color3`
-- **HeadShape**: `string`
-- **Instance**: `Instance`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BodyPartDescription.AssetId` | `int64` |  |
+| `Class.BodyPartDescription.BodyPart` | `Enum.BodyPart` |  |
+| `Class.BodyPartDescription.Color` | `Datatype.Color3` |  |
+| `Class.BodyPartDescription.HeadShape` | `string` |  |
+| `Class.BodyPartDescription.Instance` | `Class.Instance` |  |

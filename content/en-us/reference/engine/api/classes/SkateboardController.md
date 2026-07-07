@@ -6,13 +6,17 @@ superclass: Controller
 
 # SkateboardController
 
-**Inherits**: Controller > Instance > Object
+**Inherits from:** `Class.Controller` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Steer**: `float` [ReadOnly] [NotReplicated]
-- **Throttle**: `float` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SkateboardController.Steer` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.SkateboardController.Throttle` | `float` | [ReadOnly] [NotReplicated] |
 
 ## Events
 
-- **AxisChanged**(`axis: string`)
+### `Class.SkateboardController.AxisChanged`
+
+Fires with: (axis: `string`)

@@ -3,13 +3,13 @@ title: ColorSequence
 type: datatype
 ---
 
-# ColorSequence (DataType)
+# `Datatype.ColorSequence`
 
-Used in 4 locations across the API.
+Used in 4 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Beam.Color
-- ParticleEmitter.Color
-- Trail.Color
-- UIGradient.Color
+- `Class.Beam.Color`
+- `Class.ParticleEmitter.Color`
+- `Class.Trail.Color`
+- `Class.UIGradient.Color`

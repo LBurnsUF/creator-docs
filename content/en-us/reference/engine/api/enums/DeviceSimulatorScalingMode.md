@@ -3,10 +3,12 @@ title: DeviceSimulatorScalingMode
 type: enum
 ---
 
-# DeviceSimulatorScalingMode (Enum)
+# `Enum.DeviceSimulatorScalingMode`
+
+The `Enum.DeviceSimulatorScalingMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| ScaleToPhysicalSize | 0 |
-| ActualResolution | 1 |
-| FitToWindow | 2 |
+| `Enum.DeviceSimulatorScalingMode.ScaleToPhysicalSize` | 0 |
+| `Enum.DeviceSimulatorScalingMode.ActualResolution` | 1 |
+| `Enum.DeviceSimulatorScalingMode.FitToWindow` | 2 |

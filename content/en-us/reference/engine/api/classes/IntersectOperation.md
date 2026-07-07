@@ -6,4 +6,4 @@ superclass: PartOperation
 
 # IntersectOperation
 
-**Inherits**: PartOperation > TriangleMeshPart > BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.PartOperation` > `Class.TriangleMeshPart` > `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`

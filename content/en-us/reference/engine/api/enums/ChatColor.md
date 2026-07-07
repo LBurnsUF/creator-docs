@@ -3,11 +3,13 @@ title: ChatColor
 type: enum
 ---
 
-# ChatColor (Enum)
+# `Enum.ChatColor`
+
+The `Enum.ChatColor` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Blue | 0 |
-| Green | 1 |
-| Red | 2 |
-| White | 3 |
+| `Enum.ChatColor.Blue` | 0 |
+| `Enum.ChatColor.Green` | 1 |
+| `Enum.ChatColor.Red` | 2 |
+| `Enum.ChatColor.White` | 3 |

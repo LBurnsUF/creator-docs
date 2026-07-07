@@ -3,16 +3,18 @@ title: VoiceClientLeaveReasons
 type: enum
 ---
 
-# VoiceClientLeaveReasons (Enum)
+# `Enum.VoiceClientLeaveReasons`
+
+The `Enum.VoiceClientLeaveReasons` enum has 9 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| ClientNetworkDisconnected | 1 |
-| PlayerLeft | 2 |
-| ClientShutdown | 3 |
-| PublishFailed | 4 |
-| RejoinReceived | 5 |
-| VoiceReboot | 6 |
-| ImguiDebugLeave | 7 |
-| LuaInitiated | 8 |
+| `Enum.VoiceClientLeaveReasons.Unknown` | 0 |
+| `Enum.VoiceClientLeaveReasons.ClientNetworkDisconnected` | 1 |
+| `Enum.VoiceClientLeaveReasons.PlayerLeft` | 2 |
+| `Enum.VoiceClientLeaveReasons.ClientShutdown` | 3 |
+| `Enum.VoiceClientLeaveReasons.PublishFailed` | 4 |
+| `Enum.VoiceClientLeaveReasons.RejoinReceived` | 5 |
+| `Enum.VoiceClientLeaveReasons.VoiceReboot` | 6 |
+| `Enum.VoiceClientLeaveReasons.ImguiDebugLeave` | 7 |
+| `Enum.VoiceClientLeaveReasons.LuaInitiated` | 8 |

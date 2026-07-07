@@ -6,10 +6,12 @@ superclass: Instance
 
 # TextChatMessageProperties
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **PrefixText**: `string`
-- **Text**: `string`
-- **Translation**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextChatMessageProperties.PrefixText` | `string` |  |
+| `Class.TextChatMessageProperties.Text` | `string` |  |
+| `Class.TextChatMessageProperties.Translation` | `string` |  |

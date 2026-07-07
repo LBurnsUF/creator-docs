@@ -7,17 +7,30 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PolicyService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **IsLuobuServer**: `TriStateBoolean` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **LuobuWhitelisted**: `TriStateBoolean` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PolicyService.IsLuobuServer` | `Enum.TriStateBoolean` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.PolicyService.LuobuWhitelisted` | `Enum.TriStateBoolean` | [Hidden] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **CanViewBrandProjectAsync**(`player: Player`, `brandProjectId: string`) -> `bool` [Yields]
-- **GetPolicyInfoForPlayerAsync**(`player: Instance`) -> `Dictionary` [Yields]
-- **GetPolicyInfoForServerRobloxOnlyAsync**() -> `Dictionary` [Yields]
+### `Class.PolicyService:CanViewBrandProjectAsync`
+
+``CanViewBrandProjectAsync(player: `Class.Player`, brandProjectId: `string`)`` → `bool`
+  [Yields]
+
+### `Class.PolicyService:GetPolicyInfoForPlayerAsync`
+
+``GetPolicyInfoForPlayerAsync(player: `Class.Instance`)`` → `Dictionary`
+  [Yields]
+
+### `Class.PolicyService:GetPolicyInfoForServerRobloxOnlyAsync`
+
+``GetPolicyInfoForServerRobloxOnlyAsync()`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}

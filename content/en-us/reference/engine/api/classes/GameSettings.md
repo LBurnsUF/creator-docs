@@ -7,14 +7,18 @@ tags: [NotCreatable, Service, NotReplicated, NotBrowsable]
 
 # GameSettings
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated, NotBrowsable
+**Tags:** [NotCreatable] [Service] [NotReplicated] [NotBrowsable]
 
 ## Properties
 
-- **VideoCaptureEnabled**: `bool` [Deprecated] (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.GameSettings.VideoCaptureEnabled` | `bool` | [Deprecated] {security: PluginSecurity} |
 
 ## Events
 
-- **VideoRecordingChangeRequest**(`recording: bool`)
+### `Class.GameSettings.VideoRecordingChangeRequest`
+
+Fires with: (recording: `bool`)

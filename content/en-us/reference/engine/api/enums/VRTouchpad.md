@@ -3,9 +3,11 @@ title: VRTouchpad
 type: enum
 ---
 
-# VRTouchpad (Enum)
+# `Enum.VRTouchpad`
+
+The `Enum.VRTouchpad` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Left | 0 |
-| Right | 1 |
+| `Enum.VRTouchpad.Left` | 0 |
+| `Enum.VRTouchpad.Right` | 1 |

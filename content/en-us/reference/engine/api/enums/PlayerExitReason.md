@@ -3,10 +3,12 @@ title: PlayerExitReason
 type: enum
 ---
 
-# PlayerExitReason (Enum)
+# `Enum.PlayerExitReason`
+
+The `Enum.PlayerExitReason` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| PlatformKick | 1 |
-| CreatorKick | 2 |
+| `Enum.PlayerExitReason.Unknown` | 0 |
+| `Enum.PlayerExitReason.PlatformKick` | 1 |
+| `Enum.PlayerExitReason.CreatorKick` | 2 |

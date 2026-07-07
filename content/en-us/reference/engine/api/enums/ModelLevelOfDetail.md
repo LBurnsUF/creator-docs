@@ -3,11 +3,13 @@ title: ModelLevelOfDetail
 type: enum
 ---
 
-# ModelLevelOfDetail (Enum)
+# `Enum.ModelLevelOfDetail`
+
+The `Enum.ModelLevelOfDetail` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| StreamingMesh | 1 |
-| Disabled | 2 |
-| SLIM | 4 |
+| `Enum.ModelLevelOfDetail.Automatic` | 0 |
+| `Enum.ModelLevelOfDetail.StreamingMesh` | 1 |
+| `Enum.ModelLevelOfDetail.Disabled` | 2 |
+| `Enum.ModelLevelOfDetail.SLIM` | 4 |

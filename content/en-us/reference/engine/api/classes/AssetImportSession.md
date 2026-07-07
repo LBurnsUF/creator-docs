@@ -7,23 +7,78 @@ tags: [NotCreatable, NotReplicated]
 
 # AssetImportSession
 
-**Inherits**: ImportSession > Instance > Object
+**Inherits from:** `Class.ImportSession` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **ApplyPreset**(`preset: Dictionary`) -> `null`
-- **CreatePresetFromData**(`importData: Instance`) -> `Dictionary`
-- **GetImportTree**() -> `Instance`
-- **GetKeyframeSequences**() -> `Instances`
-- **GetKeyframeSequencesForSelectedRestPose**(`modelInstance: Instance`, `restPoseSource: RestPoseModel`) -> `Instances`
-- **GetKeyframeSequencesForSelectedRestPoseWithClip**(`modelInstance: Instance`, `restPoseSource: RestPoseModel`, `animationIndex: int`) -> `Instances`
-- **GetRigVisualization**(`importDataInstance: Instance`) -> `Instance`
-- **GetUploadStatus**() -> `Dictionary`
-- **HasAnimation**() -> `bool`
-- **IsAvatar**() -> `bool`
-- **IsGltf**() -> `bool`
-- **IsR15**() -> `bool`
-- **Reset**() -> `null`
-- **usesCustomRestPoseLua**() -> `bool`
+### `Class.AssetImportSession:ApplyPreset`
+
+``ApplyPreset(preset: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:CreatePresetFromData`
+
+``CreatePresetFromData(importData: `Class.Instance`)`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:GetImportTree`
+
+``GetImportTree()`` → `Class.Instance`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:GetKeyframeSequences`
+
+``GetKeyframeSequences()`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:GetKeyframeSequencesForSelectedRestPose`
+
+``GetKeyframeSequencesForSelectedRestPose(modelInstance: `Class.Instance`, restPoseSource: `Enum.RestPoseModel`)`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:GetKeyframeSequencesForSelectedRestPoseWithClip`
+
+``GetKeyframeSequencesForSelectedRestPoseWithClip(modelInstance: `Class.Instance`, restPoseSource: `Enum.RestPoseModel`, animationIndex: `int`)`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:GetRigVisualization`
+
+``GetRigVisualization(importDataInstance: `Class.Instance`)`` → `Class.Instance`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:GetUploadStatus`
+
+``GetUploadStatus()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:HasAnimation`
+
+``HasAnimation()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:IsAvatar`
+
+``IsAvatar()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:IsGltf`
+
+``IsGltf()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:IsR15`
+
+``IsR15()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:Reset`
+
+``Reset()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetImportSession:usesCustomRestPoseLua`
+
+``usesCustomRestPoseLua()`` → `bool`
+   {security: RobloxScriptSecurity}

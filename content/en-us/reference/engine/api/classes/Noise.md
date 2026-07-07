@@ -7,16 +7,25 @@ tags: [NotReplicated]
 
 # Noise
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **NoiseType**: `NoiseType` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Seed**: `int` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Noise.NoiseType` | `Enum.NoiseType` |  {security: RobloxScriptSecurity} |
+| `Class.Noise.Seed` | `int` |  {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **SampleDirectional**(`position: Vector3`, `direction: Vector3`) -> `float`
-- **SampleUniform**(`position: Vector3`) -> `float`
+### `Class.Noise:SampleDirectional`
+
+``SampleDirectional(position: `Datatype.Vector3`, direction: `Datatype.Vector3`)`` → `float`
+   {security: RobloxScriptSecurity}
+
+### `Class.Noise:SampleUniform`
+
+``SampleUniform(position: `Datatype.Vector3`)`` → `float`
+   {security: RobloxScriptSecurity}

@@ -3,15 +3,17 @@ title: TeleportResult
 type: enum
 ---
 
-# TeleportResult (Enum)
+# `Enum.TeleportResult`
+
+The `Enum.TeleportResult` enum has 8 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 0 |
-| Failure | 1 |
-| GameNotFound | 2 |
-| GameEnded | 3 |
-| GameFull | 4 |
-| Unauthorized | 5 |
-| Flooded | 6 |
-| IsTeleporting | 7 |
+| `Enum.TeleportResult.Success` | 0 |
+| `Enum.TeleportResult.Failure` | 1 |
+| `Enum.TeleportResult.GameNotFound` | 2 |
+| `Enum.TeleportResult.GameEnded` | 3 |
+| `Enum.TeleportResult.GameFull` | 4 |
+| `Enum.TeleportResult.Unauthorized` | 5 |
+| `Enum.TeleportResult.Flooded` | 6 |
+| `Enum.TeleportResult.IsTeleporting` | 7 |

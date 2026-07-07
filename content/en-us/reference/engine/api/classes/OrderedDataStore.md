@@ -7,10 +7,13 @@ tags: [NotCreatable, NotReplicated]
 
 # OrderedDataStore
 
-**Inherits**: GlobalDataStore > Instance > Object
+**Inherits from:** `Class.GlobalDataStore` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **GetSortedAsync**(`ascending: bool`, `pagesize: int`, `minValue: Variant`, `maxValue: Variant`) -> `DataStorePages` [Yields]
+### `Class.OrderedDataStore:GetSortedAsync`
+
+``GetSortedAsync(ascending: `bool`, pagesize: `int`, minValue: `Variant`, maxValue: `Variant`)`` → `Class.DataStorePages`
+  [Yields]

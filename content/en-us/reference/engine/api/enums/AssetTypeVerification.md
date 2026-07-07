@@ -3,10 +3,12 @@ title: AssetTypeVerification
 type: enum
 ---
 
-# AssetTypeVerification (Enum)
+# `Enum.AssetTypeVerification`
+
+The `Enum.AssetTypeVerification` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 1 |
-| ClientOnly | 2 |
-| Always | 3 |
+| `Enum.AssetTypeVerification.Default` | 1 |
+| `Enum.AssetTypeVerification.ClientOnly` | 2 |
+| `Enum.AssetTypeVerification.Always` | 3 |

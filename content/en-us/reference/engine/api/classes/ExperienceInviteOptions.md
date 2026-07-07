@@ -7,13 +7,15 @@ tags: [NotReplicated]
 
 # ExperienceInviteOptions
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **InviteMessageId**: `string`
-- **InviteUser**: `int64`
-- **LaunchData**: `string`
-- **PromptMessage**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ExperienceInviteOptions.InviteMessageId` | `string` |  |
+| `Class.ExperienceInviteOptions.InviteUser` | `int64` |  |
+| `Class.ExperienceInviteOptions.LaunchData` | `string` |  |
+| `Class.ExperienceInviteOptions.PromptMessage` | `string` |  |

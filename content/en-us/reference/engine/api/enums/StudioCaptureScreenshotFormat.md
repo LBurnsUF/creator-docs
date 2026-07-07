@@ -3,9 +3,11 @@ title: StudioCaptureScreenshotFormat
 type: enum
 ---
 
-# StudioCaptureScreenshotFormat (Enum)
+# `Enum.StudioCaptureScreenshotFormat`
+
+The `Enum.StudioCaptureScreenshotFormat` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| RGBA8 | 0 |
-| PNG | 1 |
+| `Enum.StudioCaptureScreenshotFormat.RGBA8` | 0 |
+| `Enum.StudioCaptureScreenshotFormat.PNG` | 1 |

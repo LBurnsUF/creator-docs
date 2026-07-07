@@ -6,12 +6,17 @@ superclass: BaseScript
 
 # Script
 
-**Inherits**: BaseScript > LuaSourceContainer > Instance > Object
+**Inherits from:** `Class.BaseScript` > `Class.LuaSourceContainer` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Source**: `ProtectedString`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Script.Source` | `Datatype.ProtectedString` |  |
 
 ## Methods
 
-- **GetHash**() -> `string`
+### `Class.Script:GetHash`
+
+``GetHash()`` → `string`
+   {security: LocalUserSecurity}

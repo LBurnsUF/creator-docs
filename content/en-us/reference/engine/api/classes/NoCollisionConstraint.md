@@ -6,10 +6,12 @@ superclass: Instance
 
 # NoCollisionConstraint
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Enabled**: `bool`
-- **Part0**: `BasePart`
-- **Part1**: `BasePart`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.NoCollisionConstraint.Enabled` | `bool` |  |
+| `Class.NoCollisionConstraint.Part0` | `Class.BasePart` |  |
+| `Class.NoCollisionConstraint.Part1` | `Class.BasePart` |  |

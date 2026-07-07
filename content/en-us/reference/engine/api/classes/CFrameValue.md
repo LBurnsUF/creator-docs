@@ -6,13 +6,21 @@ superclass: ValueBase
 
 # CFrameValue
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Value**: `CFrame`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CFrameValue.Value` | `Datatype.CFrame` |  |
 
 ## Events
 
-- **Changed**(`value: CFrame`)
-- **changed**(`value: CFrame`) [Deprecated]
+### `Class.CFrameValue.Changed`
+
+Fires with: (value: `Datatype.CFrame`)
+
+### `Class.CFrameValue.changed`
+
+Fires with: (value: `Datatype.CFrame`)
+  [Deprecated]

@@ -7,20 +7,40 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # DataStoreService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **AutomaticRetry**: `bool` [NotReplicated] (Security: Read=LocalUserSecurity, Write=LocalUserSecurity)
-- **LegacyNamingScheme**: `bool` [Hidden] [Deprecated] (Security: Read=LocalUserSecurity, Write=LocalUserSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DataStoreService.AutomaticRetry` | `bool` | [NotReplicated] {security: LocalUserSecurity} |
+| `Class.DataStoreService.LegacyNamingScheme` | `bool` | [Hidden] [Deprecated] {security: LocalUserSecurity} |
 
 ## Methods
 
-- **GetDataStore**(`name: string`, `scope: string = global`, `options: Instance = nil`) -> `DataStore`
-- **GetGlobalDataStore**() -> `DataStore`
-- **GetOrderedDataStore**(`name: string`, `scope: string = global`) -> `OrderedDataStore`
-- **GetRequestBudgetForRequestType**(`requestType: DataStoreRequestType`) -> `int`
-- **ListDataStoresAsync**(`prefix: string = `, `pageSize: int = 0`, `cursor: string = `) -> `DataStoreListingPages` [Yields]
-- **SetRateLimitForRequestType**(`requestType: DataStoreRequestType`, `baseLimit: int`, `perPlayerLimit: int`) -> `null`
+### `Class.DataStoreService:GetDataStore`
+
+``GetDataStore(name: `string`, scope: `string`, options: `Class.Instance`)`` → `Class.DataStore`
+
+### `Class.DataStoreService:GetGlobalDataStore`
+
+``GetGlobalDataStore()`` → `Class.DataStore`
+
+### `Class.DataStoreService:GetOrderedDataStore`
+
+``GetOrderedDataStore(name: `string`, scope: `string`)`` → `Class.OrderedDataStore`
+
+### `Class.DataStoreService:GetRequestBudgetForRequestType`
+
+``GetRequestBudgetForRequestType(requestType: `Enum.DataStoreRequestType`)`` → `int`
+
+### `Class.DataStoreService:ListDataStoresAsync`
+
+``ListDataStoresAsync(prefix: `string`, pageSize: `int`, cursor: `string`)`` → `Class.DataStoreListingPages`
+  [Yields]
+
+### `Class.DataStoreService:SetRateLimitForRequestType`
+
+``SetRateLimitForRequestType(requestType: `Enum.DataStoreRequestType`, baseLimit: `int`, perPlayerLimit: `int`)`` → `null`

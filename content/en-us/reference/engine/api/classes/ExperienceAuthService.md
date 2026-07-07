@@ -7,14 +7,19 @@ tags: [NotCreatable, Service]
 
 # ExperienceAuthService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **ScopeCheckUIComplete**(`guid: string`, `scopes: Array`, `result: ScopeCheckResult`, `metadata: Dictionary`) -> `null`
+### `Class.ExperienceAuthService:ScopeCheckUIComplete`
+
+``ScopeCheckUIComplete(guid: `string`, scopes: `Array`, result: `Enum.ScopeCheckResult`, metadata: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **OpenAuthPrompt**(`guid: string`, `scopes: Array`, `metadata: Dictionary`)
+### `Class.ExperienceAuthService.OpenAuthPrompt`
+
+Fires with: (guid: `string`, scopes: `Array`, metadata: `Dictionary`)

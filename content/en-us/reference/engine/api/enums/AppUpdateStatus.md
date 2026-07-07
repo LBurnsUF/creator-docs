@@ -3,14 +3,16 @@ title: AppUpdateStatus
 type: enum
 ---
 
-# AppUpdateStatus (Enum)
+# `Enum.AppUpdateStatus`
+
+The `Enum.AppUpdateStatus` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| NotSupported | 1 |
-| Failed | 2 |
-| NotAvailable | 3 |
-| Available | 4 |
-| AvailableBoundChannel | 5 |
-| AvailableBetaProgram | 6 |
+| `Enum.AppUpdateStatus.Unknown` | 0 |
+| `Enum.AppUpdateStatus.NotSupported` | 1 |
+| `Enum.AppUpdateStatus.Failed` | 2 |
+| `Enum.AppUpdateStatus.NotAvailable` | 3 |
+| `Enum.AppUpdateStatus.Available` | 4 |
+| `Enum.AppUpdateStatus.AvailableBoundChannel` | 5 |
+| `Enum.AppUpdateStatus.AvailableBetaProgram` | 6 |

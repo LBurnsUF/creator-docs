@@ -3,10 +3,12 @@ title: PoseEasingDirection
 type: enum
 ---
 
-# PoseEasingDirection (Enum)
+# `Enum.PoseEasingDirection`
+
+The `Enum.PoseEasingDirection` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| In | 0 |
-| Out | 1 |
-| InOut | 2 |
+| `Enum.PoseEasingDirection.In` | 0 |
+| `Enum.PoseEasingDirection.Out` | 1 |
+| `Enum.PoseEasingDirection.InOut` | 2 |

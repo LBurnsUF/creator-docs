@@ -3,10 +3,12 @@ title: RejectCharacterDeletions
 type: enum
 ---
 
-# RejectCharacterDeletions (Enum)
+# `Enum.RejectCharacterDeletions`
+
+The `Enum.RejectCharacterDeletions` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.RejectCharacterDeletions.Default` | 0 |
+| `Enum.RejectCharacterDeletions.Disabled` | 1 |
+| `Enum.RejectCharacterDeletions.Enabled` | 2 |

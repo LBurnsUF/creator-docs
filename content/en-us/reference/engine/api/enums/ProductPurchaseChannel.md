@@ -3,11 +3,13 @@ title: ProductPurchaseChannel
 type: enum
 ---
 
-# ProductPurchaseChannel (Enum)
+# `Enum.ProductPurchaseChannel`
+
+The `Enum.ProductPurchaseChannel` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| InExperience | 1 |
-| ExperienceDetailsPage | 2 |
-| AdReward | 3 |
-| CommerceProduct | 4 |
+| `Enum.ProductPurchaseChannel.InExperience` | 1 |
+| `Enum.ProductPurchaseChannel.ExperienceDetailsPage` | 2 |
+| `Enum.ProductPurchaseChannel.AdReward` | 3 |
+| `Enum.ProductPurchaseChannel.CommerceProduct` | 4 |

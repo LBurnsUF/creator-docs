@@ -6,28 +6,66 @@ superclass: StyleBase
 
 # StyleRule
 
-**Inherits**: StyleBase > Instance > Object
+**Inherits from:** `Class.StyleBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Priority**: `int`
-- **Selector**: `string`
-- **SelectorError**: `string` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StyleRule.Priority` | `int` |  |
+| `Class.StyleRule.Selector` | `string` |  |
+| `Class.StyleRule.SelectorError` | `string` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetDefaultPropertyTransition**() -> `Variant`
-- **GetProperties**() -> `Dictionary`
-- **GetPropertiesResolved**() -> `Dictionary`
-- **GetProperty**(`name: string`) -> `Variant`
-- **GetPropertyResolved**(`name: string`) -> `Variant`
-- **GetPropertyTransitions**() -> `Dictionary`
-- **SetDefaultPropertyTransition**(`transitionParams: Variant`) -> `null`
-- **SetProperties**(`styleProperties: Dictionary`) -> `null`
-- **SetProperty**(`name: string`, `value: Variant`) -> `null`
-- **SetPropertyTransition**(`property: string`, `transitionParams: Variant`) -> `null`
-- **SetPropertyTransitions**(`properties: Dictionary`) -> `null`
+### `Class.StyleRule:GetDefaultPropertyTransition`
+
+``GetDefaultPropertyTransition()`` → `Variant`
+
+### `Class.StyleRule:GetProperties`
+
+``GetProperties()`` → `Dictionary`
+
+### `Class.StyleRule:GetPropertiesResolved`
+
+``GetPropertiesResolved()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.StyleRule:GetProperty`
+
+``GetProperty(name: `string`)`` → `Variant`
+
+### `Class.StyleRule:GetPropertyResolved`
+
+``GetPropertyResolved(name: `string`)`` → `Variant`
+   {security: RobloxScriptSecurity}
+
+### `Class.StyleRule:GetPropertyTransitions`
+
+``GetPropertyTransitions()`` → `Dictionary`
+
+### `Class.StyleRule:SetDefaultPropertyTransition`
+
+``SetDefaultPropertyTransition(transitionParams: `Variant`)`` → `null`
+
+### `Class.StyleRule:SetProperties`
+
+``SetProperties(styleProperties: `Dictionary`)`` → `null`
+
+### `Class.StyleRule:SetProperty`
+
+``SetProperty(name: `string`, value: `Variant`)`` → `null`
+
+### `Class.StyleRule:SetPropertyTransition`
+
+``SetPropertyTransition(property: `string`, transitionParams: `Variant`)`` → `null`
+
+### `Class.StyleRule:SetPropertyTransitions`
+
+``SetPropertyTransitions(properties: `Dictionary`)`` → `null`
 
 ## Events
 
-- **StyleRulePropertyChanged**(`styleProperty: string`)
+### `Class.StyleRule.StyleRulePropertyChanged`
+
+Fires with: (styleProperty: `string`)

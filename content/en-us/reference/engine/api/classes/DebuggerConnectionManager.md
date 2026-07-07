@@ -7,23 +7,48 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # DebuggerConnectionManager
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **Timeout**: `double` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DebuggerConnectionManager.Timeout` | `double` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **ConnectLocal**(`dataModel: DataModel`) -> `int`
-- **FocusConnection**(`connection: DebuggerConnection`) -> `null`
-- **GetAvailableConnection**() -> `DebuggerConnection`
-- **GetConnectionById**(`id: int`) -> `DebuggerConnection`
+### `Class.DebuggerConnectionManager:ConnectLocal`
+
+``ConnectLocal(dataModel: `Class.DataModel`)`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerConnectionManager:FocusConnection`
+
+``FocusConnection(connection: `Class.DebuggerConnection`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerConnectionManager:GetAvailableConnection`
+
+``GetAvailableConnection()`` → `Class.DebuggerConnection`
+   {security: RobloxScriptSecurity}
+
+### `Class.DebuggerConnectionManager:GetConnectionById`
+
+``GetConnectionById(id: `int`)`` → `Class.DebuggerConnection`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **ConnectionEnded**(`connection: DebuggerConnection`, `reason: DebuggerEndReason`)
-- **ConnectionStarted**(`connection: DebuggerConnection`)
-- **FocusChanged**(`connection: DebuggerConnection`)
+### `Class.DebuggerConnectionManager.ConnectionEnded`
+
+Fires with: (connection: `Class.DebuggerConnection`, reason: `Enum.DebuggerEndReason`)
+
+### `Class.DebuggerConnectionManager.ConnectionStarted`
+
+Fires with: (connection: `Class.DebuggerConnection`)
+
+### `Class.DebuggerConnectionManager.FocusChanged`
+
+Fires with: (connection: `Class.DebuggerConnection`)

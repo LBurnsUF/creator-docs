@@ -3,9 +3,11 @@ title: AccessModifierType
 type: enum
 ---
 
-# AccessModifierType (Enum)
+# `Enum.AccessModifierType`
+
+The `Enum.AccessModifierType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Allow | 0 |
-| Deny | 1 |
+| `Enum.AccessModifierType.Allow` | 0 |
+| `Enum.AccessModifierType.Deny` | 1 |

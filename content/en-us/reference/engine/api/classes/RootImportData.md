@@ -7,36 +7,38 @@ tags: [NotCreatable, NotReplicated]
 
 # RootImportData
 
-**Inherits**: BaseImportData > Instance > Object
+**Inherits from:** `Class.BaseImportData` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **AddModelToInventory**: `bool`
-- **Anchored**: `bool`
-- **AnimationIdForRestPose**: `float`
-- **ExistingPackageId**: `string`
-- **FileDimensions**: `Vector3` [ReadOnly] [NotReplicated]
-- **ImportAsModelAsset**: `bool`
-- **ImportAsPackage**: `bool`
-- **InsertInWorkspace**: `bool`
-- **InsertWithScenePosition**: `bool`
-- **InvertNegativeFaces**: `bool`
-- **KeepZeroInfluenceBones**: `bool`
-- **MergeMeshes**: `bool`
-- **PhysicalConstraintType**: `PhysicalConstraintType`
-- **PolygonCount**: `float` [ReadOnly] [NotReplicated]
-- **PreferredUploadId**: `int64`
-- **RestPose**: `RestPose`
-- **RigScale**: `RigScale`
-- **RigType**: `RigType`
-- **RigVisualization**: `bool`
-- **ScaleFactor**: `float`
-- **ScaleUnit**: `MeshScaleUnit`
-- **UseSceneOriginAsPivot**: `bool`
-- **UsesCages**: `bool`
-- **ValidateUgcBody**: `bool`
-- **VersionedAssetId**: `int64`
-- **WorldForward**: `NormalId`
-- **WorldUp**: `NormalId`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RootImportData.AddModelToInventory` | `bool` |  |
+| `Class.RootImportData.Anchored` | `bool` |  |
+| `Class.RootImportData.AnimationIdForRestPose` | `float` |  |
+| `Class.RootImportData.ExistingPackageId` | `string` |  |
+| `Class.RootImportData.FileDimensions` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |
+| `Class.RootImportData.ImportAsModelAsset` | `bool` |  |
+| `Class.RootImportData.ImportAsPackage` | `bool` |  |
+| `Class.RootImportData.InsertInWorkspace` | `bool` |  |
+| `Class.RootImportData.InsertWithScenePosition` | `bool` |  |
+| `Class.RootImportData.InvertNegativeFaces` | `bool` |  |
+| `Class.RootImportData.KeepZeroInfluenceBones` | `bool` |  |
+| `Class.RootImportData.MergeMeshes` | `bool` |  |
+| `Class.RootImportData.PhysicalConstraintType` | `Enum.PhysicalConstraintType` |  |
+| `Class.RootImportData.PolygonCount` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.RootImportData.PreferredUploadId` | `int64` |  |
+| `Class.RootImportData.RestPose` | `Enum.RestPose` |  |
+| `Class.RootImportData.RigScale` | `Enum.RigScale` |  |
+| `Class.RootImportData.RigType` | `Enum.RigType` |  |
+| `Class.RootImportData.RigVisualization` | `bool` |  |
+| `Class.RootImportData.ScaleFactor` | `float` |  |
+| `Class.RootImportData.ScaleUnit` | `Enum.MeshScaleUnit` |  |
+| `Class.RootImportData.UseSceneOriginAsPivot` | `bool` |  |
+| `Class.RootImportData.UsesCages` | `bool` |  |
+| `Class.RootImportData.ValidateUgcBody` | `bool` |  |
+| `Class.RootImportData.VersionedAssetId` | `int64` |  |
+| `Class.RootImportData.WorldForward` | `Enum.NormalId` |  |
+| `Class.RootImportData.WorldUp` | `Enum.NormalId` |  |

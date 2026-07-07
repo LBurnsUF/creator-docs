@@ -6,13 +6,21 @@ superclass: ValueBase
 
 # StringValue
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Value**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StringValue.Value` | `string` |  |
 
 ## Events
 
-- **Changed**(`value: string`)
-- **changed**(`value: string`) [Deprecated]
+### `Class.StringValue.Changed`
+
+Fires with: (value: `string`)
+
+### `Class.StringValue.changed`
+
+Fires with: (value: `string`)
+  [Deprecated]

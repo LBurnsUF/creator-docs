@@ -7,11 +7,18 @@ tags: [NotCreatable, NotReplicated]
 
 # TextureGenerationUnwrappingRequest
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **ApplyToDataModel**(`partGroup: TextureGenerationPartGroup`) -> `TextureGenerationPartGroup`
-- **GetPartGroup**() -> `TextureGenerationPartGroup`
+### `Class.TextureGenerationUnwrappingRequest:ApplyToDataModel`
+
+``ApplyToDataModel(partGroup: `Class.TextureGenerationPartGroup`)`` → `Class.TextureGenerationPartGroup`
+   {security: RobloxScriptSecurity}
+
+### `Class.TextureGenerationUnwrappingRequest:GetPartGroup`
+
+``GetPartGroup()`` → `Class.TextureGenerationPartGroup`
+   {security: RobloxScriptSecurity}

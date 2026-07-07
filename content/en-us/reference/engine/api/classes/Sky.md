@@ -6,28 +6,30 @@ superclass: Instance
 
 # Sky
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CelestialBodiesShown**: `bool`
-- **MoonAngularSize**: `float`
-- **MoonTextureContent**: `Content`
-- **MoonTextureId**: `ContentId`
-- **SkyboxBackContent**: `Content`
-- **SkyboxBk**: `ContentId`
-- **SkyboxDn**: `ContentId`
-- **SkyboxDownContent**: `Content`
-- **SkyboxFrontContent**: `Content`
-- **SkyboxFt**: `ContentId`
-- **SkyboxLeftContent**: `Content`
-- **SkyboxLf**: `ContentId`
-- **SkyboxOrientation**: `Vector3`
-- **SkyboxRightContent**: `Content`
-- **SkyboxRt**: `ContentId`
-- **SkyboxUp**: `ContentId`
-- **SkyboxUpContent**: `Content`
-- **StarCount**: `int`
-- **SunAngularSize**: `float`
-- **SunTextureContent**: `Content`
-- **SunTextureId**: `ContentId`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Sky.CelestialBodiesShown` | `bool` |  |
+| `Class.Sky.MoonAngularSize` | `float` |  |
+| `Class.Sky.MoonTextureContent` | `Datatype.Content` |  |
+| `Class.Sky.MoonTextureId` | `Datatype.ContentId` |  |
+| `Class.Sky.SkyboxBackContent` | `Datatype.Content` |  |
+| `Class.Sky.SkyboxBk` | `Datatype.ContentId` |  |
+| `Class.Sky.SkyboxDn` | `Datatype.ContentId` |  |
+| `Class.Sky.SkyboxDownContent` | `Datatype.Content` |  |
+| `Class.Sky.SkyboxFrontContent` | `Datatype.Content` |  |
+| `Class.Sky.SkyboxFt` | `Datatype.ContentId` |  |
+| `Class.Sky.SkyboxLeftContent` | `Datatype.Content` |  |
+| `Class.Sky.SkyboxLf` | `Datatype.ContentId` |  |
+| `Class.Sky.SkyboxOrientation` | `Datatype.Vector3` |  |
+| `Class.Sky.SkyboxRightContent` | `Datatype.Content` |  |
+| `Class.Sky.SkyboxRt` | `Datatype.ContentId` |  |
+| `Class.Sky.SkyboxUp` | `Datatype.ContentId` |  |
+| `Class.Sky.SkyboxUpContent` | `Datatype.Content` |  |
+| `Class.Sky.StarCount` | `int` |  |
+| `Class.Sky.SunAngularSize` | `float` |  |
+| `Class.Sky.SunTextureContent` | `Datatype.Content` |  |
+| `Class.Sky.SunTextureId` | `Datatype.ContentId` |  |

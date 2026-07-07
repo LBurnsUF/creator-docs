@@ -3,10 +3,12 @@ title: WebStreamClientType
 type: enum
 ---
 
-# WebStreamClientType (Enum)
+# `Enum.WebStreamClientType`
+
+The `Enum.WebStreamClientType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| SSE | 0 |
-| RawStream | 1 |
-| WebSocket | 2 |
+| `Enum.WebStreamClientType.SSE` | 0 |
+| `Enum.WebStreamClientType.RawStream` | 1 |
+| `Enum.WebStreamClientType.WebSocket` | 2 |

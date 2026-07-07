@@ -3,11 +3,13 @@ title: AppLifecycleManagerState
 type: enum
 ---
 
-# AppLifecycleManagerState (Enum)
+# `Enum.AppLifecycleManagerState`
+
+The `Enum.AppLifecycleManagerState` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Detached | 0 |
-| Active | 1 |
-| Inactive | 2 |
-| Hidden | 3 |
+| `Enum.AppLifecycleManagerState.Detached` | 0 |
+| `Enum.AppLifecycleManagerState.Active` | 1 |
+| `Enum.AppLifecycleManagerState.Inactive` | 2 |
+| `Enum.AppLifecycleManagerState.Hidden` | 3 |

@@ -6,18 +6,20 @@ superclass: Constraint
 
 # SpringConstraint
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Coils**: `float`
-- **CurrentLength**: `float` [ReadOnly] [NotReplicated]
-- **Damping**: `float`
-- **FreeLength**: `float`
-- **LimitsEnabled**: `bool`
-- **MaxForce**: `float`
-- **MaxLength**: `float`
-- **MinLength**: `float`
-- **Radius**: `float`
-- **Stiffness**: `float`
-- **Thickness**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SpringConstraint.Coils` | `float` |  |
+| `Class.SpringConstraint.CurrentLength` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.SpringConstraint.Damping` | `float` |  |
+| `Class.SpringConstraint.FreeLength` | `float` |  |
+| `Class.SpringConstraint.LimitsEnabled` | `bool` |  |
+| `Class.SpringConstraint.MaxForce` | `float` |  |
+| `Class.SpringConstraint.MaxLength` | `float` |  |
+| `Class.SpringConstraint.MinLength` | `float` |  |
+| `Class.SpringConstraint.Radius` | `float` |  |
+| `Class.SpringConstraint.Stiffness` | `float` |  |
+| `Class.SpringConstraint.Thickness` | `float` |  |

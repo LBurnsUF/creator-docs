@@ -3,11 +3,13 @@ title: ModifierKey
 type: enum
 ---
 
-# ModifierKey (Enum)
+# `Enum.ModifierKey`
+
+The `Enum.ModifierKey` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Shift | 0 |
-| Ctrl | 1 |
-| Alt | 2 |
-| Meta | 3 |
+| `Enum.ModifierKey.Shift` | 0 |
+| `Enum.ModifierKey.Ctrl` | 1 |
+| `Enum.ModifierKey.Alt` | 2 |
+| `Enum.ModifierKey.Meta` | 3 |

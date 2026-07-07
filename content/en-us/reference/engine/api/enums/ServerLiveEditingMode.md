@@ -3,10 +3,12 @@ title: ServerLiveEditingMode
 type: enum
 ---
 
-# ServerLiveEditingMode (Enum)
+# `Enum.ServerLiveEditingMode`
+
+The `Enum.ServerLiveEditingMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Uninitialized | 0 |
-| Enabled | 1 |
-| Disabled | 2 |
+| `Enum.ServerLiveEditingMode.Uninitialized` | 0 |
+| `Enum.ServerLiveEditingMode.Enabled` | 1 |
+| `Enum.ServerLiveEditingMode.Disabled` | 2 |

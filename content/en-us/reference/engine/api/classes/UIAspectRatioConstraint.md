@@ -6,10 +6,12 @@ superclass: UIConstraint
 
 # UIAspectRatioConstraint
 
-**Inherits**: UIConstraint > UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIConstraint` > `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AspectRatio**: `float`
-- **AspectType**: `AspectType`
-- **DominantAxis**: `DominantAxis`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIAspectRatioConstraint.AspectRatio` | `float` |  |
+| `Class.UIAspectRatioConstraint.AspectType` | `Enum.AspectType` |  |
+| `Class.UIAspectRatioConstraint.DominantAxis` | `Enum.DominantAxis` |  |

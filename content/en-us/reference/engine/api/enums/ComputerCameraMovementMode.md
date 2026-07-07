@@ -3,12 +3,14 @@ title: ComputerCameraMovementMode
 type: enum
 ---
 
-# ComputerCameraMovementMode (Enum)
+# `Enum.ComputerCameraMovementMode`
+
+The `Enum.ComputerCameraMovementMode` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Classic | 1 |
-| Follow | 2 |
-| Orbital | 3 |
-| CameraToggle | 4 |
+| `Enum.ComputerCameraMovementMode.Default` | 0 |
+| `Enum.ComputerCameraMovementMode.Classic` | 1 |
+| `Enum.ComputerCameraMovementMode.Follow` | 2 |
+| `Enum.ComputerCameraMovementMode.Orbital` | 3 |
+| `Enum.ComputerCameraMovementMode.CameraToggle` | 4 |

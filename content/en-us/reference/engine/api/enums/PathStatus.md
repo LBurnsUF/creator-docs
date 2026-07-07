@@ -3,13 +3,15 @@ title: PathStatus
 type: enum
 ---
 
-# PathStatus (Enum)
+# `Enum.PathStatus`
+
+The `Enum.PathStatus` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 0 |
-| ClosestNoPath | 1 |
-| ClosestOutOfRange | 2 |
-| FailStartNotEmpty | 3 |
-| FailFinishNotEmpty | 4 |
-| NoPath | 5 |
+| `Enum.PathStatus.Success` | 0 |
+| `Enum.PathStatus.ClosestNoPath` | 1 |
+| `Enum.PathStatus.ClosestOutOfRange` | 2 |
+| `Enum.PathStatus.FailStartNotEmpty` | 3 |
+| `Enum.PathStatus.FailFinishNotEmpty` | 4 |
+| `Enum.PathStatus.NoPath` | 5 |

@@ -6,8 +6,10 @@ superclass: Instance
 
 # SoundGroup
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Volume**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SoundGroup.Volume` | `float` |  |

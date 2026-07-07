@@ -7,25 +7,56 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # DebuggerManager
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **DebuggingEnabled**: `bool` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DebuggerManager.DebuggingEnabled` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **AddDebugger**(`script: Instance`) -> `Instance`
-- **EnableDebugging**() -> `null`
-- **GetDebuggers**() -> `Instances`
-- **Resume**() -> `null`
-- **StepIn**() -> `null` [Deprecated]
-- **StepOut**() -> `null` [Deprecated]
-- **StepOver**() -> `null` [Deprecated]
+### `Class.DebuggerManager:AddDebugger`
+
+``AddDebugger(script: `Class.Instance`)`` → `Class.Instance`
+
+### `Class.DebuggerManager:EnableDebugging`
+
+``EnableDebugging()`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.DebuggerManager:GetDebuggers`
+
+``GetDebuggers()`` → `Datatype.Instances`
+
+### `Class.DebuggerManager:Resume`
+
+``Resume()`` → `null`
+
+### `Class.DebuggerManager:StepIn`
+
+``StepIn()`` → `null`
+  [Deprecated]
+
+### `Class.DebuggerManager:StepOut`
+
+``StepOut()`` → `null`
+  [Deprecated]
+
+### `Class.DebuggerManager:StepOver`
+
+``StepOver()`` → `null`
+  [Deprecated]
 
 ## Events
 
-- **DebuggerAdded**(`debugger: Instance`)
-- **DebuggerRemoved**(`debugger: Instance`)
+### `Class.DebuggerManager.DebuggerAdded`
+
+Fires with: (debugger: `Class.Instance`)
+
+### `Class.DebuggerManager.DebuggerRemoved`
+
+Fires with: (debugger: `Class.Instance`)

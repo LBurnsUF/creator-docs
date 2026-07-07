@@ -7,23 +7,48 @@ tags: [Service, NotBrowsable]
 
 # ProximityPromptService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: Service, NotBrowsable
+**Tags:** [Service] [NotBrowsable]
 
 ## Properties
 
-- **Enabled**: `bool`
-- **MaxIndicatorsVisible**: `int`
-- **MaxPromptsVisible**: `int`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ProximityPromptService.Enabled` | `bool` |  |
+| `Class.ProximityPromptService.MaxIndicatorsVisible` | `int` |  |
+| `Class.ProximityPromptService.MaxPromptsVisible` | `int` |  |
 
 ## Events
 
-- **IndicatorHidden**(`prompt: ProximityPrompt`)
-- **IndicatorShown**(`prompt: ProximityPrompt`)
-- **PromptButtonHoldBegan**(`prompt: ProximityPrompt`, `playerWhoTriggered: Player`)
-- **PromptButtonHoldEnded**(`prompt: ProximityPrompt`, `playerWhoTriggered: Player`)
-- **PromptHidden**(`prompt: ProximityPrompt`)
-- **PromptShown**(`prompt: ProximityPrompt`, `inputType: ProximityPromptInputType`)
-- **PromptTriggerEnded**(`prompt: ProximityPrompt`, `playerWhoTriggered: Player`)
-- **PromptTriggered**(`prompt: ProximityPrompt`, `playerWhoTriggered: Player`)
+### `Class.ProximityPromptService.IndicatorHidden`
+
+Fires with: (prompt: `Class.ProximityPrompt`)
+
+### `Class.ProximityPromptService.IndicatorShown`
+
+Fires with: (prompt: `Class.ProximityPrompt`)
+
+### `Class.ProximityPromptService.PromptButtonHoldBegan`
+
+Fires with: (prompt: `Class.ProximityPrompt`, playerWhoTriggered: `Class.Player`)
+
+### `Class.ProximityPromptService.PromptButtonHoldEnded`
+
+Fires with: (prompt: `Class.ProximityPrompt`, playerWhoTriggered: `Class.Player`)
+
+### `Class.ProximityPromptService.PromptHidden`
+
+Fires with: (prompt: `Class.ProximityPrompt`)
+
+### `Class.ProximityPromptService.PromptShown`
+
+Fires with: (prompt: `Class.ProximityPrompt`, inputType: `Enum.ProximityPromptInputType`)
+
+### `Class.ProximityPromptService.PromptTriggerEnded`
+
+Fires with: (prompt: `Class.ProximityPrompt`, playerWhoTriggered: `Class.Player`)
+
+### `Class.ProximityPromptService.PromptTriggered`
+
+Fires with: (prompt: `Class.ProximityPrompt`, playerWhoTriggered: `Class.Player`)

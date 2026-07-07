@@ -6,4 +6,4 @@ superclass: WorldRoot
 
 # WorldModel
 
-**Inherits**: WorldRoot > Model > PVInstance > Instance > Object
+**Inherits from:** `Class.WorldRoot` > `Class.Model` > `Class.PVInstance` > `Class.Instance` > `Class.Object`

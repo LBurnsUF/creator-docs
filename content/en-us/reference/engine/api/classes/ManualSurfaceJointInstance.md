@@ -7,6 +7,6 @@ tags: [NotCreatable, Deprecated]
 
 # ManualSurfaceJointInstance
 
-**Inherits**: JointInstance > Instance > Object
+**Inherits from:** `Class.JointInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Deprecated
+**Tags:** [NotCreatable] [Deprecated]

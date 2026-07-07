@@ -7,10 +7,12 @@ tags: [Deprecated]
 
 # Skin
 
-**Inherits**: CharacterAppearance > Instance > Object
+**Inherits from:** `Class.CharacterAppearance` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **SkinColor**: `BrickColor`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Skin.SkinColor` | `Datatype.BrickColor` |  |

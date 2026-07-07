@@ -6,19 +6,21 @@ superclass: CharacterAppearance
 
 # BodyColors
 
-**Inherits**: CharacterAppearance > Instance > Object
+**Inherits from:** `Class.CharacterAppearance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **HeadColor**: `BrickColor`
-- **HeadColor3**: `Color3`
-- **LeftArmColor**: `BrickColor`
-- **LeftArmColor3**: `Color3`
-- **LeftLegColor**: `BrickColor`
-- **LeftLegColor3**: `Color3`
-- **RightArmColor**: `BrickColor`
-- **RightArmColor3**: `Color3`
-- **RightLegColor**: `BrickColor`
-- **RightLegColor3**: `Color3`
-- **TorsoColor**: `BrickColor`
-- **TorsoColor3**: `Color3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BodyColors.HeadColor` | `Datatype.BrickColor` |  |
+| `Class.BodyColors.HeadColor3` | `Datatype.Color3` |  |
+| `Class.BodyColors.LeftArmColor` | `Datatype.BrickColor` |  |
+| `Class.BodyColors.LeftArmColor3` | `Datatype.Color3` |  |
+| `Class.BodyColors.LeftLegColor` | `Datatype.BrickColor` |  |
+| `Class.BodyColors.LeftLegColor3` | `Datatype.Color3` |  |
+| `Class.BodyColors.RightArmColor` | `Datatype.BrickColor` |  |
+| `Class.BodyColors.RightArmColor3` | `Datatype.Color3` |  |
+| `Class.BodyColors.RightLegColor` | `Datatype.BrickColor` |  |
+| `Class.BodyColors.RightLegColor3` | `Datatype.Color3` |  |
+| `Class.BodyColors.TorsoColor` | `Datatype.BrickColor` |  |
+| `Class.BodyColors.TorsoColor3` | `Datatype.Color3` |  |

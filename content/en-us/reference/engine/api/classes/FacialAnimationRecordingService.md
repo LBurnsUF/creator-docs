@@ -7,15 +7,24 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # FacialAnimationRecordingService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **BiometricDataConsent**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FacialAnimationRecordingService.BiometricDataConsent` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **CheckOrRequestCameraPermission**() -> `string` [Yields]
-- **IsAgeRestricted**() -> `bool`
+### `Class.FacialAnimationRecordingService:CheckOrRequestCameraPermission`
+
+``CheckOrRequestCameraPermission()`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.FacialAnimationRecordingService:IsAgeRestricted`
+
+``IsAgeRestricted()`` → `bool`
+   {security: RobloxScriptSecurity}

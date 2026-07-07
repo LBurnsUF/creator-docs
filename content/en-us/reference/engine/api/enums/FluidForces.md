@@ -3,9 +3,11 @@ title: FluidForces
 type: enum
 ---
 
-# FluidForces (Enum)
+# `Enum.FluidForces`
+
+The `Enum.FluidForces` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Experimental | 1 |
+| `Enum.FluidForces.Default` | 0 |
+| `Enum.FluidForces.Experimental` | 1 |

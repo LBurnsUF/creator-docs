@@ -3,13 +3,15 @@ title: Technology
 type: enum
 ---
 
-# Technology (Enum)
+# `Enum.Technology`
+
+The `Enum.Technology` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Legacy | 0 |
-| Voxel | 1 |
-| Compatibility | 2 |
-| ShadowMap | 3 |
-| Future | 4 |
-| Unified | 5 |
+| `Enum.Technology.Legacy` | 0 |
+| `Enum.Technology.Voxel` | 1 |
+| `Enum.Technology.Compatibility` | 2 |
+| `Enum.Technology.ShadowMap` | 3 |
+| `Enum.Technology.Future` | 4 |
+| `Enum.Technology.Unified` | 5 |

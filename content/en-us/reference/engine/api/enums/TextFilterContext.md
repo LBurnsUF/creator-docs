@@ -3,9 +3,11 @@ title: TextFilterContext
 type: enum
 ---
 
-# TextFilterContext (Enum)
+# `Enum.TextFilterContext`
+
+The `Enum.TextFilterContext` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| PublicChat | 1 |
-| PrivateChat | 2 |
+| `Enum.TextFilterContext.PublicChat` | 1 |
+| `Enum.TextFilterContext.PrivateChat` | 2 |

@@ -7,75 +7,338 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # UGCValidationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CalculateAverageEditableCageMeshDistance**(`innerCage: EditableMesh`, `outerCage: EditableMesh`, `refMesh: EditableMesh`, `innerTransform: CFrame`, `outerTransform: CFrame`) -> `float`
-- **CalculateBodyMaxCageDistance**(`inputBodyParts: Array`) -> `Tuple` [Yields]
-- **CalculateEditableMeshInsideMeshPercentage**(`editableMeshRoot: EditableMesh`, `editableMeshQuery: EditableMesh`, `meshQueryTransform: CFrame`, `meshQueryScale: Vector3`) -> `float`
-- **CalculateEditableMeshModifiedCageBoundingBox**(`referenceUVValues: Array`, `innerCage: EditableMesh`, `innerTransform: CFrame`, `outerCage: EditableMesh`, `outerTransform: CFrame`) -> `Tuple`
-- **CalculateEditableMeshNumModifiedCageUVsInSet**(`referenceUVValues: Array`, `innerCage: EditableMesh`, `innerTransform: CFrame`, `outerCage: EditableMesh`, `outerTransform: CFrame`) -> `Tuple`
-- **CalculateEditableMeshTotalSurfaceArea**(`editableMesh: EditableMesh`, `meshScale: Vector3`) -> `float`
-- **CalculateEditableMeshUniqueUVCount**(`editableMesh: EditableMesh`) -> `int`
-- **CanLoadAsset**(`assetId: string`) -> `bool` [Yields]
-- **CheckEditableMeshInCameraFrustum**(`editableMesh: EditableMesh`, `meshScale: Vector3`, `handleWorldCF: CFrame`, `cameraWorldCF: CFrame`) -> `bool`
-- **CreateEditableImageFromBinaryStringRobloxOnly**(`value: BinaryStringValue`) -> `EditableImage`
-- **CreateEditableImageOriginalSizeAsync**(`textureId: string`) -> `EditableImage` [Yields]
-- **CreateEditableMeshFromBinaryStringRobloxOnly**(`value: BinaryStringValue`) -> `EditableMesh`
-- **DoesMeshHaveSkinningData**(`meshId: string`) -> `bool` [Yields]
-- **DoesSurfaceAppearanceMatchTexturePackAsync**(`surfaceAppearance: SurfaceAppearance`) -> `bool` [Yields]
-- **FetchAssetWithFormat**(`url: ContentId`, `assetFormat: string`) -> `Instances` [Yields]
-- **GetBoundingBoxManipulationData**(`partMeshObjects: Array`, `partCFs: Array`, `meshScales: Array`) -> `Map`
-- **GetDynamicHeadEditableMeshInactiveControls**(`editableMesh: EditableMesh`, `controlNames: Array`) -> `Tuple`
-- **GetEditableCagingRelevancyMetrics**(`innerCage: EditableMesh`, `outerCage: EditableMesh`, `refMesh: EditableMesh`, `offsetInner: Vector3`, `offsetOuter: Vector3`) -> `Tuple`
-- **GetEditableImageSize**(`editableImage: EditableImage`) -> `Vector2`
-- **GetEditableMeshMaxNearbyVerticesCollisions**(`editableMesh: EditableMesh`, `meshScale: Vector3`) -> `int`
-- **GetEditableMeshSkinningTransferJointsInfo**(`editableMesh: EditableMesh`) -> `Dictionary`
-- **GetEditableMeshTriCount**(`editableMesh: EditableMesh`) -> `int`
-- **GetEditableMeshVertColors**(`editableMesh: EditableMesh`) -> `Array`
-- **GetEditableMeshVerticesSimilarityRate**(`editableMesh: EditableMesh`, `meshScale: Vector3`) -> `float`
-- **GetEditableMeshVerts**(`editableMesh: EditableMesh`) -> `Array`
-- **GetExpectedTposeRotation**(`jointLabel: RigLabel`, `partsFolder: Instance`) -> `CFrame`
-- **GetFacsDrivenJointNamesFromEditableMesh**(`editableMesh: EditableMesh`) -> `Tuple`
-- **GetLayeredClothingPostDeformationSize**(`accessory: Accessory`, `editableMesh: EditableMesh`, `meshScale: Vector3`) -> `Vector3`
-- **GetMaximalJointDistancesWithinFacs**(`editableMesh: EditableMesh`) -> `Array`
-- **GetMeshDataBinaryString**(`meshId: string`) -> `BinaryStringValue` [Yields]
-- **GetMeshVerts**(`meshId: string`) -> `Array` [Yields]
-- **GetMinAndMaxMeshSizeAcrossAllFacs**(`editableMesh: EditableMesh`) -> `Array`
-- **GetPropertyValue**(`instance: Instance`, `property: string`) -> `Variant`
-- **GetSkinnedJointNamesFromEditableMesh**(`editableMesh: EditableMesh`) -> `Tuple`
-- **IsDeformedLayeredClothingOutOfRenderBounds**(`accessory: Accessory`) -> `bool` [Yields]
-- **IsEditableMeshNumCoplanarIntersectionsOverLimit**(`editableMesh: EditableMesh`, `limit: int`, `meshScale: Vector3`, `intersectBackFaces: bool`) -> `bool`
-- **RegisterAlternateMesh**(`alternateId: string`, `binaryStringValue: BinaryStringValue`) -> `null`
-- **RegisterUGCValidationFunction**(`setFunction: Function`) -> `null`
-- **ReportUGCValidationCounter**(`success: bool`, `validationType: string`) -> `null`
-- **ReportUGCValidationFailureTelemetry**(`errorType: string`) -> `null`
-- **ReportUGCValidationTelemetry**(`assetType: string`, `data: Dictionary`) -> `null`
-- **ResetCollisionFidelity**(`meshPart: Instance`, `collisionFidelity: CollisionFidelity = Box`) -> `null`
-- **ResetCollisionFidelityWithEditableMeshDataLua**(`meshPart: MeshPart`, `editableMesh: EditableMesh`, `collisionFidelity: CollisionFidelity = Box`) -> `null`
-- **SetMeshIdBlocking**(`meshPart: Instance`, `meshId: string`) -> `null`
-- **ValidateDynamicHeadEditableMesh**(`editableMesh: EditableMesh`) -> `bool`
-- **ValidateEditableMeshCageMeshIntersection**(`innerCage: EditableMesh`, `outerCage: EditableMesh`, `refMesh: EditableMesh`) -> `Tuple`
-- **ValidateEditableMeshCageNonManifoldAndHoles**(`editableMesh: EditableMesh`) -> `Tuple`
-- **ValidateEditableMeshCageUVCoincident**(`editableMesh: EditableMesh`) -> `bool`
-- **ValidateEditableMeshCageUVTriangleArea**(`editableMesh: EditableMesh`) -> `bool`
-- **ValidateEditableMeshFacialBounds**(`editableMesh: EditableMesh`, `boundsScale: float`, `partSize: Vector3`) -> `bool`
-- **ValidateEditableMeshFacialExpressiveness**(`editableMesh: EditableMesh`, `minDelta: float`, `partSize: Vector3`) -> `float`
-- **ValidateEditableMeshFullBodyCageDeletion**(`editableMesh: EditableMesh`) -> `bool`
-- **ValidateEditableMeshMisMatchUV**(`innerCage: EditableMesh`, `outerCage: EditableMesh`) -> `bool`
-- **ValidateEditableMeshOverlappingVertices**(`editableMesh: EditableMesh`) -> `bool`
-- **ValidateEditableMeshTriangleArea**(`editableMesh: EditableMesh`) -> `bool`
-- **ValidateEditableMeshTriangles**(`editableMesh: EditableMesh`) -> `bool`
-- **ValidateEditableMeshUVDuplicates**(`referenceValues: Array`, `editableMesh: EditableMesh`) -> `int`
-- **ValidateEditableMeshUVSpace**(`editableMesh: EditableMesh`) -> `bool`
-- **ValidateEditableMeshUVValuesInReference**(`referenceValues: Array`, `editableMesh: EditableMesh`) -> `bool`
-- **ValidateEditableMeshUniqueUVCount**(`editableMesh: EditableMesh`, `numRequired: int`) -> `bool`
-- **ValidateEditableMeshVertColors**(`editableMesh: EditableMesh`, `includeAlpha: bool = true`) -> `bool`
-- **ValidateHSRMeshIds**(`wrapLayerInstance: Instance`, `hsrInstance: Instance`) -> `bool`
-- **ValidateLeaderSkinnedVertsNearCageIslands**(`renderMesh: EditableMesh`, `innerCage: EditableMesh`, `cageUVs: Array`, `referenceOrigin: CFrame`, `distanceThreshold: float`) -> `bool`
-- **ValidatePartBBoxAfterFullFacs**(`headEditableMesh: EditableMesh`, `partEditableMesh: EditableMesh`, `headScale: Vector3`, `partScale: Vector3`, `boundsMaxMultiplier: float`) -> `bool`
-- **ValidatePropertiesSensible**(`instance: Instance`, `stringLenRestrictions: Dictionary = nil`) -> `Tuple`
-- **ValidateSkinnedEditableMesh**(`editableMesh: EditableMesh`) -> `bool`
+### `Class.UGCValidationService:CalculateAverageEditableCageMeshDistance`
+
+``CalculateAverageEditableCageMeshDistance(innerCage: `Class.EditableMesh`, outerCage: `Class.EditableMesh`, refMesh: `Class.EditableMesh`, innerTransform: `Datatype.CFrame`, outerTransform: `Datatype.CFrame`)`` → `float`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CalculateBodyMaxCageDistance`
+
+``CalculateBodyMaxCageDistance(inputBodyParts: `Array`)`` → `Tuple`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CalculateEditableMeshInsideMeshPercentage`
+
+``CalculateEditableMeshInsideMeshPercentage(editableMeshRoot: `Class.EditableMesh`, editableMeshQuery: `Class.EditableMesh`, meshQueryTransform: `Datatype.CFrame`, meshQueryScale: `Datatype.Vector3`)`` → `float`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CalculateEditableMeshModifiedCageBoundingBox`
+
+``CalculateEditableMeshModifiedCageBoundingBox(referenceUVValues: `Array`, innerCage: `Class.EditableMesh`, innerTransform: `Datatype.CFrame`, outerCage: `Class.EditableMesh`, outerTransform: `Datatype.CFrame`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CalculateEditableMeshNumModifiedCageUVsInSet`
+
+``CalculateEditableMeshNumModifiedCageUVsInSet(referenceUVValues: `Array`, innerCage: `Class.EditableMesh`, innerTransform: `Datatype.CFrame`, outerCage: `Class.EditableMesh`, outerTransform: `Datatype.CFrame`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CalculateEditableMeshTotalSurfaceArea`
+
+``CalculateEditableMeshTotalSurfaceArea(editableMesh: `Class.EditableMesh`, meshScale: `Datatype.Vector3`)`` → `float`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CalculateEditableMeshUniqueUVCount`
+
+``CalculateEditableMeshUniqueUVCount(editableMesh: `Class.EditableMesh`)`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CanLoadAsset`
+
+``CanLoadAsset(assetId: `string`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CheckEditableMeshInCameraFrustum`
+
+``CheckEditableMeshInCameraFrustum(editableMesh: `Class.EditableMesh`, meshScale: `Datatype.Vector3`, handleWorldCF: `Datatype.CFrame`, cameraWorldCF: `Datatype.CFrame`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CreateEditableImageFromBinaryStringRobloxOnly`
+
+``CreateEditableImageFromBinaryStringRobloxOnly(value: `Class.BinaryStringValue`)`` → `Class.EditableImage`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CreateEditableImageOriginalSizeAsync`
+
+``CreateEditableImageOriginalSizeAsync(textureId: `string`)`` → `Class.EditableImage`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:CreateEditableMeshFromBinaryStringRobloxOnly`
+
+``CreateEditableMeshFromBinaryStringRobloxOnly(value: `Class.BinaryStringValue`)`` → `Class.EditableMesh`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:DoesMeshHaveSkinningData`
+
+``DoesMeshHaveSkinningData(meshId: `string`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:DoesSurfaceAppearanceMatchTexturePackAsync`
+
+``DoesSurfaceAppearanceMatchTexturePackAsync(surfaceAppearance: `Class.SurfaceAppearance`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:FetchAssetWithFormat`
+
+``FetchAssetWithFormat(url: `Datatype.ContentId`, assetFormat: `string`)`` → `Datatype.Instances`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetBoundingBoxManipulationData`
+
+``GetBoundingBoxManipulationData(partMeshObjects: `Array`, partCFs: `Array`, meshScales: `Array`)`` → `Map`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetDynamicHeadEditableMeshInactiveControls`
+
+``GetDynamicHeadEditableMeshInactiveControls(editableMesh: `Class.EditableMesh`, controlNames: `Array`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetEditableCagingRelevancyMetrics`
+
+``GetEditableCagingRelevancyMetrics(innerCage: `Class.EditableMesh`, outerCage: `Class.EditableMesh`, refMesh: `Class.EditableMesh`, offsetInner: `Datatype.Vector3`, offsetOuter: `Datatype.Vector3`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetEditableImageSize`
+
+``GetEditableImageSize(editableImage: `Class.EditableImage`)`` → `Datatype.Vector2`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetEditableMeshMaxNearbyVerticesCollisions`
+
+``GetEditableMeshMaxNearbyVerticesCollisions(editableMesh: `Class.EditableMesh`, meshScale: `Datatype.Vector3`)`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetEditableMeshSkinningTransferJointsInfo`
+
+``GetEditableMeshSkinningTransferJointsInfo(editableMesh: `Class.EditableMesh`)`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetEditableMeshTriCount`
+
+``GetEditableMeshTriCount(editableMesh: `Class.EditableMesh`)`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetEditableMeshVertColors`
+
+``GetEditableMeshVertColors(editableMesh: `Class.EditableMesh`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetEditableMeshVerticesSimilarityRate`
+
+``GetEditableMeshVerticesSimilarityRate(editableMesh: `Class.EditableMesh`, meshScale: `Datatype.Vector3`)`` → `float`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetEditableMeshVerts`
+
+``GetEditableMeshVerts(editableMesh: `Class.EditableMesh`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetExpectedTposeRotation`
+
+``GetExpectedTposeRotation(jointLabel: `Enum.RigLabel`, partsFolder: `Class.Instance`)`` → `Datatype.CFrame`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetFacsDrivenJointNamesFromEditableMesh`
+
+``GetFacsDrivenJointNamesFromEditableMesh(editableMesh: `Class.EditableMesh`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetLayeredClothingPostDeformationSize`
+
+``GetLayeredClothingPostDeformationSize(accessory: `Class.Accessory`, editableMesh: `Class.EditableMesh`, meshScale: `Datatype.Vector3`)`` → `Datatype.Vector3`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetMaximalJointDistancesWithinFacs`
+
+``GetMaximalJointDistancesWithinFacs(editableMesh: `Class.EditableMesh`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetMeshDataBinaryString`
+
+``GetMeshDataBinaryString(meshId: `string`)`` → `Class.BinaryStringValue`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetMeshVerts`
+
+``GetMeshVerts(meshId: `string`)`` → `Array`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetMinAndMaxMeshSizeAcrossAllFacs`
+
+``GetMinAndMaxMeshSizeAcrossAllFacs(editableMesh: `Class.EditableMesh`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetPropertyValue`
+
+``GetPropertyValue(instance: `Class.Instance`, property: `string`)`` → `Variant`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:GetSkinnedJointNamesFromEditableMesh`
+
+``GetSkinnedJointNamesFromEditableMesh(editableMesh: `Class.EditableMesh`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:IsDeformedLayeredClothingOutOfRenderBounds`
+
+``IsDeformedLayeredClothingOutOfRenderBounds(accessory: `Class.Accessory`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:IsEditableMeshNumCoplanarIntersectionsOverLimit`
+
+``IsEditableMeshNumCoplanarIntersectionsOverLimit(editableMesh: `Class.EditableMesh`, limit: `int`, meshScale: `Datatype.Vector3`, intersectBackFaces: `bool`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:RegisterAlternateMesh`
+
+``RegisterAlternateMesh(alternateId: `string`, binaryStringValue: `Class.BinaryStringValue`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:RegisterUGCValidationFunction`
+
+``RegisterUGCValidationFunction(setFunction: `Datatype.Function`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ReportUGCValidationCounter`
+
+``ReportUGCValidationCounter(success: `bool`, validationType: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ReportUGCValidationFailureTelemetry`
+
+``ReportUGCValidationFailureTelemetry(errorType: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ReportUGCValidationTelemetry`
+
+``ReportUGCValidationTelemetry(assetType: `string`, data: `Dictionary`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ResetCollisionFidelity`
+
+``ResetCollisionFidelity(meshPart: `Class.Instance`, collisionFidelity: `Enum.CollisionFidelity`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ResetCollisionFidelityWithEditableMeshDataLua`
+
+``ResetCollisionFidelityWithEditableMeshDataLua(meshPart: `Class.MeshPart`, editableMesh: `Class.EditableMesh`, collisionFidelity: `Enum.CollisionFidelity`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:SetMeshIdBlocking`
+
+``SetMeshIdBlocking(meshPart: `Class.Instance`, meshId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateDynamicHeadEditableMesh`
+
+``ValidateDynamicHeadEditableMesh(editableMesh: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshCageMeshIntersection`
+
+``ValidateEditableMeshCageMeshIntersection(innerCage: `Class.EditableMesh`, outerCage: `Class.EditableMesh`, refMesh: `Class.EditableMesh`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshCageNonManifoldAndHoles`
+
+``ValidateEditableMeshCageNonManifoldAndHoles(editableMesh: `Class.EditableMesh`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshCageUVCoincident`
+
+``ValidateEditableMeshCageUVCoincident(editableMesh: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshCageUVTriangleArea`
+
+``ValidateEditableMeshCageUVTriangleArea(editableMesh: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshFacialBounds`
+
+``ValidateEditableMeshFacialBounds(editableMesh: `Class.EditableMesh`, boundsScale: `float`, partSize: `Datatype.Vector3`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshFacialExpressiveness`
+
+``ValidateEditableMeshFacialExpressiveness(editableMesh: `Class.EditableMesh`, minDelta: `float`, partSize: `Datatype.Vector3`)`` → `float`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshFullBodyCageDeletion`
+
+``ValidateEditableMeshFullBodyCageDeletion(editableMesh: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshMisMatchUV`
+
+``ValidateEditableMeshMisMatchUV(innerCage: `Class.EditableMesh`, outerCage: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshOverlappingVertices`
+
+``ValidateEditableMeshOverlappingVertices(editableMesh: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshTriangleArea`
+
+``ValidateEditableMeshTriangleArea(editableMesh: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshTriangles`
+
+``ValidateEditableMeshTriangles(editableMesh: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshUVDuplicates`
+
+``ValidateEditableMeshUVDuplicates(referenceValues: `Array`, editableMesh: `Class.EditableMesh`)`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshUVSpace`
+
+``ValidateEditableMeshUVSpace(editableMesh: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshUVValuesInReference`
+
+``ValidateEditableMeshUVValuesInReference(referenceValues: `Array`, editableMesh: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshUniqueUVCount`
+
+``ValidateEditableMeshUniqueUVCount(editableMesh: `Class.EditableMesh`, numRequired: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateEditableMeshVertColors`
+
+``ValidateEditableMeshVertColors(editableMesh: `Class.EditableMesh`, includeAlpha: `bool`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateHSRMeshIds`
+
+``ValidateHSRMeshIds(wrapLayerInstance: `Class.Instance`, hsrInstance: `Class.Instance`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateLeaderSkinnedVertsNearCageIslands`
+
+``ValidateLeaderSkinnedVertsNearCageIslands(renderMesh: `Class.EditableMesh`, innerCage: `Class.EditableMesh`, cageUVs: `Array`, referenceOrigin: `Datatype.CFrame`, distanceThreshold: `float`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidatePartBBoxAfterFullFacs`
+
+``ValidatePartBBoxAfterFullFacs(headEditableMesh: `Class.EditableMesh`, partEditableMesh: `Class.EditableMesh`, headScale: `Datatype.Vector3`, partScale: `Datatype.Vector3`, boundsMaxMultiplier: `float`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidatePropertiesSensible`
+
+``ValidatePropertiesSensible(instance: `Class.Instance`, stringLenRestrictions: `Dictionary`)`` → `Tuple`
+   {security: RobloxScriptSecurity}
+
+### `Class.UGCValidationService:ValidateSkinnedEditableMesh`
+
+``ValidateSkinnedEditableMesh(editableMesh: `Class.EditableMesh`)`` → `bool`
+   {security: RobloxScriptSecurity}

@@ -3,11 +3,13 @@ title: CompileTarget
 type: enum
 ---
 
-# CompileTarget (Enum)
+# `Enum.CompileTarget`
+
+The `Enum.CompileTarget` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Client | 0 |
-| CoreScript | 1 |
-| Studio | 2 |
-| CoreScriptRaw | 3 |
+| `Enum.CompileTarget.Client` | 0 |
+| `Enum.CompileTarget.CoreScript` | 1 |
+| `Enum.CompileTarget.Studio` | 2 |
+| `Enum.CompileTarget.CoreScriptRaw` | 3 |

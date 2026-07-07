@@ -3,10 +3,12 @@ title: CameraSpeedAdjustBinding
 type: enum
 ---
 
-# CameraSpeedAdjustBinding (Enum)
+# `Enum.CameraSpeedAdjustBinding`
+
+The `Enum.CameraSpeedAdjustBinding` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| RmbScroll | 1 |
-| AltScroll | 2 |
+| `Enum.CameraSpeedAdjustBinding.None` | 0 |
+| `Enum.CameraSpeedAdjustBinding.RmbScroll` | 1 |
+| `Enum.CameraSpeedAdjustBinding.AltScroll` | 2 |

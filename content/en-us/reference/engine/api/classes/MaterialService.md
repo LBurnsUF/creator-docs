@@ -7,66 +7,101 @@ tags: [NotCreatable, Service]
 
 # MaterialService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **AsphaltName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **BasaltName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **BrickName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **CardboardName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **CarpetName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **CeramicTilesName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **ClayRoofTilesName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **CobblestoneName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **ConcreteName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **CorrodedMetalName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **CrackedLavaName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **DiamondPlateName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **FabricName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **FoilName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **GlacierName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **GraniteName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **GrassName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **GroundName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **IceName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **LeafyGrassName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **LeatherName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **LimestoneName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **MarbleName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **MetalName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **MudName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **PavementName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **PebbleName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **PlasterName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **PlasticName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **RockName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **RoofShinglesName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **RubberName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **SaltName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **SandName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **SandstoneName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **SlateName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **SmoothPlasticName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **SnowName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **Use2022Materials**: `bool` [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **WoodName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **WoodPlanksName**: `string` [NotScriptable] (Security: Read=RobloxSecurity, Write=RobloxSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.MaterialService.AsphaltName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.BasaltName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.BrickName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.CardboardName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.CarpetName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.CeramicTilesName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.ClayRoofTilesName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.CobblestoneName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.ConcreteName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.CorrodedMetalName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.CrackedLavaName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.DiamondPlateName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.FabricName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.FoilName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.GlacierName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.GraniteName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.GrassName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.GroundName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.IceName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.LeafyGrassName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.LeatherName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.LimestoneName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.MarbleName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.MetalName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.MudName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.PavementName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.PebbleName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.PlasterName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.PlasticName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.RockName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.RoofShinglesName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.RubberName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.SaltName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.SandName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.SandstoneName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.SlateName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.SmoothPlasticName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.SnowName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.Use2022Materials` | `bool` | [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.MaterialService.WoodName` | `string` | [NotScriptable] {security: RobloxSecurity} |
+| `Class.MaterialService.WoodPlanksName` | `string` | [NotScriptable] {security: RobloxSecurity} |
 
 ## Methods
 
-- **GetBaseMaterialOverride**(`material: Material`) -> `string`
-- **GetIsMaterialActionAsToolEnabled**() -> `bool`
-- **GetMaterialOverrideChanged**(`material: Material`) -> `RBXScriptSignal`
-- **GetMaterialVariant**(`material: Material`, `name: string`) -> `MaterialVariant`
-- **GetOverrideStatus**(`material: Material`) -> `PropertyStatus`
-- **SetBaseMaterialOverride**(`material: Material`, `name: string`) -> `null`
-- **SetCurrentMaterial**(`baseMaterial: Material`, `materialVariant: string`) -> `null`
-- **ToggleMaterialFillToolEnabled**() -> `null`
+### `Class.MaterialService:GetBaseMaterialOverride`
+
+``GetBaseMaterialOverride(material: `Enum.Material`)`` → `string`
+
+### `Class.MaterialService:GetIsMaterialActionAsToolEnabled`
+
+``GetIsMaterialActionAsToolEnabled()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.MaterialService:GetMaterialOverrideChanged`
+
+``GetMaterialOverrideChanged(material: `Enum.Material`)`` → `Datatype.RBXScriptSignal`
+   {security: RobloxScriptSecurity}
+
+### `Class.MaterialService:GetMaterialVariant`
+
+``GetMaterialVariant(material: `Enum.Material`, name: `string`)`` → `Class.MaterialVariant`
+
+### `Class.MaterialService:GetOverrideStatus`
+
+``GetOverrideStatus(material: `Enum.Material`)`` → `Enum.PropertyStatus`
+   {security: RobloxScriptSecurity}
+
+### `Class.MaterialService:SetBaseMaterialOverride`
+
+``SetBaseMaterialOverride(material: `Enum.Material`, name: `string`)`` → `null`
+
+### `Class.MaterialService:SetCurrentMaterial`
+
+``SetCurrentMaterial(baseMaterial: `Enum.Material`, materialVariant: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.MaterialService:ToggleMaterialFillToolEnabled`
+
+``ToggleMaterialFillToolEnabled()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **MaterialFillToolEnabledChanged**(`shouldEnable: bool`)
-- **OverrideStatusChanged**(`material: Material`)
+### `Class.MaterialService.MaterialFillToolEnabledChanged`
+
+Fires with: (shouldEnable: `bool`)
+
+### `Class.MaterialService.OverrideStatusChanged`
+
+Fires with: (material: `Enum.Material`)

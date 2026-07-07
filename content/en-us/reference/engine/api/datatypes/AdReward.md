@@ -3,14 +3,14 @@ title: AdReward
 type: datatype
 ---
 
-# AdReward (DataType)
+# `Datatype.AdReward`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- AdService.ShowRewardedVideoAdAsync(reward)
+- `Class.AdService:ShowRewardedVideoAdAsync` (parameter `reward`)
 
 ## Used as Return Type
 
-- AdService.CreateAdRewardFromDevProductId
+- `Class.AdService:CreateAdRewardFromDevProductId`

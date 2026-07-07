@@ -7,21 +7,36 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # CoreGui
 
-**Inherits**: BasePlayerGui > Instance > Object
+**Inherits from:** `Class.BasePlayerGui` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **SelectionImageObject**: `GuiObject` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Version**: `int` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CoreGui.SelectionImageObject` | `Class.GuiObject` |  {security: RobloxScriptSecurity} |
+| `Class.CoreGui.Version` | `int` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **SetUserGuiRendering**(`enabled: bool`, `guiAdornee: Instance`, `faceId: NormalId`, `horizontalCurvature: float = 0`) -> `null`
-- **TakeScreenshot**() -> `null`
-- **ToggleRecording**() -> `null`
+### `Class.CoreGui:SetUserGuiRendering`
+
+``SetUserGuiRendering(enabled: `bool`, guiAdornee: `Class.Instance`, faceId: `Enum.NormalId`, horizontalCurvature: `float`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CoreGui:TakeScreenshot`
+
+``TakeScreenshot()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CoreGui:ToggleRecording`
+
+``ToggleRecording()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **UserGuiRenderingChanged**(`enabled: bool`, `guiAdornee: Instance`, `faceId: NormalId`, `horizontalCurvature: float`)
+### `Class.CoreGui.UserGuiRenderingChanged`
+
+Fires with: (enabled: `bool`, guiAdornee: `Class.Instance`, faceId: `Enum.NormalId`, horizontalCurvature: `float`)

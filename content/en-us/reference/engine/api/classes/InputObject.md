@@ -7,18 +7,22 @@ tags: [NotCreatable]
 
 # InputObject
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Delta**: `Vector3`
-- **KeyCode**: `KeyCode`
-- **Position**: `Vector3`
-- **UserInputState**: `UserInputState`
-- **UserInputType**: `UserInputType`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.InputObject.Delta` | `Datatype.Vector3` |  |
+| `Class.InputObject.KeyCode` | `Enum.KeyCode` |  |
+| `Class.InputObject.Position` | `Datatype.Vector3` |  |
+| `Class.InputObject.UserInputState` | `Enum.UserInputState` |  |
+| `Class.InputObject.UserInputType` | `Enum.UserInputType` |  |
 
 ## Methods
 
-- **IsModifierKeyDown**(`modifierKey: ModifierKey`) -> `bool`
+### `Class.InputObject:IsModifierKeyDown`
+
+``IsModifierKeyDown(modifierKey: `Enum.ModifierKey`)`` → `bool`

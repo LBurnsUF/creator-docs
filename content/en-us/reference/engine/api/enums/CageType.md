@@ -3,9 +3,11 @@ title: CageType
 type: enum
 ---
 
-# CageType (Enum)
+# `Enum.CageType`
+
+The `Enum.CageType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Inner | 0 |
-| Outer | 1 |
+| `Enum.CageType.Inner` | 0 |
+| `Enum.CageType.Outer` | 1 |

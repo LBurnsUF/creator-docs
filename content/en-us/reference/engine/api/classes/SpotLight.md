@@ -6,10 +6,12 @@ superclass: Light
 
 # SpotLight
 
-**Inherits**: Light > Instance > Object
+**Inherits from:** `Class.Light` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Angle**: `float`
-- **Face**: `NormalId`
-- **Range**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SpotLight.Angle` | `float` |  |
+| `Class.SpotLight.Face` | `Enum.NormalId` |  |
+| `Class.SpotLight.Range` | `float` |  |

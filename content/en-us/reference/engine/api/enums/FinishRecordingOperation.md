@@ -3,10 +3,12 @@ title: FinishRecordingOperation
 type: enum
 ---
 
-# FinishRecordingOperation (Enum)
+# `Enum.FinishRecordingOperation`
+
+The `Enum.FinishRecordingOperation` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Cancel | 0 |
-| Commit | 1 |
-| Append | 2 |
+| `Enum.FinishRecordingOperation.Cancel` | 0 |
+| `Enum.FinishRecordingOperation.Commit` | 1 |
+| `Enum.FinishRecordingOperation.Append` | 2 |

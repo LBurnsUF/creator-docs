@@ -6,9 +6,11 @@ superclass: HandleAdornment
 
 # LineHandleAdornment
 
-**Inherits**: HandleAdornment > PVAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.HandleAdornment` > `Class.PVAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Length**: `float`
-- **Thickness**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.LineHandleAdornment.Length` | `float` |  |
+| `Class.LineHandleAdornment.Thickness` | `float` |  |

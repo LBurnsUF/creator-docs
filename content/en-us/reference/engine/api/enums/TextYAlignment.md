@@ -3,10 +3,12 @@ title: TextYAlignment
 type: enum
 ---
 
-# TextYAlignment (Enum)
+# `Enum.TextYAlignment`
+
+The `Enum.TextYAlignment` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Top | 0 |
-| Center | 1 |
-| Bottom | 2 |
+| `Enum.TextYAlignment.Top` | 0 |
+| `Enum.TextYAlignment.Center` | 1 |
+| `Enum.TextYAlignment.Bottom` | 2 |

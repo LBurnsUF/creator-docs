@@ -6,23 +6,35 @@ superclass: Instance
 
 # AudioEqualizer
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Bypass**: `bool`
-- **Editor**: `bool` [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **HighGain**: `float`
-- **LowGain**: `float`
-- **MidGain**: `float`
-- **MidRange**: `NumberRange`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioEqualizer.Bypass` | `bool` |  |
+| `Class.AudioEqualizer.Editor` | `bool` | [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.AudioEqualizer.HighGain` | `float` |  |
+| `Class.AudioEqualizer.LowGain` | `float` |  |
+| `Class.AudioEqualizer.MidGain` | `float` |  |
+| `Class.AudioEqualizer.MidRange` | `Datatype.NumberRange` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
+### `Class.AudioEqualizer:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioEqualizer:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioEqualizer:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioEqualizer.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

@@ -3,10 +3,12 @@ title: Style
 type: enum
 ---
 
-# Style (Enum)
+# `Enum.Style`
+
+The `Enum.Style` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| AlternatingSupports | 0 |
-| BridgeStyleSupports | 1 |
-| NoSupports | 2 |
+| `Enum.Style.AlternatingSupports` | 0 |
+| `Enum.Style.BridgeStyleSupports` | 1 |
+| `Enum.Style.NoSupports` | 2 |

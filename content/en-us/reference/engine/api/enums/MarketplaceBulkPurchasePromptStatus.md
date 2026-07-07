@@ -3,10 +3,12 @@ title: MarketplaceBulkPurchasePromptStatus
 type: enum
 ---
 
-# MarketplaceBulkPurchasePromptStatus (Enum)
+# `Enum.MarketplaceBulkPurchasePromptStatus`
+
+The `Enum.MarketplaceBulkPurchasePromptStatus` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Completed | 1 |
-| Aborted | 2 |
-| Error | 3 |
+| `Enum.MarketplaceBulkPurchasePromptStatus.Completed` | 1 |
+| `Enum.MarketplaceBulkPurchasePromptStatus.Aborted` | 2 |
+| `Enum.MarketplaceBulkPurchasePromptStatus.Error` | 3 |

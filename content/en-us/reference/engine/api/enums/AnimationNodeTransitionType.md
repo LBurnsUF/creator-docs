@@ -3,10 +3,12 @@ title: AnimationNodeTransitionType
 type: enum
 ---
 
-# AnimationNodeTransitionType (Enum)
+# `Enum.AnimationNodeTransitionType`
+
+The `Enum.AnimationNodeTransitionType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| CrossFade | 0 |
-| InertialBlend | 1 |
-| DeadBlend | 2 |
+| `Enum.AnimationNodeTransitionType.CrossFade` | 0 |
+| `Enum.AnimationNodeTransitionType.InertialBlend` | 1 |
+| `Enum.AnimationNodeTransitionType.DeadBlend` | 2 |

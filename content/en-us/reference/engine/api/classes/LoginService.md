@@ -7,16 +7,28 @@ tags: [NotCreatable, Service]
 
 # LoginService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **Logout**() -> `null`
-- **PromptLogin**() -> `null`
+### `Class.LoginService:Logout`
+
+``Logout()`` → `null`
+   {security: RobloxSecurity}
+
+### `Class.LoginService:PromptLogin`
+
+``PromptLogin()`` → `null`
+   {security: RobloxSecurity}
 
 ## Events
 
-- **LoginFailed**(`loginError: string`)
-- **LoginSucceeded**(`username: string`)
+### `Class.LoginService.LoginFailed`
+
+Fires with: (loginError: `string`)
+
+### `Class.LoginService.LoginSucceeded`
+
+Fires with: (username: `string`)

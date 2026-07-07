@@ -3,10 +3,12 @@ title: FACSDataLod
 type: enum
 ---
 
-# FACSDataLod (Enum)
+# `Enum.FACSDataLod`
+
+The `Enum.FACSDataLod` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| LOD0 | 0 |
-| LOD1 | 1 |
-| LODCount | 2 |
+| `Enum.FACSDataLod.LOD0` | 0 |
+| `Enum.FACSDataLod.LOD1` | 1 |
+| `Enum.FACSDataLod.LODCount` | 2 |

@@ -7,17 +7,33 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PathfindingService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **EmptyCutoff**: `float` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PathfindingService.EmptyCutoff` | `float` | [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **ComputeRawPathAsync**(`start: Vector3`, `finish: Vector3`, `maxDistance: float`) -> `Path` [Yields] [Deprecated]
-- **ComputeSmoothPathAsync**(`start: Vector3`, `finish: Vector3`, `maxDistance: float`) -> `Path` [Yields] [Deprecated]
-- **CreatePath**(`agentParameters: Dictionary = nil`) -> `Path`
-- **FindPathAsync**(`start: Vector3`, `finish: Vector3`) -> `Path` [Yields]
+### `Class.PathfindingService:ComputeRawPathAsync`
+
+``ComputeRawPathAsync(start: `Datatype.Vector3`, finish: `Datatype.Vector3`, maxDistance: `float`)`` → `Class.Path`
+  [Yields] [Deprecated]
+
+### `Class.PathfindingService:ComputeSmoothPathAsync`
+
+``ComputeSmoothPathAsync(start: `Datatype.Vector3`, finish: `Datatype.Vector3`, maxDistance: `float`)`` → `Class.Path`
+  [Yields] [Deprecated]
+
+### `Class.PathfindingService:CreatePath`
+
+``CreatePath(agentParameters: `Dictionary`)`` → `Class.Path`
+
+### `Class.PathfindingService:FindPathAsync`
+
+``FindPathAsync(start: `Datatype.Vector3`, finish: `Datatype.Vector3`)`` → `Class.Path`
+  [Yields]

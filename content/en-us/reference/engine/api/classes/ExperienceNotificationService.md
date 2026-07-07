@@ -7,17 +7,32 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ExperienceNotificationService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CanPromptOptInAsync**() -> `bool` [Yields]
-- **InvokeOptInPromptClosed**() -> `null`
-- **PromptOptIn**() -> `null`
+### `Class.ExperienceNotificationService:CanPromptOptInAsync`
+
+``CanPromptOptInAsync()`` → `bool`
+  [Yields]
+
+### `Class.ExperienceNotificationService:InvokeOptInPromptClosed`
+
+``InvokeOptInPromptClosed()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.ExperienceNotificationService:PromptOptIn`
+
+``PromptOptIn()`` → `null`
 
 ## Events
 
-- **OptInPromptClosed**()
-- **PromptOptInRequested**()
+### `Class.ExperienceNotificationService.OptInPromptClosed`
+
+Fires with: ()
+
+### `Class.ExperienceNotificationService.PromptOptInRequested`
+
+Fires with: ()

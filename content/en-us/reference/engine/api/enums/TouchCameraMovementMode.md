@@ -3,11 +3,13 @@ title: TouchCameraMovementMode
 type: enum
 ---
 
-# TouchCameraMovementMode (Enum)
+# `Enum.TouchCameraMovementMode`
+
+The `Enum.TouchCameraMovementMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Classic | 1 |
-| Follow | 2 |
-| Orbital | 3 |
+| `Enum.TouchCameraMovementMode.Default` | 0 |
+| `Enum.TouchCameraMovementMode.Classic` | 1 |
+| `Enum.TouchCameraMovementMode.Follow` | 2 |
+| `Enum.TouchCameraMovementMode.Orbital` | 3 |

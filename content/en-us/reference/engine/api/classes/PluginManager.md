@@ -7,12 +7,23 @@ tags: [NotCreatable]
 
 # PluginManager
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Methods
 
-- **CreatePlugin**() -> `Instance` [Deprecated] [CustomLuaState]
-- **ExportPlace**(`filePath: string = `) -> `null`
-- **ExportSelection**(`filePath: string = `) -> `null`
+### `Class.PluginManager:CreatePlugin`
+
+``CreatePlugin()`` → `Class.Instance`
+  [Deprecated] [CustomLuaState] {security: PluginSecurity}
+
+### `Class.PluginManager:ExportPlace`
+
+``ExportPlace(filePath: `string`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.PluginManager:ExportSelection`
+
+``ExportSelection(filePath: `string`)`` → `null`
+   {security: PluginSecurity}

@@ -3,10 +3,12 @@ title: VRTouchpadMode
 type: enum
 ---
 
-# VRTouchpadMode (Enum)
+# `Enum.VRTouchpadMode`
+
+The `Enum.VRTouchpadMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Touch | 0 |
-| VirtualThumbstick | 1 |
-| ABXY | 2 |
+| `Enum.VRTouchpadMode.Touch` | 0 |
+| `Enum.VRTouchpadMode.VirtualThumbstick` | 1 |
+| `Enum.VRTouchpadMode.ABXY` | 2 |

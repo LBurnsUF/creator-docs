@@ -6,9 +6,11 @@ superclass: Instance
 
 # StyleDerive
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Priority**: `int`
-- **StyleSheet**: `StyleSheet`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StyleDerive.Priority` | `int` |  |
+| `Class.StyleDerive.StyleSheet` | `Class.StyleSheet` |  |

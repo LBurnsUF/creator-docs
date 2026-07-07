@@ -6,10 +6,12 @@ superclass: SoundEffect
 
 # FlangeSoundEffect
 
-**Inherits**: SoundEffect > Instance > Object
+**Inherits from:** `Class.SoundEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Depth**: `float`
-- **Mix**: `float`
-- **Rate**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FlangeSoundEffect.Depth` | `float` |  |
+| `Class.FlangeSoundEffect.Mix` | `float` |  |
+| `Class.FlangeSoundEffect.Rate` | `float` |  |

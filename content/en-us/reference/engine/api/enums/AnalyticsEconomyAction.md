@@ -3,10 +3,12 @@ title: AnalyticsEconomyAction
 type: enum
 ---
 
-# AnalyticsEconomyAction (Enum)
+# `Enum.AnalyticsEconomyAction`
+
+The `Enum.AnalyticsEconomyAction` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Acquire | 1 |
-| Spend | 2 |
+| `Enum.AnalyticsEconomyAction.Default` | 0 |
+| `Enum.AnalyticsEconomyAction.Acquire` | 1 |
+| `Enum.AnalyticsEconomyAction.Spend` | 2 |

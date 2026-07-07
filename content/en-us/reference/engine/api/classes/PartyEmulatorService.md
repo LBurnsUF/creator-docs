@@ -7,22 +7,59 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PartyEmulatorService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CreateNewParty**() -> `string`
-- **DeleteParty**(`partyId: string`) -> `null`
-- **GetEmulatedPartyAsync**(`partyId: string`) -> `Array` [Yields]
-- **GetEmulatedPartyConfiguration**() -> `Dictionary`
-- **GetIsEmulationEnabled**() -> `bool`
-- **OnTestPlayerCountChanged**(`newPlayerCount: int`) -> `null`
-- **SetIsEmulationEnabled**(`isEnabled: bool`) -> `null`
-- **SetPlayerPartyId**(`userId: int64`, `partyId: string`) -> `null`
-- **applyPartyIdToPlayer**(`player: Player`) -> `null`
+### `Class.PartyEmulatorService:CreateNewParty`
+
+``CreateNewParty()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.PartyEmulatorService:DeleteParty`
+
+``DeleteParty(partyId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.PartyEmulatorService:GetEmulatedPartyAsync`
+
+``GetEmulatedPartyAsync(partyId: `string`)`` → `Array`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.PartyEmulatorService:GetEmulatedPartyConfiguration`
+
+``GetEmulatedPartyConfiguration()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.PartyEmulatorService:GetIsEmulationEnabled`
+
+``GetIsEmulationEnabled()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.PartyEmulatorService:OnTestPlayerCountChanged`
+
+``OnTestPlayerCountChanged(newPlayerCount: `int`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.PartyEmulatorService:SetIsEmulationEnabled`
+
+``SetIsEmulationEnabled(isEnabled: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.PartyEmulatorService:SetPlayerPartyId`
+
+``SetPlayerPartyId(userId: `int64`, partyId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.PartyEmulatorService:applyPartyIdToPlayer`
+
+``applyPartyIdToPlayer(player: `Class.Player`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **ConfigurationChanged**(`configuration: Dictionary`)
+### `Class.PartyEmulatorService.ConfigurationChanged`
+
+Fires with: (configuration: `Dictionary`)

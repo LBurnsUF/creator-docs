@@ -7,10 +7,13 @@ tags: [NotCreatable, NotReplicated]
 
 # MessageBusConnection
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **Disconnect**() -> `null`
+### `Class.MessageBusConnection:Disconnect`
+
+``Disconnect()`` → `null`
+   {security: RobloxScriptSecurity}

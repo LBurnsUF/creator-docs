@@ -3,10 +3,12 @@ title: CreateOutfitFailure
 type: enum
 ---
 
-# CreateOutfitFailure (Enum)
+# `Enum.CreateOutfitFailure`
+
+The `Enum.CreateOutfitFailure` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| InvalidName | 1 |
-| OutfitLimitReached | 2 |
-| Other | 3 |
+| `Enum.CreateOutfitFailure.InvalidName` | 1 |
+| `Enum.CreateOutfitFailure.OutfitLimitReached` | 2 |
+| `Enum.CreateOutfitFailure.Other` | 3 |

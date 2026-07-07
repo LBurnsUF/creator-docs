@@ -7,10 +7,12 @@ tags: [NotCreatable, NotReplicated]
 
 # TerrainReadOperation
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Events
 
-- **Ready**(`block: Dictionary`)
+### `Class.TerrainReadOperation.Ready`
+
+Fires with: (block: `Dictionary`)

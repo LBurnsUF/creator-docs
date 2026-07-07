@@ -3,11 +3,13 @@ title: DraftStatusCode
 type: enum
 ---
 
-# DraftStatusCode (Enum)
+# `Enum.DraftStatusCode`
+
+The `Enum.DraftStatusCode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| OK | 0 |
-| DraftOutdated | 1 |
-| ScriptRemoved | 2 |
-| DraftCommitted | 3 |
+| `Enum.DraftStatusCode.OK` | 0 |
+| `Enum.DraftStatusCode.DraftOutdated` | 1 |
+| `Enum.DraftStatusCode.ScriptRemoved` | 2 |
+| `Enum.DraftStatusCode.DraftCommitted` | 3 |

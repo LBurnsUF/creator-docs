@@ -3,9 +3,11 @@ title: AudioSubType
 type: enum
 ---
 
-# AudioSubType (Enum)
+# `Enum.AudioSubType`
+
+The `Enum.AudioSubType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Music | 1 |
-| SoundEffect | 2 |
+| `Enum.AudioSubType.Music` | 1 |
+| `Enum.AudioSubType.SoundEffect` | 2 |

@@ -3,12 +3,14 @@ title: FriendStatus
 type: enum
 ---
 
-# FriendStatus (Enum)
+# `Enum.FriendStatus`
+
+The `Enum.FriendStatus` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| NotFriend | 1 |
-| Friend | 2 |
-| FriendRequestSent | 3 |
-| FriendRequestReceived | 4 |
+| `Enum.FriendStatus.Unknown` | 0 |
+| `Enum.FriendStatus.NotFriend` | 1 |
+| `Enum.FriendStatus.Friend` | 2 |
+| `Enum.FriendStatus.FriendRequestSent` | 3 |
+| `Enum.FriendStatus.FriendRequestReceived` | 4 |

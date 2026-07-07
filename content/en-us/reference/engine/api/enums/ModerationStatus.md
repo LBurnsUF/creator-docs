@@ -3,12 +3,14 @@ title: ModerationStatus
 type: enum
 ---
 
-# ModerationStatus (Enum)
+# `Enum.ModerationStatus`
+
+The `Enum.ModerationStatus` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| ReviewedApproved | 1 |
-| ReviewedRejected | 2 |
-| NotReviewed | 3 |
-| NotApplicable | 4 |
-| Invalid | 5 |
+| `Enum.ModerationStatus.ReviewedApproved` | 1 |
+| `Enum.ModerationStatus.ReviewedRejected` | 2 |
+| `Enum.ModerationStatus.NotReviewed` | 3 |
+| `Enum.ModerationStatus.NotApplicable` | 4 |
+| `Enum.ModerationStatus.Invalid` | 5 |

@@ -7,15 +7,17 @@ tags: [Deprecated]
 
 # BodyGyro
 
-**Inherits**: BodyMover > Instance > Object
+**Inherits from:** `Class.BodyMover` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **CFrame**: `CFrame`
-- **D**: `float`
-- **MaxTorque**: `Vector3`
-- **P**: `float`
-- **cframe**: `CFrame` [NotReplicated] [Deprecated]
-- **maxTorque**: `Vector3` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BodyGyro.CFrame` | `Datatype.CFrame` |  |
+| `Class.BodyGyro.D` | `float` |  |
+| `Class.BodyGyro.MaxTorque` | `Datatype.Vector3` |  |
+| `Class.BodyGyro.P` | `float` |  |
+| `Class.BodyGyro.cframe` | `Datatype.CFrame` | [NotReplicated] [Deprecated] |
+| `Class.BodyGyro.maxTorque` | `Datatype.Vector3` | [NotReplicated] [Deprecated] |

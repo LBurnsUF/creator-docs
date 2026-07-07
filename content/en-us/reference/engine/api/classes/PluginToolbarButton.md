@@ -7,23 +7,37 @@ tags: [NotCreatable]
 
 # PluginToolbarButton
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **ClickableWhenViewportHidden**: `bool` [NotReplicated]
-- **Enabled**: `bool` [NotReplicated]
-- **Icon**: `ContentId` [NotReplicated]
-- **IconContent**: `Content` [NotReplicated] (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PluginToolbarButton.ClickableWhenViewportHidden` | `bool` | [NotReplicated] |
+| `Class.PluginToolbarButton.Enabled` | `bool` | [NotReplicated] |
+| `Class.PluginToolbarButton.Icon` | `Datatype.ContentId` | [NotReplicated] |
+| `Class.PluginToolbarButton.IconContent` | `Datatype.Content` | [NotReplicated] {security: PluginSecurity} |
 
 ## Methods
 
-- **SetActive**(`active: bool`) -> `null`
-- **SetDropdownActive**(`active: bool`) -> `null`
+### `Class.PluginToolbarButton:SetActive`
+
+``SetActive(active: `bool`)`` → `null`
+   {security: PluginSecurity}
+
+### `Class.PluginToolbarButton:SetDropdownActive`
+
+``SetDropdownActive(active: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **Click**()
-- **DropdownClick**()
+### `Class.PluginToolbarButton.Click`
+
+Fires with: ()
+
+### `Class.PluginToolbarButton.DropdownClick`
+
+Fires with: ()

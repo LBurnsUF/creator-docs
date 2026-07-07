@@ -7,15 +7,17 @@ tags: [NotCreatable]
 
 # DebuggerBreakpoint
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Condition**: `string`
-- **ContinueExecution**: `bool`
-- **IsEnabled**: `bool`
-- **Line**: `int` [ReadOnly] [NotReplicated]
-- **LogExpression**: `string`
-- **isContextDependentBreakpoint**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DebuggerBreakpoint.Condition` | `string` |  |
+| `Class.DebuggerBreakpoint.ContinueExecution` | `bool` |  |
+| `Class.DebuggerBreakpoint.IsEnabled` | `bool` |  |
+| `Class.DebuggerBreakpoint.Line` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.DebuggerBreakpoint.LogExpression` | `string` |  |
+| `Class.DebuggerBreakpoint.isContextDependentBreakpoint` | `bool` |  |

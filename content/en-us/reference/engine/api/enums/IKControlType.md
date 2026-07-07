@@ -3,11 +3,13 @@ title: IKControlType
 type: enum
 ---
 
-# IKControlType (Enum)
+# `Enum.IKControlType`
+
+The `Enum.IKControlType` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Transform | 0 |
-| Position | 1 |
-| Rotation | 2 |
-| LookAt | 3 |
+| `Enum.IKControlType.Transform` | 0 |
+| `Enum.IKControlType.Position` | 1 |
+| `Enum.IKControlType.Rotation` | 2 |
+| `Enum.IKControlType.LookAt` | 3 |

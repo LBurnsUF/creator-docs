@@ -7,14 +7,33 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StylingService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetAppliedStyles**(`instance: Instance`) -> `Array`
-- **GetStyleInfo**(`style: StyleRule`) -> `Dictionary`
-- **GetStyleSheetDerivesChain**(`styleSheet: StyleSheet`) -> `Instances`
-- **GetStyleSheetInfo**(`styleSheet: StyleSheet`) -> `Dictionary`
-- **UpdateUnitTestOnly**() -> `null`
+### `Class.StylingService:GetAppliedStyles`
+
+``GetAppliedStyles(instance: `Class.Instance`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.StylingService:GetStyleInfo`
+
+``GetStyleInfo(style: `Class.StyleRule`)`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.StylingService:GetStyleSheetDerivesChain`
+
+``GetStyleSheetDerivesChain(styleSheet: `Class.StyleSheet`)`` → `Datatype.Instances`
+   {security: RobloxScriptSecurity}
+
+### `Class.StylingService:GetStyleSheetInfo`
+
+``GetStyleSheetInfo(styleSheet: `Class.StyleSheet`)`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.StylingService:UpdateUnitTestOnly`
+
+``UpdateUnitTestOnly()`` → `null`
+   {security: RobloxScriptSecurity}

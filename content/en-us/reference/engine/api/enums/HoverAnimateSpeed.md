@@ -3,12 +3,14 @@ title: HoverAnimateSpeed
 type: enum
 ---
 
-# HoverAnimateSpeed (Enum)
+# `Enum.HoverAnimateSpeed`
+
+The `Enum.HoverAnimateSpeed` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| VerySlow | 0 |
-| Slow | 1 |
-| Medium | 2 |
-| Fast | 3 |
-| VeryFast | 4 |
+| `Enum.HoverAnimateSpeed.VerySlow` | 0 |
+| `Enum.HoverAnimateSpeed.Slow` | 1 |
+| `Enum.HoverAnimateSpeed.Medium` | 2 |
+| `Enum.HoverAnimateSpeed.Fast` | 3 |
+| `Enum.HoverAnimateSpeed.VeryFast` | 4 |

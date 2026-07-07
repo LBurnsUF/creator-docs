@@ -7,6 +7,6 @@ tags: [Deprecated]
 
 # CylinderMesh
 
-**Inherits**: BevelMesh > DataModelMesh > Instance > Object
+**Inherits from:** `Class.BevelMesh` > `Class.DataModelMesh` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]

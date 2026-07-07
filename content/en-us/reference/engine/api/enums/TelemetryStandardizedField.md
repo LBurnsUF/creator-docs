@@ -3,18 +3,20 @@ title: TelemetryStandardizedField
 type: enum
 ---
 
-# TelemetryStandardizedField (Enum)
+# `Enum.TelemetryStandardizedField`
+
+The `Enum.TelemetryStandardizedField` enum has 11 item(s).
 
 | Name | Value |
 |------|-------|
-| AddDatacenterId | 0 |
-| AddPlaceId | 1 |
-| AddUniverseId | 2 |
-| AddPlaceInstanceId | 3 |
-| AddPlaySessionId | 4 |
-| AddCurrentContextName | 5 |
-| AddOsInfo | 6 |
-| AddArchitectureInfo | 7 |
-| AddCpuInfo | 8 |
-| AddMemoryInfo | 9 |
-| AddSessionInfo | 10 |
+| `Enum.TelemetryStandardizedField.AddDatacenterId` | 0 |
+| `Enum.TelemetryStandardizedField.AddPlaceId` | 1 |
+| `Enum.TelemetryStandardizedField.AddUniverseId` | 2 |
+| `Enum.TelemetryStandardizedField.AddPlaceInstanceId` | 3 |
+| `Enum.TelemetryStandardizedField.AddPlaySessionId` | 4 |
+| `Enum.TelemetryStandardizedField.AddCurrentContextName` | 5 |
+| `Enum.TelemetryStandardizedField.AddOsInfo` | 6 |
+| `Enum.TelemetryStandardizedField.AddArchitectureInfo` | 7 |
+| `Enum.TelemetryStandardizedField.AddCpuInfo` | 8 |
+| `Enum.TelemetryStandardizedField.AddMemoryInfo` | 9 |
+| `Enum.TelemetryStandardizedField.AddSessionInfo` | 10 |

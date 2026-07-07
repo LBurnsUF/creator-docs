@@ -3,10 +3,12 @@ title: PredictionMode
 type: enum
 ---
 
-# PredictionMode (Enum)
+# `Enum.PredictionMode`
+
+The `Enum.PredictionMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| On | 1 |
-| Off | 2 |
+| `Enum.PredictionMode.Automatic` | 0 |
+| `Enum.PredictionMode.On` | 1 |
+| `Enum.PredictionMode.Off` | 2 |

@@ -3,94 +3,114 @@ title: Vector2
 type: datatype
 ---
 
-# Vector2 (DataType)
+# `Datatype.Vector2`
 
-Used in 146 locations across the API.
+Used in 146 locations across the Roblox API.
 
 ## Used as Property Type
 
-- BillboardGui.SizeOffset
-- Camera.ViewportSize
-- ChannelTabsConfiguration.AbsolutePosition
-- ChannelTabsConfiguration.AbsoluteSize
-- ChatInputBarConfiguration.AbsolutePosition
-- ChatInputBarConfiguration.AbsolutePositionWrite
-- ChatInputBarConfiguration.AbsoluteSize
-- ChatInputBarConfiguration.AbsoluteSizeWrite
-- ChatWindowConfiguration.AbsolutePosition
-- ChatWindowConfiguration.AbsolutePositionWrite
-- ChatWindowConfiguration.AbsoluteSize
-- ChatWindowConfiguration.AbsoluteSizeWrite
-- Decal.UVOffset
-- Decal.UVScale
-- EditableImage.Size
-- ExplorerFilterAutocompleter.ReplaceRange
-- FloorWire.TextureSize
-- GuiBase2d.AbsolutePosition
-- GuiBase2d.AbsoluteSize
-- GuiObject.AnchorPoint
-- GuiService.ViewportSizeInMM
-- ImageButton.ContentImageSize
-- ImageButton.ImageRectOffset
-- ImageButton.ImageRectSize
-- ImageHandleAdornment.Size
-- ImageLabel.ContentImageSize
-- ImageLabel.ImageRectOffset
-- ImageLabel.ImageRectSize
-- InputAction.Direction2DState
-- InputAction.ViewportPositionState
-- ...and 48 more
+- `Class.BillboardGui.SizeOffset`
+- `Class.Camera.ViewportSize`
+- `Class.ChannelTabsConfiguration.AbsolutePosition`
+- `Class.ChannelTabsConfiguration.AbsoluteSize`
+- `Class.ChatInputBarConfiguration.AbsolutePosition`
+- `Class.ChatInputBarConfiguration.AbsolutePositionWrite`
+- `Class.ChatInputBarConfiguration.AbsoluteSize`
+- `Class.ChatInputBarConfiguration.AbsoluteSizeWrite`
+- `Class.ChatWindowConfiguration.AbsolutePosition`
+- `Class.ChatWindowConfiguration.AbsolutePositionWrite`
+- `Class.ChatWindowConfiguration.AbsoluteSize`
+- `Class.ChatWindowConfiguration.AbsoluteSizeWrite`
+- `Class.Decal.UVOffset`
+- `Class.Decal.UVScale`
+- `Class.EditableImage.Size`
+- `Class.ExplorerFilterAutocompleter.ReplaceRange`
+- `Class.FloorWire.TextureSize`
+- `Class.GuiBase2d.AbsolutePosition`
+- `Class.GuiBase2d.AbsoluteSize`
+- `Class.GuiObject.AnchorPoint`
+- `Class.GuiService.ViewportSizeInMM`
+- `Class.ImageButton.ContentImageSize`
+- `Class.ImageButton.ImageRectOffset`
+- `Class.ImageButton.ImageRectSize`
+- `Class.ImageHandleAdornment.Size`
+- `Class.ImageLabel.ContentImageSize`
+- `Class.ImageLabel.ImageRectOffset`
+- `Class.ImageLabel.ImageRectSize`
+- `Class.InputAction.Direction2DState`
+- `Class.InputAction.ViewportPositionState`
+- `Class.InputBinding.Vector2Scale`
+- `Class.LinearVelocity.MaxPlanarAxesForce`
+- `Class.LinearVelocity.PlaneVelocity`
+- `Class.ParticleEmitter.SpreadAngle`
+- `Class.PluginDragEvent.Position`
+- `Class.ProximityPrompt.UIOffset`
+- `Class.ScrollingFrame.AbsoluteCanvasSize`
+- `Class.ScrollingFrame.AbsoluteWindowSize`
+- `Class.ScrollingFrame.CanvasPosition`
+- `Class.ScrollingFrame.MaxCanvasPosition`
+- ...and 38 more
 
 ## Used as Parameter Type
 
-- BasePlayerGui.GetGuiObjectsInCircle(position)
-- ChannelTabsConfiguration.SetAbsolutePosition(value)
-- ChannelTabsConfiguration.SetAbsoluteSize(value)
-- EditableImage.DrawCircle(center)
-- EditableImage.DrawImage(position)
-- EditableImage.DrawImageTransformed(position)
-- EditableImage.DrawImageTransformed(scale)
-- EditableImage.DrawLine(p1)
-- EditableImage.DrawLine(p2)
-- EditableImage.DrawRectangle(position)
-- EditableImage.DrawRectangle(size)
-- EditableImage.DrawTriangle(p1)
-- EditableImage.DrawTriangle(p2)
-- EditableImage.DrawTriangle(p3)
-- EditableImage.ReadPixelsBuffer(position)
-- EditableImage.ReadPixelsBuffer(size)
-- EditableImage.WritePixelsBuffer(position)
-- EditableImage.WritePixelsBuffer(size)
-- EditableMesh.AddUV(uv)
-- EditableMesh.SetUV(uv)
-- GamepadService.GamepadThumbstick1Changed(event)
-- GamepadService.SetGamepadCursorPosition(position)
-- GuiObject.TouchPan(totalTranslation)
-- GuiObject.TouchPan(velocity)
-- PluginGui.PointerAction(pan)
-- StudioDeviceEmulatorService.EmulatePCDeviceWithResolution(resolution)
-- StudioScreenshotCapture.ScaleAsync(newSize)
-- TextService.GetTextSize(frameSize)
-- UIDragDetector.DragContinue(inputPosition)
-- UIDragDetector.DragEnd(inputPosition)
-- ...and 21 more
+- `Class.BasePlayerGui:GetGuiObjectsInCircle` (parameter `position`)
+- `Class.ChannelTabsConfiguration:SetAbsolutePosition` (parameter `value`)
+- `Class.ChannelTabsConfiguration:SetAbsoluteSize` (parameter `value`)
+- `Class.EditableImage:DrawCircle` (parameter `center`)
+- `Class.EditableImage:DrawImage` (parameter `position`)
+- `Class.EditableImage:DrawImageTransformed` (parameter `position`)
+- `Class.EditableImage:DrawImageTransformed` (parameter `scale`)
+- `Class.EditableImage:DrawLine` (parameter `p1`)
+- `Class.EditableImage:DrawLine` (parameter `p2`)
+- `Class.EditableImage:DrawRectangle` (parameter `position`)
+- `Class.EditableImage:DrawRectangle` (parameter `size`)
+- `Class.EditableImage:DrawTriangle` (parameter `p1`)
+- `Class.EditableImage:DrawTriangle` (parameter `p2`)
+- `Class.EditableImage:DrawTriangle` (parameter `p3`)
+- `Class.EditableImage:ReadPixelsBuffer` (parameter `position`)
+- `Class.EditableImage:ReadPixelsBuffer` (parameter `size`)
+- `Class.EditableImage:WritePixelsBuffer` (parameter `position`)
+- `Class.EditableImage:WritePixelsBuffer` (parameter `size`)
+- `Class.EditableMesh:AddUV` (parameter `uv`)
+- `Class.EditableMesh:SetUV` (parameter `uv`)
+- `Class.GamepadService:GamepadThumbstick1Changed` (parameter `event`)
+- `Class.GamepadService:SetGamepadCursorPosition` (parameter `position`)
+- `Class.GuiObject:TouchPan` (parameter `totalTranslation`)
+- `Class.GuiObject:TouchPan` (parameter `velocity`)
+- `Class.PluginGui:PointerAction` (parameter `pan`)
+- `Class.StudioDeviceEmulatorService:EmulatePCDeviceWithResolution` (parameter `resolution`)
+- `Class.StudioScreenshotCapture:ScaleAsync` (parameter `newSize`)
+- `Class.TextService:GetTextSize` (parameter `frameSize`)
+- `Class.UIDragDetector:DragContinue` (parameter `inputPosition`)
+- `Class.UIDragDetector:DragEnd` (parameter `inputPosition`)
+- `Class.UIDragDetector:DragStart` (parameter `inputPosition`)
+- `Class.UserInputService:PointerAction` (parameter `pan`)
+- `Class.UserInputService:SendAppUISizes` (parameter `bottomBarSize`)
+- `Class.UserInputService:SendAppUISizes` (parameter `navBarSize`)
+- `Class.UserInputService:SendAppUISizes` (parameter `rightBarSize`)
+- `Class.UserInputService:SendAppUISizes` (parameter `statusBarSize`)
+- `Class.UserInputService:StatusBarTapped` (parameter `position`)
+- `Class.UserInputService:TouchPan` (parameter `totalTranslation`)
+- `Class.UserInputService:TouchPan` (parameter `velocity`)
+- `Class.UserInputService:TouchTapInWorld` (parameter `position`)
+- ...and 11 more
 
 ## Used as Return Type
 
-- CaptureService.GetCaptureSizeAsync
-- EditableMesh.GetUV
-- GamepadService.GetGamepadCursorPosition
-- GuiService.GetHardwareSafeViewport
-- GuiService.GetScreenResolution
-- Path2D.GetTangentOnCurve
-- Path2D.GetTangentOnCurveArcLength
-- PluginGui.GetRelativeMousePosition
-- ScrollingFrame.GetSampledInertialVelocity
-- ScrollingFrame.GetScrollVelocity
-- StudioDeviceEmulatorService.GetTouchPosition
-- StudioDeviceSimulatorService.GetResolutionAsync
-- TextService.GetTextBoundsAsync
-- TextService.GetTextSize
-- UGCValidationService.GetEditableImageSize
-- UserInputService.GetMouseDelta
-- UserInputService.GetMouseLocation
+- `Class.CaptureService:GetCaptureSizeAsync`
+- `Class.EditableMesh:GetUV`
+- `Class.GamepadService:GetGamepadCursorPosition`
+- `Class.GuiService:GetHardwareSafeViewport`
+- `Class.GuiService:GetScreenResolution`
+- `Class.Path2D:GetTangentOnCurve`
+- `Class.Path2D:GetTangentOnCurveArcLength`
+- `Class.PluginGui:GetRelativeMousePosition`
+- `Class.ScrollingFrame:GetSampledInertialVelocity`
+- `Class.ScrollingFrame:GetScrollVelocity`
+- `Class.StudioDeviceEmulatorService:GetTouchPosition`
+- `Class.StudioDeviceSimulatorService:GetResolutionAsync`
+- `Class.TextService:GetTextBoundsAsync`
+- `Class.TextService:GetTextSize`
+- `Class.UGCValidationService:GetEditableImageSize`
+- `Class.UserInputService:GetMouseDelta`
+- `Class.UserInputService:GetMouseLocation`

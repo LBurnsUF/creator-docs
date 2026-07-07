@@ -3,13 +3,15 @@ title: VibrationMotor
 type: enum
 ---
 
-# VibrationMotor (Enum)
+# `Enum.VibrationMotor`
+
+The `Enum.VibrationMotor` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Large | 0 |
-| Small | 1 |
-| LeftTrigger | 2 |
-| RightTrigger | 3 |
-| LeftHand | 4 |
-| RightHand | 5 |
+| `Enum.VibrationMotor.Large` | 0 |
+| `Enum.VibrationMotor.Small` | 1 |
+| `Enum.VibrationMotor.LeftTrigger` | 2 |
+| `Enum.VibrationMotor.RightTrigger` | 3 |
+| `Enum.VibrationMotor.LeftHand` | 4 |
+| `Enum.VibrationMotor.RightHand` | 5 |

@@ -7,30 +7,84 @@ tags: [NotCreatable, Service]
 
 # SafetyService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **IsCaptureModeForReport**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.SafetyService.IsCaptureModeForReport` | `bool` |  {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **DecodeAvatarMovementProto**(`avatarMovementProtoString: string`) -> `Dictionary`
-- **ReportCapturesUIClose**() -> `null`
-- **ReportCapturesUIOpen**() -> `null`
-- **ReportChatLineReportingClose**() -> `null`
-- **ReportChatLineReportingOpen**() -> `null`
-- **ReportChatSuspensionDialogClose**() -> `null`
-- **ReportChatSuspensionDialogOpen**() -> `null`
-- **ReportMenuTabClose**() -> `null`
-- **ReportMenuTabOpen**() -> `null`
-- **ReportPartyChatWindowClose**() -> `null`
-- **ReportPartyChatWindowOpen**() -> `null`
-- **TakeScreenshot**(`screenshotOptions: Dictionary`) -> `int64`
+### `Class.SafetyService:DecodeAvatarMovementProto`
+
+``DecodeAvatarMovementProto(avatarMovementProtoString: `string`)`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:ReportCapturesUIClose`
+
+``ReportCapturesUIClose()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:ReportCapturesUIOpen`
+
+``ReportCapturesUIOpen()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:ReportChatLineReportingClose`
+
+``ReportChatLineReportingClose()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:ReportChatLineReportingOpen`
+
+``ReportChatLineReportingOpen()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:ReportChatSuspensionDialogClose`
+
+``ReportChatSuspensionDialogClose()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:ReportChatSuspensionDialogOpen`
+
+``ReportChatSuspensionDialogOpen()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:ReportMenuTabClose`
+
+``ReportMenuTabClose()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:ReportMenuTabOpen`
+
+``ReportMenuTabOpen()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:ReportPartyChatWindowClose`
+
+``ReportPartyChatWindowClose()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:ReportPartyChatWindowOpen`
+
+``ReportPartyChatWindowOpen()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.SafetyService:TakeScreenshot`
+
+``TakeScreenshot(screenshotOptions: `Dictionary`)`` → `int64`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **ScreenshotContentReady**(`screenshotJobId: int64`, `contentId: ContentId`)
-- **ScreenshotUploaded**(`screenshotJobId: int64`, `screenshotId: string`)
+### `Class.SafetyService.ScreenshotContentReady`
+
+Fires with: (screenshotJobId: `int64`, contentId: `Datatype.ContentId`)
+
+### `Class.SafetyService.ScreenshotUploaded`
+
+Fires with: (screenshotJobId: `int64`, screenshotId: `string`)

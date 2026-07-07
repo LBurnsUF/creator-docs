@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # PlayerMouse
 
-**Inherits**: Mouse > Instance > Object
+**Inherits from:** `Class.Mouse` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

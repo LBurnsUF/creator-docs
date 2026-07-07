@@ -3,12 +3,14 @@ title: SwipeDirection
 type: enum
 ---
 
-# SwipeDirection (Enum)
+# `Enum.SwipeDirection`
+
+The `Enum.SwipeDirection` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Right | 0 |
-| Left | 1 |
-| Up | 2 |
-| Down | 3 |
-| None | 4 |
+| `Enum.SwipeDirection.Right` | 0 |
+| `Enum.SwipeDirection.Left` | 1 |
+| `Enum.SwipeDirection.Up` | 2 |
+| `Enum.SwipeDirection.Down` | 3 |
+| `Enum.SwipeDirection.None` | 4 |

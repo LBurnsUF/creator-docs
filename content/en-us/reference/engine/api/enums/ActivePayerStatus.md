@@ -3,13 +3,15 @@ title: ActivePayerStatus
 type: enum
 ---
 
-# ActivePayerStatus (Enum)
+# `Enum.ActivePayerStatus`
+
+The `Enum.ActivePayerStatus` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| Never | 1 |
-| Lapsed | 2 |
-| Casual50Percent | 3 |
-| Intermediate35Percent | 4 |
-| Top15Percent | 5 |
+| `Enum.ActivePayerStatus.Unknown` | 0 |
+| `Enum.ActivePayerStatus.Never` | 1 |
+| `Enum.ActivePayerStatus.Lapsed` | 2 |
+| `Enum.ActivePayerStatus.Casual50Percent` | 3 |
+| `Enum.ActivePayerStatus.Intermediate35Percent` | 4 |
+| `Enum.ActivePayerStatus.Top15Percent` | 5 |

@@ -6,8 +6,10 @@ superclass: PostEffect
 
 # BlurEffect
 
-**Inherits**: PostEffect > Instance > Object
+**Inherits from:** `Class.PostEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Size**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BlurEffect.Size` | `float` |  |

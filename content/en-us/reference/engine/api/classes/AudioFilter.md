@@ -6,24 +6,39 @@ superclass: Instance
 
 # AudioFilter
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Bypass**: `bool`
-- **Editor**: `bool` [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **FilterType**: `AudioFilterType`
-- **Frequency**: `float`
-- **Gain**: `float`
-- **Q**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioFilter.Bypass` | `bool` |  |
+| `Class.AudioFilter.Editor` | `bool` | [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.AudioFilter.FilterType` | `Enum.AudioFilterType` |  |
+| `Class.AudioFilter.Frequency` | `float` |  |
+| `Class.AudioFilter.Gain` | `float` |  |
+| `Class.AudioFilter.Q` | `float` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetGainAt**(`frequency: float`) -> `float`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
+### `Class.AudioFilter:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioFilter:GetGainAt`
+
+``GetGainAt(frequency: `float`)`` → `float`
+
+### `Class.AudioFilter:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioFilter:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioFilter.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

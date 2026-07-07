@@ -6,8 +6,10 @@ superclass: Light
 
 # PointLight
 
-**Inherits**: Light > Instance > Object
+**Inherits from:** `Class.Light` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Range**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PointLight.Range` | `float` |  |

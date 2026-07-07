@@ -7,18 +7,20 @@ tags: [NotReplicated]
 
 # AudioSearchParams
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **Album**: `string`
-- **Artist**: `string`
-- **AudioSubType**: `AudioSubType`
-- **AudioSubtype**: `AudioSubType` [NotReplicated] [Deprecated]
-- **MaxDuration**: `int`
-- **MinDuration**: `int`
-- **SearchKeyword**: `string`
-- **Tag**: `string`
-- **Title**: `string`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioSearchParams.Album` | `string` |  |
+| `Class.AudioSearchParams.Artist` | `string` |  |
+| `Class.AudioSearchParams.AudioSubType` | `Enum.AudioSubType` |  |
+| `Class.AudioSearchParams.AudioSubtype` | `Enum.AudioSubType` | [NotReplicated] [Deprecated] |
+| `Class.AudioSearchParams.MaxDuration` | `int` |  |
+| `Class.AudioSearchParams.MinDuration` | `int` |  |
+| `Class.AudioSearchParams.SearchKeyword` | `string` |  |
+| `Class.AudioSearchParams.Tag` | `string` |  |
+| `Class.AudioSearchParams.Title` | `string` |  |

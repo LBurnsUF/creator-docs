@@ -3,11 +3,13 @@ title: SalesTypeFilter
 type: enum
 ---
 
-# SalesTypeFilter (Enum)
+# `Enum.SalesTypeFilter`
+
+The `Enum.SalesTypeFilter` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| All | 1 |
-| Collectibles | 2 |
-| Premium | 3 |
-| TimedOptions | 4 |
+| `Enum.SalesTypeFilter.All` | 1 |
+| `Enum.SalesTypeFilter.Collectibles` | 2 |
+| `Enum.SalesTypeFilter.Premium` | 3 |
+| `Enum.SalesTypeFilter.TimedOptions` | 4 |

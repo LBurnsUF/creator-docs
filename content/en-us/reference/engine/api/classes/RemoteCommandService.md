@@ -7,15 +7,34 @@ tags: [NotCreatable, Service]
 
 # RemoteCommandService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **ExecuteCommand**(`code: string`, `args: Tuple`) -> `ExecutedRemoteCommand`
-- **ExecuteCommandAsync**(`code: string`, `args: Tuple`) -> `Tuple` [Yields]
-- **GetExecutingPlayer**() -> `Player`
-- **GetReceivedUpdateSignal**() -> `RBXScriptSignal`
-- **GetStoppingSignal**() -> `RBXScriptSignal`
-- **SendUpdate**(`args: Tuple`) -> `null`
+### `Class.RemoteCommandService:ExecuteCommand`
+
+``ExecuteCommand(code: `string`, args: `Tuple`)`` → `Class.ExecutedRemoteCommand`
+   {security: RobloxScriptSecurity}
+
+### `Class.RemoteCommandService:ExecuteCommandAsync`
+
+``ExecuteCommandAsync(code: `string`, args: `Tuple`)`` → `Tuple`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.RemoteCommandService:GetExecutingPlayer`
+
+``GetExecutingPlayer()`` → `Class.Player`
+
+### `Class.RemoteCommandService:GetReceivedUpdateSignal`
+
+``GetReceivedUpdateSignal()`` → `Datatype.RBXScriptSignal`
+
+### `Class.RemoteCommandService:GetStoppingSignal`
+
+``GetStoppingSignal()`` → `Datatype.RBXScriptSignal`
+
+### `Class.RemoteCommandService:SendUpdate`
+
+``SendUpdate(args: `Tuple`)`` → `null`

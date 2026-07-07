@@ -7,13 +7,15 @@ tags: [NotCreatable]
 
 # BaseScript
 
-**Inherits**: LuaSourceContainer > Instance > Object
+**Inherits from:** `Class.LuaSourceContainer` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Disabled**: `bool`
-- **Enabled**: `bool` [NotReplicated]
-- **LinkedSource**: `ContentId` [Deprecated]
-- **RunContext**: `RunContext` (Security: Read=None, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BaseScript.Disabled` | `bool` |  |
+| `Class.BaseScript.Enabled` | `bool` | [NotReplicated] |
+| `Class.BaseScript.LinkedSource` | `Datatype.ContentId` | [Deprecated] |
+| `Class.BaseScript.RunContext` | `Enum.RunContext` |  {write: PluginSecurity} |

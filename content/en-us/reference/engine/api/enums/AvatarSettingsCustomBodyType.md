@@ -3,9 +3,11 @@ title: AvatarSettingsCustomBodyType
 type: enum
 ---
 
-# AvatarSettingsCustomBodyType (Enum)
+# `Enum.AvatarSettingsCustomBodyType`
+
+The `Enum.AvatarSettingsCustomBodyType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| AvatarReference | 0 |
-| BundleId | 1 |
+| `Enum.AvatarSettingsCustomBodyType.AvatarReference` | 0 |
+| `Enum.AvatarSettingsCustomBodyType.BundleId` | 1 |

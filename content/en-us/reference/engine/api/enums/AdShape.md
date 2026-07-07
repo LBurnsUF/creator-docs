@@ -3,8 +3,10 @@ title: AdShape
 type: enum
 ---
 
-# AdShape (Enum)
+# `Enum.AdShape`
+
+The `Enum.AdShape` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| HorizontalRectangle | 1 |
+| `Enum.AdShape.HorizontalRectangle` | 1 |

@@ -3,9 +3,11 @@ title: SubscriptionPaymentStatus
 type: enum
 ---
 
-# SubscriptionPaymentStatus (Enum)
+# `Enum.SubscriptionPaymentStatus`
+
+The `Enum.SubscriptionPaymentStatus` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Paid | 0 |
-| Refunded | 1 |
+| `Enum.SubscriptionPaymentStatus.Paid` | 0 |
+| `Enum.SubscriptionPaymentStatus.Refunded` | 1 |

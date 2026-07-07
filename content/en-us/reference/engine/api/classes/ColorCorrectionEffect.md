@@ -6,11 +6,13 @@ superclass: PostEffect
 
 # ColorCorrectionEffect
 
-**Inherits**: PostEffect > Instance > Object
+**Inherits from:** `Class.PostEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Brightness**: `float`
-- **Contrast**: `float`
-- **Saturation**: `float`
-- **TintColor**: `Color3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ColorCorrectionEffect.Brightness` | `float` |  |
+| `Class.ColorCorrectionEffect.Contrast` | `float` |  |
+| `Class.ColorCorrectionEffect.Saturation` | `float` |  |
+| `Class.ColorCorrectionEffect.TintColor` | `Datatype.Color3` |  |

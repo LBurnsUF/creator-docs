@@ -7,6 +7,6 @@ tags: [NotCreatable, NotReplicated]
 
 # FacialAnimationStreamingSubsessionStats
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]

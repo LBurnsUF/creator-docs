@@ -6,18 +6,35 @@ superclass: Instance
 
 # ClickDetector
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CursorIcon**: `ContentId`
-- **CursorIconContent**: `Content`
-- **MaxActivationDistance**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ClickDetector.CursorIcon` | `Datatype.ContentId` |  |
+| `Class.ClickDetector.CursorIconContent` | `Datatype.Content` |  |
+| `Class.ClickDetector.MaxActivationDistance` | `float` |  |
 
 ## Events
 
-- **MouseClick**(`playerWhoClicked: Player`)
-- **MouseHoverEnter**(`playerWhoHovered: Player`)
-- **MouseHoverLeave**(`playerWhoHovered: Player`)
-- **RightMouseClick**(`playerWhoClicked: Player`)
-- **mouseClick**(`playerWhoClicked: Player`) [Deprecated]
+### `Class.ClickDetector.MouseClick`
+
+Fires with: (playerWhoClicked: `Class.Player`)
+
+### `Class.ClickDetector.MouseHoverEnter`
+
+Fires with: (playerWhoHovered: `Class.Player`)
+
+### `Class.ClickDetector.MouseHoverLeave`
+
+Fires with: (playerWhoHovered: `Class.Player`)
+
+### `Class.ClickDetector.RightMouseClick`
+
+Fires with: (playerWhoClicked: `Class.Player`)
+
+### `Class.ClickDetector.mouseClick`
+
+Fires with: (playerWhoClicked: `Class.Player`)
+  [Deprecated]

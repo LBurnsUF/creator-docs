@@ -3,12 +3,14 @@ title: ModelStreamingMode
 type: enum
 ---
 
-# ModelStreamingMode (Enum)
+# `Enum.ModelStreamingMode`
+
+The `Enum.ModelStreamingMode` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Atomic | 1 |
-| Persistent | 2 |
-| PersistentPerPlayer | 3 |
-| Nonatomic | 4 |
+| `Enum.ModelStreamingMode.Default` | 0 |
+| `Enum.ModelStreamingMode.Atomic` | 1 |
+| `Enum.ModelStreamingMode.Persistent` | 2 |
+| `Enum.ModelStreamingMode.PersistentPerPlayer` | 3 |
+| `Enum.ModelStreamingMode.Nonatomic` | 4 |

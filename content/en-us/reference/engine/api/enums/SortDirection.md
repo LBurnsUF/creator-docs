@@ -3,9 +3,11 @@ title: SortDirection
 type: enum
 ---
 
-# SortDirection (Enum)
+# `Enum.SortDirection`
+
+The `Enum.SortDirection` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Ascending | 0 |
-| Descending | 1 |
+| `Enum.SortDirection.Ascending` | 0 |
+| `Enum.SortDirection.Descending` | 1 |

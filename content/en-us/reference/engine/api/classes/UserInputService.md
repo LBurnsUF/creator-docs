@@ -7,99 +7,280 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # UserInputService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **AccelerometerEnabled**: `bool` [ReadOnly] [NotReplicated]
-- **BottomBarSize**: `Vector2` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **GamepadEnabled**: `bool` [ReadOnly] [NotReplicated]
-- **GyroscopeEnabled**: `bool` [ReadOnly] [NotReplicated]
-- **KeyboardEnabled**: `bool` [ReadOnly] [NotReplicated]
-- **LegacyInputEventsEnabled**: `bool` [Hidden] [Deprecated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ModalEnabled**: `bool` [Deprecated]
-- **MouseBehavior**: `MouseBehavior`
-- **MouseDeltaSensitivity**: `float` [NotReplicated]
-- **MouseEnabled**: `bool` [ReadOnly] [NotReplicated]
-- **MouseIcon**: `ContentId`
-- **MouseIconContent**: `Content`
-- **MouseIconEnabled**: `bool`
-- **NavBarSize**: `Vector2` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **OnScreenKeyboardAnimationDuration**: `double` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **OnScreenKeyboardPosition**: `Vector2` [ReadOnly] [NotReplicated]
-- **OnScreenKeyboardSize**: `Vector2` [ReadOnly] [NotReplicated]
-- **OnScreenKeyboardVisible**: `bool` [ReadOnly] [NotReplicated]
-- **OverrideMouseIconBehavior**: `OverrideMouseIconBehavior` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PreferredInput**: `PreferredInput` [ReadOnly] [NotReplicated]
-- **RightBarSize**: `Vector2` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **StatusBarSize**: `Vector2` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **TouchEnabled**: `bool` [ReadOnly] [NotReplicated]
-- **TouchScreenEnabled**: `bool` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **UserHeadCFrame**: `CFrame` [ReadOnly] [NotReplicated] [Deprecated]
-- **VREnabled**: `bool` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UserInputService.AccelerometerEnabled` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.UserInputService.BottomBarSize` | `Datatype.Vector2` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserInputService.GamepadEnabled` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.UserInputService.GyroscopeEnabled` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.UserInputService.KeyboardEnabled` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.UserInputService.LegacyInputEventsEnabled` | `bool` | [Hidden] [Deprecated] {security: RobloxScriptSecurity} |
+| `Class.UserInputService.ModalEnabled` | `bool` | [Deprecated] |
+| `Class.UserInputService.MouseBehavior` | `Enum.MouseBehavior` |  |
+| `Class.UserInputService.MouseDeltaSensitivity` | `float` | [NotReplicated] |
+| `Class.UserInputService.MouseEnabled` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.UserInputService.MouseIcon` | `Datatype.ContentId` |  |
+| `Class.UserInputService.MouseIconContent` | `Datatype.Content` |  |
+| `Class.UserInputService.MouseIconEnabled` | `bool` |  |
+| `Class.UserInputService.NavBarSize` | `Datatype.Vector2` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserInputService.OnScreenKeyboardAnimationDuration` | `double` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserInputService.OnScreenKeyboardPosition` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.UserInputService.OnScreenKeyboardSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.UserInputService.OnScreenKeyboardVisible` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.UserInputService.OverrideMouseIconBehavior` | `Enum.OverrideMouseIconBehavior` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.UserInputService.PreferredInput` | `Enum.PreferredInput` | [ReadOnly] [NotReplicated] |
+| `Class.UserInputService.RightBarSize` | `Datatype.Vector2` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserInputService.StatusBarSize` | `Datatype.Vector2` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserInputService.TouchEnabled` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.UserInputService.TouchScreenEnabled` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.UserInputService.UserHeadCFrame` | `Datatype.CFrame` | [ReadOnly] [NotReplicated] [Deprecated] |
+| `Class.UserInputService.VREnabled` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **CreateVirtualInput**() -> `Object`
-- **GamepadSupports**(`gamepadNum: UserInputType`, `gamepadKeyCode: KeyCode`) -> `bool`
-- **GetConnectedGamepads**() -> `Array`
-- **GetDeviceAcceleration**() -> `InputObject`
-- **GetDeviceGravity**() -> `InputObject`
-- **GetDeviceLevel**() -> `DeviceLevel`
-- **GetDeviceRotation**() -> `Tuple`
-- **GetDeviceType**() -> `DeviceType`
-- **GetFocusedTextBox**() -> `TextBox`
-- **GetGamepadConnected**(`gamepadNum: UserInputType`) -> `bool`
-- **GetGamepadState**(`gamepadNum: UserInputType`) -> `Instances`
-- **GetImageForKeyCode**(`keyCode: KeyCode`) -> `ContentId`
-- **GetKeysPressed**() -> `Instances`
-- **GetLastInputType**() -> `UserInputType`
-- **GetMouseButtonsPressed**() -> `Instances`
-- **GetMouseDelta**() -> `Vector2`
-- **GetMouseLocation**() -> `Vector2`
-- **GetNavigationGamepads**() -> `Array`
-- **GetPasteText**() -> `string`
-- **GetPlatform**() -> `Platform`
-- **GetStringForKeyCode**(`keyCode: KeyCode`, `format: KeyCodeStringFormat = Default`) -> `string`
-- **GetSupportedGamepadKeyCodes**(`gamepadNum: UserInputType`) -> `Array`
-- **GetUserCFrame**(`type: UserCFrame`) -> `CFrame` [Deprecated]
-- **IsGamepadButtonDown**(`gamepadNum: UserInputType`, `gamepadKeyCode: KeyCode`) -> `bool`
-- **IsKeyDown**(`keyCode: KeyCode`) -> `bool`
-- **IsMouseButtonPressed**(`mouseButton: UserInputType`) -> `bool`
-- **IsNavigationGamepad**(`gamepadEnum: UserInputType`) -> `bool`
-- **RecenterUserHeadCFrame**() -> `null`
-- **SendAppUISizes**(`statusBarSize: Vector2`, `navBarSize: Vector2`, `bottomBarSize: Vector2`, `rightBarSize: Vector2`) -> `null`
-- **SetNavigationGamepad**(`gamepadEnum: UserInputType`, `enabled: bool`) -> `null`
+### `Class.UserInputService:CreateVirtualInput`
+
+``CreateVirtualInput()`` → `Class.Object`
+
+### `Class.UserInputService:GamepadSupports`
+
+``GamepadSupports(gamepadNum: `Enum.UserInputType`, gamepadKeyCode: `Enum.KeyCode`)`` → `bool`
+
+### `Class.UserInputService:GetConnectedGamepads`
+
+``GetConnectedGamepads()`` → `Array`
+
+### `Class.UserInputService:GetDeviceAcceleration`
+
+``GetDeviceAcceleration()`` → `Class.InputObject`
+
+### `Class.UserInputService:GetDeviceGravity`
+
+``GetDeviceGravity()`` → `Class.InputObject`
+
+### `Class.UserInputService:GetDeviceLevel`
+
+``GetDeviceLevel()`` → `Enum.DeviceLevel`
+   {security: RobloxScriptSecurity}
+
+### `Class.UserInputService:GetDeviceRotation`
+
+``GetDeviceRotation()`` → `Tuple`
+
+### `Class.UserInputService:GetDeviceType`
+
+``GetDeviceType()`` → `Enum.DeviceType`
+   {security: RobloxScriptSecurity}
+
+### `Class.UserInputService:GetFocusedTextBox`
+
+``GetFocusedTextBox()`` → `Class.TextBox`
+
+### `Class.UserInputService:GetGamepadConnected`
+
+``GetGamepadConnected(gamepadNum: `Enum.UserInputType`)`` → `bool`
+
+### `Class.UserInputService:GetGamepadState`
+
+``GetGamepadState(gamepadNum: `Enum.UserInputType`)`` → `Datatype.Instances`
+
+### `Class.UserInputService:GetImageForKeyCode`
+
+``GetImageForKeyCode(keyCode: `Enum.KeyCode`)`` → `Datatype.ContentId`
+
+### `Class.UserInputService:GetKeysPressed`
+
+``GetKeysPressed()`` → `Datatype.Instances`
+
+### `Class.UserInputService:GetLastInputType`
+
+``GetLastInputType()`` → `Enum.UserInputType`
+
+### `Class.UserInputService:GetMouseButtonsPressed`
+
+``GetMouseButtonsPressed()`` → `Datatype.Instances`
+
+### `Class.UserInputService:GetMouseDelta`
+
+``GetMouseDelta()`` → `Datatype.Vector2`
+
+### `Class.UserInputService:GetMouseLocation`
+
+``GetMouseLocation()`` → `Datatype.Vector2`
+
+### `Class.UserInputService:GetNavigationGamepads`
+
+``GetNavigationGamepads()`` → `Array`
+
+### `Class.UserInputService:GetPasteText`
+
+``GetPasteText()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.UserInputService:GetPlatform`
+
+``GetPlatform()`` → `Enum.Platform`
+   {security: RobloxScriptSecurity}
+
+### `Class.UserInputService:GetStringForKeyCode`
+
+``GetStringForKeyCode(keyCode: `Enum.KeyCode`, format: `Enum.KeyCodeStringFormat`)`` → `string`
+
+### `Class.UserInputService:GetSupportedGamepadKeyCodes`
+
+``GetSupportedGamepadKeyCodes(gamepadNum: `Enum.UserInputType`)`` → `Array`
+
+### `Class.UserInputService:GetUserCFrame`
+
+``GetUserCFrame(type: `Enum.UserCFrame`)`` → `Datatype.CFrame`
+  [Deprecated]
+
+### `Class.UserInputService:IsGamepadButtonDown`
+
+``IsGamepadButtonDown(gamepadNum: `Enum.UserInputType`, gamepadKeyCode: `Enum.KeyCode`)`` → `bool`
+
+### `Class.UserInputService:IsKeyDown`
+
+``IsKeyDown(keyCode: `Enum.KeyCode`)`` → `bool`
+
+### `Class.UserInputService:IsMouseButtonPressed`
+
+``IsMouseButtonPressed(mouseButton: `Enum.UserInputType`)`` → `bool`
+
+### `Class.UserInputService:IsNavigationGamepad`
+
+``IsNavigationGamepad(gamepadEnum: `Enum.UserInputType`)`` → `bool`
+
+### `Class.UserInputService:RecenterUserHeadCFrame`
+
+``RecenterUserHeadCFrame()`` → `null`
+
+### `Class.UserInputService:SendAppUISizes`
+
+``SendAppUISizes(statusBarSize: `Datatype.Vector2`, navBarSize: `Datatype.Vector2`, bottomBarSize: `Datatype.Vector2`, rightBarSize: `Datatype.Vector2`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.UserInputService:SetNavigationGamepad`
+
+``SetNavigationGamepad(gamepadEnum: `Enum.UserInputType`, enabled: `bool`)`` → `null`
 
 ## Events
 
-- **DeviceAccelerationChanged**(`acceleration: InputObject`)
-- **DeviceGravityChanged**(`gravity: InputObject`)
-- **DeviceRotationChanged**(`rotation: InputObject`, `cframe: CFrame`)
-- **GamepadConnected**(`gamepadNum: UserInputType`)
-- **GamepadDisconnected**(`gamepadNum: UserInputType`)
-- **InputBegan**(`input: InputObject`, `gameProcessedEvent: bool`)
-- **InputChanged**(`input: InputObject`, `gameProcessedEvent: bool`)
-- **InputEnded**(`input: InputObject`, `gameProcessedEvent: bool`)
-- **JumpRequest**()
-- **LastInputTypeChanged**(`lastInputType: UserInputType`)
-- **PointerAction**(`wheel: float`, `pan: Vector2`, `pinch: float`, `gameProcessedEvent: bool`)
-- **StatusBarTapped**(`position: Vector2`)
-- **TextBoxFocusReleased**(`textboxReleased: TextBox`)
-- **TextBoxFocused**(`textboxFocused: TextBox`)
-- **TouchDrag**(`dragDirection: SwipeDirection`, `numberOfTouches: int`, `gameProcessedEvent: bool`)
-- **TouchEnded**(`touch: InputObject`, `gameProcessedEvent: bool`)
-- **TouchLongPress**(`touchPositions: Array`, `state: UserInputState`, `gameProcessedEvent: bool`)
-- **TouchMoved**(`touch: InputObject`, `gameProcessedEvent: bool`)
-- **TouchPan**(`touchPositions: Array`, `totalTranslation: Vector2`, `velocity: Vector2`, `state: UserInputState`, `gameProcessedEvent: bool`)
-- **TouchPinch**(`touchPositions: Array`, `scale: float`, `velocity: float`, `state: UserInputState`, `gameProcessedEvent: bool`)
-- **TouchRotate**(`touchPositions: Array`, `rotation: float`, `velocity: float`, `state: UserInputState`, `gameProcessedEvent: bool`)
-- **TouchStarted**(`touch: InputObject`, `gameProcessedEvent: bool`)
-- **TouchSwipe**(`swipeDirection: SwipeDirection`, `numberOfTouches: int`, `gameProcessedEvent: bool`)
-- **TouchTap**(`touchPositions: Array`, `gameProcessedEvent: bool`)
-- **TouchTapInWorld**(`position: Vector2`, `processedByUI: bool`)
-- **UserCFrameChanged**(`type: UserCFrame`, `value: CFrame`) [Deprecated]
-- **WindowFocusReleased**()
-- **WindowFocused**()
+### `Class.UserInputService.DeviceAccelerationChanged`
+
+Fires with: (acceleration: `Class.InputObject`)
+
+### `Class.UserInputService.DeviceGravityChanged`
+
+Fires with: (gravity: `Class.InputObject`)
+
+### `Class.UserInputService.DeviceRotationChanged`
+
+Fires with: (rotation: `Class.InputObject`, cframe: `Datatype.CFrame`)
+
+### `Class.UserInputService.GamepadConnected`
+
+Fires with: (gamepadNum: `Enum.UserInputType`)
+
+### `Class.UserInputService.GamepadDisconnected`
+
+Fires with: (gamepadNum: `Enum.UserInputType`)
+
+### `Class.UserInputService.InputBegan`
+
+Fires with: (input: `Class.InputObject`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.InputChanged`
+
+Fires with: (input: `Class.InputObject`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.InputEnded`
+
+Fires with: (input: `Class.InputObject`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.JumpRequest`
+
+Fires with: ()
+
+### `Class.UserInputService.LastInputTypeChanged`
+
+Fires with: (lastInputType: `Enum.UserInputType`)
+
+### `Class.UserInputService.PointerAction`
+
+Fires with: (wheel: `float`, pan: `Datatype.Vector2`, pinch: `float`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.StatusBarTapped`
+
+Fires with: (position: `Datatype.Vector2`)
+
+### `Class.UserInputService.TextBoxFocusReleased`
+
+Fires with: (textboxReleased: `Class.TextBox`)
+
+### `Class.UserInputService.TextBoxFocused`
+
+Fires with: (textboxFocused: `Class.TextBox`)
+
+### `Class.UserInputService.TouchDrag`
+
+Fires with: (dragDirection: `Enum.SwipeDirection`, numberOfTouches: `int`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.TouchEnded`
+
+Fires with: (touch: `Class.InputObject`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.TouchLongPress`
+
+Fires with: (touchPositions: `Array`, state: `Enum.UserInputState`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.TouchMoved`
+
+Fires with: (touch: `Class.InputObject`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.TouchPan`
+
+Fires with: (touchPositions: `Array`, totalTranslation: `Datatype.Vector2`, velocity: `Datatype.Vector2`, state: `Enum.UserInputState`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.TouchPinch`
+
+Fires with: (touchPositions: `Array`, scale: `float`, velocity: `float`, state: `Enum.UserInputState`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.TouchRotate`
+
+Fires with: (touchPositions: `Array`, rotation: `float`, velocity: `float`, state: `Enum.UserInputState`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.TouchStarted`
+
+Fires with: (touch: `Class.InputObject`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.TouchSwipe`
+
+Fires with: (swipeDirection: `Enum.SwipeDirection`, numberOfTouches: `int`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.TouchTap`
+
+Fires with: (touchPositions: `Array`, gameProcessedEvent: `bool`)
+
+### `Class.UserInputService.TouchTapInWorld`
+
+Fires with: (position: `Datatype.Vector2`, processedByUI: `bool`)
+
+### `Class.UserInputService.UserCFrameChanged`
+
+Fires with: (type: `Enum.UserCFrame`, value: `Datatype.CFrame`)
+  [Deprecated]
+
+### `Class.UserInputService.WindowFocusReleased`
+
+Fires with: ()
+
+### `Class.UserInputService.WindowFocused`
+
+Fires with: ()

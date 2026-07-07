@@ -3,14 +3,16 @@ title: AdAvailabilityResult
 type: enum
 ---
 
-# AdAvailabilityResult (Enum)
+# `Enum.AdAvailabilityResult`
+
+The `Enum.AdAvailabilityResult` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| IsAvailable | 1 |
-| DeviceIneligible | 2 |
-| ExperienceIneligible | 3 |
-| InternalError | 4 |
-| NoFill | 5 |
-| PlayerIneligible | 6 |
-| PublisherIneligible | 7 |
+| `Enum.AdAvailabilityResult.IsAvailable` | 1 |
+| `Enum.AdAvailabilityResult.DeviceIneligible` | 2 |
+| `Enum.AdAvailabilityResult.ExperienceIneligible` | 3 |
+| `Enum.AdAvailabilityResult.InternalError` | 4 |
+| `Enum.AdAvailabilityResult.NoFill` | 5 |
+| `Enum.AdAvailabilityResult.PlayerIneligible` | 6 |
+| `Enum.AdAvailabilityResult.PublisherIneligible` | 7 |

@@ -3,11 +3,11 @@ title: CatalogSearchParams
 type: datatype
 ---
 
-# CatalogSearchParams (DataType)
+# `Datatype.CatalogSearchParams`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- AvatarEditorService.SearchCatalog(searchParameters)
-- AvatarEditorService.SearchCatalogAsync(searchParameters)
+- `Class.AvatarEditorService:SearchCatalog` (parameter `searchParameters`)
+- `Class.AvatarEditorService:SearchCatalogAsync` (parameter `searchParameters`)

@@ -7,10 +7,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PerformanceControlService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **IsCrossExperienceLaunchFeasible**(`type: string`) -> `bool`
+### `Class.PerformanceControlService:IsCrossExperienceLaunchFeasible`
+
+``IsCrossExperienceLaunchFeasible(type: `string`)`` → `bool`
+   {security: RobloxScriptSecurity}

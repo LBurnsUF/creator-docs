@@ -3,14 +3,14 @@ title: RaycastParams
 type: datatype
 ---
 
-# RaycastParams (DataType)
+# `Datatype.RaycastParams`
 
-Used in 5 locations across the API.
+Used in 5 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- StudioService.GizmoRaycast(raycastParams)
-- WorldRoot.Blockcast(params)
-- WorldRoot.Raycast(raycastParams)
-- WorldRoot.Shapecast(params)
-- WorldRoot.Spherecast(params)
+- `Class.StudioService:GizmoRaycast` (parameter `raycastParams`)
+- `Class.WorldRoot:Blockcast` (parameter `params`)
+- `Class.WorldRoot:Raycast` (parameter `raycastParams`)
+- `Class.WorldRoot:Shapecast` (parameter `params`)
+- `Class.WorldRoot:Spherecast` (parameter `params`)

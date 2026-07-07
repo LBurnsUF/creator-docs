@@ -6,13 +6,15 @@ superclass: Instance
 
 # Atmosphere
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Color**: `Color3`
-- **Decay**: `Color3`
-- **Density**: `float`
-- **Glare**: `float`
-- **Haze**: `float`
-- **Offset**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Atmosphere.Color` | `Datatype.Color3` |  |
+| `Class.Atmosphere.Decay` | `Datatype.Color3` |  |
+| `Class.Atmosphere.Density` | `float` |  |
+| `Class.Atmosphere.Glare` | `float` |  |
+| `Class.Atmosphere.Haze` | `float` |  |
+| `Class.Atmosphere.Offset` | `float` |  |

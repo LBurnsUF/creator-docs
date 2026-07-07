@@ -3,14 +3,16 @@ title: CloseReason
 type: enum
 ---
 
-# CloseReason (Enum)
+# `Enum.CloseReason`
+
+The `Enum.CloseReason` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| RobloxMaintenance | 1 |
-| DeveloperShutdown | 2 |
-| DeveloperUpdate | 3 |
-| ServerEmpty | 4 |
-| OutOfMemory | 5 |
-| Moderation | 6 |
+| `Enum.CloseReason.Unknown` | 0 |
+| `Enum.CloseReason.RobloxMaintenance` | 1 |
+| `Enum.CloseReason.DeveloperShutdown` | 2 |
+| `Enum.CloseReason.DeveloperUpdate` | 3 |
+| `Enum.CloseReason.ServerEmpty` | 4 |
+| `Enum.CloseReason.OutOfMemory` | 5 |
+| `Enum.CloseReason.Moderation` | 6 |

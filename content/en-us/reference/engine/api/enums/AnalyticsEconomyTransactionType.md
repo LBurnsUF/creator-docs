@@ -3,13 +3,15 @@ title: AnalyticsEconomyTransactionType
 type: enum
 ---
 
-# AnalyticsEconomyTransactionType (Enum)
+# `Enum.AnalyticsEconomyTransactionType`
+
+The `Enum.AnalyticsEconomyTransactionType` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| IAP | 0 |
-| Shop | 1 |
-| Gameplay | 2 |
-| ContextualPurchase | 3 |
-| TimedReward | 4 |
-| Onboarding | 5 |
+| `Enum.AnalyticsEconomyTransactionType.IAP` | 0 |
+| `Enum.AnalyticsEconomyTransactionType.Shop` | 1 |
+| `Enum.AnalyticsEconomyTransactionType.Gameplay` | 2 |
+| `Enum.AnalyticsEconomyTransactionType.ContextualPurchase` | 3 |
+| `Enum.AnalyticsEconomyTransactionType.TimedReward` | 4 |
+| `Enum.AnalyticsEconomyTransactionType.Onboarding` | 5 |

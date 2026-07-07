@@ -6,19 +6,31 @@ superclass: Instance
 
 # AudioFader
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Bypass**: `bool`
-- **Volume**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioFader.Bypass` | `bool` |  |
+| `Class.AudioFader.Volume` | `float` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
+### `Class.AudioFader:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioFader:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioFader:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioFader.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

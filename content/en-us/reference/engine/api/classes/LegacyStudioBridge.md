@@ -7,6 +7,6 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # LegacyStudioBridge
 
-**Inherits**: ILegacyStudioBridge > Instance > Object
+**Inherits from:** `Class.ILegacyStudioBridge` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]

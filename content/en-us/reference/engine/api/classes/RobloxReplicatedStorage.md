@@ -7,6 +7,6 @@ tags: [NotCreatable, Service, NotBrowsable]
 
 # RobloxReplicatedStorage
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotBrowsable
+**Tags:** [NotCreatable] [Service] [NotBrowsable]

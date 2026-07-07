@@ -3,14 +3,14 @@ title: TweenInfo
 type: datatype
 ---
 
-# TweenInfo (DataType)
+# `Datatype.TweenInfo`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Tween.TweenInfo
+- `Class.Tween.TweenInfo`
 
 ## Used as Parameter Type
 
-- TweenService.Create(tweenInfo)
+- `Class.TweenService:Create` (parameter `tweenInfo`)

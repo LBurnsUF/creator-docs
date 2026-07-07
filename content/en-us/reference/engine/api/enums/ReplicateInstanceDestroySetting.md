@@ -3,10 +3,12 @@ title: ReplicateInstanceDestroySetting
 type: enum
 ---
 
-# ReplicateInstanceDestroySetting (Enum)
+# `Enum.ReplicateInstanceDestroySetting`
+
+The `Enum.ReplicateInstanceDestroySetting` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.ReplicateInstanceDestroySetting.Default` | 0 |
+| `Enum.ReplicateInstanceDestroySetting.Disabled` | 1 |
+| `Enum.ReplicateInstanceDestroySetting.Enabled` | 2 |

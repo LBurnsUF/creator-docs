@@ -3,9 +3,11 @@ title: DialogBehaviorType
 type: enum
 ---
 
-# DialogBehaviorType (Enum)
+# `Enum.DialogBehaviorType`
+
+The `Enum.DialogBehaviorType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| SinglePlayer | 0 |
-| MultiplePlayers | 1 |
+| `Enum.DialogBehaviorType.SinglePlayer` | 0 |
+| `Enum.DialogBehaviorType.MultiplePlayers` | 1 |

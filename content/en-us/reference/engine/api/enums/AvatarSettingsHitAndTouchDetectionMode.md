@@ -3,9 +3,11 @@ title: AvatarSettingsHitAndTouchDetectionMode
 type: enum
 ---
 
-# AvatarSettingsHitAndTouchDetectionMode (Enum)
+# `Enum.AvatarSettingsHitAndTouchDetectionMode`
+
+The `Enum.AvatarSettingsHitAndTouchDetectionMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| UseParts | 0 |
-| UseCollider | 1 |
+| `Enum.AvatarSettingsHitAndTouchDetectionMode.UseParts` | 0 |
+| `Enum.AvatarSettingsHitAndTouchDetectionMode.UseCollider` | 1 |

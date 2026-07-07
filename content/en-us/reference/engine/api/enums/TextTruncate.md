@@ -3,10 +3,12 @@ title: TextTruncate
 type: enum
 ---
 
-# TextTruncate (Enum)
+# `Enum.TextTruncate`
+
+The `Enum.TextTruncate` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| AtEnd | 1 |
-| SplitWord | 2 |
+| `Enum.TextTruncate.None` | 0 |
+| `Enum.TextTruncate.AtEnd` | 1 |
+| `Enum.TextTruncate.SplitWord` | 2 |

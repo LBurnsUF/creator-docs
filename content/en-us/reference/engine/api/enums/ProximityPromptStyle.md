@@ -3,9 +3,11 @@ title: ProximityPromptStyle
 type: enum
 ---
 
-# ProximityPromptStyle (Enum)
+# `Enum.ProximityPromptStyle`
+
+The `Enum.ProximityPromptStyle` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Custom | 1 |
+| `Enum.ProximityPromptStyle.Default` | 0 |
+| `Enum.ProximityPromptStyle.Custom` | 1 |

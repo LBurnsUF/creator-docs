@@ -3,14 +3,16 @@ title: EnviromentalPhysicsThrottle
 type: enum
 ---
 
-# EnviromentalPhysicsThrottle (Enum)
+# `Enum.EnviromentalPhysicsThrottle`
+
+The `Enum.EnviromentalPhysicsThrottle` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| DefaultAuto | 0 |
-| Disabled | 1 |
-| Always | 2 |
-| Skip2 | 3 |
-| Skip4 | 4 |
-| Skip8 | 5 |
-| Skip16 | 6 |
+| `Enum.EnviromentalPhysicsThrottle.DefaultAuto` | 0 |
+| `Enum.EnviromentalPhysicsThrottle.Disabled` | 1 |
+| `Enum.EnviromentalPhysicsThrottle.Always` | 2 |
+| `Enum.EnviromentalPhysicsThrottle.Skip2` | 3 |
+| `Enum.EnviromentalPhysicsThrottle.Skip4` | 4 |
+| `Enum.EnviromentalPhysicsThrottle.Skip8` | 5 |
+| `Enum.EnviromentalPhysicsThrottle.Skip16` | 6 |

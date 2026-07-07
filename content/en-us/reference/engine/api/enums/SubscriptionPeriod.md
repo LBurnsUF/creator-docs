@@ -3,8 +3,10 @@ title: SubscriptionPeriod
 type: enum
 ---
 
-# SubscriptionPeriod (Enum)
+# `Enum.SubscriptionPeriod`
+
+The `Enum.SubscriptionPeriod` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| Month | 0 |
+| `Enum.SubscriptionPeriod.Month` | 0 |

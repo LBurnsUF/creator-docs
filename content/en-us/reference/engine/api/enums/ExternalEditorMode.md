@@ -3,9 +3,11 @@ title: ExternalEditorMode
 type: enum
 ---
 
-# ExternalEditorMode (Enum)
+# `Enum.ExternalEditorMode`
+
+The `Enum.ExternalEditorMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| SystemDefault | 0 |
-| UserSelectedEditor | 1 |
+| `Enum.ExternalEditorMode.SystemDefault` | 0 |
+| `Enum.ExternalEditorMode.UserSelectedEditor` | 1 |

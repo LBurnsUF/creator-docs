@@ -7,24 +7,62 @@ tags: [NotCreatable, Service]
 
 # CommerceService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **GetCommerceProductInfoAsync**(`commerceProductId: string`) -> `Dictionary` [Yields]
-- **PrepareCommerceProductPurchase**(`commerceProductId: string`) -> `Dictionary` [Yields]
-- **PromptCommerceProductPurchase**(`user: Player`, `commerceProductId: string`) -> `null`
-- **PromptRealWorldCommerceBrowser**(`player: Player`, `url: string`) -> `null`
-- **SignalPromptCommerceProductPurchaseFinished**(`productId: string`, `didTryPurchase: bool`, `checkoutSessionId: string = `) -> `null`
-- **UserEligibleForRealWorldCommerceAsync**() -> `bool` [Yields]
+### `Class.CommerceService:GetCommerceProductInfoAsync`
+
+``GetCommerceProductInfoAsync(commerceProductId: `string`)`` → `Dictionary`
+  [Yields]
+
+### `Class.CommerceService:PrepareCommerceProductPurchase`
+
+``PrepareCommerceProductPurchase(commerceProductId: `string`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.CommerceService:PromptCommerceProductPurchase`
+
+``PromptCommerceProductPurchase(user: `Class.Player`, commerceProductId: `string`)`` → `null`
+
+### `Class.CommerceService:PromptRealWorldCommerceBrowser`
+
+``PromptRealWorldCommerceBrowser(player: `Class.Player`, url: `string`)`` → `null`
+
+### `Class.CommerceService:SignalPromptCommerceProductPurchaseFinished`
+
+``SignalPromptCommerceProductPurchaseFinished(productId: `string`, didTryPurchase: `bool`, checkoutSessionId: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.CommerceService:UserEligibleForRealWorldCommerceAsync`
+
+``UserEligibleForRealWorldCommerceAsync()`` → `bool`
+  [Yields]
 
 ## Events
 
-- **BenefitStatusReceived**(`isGranted: bool`)
-- **FetchReceipt**()
-- **InExperienceBrowserRequested**(`url: string`)
-- **PromptCommerceProductPurchaseFinished**(`user: Player`, `productId: string`)
-- **PromptCommerceProductPurchaseRequested**(`commerceProductId: string`)
-- **PurchaseBrowserClosed**()
+### `Class.CommerceService.BenefitStatusReceived`
+
+Fires with: (isGranted: `bool`)
+
+### `Class.CommerceService.FetchReceipt`
+
+Fires with: ()
+
+### `Class.CommerceService.InExperienceBrowserRequested`
+
+Fires with: (url: `string`)
+
+### `Class.CommerceService.PromptCommerceProductPurchaseFinished`
+
+Fires with: (user: `Class.Player`, productId: `string`)
+
+### `Class.CommerceService.PromptCommerceProductPurchaseRequested`
+
+Fires with: (commerceProductId: `string`)
+
+### `Class.CommerceService.PurchaseBrowserClosed`
+
+Fires with: ()

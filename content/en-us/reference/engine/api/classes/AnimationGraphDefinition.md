@@ -6,4 +6,4 @@ superclass: AnimationClip
 
 # AnimationGraphDefinition
 
-**Inherits**: AnimationClip > Instance > Object
+**Inherits from:** `Class.AnimationClip` > `Class.Instance` > `Class.Object`

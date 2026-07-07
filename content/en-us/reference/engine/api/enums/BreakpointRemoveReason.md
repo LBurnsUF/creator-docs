@@ -3,10 +3,12 @@ title: BreakpointRemoveReason
 type: enum
 ---
 
-# BreakpointRemoveReason (Enum)
+# `Enum.BreakpointRemoveReason`
+
+The `Enum.BreakpointRemoveReason` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Requested | 0 |
-| ScriptChanged | 1 |
-| ScriptRemoved | 2 |
+| `Enum.BreakpointRemoveReason.Requested` | 0 |
+| `Enum.BreakpointRemoveReason.ScriptChanged` | 1 |
+| `Enum.BreakpointRemoveReason.ScriptRemoved` | 2 |

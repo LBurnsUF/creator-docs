@@ -3,9 +3,11 @@ title: AspectType
 type: enum
 ---
 
-# AspectType (Enum)
+# `Enum.AspectType`
+
+The `Enum.AspectType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| FitWithinMaxSize | 0 |
-| ScaleWithParentSize | 1 |
+| `Enum.AspectType.FitWithinMaxSize` | 0 |
+| `Enum.AspectType.ScaleWithParentSize` | 1 |

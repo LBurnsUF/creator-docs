@@ -6,15 +6,19 @@ superclass: Instance
 
 # MakeupDescription
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AssetId**: `int64`
-- **Instance**: `Instance`
-- **MakeupType**: `MakeupType`
-- **Order**: `int`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.MakeupDescription.AssetId` | `int64` |  |
+| `Class.MakeupDescription.Instance` | `Class.Instance` |  |
+| `Class.MakeupDescription.MakeupType` | `Enum.MakeupType` |  |
+| `Class.MakeupDescription.Order` | `int` |  |
 
 ## Methods
 
-- **GetAppliedInstance**() -> `Instance`
+### `Class.MakeupDescription:GetAppliedInstance`
+
+``GetAppliedInstance()`` → `Class.Instance`

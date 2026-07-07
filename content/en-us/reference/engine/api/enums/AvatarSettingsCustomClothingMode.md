@@ -3,9 +3,11 @@ title: AvatarSettingsCustomClothingMode
 type: enum
 ---
 
-# AvatarSettingsCustomClothingMode (Enum)
+# `Enum.AvatarSettingsCustomClothingMode`
+
+The `Enum.AvatarSettingsCustomClothingMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| PlayerChoice | 0 |
-| CustomClothing | 1 |
+| `Enum.AvatarSettingsCustomClothingMode.PlayerChoice` | 0 |
+| `Enum.AvatarSettingsCustomClothingMode.CustomClothing` | 1 |

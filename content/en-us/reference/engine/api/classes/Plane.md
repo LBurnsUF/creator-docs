@@ -7,6 +7,6 @@ tags: [Deprecated]
 
 # Plane
 
-**Inherits**: PlaneConstraint > Constraint > Instance > Object
+**Inherits from:** `Class.PlaneConstraint` > `Class.Constraint` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]

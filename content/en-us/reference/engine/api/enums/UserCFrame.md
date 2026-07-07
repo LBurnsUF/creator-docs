@@ -3,11 +3,13 @@ title: UserCFrame
 type: enum
 ---
 
-# UserCFrame (Enum)
+# `Enum.UserCFrame`
+
+The `Enum.UserCFrame` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Head | 0 |
-| LeftHand | 1 |
-| RightHand | 2 |
-| Floor | 3 |
+| `Enum.UserCFrame.Head` | 0 |
+| `Enum.UserCFrame.LeftHand` | 1 |
+| `Enum.UserCFrame.RightHand` | 2 |
+| `Enum.UserCFrame.Floor` | 3 |

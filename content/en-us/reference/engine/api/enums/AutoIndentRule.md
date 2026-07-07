@@ -3,10 +3,12 @@ title: AutoIndentRule
 type: enum
 ---
 
-# AutoIndentRule (Enum)
+# `Enum.AutoIndentRule`
+
+The `Enum.AutoIndentRule` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Off | 0 |
-| Absolute | 1 |
-| Relative | 2 |
+| `Enum.AutoIndentRule.Off` | 0 |
+| `Enum.AutoIndentRule.Absolute` | 1 |
+| `Enum.AutoIndentRule.Relative` | 2 |

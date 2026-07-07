@@ -6,18 +6,20 @@ superclass: Constraint
 
 # AlignPosition
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ApplyAtCenterOfMass**: `bool`
-- **ForceLimitMode**: `ForceLimitMode`
-- **ForceRelativeTo**: `ActuatorRelativeTo`
-- **MaxAxesForce**: `Vector3`
-- **MaxForce**: `float`
-- **MaxVelocity**: `float`
-- **Mode**: `PositionAlignmentMode`
-- **Position**: `Vector3`
-- **ReactionForceEnabled**: `bool`
-- **Responsiveness**: `float`
-- **RigidityEnabled**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AlignPosition.ApplyAtCenterOfMass` | `bool` |  |
+| `Class.AlignPosition.ForceLimitMode` | `Enum.ForceLimitMode` |  |
+| `Class.AlignPosition.ForceRelativeTo` | `Enum.ActuatorRelativeTo` |  |
+| `Class.AlignPosition.MaxAxesForce` | `Datatype.Vector3` |  |
+| `Class.AlignPosition.MaxForce` | `float` |  |
+| `Class.AlignPosition.MaxVelocity` | `float` |  |
+| `Class.AlignPosition.Mode` | `Enum.PositionAlignmentMode` |  |
+| `Class.AlignPosition.Position` | `Datatype.Vector3` |  |
+| `Class.AlignPosition.ReactionForceEnabled` | `bool` |  |
+| `Class.AlignPosition.Responsiveness` | `float` |  |
+| `Class.AlignPosition.RigidityEnabled` | `bool` |  |

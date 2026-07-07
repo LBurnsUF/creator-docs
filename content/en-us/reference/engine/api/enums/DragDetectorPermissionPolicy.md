@@ -3,10 +3,12 @@ title: DragDetectorPermissionPolicy
 type: enum
 ---
 
-# DragDetectorPermissionPolicy (Enum)
+# `Enum.DragDetectorPermissionPolicy`
+
+The `Enum.DragDetectorPermissionPolicy` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Nobody | 0 |
-| Everybody | 1 |
-| Scriptable | 2 |
+| `Enum.DragDetectorPermissionPolicy.Nobody` | 0 |
+| `Enum.DragDetectorPermissionPolicy.Everybody` | 1 |
+| `Enum.DragDetectorPermissionPolicy.Scriptable` | 2 |

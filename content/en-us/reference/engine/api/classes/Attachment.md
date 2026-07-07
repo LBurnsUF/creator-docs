@@ -6,28 +6,48 @@ superclass: Instance
 
 # Attachment
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Axis**: `Vector3` [NotReplicated]
-- **CFrame**: `CFrame`
-- **Orientation**: `Vector3` [Hidden] [NotReplicated]
-- **Position**: `Vector3` [Hidden] [NotReplicated]
-- **Rotation**: `Vector3` [Hidden] [NotReplicated] [Deprecated]
-- **SecondaryAxis**: `Vector3` [NotReplicated]
-- **Visible**: `bool`
-- **WorldAxis**: `Vector3` [NotReplicated]
-- **WorldCFrame**: `CFrame` [NotReplicated]
-- **WorldOrientation**: `Vector3` [Hidden] [NotReplicated]
-- **WorldPosition**: `Vector3` [Hidden] [NotReplicated]
-- **WorldRotation**: `Vector3` [Hidden] [ReadOnly] [NotReplicated] [Deprecated]
-- **WorldSecondaryAxis**: `Vector3` [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Attachment.Axis` | `Datatype.Vector3` | [NotReplicated] |
+| `Class.Attachment.CFrame` | `Datatype.CFrame` |  |
+| `Class.Attachment.Orientation` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
+| `Class.Attachment.Position` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
+| `Class.Attachment.Rotation` | `Datatype.Vector3` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.Attachment.SecondaryAxis` | `Datatype.Vector3` | [NotReplicated] |
+| `Class.Attachment.Visible` | `bool` |  |
+| `Class.Attachment.WorldAxis` | `Datatype.Vector3` | [NotReplicated] |
+| `Class.Attachment.WorldCFrame` | `Datatype.CFrame` | [NotReplicated] |
+| `Class.Attachment.WorldOrientation` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
+| `Class.Attachment.WorldPosition` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
+| `Class.Attachment.WorldRotation` | `Datatype.Vector3` | [Hidden] [ReadOnly] [NotReplicated] [Deprecated] |
+| `Class.Attachment.WorldSecondaryAxis` | `Datatype.Vector3` | [NotReplicated] |
 
 ## Methods
 
-- **GetAxis**() -> `Vector3` [Deprecated]
-- **GetConstraints**() -> `Instances`
-- **GetSecondaryAxis**() -> `Vector3` [Deprecated]
-- **SetAxis**(`axis: Vector3`) -> `null` [Deprecated]
-- **SetSecondaryAxis**(`axis: Vector3`) -> `null` [Deprecated]
+### `Class.Attachment:GetAxis`
+
+``GetAxis()`` → `Datatype.Vector3`
+  [Deprecated]
+
+### `Class.Attachment:GetConstraints`
+
+``GetConstraints()`` → `Datatype.Instances`
+
+### `Class.Attachment:GetSecondaryAxis`
+
+``GetSecondaryAxis()`` → `Datatype.Vector3`
+  [Deprecated]
+
+### `Class.Attachment:SetAxis`
+
+``SetAxis(axis: `Datatype.Vector3`)`` → `null`
+  [Deprecated]
+
+### `Class.Attachment:SetSecondaryAxis`
+
+``SetSecondaryAxis(axis: `Datatype.Vector3`)`` → `null`
+  [Deprecated]

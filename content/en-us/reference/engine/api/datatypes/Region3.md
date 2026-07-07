@@ -3,29 +3,29 @@ title: Region3
 type: datatype
 ---
 
-# Region3 (DataType)
+# `Datatype.Region3`
 
-Used in 20 locations across the API.
+Used in 20 locations across the Roblox API.
 
 ## Used as Parameter Type
 
-- HeightmapImporterService.ImportHeightmap(region)
-- Terrain.ClearVoxelsAsync_beta(region)
-- Terrain.FillRegion(region)
-- Terrain.IterateVoxelsAsync_beta(region)
-- Terrain.ModifyVoxelsAsync_beta(region)
-- Terrain.ReadBufferAsync(region)
-- Terrain.ReadVoxelChannels(region)
-- Terrain.ReadVoxels(region)
-- Terrain.ReadVoxelsAsync_beta(region)
-- Terrain.ReplaceMaterial(region)
-- Terrain.SmoothRegion(region)
-- Terrain.WriteVoxelChannels(region)
-- Terrain.WriteVoxels(region)
-- Terrain.WriteVoxelsAsync_beta(region)
-- WorldRoot.FindPartsInRegion3(region)
-- WorldRoot.FindPartsInRegion3WithIgnoreList(region)
-- WorldRoot.FindPartsInRegion3WithWhiteList(region)
-- WorldRoot.IsRegion3Empty(region)
-- WorldRoot.IsRegion3EmptyWithIgnoreList(region)
-- WorldRoot.findPartsInRegion3(region)
+- `Class.HeightmapImporterService:ImportHeightmap` (parameter `region`)
+- `Class.Terrain:ClearVoxelsAsync_beta` (parameter `region`)
+- `Class.Terrain:FillRegion` (parameter `region`)
+- `Class.Terrain:IterateVoxelsAsync_beta` (parameter `region`)
+- `Class.Terrain:ModifyVoxelsAsync_beta` (parameter `region`)
+- `Class.Terrain:ReadBufferAsync` (parameter `region`)
+- `Class.Terrain:ReadVoxelChannels` (parameter `region`)
+- `Class.Terrain:ReadVoxels` (parameter `region`)
+- `Class.Terrain:ReadVoxelsAsync_beta` (parameter `region`)
+- `Class.Terrain:ReplaceMaterial` (parameter `region`)
+- `Class.Terrain:SmoothRegion` (parameter `region`)
+- `Class.Terrain:WriteVoxelChannels` (parameter `region`)
+- `Class.Terrain:WriteVoxels` (parameter `region`)
+- `Class.Terrain:WriteVoxelsAsync_beta` (parameter `region`)
+- `Class.WorldRoot:FindPartsInRegion3` (parameter `region`)
+- `Class.WorldRoot:FindPartsInRegion3WithIgnoreList` (parameter `region`)
+- `Class.WorldRoot:FindPartsInRegion3WithWhiteList` (parameter `region`)
+- `Class.WorldRoot:IsRegion3Empty` (parameter `region`)
+- `Class.WorldRoot:IsRegion3EmptyWithIgnoreList` (parameter `region`)
+- `Class.WorldRoot:findPartsInRegion3` (parameter `region`)

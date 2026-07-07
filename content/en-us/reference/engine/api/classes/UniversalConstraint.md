@@ -6,11 +6,13 @@ superclass: Constraint
 
 # UniversalConstraint
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **LimitsEnabled**: `bool`
-- **MaxAngle**: `float`
-- **Radius**: `float`
-- **Restitution**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UniversalConstraint.LimitsEnabled` | `bool` |  |
+| `Class.UniversalConstraint.MaxAngle` | `float` |  |
+| `Class.UniversalConstraint.Radius` | `float` |  |
+| `Class.UniversalConstraint.Restitution` | `float` |  |

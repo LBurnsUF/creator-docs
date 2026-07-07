@@ -3,10 +3,12 @@ title: RecommendationItemContentType
 type: enum
 ---
 
-# RecommendationItemContentType (Enum)
+# `Enum.RecommendationItemContentType`
+
+The `Enum.RecommendationItemContentType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Static | 0 |
-| Dynamic | 1 |
-| Interactive | 2 |
+| `Enum.RecommendationItemContentType.Static` | 0 |
+| `Enum.RecommendationItemContentType.Dynamic` | 1 |
+| `Enum.RecommendationItemContentType.Interactive` | 2 |

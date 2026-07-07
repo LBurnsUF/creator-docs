@@ -6,14 +6,24 @@ superclass: AnimationClip
 
 # KeyframeSequence
 
-**Inherits**: AnimationClip > Instance > Object
+**Inherits from:** `Class.AnimationClip` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AuthoredHipHeight**: `float` [Hidden] (Security: Read=PluginSecurity, Write=PluginSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.KeyframeSequence.AuthoredHipHeight` | `float` | [Hidden] {security: PluginSecurity} |
 
 ## Methods
 
-- **AddKeyframe**(`keyframe: Instance`) -> `null`
-- **GetKeyframes**() -> `Instances`
-- **RemoveKeyframe**(`keyframe: Instance`) -> `null`
+### `Class.KeyframeSequence:AddKeyframe`
+
+``AddKeyframe(keyframe: `Class.Instance`)`` → `null`
+
+### `Class.KeyframeSequence:GetKeyframes`
+
+``GetKeyframes()`` → `Datatype.Instances`
+
+### `Class.KeyframeSequence:RemoveKeyframe`
+
+``RemoveKeyframe(keyframe: `Class.Instance`)`` → `null`

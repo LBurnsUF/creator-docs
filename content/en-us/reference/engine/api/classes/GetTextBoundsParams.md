@@ -7,14 +7,16 @@ tags: [NotReplicated]
 
 # GetTextBoundsParams
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **Font**: `Font`
-- **RichText**: `bool`
-- **Size**: `float`
-- **Text**: `string`
-- **Width**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.GetTextBoundsParams.Font` | `Datatype.Font` |  |
+| `Class.GetTextBoundsParams.RichText` | `bool` |  |
+| `Class.GetTextBoundsParams.Size` | `float` |  |
+| `Class.GetTextBoundsParams.Text` | `string` |  |
+| `Class.GetTextBoundsParams.Width` | `float` |  |

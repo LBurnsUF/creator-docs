@@ -3,13 +3,15 @@ title: AnalyticsLogLevel
 type: enum
 ---
 
-# AnalyticsLogLevel (Enum)
+# `Enum.AnalyticsLogLevel`
+
+The `Enum.AnalyticsLogLevel` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Trace | 0 |
-| Debug | 1 |
-| Information | 2 |
-| Warning | 3 |
-| Error | 4 |
-| Fatal | 5 |
+| `Enum.AnalyticsLogLevel.Trace` | 0 |
+| `Enum.AnalyticsLogLevel.Debug` | 1 |
+| `Enum.AnalyticsLogLevel.Information` | 2 |
+| `Enum.AnalyticsLogLevel.Warning` | 3 |
+| `Enum.AnalyticsLogLevel.Error` | 4 |
+| `Enum.AnalyticsLogLevel.Fatal` | 5 |

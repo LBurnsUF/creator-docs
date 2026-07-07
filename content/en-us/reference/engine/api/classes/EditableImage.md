@@ -7,23 +7,57 @@ tags: [NotCreatable]
 
 # EditableImage
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Size**: `Vector2` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.EditableImage.Size` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **Destroy**() -> `null`
-- **DrawCircle**(`center: Vector2`, `radius: int`, `color: Color3`, `transparency: float`, `combineType: ImageCombineType`, `antiAliasing: AntiAliasing = Enabled`) -> `null`
-- **DrawImage**(`position: Vector2`, `image: EditableImage`, `combineType: ImageCombineType`) -> `null`
-- **DrawImageProjected**(`mesh: EditableMesh`, `projection: Dictionary`, `brushConfig: Dictionary`) -> `null`
-- **DrawImageTransformed**(`position: Vector2`, `scale: Vector2`, `rotation: float`, `image: EditableImage`, `options: Dictionary?`) -> `null`
-- **DrawLine**(`p1: Vector2`, `p2: Vector2`, `color: Color3`, `transparency: float`, `combineType: ImageCombineType`, `antiAliasing: AntiAliasing = Enabled`) -> `null`
-- **DrawRectangle**(`position: Vector2`, `size: Vector2`, `color: Color3`, `transparency: float`, `combineType: ImageCombineType`) -> `null`
-- **DrawTriangle**(`p1: Vector2`, `p2: Vector2`, `p3: Vector2`, `color: Color3`, `transparency: float`) -> `null`
-- **ReadPixelsBuffer**(`position: Vector2`, `size: Vector2`) -> `buffer` [CustomLuaState]
-- **WritePixelsBuffer**(`position: Vector2`, `size: Vector2`, `buffer: buffer`) -> `null` [CustomLuaState]
+### `Class.EditableImage:Destroy`
+
+``Destroy()`` → `null`
+
+### `Class.EditableImage:DrawCircle`
+
+``DrawCircle(center: `Datatype.Vector2`, radius: `int`, color: `Datatype.Color3`, transparency: `float`, combineType: `Enum.ImageCombineType`, antiAliasing: `Enum.AntiAliasing`)`` → `null`
+
+### `Class.EditableImage:DrawImage`
+
+``DrawImage(position: `Datatype.Vector2`, image: `Class.EditableImage`, combineType: `Enum.ImageCombineType`)`` → `null`
+
+### `Class.EditableImage:DrawImageProjected`
+
+``DrawImageProjected(mesh: `Class.EditableMesh`, projection: `Dictionary`, brushConfig: `Dictionary`)`` → `null`
+
+### `Class.EditableImage:DrawImageTransformed`
+
+``DrawImageTransformed(position: `Datatype.Vector2`, scale: `Datatype.Vector2`, rotation: `float`, image: `Class.EditableImage`, options: `Dictionary?`)`` → `null`
+
+### `Class.EditableImage:DrawLine`
+
+``DrawLine(p1: `Datatype.Vector2`, p2: `Datatype.Vector2`, color: `Datatype.Color3`, transparency: `float`, combineType: `Enum.ImageCombineType`, antiAliasing: `Enum.AntiAliasing`)`` → `null`
+
+### `Class.EditableImage:DrawRectangle`
+
+``DrawRectangle(position: `Datatype.Vector2`, size: `Datatype.Vector2`, color: `Datatype.Color3`, transparency: `float`, combineType: `Enum.ImageCombineType`)`` → `null`
+
+### `Class.EditableImage:DrawTriangle`
+
+``DrawTriangle(p1: `Datatype.Vector2`, p2: `Datatype.Vector2`, p3: `Datatype.Vector2`, color: `Datatype.Color3`, transparency: `float`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.EditableImage:ReadPixelsBuffer`
+
+``ReadPixelsBuffer(position: `Datatype.Vector2`, size: `Datatype.Vector2`)`` → `Datatype.buffer`
+  [CustomLuaState]
+
+### `Class.EditableImage:WritePixelsBuffer`
+
+``WritePixelsBuffer(position: `Datatype.Vector2`, size: `Datatype.Vector2`, buffer: `Datatype.buffer`)`` → `null`
+  [CustomLuaState]

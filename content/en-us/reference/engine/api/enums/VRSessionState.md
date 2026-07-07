@@ -3,12 +3,14 @@ title: VRSessionState
 type: enum
 ---
 
-# VRSessionState (Enum)
+# `Enum.VRSessionState`
+
+The `Enum.VRSessionState` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Undefined | 0 |
-| Idle | 1 |
-| Visible | 2 |
-| Focused | 3 |
-| Stopping | 4 |
+| `Enum.VRSessionState.Undefined` | 0 |
+| `Enum.VRSessionState.Idle` | 1 |
+| `Enum.VRSessionState.Visible` | 2 |
+| `Enum.VRSessionState.Focused` | 3 |
+| `Enum.VRSessionState.Stopping` | 4 |

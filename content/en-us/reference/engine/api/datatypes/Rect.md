@@ -3,27 +3,27 @@ title: Rect
 type: datatype
 ---
 
-# Rect (DataType)
+# `Datatype.Rect`
 
-Used in 12 locations across the API.
+Used in 12 locations across the Roblox API.
 
 ## Used as Property Type
 
-- GuiBase2d.ClippedRect
-- GuiBase2d.RawRect2D
-- GuiObject.SelectionRect2D
-- GuiService.TopbarInset
-- ImageButton.SliceCenter
-- ImageLabel.SliceCenter
-- ScrollingFrame.HorizontalBarRect
-- ScrollingFrame.VerticalBarRect
+- `Class.GuiBase2d.ClippedRect`
+- `Class.GuiBase2d.RawRect2D`
+- `Class.GuiObject.SelectionRect2D`
+- `Class.GuiService.TopbarInset`
+- `Class.ImageButton.SliceCenter`
+- `Class.ImageLabel.SliceCenter`
+- `Class.ScrollingFrame.HorizontalBarRect`
+- `Class.ScrollingFrame.VerticalBarRect`
 
 ## Used as Parameter Type
 
-- GuiService.SetTopbarInset(topbarInset)
-- VoxelBuffer.FromHeightmapAsync(heightMapRect)
+- `Class.GuiService:SetTopbarInset` (parameter `topbarInset`)
+- `Class.VoxelBuffer:FromHeightmapAsync` (parameter `heightMapRect`)
 
 ## Used as Return Type
 
-- GuiService.GetInsetArea
-- Path2D.GetBoundingRect
+- `Class.GuiService:GetInsetArea`
+- `Class.Path2D:GetBoundingRect`

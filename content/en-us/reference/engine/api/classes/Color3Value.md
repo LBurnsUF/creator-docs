@@ -6,13 +6,21 @@ superclass: ValueBase
 
 # Color3Value
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Value**: `Color3`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Color3Value.Value` | `Datatype.Color3` |  |
 
 ## Events
 
-- **Changed**(`value: Color3`)
-- **changed**(`value: Color3`) [Deprecated]
+### `Class.Color3Value.Changed`
+
+Fires with: (value: `Datatype.Color3`)
+
+### `Class.Color3Value.changed`
+
+Fires with: (value: `Datatype.Color3`)
+  [Deprecated]

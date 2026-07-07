@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # GenericSettings
 
-**Inherits**: ServiceProvider > Instance > Object
+**Inherits from:** `Class.ServiceProvider` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

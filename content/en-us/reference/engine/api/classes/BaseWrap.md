@@ -7,29 +7,56 @@ tags: [NotCreatable]
 
 # BaseWrap
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **CageMeshContent**: `Content` (Security: Read=None, Write=PluginSecurity)
-- **CageMeshId**: `ContentId` (Security: Read=None, Write=PluginSecurity)
-- **CageOrigin**: `CFrame` (Security: Read=None, Write=PluginSecurity)
-- **CageOriginWorld**: `CFrame` [ReadOnly] [NotReplicated]
-- **HSRAssetId**: `ContentId` (Security: Read=RobloxScriptSecurity, Write=RobloxSecurity)
-- **ImportOrigin**: `CFrame` (Security: Read=None, Write=PluginSecurity)
-- **ImportOriginWorld**: `CFrame` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BaseWrap.CageMeshContent` | `Datatype.Content` |  {write: PluginSecurity} |
+| `Class.BaseWrap.CageMeshId` | `Datatype.ContentId` |  {write: PluginSecurity} |
+| `Class.BaseWrap.CageOrigin` | `Datatype.CFrame` |  {write: PluginSecurity} |
+| `Class.BaseWrap.CageOriginWorld` | `Datatype.CFrame` | [ReadOnly] [NotReplicated] |
+| `Class.BaseWrap.HSRAssetId` | `Datatype.ContentId` |  {read: RobloxScriptSecurity, write: RobloxSecurity} |
+| `Class.BaseWrap.ImportOrigin` | `Datatype.CFrame` |  {write: PluginSecurity} |
+| `Class.BaseWrap.ImportOriginWorld` | `Datatype.CFrame` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetCageOffset**() -> `Vector3`
-- **GetFaces**(`cageType: CageType`) -> `Array`
-- **GetUVs**(`cageType: CageType`) -> `Array`
-- **GetVertices**(`cageType: CageType`) -> `Array`
-- **IsHSRReady**() -> `bool`
-- **ModifyVertices**(`cageType: CageType`, `vertices: Array`) -> `null`
+### `Class.BaseWrap:GetCageOffset`
+
+``GetCageOffset()`` → `Datatype.Vector3`
+   {security: RobloxScriptSecurity}
+
+### `Class.BaseWrap:GetFaces`
+
+``GetFaces(cageType: `Enum.CageType`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.BaseWrap:GetUVs`
+
+``GetUVs(cageType: `Enum.CageType`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.BaseWrap:GetVertices`
+
+``GetVertices(cageType: `Enum.CageType`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.BaseWrap:IsHSRReady`
+
+``IsHSRReady()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.BaseWrap:ModifyVertices`
+
+``ModifyVertices(cageType: `Enum.CageType`, vertices: `Array`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **VerticesModified**(`vertices: Array`)
+### `Class.BaseWrap.VerticesModified`
+
+Fires with: (vertices: `Array`)

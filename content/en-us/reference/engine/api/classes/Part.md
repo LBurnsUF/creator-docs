@@ -6,8 +6,10 @@ superclass: FormFactorPart
 
 # Part
 
-**Inherits**: FormFactorPart > BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.FormFactorPart` > `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Shape**: `PartType` [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Part.Shape` | `Enum.PartType` | [NotReplicated] |

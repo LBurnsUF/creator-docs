@@ -3,18 +3,20 @@ title: MeshPartDetailLevel
 type: enum
 ---
 
-# MeshPartDetailLevel (Enum)
+# `Enum.MeshPartDetailLevel`
+
+The `Enum.MeshPartDetailLevel` enum has 11 item(s).
 
 | Name | Value |
 |------|-------|
-| DistanceBased | 0 |
-| Level00 | 1 |
-| Level01 | 2 |
-| Level02 | 3 |
-| Level03 | 4 |
-| Level04 | 5 |
-| Level05 | 6 |
-| Level06 | 7 |
-| Level07 | 8 |
-| Level08 | 9 |
-| Level09 | 10 |
+| `Enum.MeshPartDetailLevel.DistanceBased` | 0 |
+| `Enum.MeshPartDetailLevel.Level00` | 1 |
+| `Enum.MeshPartDetailLevel.Level01` | 2 |
+| `Enum.MeshPartDetailLevel.Level02` | 3 |
+| `Enum.MeshPartDetailLevel.Level03` | 4 |
+| `Enum.MeshPartDetailLevel.Level04` | 5 |
+| `Enum.MeshPartDetailLevel.Level05` | 6 |
+| `Enum.MeshPartDetailLevel.Level06` | 7 |
+| `Enum.MeshPartDetailLevel.Level07` | 8 |
+| `Enum.MeshPartDetailLevel.Level08` | 9 |
+| `Enum.MeshPartDetailLevel.Level09` | 10 |

@@ -3,9 +3,11 @@ title: ParticleEmitterShapeStyle
 type: enum
 ---
 
-# ParticleEmitterShapeStyle (Enum)
+# `Enum.ParticleEmitterShapeStyle`
+
+The `Enum.ParticleEmitterShapeStyle` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Volume | 0 |
-| Surface | 1 |
+| `Enum.ParticleEmitterShapeStyle.Volume` | 0 |
+| `Enum.ParticleEmitterShapeStyle.Surface` | 1 |

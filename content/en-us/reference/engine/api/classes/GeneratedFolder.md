@@ -6,8 +6,10 @@ superclass: Folder
 
 # GeneratedFolder
 
-**Inherits**: Folder > Instance > Object
+**Inherits from:** `Class.Folder` > `Class.Instance` > `Class.Object`
 
 ## Methods
 
-- **SetPrimaryPart**(`part: BasePart`) -> `null`
+### `Class.GeneratedFolder:SetPrimaryPart`
+
+``SetPrimaryPart(part: `Class.BasePart`)`` → `null`

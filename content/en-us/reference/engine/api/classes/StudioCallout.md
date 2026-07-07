@@ -7,19 +7,24 @@ tags: [NotReplicated]
 
 # StudioCallout
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **AnchorPoint**: `Vector2` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsArrowVisible**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsNextVisible**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RowName**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Text**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Title**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StudioCallout.AnchorPoint` | `Datatype.Vector2` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.StudioCallout.IsArrowVisible` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.StudioCallout.IsNextVisible` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.StudioCallout.RowName` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.StudioCallout.Text` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.StudioCallout.Title` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **SetOnNextClicked**(`onClick: Function`) -> `null`
+### `Class.StudioCallout:SetOnNextClicked`
+
+``SetOnNextClicked(onClick: `Datatype.Function`)`` → `null`
+   {security: RobloxScriptSecurity}

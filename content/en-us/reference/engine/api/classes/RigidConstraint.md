@@ -6,4 +6,4 @@ superclass: Constraint
 
 # RigidConstraint
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`

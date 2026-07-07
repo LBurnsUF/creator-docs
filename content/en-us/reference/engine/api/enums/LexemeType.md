@@ -3,26 +3,28 @@ title: LexemeType
 type: enum
 ---
 
-# LexemeType (Enum)
+# `Enum.LexemeType`
+
+The `Enum.LexemeType` enum has 19 item(s).
 
 | Name | Value |
 |------|-------|
-| Eof | 0 |
-| Name | 1 |
-| QuotedString | 2 |
-| Number | 3 |
-| And | 4 |
-| Or | 5 |
-| Equal | 6 |
-| TildeEqual | 7 |
-| GreaterThan | 8 |
-| GreaterThanEqual | 9 |
-| LessThan | 10 |
-| LessThanEqual | 11 |
-| Colon | 12 |
-| Dot | 13 |
-| LeftParenthesis | 14 |
-| RightParenthesis | 15 |
-| Star | 16 |
-| DoubleStar | 17 |
-| ReservedSpecial | 18 |
+| `Enum.LexemeType.Eof` | 0 |
+| `Enum.LexemeType.Name` | 1 |
+| `Enum.LexemeType.QuotedString` | 2 |
+| `Enum.LexemeType.Number` | 3 |
+| `Enum.LexemeType.And` | 4 |
+| `Enum.LexemeType.Or` | 5 |
+| `Enum.LexemeType.Equal` | 6 |
+| `Enum.LexemeType.TildeEqual` | 7 |
+| `Enum.LexemeType.GreaterThan` | 8 |
+| `Enum.LexemeType.GreaterThanEqual` | 9 |
+| `Enum.LexemeType.LessThan` | 10 |
+| `Enum.LexemeType.LessThanEqual` | 11 |
+| `Enum.LexemeType.Colon` | 12 |
+| `Enum.LexemeType.Dot` | 13 |
+| `Enum.LexemeType.LeftParenthesis` | 14 |
+| `Enum.LexemeType.RightParenthesis` | 15 |
+| `Enum.LexemeType.Star` | 16 |
+| `Enum.LexemeType.DoubleStar` | 17 |
+| `Enum.LexemeType.ReservedSpecial` | 18 |

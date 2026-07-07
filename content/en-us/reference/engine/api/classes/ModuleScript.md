@@ -6,9 +6,11 @@ superclass: LuaSourceContainer
 
 # ModuleScript
 
-**Inherits**: LuaSourceContainer > Instance > Object
+**Inherits from:** `Class.LuaSourceContainer` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **LinkedSource**: `ContentId` [Deprecated]
-- **Source**: `ProtectedString`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ModuleScript.LinkedSource` | `Datatype.ContentId` | [Deprecated] |
+| `Class.ModuleScript.Source` | `Datatype.ProtectedString` |  |

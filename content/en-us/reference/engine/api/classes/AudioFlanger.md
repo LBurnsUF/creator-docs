@@ -6,21 +6,33 @@ superclass: Instance
 
 # AudioFlanger
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Bypass**: `bool`
-- **Depth**: `float`
-- **Mix**: `float`
-- **Rate**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioFlanger.Bypass` | `bool` |  |
+| `Class.AudioFlanger.Depth` | `float` |  |
+| `Class.AudioFlanger.Mix` | `float` |  |
+| `Class.AudioFlanger.Rate` | `float` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
+### `Class.AudioFlanger:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioFlanger:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioFlanger:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioFlanger.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

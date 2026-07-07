@@ -3,10 +3,12 @@ title: AvatarSettingsCollisionMode
 type: enum
 ---
 
-# AvatarSettingsCollisionMode (Enum)
+# `Enum.AvatarSettingsCollisionMode`
+
+The `Enum.AvatarSettingsCollisionMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| SingleCollider | 1 |
-| Legacy | 2 |
+| `Enum.AvatarSettingsCollisionMode.Default` | 0 |
+| `Enum.AvatarSettingsCollisionMode.SingleCollider` | 1 |
+| `Enum.AvatarSettingsCollisionMode.Legacy` | 2 |

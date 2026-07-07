@@ -3,19 +3,21 @@ title: AudioFilterType
 type: enum
 ---
 
-# AudioFilterType (Enum)
+# `Enum.AudioFilterType`
+
+The `Enum.AudioFilterType` enum has 12 item(s).
 
 | Name | Value |
 |------|-------|
-| Peak | 0 |
-| LowShelf | 1 |
-| HighShelf | 2 |
-| Lowpass12dB | 3 |
-| Lowpass24dB | 4 |
-| Lowpass48dB | 5 |
-| Highpass12dB | 6 |
-| Highpass24dB | 7 |
-| Highpass48dB | 8 |
-| Bandpass | 9 |
-| Notch | 10 |
-| Lowpass6dB | 11 |
+| `Enum.AudioFilterType.Peak` | 0 |
+| `Enum.AudioFilterType.LowShelf` | 1 |
+| `Enum.AudioFilterType.HighShelf` | 2 |
+| `Enum.AudioFilterType.Lowpass12dB` | 3 |
+| `Enum.AudioFilterType.Lowpass24dB` | 4 |
+| `Enum.AudioFilterType.Lowpass48dB` | 5 |
+| `Enum.AudioFilterType.Highpass12dB` | 6 |
+| `Enum.AudioFilterType.Highpass24dB` | 7 |
+| `Enum.AudioFilterType.Highpass48dB` | 8 |
+| `Enum.AudioFilterType.Bandpass` | 9 |
+| `Enum.AudioFilterType.Notch` | 10 |
+| `Enum.AudioFilterType.Lowpass6dB` | 11 |

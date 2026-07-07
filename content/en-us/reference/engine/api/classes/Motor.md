@@ -6,14 +6,18 @@ superclass: JointInstance
 
 # Motor
 
-**Inherits**: JointInstance > Instance > Object
+**Inherits from:** `Class.JointInstance` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **CurrentAngle**: `float` [NotReplicated]
-- **DesiredAngle**: `float`
-- **MaxVelocity**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Motor.CurrentAngle` | `float` | [NotReplicated] |
+| `Class.Motor.DesiredAngle` | `float` |  |
+| `Class.Motor.MaxVelocity` | `float` |  |
 
 ## Methods
 
-- **SetDesiredAngle**(`value: float`) -> `null`
+### `Class.Motor:SetDesiredAngle`
+
+``SetDesiredAngle(value: `float`)`` → `null`

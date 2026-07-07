@@ -3,9 +3,11 @@ title: AnimationNodeWaitFor
 type: enum
 ---
 
-# AnimationNodeWaitFor (Enum)
+# `Enum.AnimationNodeWaitFor`
+
+The `Enum.AnimationNodeWaitFor` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Finished | 0 |
-| Trigger | 1 |
+| `Enum.AnimationNodeWaitFor.Finished` | 0 |
+| `Enum.AnimationNodeWaitFor.Trigger` | 1 |

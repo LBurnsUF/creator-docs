@@ -6,13 +6,15 @@ superclass: UIGridStyleLayout
 
 # UIGridLayout
 
-**Inherits**: UIGridStyleLayout > UILayout > UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIGridStyleLayout` > `Class.UILayout` > `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AbsoluteCellCount**: `Vector2` [ReadOnly] [NotReplicated]
-- **AbsoluteCellSize**: `Vector2` [ReadOnly] [NotReplicated]
-- **CellPadding**: `UDim2`
-- **CellSize**: `UDim2`
-- **FillDirectionMaxCells**: `int`
-- **StartCorner**: `StartCorner`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UIGridLayout.AbsoluteCellCount` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.UIGridLayout.AbsoluteCellSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
+| `Class.UIGridLayout.CellPadding` | `Datatype.UDim2` |  |
+| `Class.UIGridLayout.CellSize` | `Datatype.UDim2` |  |
+| `Class.UIGridLayout.FillDirectionMaxCells` | `int` |  |
+| `Class.UIGridLayout.StartCorner` | `Enum.StartCorner` |  |

@@ -3,31 +3,33 @@ title: DeveloperMemoryTag
 type: enum
 ---
 
-# DeveloperMemoryTag (Enum)
+# `Enum.DeveloperMemoryTag`
+
+The `Enum.DeveloperMemoryTag` enum has 24 item(s).
 
 | Name | Value |
 |------|-------|
-| Internal | 0 |
-| HttpCache | 1 |
-| Instances | 2 |
-| Signals | 3 |
-| LuaHeap | 4 |
-| Script | 5 |
-| PhysicsCollision | 6 |
-| BaseParts | 7 |
-| GraphicsSolidModels | 8 |
-| GraphicsMeshParts | 10 |
-| GraphicsParticles | 11 |
-| GraphicsParts | 12 |
-| GraphicsSpatialHash | 13 |
-| GraphicsTerrain | 14 |
-| GraphicsTexture | 15 |
-| GraphicsTextureCharacter | 16 |
-| Sounds | 17 |
-| StreamingSounds | 18 |
-| TerrainVoxels | 19 |
-| Gui | 21 |
-| Animation | 22 |
-| Navigation | 23 |
-| GeometryCSG | 24 |
-| GraphicsSlimModels | 25 |
+| `Enum.DeveloperMemoryTag.Internal` | 0 |
+| `Enum.DeveloperMemoryTag.HttpCache` | 1 |
+| `Enum.DeveloperMemoryTag.Instances` | 2 |
+| `Enum.DeveloperMemoryTag.Signals` | 3 |
+| `Enum.DeveloperMemoryTag.LuaHeap` | 4 |
+| `Enum.DeveloperMemoryTag.Script` | 5 |
+| `Enum.DeveloperMemoryTag.PhysicsCollision` | 6 |
+| `Enum.DeveloperMemoryTag.BaseParts` | 7 |
+| `Enum.DeveloperMemoryTag.GraphicsSolidModels` | 8 |
+| `Enum.DeveloperMemoryTag.GraphicsMeshParts` | 10 |
+| `Enum.DeveloperMemoryTag.GraphicsParticles` | 11 |
+| `Enum.DeveloperMemoryTag.GraphicsParts` | 12 |
+| `Enum.DeveloperMemoryTag.GraphicsSpatialHash` | 13 |
+| `Enum.DeveloperMemoryTag.GraphicsTerrain` | 14 |
+| `Enum.DeveloperMemoryTag.GraphicsTexture` | 15 |
+| `Enum.DeveloperMemoryTag.GraphicsTextureCharacter` | 16 |
+| `Enum.DeveloperMemoryTag.Sounds` | 17 |
+| `Enum.DeveloperMemoryTag.StreamingSounds` | 18 |
+| `Enum.DeveloperMemoryTag.TerrainVoxels` | 19 |
+| `Enum.DeveloperMemoryTag.Gui` | 21 |
+| `Enum.DeveloperMemoryTag.Animation` | 22 |
+| `Enum.DeveloperMemoryTag.Navigation` | 23 |
+| `Enum.DeveloperMemoryTag.GeometryCSG` | 24 |
+| `Enum.DeveloperMemoryTag.GraphicsSlimModels` | 25 |

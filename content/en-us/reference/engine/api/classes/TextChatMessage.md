@@ -7,32 +7,34 @@ tags: [NotCreatable]
 
 # TextChatMessage
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **BubbleChatMessageProperties**: `BubbleChatMessageProperties`
-- **ChatActionType**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ChatWindowMessageProperties**: `ChatWindowMessageProperties`
-- **ForModeration**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **IsHiddenMessage**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MessageId**: `string`
-- **Metadata**: `string`
-- **OriginalText**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PrefixText**: `string`
-- **PrefixTextInternal**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PresetChatVersion**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PresetId**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RewrittenText**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **RewrittenTranslation**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Status**: `TextChatMessageStatus`
-- **Text**: `string`
-- **TextChannel**: `TextChannel`
-- **TextInternal**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **TextSource**: `TextSource`
-- **Timestamp**: `DateTime`
-- **Translation**: `string`
-- **TranslationInternal**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **WasRewritten**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TextChatMessage.BubbleChatMessageProperties` | `Class.BubbleChatMessageProperties` |  |
+| `Class.TextChatMessage.ChatActionType` | `string` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.ChatWindowMessageProperties` | `Class.ChatWindowMessageProperties` |  |
+| `Class.TextChatMessage.ForModeration` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.IsHiddenMessage` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.MessageId` | `string` |  |
+| `Class.TextChatMessage.Metadata` | `string` |  |
+| `Class.TextChatMessage.OriginalText` | `string` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.PrefixText` | `string` |  |
+| `Class.TextChatMessage.PrefixTextInternal` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.PresetChatVersion` | `string` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.PresetId` | `string` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.RewrittenText` | `string` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.RewrittenTranslation` | `string` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.Status` | `Enum.TextChatMessageStatus` |  |
+| `Class.TextChatMessage.Text` | `string` |  |
+| `Class.TextChatMessage.TextChannel` | `Class.TextChannel` |  |
+| `Class.TextChatMessage.TextInternal` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.TextSource` | `Class.TextSource` |  |
+| `Class.TextChatMessage.Timestamp` | `Datatype.DateTime` |  |
+| `Class.TextChatMessage.Translation` | `string` |  |
+| `Class.TextChatMessage.TranslationInternal` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.TextChatMessage.WasRewritten` | `bool` | [Hidden] {security: RobloxScriptSecurity} |

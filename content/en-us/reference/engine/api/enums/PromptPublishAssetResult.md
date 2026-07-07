@@ -3,13 +3,15 @@ title: PromptPublishAssetResult
 type: enum
 ---
 
-# PromptPublishAssetResult (Enum)
+# `Enum.PromptPublishAssetResult`
+
+The `Enum.PromptPublishAssetResult` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Success | 1 |
-| PermissionDenied | 2 |
-| Timeout | 3 |
-| UploadFailed | 4 |
-| NoUserInput | 5 |
-| UnknownFailure | 6 |
+| `Enum.PromptPublishAssetResult.Success` | 1 |
+| `Enum.PromptPublishAssetResult.PermissionDenied` | 2 |
+| `Enum.PromptPublishAssetResult.Timeout` | 3 |
+| `Enum.PromptPublishAssetResult.UploadFailed` | 4 |
+| `Enum.PromptPublishAssetResult.NoUserInput` | 5 |
+| `Enum.PromptPublishAssetResult.UnknownFailure` | 6 |

@@ -7,12 +7,21 @@ tags: [NotCreatable]
 
 # UserSettings
 
-**Inherits**: GenericSettings > ServiceProvider > Instance > Object
+**Inherits from:** `Class.GenericSettings` > `Class.ServiceProvider` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Methods
 
-- **IsUserFeatureEnabled**(`name: string`) -> `bool`
-- **Reset**() -> `null`
-- **SaveState**() -> `null`
+### `Class.UserSettings:IsUserFeatureEnabled`
+
+``IsUserFeatureEnabled(name: `string`)`` → `bool`
+
+### `Class.UserSettings:Reset`
+
+``Reset()`` → `null`
+
+### `Class.UserSettings:SaveState`
+
+``SaveState()`` → `null`
+   {security: RobloxScriptSecurity}

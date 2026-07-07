@@ -7,27 +7,62 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ThirdPartyUserService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **FriendCommunicationRestrictionStatus**: `ChatRestrictionStatus` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **HasActiveUser**: `bool` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VoiceChatRestrictionStatus**: `ChatRestrictionStatus` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ThirdPartyUserService.FriendCommunicationRestrictionStatus` | `Enum.ChatRestrictionStatus` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ThirdPartyUserService.HasActiveUser` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.ThirdPartyUserService.VoiceChatRestrictionStatus` | `Enum.ChatRestrictionStatus` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetUserPlatformName**() -> `string`
-- **GetVoiceChatRestrictionStatus**() -> `ChatRestrictionStatus`
-- **HaveActiveUser**() -> `bool`
-- **IsAccountSwitchingSupported**() -> `bool`
-- **IsChatRestrictionSupported**() -> `bool`
-- **IsSingleSignOnSupported**() -> `bool`
-- **RegisterActiveUser**(`gamepadId: UserInputType`) -> `int` [Yields]
-- **ShowAccountPicker**() -> `null`
+### `Class.ThirdPartyUserService:GetUserPlatformName`
+
+``GetUserPlatformName()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.ThirdPartyUserService:GetVoiceChatRestrictionStatus`
+
+``GetVoiceChatRestrictionStatus()`` → `Enum.ChatRestrictionStatus`
+   {security: RobloxScriptSecurity}
+
+### `Class.ThirdPartyUserService:HaveActiveUser`
+
+``HaveActiveUser()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.ThirdPartyUserService:IsAccountSwitchingSupported`
+
+``IsAccountSwitchingSupported()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.ThirdPartyUserService:IsChatRestrictionSupported`
+
+``IsChatRestrictionSupported()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.ThirdPartyUserService:IsSingleSignOnSupported`
+
+``IsSingleSignOnSupported()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.ThirdPartyUserService:RegisterActiveUser`
+
+``RegisterActiveUser(gamepadId: `Enum.UserInputType`)`` → `int`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.ThirdPartyUserService:ShowAccountPicker`
+
+``ShowAccountPicker()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **ActiveUserSignedOut**(`signOutStatus: int`)
+### `Class.ThirdPartyUserService.ActiveUserSignedOut`
+
+Fires with: (signOutStatus: `int`)

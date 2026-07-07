@@ -6,21 +6,33 @@ superclass: Instance
 
 # AudioLimiter
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Bypass**: `bool`
-- **Editor**: `bool` [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MaxLevel**: `float`
-- **Release**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioLimiter.Bypass` | `bool` |  |
+| `Class.AudioLimiter.Editor` | `bool` | [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.AudioLimiter.MaxLevel` | `float` |  |
+| `Class.AudioLimiter.Release` | `float` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
+### `Class.AudioLimiter:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioLimiter:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioLimiter:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioLimiter.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

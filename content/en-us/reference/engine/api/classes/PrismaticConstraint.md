@@ -6,4 +6,4 @@ superclass: SlidingBallConstraint
 
 # PrismaticConstraint
 
-**Inherits**: SlidingBallConstraint > Constraint > Instance > Object
+**Inherits from:** `Class.SlidingBallConstraint` > `Class.Constraint` > `Class.Instance` > `Class.Object`

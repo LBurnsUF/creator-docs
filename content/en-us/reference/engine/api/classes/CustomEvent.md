@@ -7,16 +7,26 @@ tags: [Deprecated]
 
 # CustomEvent
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Methods
 
-- **GetAttachedReceivers**() -> `Instances`
-- **SetValue**(`newValue: float`) -> `null`
+### `Class.CustomEvent:GetAttachedReceivers`
+
+``GetAttachedReceivers()`` → `Datatype.Instances`
+
+### `Class.CustomEvent:SetValue`
+
+``SetValue(newValue: `float`)`` → `null`
 
 ## Events
 
-- **ReceiverConnected**(`receiver: Instance`)
-- **ReceiverDisconnected**(`receiver: Instance`)
+### `Class.CustomEvent.ReceiverConnected`
+
+Fires with: (receiver: `Class.Instance`)
+
+### `Class.CustomEvent.ReceiverDisconnected`
+
+Fires with: (receiver: `Class.Instance`)

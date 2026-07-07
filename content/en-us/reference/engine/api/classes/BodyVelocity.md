@@ -7,19 +7,26 @@ tags: [Deprecated]
 
 # BodyVelocity
 
-**Inherits**: BodyMover > Instance > Object
+**Inherits from:** `Class.BodyMover` > `Class.Instance` > `Class.Object`
 
-**Tags**: Deprecated
+**Tags:** [Deprecated]
 
 ## Properties
 
-- **MaxForce**: `Vector3`
-- **P**: `float`
-- **Velocity**: `Vector3`
-- **maxForce**: `Vector3` [NotReplicated] [Deprecated]
-- **velocity**: `Vector3` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.BodyVelocity.MaxForce` | `Datatype.Vector3` |  |
+| `Class.BodyVelocity.P` | `float` |  |
+| `Class.BodyVelocity.Velocity` | `Datatype.Vector3` |  |
+| `Class.BodyVelocity.maxForce` | `Datatype.Vector3` | [NotReplicated] [Deprecated] |
+| `Class.BodyVelocity.velocity` | `Datatype.Vector3` | [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **GetLastForce**() -> `Vector3`
-- **lastForce**() -> `Vector3`
+### `Class.BodyVelocity:GetLastForce`
+
+``GetLastForce()`` → `Datatype.Vector3`
+
+### `Class.BodyVelocity:lastForce`
+
+``lastForce()`` → `Datatype.Vector3`

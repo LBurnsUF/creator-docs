@@ -7,10 +7,12 @@ tags: [NotCreatable, Service]
 
 # TeamCreatePublishService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Events
 
-- **TeamCreateErrorStatus**(`result: TeamCreateErrorState`, `teamCreateSaveData: Dictionary`)
+### `Class.TeamCreatePublishService.TeamCreateErrorStatus`
+
+Fires with: (result: `Enum.TeamCreateErrorState`, teamCreateSaveData: `Dictionary`)

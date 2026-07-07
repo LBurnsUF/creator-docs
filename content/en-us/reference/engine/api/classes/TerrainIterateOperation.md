@@ -7,14 +7,18 @@ tags: [NotCreatable, NotReplicated]
 
 # TerrainIterateOperation
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **CommitBlock**(`block: Dictionary`) -> `RBXScriptSignal`
+### `Class.TerrainIterateOperation:CommitBlock`
+
+``CommitBlock(block: `Dictionary`)`` → `Datatype.RBXScriptSignal`
 
 ## Events
 
-- **Ready**(`block: Dictionary`)
+### `Class.TerrainIterateOperation.Ready`
+
+Fires with: (block: `Dictionary`)

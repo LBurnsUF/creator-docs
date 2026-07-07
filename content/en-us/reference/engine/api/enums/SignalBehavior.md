@@ -3,11 +3,13 @@ title: SignalBehavior
 type: enum
 ---
 
-# SignalBehavior (Enum)
+# `Enum.SignalBehavior`
+
+The `Enum.SignalBehavior` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Immediate | 1 |
-| Deferred | 2 |
-| AncestryDeferred | 3 |
+| `Enum.SignalBehavior.Default` | 0 |
+| `Enum.SignalBehavior.Immediate` | 1 |
+| `Enum.SignalBehavior.Deferred` | 2 |
+| `Enum.SignalBehavior.AncestryDeferred` | 3 |

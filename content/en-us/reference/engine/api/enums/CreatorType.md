@@ -3,9 +3,11 @@ title: CreatorType
 type: enum
 ---
 
-# CreatorType (Enum)
+# `Enum.CreatorType`
+
+The `Enum.CreatorType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| User | 0 |
-| Group | 1 |
+| `Enum.CreatorType.User` | 0 |
+| `Enum.CreatorType.Group` | 1 |

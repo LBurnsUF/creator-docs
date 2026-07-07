@@ -3,10 +3,12 @@ title: LeftRight
 type: enum
 ---
 
-# LeftRight (Enum)
+# `Enum.LeftRight`
+
+The `Enum.LeftRight` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Left | 0 |
-| Center | 1 |
-| Right | 2 |
+| `Enum.LeftRight.Left` | 0 |
+| `Enum.LeftRight.Center` | 1 |
+| `Enum.LeftRight.Right` | 2 |

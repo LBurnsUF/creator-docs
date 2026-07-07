@@ -3,9 +3,11 @@ title: PromptExperienceDetailsResult
 type: enum
 ---
 
-# PromptExperienceDetailsResult (Enum)
+# `Enum.PromptExperienceDetailsResult`
+
+The `Enum.PromptExperienceDetailsResult` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| PromptClosed | 0 |
-| TeleportAttempted | 1 |
+| `Enum.PromptExperienceDetailsResult.PromptClosed` | 0 |
+| `Enum.PromptExperienceDetailsResult.TeleportAttempted` | 1 |

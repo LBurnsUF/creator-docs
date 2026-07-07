@@ -7,19 +7,28 @@ tags: [NotCreatable, Deprecated]
 
 # AuroraScriptObject
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Deprecated
+**Tags:** [NotCreatable] [Deprecated]
 
 ## Properties
 
-- **BehaviorWeak**: `AuroraScript` (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **BoundInstanceWeak**: `Instance` (Security: Read=RobloxSecurity, Write=RobloxSecurity)
-- **FrameId**: `int`
-- **LODLevel**: `int`
-- **PriorFrameInvoked**: `int`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AuroraScriptObject.BehaviorWeak` | `Class.AuroraScript` |  {security: RobloxSecurity} |
+| `Class.AuroraScriptObject.BoundInstanceWeak` | `Class.Instance` |  {security: RobloxSecurity} |
+| `Class.AuroraScriptObject.FrameId` | `int` |  |
+| `Class.AuroraScriptObject.LODLevel` | `int` |  |
+| `Class.AuroraScriptObject.PriorFrameInvoked` | `int` |  |
 
 ## Methods
 
-- **GetCurrentState**() -> `Dictionary`
-- **SetStateFieldValue**(`fieldName: string`, `value: Variant`) -> `null`
+### `Class.AuroraScriptObject:GetCurrentState`
+
+``GetCurrentState()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.AuroraScriptObject:SetStateFieldValue`
+
+``SetStateFieldValue(fieldName: `string`, value: `Variant`)`` → `null`
+   {security: RobloxScriptSecurity}

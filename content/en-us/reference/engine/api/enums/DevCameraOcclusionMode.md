@@ -3,9 +3,11 @@ title: DevCameraOcclusionMode
 type: enum
 ---
 
-# DevCameraOcclusionMode (Enum)
+# `Enum.DevCameraOcclusionMode`
+
+The `Enum.DevCameraOcclusionMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Zoom | 0 |
-| Invisicam | 1 |
+| `Enum.DevCameraOcclusionMode.Zoom` | 0 |
+| `Enum.DevCameraOcclusionMode.Invisicam` | 1 |

@@ -3,10 +3,12 @@ title: DisplayScalingMode
 type: enum
 ---
 
-# DisplayScalingMode (Enum)
+# `Enum.DisplayScalingMode`
+
+The `Enum.DisplayScalingMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Legacy | 1 |
-| Responsive | 2 |
+| `Enum.DisplayScalingMode.Default` | 0 |
+| `Enum.DisplayScalingMode.Legacy` | 1 |
+| `Enum.DisplayScalingMode.Responsive` | 2 |

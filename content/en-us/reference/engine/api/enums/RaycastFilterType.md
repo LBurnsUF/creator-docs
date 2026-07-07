@@ -3,9 +3,11 @@ title: RaycastFilterType
 type: enum
 ---
 
-# RaycastFilterType (Enum)
+# `Enum.RaycastFilterType`
+
+The `Enum.RaycastFilterType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Exclude | 0 |
-| Include | 1 |
+| `Enum.RaycastFilterType.Exclude` | 0 |
+| `Enum.RaycastFilterType.Include` | 1 |

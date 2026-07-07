@@ -3,10 +3,12 @@ title: RolloutState
 type: enum
 ---
 
-# RolloutState (Enum)
+# `Enum.RolloutState`
+
+The `Enum.RolloutState` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| Enabled | 2 |
+| `Enum.RolloutState.Default` | 0 |
+| `Enum.RolloutState.Disabled` | 1 |
+| `Enum.RolloutState.Enabled` | 2 |

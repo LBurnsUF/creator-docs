@@ -7,15 +7,24 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PluginConnectionService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CanHaveConnectionType**(`type: PluginConnectionTargetType`) -> `bool`
-- **GetPluginConnectionsOfType**(`type: PluginConnectionTargetType`) -> `Array`
+### `Class.PluginConnectionService:CanHaveConnectionType`
+
+``CanHaveConnectionType(type: `Enum.PluginConnectionTargetType`)`` → `bool`
+   {security: PluginSecurity}
+
+### `Class.PluginConnectionService:GetPluginConnectionsOfType`
+
+``GetPluginConnectionsOfType(type: `Enum.PluginConnectionTargetType`)`` → `Array`
+   {security: PluginSecurity}
 
 ## Events
 
-- **Connected**(`conn: PluginConnection`)
+### `Class.PluginConnectionService.Connected`
+
+Fires with: (conn: `Class.PluginConnection`)

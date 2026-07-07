@@ -3,10 +3,12 @@ title: GraphicsOptimizationMode
 type: enum
 ---
 
-# GraphicsOptimizationMode (Enum)
+# `Enum.GraphicsOptimizationMode`
+
+The `Enum.GraphicsOptimizationMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Performance | 0 |
-| Balanced | 1 |
-| Quality | 2 |
+| `Enum.GraphicsOptimizationMode.Performance` | 0 |
+| `Enum.GraphicsOptimizationMode.Balanced` | 1 |
+| `Enum.GraphicsOptimizationMode.Quality` | 2 |

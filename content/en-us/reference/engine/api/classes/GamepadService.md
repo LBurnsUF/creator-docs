@@ -7,22 +7,43 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # GamepadService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **GamepadCursorEnabled**: `bool` (Security: Read=None, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.GamepadService.GamepadCursorEnabled` | `bool` |  {write: RobloxScriptSecurity} |
 
 ## Methods
 
-- **AutoSelectGui**() -> `null`
-- **DisableGamepadCursor**() -> `null`
-- **EnableGamepadCursor**(`guiObject: Instance`) -> `null`
-- **GetGamepadCursorPosition**() -> `Vector2`
-- **SetGamepadCursorPosition**(`position: Vector2`) -> `null`
+### `Class.GamepadService:AutoSelectGui`
+
+``AutoSelectGui()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.GamepadService:DisableGamepadCursor`
+
+``DisableGamepadCursor()`` → `null`
+
+### `Class.GamepadService:EnableGamepadCursor`
+
+``EnableGamepadCursor(guiObject: `Class.Instance`)`` → `null`
+
+### `Class.GamepadService:GetGamepadCursorPosition`
+
+``GetGamepadCursorPosition()`` → `Datatype.Vector2`
+   {security: RobloxScriptSecurity}
+
+### `Class.GamepadService:SetGamepadCursorPosition`
+
+``SetGamepadCursorPosition(position: `Datatype.Vector2`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **GamepadThumbstick1Changed**(`event: Vector2`)
+### `Class.GamepadService.GamepadThumbstick1Changed`
+
+Fires with: (event: `Datatype.Vector2`)

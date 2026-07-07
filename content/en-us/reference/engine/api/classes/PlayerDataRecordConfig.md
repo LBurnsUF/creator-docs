@@ -7,15 +7,22 @@ tags: [NotCreatable, NotReplicated]
 
 # PlayerDataRecordConfig
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **RecordName**: `string` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PlayerDataRecordConfig.RecordName` | `string` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetDefaultValue**(`key: string`) -> `Variant`
-- **SetDefaultValue**(`key: string`, `value: Variant`) -> `null`
+### `Class.PlayerDataRecordConfig:GetDefaultValue`
+
+``GetDefaultValue(key: `string`)`` → `Variant`
+
+### `Class.PlayerDataRecordConfig:SetDefaultValue`
+
+``SetDefaultValue(key: `string`, value: `Variant`)`` → `null`

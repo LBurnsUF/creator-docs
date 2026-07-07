@@ -7,10 +7,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PluginPolicyService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetPluginPolicy**(`pluginName: string`) -> `Dictionary`
+### `Class.PluginPolicyService:GetPluginPolicy`
+
+``GetPluginPolicy(pluginName: `string`)`` → `Dictionary`
+   {security: RobloxScriptSecurity}

@@ -6,8 +6,10 @@ superclass: GuiObject
 
 # Frame
 
-**Inherits**: GuiObject > GuiBase2d > GuiBase > Instance > Object
+**Inherits from:** `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Style**: `FrameStyle`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Frame.Style` | `Enum.FrameStyle` |  |

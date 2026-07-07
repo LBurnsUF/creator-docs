@@ -3,9 +3,11 @@ title: ContextActionResult
 type: enum
 ---
 
-# ContextActionResult (Enum)
+# `Enum.ContextActionResult`
+
+The `Enum.ContextActionResult` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Sink | 0 |
-| Pass | 1 |
+| `Enum.ContextActionResult.Sink` | 0 |
+| `Enum.ContextActionResult.Pass` | 1 |

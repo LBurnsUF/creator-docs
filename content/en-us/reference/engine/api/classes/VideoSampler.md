@@ -7,15 +7,20 @@ tags: [NotCreatable, NotReplicated]
 
 # VideoSampler
 
-**Inherits**: Object
+**Inherits from:** `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **TimeLength**: `double` [ReadOnly] [NotReplicated]
-- **VideoContent**: `Content` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.VideoSampler.TimeLength` | `double` | [ReadOnly] [NotReplicated] |
+| `Class.VideoSampler.VideoContent` | `Datatype.Content` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetSamplesAtTimesAsync**(`times: Array`) -> `Array` [Yields]
+### `Class.VideoSampler:GetSamplesAtTimesAsync`
+
+``GetSamplesAtTimesAsync(times: `Array`)`` → `Array`
+  [Yields]

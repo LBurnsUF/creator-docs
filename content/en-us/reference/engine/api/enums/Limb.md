@@ -3,14 +3,16 @@ title: Limb
 type: enum
 ---
 
-# Limb (Enum)
+# `Enum.Limb`
+
+The `Enum.Limb` enum has 7 item(s).
 
 | Name | Value |
 |------|-------|
-| Head | 0 |
-| Torso | 1 |
-| LeftArm | 2 |
-| RightArm | 3 |
-| LeftLeg | 4 |
-| RightLeg | 5 |
-| Unknown | 6 |
+| `Enum.Limb.Head` | 0 |
+| `Enum.Limb.Torso` | 1 |
+| `Enum.Limb.LeftArm` | 2 |
+| `Enum.Limb.RightArm` | 3 |
+| `Enum.Limb.LeftLeg` | 4 |
+| `Enum.Limb.RightLeg` | 5 |
+| `Enum.Limb.Unknown` | 6 |

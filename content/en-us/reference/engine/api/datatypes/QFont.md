@@ -3,12 +3,12 @@ title: QFont
 type: datatype
 ---
 
-# QFont (DataType)
+# `Datatype.QFont`
 
-Used in 3 locations across the API.
+Used in 3 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Studio.CommandBarFont
-- Studio.Font
-- Studio.Output Font
+- `Class.Studio.CommandBarFont`
+- `Class.Studio.Font`
+- `Class.Studio.Output Font`

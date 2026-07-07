@@ -3,12 +3,14 @@ title: UserInputState
 type: enum
 ---
 
-# UserInputState (Enum)
+# `Enum.UserInputState`
+
+The `Enum.UserInputState` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Begin | 0 |
-| Change | 1 |
-| End | 2 |
-| Cancel | 3 |
-| None | 4 |
+| `Enum.UserInputState.Begin` | 0 |
+| `Enum.UserInputState.Change` | 1 |
+| `Enum.UserInputState.End` | 2 |
+| `Enum.UserInputState.Cancel` | 3 |
+| `Enum.UserInputState.None` | 4 |

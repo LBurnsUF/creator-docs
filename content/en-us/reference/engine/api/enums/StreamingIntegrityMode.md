@@ -3,11 +3,13 @@ title: StreamingIntegrityMode
 type: enum
 ---
 
-# StreamingIntegrityMode (Enum)
+# `Enum.StreamingIntegrityMode`
+
+The `Enum.StreamingIntegrityMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Disabled | 1 |
-| MinimumRadiusPause | 2 |
-| PauseOutsideLoadedArea | 3 |
+| `Enum.StreamingIntegrityMode.Default` | 0 |
+| `Enum.StreamingIntegrityMode.Disabled` | 1 |
+| `Enum.StreamingIntegrityMode.MinimumRadiusPause` | 2 |
+| `Enum.StreamingIntegrityMode.PauseOutsideLoadedArea` | 3 |

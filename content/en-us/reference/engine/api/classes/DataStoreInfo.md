@@ -7,12 +7,14 @@ tags: [NotCreatable, NotReplicated]
 
 # DataStoreInfo
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **CreatedTime**: `int64` [ReadOnly] [NotReplicated]
-- **DataStoreName**: `string` [ReadOnly] [NotReplicated]
-- **UpdatedTime**: `int64` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DataStoreInfo.CreatedTime` | `int64` | [ReadOnly] [NotReplicated] |
+| `Class.DataStoreInfo.DataStoreName` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.DataStoreInfo.UpdatedTime` | `int64` | [ReadOnly] [NotReplicated] |

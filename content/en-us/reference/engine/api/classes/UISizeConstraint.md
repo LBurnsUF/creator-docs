@@ -6,9 +6,11 @@ superclass: UIConstraint
 
 # UISizeConstraint
 
-**Inherits**: UIConstraint > UIComponent > UIBase > Instance > Object
+**Inherits from:** `Class.UIConstraint` > `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **MaxSize**: `Vector2`
-- **MinSize**: `Vector2`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.UISizeConstraint.MaxSize` | `Datatype.Vector2` |  |
+| `Class.UISizeConstraint.MinSize` | `Datatype.Vector2` |  |

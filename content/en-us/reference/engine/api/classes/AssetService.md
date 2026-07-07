@@ -7,49 +7,174 @@ tags: [NotCreatable, Service]
 
 # AssetService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **AllowInsertFreeAssets**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AssetService.AllowInsertFreeAssets` | `bool` |  {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **CachePartOperationsAsync**(`partOperations: Array`) -> `null` [Yields]
-- **CanEditAssetAsync**(`content: Content`) -> `bool` [Yields]
-- **ComposeDecalAsync**(`decal: Decal`, `layers: Array`) -> `null` [Yields]
-- **CreateAssetAsync**(`object: Object`, `assetType: AssetType`, `requestParameters: Dictionary = nil`) -> `Tuple` [Yields]
-- **CreateAssetVersionAsync**(`object: Object`, `assetType: AssetType`, `assetId: int64`, `requestParameters: Dictionary = nil`) -> `Tuple` [Yields]
-- **CreateDataModelContentAsync**(`content: Content`, `options: Dictionary?`) -> `Tuple` [Yields]
-- **CreateEditableImage**(`editableImageOptions: Dictionary?`) -> `EditableImage`
-- **CreateEditableImageAsync**(`content: Content`, `editableImageOptions: Dictionary?`) -> `EditableImage` [Yields]
-- **CreateEditableMesh**(`editableMeshOptions: Dictionary?`) -> `EditableMesh`
-- **CreateEditableMeshAsync**(`content: Content`, `editableMeshOptions: Dictionary?`) -> `EditableMesh` [Yields]
-- **CreateMeshPartAsync**(`meshContent: Content`, `options: Dictionary = nil`) -> `MeshPart` [Yields]
-- **CreatePlaceAsync**(`placeName: string`, `templatePlaceID: int64`, `description: string = `) -> `int64` [Yields]
-- **CreatePlaceInPlayerInventoryAsync**(`player: Instance`, `placeName: string`, `templatePlaceID: int64`, `description: string = `) -> `int64` [Yields]
-- **CreateSurfaceAppearanceAsync**(`content: Dictionary`) -> `SurfaceAppearance` [Yields]
-- **DeserializeInstance**(`serializedInstance: string`) -> `Instance`
-- **GetAssetIdsForPackage**(`packageAssetId: int64`) -> `Array` [Yields] [Deprecated]
-- **GetAssetIdsForPackageAsync**(`packageAssetId: int64`) -> `Array` [Yields]
-- **GetAudioMetadataAsync**(`idList: Array`) -> `Array` [Yields]
-- **GetBundleDetailsAsync**(`bundleId: int64`) -> `Dictionary` [Yields]
-- **GetCreatorAssetID**(`creationID: int64`) -> `int64` [Yields] [Deprecated]
-- **GetGamePlacesAsync**() -> `Instance` [Yields]
-- **GetOpaqueContentMetadataMap**(`opaqueContent: Content`) -> `Dictionary`
-- **LoadAssetAsync**(`assetId: int64`) -> `Instance` [Yields]
-- **PromptCreateAssetAsync**(`player: Player`, `instance: Instance`, `assetType: AssetType`) -> `Tuple` [Yields]
-- **PromptImportAnimationClipFromVideoAsync**(`player: Player`, `progressCallback: Function`) -> `Tuple` [Yields]
-- **SavePlaceAsync**(`requestParameters: Dictionary?`) -> `null` [Yields]
-- **SearchAudio**(`searchParameters: AudioSearchParams`) -> `AudioPages` [Yields] [Deprecated]
-- **SearchAudioAsync**(`searchParameters: AudioSearchParams`) -> `AudioPages` [Yields]
+### `Class.AssetService:CachePartOperationsAsync`
+
+``CachePartOperationsAsync(partOperations: `Array`)`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AssetService:CanEditAssetAsync`
+
+``CanEditAssetAsync(content: `Datatype.Content`)`` → `bool`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AssetService:ComposeDecalAsync`
+
+``ComposeDecalAsync(decal: `Class.Decal`, layers: `Array`)`` → `null`
+  [Yields]
+
+### `Class.AssetService:CreateAssetAsync`
+
+``CreateAssetAsync(object: `Class.Object`, assetType: `Enum.AssetType`, requestParameters: `Dictionary`)`` → `Tuple`
+  [Yields]
+
+### `Class.AssetService:CreateAssetVersionAsync`
+
+``CreateAssetVersionAsync(object: `Class.Object`, assetType: `Enum.AssetType`, assetId: `int64`, requestParameters: `Dictionary`)`` → `Tuple`
+  [Yields]
+
+### `Class.AssetService:CreateDataModelContentAsync`
+
+``CreateDataModelContentAsync(content: `Datatype.Content`, options: `Dictionary?`)`` → `Tuple`
+  [Yields]
+
+### `Class.AssetService:CreateEditableImage`
+
+``CreateEditableImage(editableImageOptions: `Dictionary?`)`` → `Class.EditableImage`
+
+### `Class.AssetService:CreateEditableImageAsync`
+
+``CreateEditableImageAsync(content: `Datatype.Content`, editableImageOptions: `Dictionary?`)`` → `Class.EditableImage`
+  [Yields]
+
+### `Class.AssetService:CreateEditableMesh`
+
+``CreateEditableMesh(editableMeshOptions: `Dictionary?`)`` → `Class.EditableMesh`
+
+### `Class.AssetService:CreateEditableMeshAsync`
+
+``CreateEditableMeshAsync(content: `Datatype.Content`, editableMeshOptions: `Dictionary?`)`` → `Class.EditableMesh`
+  [Yields]
+
+### `Class.AssetService:CreateMeshPartAsync`
+
+``CreateMeshPartAsync(meshContent: `Datatype.Content`, options: `Dictionary`)`` → `Class.MeshPart`
+  [Yields]
+
+### `Class.AssetService:CreatePlaceAsync`
+
+``CreatePlaceAsync(placeName: `string`, templatePlaceID: `int64`, description: `string`)`` → `int64`
+  [Yields]
+
+### `Class.AssetService:CreatePlaceInPlayerInventoryAsync`
+
+``CreatePlaceInPlayerInventoryAsync(player: `Class.Instance`, placeName: `string`, templatePlaceID: `int64`, description: `string`)`` → `int64`
+  [Yields]
+
+### `Class.AssetService:CreateSurfaceAppearanceAsync`
+
+``CreateSurfaceAppearanceAsync(content: `Dictionary`)`` → `Class.SurfaceAppearance`
+  [Yields]
+
+### `Class.AssetService:DeserializeInstance`
+
+``DeserializeInstance(serializedInstance: `string`)`` → `Class.Instance`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetService:GetAssetIdsForPackage`
+
+``GetAssetIdsForPackage(packageAssetId: `int64`)`` → `Array`
+  [Yields] [Deprecated]
+
+### `Class.AssetService:GetAssetIdsForPackageAsync`
+
+``GetAssetIdsForPackageAsync(packageAssetId: `int64`)`` → `Array`
+  [Yields]
+
+### `Class.AssetService:GetAudioMetadataAsync`
+
+``GetAudioMetadataAsync(idList: `Array`)`` → `Array`
+  [Yields]
+
+### `Class.AssetService:GetBundleDetailsAsync`
+
+``GetBundleDetailsAsync(bundleId: `int64`)`` → `Dictionary`
+  [Yields]
+
+### `Class.AssetService:GetCreatorAssetID`
+
+``GetCreatorAssetID(creationID: `int64`)`` → `int64`
+  [Yields] [Deprecated]
+
+### `Class.AssetService:GetGamePlacesAsync`
+
+``GetGamePlacesAsync()`` → `Class.Instance`
+  [Yields]
+
+### `Class.AssetService:GetOpaqueContentMetadataMap`
+
+``GetOpaqueContentMetadataMap(opaqueContent: `Datatype.Content`)`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.AssetService:LoadAssetAsync`
+
+``LoadAssetAsync(assetId: `int64`)`` → `Class.Instance`
+  [Yields]
+
+### `Class.AssetService:PromptCreateAssetAsync`
+
+``PromptCreateAssetAsync(player: `Class.Player`, instance: `Class.Instance`, assetType: `Enum.AssetType`)`` → `Tuple`
+  [Yields]
+
+### `Class.AssetService:PromptImportAnimationClipFromVideoAsync`
+
+``PromptImportAnimationClipFromVideoAsync(player: `Class.Player`, progressCallback: `Datatype.Function`)`` → `Tuple`
+  [Yields]
+
+### `Class.AssetService:SavePlaceAsync`
+
+``SavePlaceAsync(requestParameters: `Dictionary?`)`` → `null`
+  [Yields]
+
+### `Class.AssetService:SearchAudio`
+
+``SearchAudio(searchParameters: `Class.AudioSearchParams`)`` → `Class.AudioPages`
+  [Yields] [Deprecated]
+
+### `Class.AssetService:SearchAudioAsync`
+
+``SearchAudioAsync(searchParameters: `Class.AudioSearchParams`)`` → `Class.AudioPages`
+  [Yields]
 
 ## Events
 
-- **AudioMetadataFailedResponse**(`requestid: int64`)
-- **AudioMetadataRequest**(`requestid: int64`, `request: Array`)
-- **AudioMetadataResponse**(`requestid: int64`, `response: Array`)
-- **OpenCreateResultModal**(`resultType: PromptCreateAssetResult`)
-- **OpenPublishResultModal**(`resultType: PromptPublishAssetResult`)
+### `Class.AssetService.AudioMetadataFailedResponse`
+
+Fires with: (requestid: `int64`)
+
+### `Class.AssetService.AudioMetadataRequest`
+
+Fires with: (requestid: `int64`, request: `Array`)
+
+### `Class.AssetService.AudioMetadataResponse`
+
+Fires with: (requestid: `int64`, response: `Array`)
+
+### `Class.AssetService.OpenCreateResultModal`
+
+Fires with: (resultType: `Enum.PromptCreateAssetResult`)
+
+### `Class.AssetService.OpenPublishResultModal`
+
+Fires with: (resultType: `Enum.PromptPublishAssetResult`)

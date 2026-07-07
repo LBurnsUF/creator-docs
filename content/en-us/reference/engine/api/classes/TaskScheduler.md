@@ -7,13 +7,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # TaskScheduler
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **SchedulerDutyCycle**: `double` [ReadOnly] [NotReplicated]
-- **SchedulerRate**: `double` [ReadOnly] [NotReplicated]
-- **ThreadPoolConfig**: `ThreadPoolConfig`
-- **ThreadPoolSize**: `int` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TaskScheduler.SchedulerDutyCycle` | `double` | [ReadOnly] [NotReplicated] |
+| `Class.TaskScheduler.SchedulerRate` | `double` | [ReadOnly] [NotReplicated] |
+| `Class.TaskScheduler.ThreadPoolConfig` | `Enum.ThreadPoolConfig` |  |
+| `Class.TaskScheduler.ThreadPoolSize` | `int` | [ReadOnly] [NotReplicated] |

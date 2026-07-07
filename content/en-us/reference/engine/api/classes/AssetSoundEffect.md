@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # AssetSoundEffect
 
-**Inherits**: CustomSoundEffect > SoundEffect > Instance > Object
+**Inherits from:** `Class.CustomSoundEffect` > `Class.SoundEffect` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

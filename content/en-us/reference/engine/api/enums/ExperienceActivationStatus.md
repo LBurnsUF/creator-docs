@@ -3,12 +3,14 @@ title: ExperienceActivationStatus
 type: enum
 ---
 
-# ExperienceActivationStatus (Enum)
+# `Enum.ExperienceActivationStatus`
+
+The `Enum.ExperienceActivationStatus` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Unknown | 0 |
-| New | 1 |
-| Active | 2 |
-| Lapsed | 3 |
-| Reactivated | 4 |
+| `Enum.ExperienceActivationStatus.Unknown` | 0 |
+| `Enum.ExperienceActivationStatus.New` | 1 |
+| `Enum.ExperienceActivationStatus.Active` | 2 |
+| `Enum.ExperienceActivationStatus.Lapsed` | 3 |
+| `Enum.ExperienceActivationStatus.Reactivated` | 4 |

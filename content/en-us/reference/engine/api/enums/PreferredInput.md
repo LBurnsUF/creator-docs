@@ -3,10 +3,12 @@ title: PreferredInput
 type: enum
 ---
 
-# PreferredInput (Enum)
+# `Enum.PreferredInput`
+
+The `Enum.PreferredInput` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| KeyboardAndMouse | 0 |
-| Gamepad | 1 |
-| Touch | 2 |
+| `Enum.PreferredInput.KeyboardAndMouse` | 0 |
+| `Enum.PreferredInput.Gamepad` | 1 |
+| `Enum.PreferredInput.Touch` | 2 |

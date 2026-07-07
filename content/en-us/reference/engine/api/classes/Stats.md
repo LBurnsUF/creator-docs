@@ -7,45 +7,75 @@ tags: [NotCreatable, Service]
 
 # Stats
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Properties
 
-- **ContactsCount**: `int` [ReadOnly] [NotReplicated]
-- **DataReceiveKbps**: `float` [ReadOnly] [NotReplicated]
-- **DataSendKbps**: `float` [ReadOnly] [NotReplicated]
-- **FrameTime**: `float` [ReadOnly] [NotReplicated]
-- **HeartbeatTime**: `float` [ReadOnly] [NotReplicated]
-- **HeartbeatTimeMs**: `float` [ReadOnly] [NotReplicated] [Deprecated]
-- **InstanceCount**: `int` [ReadOnly] [NotReplicated]
-- **MemoryTrackingEnabled**: `bool` [ReadOnly] [NotReplicated]
-- **MovingPrimitivesCount**: `int` [ReadOnly] [NotReplicated]
-- **PhysicsReceiveKbps**: `float` [ReadOnly] [NotReplicated]
-- **PhysicsSendKbps**: `float` [ReadOnly] [NotReplicated]
-- **PhysicsStepTime**: `float` [ReadOnly] [NotReplicated]
-- **PhysicsStepTimeMs**: `float` [ReadOnly] [NotReplicated] [Deprecated]
-- **PrimitivesCount**: `int` [ReadOnly] [NotReplicated]
-- **RenderCPUFrameTime**: `float` [ReadOnly] [NotReplicated]
-- **RenderGPUFrameTime**: `float` [ReadOnly] [NotReplicated]
-- **SceneDrawcallCount**: `int` [ReadOnly] [NotReplicated]
-- **SceneTriangleCount**: `int` [ReadOnly] [NotReplicated]
-- **ShadowsDrawcallCount**: `int` [ReadOnly] [NotReplicated]
-- **ShadowsTriangleCount**: `int` [ReadOnly] [NotReplicated]
-- **UI2DDrawcallCount**: `int` [ReadOnly] [NotReplicated]
-- **UI2DTriangleCount**: `int` [ReadOnly] [NotReplicated]
-- **UI3DDrawcallCount**: `int` [ReadOnly] [NotReplicated]
-- **UI3DTriangleCount**: `int` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Stats.ContactsCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.DataReceiveKbps` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.DataSendKbps` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.FrameTime` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.HeartbeatTime` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.HeartbeatTimeMs` | `float` | [ReadOnly] [NotReplicated] [Deprecated] |
+| `Class.Stats.InstanceCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.MemoryTrackingEnabled` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.MovingPrimitivesCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.PhysicsReceiveKbps` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.PhysicsSendKbps` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.PhysicsStepTime` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.PhysicsStepTimeMs` | `float` | [ReadOnly] [NotReplicated] [Deprecated] |
+| `Class.Stats.PrimitivesCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.RenderCPUFrameTime` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.RenderGPUFrameTime` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.SceneDrawcallCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.SceneTriangleCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.ShadowsDrawcallCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.ShadowsTriangleCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.UI2DDrawcallCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.UI2DTriangleCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.UI3DDrawcallCount` | `int` | [ReadOnly] [NotReplicated] |
+| `Class.Stats.UI3DTriangleCount` | `int` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetBrowserTrackerId**() -> `string`
-- **GetHarmonyQualityLevel**() -> `int`
-- **GetMemoryCategoryNames**() -> `Array`
-- **GetMemoryUsageMbAllCategories**() -> `Array`
-- **GetMemoryUsageMbForTag**(`tag: DeveloperMemoryTag`) -> `float`
-- **GetPaginatedMemoryByTexture**(`queryType: TextureQueryType`, `pageIndex: int`, `pageSize: int`) -> `Dictionary` [Yields]
-- **GetTotalMemoryUsageMb**() -> `float`
-- **ResetHarmonyMemoryTarget**() -> `null`
-- **SetHarmonyMemoryTarget**(`targetMB: int`) -> `null`
+### `Class.Stats:GetBrowserTrackerId`
+
+``GetBrowserTrackerId()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.Stats:GetHarmonyQualityLevel`
+
+``GetHarmonyQualityLevel()`` → `int`
+
+### `Class.Stats:GetMemoryCategoryNames`
+
+``GetMemoryCategoryNames()`` → `Array`
+
+### `Class.Stats:GetMemoryUsageMbAllCategories`
+
+``GetMemoryUsageMbAllCategories()`` → `Array`
+
+### `Class.Stats:GetMemoryUsageMbForTag`
+
+``GetMemoryUsageMbForTag(tag: `Enum.DeveloperMemoryTag`)`` → `float`
+
+### `Class.Stats:GetPaginatedMemoryByTexture`
+
+``GetPaginatedMemoryByTexture(queryType: `Enum.TextureQueryType`, pageIndex: `int`, pageSize: `int`)`` → `Dictionary`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.Stats:GetTotalMemoryUsageMb`
+
+``GetTotalMemoryUsageMb()`` → `float`
+
+### `Class.Stats:ResetHarmonyMemoryTarget`
+
+``ResetHarmonyMemoryTarget()`` → `null`
+
+### `Class.Stats:SetHarmonyMemoryTarget`
+
+``SetHarmonyMemoryTarget(targetMB: `int`)`` → `null`

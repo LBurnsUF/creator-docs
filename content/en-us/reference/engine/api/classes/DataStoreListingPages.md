@@ -7,10 +7,12 @@ tags: [NotCreatable, NotReplicated]
 
 # DataStoreListingPages
 
-**Inherits**: Pages > Instance > Object
+**Inherits from:** `Class.Pages` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Cursor**: `string` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DataStoreListingPages.Cursor` | `string` | [ReadOnly] [NotReplicated] |

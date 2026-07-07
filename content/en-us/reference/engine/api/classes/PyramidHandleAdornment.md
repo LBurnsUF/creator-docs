@@ -6,11 +6,13 @@ superclass: HandleAdornment
 
 # PyramidHandleAdornment
 
-**Inherits**: HandleAdornment > PVAdornment > GuiBase3d > GuiBase > Instance > Object
+**Inherits from:** `Class.HandleAdornment` > `Class.PVAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Height**: `float`
-- **Shading**: `AdornShading`
-- **Sides**: `int`
-- **Size**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PyramidHandleAdornment.Height` | `float` |  |
+| `Class.PyramidHandleAdornment.Shading` | `Enum.AdornShading` |  |
+| `Class.PyramidHandleAdornment.Sides` | `int` |  |
+| `Class.PyramidHandleAdornment.Size` | `float` |  |

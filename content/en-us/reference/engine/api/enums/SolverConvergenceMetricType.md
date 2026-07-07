@@ -3,9 +3,11 @@ title: SolverConvergenceMetricType
 type: enum
 ---
 
-# SolverConvergenceMetricType (Enum)
+# `Enum.SolverConvergenceMetricType`
+
+The `Enum.SolverConvergenceMetricType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| IterationBased | 0 |
-| AlgorithmAgnostic | 1 |
+| `Enum.SolverConvergenceMetricType.IterationBased` | 0 |
+| `Enum.SolverConvergenceMetricType.AlgorithmAgnostic` | 1 |

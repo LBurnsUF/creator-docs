@@ -7,12 +7,23 @@ tags: [NotCreatable, NotReplicated]
 
 # TextFilterResult
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **GetChatForUserAsync**(`toUserId: int64`) -> `string` [Yields] [Deprecated]
-- **GetNonChatStringForBroadcastAsync**() -> `string` [Yields]
-- **GetNonChatStringForUserAsync**(`toUserId: int64`) -> `string` [Yields]
+### `Class.TextFilterResult:GetChatForUserAsync`
+
+``GetChatForUserAsync(toUserId: `int64`)`` → `string`
+  [Yields] [Deprecated]
+
+### `Class.TextFilterResult:GetNonChatStringForBroadcastAsync`
+
+``GetNonChatStringForBroadcastAsync()`` → `string`
+  [Yields]
+
+### `Class.TextFilterResult:GetNonChatStringForUserAsync`
+
+``GetNonChatStringForUserAsync(toUserId: `int64`)`` → `string`
+  [Yields]

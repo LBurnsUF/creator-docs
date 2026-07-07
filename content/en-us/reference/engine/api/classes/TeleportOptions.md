@@ -6,15 +6,22 @@ superclass: Instance
 
 # TeleportOptions
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **ReservedServerAccessCode**: `string`
-- **ServerInstanceId**: `string`
-- **ShouldReserveServer**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.TeleportOptions.ReservedServerAccessCode` | `string` |  |
+| `Class.TeleportOptions.ServerInstanceId` | `string` |  |
+| `Class.TeleportOptions.ShouldReserveServer` | `bool` |  |
 
 ## Methods
 
-- **GetTeleportData**() -> `Variant`
-- **SetTeleportData**(`teleportData: Variant`) -> `null`
+### `Class.TeleportOptions:GetTeleportData`
+
+``GetTeleportData()`` → `Variant`
+
+### `Class.TeleportOptions:SetTeleportData`
+
+``SetTeleportData(teleportData: `Variant`)`` → `null`

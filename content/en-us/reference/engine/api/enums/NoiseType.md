@@ -3,8 +3,10 @@ title: NoiseType
 type: enum
 ---
 
-# NoiseType (Enum)
+# `Enum.NoiseType`
+
+The `Enum.NoiseType` enum has 1 item(s).
 
 | Name | Value |
 |------|-------|
-| SimplexGabor | 0 |
+| `Enum.NoiseType.SimplexGabor` | 0 |

@@ -7,10 +7,13 @@ tags: [NotCreatable, Service]
 
 # SlimContentProvider
 
-**Inherits**: CacheableContentProvider > Instance > Object
+**Inherits from:** `Class.CacheableContentProvider` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **GetContentMemoryData**() -> `Dictionary`
+### `Class.SlimContentProvider:GetContentMemoryData`
+
+``GetContentMemoryData()`` → `Dictionary`
+   {security: RobloxSecurity}

@@ -3,37 +3,37 @@ title: NumberRange
 type: datatype
 ---
 
-# NumberRange (DataType)
+# `Datatype.NumberRange`
 
-Used in 25 locations across the API.
+Used in 25 locations across the Roblox API.
 
 ## Used as Property Type
 
-- AudioEqualizer.MidRange
-- AudioGate.Threshold
-- AudioPlayer.LoopRegion
-- AudioPlayer.PlaybackRegion
-- AvatarBodyRules.CustomBodyTypeScale
-- AvatarBodyRules.CustomHeadScale
-- AvatarBodyRules.CustomHeight
-- AvatarBodyRules.CustomHeightScale
-- AvatarBodyRules.CustomProportionsScale
-- AvatarBodyRules.CustomWidthScale
-- ParticleEmitter.FlipbookFramerate
-- ParticleEmitter.Lifetime
-- ParticleEmitter.RotSpeed
-- ParticleEmitter.Rotation
-- ParticleEmitter.Speed
-- Sound.LoopRegion
-- Sound.PlaybackRegion
-- StarterPlayer.GameSettingsScaleRangeBodyType
-- StarterPlayer.GameSettingsScaleRangeHead
-- StarterPlayer.GameSettingsScaleRangeHeight
-- StarterPlayer.GameSettingsScaleRangeProportion
-- StarterPlayer.GameSettingsScaleRangeWidth
-- StyleQuery.AspectRatioRange
+- `Class.AudioEqualizer.MidRange`
+- `Class.AudioGate.Threshold`
+- `Class.AudioPlayer.LoopRegion`
+- `Class.AudioPlayer.PlaybackRegion`
+- `Class.AvatarBodyRules.CustomBodyTypeScale`
+- `Class.AvatarBodyRules.CustomHeadScale`
+- `Class.AvatarBodyRules.CustomHeight`
+- `Class.AvatarBodyRules.CustomHeightScale`
+- `Class.AvatarBodyRules.CustomProportionsScale`
+- `Class.AvatarBodyRules.CustomWidthScale`
+- `Class.ParticleEmitter.FlipbookFramerate`
+- `Class.ParticleEmitter.Lifetime`
+- `Class.ParticleEmitter.RotSpeed`
+- `Class.ParticleEmitter.Rotation`
+- `Class.ParticleEmitter.Speed`
+- `Class.Sound.LoopRegion`
+- `Class.Sound.PlaybackRegion`
+- `Class.StarterPlayer.GameSettingsScaleRangeBodyType`
+- `Class.StarterPlayer.GameSettingsScaleRangeHead`
+- `Class.StarterPlayer.GameSettingsScaleRangeHeight`
+- `Class.StarterPlayer.GameSettingsScaleRangeProportion`
+- `Class.StarterPlayer.GameSettingsScaleRangeWidth`
+- `Class.StyleQuery.AspectRatioRange`
 
 ## Used as Parameter Type
 
-- AudioPlayer.GetWaveformAsync(timeRange)
-- AudioTextToSpeech.GetWaveformAsync(timeRange)
+- `Class.AudioPlayer:GetWaveformAsync` (parameter `timeRange`)
+- `Class.AudioTextToSpeech:GetWaveformAsync` (parameter `timeRange`)

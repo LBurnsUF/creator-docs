@@ -7,19 +7,34 @@ tags: [NotCreatable, NotReplicated]
 
 # Object
 
-**Tags**: NotCreatable, NotReplicated
+
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **ClassName**: `string` [ReadOnly] [NotReplicated]
-- **className**: `string` [ReadOnly] [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Object.ClassName` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.Object.className` | `string` | [ReadOnly] [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **GetPropertyChangedSignal**(`property: string`) -> `RBXScriptSignal`
-- **IsA**(`className: string`) -> `bool` [CustomLuaState]
-- **isA**(`className: string`) -> `bool` [Deprecated] [CustomLuaState]
+### `Class.Object:GetPropertyChangedSignal`
+
+``GetPropertyChangedSignal(property: `string`)`` → `Datatype.RBXScriptSignal`
+
+### `Class.Object:IsA`
+
+``IsA(className: `string`)`` → `bool`
+  [CustomLuaState]
+
+### `Class.Object:isA`
+
+``isA(className: `string`)`` → `bool`
+  [Deprecated] [CustomLuaState]
 
 ## Events
 
-- **Changed**(`property: string`)
+### `Class.Object.Changed`
+
+Fires with: (property: `string`)

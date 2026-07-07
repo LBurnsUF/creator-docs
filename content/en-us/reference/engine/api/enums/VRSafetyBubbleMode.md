@@ -3,10 +3,12 @@ title: VRSafetyBubbleMode
 type: enum
 ---
 
-# VRSafetyBubbleMode (Enum)
+# `Enum.VRSafetyBubbleMode`
+
+The `Enum.VRSafetyBubbleMode` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| NoOne | 0 |
-| OnlyFriends | 1 |
-| Anyone | 2 |
+| `Enum.VRSafetyBubbleMode.NoOne` | 0 |
+| `Enum.VRSafetyBubbleMode.OnlyFriends` | 1 |
+| `Enum.VRSafetyBubbleMode.Anyone` | 2 |

@@ -3,13 +3,15 @@ title: NormalId
 type: enum
 ---
 
-# NormalId (Enum)
+# `Enum.NormalId`
+
+The `Enum.NormalId` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| Right | 0 |
-| Top | 1 |
-| Back | 2 |
-| Left | 3 |
-| Bottom | 4 |
-| Front | 5 |
+| `Enum.NormalId.Right` | 0 |
+| `Enum.NormalId.Top` | 1 |
+| `Enum.NormalId.Back` | 2 |
+| `Enum.NormalId.Left` | 3 |
+| `Enum.NormalId.Bottom` | 4 |
+| `Enum.NormalId.Front` | 5 |

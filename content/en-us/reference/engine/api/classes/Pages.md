@@ -7,15 +7,23 @@ tags: [NotCreatable, NotReplicated]
 
 # Pages
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **IsFinished**: `bool` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Pages.IsFinished` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **AdvanceToNextPageAsync**() -> `null` [Yields]
-- **GetCurrentPage**() -> `Array`
+### `Class.Pages:AdvanceToNextPageAsync`
+
+``AdvanceToNextPageAsync()`` → `null`
+  [Yields]
+
+### `Class.Pages:GetCurrentPage`
+
+``GetCurrentPage()`` → `Array`

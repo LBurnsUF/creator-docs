@@ -3,22 +3,24 @@ title: FontSize
 type: enum
 ---
 
-# FontSize (Enum)
+# `Enum.FontSize`
+
+The `Enum.FontSize` enum has 15 item(s).
 
 | Name | Value |
 |------|-------|
-| Size8 | 0 |
-| Size9 | 1 |
-| Size10 | 2 |
-| Size11 | 3 |
-| Size12 | 4 |
-| Size14 | 5 |
-| Size18 | 6 |
-| Size24 | 7 |
-| Size36 | 8 |
-| Size48 | 9 |
-| Size28 | 10 |
-| Size32 | 11 |
-| Size42 | 12 |
-| Size60 | 13 |
-| Size96 | 14 |
+| `Enum.FontSize.Size8` | 0 |
+| `Enum.FontSize.Size9` | 1 |
+| `Enum.FontSize.Size10` | 2 |
+| `Enum.FontSize.Size11` | 3 |
+| `Enum.FontSize.Size12` | 4 |
+| `Enum.FontSize.Size14` | 5 |
+| `Enum.FontSize.Size18` | 6 |
+| `Enum.FontSize.Size24` | 7 |
+| `Enum.FontSize.Size36` | 8 |
+| `Enum.FontSize.Size48` | 9 |
+| `Enum.FontSize.Size28` | 10 |
+| `Enum.FontSize.Size32` | 11 |
+| `Enum.FontSize.Size42` | 12 |
+| `Enum.FontSize.Size60` | 13 |
+| `Enum.FontSize.Size96` | 14 |

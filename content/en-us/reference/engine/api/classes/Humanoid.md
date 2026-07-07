@@ -6,119 +6,352 @@ superclass: Instance
 
 # Humanoid
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AutoJumpEnabled**: `bool`
-- **AutoRotate**: `bool`
-- **AutomaticScalingEnabled**: `bool`
-- **BreakJointsOnDeath**: `bool`
-- **CameraOffset**: `Vector3`
-- **CollisionType**: `HumanoidCollisionType` [Deprecated] (Security: Read=None, Write=PluginSecurity)
-- **DisplayDistanceType**: `HumanoidDisplayDistanceType`
-- **DisplayName**: `string`
-- **EvaluateStateMachine**: `bool`
-- **FloorMaterial**: `Material` [ReadOnly] [NotReplicated]
-- **Health**: `float` [NotReplicated]
-- **HealthDisplayDistance**: `float`
-- **HealthDisplayType**: `HumanoidHealthDisplayType`
-- **HipHeight**: `float`
-- **InternalDisplayName**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Jump**: `bool` [NotReplicated]
-- **JumpHeight**: `float`
-- **JumpPower**: `float`
-- **LeftLeg**: `BasePart` [Hidden] [NotReplicated] [Deprecated]
-- **MaxHealth**: `float`
-- **MaxSlopeAngle**: `float`
-- **MoveDirection**: `Vector3` [ReadOnly] [NotReplicated]
-- **NameDisplayDistance**: `float`
-- **NameOcclusion**: `NameOcclusion`
-- **PlatformStand**: `bool`
-- **RequiresNeck**: `bool`
-- **RigType**: `HumanoidRigType`
-- **RightLeg**: `BasePart` [Hidden] [NotReplicated] [Deprecated]
-- **RootPart**: `BasePart` [ReadOnly] [NotReplicated]
-- **SeatPart**: `BasePart` [ReadOnly] [NotReplicated]
-- **Sit**: `bool`
-- **TargetPoint**: `Vector3`
-- **Torso**: `BasePart` [Hidden] [NotReplicated] [Deprecated]
-- **UseJumpPower**: `bool`
-- **WalkSpeed**: `float`
-- **WalkToPart**: `BasePart`
-- **WalkToPoint**: `Vector3`
-- **maxHealth**: `float` [NotReplicated] [Deprecated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Humanoid.AutoJumpEnabled` | `bool` |  |
+| `Class.Humanoid.AutoRotate` | `bool` |  |
+| `Class.Humanoid.AutomaticScalingEnabled` | `bool` |  |
+| `Class.Humanoid.BreakJointsOnDeath` | `bool` |  |
+| `Class.Humanoid.CameraOffset` | `Datatype.Vector3` |  |
+| `Class.Humanoid.CollisionType` | `Enum.HumanoidCollisionType` | [Deprecated] {write: PluginSecurity} |
+| `Class.Humanoid.DisplayDistanceType` | `Enum.HumanoidDisplayDistanceType` |  |
+| `Class.Humanoid.DisplayName` | `string` |  |
+| `Class.Humanoid.EvaluateStateMachine` | `bool` |  |
+| `Class.Humanoid.FloorMaterial` | `Enum.Material` | [ReadOnly] [NotReplicated] |
+| `Class.Humanoid.Health` | `float` | [NotReplicated] |
+| `Class.Humanoid.HealthDisplayDistance` | `float` |  |
+| `Class.Humanoid.HealthDisplayType` | `Enum.HumanoidHealthDisplayType` |  |
+| `Class.Humanoid.HipHeight` | `float` |  |
+| `Class.Humanoid.InternalDisplayName` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Humanoid.Jump` | `bool` | [NotReplicated] |
+| `Class.Humanoid.JumpHeight` | `float` |  |
+| `Class.Humanoid.JumpPower` | `float` |  |
+| `Class.Humanoid.LeftLeg` | `Class.BasePart` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.Humanoid.MaxHealth` | `float` |  |
+| `Class.Humanoid.MaxSlopeAngle` | `float` |  |
+| `Class.Humanoid.MoveDirection` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |
+| `Class.Humanoid.NameDisplayDistance` | `float` |  |
+| `Class.Humanoid.NameOcclusion` | `Enum.NameOcclusion` |  |
+| `Class.Humanoid.PlatformStand` | `bool` |  |
+| `Class.Humanoid.RequiresNeck` | `bool` |  |
+| `Class.Humanoid.RigType` | `Enum.HumanoidRigType` |  |
+| `Class.Humanoid.RightLeg` | `Class.BasePart` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.Humanoid.RootPart` | `Class.BasePart` | [ReadOnly] [NotReplicated] |
+| `Class.Humanoid.SeatPart` | `Class.BasePart` | [ReadOnly] [NotReplicated] |
+| `Class.Humanoid.Sit` | `bool` |  |
+| `Class.Humanoid.TargetPoint` | `Datatype.Vector3` |  |
+| `Class.Humanoid.Torso` | `Class.BasePart` | [Hidden] [NotReplicated] [Deprecated] |
+| `Class.Humanoid.UseJumpPower` | `bool` |  |
+| `Class.Humanoid.WalkSpeed` | `float` |  |
+| `Class.Humanoid.WalkToPart` | `Class.BasePart` |  |
+| `Class.Humanoid.WalkToPoint` | `Datatype.Vector3` |  |
+| `Class.Humanoid.maxHealth` | `float` | [NotReplicated] [Deprecated] |
 
 ## Methods
 
-- **AddAccessory**(`accessory: Instance`) -> `null`
-- **AddCustomStatus**(`status: string`) -> `bool` [Deprecated]
-- **AddStatus**(`status: Status = Poison`) -> `bool` [Deprecated]
-- **ApplyAvatarRules**(`avatarRules: AvatarRules`) -> `null` [Yields]
-- **ApplyDescription**(`humanoidDescription: HumanoidDescription`, `assetTypeVerification: AssetTypeVerification = Default`) -> `null` [Yields] [Deprecated]
-- **ApplyDescriptionAsync**(`humanoidDescription: HumanoidDescription`, `assetTypeVerification: AssetTypeVerification = Default`) -> `null` [Yields]
-- **ApplyDescriptionReset**(`humanoidDescription: HumanoidDescription`, `assetTypeVerification: AssetTypeVerification = Default`) -> `null` [Yields] [Deprecated]
-- **ApplyDescriptionResetAsync**(`humanoidDescription: HumanoidDescription`, `assetTypeVerification: AssetTypeVerification = Default`) -> `null` [Yields]
-- **BuildRigFromAttachments**() -> `null`
-- **CacheDefaults**() -> `null`
-- **ChangeState**(`state: HumanoidStateType = None`) -> `null`
-- **ComputeOriginalSizeForPart**(`part: Instance`) -> `Vector3?`
-- **ComputeR15BodyBoundingBox**() -> `[{'Category': 'DataType', 'Name': 'CFrame'}, {'Category': 'DataType', 'Name': 'Vector3'}]`
-- **EquipTool**(`tool: Instance`) -> `null`
-- **GetAccessories**() -> `Array`
-- **GetAccessoryHandleScale**(`instance: Instance`, `partType: BodyPartR15`) -> `Vector3`
-- **GetAppliedDescription**() -> `HumanoidDescription`
-- **GetBodyPartR15**(`part: Instance`) -> `BodyPartR15`
-- **GetLimb**(`part: Instance`) -> `Limb`
-- **GetMoveVelocity**() -> `Vector3`
-- **GetPlayingAnimationTracks**() -> `Array` [Deprecated]
-- **GetRelativeVelocityAtFloor**() -> `Vector3`
-- **GetState**() -> `HumanoidStateType`
-- **GetStateEnabled**(`state: HumanoidStateType`) -> `bool`
-- **GetStatuses**() -> `Array` [Deprecated]
-- **HasCustomStatus**(`status: string`) -> `bool` [Deprecated]
-- **HasStatus**(`status: Status = Poison`) -> `bool` [Deprecated]
-- **LoadAnimation**(`animation: Animation`) -> `AnimationTrack` [Deprecated]
-- **Move**(`moveDirection: Vector3`, `relativeToCamera: bool = false`) -> `null`
-- **MoveTo**(`location: Vector3`, `part: Instance = nil`) -> `null`
-- **PlayEmote**(`emoteName: string`) -> `bool` [Yields] [Deprecated]
-- **PlayEmoteAndGetAnimTrackById**(`emoteId: int64`) -> `Tuple` [Yields]
-- **PlayEmoteAsync**(`emoteName: string`) -> `bool` [Yields]
-- **RemoveAccessories**() -> `null`
-- **RemoveCustomStatus**(`status: string`) -> `bool` [Deprecated]
-- **RemoveStatus**(`status: Status = Poison`) -> `bool` [Deprecated]
-- **ReplaceBodyPartR15**(`bodyPart: BodyPartR15`, `part: BasePart`) -> `bool`
-- **SetClickToWalkEnabled**(`enabled: bool`) -> `null`
-- **SetStateEnabled**(`state: HumanoidStateType`, `enabled: bool`) -> `null`
-- **TakeDamage**(`amount: float`) -> `null`
-- **UnequipTools**() -> `null`
-- **loadAnimation**(`animation: Animation`) -> `AnimationTrack` [Deprecated]
-- **takeDamage**(`amount: float`) -> `null` [Deprecated]
+### `Class.Humanoid:AddAccessory`
+
+``AddAccessory(accessory: `Class.Instance`)`` → `null`
+
+### `Class.Humanoid:AddCustomStatus`
+
+``AddCustomStatus(status: `string`)`` → `bool`
+  [Deprecated]
+
+### `Class.Humanoid:AddStatus`
+
+``AddStatus(status: `Enum.Status`)`` → `bool`
+  [Deprecated]
+
+### `Class.Humanoid:ApplyAvatarRules`
+
+``ApplyAvatarRules(avatarRules: `Class.AvatarRules`)`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.Humanoid:ApplyDescription`
+
+``ApplyDescription(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `null`
+  [Yields] [Deprecated]
+
+### `Class.Humanoid:ApplyDescriptionAsync`
+
+``ApplyDescriptionAsync(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `null`
+  [Yields]
+
+### `Class.Humanoid:ApplyDescriptionReset`
+
+``ApplyDescriptionReset(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `null`
+  [Yields] [Deprecated]
+
+### `Class.Humanoid:ApplyDescriptionResetAsync`
+
+``ApplyDescriptionResetAsync(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `null`
+  [Yields]
+
+### `Class.Humanoid:BuildRigFromAttachments`
+
+``BuildRigFromAttachments()`` → `null`
+
+### `Class.Humanoid:CacheDefaults`
+
+``CacheDefaults()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Humanoid:ChangeState`
+
+``ChangeState(state: `Enum.HumanoidStateType`)`` → `null`
+
+### `Class.Humanoid:ComputeOriginalSizeForPart`
+
+``ComputeOriginalSizeForPart(part: `Class.Instance`)`` → `Datatype.Vector3`?
+   {security: RobloxScriptSecurity}
+
+### `Class.Humanoid:ComputeR15BodyBoundingBox`
+
+``ComputeR15BodyBoundingBox()`` → `[{'Category': 'DataType', 'Name': 'CFrame'}, {'Category': 'DataType', 'Name': 'Vector3'}]`
+   {security: RobloxScriptSecurity}
+
+### `Class.Humanoid:EquipTool`
+
+``EquipTool(tool: `Class.Instance`)`` → `null`
+
+### `Class.Humanoid:GetAccessories`
+
+``GetAccessories()`` → `Array`
+
+### `Class.Humanoid:GetAccessoryHandleScale`
+
+``GetAccessoryHandleScale(instance: `Class.Instance`, partType: `Enum.BodyPartR15`)`` → `Datatype.Vector3`
+   {security: RobloxScriptSecurity}
+
+### `Class.Humanoid:GetAppliedDescription`
+
+``GetAppliedDescription()`` → `Class.HumanoidDescription`
+
+### `Class.Humanoid:GetBodyPartR15`
+
+``GetBodyPartR15(part: `Class.Instance`)`` → `Enum.BodyPartR15`
+
+### `Class.Humanoid:GetLimb`
+
+``GetLimb(part: `Class.Instance`)`` → `Enum.Limb`
+
+### `Class.Humanoid:GetMoveVelocity`
+
+``GetMoveVelocity()`` → `Datatype.Vector3`
+
+### `Class.Humanoid:GetPlayingAnimationTracks`
+
+``GetPlayingAnimationTracks()`` → `Array`
+  [Deprecated]
+
+### `Class.Humanoid:GetRelativeVelocityAtFloor`
+
+``GetRelativeVelocityAtFloor()`` → `Datatype.Vector3`
+
+### `Class.Humanoid:GetState`
+
+``GetState()`` → `Enum.HumanoidStateType`
+
+### `Class.Humanoid:GetStateEnabled`
+
+``GetStateEnabled(state: `Enum.HumanoidStateType`)`` → `bool`
+
+### `Class.Humanoid:GetStatuses`
+
+``GetStatuses()`` → `Array`
+  [Deprecated]
+
+### `Class.Humanoid:HasCustomStatus`
+
+``HasCustomStatus(status: `string`)`` → `bool`
+  [Deprecated]
+
+### `Class.Humanoid:HasStatus`
+
+``HasStatus(status: `Enum.Status`)`` → `bool`
+  [Deprecated]
+
+### `Class.Humanoid:LoadAnimation`
+
+``LoadAnimation(animation: `Class.Animation`)`` → `Class.AnimationTrack`
+  [Deprecated]
+
+### `Class.Humanoid:Move`
+
+``Move(moveDirection: `Datatype.Vector3`, relativeToCamera: `bool`)`` → `null`
+
+### `Class.Humanoid:MoveTo`
+
+``MoveTo(location: `Datatype.Vector3`, part: `Class.Instance`)`` → `null`
+
+### `Class.Humanoid:PlayEmote`
+
+``PlayEmote(emoteName: `string`)`` → `bool`
+  [Yields] [Deprecated]
+
+### `Class.Humanoid:PlayEmoteAndGetAnimTrackById`
+
+``PlayEmoteAndGetAnimTrackById(emoteId: `int64`)`` → `Tuple`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.Humanoid:PlayEmoteAsync`
+
+``PlayEmoteAsync(emoteName: `string`)`` → `bool`
+  [Yields]
+
+### `Class.Humanoid:RemoveAccessories`
+
+``RemoveAccessories()`` → `null`
+
+### `Class.Humanoid:RemoveCustomStatus`
+
+``RemoveCustomStatus(status: `string`)`` → `bool`
+  [Deprecated]
+
+### `Class.Humanoid:RemoveStatus`
+
+``RemoveStatus(status: `Enum.Status`)`` → `bool`
+  [Deprecated]
+
+### `Class.Humanoid:ReplaceBodyPartR15`
+
+``ReplaceBodyPartR15(bodyPart: `Enum.BodyPartR15`, part: `Class.BasePart`)`` → `bool`
+
+### `Class.Humanoid:SetClickToWalkEnabled`
+
+``SetClickToWalkEnabled(enabled: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Humanoid:SetStateEnabled`
+
+``SetStateEnabled(state: `Enum.HumanoidStateType`, enabled: `bool`)`` → `null`
+
+### `Class.Humanoid:TakeDamage`
+
+``TakeDamage(amount: `float`)`` → `null`
+
+### `Class.Humanoid:UnequipTools`
+
+``UnequipTools()`` → `null`
+
+### `Class.Humanoid:loadAnimation`
+
+``loadAnimation(animation: `Class.Animation`)`` → `Class.AnimationTrack`
+  [Deprecated]
+
+### `Class.Humanoid:takeDamage`
+
+``takeDamage(amount: `float`)`` → `null`
+  [Deprecated]
 
 ## Events
 
-- **AnimationPlayed**(`animationTrack: AnimationTrack`) [Deprecated]
-- **ApplyDescriptionFinished**(`description: HumanoidDescription`)
-- **Climbing**(`speed: float`)
-- **ClusterCompositionFinished**()
-- **CustomStatusAdded**(`status: string`) [Deprecated]
-- **CustomStatusRemoved**(`status: string`) [Deprecated]
-- **Died**()
-- **EmoteTriggered**(`success: bool`, `animationTrack: AnimationTrack`)
-- **FallingDown**(`active: bool`)
-- **FreeFalling**(`active: bool`)
-- **GettingUp**(`active: bool`)
-- **HealthChanged**(`health: float`)
-- **Jumping**(`active: bool`)
-- **MoveToFinished**(`reached: bool`)
-- **PlatformStanding**(`active: bool`)
-- **Ragdoll**(`active: bool`)
-- **Running**(`speed: float`)
-- **Seated**(`active: bool`, `currentSeatPart: BasePart`)
-- **StateChanged**(`old: HumanoidStateType`, `new: HumanoidStateType`)
-- **StateEnabledChanged**(`state: HumanoidStateType`, `isEnabled: bool`)
-- **StatusAdded**(`status: Status`) [Deprecated]
-- **StatusRemoved**(`status: Status`) [Deprecated]
-- **Strafing**(`active: bool`)
-- **Swimming**(`speed: float`)
-- **Touched**(`touchingPart: BasePart`, `humanoidPart: BasePart`)
+### `Class.Humanoid.AnimationPlayed`
+
+Fires with: (animationTrack: `Class.AnimationTrack`)
+  [Deprecated]
+
+### `Class.Humanoid.ApplyDescriptionFinished`
+
+Fires with: (description: `Class.HumanoidDescription`)
+
+### `Class.Humanoid.Climbing`
+
+Fires with: (speed: `float`)
+
+### `Class.Humanoid.ClusterCompositionFinished`
+
+Fires with: ()
+
+### `Class.Humanoid.CustomStatusAdded`
+
+Fires with: (status: `string`)
+  [Deprecated]
+
+### `Class.Humanoid.CustomStatusRemoved`
+
+Fires with: (status: `string`)
+  [Deprecated]
+
+### `Class.Humanoid.Died`
+
+Fires with: ()
+
+### `Class.Humanoid.EmoteTriggered`
+
+Fires with: (success: `bool`, animationTrack: `Class.AnimationTrack`)
+
+### `Class.Humanoid.FallingDown`
+
+Fires with: (active: `bool`)
+
+### `Class.Humanoid.FreeFalling`
+
+Fires with: (active: `bool`)
+
+### `Class.Humanoid.GettingUp`
+
+Fires with: (active: `bool`)
+
+### `Class.Humanoid.HealthChanged`
+
+Fires with: (health: `float`)
+
+### `Class.Humanoid.Jumping`
+
+Fires with: (active: `bool`)
+
+### `Class.Humanoid.MoveToFinished`
+
+Fires with: (reached: `bool`)
+
+### `Class.Humanoid.PlatformStanding`
+
+Fires with: (active: `bool`)
+
+### `Class.Humanoid.Ragdoll`
+
+Fires with: (active: `bool`)
+
+### `Class.Humanoid.Running`
+
+Fires with: (speed: `float`)
+
+### `Class.Humanoid.Seated`
+
+Fires with: (active: `bool`, currentSeatPart: `Class.BasePart`)
+
+### `Class.Humanoid.StateChanged`
+
+Fires with: (old: `Enum.HumanoidStateType`, new: `Enum.HumanoidStateType`)
+
+### `Class.Humanoid.StateEnabledChanged`
+
+Fires with: (state: `Enum.HumanoidStateType`, isEnabled: `bool`)
+
+### `Class.Humanoid.StatusAdded`
+
+Fires with: (status: `Enum.Status`)
+  [Deprecated]
+
+### `Class.Humanoid.StatusRemoved`
+
+Fires with: (status: `Enum.Status`)
+  [Deprecated]
+
+### `Class.Humanoid.Strafing`
+
+Fires with: (active: `bool`)
+
+### `Class.Humanoid.Swimming`
+
+Fires with: (speed: `float`)
+
+### `Class.Humanoid.Touched`
+
+Fires with: (touchingPart: `Class.BasePart`, humanoidPart: `Class.BasePart`)

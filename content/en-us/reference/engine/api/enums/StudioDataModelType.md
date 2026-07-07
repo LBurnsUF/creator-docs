@@ -3,12 +3,14 @@ title: StudioDataModelType
 type: enum
 ---
 
-# StudioDataModelType (Enum)
+# `Enum.StudioDataModelType`
+
+The `Enum.StudioDataModelType` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Edit | 0 |
-| PlayClient | 1 |
-| PlayServer | 2 |
-| Standalone | 3 |
-| None | 4 |
+| `Enum.StudioDataModelType.Edit` | 0 |
+| `Enum.StudioDataModelType.PlayClient` | 1 |
+| `Enum.StudioDataModelType.PlayServer` | 2 |
+| `Enum.StudioDataModelType.Standalone` | 3 |
+| `Enum.StudioDataModelType.None` | 4 |

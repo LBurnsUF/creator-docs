@@ -6,32 +6,36 @@ superclass: Instance
 
 # Beam
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Attachment0**: `Attachment`
-- **Attachment1**: `Attachment`
-- **Brightness**: `float`
-- **Color**: `ColorSequence`
-- **CurveSize0**: `float`
-- **CurveSize1**: `float`
-- **Enabled**: `bool`
-- **FaceCamera**: `bool`
-- **LightEmission**: `float`
-- **LightInfluence**: `float`
-- **LocalTransparencyModifier**: `float` [Hidden] [NotReplicated]
-- **Segments**: `int`
-- **Texture**: `ContentId`
-- **TextureContent**: `Content`
-- **TextureLength**: `float`
-- **TextureMode**: `TextureMode`
-- **TextureSpeed**: `float`
-- **Transparency**: `NumberSequence`
-- **Width0**: `float`
-- **Width1**: `float`
-- **ZOffset**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Beam.Attachment0` | `Class.Attachment` |  |
+| `Class.Beam.Attachment1` | `Class.Attachment` |  |
+| `Class.Beam.Brightness` | `float` |  |
+| `Class.Beam.Color` | `Datatype.ColorSequence` |  |
+| `Class.Beam.CurveSize0` | `float` |  |
+| `Class.Beam.CurveSize1` | `float` |  |
+| `Class.Beam.Enabled` | `bool` |  |
+| `Class.Beam.FaceCamera` | `bool` |  |
+| `Class.Beam.LightEmission` | `float` |  |
+| `Class.Beam.LightInfluence` | `float` |  |
+| `Class.Beam.LocalTransparencyModifier` | `float` | [Hidden] [NotReplicated] |
+| `Class.Beam.Segments` | `int` |  |
+| `Class.Beam.Texture` | `Datatype.ContentId` |  |
+| `Class.Beam.TextureContent` | `Datatype.Content` |  |
+| `Class.Beam.TextureLength` | `float` |  |
+| `Class.Beam.TextureMode` | `Enum.TextureMode` |  |
+| `Class.Beam.TextureSpeed` | `float` |  |
+| `Class.Beam.Transparency` | `Datatype.NumberSequence` |  |
+| `Class.Beam.Width0` | `float` |  |
+| `Class.Beam.Width1` | `float` |  |
+| `Class.Beam.ZOffset` | `float` |  |
 
 ## Methods
 
-- **SetTextureOffset**(`offset: float = 0`) -> `null`
+### `Class.Beam:SetTextureOffset`
+
+``SetTextureOffset(offset: `float`)`` → `null`

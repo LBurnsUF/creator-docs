@@ -7,33 +7,87 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ContentProvider
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **BaseUrl**: `string` [ReadOnly] [NotReplicated]
-- **RequestQueueSize**: `int` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ContentProvider.BaseUrl` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.ContentProvider.RequestQueueSize` | `int` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetAssetFetchStatus**(`contentId: ContentId`) -> `AssetFetchStatus`
-- **GetAssetFetchStatusChangedSignal**(`contentId: ContentId`) -> `RBXScriptSignal`
-- **GetDependencyContentIds**(`root: Instance`) -> `Array`
-- **GetDetailedFailedRequests**() -> `Array`
-- **GetFailedRequests**() -> `Array`
-- **ListEncryptedAssets**() -> `Array`
-- **Preload**(`contentId: ContentId`) -> `null` [Deprecated]
-- **PreloadAsync**(`contentIdList: Array`, `callbackFunction: Function = nil`) -> `null` [Yields]
-- **RegisterDefaultEncryptionKey**(`encryptionKey: string`) -> `null`
-- **RegisterDefaultSessionKey**(`sessionKey: string`) -> `null`
-- **RegisterEncryptedAsset**(`assetId: ContentId`, `encryptionKey: string`) -> `null`
-- **RegisterSessionEncryptedAsset**(`contentId: ContentId`, `sessionKey: string`) -> `null`
-- **SetBaseUrl**(`url: string`) -> `null`
-- **UnregisterDefaultEncryptionKey**() -> `null`
-- **UnregisterEncryptedAsset**(`assetId: ContentId`) -> `null`
+### `Class.ContentProvider:GetAssetFetchStatus`
+
+``GetAssetFetchStatus(contentId: `Datatype.ContentId`)`` → `Enum.AssetFetchStatus`
+
+### `Class.ContentProvider:GetAssetFetchStatusChangedSignal`
+
+``GetAssetFetchStatusChangedSignal(contentId: `Datatype.ContentId`)`` → `Datatype.RBXScriptSignal`
+
+### `Class.ContentProvider:GetDependencyContentIds`
+
+``GetDependencyContentIds(root: `Class.Instance`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.ContentProvider:GetDetailedFailedRequests`
+
+``GetDetailedFailedRequests()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.ContentProvider:GetFailedRequests`
+
+``GetFailedRequests()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.ContentProvider:ListEncryptedAssets`
+
+``ListEncryptedAssets()`` → `Array`
+
+### `Class.ContentProvider:Preload`
+
+``Preload(contentId: `Datatype.ContentId`)`` → `null`
+  [Deprecated]
+
+### `Class.ContentProvider:PreloadAsync`
+
+``PreloadAsync(contentIdList: `Array`, callbackFunction: `Datatype.Function`)`` → `null`
+  [Yields]
+
+### `Class.ContentProvider:RegisterDefaultEncryptionKey`
+
+``RegisterDefaultEncryptionKey(encryptionKey: `string`)`` → `null`
+
+### `Class.ContentProvider:RegisterDefaultSessionKey`
+
+``RegisterDefaultSessionKey(sessionKey: `string`)`` → `null`
+
+### `Class.ContentProvider:RegisterEncryptedAsset`
+
+``RegisterEncryptedAsset(assetId: `Datatype.ContentId`, encryptionKey: `string`)`` → `null`
+
+### `Class.ContentProvider:RegisterSessionEncryptedAsset`
+
+``RegisterSessionEncryptedAsset(contentId: `Datatype.ContentId`, sessionKey: `string`)`` → `null`
+
+### `Class.ContentProvider:SetBaseUrl`
+
+``SetBaseUrl(url: `string`)`` → `null`
+   {security: LocalUserSecurity}
+
+### `Class.ContentProvider:UnregisterDefaultEncryptionKey`
+
+``UnregisterDefaultEncryptionKey()`` → `null`
+
+### `Class.ContentProvider:UnregisterEncryptedAsset`
+
+``UnregisterEncryptedAsset(assetId: `Datatype.ContentId`)`` → `null`
 
 ## Events
 
-- **AssetFetchFailed**(`assetId: ContentId`)
+### `Class.ContentProvider.AssetFetchFailed`
+
+Fires with: (assetId: `Datatype.ContentId`)

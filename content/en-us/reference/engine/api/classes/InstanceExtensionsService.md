@@ -7,10 +7,13 @@ tags: [NotCreatable, Service]
 
 # InstanceExtensionsService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **CountChildren**(`instance: Instance`) -> `int`
+### `Class.InstanceExtensionsService:CountChildren`
+
+``CountChildren(instance: `Class.Instance`)`` → `int`
+   {security: RobloxScriptSecurity}

@@ -7,21 +7,51 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AudioFocusService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **AcquireFocus**(`contextId: int`) -> `bool`
-- **GetFocusedContextId**() -> `int`
-- **GetRegisteredContexts**() -> `Array`
-- **RegisterContextIdFromLua**(`contextId: int`) -> `null`
-- **RequestFocus**(`contextId: int`, `priority: int`) -> `bool`
+### `Class.AudioFocusService:AcquireFocus`
+
+``AcquireFocus(contextId: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.AudioFocusService:GetFocusedContextId`
+
+``GetFocusedContextId()`` → `int`
+   {security: RobloxScriptSecurity}
+
+### `Class.AudioFocusService:GetRegisteredContexts`
+
+``GetRegisteredContexts()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.AudioFocusService:RegisterContextIdFromLua`
+
+``RegisterContextIdFromLua(contextId: `int`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.AudioFocusService:RequestFocus`
+
+``RequestFocus(contextId: `int`, priority: `int`)`` → `bool`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **OnContextRegistered**(`contextId: int`)
-- **OnContextUnregistered**(`contextId: int`)
-- **OnDeafenVoiceAudio**(`contextId: int`)
-- **OnUndeafenVoiceAudio**(`contextId: int`)
+### `Class.AudioFocusService.OnContextRegistered`
+
+Fires with: (contextId: `int`)
+
+### `Class.AudioFocusService.OnContextUnregistered`
+
+Fires with: (contextId: `int`)
+
+### `Class.AudioFocusService.OnDeafenVoiceAudio`
+
+Fires with: (contextId: `int`)
+
+### `Class.AudioFocusService.OnUndeafenVoiceAudio`
+
+Fires with: (contextId: `int`)

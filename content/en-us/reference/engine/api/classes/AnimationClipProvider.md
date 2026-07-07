@@ -7,20 +7,61 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AnimationClipProvider
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetAnimationClip**(`assetId: ContentId`) -> `AnimationClip` [Deprecated]
-- **GetAnimationClipAsync**(`assetId: ContentId`) -> `AnimationClip` [Yields]
-- **GetAnimationClipById**(`assetId: int64`, `useCache: bool`) -> `AnimationClip` [Deprecated]
-- **GetAnimationNodeDefinition**(`type: AnimationNodeType`) -> `Dictionary`
-- **GetAnimationNodeTypes**() -> `Array`
-- **GetAnimations**(`userId: User`) -> `Instance` [Yields] [Deprecated]
-- **GetAnimationsAsync**(`userId: User`) -> `Instance` [Yields]
-- **GetClipEvaluatorAsync**(`assetId: ContentId`) -> `ClipEvaluator` [Yields]
-- **GetMemStats**() -> `Dictionary`
-- **RegisterActiveAnimationClip**(`animationClip: AnimationClip`) -> `ContentId`
-- **RegisterAnimationClip**(`animationClip: AnimationClip`) -> `ContentId`
+### `Class.AnimationClipProvider:GetAnimationClip`
+
+``GetAnimationClip(assetId: `Datatype.ContentId`)`` → `Class.AnimationClip`
+  [Deprecated] {security: PluginSecurity}
+
+### `Class.AnimationClipProvider:GetAnimationClipAsync`
+
+``GetAnimationClipAsync(assetId: `Datatype.ContentId`)`` → `Class.AnimationClip`
+  [Yields]
+
+### `Class.AnimationClipProvider:GetAnimationClipById`
+
+``GetAnimationClipById(assetId: `int64`, useCache: `bool`)`` → `Class.AnimationClip`
+  [Deprecated] {security: PluginSecurity}
+
+### `Class.AnimationClipProvider:GetAnimationNodeDefinition`
+
+``GetAnimationNodeDefinition(type: `Enum.AnimationNodeType`)`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationClipProvider:GetAnimationNodeTypes`
+
+``GetAnimationNodeTypes()`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationClipProvider:GetAnimations`
+
+``GetAnimations(userId: `Datatype.User`)`` → `Class.Instance`
+  [Yields] [Deprecated]
+
+### `Class.AnimationClipProvider:GetAnimationsAsync`
+
+``GetAnimationsAsync(userId: `Datatype.User`)`` → `Class.Instance`
+  [Yields]
+
+### `Class.AnimationClipProvider:GetClipEvaluatorAsync`
+
+``GetClipEvaluatorAsync(assetId: `Datatype.ContentId`)`` → `Datatype.ClipEvaluator`
+  [Yields]
+
+### `Class.AnimationClipProvider:GetMemStats`
+
+``GetMemStats()`` → `Dictionary`
+   {security: RobloxScriptSecurity}
+
+### `Class.AnimationClipProvider:RegisterActiveAnimationClip`
+
+``RegisterActiveAnimationClip(animationClip: `Class.AnimationClip`)`` → `Datatype.ContentId`
+
+### `Class.AnimationClipProvider:RegisterAnimationClip`
+
+``RegisterAnimationClip(animationClip: `Class.AnimationClip`)`` → `Datatype.ContentId`

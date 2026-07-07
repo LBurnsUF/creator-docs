@@ -3,9 +3,11 @@ title: BulkMoveMode
 type: enum
 ---
 
-# BulkMoveMode (Enum)
+# `Enum.BulkMoveMode`
+
+The `Enum.BulkMoveMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| FireAllEvents | 0 |
-| FireCFrameChanged | 1 |
+| `Enum.BulkMoveMode.FireAllEvents` | 0 |
+| `Enum.BulkMoveMode.FireCFrameChanged` | 1 |

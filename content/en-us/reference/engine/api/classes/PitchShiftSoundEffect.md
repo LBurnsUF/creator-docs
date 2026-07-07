@@ -6,8 +6,10 @@ superclass: SoundEffect
 
 # PitchShiftSoundEffect
 
-**Inherits**: SoundEffect > Instance > Object
+**Inherits from:** `Class.SoundEffect` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Octave**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PitchShiftSoundEffect.Octave` | `float` |  |

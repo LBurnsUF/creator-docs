@@ -7,10 +7,12 @@ tags: [NotCreatable]
 
 # LodDataEntity
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **EntityLodEnabled**: `bool` [Hidden] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.LodDataEntity.EntityLodEnabled` | `bool` | [Hidden] [NotReplicated] |

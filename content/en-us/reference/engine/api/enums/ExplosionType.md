@@ -3,9 +3,11 @@ title: ExplosionType
 type: enum
 ---
 
-# ExplosionType (Enum)
+# `Enum.ExplosionType`
+
+The `Enum.ExplosionType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| NoCraters | 0 |
-| Craters | 1 |
+| `Enum.ExplosionType.NoCraters` | 0 |
+| `Enum.ExplosionType.Craters` | 1 |

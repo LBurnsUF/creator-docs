@@ -7,10 +7,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PackageService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **UpdateAsync**(`packageRoot: Instance`, `version: int64 = 0`) -> `Instance` [Yields]
+### `Class.PackageService:UpdateAsync`
+
+``UpdateAsync(packageRoot: `Class.Instance`, version: `int64`)`` → `Class.Instance`
+  [Yields] {security: RobloxScriptSecurity}

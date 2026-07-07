@@ -7,12 +7,23 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # OmniRecommendationsService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **ClearSessionId**() -> `null`
-- **GetSessionId**() -> `string`
-- **MakeRequest**(`nextPageToken: string`) -> `HttpRequest`
+### `Class.OmniRecommendationsService:ClearSessionId`
+
+``ClearSessionId()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.OmniRecommendationsService:GetSessionId`
+
+``GetSessionId()`` → `string`
+   {security: RobloxScriptSecurity}
+
+### `Class.OmniRecommendationsService:MakeRequest`
+
+``MakeRequest(nextPageToken: `string`)`` → `Class.HttpRequest`
+   {security: RobloxScriptSecurity}

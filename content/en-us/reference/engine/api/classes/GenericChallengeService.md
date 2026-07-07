@@ -7,22 +7,55 @@ tags: [NotCreatable, Service]
 
 # GenericChallengeService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **SignalChallengeAbandoned**(`challengeID: string`) -> `null`
-- **SignalChallengeCompleted**(`challengeID: string`, `challengeType: string`, `challengeMetadata: string`) -> `null`
-- **SignalChallengeInvalidated**(`challengeID: string`) -> `null`
-- **SignalChallengeLoaded**(`challengeID: string`, `success: bool`) -> `null`
-- **SignalChallengeRequired**(`challengeID: string`, `challengeType: string`, `challengeMetadata: string`) -> `null`
+### `Class.GenericChallengeService:SignalChallengeAbandoned`
+
+``SignalChallengeAbandoned(challengeID: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.GenericChallengeService:SignalChallengeCompleted`
+
+``SignalChallengeCompleted(challengeID: `string`, challengeType: `string`, challengeMetadata: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.GenericChallengeService:SignalChallengeInvalidated`
+
+``SignalChallengeInvalidated(challengeID: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.GenericChallengeService:SignalChallengeLoaded`
+
+``SignalChallengeLoaded(challengeID: `string`, success: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.GenericChallengeService:SignalChallengeRequired`
+
+``SignalChallengeRequired(challengeID: `string`, challengeType: `string`, challengeMetadata: `string`)`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **ChallengeAbandonedEvent**(`challengeID: string`)
-- **ChallengeCompletedEvent**(`challengeID: string`, `challengeType: string`, `challengeMetadata: string`)
-- **ChallengeInvalidatedEvent**(`challengeID: string`)
-- **ChallengeLoadedEvent**(`challengeID: string`, `success: bool`)
-- **ChallengeRequiredEvent**(`challengeID: string`, `challengeType: string`, `challengeMetadata: string`)
+### `Class.GenericChallengeService.ChallengeAbandonedEvent`
+
+Fires with: (challengeID: `string`)
+
+### `Class.GenericChallengeService.ChallengeCompletedEvent`
+
+Fires with: (challengeID: `string`, challengeType: `string`, challengeMetadata: `string`)
+
+### `Class.GenericChallengeService.ChallengeInvalidatedEvent`
+
+Fires with: (challengeID: `string`)
+
+### `Class.GenericChallengeService.ChallengeLoadedEvent`
+
+Fires with: (challengeID: `string`, success: `bool`)
+
+### `Class.GenericChallengeService.ChallengeRequiredEvent`
+
+Fires with: (challengeID: `string`, challengeType: `string`, challengeMetadata: `string`)

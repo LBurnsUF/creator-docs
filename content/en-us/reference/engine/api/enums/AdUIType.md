@@ -3,10 +3,12 @@ title: AdUIType
 type: enum
 ---
 
-# AdUIType (Enum)
+# `Enum.AdUIType`
+
+The `Enum.AdUIType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Image | 1 |
-| Video | 2 |
+| `Enum.AdUIType.None` | 0 |
+| `Enum.AdUIType.Image` | 1 |
+| `Enum.AdUIType.Video` | 2 |

@@ -7,36 +7,68 @@ tags: [NotCreatable, NotReplicated]
 
 # PlayerDataRecord
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **CreatedTime**: `int64` [ReadOnly] [NotReplicated]
-- **DefaultRecordName**: `bool` [ReadOnly] [NotReplicated]
-- **Dirty**: `bool` [ReadOnly] [NotReplicated]
-- **Error**: `PlayerDataErrorState` [ReadOnly] [NotReplicated]
-- **FlushedTime**: `int64` [ReadOnly] [NotReplicated]
-- **LoadedTime**: `int64` [ReadOnly] [NotReplicated]
-- **ModifiedTime**: `int64` [ReadOnly] [NotReplicated]
-- **NewRecord**: `bool` [ReadOnly] [NotReplicated]
-- **Readable**: `bool` [ReadOnly] [NotReplicated]
-- **RecordName**: `string` [ReadOnly] [NotReplicated]
-- **Writable**: `bool` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PlayerDataRecord.CreatedTime` | `int64` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerDataRecord.DefaultRecordName` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerDataRecord.Dirty` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerDataRecord.Error` | `Enum.PlayerDataErrorState` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerDataRecord.FlushedTime` | `int64` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerDataRecord.LoadedTime` | `int64` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerDataRecord.ModifiedTime` | `int64` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerDataRecord.NewRecord` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerDataRecord.Readable` | `bool` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerDataRecord.RecordName` | `string` | [ReadOnly] [NotReplicated] |
+| `Class.PlayerDataRecord.Writable` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
-- **GetPlayer**() -> `Player`
-- **GetValue**(`key: string`) -> `Variant`
-- **GetValueChangedSignal**(`key: string`) -> `RBXScriptSignal`
-- **ReleaseAsync**() -> `null` [Yields]
-- **RemoveValue**(`key: string`) -> `null`
-- **RequestFlushAsync**() -> `null` [Yields]
-- **SetValue**(`key: string`, `value: Variant`) -> `null`
+### `Class.PlayerDataRecord:GetPlayer`
+
+``GetPlayer()`` → `Class.Player`
+
+### `Class.PlayerDataRecord:GetValue`
+
+``GetValue(key: `string`)`` → `Variant`
+
+### `Class.PlayerDataRecord:GetValueChangedSignal`
+
+``GetValueChangedSignal(key: `string`)`` → `Datatype.RBXScriptSignal`
+
+### `Class.PlayerDataRecord:ReleaseAsync`
+
+``ReleaseAsync()`` → `null`
+  [Yields]
+
+### `Class.PlayerDataRecord:RemoveValue`
+
+``RemoveValue(key: `string`)`` → `null`
+
+### `Class.PlayerDataRecord:RequestFlushAsync`
+
+``RequestFlushAsync()`` → `null`
+  [Yields]
+
+### `Class.PlayerDataRecord:SetValue`
+
+``SetValue(key: `string`, value: `Variant`)`` → `null`
 
 ## Events
 
-- **Changed**(`key: string`, `value: Variant`)
-- **Flushed**(`flushState: bool`, `error: string?`)
-- **Loaded**(`success: bool`, `error: string?`)
+### `Class.PlayerDataRecord.Changed`
+
+Fires with: (key: `string`, value: `Variant`)
+
+### `Class.PlayerDataRecord.Flushed`
+
+Fires with: (flushState: `bool`, error: `string?`)
+
+### `Class.PlayerDataRecord.Loaded`
+
+Fires with: (success: `bool`, error: `string?`)

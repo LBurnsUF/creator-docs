@@ -3,10 +3,12 @@ title: CurrencyType
 type: enum
 ---
 
-# CurrencyType (Enum)
+# `Enum.CurrencyType`
+
+The `Enum.CurrencyType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Robux | 1 |
-| Tix | 2 |
+| `Enum.CurrencyType.Default` | 0 |
+| `Enum.CurrencyType.Robux` | 1 |
+| `Enum.CurrencyType.Tix` | 2 |

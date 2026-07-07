@@ -3,11 +3,11 @@ title: Secret
 type: datatype
 ---
 
-# Secret (DataType)
+# `Datatype.Secret`
 
-Used in 2 locations across the API.
+Used in 2 locations across the Roblox API.
 
 ## Used as Return Type
 
-- HttpService.GetSecret
-- HttpService.RequestAccessTokenScopesAsync
+- `Class.HttpService:GetSecret`
+- `Class.HttpService:RequestAccessTokenScopesAsync`

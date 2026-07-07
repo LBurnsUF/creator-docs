@@ -3,12 +3,14 @@ title: UpdateState
 type: enum
 ---
 
-# UpdateState (Enum)
+# `Enum.UpdateState`
+
+The `Enum.UpdateState` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| UpdateNotAvailable | 0 |
-| UpdateAvailable | 1 |
-| UpdateInProgress | 2 |
-| UpdateReady | 3 |
-| UpdateFailed | 4 |
+| `Enum.UpdateState.UpdateNotAvailable` | 0 |
+| `Enum.UpdateState.UpdateAvailable` | 1 |
+| `Enum.UpdateState.UpdateInProgress` | 2 |
+| `Enum.UpdateState.UpdateReady` | 3 |
+| `Enum.UpdateState.UpdateFailed` | 4 |

@@ -6,9 +6,11 @@ superclass: SensorBase
 
 # AtmosphereSensor
 
-**Inherits**: SensorBase > Instance > Object
+**Inherits from:** `Class.SensorBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AirDensity**: `float` [ReadOnly] [NotReplicated]
-- **RelativeWindVelocity**: `Vector3` [ReadOnly] [NotReplicated]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AtmosphereSensor.AirDensity` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.AtmosphereSensor.RelativeWindVelocity` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |

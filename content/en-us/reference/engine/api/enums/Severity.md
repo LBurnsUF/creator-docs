@@ -3,11 +3,13 @@ title: Severity
 type: enum
 ---
 
-# Severity (Enum)
+# `Enum.Severity`
+
+The `Enum.Severity` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Error | 1 |
-| Warning | 2 |
-| Information | 3 |
-| Hint | 4 |
+| `Enum.Severity.Error` | 1 |
+| `Enum.Severity.Warning` | 2 |
+| `Enum.Severity.Information` | 3 |
+| `Enum.Severity.Hint` | 4 |

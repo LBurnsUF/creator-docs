@@ -7,14 +7,18 @@ tags: [NotReplicated]
 
 # DataStoreOptions
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotReplicated
+**Tags:** [NotReplicated]
 
 ## Properties
 
-- **AllScopes**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.DataStoreOptions.AllScopes` | `bool` |  |
 
 ## Methods
 
-- **SetExperimentalFeatures**(`experimentalFeatures: Dictionary`) -> `null`
+### `Class.DataStoreOptions:SetExperimentalFeatures`
+
+``SetExperimentalFeatures(experimentalFeatures: `Dictionary`)`` → `null`

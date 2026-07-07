@@ -3,11 +3,13 @@ title: StudioCaptureBufferStatus
 type: enum
 ---
 
-# StudioCaptureBufferStatus (Enum)
+# `Enum.StudioCaptureBufferStatus`
+
+The `Enum.StudioCaptureBufferStatus` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| NotStarted | 0 |
-| Pending | 1 |
-| Ready | 2 |
-| Error | 3 |
+| `Enum.StudioCaptureBufferStatus.NotStarted` | 0 |
+| `Enum.StudioCaptureBufferStatus.Pending` | 1 |
+| `Enum.StudioCaptureBufferStatus.Ready` | 2 |
+| `Enum.StudioCaptureBufferStatus.Error` | 3 |

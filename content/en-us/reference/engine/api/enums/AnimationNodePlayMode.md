@@ -3,11 +3,13 @@ title: AnimationNodePlayMode
 type: enum
 ---
 
-# AnimationNodePlayMode (Enum)
+# `Enum.AnimationNodePlayMode`
+
+The `Enum.AnimationNodePlayMode` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| Loop | 0 |
-| PingPong | 1 |
-| OnceAndHold | 2 |
-| OnceAndReset | 3 |
+| `Enum.AnimationNodePlayMode.Loop` | 0 |
+| `Enum.AnimationNodePlayMode.PingPong` | 1 |
+| `Enum.AnimationNodePlayMode.OnceAndHold` | 2 |
+| `Enum.AnimationNodePlayMode.OnceAndReset` | 3 |

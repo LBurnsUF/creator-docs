@@ -3,10 +3,12 @@ title: LiveEditingBroadcastMessageType
 type: enum
 ---
 
-# LiveEditingBroadcastMessageType (Enum)
+# `Enum.LiveEditingBroadcastMessageType`
+
+The `Enum.LiveEditingBroadcastMessageType` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Normal | 0 |
-| Warning | 1 |
-| Error | 2 |
+| `Enum.LiveEditingBroadcastMessageType.Normal` | 0 |
+| `Enum.LiveEditingBroadcastMessageType.Warning` | 1 |
+| `Enum.LiveEditingBroadcastMessageType.Error` | 2 |

@@ -3,12 +3,14 @@ title: CollisionFidelity
 type: enum
 ---
 
-# CollisionFidelity (Enum)
+# `Enum.CollisionFidelity`
+
+The `Enum.CollisionFidelity` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Hull | 1 |
-| Box | 2 |
-| PreciseConvexDecomposition | 3 |
-| Scalable | 4 |
+| `Enum.CollisionFidelity.Default` | 0 |
+| `Enum.CollisionFidelity.Hull` | 1 |
+| `Enum.CollisionFidelity.Box` | 2 |
+| `Enum.CollisionFidelity.PreciseConvexDecomposition` | 3 |
+| `Enum.CollisionFidelity.Scalable` | 4 |

@@ -3,9 +3,11 @@ title: AnalyticsEconomyFlowType
 type: enum
 ---
 
-# AnalyticsEconomyFlowType (Enum)
+# `Enum.AnalyticsEconomyFlowType`
+
+The `Enum.AnalyticsEconomyFlowType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Sink | 0 |
-| Source | 1 |
+| `Enum.AnalyticsEconomyFlowType.Sink` | 0 |
+| `Enum.AnalyticsEconomyFlowType.Source` | 1 |

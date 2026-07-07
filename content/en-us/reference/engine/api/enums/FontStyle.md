@@ -3,9 +3,11 @@ title: FontStyle
 type: enum
 ---
 
-# FontStyle (Enum)
+# `Enum.FontStyle`
+
+The `Enum.FontStyle` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Normal | 0 |
-| Italic | 1 |
+| `Enum.FontStyle.Normal` | 0 |
+| `Enum.FontStyle.Italic` | 1 |

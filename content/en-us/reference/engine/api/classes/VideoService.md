@@ -7,15 +7,24 @@ tags: [NotCreatable, Service]
 
 # VideoService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **CreateVideoSamplerAsync**(`content: Content`, `options: Dictionary?`) -> `VideoSampler` [Yields]
-- **GameStreamingEnabled**() -> `bool`
+### `Class.VideoService:CreateVideoSamplerAsync`
+
+``CreateVideoSamplerAsync(content: `Datatype.Content`, options: `Dictionary?`)`` → `Class.VideoSampler`
+  [Yields]
+
+### `Class.VideoService:GameStreamingEnabled`
+
+``GameStreamingEnabled()`` → `bool`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **GameStreamingResolutionReady**()
+### `Class.VideoService.GameStreamingResolutionReady`
+
+Fires with: ()

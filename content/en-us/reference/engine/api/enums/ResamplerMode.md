@@ -3,9 +3,11 @@ title: ResamplerMode
 type: enum
 ---
 
-# ResamplerMode (Enum)
+# `Enum.ResamplerMode`
+
+The `Enum.ResamplerMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Pixelated | 1 |
+| `Enum.ResamplerMode.Default` | 0 |
+| `Enum.ResamplerMode.Pixelated` | 1 |

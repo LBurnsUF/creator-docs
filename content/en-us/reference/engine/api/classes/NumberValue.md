@@ -6,13 +6,21 @@ superclass: ValueBase
 
 # NumberValue
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Value**: `double`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.NumberValue.Value` | `double` |  |
 
 ## Events
 
-- **Changed**(`value: double`)
-- **changed**(`value: double`) [Deprecated]
+### `Class.NumberValue.Changed`
+
+Fires with: (value: `double`)
+
+### `Class.NumberValue.changed`
+
+Fires with: (value: `double`)
+  [Deprecated]

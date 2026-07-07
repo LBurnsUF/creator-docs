@@ -7,11 +7,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StudioSdkService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetSdk**() -> `Instance`
-- **SetSdk**(`sdk: Instance`) -> `null`
+### `Class.StudioSdkService:GetSdk`
+
+``GetSdk()`` → `Class.Instance`
+   {security: RobloxScriptSecurity}
+
+### `Class.StudioSdkService:SetSdk`
+
+``SetSdk(sdk: `Class.Instance`)`` → `null`
+   {security: RobloxScriptSecurity}

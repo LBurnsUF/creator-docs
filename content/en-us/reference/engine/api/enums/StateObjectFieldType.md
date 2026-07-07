@@ -3,16 +3,18 @@ title: StateObjectFieldType
 type: enum
 ---
 
-# StateObjectFieldType (Enum)
+# `Enum.StateObjectFieldType`
+
+The `Enum.StateObjectFieldType` enum has 9 item(s).
 
 | Name | Value |
 |------|-------|
-| Boolean | 0 |
-| CFrame | 1 |
-| Color3 | 2 |
-| Float | 3 |
-| Instance | 4 |
-| Random | 5 |
-| Vector2 | 6 |
-| Vector3 | 7 |
-| INVALID | 8 |
+| `Enum.StateObjectFieldType.Boolean` | 0 |
+| `Enum.StateObjectFieldType.CFrame` | 1 |
+| `Enum.StateObjectFieldType.Color3` | 2 |
+| `Enum.StateObjectFieldType.Float` | 3 |
+| `Enum.StateObjectFieldType.Instance` | 4 |
+| `Enum.StateObjectFieldType.Random` | 5 |
+| `Enum.StateObjectFieldType.Vector2` | 6 |
+| `Enum.StateObjectFieldType.Vector3` | 7 |
+| `Enum.StateObjectFieldType.INVALID` | 8 |

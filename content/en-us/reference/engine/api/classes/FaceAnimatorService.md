@@ -7,27 +7,57 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # FaceAnimatorService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **AudioAnimationEnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **FaceTrackingStatusEnum**: `TrackerFaceTrackingStatus` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **FlipHeadOrientation**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VideoAnimationEnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.FaceAnimatorService.AudioAnimationEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.FaceAnimatorService.FaceTrackingStatusEnum` | `Enum.TrackerFaceTrackingStatus` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.FaceAnimatorService.FlipHeadOrientation` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.FaceAnimatorService.VideoAnimationEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
-- **GetTrackerLodController**() -> `TrackerLodController`
-- **Init**(`videoEnabled: bool`, `audioEnabled: bool`) -> `null`
-- **IsStarted**() -> `bool`
-- **Start**() -> `null`
-- **Step**() -> `null`
-- **Stop**() -> `null`
+### `Class.FaceAnimatorService:GetTrackerLodController`
+
+``GetTrackerLodController()`` → `Class.TrackerLodController`
+   {security: RobloxScriptSecurity}
+
+### `Class.FaceAnimatorService:Init`
+
+``Init(videoEnabled: `bool`, audioEnabled: `bool`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.FaceAnimatorService:IsStarted`
+
+``IsStarted()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.FaceAnimatorService:Start`
+
+``Start()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.FaceAnimatorService:Step`
+
+``Step()`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.FaceAnimatorService:Stop`
+
+``Stop()`` → `null`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **TrackerError**(`error: TrackerError`)
-- **TrackerPrompt**(`prompt: TrackerPromptEvent`)
+### `Class.FaceAnimatorService.TrackerError`
+
+Fires with: (error: `Enum.TrackerError`)
+
+### `Class.FaceAnimatorService.TrackerPrompt`
+
+Fires with: (prompt: `Enum.TrackerPromptEvent`)

@@ -3,19 +3,21 @@ title: AppShellActionType
 type: enum
 ---
 
-# AppShellActionType (Enum)
+# `Enum.AppShellActionType`
+
+The `Enum.AppShellActionType` enum has 12 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| OpenApp | 1 |
-| TapChatTab | 2 |
-| TapConversationEntry | 3 |
-| TapAvatarTab | 4 |
-| ReadConversation | 5 |
-| TapGamePageTab | 6 |
-| TapHomePageTab | 7 |
-| GamePageLoaded | 8 |
-| HomePageLoaded | 9 |
-| AvatarEditorPageLoaded | 10 |
-| HomePageInteractive | 11 |
+| `Enum.AppShellActionType.None` | 0 |
+| `Enum.AppShellActionType.OpenApp` | 1 |
+| `Enum.AppShellActionType.TapChatTab` | 2 |
+| `Enum.AppShellActionType.TapConversationEntry` | 3 |
+| `Enum.AppShellActionType.TapAvatarTab` | 4 |
+| `Enum.AppShellActionType.ReadConversation` | 5 |
+| `Enum.AppShellActionType.TapGamePageTab` | 6 |
+| `Enum.AppShellActionType.TapHomePageTab` | 7 |
+| `Enum.AppShellActionType.GamePageLoaded` | 8 |
+| `Enum.AppShellActionType.HomePageLoaded` | 9 |
+| `Enum.AppShellActionType.AvatarEditorPageLoaded` | 10 |
+| `Enum.AppShellActionType.HomePageInteractive` | 11 |

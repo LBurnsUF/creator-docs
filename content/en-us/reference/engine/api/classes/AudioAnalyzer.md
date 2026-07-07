@@ -6,22 +6,38 @@ superclass: Instance
 
 # AudioAnalyzer
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **PeakLevel**: `float` [ReadOnly] [NotReplicated]
-- **RmsLevel**: `float` [ReadOnly] [NotReplicated]
-- **SpectrumEnabled**: `bool`
-- **WindowSize**: `AudioWindowSize`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioAnalyzer.PeakLevel` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.AudioAnalyzer.RmsLevel` | `float` | [ReadOnly] [NotReplicated] |
+| `Class.AudioAnalyzer.SpectrumEnabled` | `bool` |  |
+| `Class.AudioAnalyzer.WindowSize` | `Enum.AudioWindowSize` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
-- **GetSpectrum**() -> `Array` [CustomLuaState]
+### `Class.AudioAnalyzer:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioAnalyzer:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioAnalyzer:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
+
+### `Class.AudioAnalyzer:GetSpectrum`
+
+``GetSpectrum()`` → `Array`
+  [CustomLuaState]
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioAnalyzer.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

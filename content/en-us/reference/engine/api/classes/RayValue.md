@@ -6,13 +6,21 @@ superclass: ValueBase
 
 # RayValue
 
-**Inherits**: ValueBase > Instance > Object
+**Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Value**: `Ray`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.RayValue.Value` | `Datatype.Ray` |  |
 
 ## Events
 
-- **Changed**(`value: Ray`)
-- **changed**(`value: Ray`) [Deprecated]
+### `Class.RayValue.Changed`
+
+Fires with: (value: `Datatype.Ray`)
+
+### `Class.RayValue.changed`
+
+Fires with: (value: `Datatype.Ray`)
+  [Deprecated]

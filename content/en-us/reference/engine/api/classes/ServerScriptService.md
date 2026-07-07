@@ -7,10 +7,12 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ServerScriptService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **LoadStringEnabled**: `bool` [NotReplicated] [NotScriptable]
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ServerScriptService.LoadStringEnabled` | `bool` | [NotReplicated] [NotScriptable] |

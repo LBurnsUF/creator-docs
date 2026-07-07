@@ -7,6 +7,6 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PatchBundlerFileWatch
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]

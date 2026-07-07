@@ -7,21 +7,23 @@ tags: [NotCreatable, NotBrowsable]
 
 # PackageLink
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotBrowsable
+**Tags:** [NotCreatable] [NotBrowsable]
 
 ## Properties
 
-- **AutoUpdate**: `bool` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **Creator**: `string` [ReadOnly] [NotReplicated] [NotScriptable]
-- **DefaultName**: `string` (Security: Read=None, Write=NotAccessibleSecurity)
-- **HasNewVersion**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **ModifiedState**: `int` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **PackageAssetName**: `string` [ReadOnly] [NotReplicated] [NotScriptable]
-- **PackageContent**: `Content` [ReadOnly] [NotReplicated]
-- **PackageId**: `ContentId` [ReadOnly] [NotReplicated]
-- **PermissionLevel**: `PackagePermission` [ReadOnly] [NotReplicated] [NotScriptable]
-- **SerializedDefaultAttributes**: `BinaryString` (Security: Read=None, Write=NotAccessibleSecurity)
-- **Status**: `string` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **VersionNumber**: `int64` [NotReplicated] (Security: Read=None, Write=NotAccessibleSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.PackageLink.AutoUpdate` | `bool` |  {security: RobloxScriptSecurity} |
+| `Class.PackageLink.Creator` | `string` | [ReadOnly] [NotReplicated] [NotScriptable] |
+| `Class.PackageLink.DefaultName` | `string` |  {write: NotAccessibleSecurity} |
+| `Class.PackageLink.HasNewVersion` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PackageLink.ModifiedState` | `int` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.PackageLink.PackageAssetName` | `string` | [ReadOnly] [NotReplicated] [NotScriptable] |
+| `Class.PackageLink.PackageContent` | `Datatype.Content` | [ReadOnly] [NotReplicated] |
+| `Class.PackageLink.PackageId` | `Datatype.ContentId` | [ReadOnly] [NotReplicated] |
+| `Class.PackageLink.PermissionLevel` | `Enum.PackagePermission` | [ReadOnly] [NotReplicated] [NotScriptable] |
+| `Class.PackageLink.SerializedDefaultAttributes` | `Datatype.BinaryString` |  {write: NotAccessibleSecurity} |
+| `Class.PackageLink.Status` | `string` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.PackageLink.VersionNumber` | `int64` | [NotReplicated] {write: NotAccessibleSecurity} |

@@ -7,12 +7,23 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # AnimationFromVideoCreatorStudioService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **CreateAnimationByUploadingVideo**(`progressCallback: Function`) -> `string` [Yields]
-- **ImportVideoWithPrompt**() -> `string` [Yields]
-- **IsAgeRestricted**() -> `bool`
+### `Class.AnimationFromVideoCreatorStudioService:CreateAnimationByUploadingVideo`
+
+``CreateAnimationByUploadingVideo(progressCallback: `Datatype.Function`)`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AnimationFromVideoCreatorStudioService:ImportVideoWithPrompt`
+
+``ImportVideoWithPrompt()`` → `string`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.AnimationFromVideoCreatorStudioService:IsAgeRestricted`
+
+``IsAgeRestricted()`` → `bool`
+   {security: RobloxScriptSecurity}

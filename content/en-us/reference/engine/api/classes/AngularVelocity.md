@@ -6,11 +6,13 @@ superclass: Constraint
 
 # AngularVelocity
 
-**Inherits**: Constraint > Instance > Object
+**Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **AngularVelocity**: `Vector3`
-- **MaxTorque**: `float`
-- **ReactionTorqueEnabled**: `bool`
-- **RelativeTo**: `ActuatorRelativeTo`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AngularVelocity.AngularVelocity` | `Datatype.Vector3` |  |
+| `Class.AngularVelocity.MaxTorque` | `float` |  |
+| `Class.AngularVelocity.ReactionTorqueEnabled` | `bool` |  |
+| `Class.AngularVelocity.RelativeTo` | `Enum.ActuatorRelativeTo` |  |

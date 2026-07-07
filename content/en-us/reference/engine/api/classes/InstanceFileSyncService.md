@@ -7,19 +7,43 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # InstanceFileSyncService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Methods
 
-- **GetAllInstances**() -> `Instances`
-- **GetStatus**(`instance: Instance`) -> `InstanceFileSyncStatus`
-- **GetSyncedInstance**(`filePath: string`) -> `Instance`
-- **GetSyncingCollaborators**(`instance: Instance`) -> `Array`
-- **GetTooltip**(`instance: Instance`) -> `string?`
+### `Class.InstanceFileSyncService:GetAllInstances`
+
+``GetAllInstances()`` → `Datatype.Instances`
+   {security: PluginSecurity}
+
+### `Class.InstanceFileSyncService:GetStatus`
+
+``GetStatus(instance: `Class.Instance`)`` → `Enum.InstanceFileSyncStatus`
+   {security: PluginSecurity}
+
+### `Class.InstanceFileSyncService:GetSyncedInstance`
+
+``GetSyncedInstance(filePath: `string`)`` → `Class.Instance`
+   {security: PluginSecurity}
+
+### `Class.InstanceFileSyncService:GetSyncingCollaborators`
+
+``GetSyncingCollaborators(instance: `Class.Instance`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.InstanceFileSyncService:GetTooltip`
+
+``GetTooltip(instance: `Class.Instance`)`` → `string?`
+   {security: RobloxScriptSecurity}
 
 ## Events
 
-- **StatusChanged**(`instance: Instance`, `status: InstanceFileSyncStatus`)
-- **SyncingCollaboratorsChanged**(`instance: Instance`)
+### `Class.InstanceFileSyncService.StatusChanged`
+
+Fires with: (instance: `Class.Instance`, status: `Enum.InstanceFileSyncStatus`)
+
+### `Class.InstanceFileSyncService.SyncingCollaboratorsChanged`
+
+Fires with: (instance: `Class.Instance`)

@@ -3,9 +3,11 @@ title: AvatarSettingsBuildMode
 type: enum
 ---
 
-# AvatarSettingsBuildMode (Enum)
+# `Enum.AvatarSettingsBuildMode`
+
+The `Enum.AvatarSettingsBuildMode` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| PlayerChoice | 0 |
-| CustomBuild | 1 |
+| `Enum.AvatarSettingsBuildMode.PlayerChoice` | 0 |
+| `Enum.AvatarSettingsBuildMode.CustomBuild` | 1 |

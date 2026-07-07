@@ -6,20 +6,32 @@ superclass: Instance
 
 # AudioPitchShifter
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Bypass**: `bool`
-- **Pitch**: `float`
-- **WindowSize**: `AudioWindowSize`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.AudioPitchShifter.Bypass` | `bool` |  |
+| `Class.AudioPitchShifter.Pitch` | `float` |  |
+| `Class.AudioPitchShifter.WindowSize` | `Enum.AudioWindowSize` |  |
 
 ## Methods
 
-- **GetConnectedWires**(`pin: string`) -> `Instances`
-- **GetInputPins**() -> `Array`
-- **GetOutputPins**() -> `Array`
+### `Class.AudioPitchShifter:GetConnectedWires`
+
+``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+
+### `Class.AudioPitchShifter:GetInputPins`
+
+``GetInputPins()`` → `Array`
+
+### `Class.AudioPitchShifter:GetOutputPins`
+
+``GetOutputPins()`` → `Array`
 
 ## Events
 
-- **WiringChanged**(`connected: bool`, `pin: string`, `wire: Wire`, `instance: Instance`)
+### `Class.AudioPitchShifter.WiringChanged`
+
+Fires with: (connected: `bool`, pin: `string`, wire: `Class.Wire`, instance: `Class.Instance`)

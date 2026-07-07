@@ -7,10 +7,12 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StudioUserService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service, NotReplicated
+**Tags:** [NotCreatable] [Service] [NotReplicated]
 
 ## Properties
 
-- **IsLoggedIn**: `bool` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.StudioUserService.IsLoggedIn` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |

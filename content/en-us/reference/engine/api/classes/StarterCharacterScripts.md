@@ -7,6 +7,6 @@ tags: [NotCreatable]
 
 # StarterCharacterScripts
 
-**Inherits**: StarterPlayerScripts > Instance > Object
+**Inherits from:** `Class.StarterPlayerScripts` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]

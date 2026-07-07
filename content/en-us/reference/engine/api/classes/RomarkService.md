@@ -7,10 +7,12 @@ tags: [NotCreatable, Service]
 
 # RomarkService
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, Service
+**Tags:** [NotCreatable] [Service]
 
 ## Methods
 
-- **EndRemoteRomarkTest**() -> `null`
+### `Class.RomarkService:EndRemoteRomarkTest`
+
+``EndRemoteRomarkTest()`` → `null`

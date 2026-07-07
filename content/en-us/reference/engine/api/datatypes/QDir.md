@@ -3,14 +3,14 @@ title: QDir
 type: datatype
 ---
 
-# QDir (DataType)
+# `Datatype.QDir`
 
-Used in 5 locations across the API.
+Used in 5 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Studio.DefaultInstancesDir
-- Studio.ExternalEditorSelection
-- Studio.IconOverrideDir
-- Studio.LocalAssetsFolder
-- Studio.PluginsDir
+- `Class.Studio.DefaultInstancesDir`
+- `Class.Studio.ExternalEditorSelection`
+- `Class.Studio.IconOverrideDir`
+- `Class.Studio.LocalAssetsFolder`
+- `Class.Studio.PluginsDir`

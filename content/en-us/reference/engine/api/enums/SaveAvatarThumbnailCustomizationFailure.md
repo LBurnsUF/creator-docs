@@ -3,13 +3,15 @@ title: SaveAvatarThumbnailCustomizationFailure
 type: enum
 ---
 
-# SaveAvatarThumbnailCustomizationFailure (Enum)
+# `Enum.SaveAvatarThumbnailCustomizationFailure`
+
+The `Enum.SaveAvatarThumbnailCustomizationFailure` enum has 6 item(s).
 
 | Name | Value |
 |------|-------|
-| BadThumbnailType | 1 |
-| BadYRotDeg | 2 |
-| BadFieldOfViewDeg | 3 |
-| BadDistanceScale | 4 |
-| Other | 5 |
-| Throttled | 6 |
+| `Enum.SaveAvatarThumbnailCustomizationFailure.BadThumbnailType` | 1 |
+| `Enum.SaveAvatarThumbnailCustomizationFailure.BadYRotDeg` | 2 |
+| `Enum.SaveAvatarThumbnailCustomizationFailure.BadFieldOfViewDeg` | 3 |
+| `Enum.SaveAvatarThumbnailCustomizationFailure.BadDistanceScale` | 4 |
+| `Enum.SaveAvatarThumbnailCustomizationFailure.Other` | 5 |
+| `Enum.SaveAvatarThumbnailCustomizationFailure.Throttled` | 6 |

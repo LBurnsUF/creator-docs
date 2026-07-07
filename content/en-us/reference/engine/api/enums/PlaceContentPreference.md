@@ -3,11 +3,13 @@ title: PlaceContentPreference
 type: enum
 ---
 
-# PlaceContentPreference (Enum)
+# `Enum.PlaceContentPreference`
+
+The `Enum.PlaceContentPreference` enum has 4 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| All | 1 |
-| MentionsAndReplies | 2 |
-| Unknown | 3 |
+| `Enum.PlaceContentPreference.None` | 0 |
+| `Enum.PlaceContentPreference.All` | 1 |
+| `Enum.PlaceContentPreference.MentionsAndReplies` | 2 |
+| `Enum.PlaceContentPreference.Unknown` | 3 |

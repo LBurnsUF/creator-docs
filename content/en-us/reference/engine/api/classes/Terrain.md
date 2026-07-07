@@ -7,71 +7,240 @@ tags: [NotCreatable]
 
 # Terrain
 
-**Inherits**: BasePart > PVInstance > Instance > Object
+**Inherits from:** `Class.BasePart` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Properties
 
-- **Decoration**: `bool` [NotScriptable]
-- **GrassLength**: `float` [NotScriptable]
-- **IsSmooth**: `bool` [ReadOnly] [NotReplicated] [Deprecated]
-- **LastUsedModificationMethod**: `TerrainAcquisitionMethod` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **MaterialColors**: `BinaryString` [NotScriptable]
-- **MaxExtents**: `Region3int16` [ReadOnly] [NotReplicated]
-- **SmoothVoxelsUpgraded**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
-- **WaterColor**: `Color3`
-- **WaterReflectance**: `float`
-- **WaterTransparency**: `float`
-- **WaterWaveSize**: `float`
-- **WaterWaveSpeed**: `float`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.Terrain.Decoration` | `bool` | [NotScriptable] |
+| `Class.Terrain.GrassLength` | `float` | [NotScriptable] |
+| `Class.Terrain.IsSmooth` | `bool` | [ReadOnly] [NotReplicated] [Deprecated] |
+| `Class.Terrain.LastUsedModificationMethod` | `Enum.TerrainAcquisitionMethod` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
+| `Class.Terrain.MaterialColors` | `Datatype.BinaryString` | [NotScriptable] |
+| `Class.Terrain.MaxExtents` | `Datatype.Region3int16` | [ReadOnly] [NotReplicated] |
+| `Class.Terrain.SmoothVoxelsUpgraded` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
+| `Class.Terrain.WaterColor` | `Datatype.Color3` |  |
+| `Class.Terrain.WaterReflectance` | `float` |  |
+| `Class.Terrain.WaterTransparency` | `float` |  |
+| `Class.Terrain.WaterWaveSize` | `float` |  |
+| `Class.Terrain.WaterWaveSpeed` | `float` |  |
 
 ## Methods
 
-- **AutowedgeCell**(`x: int`, `y: int`, `z: int`) -> `bool` [Deprecated]
-- **AutowedgeCells**(`region: Region3int16`) -> `null` [Deprecated]
-- **CanSmoothVoxelsBeUpgraded**() -> `bool`
-- **CellCenterToWorld**(`x: int`, `y: int`, `z: int`) -> `Vector3`
-- **CellCornerToWorld**(`x: int`, `y: int`, `z: int`) -> `Vector3`
-- **Clear**() -> `null`
-- **ClearVoxelsAsync_beta**(`region: Region3`, `channelIds: Array`) -> `null` [CustomLuaState]
-- **ConvertToSmooth**() -> `null` [Deprecated]
-- **CopyRegion**(`region: Region3int16`) -> `TerrainRegion`
-- **CountCells**() -> `int`
-- **CreateVoxelBuffer_beta**() -> `VoxelBuffer`
-- **DrawBufferAsync**(`cframe: CFrame`, `scale: float`, `resolution: int`, `source: VoxelBuffer`, `mergeConfig: Dictionary`) -> `null` [Yields]
-- **FillBall**(`center: Vector3`, `radius: float`, `material: Material`) -> `null`
-- **FillBlock**(`cframe: CFrame`, `size: Vector3`, `material: Material`) -> `null`
-- **FillCylinder**(`cframe: CFrame`, `height: float`, `radius: float`, `material: Material`) -> `null`
-- **FillRegion**(`region: Region3`, `resolution: float`, `material: Material`) -> `null`
-- **FillWedge**(`cframe: CFrame`, `size: Vector3`, `material: Material`) -> `null`
-- **GetCell**(`x: int`, `y: int`, `z: int`) -> `Tuple` [Deprecated]
-- **GetMaterialColor**(`material: Material`) -> `Color3`
-- **GetMaterialSlot**(`slotIndex: int`) -> `Tuple`
-- **GetTerrainWireframe**(`cframe: CFrame`, `size: Vector3`) -> `Array`
-- **GetWaterCell**(`x: int`, `y: int`, `z: int`) -> `Tuple` [Deprecated]
-- **IterateVoxelsAsync_beta**(`region: Region3`, `resolution: int`, `channelIds: Array`) -> `TerrainIterateOperation` [CustomLuaState]
-- **ModifyVoxelsAsync_beta**(`region: Region3`, `resolution: int`, `channelIds: Array`) -> `TerrainModifyOperation` [CustomLuaState]
-- **PasteRegion**(`region: TerrainRegion`, `corner: Vector3int16`, `pasteEmptyCells: bool`) -> `null`
-- **ReadBufferAsync**(`region: Region3`, `resolution: int`) -> `VoxelBuffer` [Yields]
-- **ReadVoxelChannels**(`region: Region3`, `resolution: float`, `channelIds: Array`) -> `Dictionary` [CustomLuaState]
-- **ReadVoxels**(`region: Region3`, `resolution: float`) -> `Tuple` [CustomLuaState]
-- **ReadVoxelsAsync_beta**(`region: Region3`, `resolution: int`, `channelIds: Array`) -> `TerrainReadOperation` [CustomLuaState]
-- **ReplaceMaterial**(`region: Region3`, `resolution: float`, `sourceMaterial: Material`, `targetMaterial: Material`) -> `null`
-- **ReplaceMaterialInTransform**(`cframe: CFrame`, `size: Vector3`, `sourceMaterial: Material`, `targetMaterial: Material`) -> `null`
-- **ReplaceMaterialInTransformSubregion**(`cframe: CFrame`, `size: Vector3`, `sourceMaterial: Material`, `targetMaterial: Material`, `targetRegion: Region3int16`) -> `null`
-- **ResetMaterialSlot**(`slotIndex: int`) -> `null`
-- **SetCell**(`x: int`, `y: int`, `z: int`, `material: CellMaterial`, `block: CellBlock`, `orientation: CellOrientation`) -> `null` [Deprecated]
-- **SetCells**(`region: Region3int16`, `material: CellMaterial`, `block: CellBlock`, `orientation: CellOrientation`) -> `null` [Deprecated]
-- **SetMaterialColor**(`material: Material`, `value: Color3`) -> `null`
-- **SetMaterialInTransform**(`cframe: CFrame`, `size: Vector3`, `targetMaterial: Material`) -> `null`
-- **SetMaterialInTransformSubregion**(`cframe: CFrame`, `size: Vector3`, `targetMaterial: Material`, `targetRegion: Region3int16`) -> `null`
-- **SetMaterialSlot**(`slotIndex: int`, `baseMaterial: Material`, `materialVariant: string`, `color: Color3`) -> `null`
-- **SetWaterCell**(`x: int`, `y: int`, `z: int`, `force: WaterForce`, `direction: WaterDirection`) -> `null` [Deprecated]
-- **SmoothRegion**(`region: Region3`, `resolution: float`, `strength: float`) -> `Tuple` [CustomLuaState]
-- **WorldToCell**(`position: Vector3`) -> `Vector3`
-- **WorldToCellPreferEmpty**(`position: Vector3`) -> `Vector3`
-- **WorldToCellPreferSolid**(`position: Vector3`) -> `Vector3`
-- **WriteVoxelChannels**(`region: Region3`, `resolution: float`, `channels: Dictionary`) -> `null` [CustomLuaState]
-- **WriteVoxels**(`region: Region3`, `resolution: float`, `materials: Array`, `occupancy: Array`) -> `null` [CustomLuaState]
-- **WriteVoxelsAsync_beta**(`region: Region3`, `resolution: int`, `channelIds: Array`) -> `TerrainWriteOperation` [CustomLuaState]
+### `Class.Terrain:AutowedgeCell`
+
+``AutowedgeCell(x: `int`, y: `int`, z: `int`)`` → `bool`
+  [Deprecated]
+
+### `Class.Terrain:AutowedgeCells`
+
+``AutowedgeCells(region: `Datatype.Region3int16`)`` → `null`
+  [Deprecated]
+
+### `Class.Terrain:CanSmoothVoxelsBeUpgraded`
+
+``CanSmoothVoxelsBeUpgraded()`` → `bool`
+   {security: RobloxScriptSecurity}
+
+### `Class.Terrain:CellCenterToWorld`
+
+``CellCenterToWorld(x: `int`, y: `int`, z: `int`)`` → `Datatype.Vector3`
+
+### `Class.Terrain:CellCornerToWorld`
+
+``CellCornerToWorld(x: `int`, y: `int`, z: `int`)`` → `Datatype.Vector3`
+
+### `Class.Terrain:Clear`
+
+``Clear()`` → `null`
+
+### `Class.Terrain:ClearVoxelsAsync_beta`
+
+``ClearVoxelsAsync_beta(region: `Datatype.Region3`, channelIds: `Array`)`` → `null`
+  [CustomLuaState]
+
+### `Class.Terrain:ConvertToSmooth`
+
+``ConvertToSmooth()`` → `null`
+  [Deprecated] {security: PluginSecurity}
+
+### `Class.Terrain:CopyRegion`
+
+``CopyRegion(region: `Datatype.Region3int16`)`` → `Class.TerrainRegion`
+
+### `Class.Terrain:CountCells`
+
+``CountCells()`` → `int`
+
+### `Class.Terrain:CreateVoxelBuffer_beta`
+
+``CreateVoxelBuffer_beta()`` → `Class.VoxelBuffer`
+   {security: RobloxScriptSecurity}
+
+### `Class.Terrain:DrawBufferAsync`
+
+``DrawBufferAsync(cframe: `Datatype.CFrame`, scale: `float`, resolution: `int`, source: `Class.VoxelBuffer`, mergeConfig: `Dictionary`)`` → `null`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.Terrain:FillBall`
+
+``FillBall(center: `Datatype.Vector3`, radius: `float`, material: `Enum.Material`)`` → `null`
+
+### `Class.Terrain:FillBlock`
+
+``FillBlock(cframe: `Datatype.CFrame`, size: `Datatype.Vector3`, material: `Enum.Material`)`` → `null`
+
+### `Class.Terrain:FillCylinder`
+
+``FillCylinder(cframe: `Datatype.CFrame`, height: `float`, radius: `float`, material: `Enum.Material`)`` → `null`
+
+### `Class.Terrain:FillRegion`
+
+``FillRegion(region: `Datatype.Region3`, resolution: `float`, material: `Enum.Material`)`` → `null`
+
+### `Class.Terrain:FillWedge`
+
+``FillWedge(cframe: `Datatype.CFrame`, size: `Datatype.Vector3`, material: `Enum.Material`)`` → `null`
+
+### `Class.Terrain:GetCell`
+
+``GetCell(x: `int`, y: `int`, z: `int`)`` → `Tuple`
+  [Deprecated]
+
+### `Class.Terrain:GetMaterialColor`
+
+``GetMaterialColor(material: `Enum.Material`)`` → `Datatype.Color3`
+
+### `Class.Terrain:GetMaterialSlot`
+
+``GetMaterialSlot(slotIndex: `int`)`` → `Tuple`
+
+### `Class.Terrain:GetTerrainWireframe`
+
+``GetTerrainWireframe(cframe: `Datatype.CFrame`, size: `Datatype.Vector3`)`` → `Array`
+   {security: RobloxScriptSecurity}
+
+### `Class.Terrain:GetWaterCell`
+
+``GetWaterCell(x: `int`, y: `int`, z: `int`)`` → `Tuple`
+  [Deprecated]
+
+### `Class.Terrain:IterateVoxelsAsync_beta`
+
+``IterateVoxelsAsync_beta(region: `Datatype.Region3`, resolution: `int`, channelIds: `Array`)`` → `Class.TerrainIterateOperation`
+  [CustomLuaState]
+
+### `Class.Terrain:ModifyVoxelsAsync_beta`
+
+``ModifyVoxelsAsync_beta(region: `Datatype.Region3`, resolution: `int`, channelIds: `Array`)`` → `Class.TerrainModifyOperation`
+  [CustomLuaState]
+
+### `Class.Terrain:PasteRegion`
+
+``PasteRegion(region: `Class.TerrainRegion`, corner: `Datatype.Vector3int16`, pasteEmptyCells: `bool`)`` → `null`
+
+### `Class.Terrain:ReadBufferAsync`
+
+``ReadBufferAsync(region: `Datatype.Region3`, resolution: `int`)`` → `Class.VoxelBuffer`
+  [Yields] {security: RobloxScriptSecurity}
+
+### `Class.Terrain:ReadVoxelChannels`
+
+``ReadVoxelChannels(region: `Datatype.Region3`, resolution: `float`, channelIds: `Array`)`` → `Dictionary`
+  [CustomLuaState]
+
+### `Class.Terrain:ReadVoxels`
+
+``ReadVoxels(region: `Datatype.Region3`, resolution: `float`)`` → `Tuple`
+  [CustomLuaState]
+
+### `Class.Terrain:ReadVoxelsAsync_beta`
+
+``ReadVoxelsAsync_beta(region: `Datatype.Region3`, resolution: `int`, channelIds: `Array`)`` → `Class.TerrainReadOperation`
+  [CustomLuaState]
+
+### `Class.Terrain:ReplaceMaterial`
+
+``ReplaceMaterial(region: `Datatype.Region3`, resolution: `float`, sourceMaterial: `Enum.Material`, targetMaterial: `Enum.Material`)`` → `null`
+
+### `Class.Terrain:ReplaceMaterialInTransform`
+
+``ReplaceMaterialInTransform(cframe: `Datatype.CFrame`, size: `Datatype.Vector3`, sourceMaterial: `Enum.Material`, targetMaterial: `Enum.Material`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Terrain:ReplaceMaterialInTransformSubregion`
+
+``ReplaceMaterialInTransformSubregion(cframe: `Datatype.CFrame`, size: `Datatype.Vector3`, sourceMaterial: `Enum.Material`, targetMaterial: `Enum.Material`, targetRegion: `Datatype.Region3int16`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Terrain:ResetMaterialSlot`
+
+``ResetMaterialSlot(slotIndex: `int`)`` → `null`
+
+### `Class.Terrain:SetCell`
+
+``SetCell(x: `int`, y: `int`, z: `int`, material: `Enum.CellMaterial`, block: `Enum.CellBlock`, orientation: `Enum.CellOrientation`)`` → `null`
+  [Deprecated]
+
+### `Class.Terrain:SetCells`
+
+``SetCells(region: `Datatype.Region3int16`, material: `Enum.CellMaterial`, block: `Enum.CellBlock`, orientation: `Enum.CellOrientation`)`` → `null`
+  [Deprecated]
+
+### `Class.Terrain:SetMaterialColor`
+
+``SetMaterialColor(material: `Enum.Material`, value: `Datatype.Color3`)`` → `null`
+
+### `Class.Terrain:SetMaterialInTransform`
+
+``SetMaterialInTransform(cframe: `Datatype.CFrame`, size: `Datatype.Vector3`, targetMaterial: `Enum.Material`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Terrain:SetMaterialInTransformSubregion`
+
+``SetMaterialInTransformSubregion(cframe: `Datatype.CFrame`, size: `Datatype.Vector3`, targetMaterial: `Enum.Material`, targetRegion: `Datatype.Region3int16`)`` → `null`
+   {security: RobloxScriptSecurity}
+
+### `Class.Terrain:SetMaterialSlot`
+
+``SetMaterialSlot(slotIndex: `int`, baseMaterial: `Enum.Material`, materialVariant: `string`, color: `Datatype.Color3`)`` → `null`
+
+### `Class.Terrain:SetWaterCell`
+
+``SetWaterCell(x: `int`, y: `int`, z: `int`, force: `Enum.WaterForce`, direction: `Enum.WaterDirection`)`` → `null`
+  [Deprecated]
+
+### `Class.Terrain:SmoothRegion`
+
+``SmoothRegion(region: `Datatype.Region3`, resolution: `float`, strength: `float`)`` → `Tuple`
+  [CustomLuaState] {security: RobloxScriptSecurity}
+
+### `Class.Terrain:WorldToCell`
+
+``WorldToCell(position: `Datatype.Vector3`)`` → `Datatype.Vector3`
+
+### `Class.Terrain:WorldToCellPreferEmpty`
+
+``WorldToCellPreferEmpty(position: `Datatype.Vector3`)`` → `Datatype.Vector3`
+
+### `Class.Terrain:WorldToCellPreferSolid`
+
+``WorldToCellPreferSolid(position: `Datatype.Vector3`)`` → `Datatype.Vector3`
+
+### `Class.Terrain:WriteVoxelChannels`
+
+``WriteVoxelChannels(region: `Datatype.Region3`, resolution: `float`, channels: `Dictionary`)`` → `null`
+  [CustomLuaState]
+
+### `Class.Terrain:WriteVoxels`
+
+``WriteVoxels(region: `Datatype.Region3`, resolution: `float`, materials: `Array`, occupancy: `Array`)`` → `null`
+  [CustomLuaState]
+
+### `Class.Terrain:WriteVoxelsAsync_beta`
+
+``WriteVoxelsAsync_beta(region: `Datatype.Region3`, resolution: `int`, channelIds: `Array`)`` → `Class.TerrainWriteOperation`
+  [CustomLuaState]

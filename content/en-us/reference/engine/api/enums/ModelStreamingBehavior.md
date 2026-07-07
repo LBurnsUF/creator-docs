@@ -3,10 +3,12 @@ title: ModelStreamingBehavior
 type: enum
 ---
 
-# ModelStreamingBehavior (Enum)
+# `Enum.ModelStreamingBehavior`
+
+The `Enum.ModelStreamingBehavior` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Default | 0 |
-| Legacy | 1 |
-| Improved | 2 |
+| `Enum.ModelStreamingBehavior.Default` | 0 |
+| `Enum.ModelStreamingBehavior.Legacy` | 1 |
+| `Enum.ModelStreamingBehavior.Improved` | 2 |

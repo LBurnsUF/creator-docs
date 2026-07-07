@@ -7,14 +7,33 @@ tags: [NotCreatable, NotReplicated]
 
 # MemoryStoreHashMap
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Methods
 
-- **GetAsync**(`key: string`) -> `Variant` [Yields]
-- **ListItemsAsync**(`count: int`) -> `MemoryStoreHashMapPages` [Yields]
-- **RemoveAsync**(`key: string`) -> `null` [Yields]
-- **SetAsync**(`key: string`, `value: Variant`, `expiration: int64`) -> `bool` [Yields]
-- **UpdateAsync**(`key: string`, `transformFunction: Function`, `expiration: int64`) -> `Variant` [Yields]
+### `Class.MemoryStoreHashMap:GetAsync`
+
+``GetAsync(key: `string`)`` → `Variant`
+  [Yields]
+
+### `Class.MemoryStoreHashMap:ListItemsAsync`
+
+``ListItemsAsync(count: `int`)`` → `Class.MemoryStoreHashMapPages`
+  [Yields]
+
+### `Class.MemoryStoreHashMap:RemoveAsync`
+
+``RemoveAsync(key: `string`)`` → `null`
+  [Yields]
+
+### `Class.MemoryStoreHashMap:SetAsync`
+
+``SetAsync(key: `string`, value: `Variant`, expiration: `int64`)`` → `bool`
+  [Yields]
+
+### `Class.MemoryStoreHashMap:UpdateAsync`
+
+``UpdateAsync(key: `string`, transformFunction: `Datatype.Function`, expiration: `int64`)`` → `Variant`
+  [Yields]

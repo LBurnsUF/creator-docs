@@ -3,12 +3,14 @@ title: UIFlexMode
 type: enum
 ---
 
-# UIFlexMode (Enum)
+# `Enum.UIFlexMode`
+
+The `Enum.UIFlexMode` enum has 5 item(s).
 
 | Name | Value |
 |------|-------|
-| None | 0 |
-| Grow | 1 |
-| Shrink | 2 |
-| Fill | 3 |
-| Custom | 4 |
+| `Enum.UIFlexMode.None` | 0 |
+| `Enum.UIFlexMode.Grow` | 1 |
+| `Enum.UIFlexMode.Shrink` | 2 |
+| `Enum.UIFlexMode.Fill` | 3 |
+| `Enum.UIFlexMode.Custom` | 4 |

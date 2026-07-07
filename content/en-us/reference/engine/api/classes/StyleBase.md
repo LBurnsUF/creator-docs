@@ -7,16 +7,26 @@ tags: [NotCreatable]
 
 # StyleBase
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable
+**Tags:** [NotCreatable]
 
 ## Methods
 
-- **GetStyleRules**() -> `Instances`
-- **InsertStyleRule**(`rule: StyleRule`, `priority: int?`) -> `null`
-- **SetStyleRules**(`rules: Instances`) -> `null`
+### `Class.StyleBase:GetStyleRules`
+
+``GetStyleRules()`` → `Datatype.Instances`
+
+### `Class.StyleBase:InsertStyleRule`
+
+``InsertStyleRule(rule: `Class.StyleRule`, priority: `int?`)`` → `null`
+
+### `Class.StyleBase:SetStyleRules`
+
+``SetStyleRules(rules: `Datatype.Instances`)`` → `null`
 
 ## Events
 
-- **StyleRulesChanged**()
+### `Class.StyleBase.StyleRulesChanged`
+
+Fires with: ()

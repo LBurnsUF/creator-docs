@@ -3,28 +3,28 @@ title: Ray
 type: datatype
 ---
 
-# Ray (DataType)
+# `Datatype.Ray`
 
-Used in 13 locations across the API.
+Used in 13 locations across the Roblox API.
 
 ## Used as Property Type
 
-- Mouse.UnitRay
-- RayValue.Value
+- `Class.Mouse.UnitRay`
+- `Class.RayValue.Value`
 
 ## Used as Parameter Type
 
-- DragDetector.DragContinue(cursorRay)
-- DragDetector.DragStart(cursorRay)
-- Dragger.MouseMove(mouseRay)
-- RayValue.Changed(value)
-- RayValue.changed(value)
-- WorldRoot.FindPartOnRay(ray)
-- WorldRoot.FindPartOnRayWithIgnoreList(ray)
-- WorldRoot.FindPartOnRayWithWhitelist(ray)
-- WorldRoot.findPartOnRay(ray)
+- `Class.DragDetector:DragContinue` (parameter `cursorRay`)
+- `Class.DragDetector:DragStart` (parameter `cursorRay`)
+- `Class.Dragger:MouseMove` (parameter `mouseRay`)
+- `Class.RayValue:Changed` (parameter `value`)
+- `Class.RayValue:changed` (parameter `value`)
+- `Class.WorldRoot:FindPartOnRay` (parameter `ray`)
+- `Class.WorldRoot:FindPartOnRayWithIgnoreList` (parameter `ray`)
+- `Class.WorldRoot:FindPartOnRayWithWhitelist` (parameter `ray`)
+- `Class.WorldRoot:findPartOnRay` (parameter `ray`)
 
 ## Used as Return Type
 
-- Camera.ScreenPointToRay
-- Camera.ViewportPointToRay
+- `Class.Camera:ScreenPointToRay`
+- `Class.Camera:ViewportPointToRay`

@@ -3,10 +3,12 @@ title: RenderFidelity
 type: enum
 ---
 
-# RenderFidelity (Enum)
+# `Enum.RenderFidelity`
+
+The `Enum.RenderFidelity` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Automatic | 0 |
-| Precise | 1 |
-| Performance | 2 |
+| `Enum.RenderFidelity.Automatic` | 0 |
+| `Enum.RenderFidelity.Precise` | 1 |
+| `Enum.RenderFidelity.Performance` | 2 |

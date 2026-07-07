@@ -3,9 +3,11 @@ title: DefaultScriptSyncFileType
 type: enum
 ---
 
-# DefaultScriptSyncFileType (Enum)
+# `Enum.DefaultScriptSyncFileType`
+
+The `Enum.DefaultScriptSyncFileType` enum has 2 item(s).
 
 | Name | Value |
 |------|-------|
-| Lua | 0 |
-| Luau | 1 |
+| `Enum.DefaultScriptSyncFileType.Lua` | 0 |
+| `Enum.DefaultScriptSyncFileType.Luau` | 1 |

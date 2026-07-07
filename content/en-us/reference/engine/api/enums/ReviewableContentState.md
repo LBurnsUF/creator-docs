@@ -3,10 +3,12 @@ title: ReviewableContentState
 type: enum
 ---
 
-# ReviewableContentState (Enum)
+# `Enum.ReviewableContentState`
+
+The `Enum.ReviewableContentState` enum has 3 item(s).
 
 | Name | Value |
 |------|-------|
-| Pending | 0 |
-| Completed | 1 |
-| Failed | 2 |
+| `Enum.ReviewableContentState.Pending` | 0 |
+| `Enum.ReviewableContentState.Completed` | 1 |
+| `Enum.ReviewableContentState.Failed` | 2 |

@@ -6,8 +6,10 @@ superclass: Instance
 
 # ForceField
 
-**Inherits**: Instance > Object
+**Inherits from:** `Class.Instance` > `Class.Object`
 
 ## Properties
 
-- **Visible**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.ForceField.Visible` | `bool` |  |

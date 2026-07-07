@@ -7,10 +7,12 @@ tags: [NotCreatable, NotReplicated]
 
 # CapturesViewConfiguration
 
-**Inherits**: BaseCoreGuiConfiguration > Instance > Object
+**Inherits from:** `Class.BaseCoreGuiConfiguration` > `Class.Instance` > `Class.Object`
 
-**Tags**: NotCreatable, NotReplicated
+**Tags:** [NotCreatable] [NotReplicated]
 
 ## Properties
 
-- **Open**: `bool`
+| Property | Type | Tags |
+|----------|------|------|
+| `Class.CapturesViewConfiguration.Open` | `bool` |  |

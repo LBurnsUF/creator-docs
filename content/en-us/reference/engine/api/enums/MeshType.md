@@ -3,19 +3,21 @@ title: MeshType
 type: enum
 ---
 
-# MeshType (Enum)
+# `Enum.MeshType`
+
+The `Enum.MeshType` enum has 12 item(s).
 
 | Name | Value |
 |------|-------|
-| Head | 0 |
-| Torso | 1 |
-| Wedge | 2 |
-| Sphere | 3 |
-| Cylinder | 4 |
-| FileMesh | 5 |
-| Brick | 6 |
-| Prism | 7 |
-| Pyramid | 8 |
-| ParallelRamp | 9 |
-| RightAngleRamp | 10 |
-| CornerWedge | 11 |
+| `Enum.MeshType.Head` | 0 |
+| `Enum.MeshType.Torso` | 1 |
+| `Enum.MeshType.Wedge` | 2 |
+| `Enum.MeshType.Sphere` | 3 |
+| `Enum.MeshType.Cylinder` | 4 |
+| `Enum.MeshType.FileMesh` | 5 |
+| `Enum.MeshType.Brick` | 6 |
+| `Enum.MeshType.Prism` | 7 |
+| `Enum.MeshType.Pyramid` | 8 |
+| `Enum.MeshType.ParallelRamp` | 9 |
+| `Enum.MeshType.RightAngleRamp` | 10 |
+| `Enum.MeshType.CornerWedge` | 11 |
