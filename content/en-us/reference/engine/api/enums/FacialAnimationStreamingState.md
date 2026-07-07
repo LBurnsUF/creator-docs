@@ -1,0 +1,14 @@
+---
+title: FacialAnimationStreamingState
+type: enum
+---
+
+# FacialAnimationStreamingState (Enum)
+
+| Name | Value |
+|------|-------|
+| None | 0 |
+| Audio | 1 |
+| Video | 2 |
+| Place | 4 |
+| Server | 8 |

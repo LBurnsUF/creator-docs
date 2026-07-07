@@ -1,0 +1,21 @@
+---
+title: PromptCreateAvatarResult
+type: enum
+---
+
+# PromptCreateAvatarResult (Enum)
+
+| Name | Value |
+|------|-------|
+| Success | 1 |
+| PermissionDenied | 2 |
+| Timeout | 3 |
+| UploadFailed | 4 |
+| NoUserInput | 5 |
+| InvalidHumanoidDescription | 6 |
+| UGCValidationFailed | 7 |
+| ModeratedName | 8 |
+| MaxOutfits | 9 |
+| PurchaseFailure | 10 |
+| UnknownFailure | 11 |
+| TokenInvalid | 12 |

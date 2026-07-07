@@ -1,0 +1,12 @@
+---
+title: EasingDirection
+type: enum
+---
+
+# EasingDirection (Enum)
+
+| Name | Value |
+|------|-------|
+| In | 0 |
+| Out | 1 |
+| InOut | 2 |

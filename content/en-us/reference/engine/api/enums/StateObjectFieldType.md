@@ -1,0 +1,18 @@
+---
+title: StateObjectFieldType
+type: enum
+---
+
+# StateObjectFieldType (Enum)
+
+| Name | Value |
+|------|-------|
+| Boolean | 0 |
+| CFrame | 1 |
+| Color3 | 2 |
+| Float | 3 |
+| Instance | 4 |
+| Random | 5 |
+| Vector2 | 6 |
+| Vector3 | 7 |
+| INVALID | 8 |

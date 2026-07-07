@@ -1,0 +1,173 @@
+---
+title: Player
+type: class
+superclass: Instance
+---
+
+# Player
+
+**Inherits**: Instance > Object
+
+## Properties
+
+- **AccountAge**: `int` [ReadOnly] [NotReplicated]
+- **AgeChecked**: `AgeCheckStatus` (Security: Read=None, Write=RobloxSecurity)
+- **AppearanceDidLoad**: `bool` [Hidden] [ReadOnly] [NotReplicated] [Deprecated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **AutoJumpEnabled**: `bool`
+- **CameraMaxZoomDistance**: `float`
+- **CameraMinZoomDistance**: `float`
+- **CameraMode**: `CameraMode`
+- **CanLoadCharacterAppearance**: `bool`
+- **Character**: `Model`
+- **CharacterAppearance**: `string` [NotBrowsable] [Deprecated]
+- **CharacterAppearanceId**: `int64`
+- **ChatAvailabilityStatus**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **ChatMode**: `ChatMode` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **DataComplexity**: `int` [Hidden] [ReadOnly] [NotReplicated] [Deprecated]
+- **DataComplexityLimit**: `int` [Hidden] [NotReplicated] [Deprecated] (Security: Read=LocalUserSecurity, Write=LocalUserSecurity)
+- **DataReady**: `bool` [Hidden] [ReadOnly] [NotReplicated] [Deprecated]
+- **DevCameraOcclusionMode**: `DevCameraOcclusionMode`
+- **DevComputerCameraMode**: `DevComputerCameraMovementMode`
+- **DevComputerMovementMode**: `DevComputerMovementMode`
+- **DevEnableMouseLock**: `bool`
+- **DevTouchCameraMode**: `DevTouchCameraMovementMode`
+- **DevTouchMovementMode**: `DevTouchMovementMode`
+- **DisplayName**: `string`
+- **FollowUserId**: `int64` [ReadOnly] [NotReplicated]
+- **GameplayPaused**: `bool` [Hidden] (Security: Read=None, Write=NotAccessibleSecurity)
+- **Guest**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **HasRobloxSubscription**: `bool` (Security: Read=None, Write=RobloxSecurity)
+- **HasVerifiedBadge**: `bool`
+- **HealthDisplayDistance**: `float`
+- **InputLatency**: `int` (Security: Read=RobloxSecurity, Write=RobloxSecurity)
+- **LocaleId**: `string` [Hidden] [ReadOnly] [NotReplicated]
+- **MaximumSimulationRadius**: `float` [Hidden] [NotReplicated] (Security: Read=LocalUserSecurity, Write=LocalUserSecurity)
+- **MembershipType**: `MembershipType` [ReadOnly] [NotReplicated]
+- **NameDisplayDistance**: `float`
+- **Neutral**: `bool`
+- **OsPlatform**: `string` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **PartyId**: `string` [Hidden] [NotReplicated] (Security: Read=None, Write=RobloxSecurity)
+- **PlatformName**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **ReplicationFocus**: `Instance`
+- **RespawnLocation**: `SpawnLocation`
+- **SimulationRadius**: `float` [Hidden] (Security: Read=LocalUserSecurity, Write=LocalUserSecurity)
+- **StepIdOffset**: `int` (Security: Read=RobloxSecurity, Write=RobloxSecurity)
+- **Team**: `Team` [NotReplicated]
+- **TeamColor**: `BrickColor`
+- **Teleported**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **TeleportedIn**: `bool` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **ThirdPartyTextChatRestrictionStatus**: `ChatRestrictionStatus` [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **UnfilteredChat**: `bool` [Hidden] [ReadOnly] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **User**: `User` (Security: Read=None, Write=RobloxSecurity)
+- **UserId**: `int64`
+- **VRDevice**: `string` [Hidden] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **VREnabled**: `bool` [Hidden] [NotReplicated] (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **userId**: `int64` [Deprecated]
+
+## Methods
+
+- **AddReplicationFocus**(`part: BasePart`) -> `null`
+- **AddReplicationFocusPosition**(`center: Vector3`, `radius: int`) -> `null`
+- **AddToBlockList**(`userIds: Array`) -> `null`
+- **ClearCachedAvatarAppearance**() -> `null`
+- **ClearCharacterAppearance**() -> `null`
+- **DistanceFromCharacter**(`point: Vector3`) -> `float`
+- **GetBlockListInitialized**() -> `bool`
+- **GetCameraState**() -> `Dictionary` [CustomLuaState]
+- **GetCanManageAsync**() -> `bool` [Yields]
+- **GetData**() -> `PlayerData`
+- **GetFriendStatus**(`player: Player`) -> `FriendStatus`
+- **GetFriendsOnline**(`maxFriends: int = 200`) -> `Array` [Yields] [Deprecated]
+- **GetFriendsOnlineAsync**(`maxFriends: int = 200`) -> `Array` [Yields]
+- **GetFriendsWhoPlayedAsync**() -> `Array` [Yields]
+- **GetGameSessionID**() -> `string`
+- **GetJoinData**() -> `Dictionary` [CustomLuaState]
+- **GetMouse**() -> `Mouse`
+- **GetNetworkPing**() -> `float`
+- **GetRankInGroup**(`groupId: int64`) -> `int` [Yields] [Deprecated]
+- **GetRankInGroupAsync**(`groupId: int64`) -> `int` [Yields] [Deprecated]
+- **GetRoleInGroup**(`groupId: int64`) -> `string` [Yields] [Deprecated]
+- **GetRoleInGroupAsync**(`groupId: int64`) -> `string` [Yields] [Deprecated]
+- **GetSeatRequested**() -> `Instance`
+- **GetToolRequested**() -> `Instance`
+- **GetUnder13**() -> `bool`
+- **HasAppearanceLoaded**() -> `bool`
+- **HasBlockedPlayer**(`fromPlayer: int64`) -> `bool`
+- **IsBestFriendsWith**(`userId: User`) -> `bool` [Yields] [Deprecated]
+- **IsFriendsWith**(`userId: User`) -> `bool` [Yields] [Deprecated]
+- **IsFriendsWithAsync**(`userId: User`) -> `bool` [Yields]
+- **IsInGroup**(`groupId: int64`) -> `bool` [Yields] [Deprecated]
+- **IsInGroupAsync**(`groupId: int64`) -> `bool` [Yields]
+- **IsVerified**() -> `bool`
+- **Kick**(`message: string = `) -> `null`
+- **LoadBoolean**(`key: string`) -> `bool` [Deprecated]
+- **LoadCharacter**() -> `null` [Yields] [Deprecated]
+- **LoadCharacterAppearance**(`assetInstance: Instance`) -> `null` [Deprecated]
+- **LoadCharacterAsync**() -> `null` [Yields]
+- **LoadCharacterBlocking**() -> `null` [Yields]
+- **LoadCharacterWithAvatarRules**(`avatarRules: AvatarRules`) -> `null` [Yields]
+- **LoadCharacterWithHumanoidDescription**(`humanoidDescription: HumanoidDescription`, `assetTypeVerification: AssetTypeVerification = Default`) -> `null` [Yields] [Deprecated]
+- **LoadCharacterWithHumanoidDescriptionAsync**(`humanoidDescription: HumanoidDescription`, `assetTypeVerification: AssetTypeVerification = Default`) -> `null` [Yields]
+- **LoadData**() -> `null` [Deprecated]
+- **LoadInstance**(`key: string`) -> `Instance` [Deprecated]
+- **LoadNumber**(`key: string`) -> `double` [Deprecated]
+- **LoadString**(`key: string`) -> `string` [Deprecated]
+- **Move**(`walkDirection: Vector3`, `relativeToCamera: bool = false`) -> `null`
+- **NotifyAgeCheckPassed**() -> `null`
+- **OverrideStreamingRadii**(`minRadius: int`, `targetRadius: int`) -> `null`
+- **PinStreamingForInstance**(`instance: Instance`, `depth: int`) -> `null`
+- **PinStreamingForInstanceByUniqueId**(`uniqueIdString: string`, `depth: int`) -> `null`
+- **PromptAgeCheck**() -> `null`
+- **PromptSecurityChallengeAsync**() -> `bool` [Yields]
+- **RemoveCharacter**() -> `null`
+- **RemoveReplicationFocus**(`part: BasePart`) -> `null`
+- **RemoveReplicationFocusPosition**(`center: Vector3`, `radius: int`) -> `null`
+- **RequestFriendship**(`player: Player`) -> `null`
+- **RequestSeat**(`instance: Instance`) -> `null`
+- **RequestStreamAroundAsync**(`position: Vector3`, `timeOut: double = 0`) -> `null` [Yields]
+- **RequestTool**(`instance: Instance`) -> `null`
+- **RevokeFriendship**(`player: Player`) -> `null`
+- **SaveBoolean**(`key: string`, `value: bool`) -> `null` [Deprecated]
+- **SaveData**() -> `null` [Deprecated]
+- **SaveInstance**(`key: string`, `value: Instance`) -> `null` [Deprecated]
+- **SaveNumber**(`key: string`, `value: double`) -> `null` [Deprecated]
+- **SaveString**(`key: string`, `value: string`) -> `null` [Deprecated]
+- **SetAccountAge**(`accountAge: int`) -> `null`
+- **SetBlockListInitialized**() -> `null`
+- **SetCharacterAppearanceJson**(`jsonBlob: string`) -> `null`
+- **SetChatTranslationSettingsLocaleId**(`locale: string`) -> `null`
+- **SetExperienceSettingsLocaleId**(`locale: string`) -> `null`
+- **SetHasRobloxSubscription**(`hasRobloxSubscription: bool`) -> `null`
+- **SetMembershipType**(`membershipType: MembershipType`) -> `null`
+- **SetModerationAccessKey**(`moderationAccessKey: string`) -> `null`
+- **SetSuperSafeChat**(`value: bool`) -> `null`
+- **SetUnder13**(`value: bool`) -> `null` [Deprecated]
+- **UnpinStreamingForInstance**(`instance: Instance`, `depth: int`) -> `null`
+- **UpdatePlayerBlocked**(`userId: int64`, `blocked: bool`) -> `null`
+- **WaitForDataReady**() -> `bool` [Yields] [Deprecated]
+- **isFriendsWith**(`userId: User`) -> `bool` [Yields] [Deprecated]
+- **loadBoolean**(`key: string`) -> `bool` [Deprecated]
+- **loadInstance**(`key: string`) -> `Instance` [Deprecated]
+- **loadNumber**(`key: string`) -> `double` [Deprecated]
+- **loadString**(`key: string`) -> `string` [Deprecated]
+- **saveBoolean**(`key: string`, `value: bool`) -> `null` [Deprecated]
+- **saveInstance**(`key: string`, `value: Instance`) -> `null` [Deprecated]
+- **saveNumber**(`key: string`, `value: double`) -> `null` [Deprecated]
+- **saveString**(`key: string`, `value: string`) -> `null` [Deprecated]
+- **waitForDataReady**() -> `bool` [Yields] [Deprecated]
+
+## Events
+
+- **BlockListChanged**()
+- **CharacterAdded**(`character: Model`)
+- **CharacterAppearanceLoaded**(`character: Model`)
+- **CharacterRemoving**(`character: Model`)
+- **Chatted**(`message: string`, `recipient: Player`)
+- **CloudEditSelectionChanged**(`newSelection: Array`)
+- **FriendStatusChanged**(`player: Player`, `friendStatus: FriendStatus`)
+- **Idled**(`time: double`)
+- **InstancePinned**(`uniqueIdString: string`, `depth: int`)
+- **InstanceUnpinned**(`uniqueIdString: string`, `depth: int`)
+- **OnTeleport**(`teleportState: TeleportState`, `placeId: int64`, `spawnName: string`)
+- **SimulationRadiusChanged**(`radius: float`)
+- **StreamingPinComplete**(`instance: Instance`)

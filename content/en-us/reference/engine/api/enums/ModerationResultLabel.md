@@ -1,0 +1,20 @@
+---
+title: ModerationResultLabel
+type: enum
+---
+
+# ModerationResultLabel (Enum)
+
+| Name | Value |
+|------|-------|
+| ChildExploitation | 0 |
+| SuicideSelfInjuryAndHarmfulBehavior | 1 |
+| ThreatsBullyingAndHarassment | 2 |
+| TerrorismAndViolentExtremism | 3 |
+| DiscriminationSlursAndHateSpeech | 4 |
+| RealWorldSensitiveEvents | 5 |
+| ViolentContentAndGore | 6 |
+| RomanticAndSexualContent | 7 |
+| IllegalAndRegulatedGoodsAndActivities | 8 |
+| Profanity | 9 |
+| Other | 100 |

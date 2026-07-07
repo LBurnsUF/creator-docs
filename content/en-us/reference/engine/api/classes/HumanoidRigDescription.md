@@ -1,0 +1,146 @@
+---
+title: HumanoidRigDescription
+type: class
+superclass: Instance
+---
+
+# HumanoidRigDescription
+
+**Inherits**: Instance > Object
+
+## Properties
+
+- **Chest**: `Instance`
+- **ChestRangeMax**: `Vector3`
+- **ChestRangeMin**: `Vector3`
+- **ChestSize**: `float`
+- **ChestTposeAdjustment**: `CFrame`
+- **HeadBase**: `Instance`
+- **HeadBaseRangeMax**: `Vector3`
+- **HeadBaseRangeMin**: `Vector3`
+- **HeadBaseSize**: `float`
+- **HeadBaseTposeAdjustment**: `CFrame`
+- **LeftAnkle**: `Instance`
+- **LeftAnkleRangeMax**: `Vector3`
+- **LeftAnkleRangeMin**: `Vector3`
+- **LeftAnkleSize**: `float`
+- **LeftAnkleTposeAdjustment**: `CFrame`
+- **LeftClavicle**: `Instance`
+- **LeftClavicleRangeMax**: `Vector3`
+- **LeftClavicleRangeMin**: `Vector3`
+- **LeftClavicleSize**: `float`
+- **LeftClavicleTposeAdjustment**: `CFrame`
+- **LeftElbow**: `Instance`
+- **LeftElbowRangeMax**: `Vector3`
+- **LeftElbowRangeMin**: `Vector3`
+- **LeftElbowSize**: `float`
+- **LeftElbowTposeAdjustment**: `CFrame`
+- **LeftHip**: `Instance`
+- **LeftHipRangeMax**: `Vector3`
+- **LeftHipRangeMin**: `Vector3`
+- **LeftHipSize**: `float`
+- **LeftHipTposeAdjustment**: `CFrame`
+- **LeftKnee**: `Instance`
+- **LeftKneeRangeMax**: `Vector3`
+- **LeftKneeRangeMin**: `Vector3`
+- **LeftKneeSize**: `float`
+- **LeftKneeTposeAdjustment**: `CFrame`
+- **LeftShoulder**: `Instance`
+- **LeftShoulderRangeMax**: `Vector3`
+- **LeftShoulderRangeMin**: `Vector3`
+- **LeftShoulderSize**: `float`
+- **LeftShoulderTposeAdjustment**: `CFrame`
+- **LeftToeBase**: `Instance`
+- **LeftToeBaseRangeMax**: `Vector3`
+- **LeftToeBaseRangeMin**: `Vector3`
+- **LeftToeBaseSize**: `float`
+- **LeftToeBaseTposeAdjustment**: `CFrame`
+- **LeftWrist**: `Instance`
+- **LeftWristRangeMax**: `Vector3`
+- **LeftWristRangeMin**: `Vector3`
+- **LeftWristSize**: `float`
+- **LeftWristTposeAdjustment**: `CFrame`
+- **Neck**: `Instance`
+- **NeckRangeMax**: `Vector3`
+- **NeckRangeMin**: `Vector3`
+- **NeckSize**: `float`
+- **NeckTposeAdjustment**: `CFrame`
+- **OriginOffset**: `CFrame` (Security: Read=RobloxScriptSecurity, Write=RobloxScriptSecurity)
+- **RightAnkle**: `Instance`
+- **RightAnkleRangeMax**: `Vector3`
+- **RightAnkleRangeMin**: `Vector3`
+- **RightAnkleSize**: `float`
+- **RightAnkleTposeAdjustment**: `CFrame`
+- **RightClavicle**: `Instance`
+- **RightClavicleRangeMax**: `Vector3`
+- **RightClavicleRangeMin**: `Vector3`
+- **RightClavicleSize**: `float`
+- **RightClavicleTposeAdjustment**: `CFrame`
+- **RightElbow**: `Instance`
+- **RightElbowRangeMax**: `Vector3`
+- **RightElbowRangeMin**: `Vector3`
+- **RightElbowSize**: `float`
+- **RightElbowTposeAdjustment**: `CFrame`
+- **RightHip**: `Instance`
+- **RightHipRangeMax**: `Vector3`
+- **RightHipRangeMin**: `Vector3`
+- **RightHipSize**: `float`
+- **RightHipTposeAdjustment**: `CFrame`
+- **RightKnee**: `Instance`
+- **RightKneeRangeMax**: `Vector3`
+- **RightKneeRangeMin**: `Vector3`
+- **RightKneeSize**: `float`
+- **RightKneeTposeAdjustment**: `CFrame`
+- **RightShoulder**: `Instance`
+- **RightShoulderRangeMax**: `Vector3`
+- **RightShoulderRangeMin**: `Vector3`
+- **RightShoulderSize**: `float`
+- **RightShoulderTposeAdjustment**: `CFrame`
+- **RightToeBase**: `Instance`
+- **RightToeBaseRangeMax**: `Vector3`
+- **RightToeBaseRangeMin**: `Vector3`
+- **RightToeBaseSize**: `float`
+- **RightToeBaseTposeAdjustment**: `CFrame`
+- **RightWrist**: `Instance`
+- **RightWristRangeMax**: `Vector3`
+- **RightWristRangeMin**: `Vector3`
+- **RightWristSize**: `float`
+- **RightWristTposeAdjustment**: `CFrame`
+- **Root**: `Instance`
+- **RootRangeMax**: `Vector3`
+- **RootRangeMin**: `Vector3`
+- **RootSize**: `float`
+- **RootTposeAdjustment**: `CFrame`
+- **Spine**: `Instance`
+- **SpineRangeMax**: `Vector3`
+- **SpineRangeMin**: `Vector3`
+- **SpineSize**: `float`
+- **SpineTposeAdjustment**: `CFrame`
+- **Waist**: `Instance`
+- **WaistRangeMax**: `Vector3`
+- **WaistRangeMin**: `Vector3`
+- **WaistSize**: `float`
+- **WaistTposeAdjustment**: `CFrame`
+
+## Methods
+
+- **AutoRig**(`character: Instance`) -> `null`
+- **GetContainedJointLabels**(`bodyMeshPartName: string`) -> `Array`
+- **GetJoint**(`label: RigLabel`) -> `Instance`
+- **GetJointFromName**(`name: string`) -> `Instance`
+- **GetJointLabels**() -> `Array`
+- **GetJointNames**() -> `Array`
+- **GetJointRangeMax**(`rigLabel: RigLabel`) -> `Vector3`
+- **GetJointRangeMin**(`rigLabel: RigLabel`) -> `Vector3`
+- **GetJointSize**(`label: RigLabel`) -> `float`
+- **GetR15JointLabels**() -> `Array`
+- **GetR15JointNames**() -> `Array`
+- **GetR6JointLabels**() -> `Array`
+- **GetR6JointNames**() -> `Array`
+- **GetTposeAdjustment**(`label: RigLabel`) -> `CFrame`
+- **SetJoint**(`label: RigLabel`, `joint: Instance`) -> `null`
+- **SetJointRangeMax**(`rigLabel: RigLabel`, `rangeMax: Vector3`) -> `null`
+- **SetJointRangeMin**(`rigLabel: RigLabel`, `rangeMin: Vector3`) -> `null`
+- **SetJointSize**(`label: RigLabel`, `size: float`) -> `null`
+- **SetTposeAdjustment**(`label: RigLabel`, `transform: CFrame`) -> `null`
+- **ShowVolumes**(`show: bool`) -> `null`

@@ -1,0 +1,33 @@
+---
+title: DeveloperMemoryTag
+type: enum
+---
+
+# DeveloperMemoryTag (Enum)
+
+| Name | Value |
+|------|-------|
+| Internal | 0 |
+| HttpCache | 1 |
+| Instances | 2 |
+| Signals | 3 |
+| LuaHeap | 4 |
+| Script | 5 |
+| PhysicsCollision | 6 |
+| BaseParts | 7 |
+| GraphicsSolidModels | 8 |
+| GraphicsMeshParts | 10 |
+| GraphicsParticles | 11 |
+| GraphicsParts | 12 |
+| GraphicsSpatialHash | 13 |
+| GraphicsTerrain | 14 |
+| GraphicsTexture | 15 |
+| GraphicsTextureCharacter | 16 |
+| Sounds | 17 |
+| StreamingSounds | 18 |
+| TerrainVoxels | 19 |
+| Gui | 21 |
+| Animation | 22 |
+| Navigation | 23 |
+| GeometryCSG | 24 |
+| GraphicsSlimModels | 25 |
