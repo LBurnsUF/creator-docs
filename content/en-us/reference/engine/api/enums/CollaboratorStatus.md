@@ -7,9 +7,9 @@ type: enum
 
 The `Enum.CollaboratorStatus` enum has 4 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.CollaboratorStatus.None` | 0 |
-| `Enum.CollaboratorStatus.Editing3D` | 1 |
-| `Enum.CollaboratorStatus.Scripting` | 2 |
-| `Enum.CollaboratorStatus.PrivateScripting` | 3 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.CollaboratorStatus.None` | 0 |  |
+| `Enum.CollaboratorStatus.Editing3D` | 1 |  |
+| `Enum.CollaboratorStatus.Scripting` | 2 |  |
+| `Enum.CollaboratorStatus.PrivateScripting` | 3 |  |

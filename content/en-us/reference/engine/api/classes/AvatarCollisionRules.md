@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AvatarCollisionRules.CollisionMode` | `Enum.AvatarSettingsCollisionMode` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarCollisionRules.HitAndTouchDetectionMode` | `Enum.AvatarSettingsHitAndTouchDetectionMode` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarCollisionRules.LegacyCollisionMode` | `Enum.AvatarSettingsLegacyCollisionMode` |  {security: RobloxScriptSecurity} |

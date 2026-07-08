@@ -15,5 +15,5 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.MessageBusConnection:Disconnect`
 
-``Disconnect()`` → `null`
+``Disconnect()`` -> `null`
    {security: RobloxScriptSecurity}

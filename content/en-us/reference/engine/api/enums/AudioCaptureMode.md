@@ -7,5 +7,5 @@ type: enum
 
 The `Enum.AudioCaptureMode` enum has 0 item(s).
 
-| Name | Value |
-|------|-------|
+| Name | Value | Description |
+|------|-------|-------------|

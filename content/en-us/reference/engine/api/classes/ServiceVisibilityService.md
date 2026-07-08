@@ -13,8 +13,8 @@ tags: [NotCreatable, Service]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ServiceVisibilityService.HiddenServices` | `Datatype.BinaryString` |  {security: RobloxSecurity} |
 | `Class.ServiceVisibilityService.VisibleServices` | `Datatype.BinaryString` |  {security: RobloxSecurity} |
 
@@ -22,7 +22,7 @@ tags: [NotCreatable, Service]
 
 ### `Class.ServiceVisibilityService:SetServiceVisibilityPreference`
 
-``SetServiceVisibilityPreference(service: `Class.Instance`, visible: `bool`)`` → `null`
+``SetServiceVisibilityPreference(service: `Class.Instance`, visible: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

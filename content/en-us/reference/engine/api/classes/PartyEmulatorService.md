@@ -15,47 +15,47 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.PartyEmulatorService:CreateNewParty`
 
-``CreateNewParty()`` → `string`
+``CreateNewParty()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.PartyEmulatorService:DeleteParty`
 
-``DeleteParty(partyId: `string`)`` → `null`
+``DeleteParty(partyId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.PartyEmulatorService:GetEmulatedPartyAsync`
 
-``GetEmulatedPartyAsync(partyId: `string`)`` → `Array`
+``GetEmulatedPartyAsync(partyId: `string`)`` -> `Array`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.PartyEmulatorService:GetEmulatedPartyConfiguration`
 
-``GetEmulatedPartyConfiguration()`` → `Dictionary`
+``GetEmulatedPartyConfiguration()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.PartyEmulatorService:GetIsEmulationEnabled`
 
-``GetIsEmulationEnabled()`` → `bool`
+``GetIsEmulationEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.PartyEmulatorService:OnTestPlayerCountChanged`
 
-``OnTestPlayerCountChanged(newPlayerCount: `int`)`` → `null`
+``OnTestPlayerCountChanged(newPlayerCount: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.PartyEmulatorService:SetIsEmulationEnabled`
 
-``SetIsEmulationEnabled(isEnabled: `bool`)`` → `null`
+``SetIsEmulationEnabled(isEnabled: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.PartyEmulatorService:SetPlayerPartyId`
 
-``SetPlayerPartyId(userId: `int64`, partyId: `string`)`` → `null`
+``SetPlayerPartyId(userId: `int64`, partyId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.PartyEmulatorService:applyPartyIdToPlayer`
 
-``applyPartyIdToPlayer(player: `Class.Player`)`` → `null`
+``applyPartyIdToPlayer(player: `Class.Player`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

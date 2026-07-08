@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StudioScreenshotCapture.BufferFormat` | `Enum.StudioCaptureScreenshotFormat` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
 | `Class.StudioScreenshotCapture.BufferStatus` | `Enum.StudioCaptureBufferStatus` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
 | `Class.StudioScreenshotCapture.OriginalSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
@@ -26,15 +26,15 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.StudioScreenshotCapture:GetBuffer`
 
-``GetBuffer()`` → `Datatype.buffer`
+``GetBuffer()`` -> `Datatype.buffer`
    {security: PluginSecurity}
 
 ### `Class.StudioScreenshotCapture:GetErrors`
 
-``GetErrors()`` → `Array`
+``GetErrors()`` -> `Array`
    {security: PluginSecurity}
 
 ### `Class.StudioScreenshotCapture:ScaleAsync`
 
-``ScaleAsync(strategy: `Enum.ResamplerMode`, newSize: `Datatype.Vector2`)`` → `Class.StudioScreenshotCapture`
+``ScaleAsync(strategy: `Enum.ResamplerMode`, newSize: `Datatype.Vector2`)`` -> `Class.StudioScreenshotCapture`
   [Yields] {security: PluginSecurity}

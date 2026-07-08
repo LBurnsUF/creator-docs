@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AnimationStreamTrack.Animation` | `Class.TrackerStreamAnimation` | [Hidden] [ReadOnly] [NotReplicated] |
 | `Class.AnimationStreamTrack.FACSDataLod` | `Enum.FACSDataLod` | [Hidden] [ReadOnly] [NotReplicated] |
 | `Class.AnimationStreamTrack.IsPlaying` | `bool` | [Hidden] [ReadOnly] [NotReplicated] |
@@ -26,32 +26,32 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.AnimationStreamTrack:AdjustWeight`
 
-``AdjustWeight(weight: `float`, fadeTime: `float`)`` → `null`
+``AdjustWeight(weight: `float`, fadeTime: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnimationStreamTrack:GetActive`
 
-``GetActive()`` → `bool`
+``GetActive()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnimationStreamTrack:GetTrackerData`
 
-``GetTrackerData()`` → `Tuple`
+``GetTrackerData()`` -> `Tuple`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnimationStreamTrack:Play`
 
-``Play(fadeTime: `float`, weight: `float`)`` → `null`
+``Play(fadeTime: `float`, weight: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnimationStreamTrack:Stop`
 
-``Stop(fadeTime: `float`)`` → `null`
+``Stop(fadeTime: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnimationStreamTrack:TogglePause`
 
-``TogglePause(paused: `bool`)`` → `null`
+``TogglePause(paused: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

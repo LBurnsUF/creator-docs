@@ -7,14 +7,20 @@ tags: [NotCreatable, NotBrowsable]
 
 # UIGridStyleLayout
 
+The base class for grid style UI layouts.
+
 **Inherits from:** `Class.UILayout` > `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [NotBrowsable]
 
+## Description
+
+The base class for grid style UI layouts.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.UIGridStyleLayout.AbsoluteContentSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
 | `Class.UIGridStyleLayout.FillDirection` | `Enum.FillDirection` |  |
 | `Class.UIGridStyleLayout.HorizontalAlignment` | `Enum.HorizontalAlignment` |  |
@@ -25,10 +31,10 @@ tags: [NotCreatable, NotBrowsable]
 
 ### `Class.UIGridStyleLayout:ApplyLayout`
 
-``ApplyLayout()`` → `null`
+``ApplyLayout()`` -> `null`
   [Deprecated]
 
 ### `Class.UIGridStyleLayout:SetCustomSortFunction`
 
-``SetCustomSortFunction(function: `Datatype.Function`)`` → `null`
+``SetCustomSortFunction(function: `Datatype.Function`)`` -> `null`
   [Deprecated]

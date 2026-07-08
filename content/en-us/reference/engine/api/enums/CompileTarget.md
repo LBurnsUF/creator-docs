@@ -7,9 +7,9 @@ type: enum
 
 The `Enum.CompileTarget` enum has 4 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.CompileTarget.Client` | 0 |
-| `Enum.CompileTarget.CoreScript` | 1 |
-| `Enum.CompileTarget.Studio` | 2 |
-| `Enum.CompileTarget.CoreScriptRaw` | 3 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.CompileTarget.Client` | 0 |  |
+| `Enum.CompileTarget.CoreScript` | 1 |  |
+| `Enum.CompileTarget.Studio` | 2 |  |
+| `Enum.CompileTarget.CoreScriptRaw` | 3 |  |

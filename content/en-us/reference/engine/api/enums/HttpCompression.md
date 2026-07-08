@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.HttpCompression` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.HttpCompression.None` | 0 |
-| `Enum.HttpCompression.Gzip` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.HttpCompression.None` | 0 |  |
+| `Enum.HttpCompression.Gzip` | 1 |  |

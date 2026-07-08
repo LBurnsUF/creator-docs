@@ -13,8 +13,8 @@ tags: [NotCreatable, Deprecated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AuroraScriptObject.BehaviorWeak` | `Class.AuroraScript` |  {security: RobloxSecurity} |
 | `Class.AuroraScriptObject.BoundInstanceWeak` | `Class.Instance` |  {security: RobloxSecurity} |
 | `Class.AuroraScriptObject.FrameId` | `int` |  |
@@ -25,10 +25,10 @@ tags: [NotCreatable, Deprecated]
 
 ### `Class.AuroraScriptObject:GetCurrentState`
 
-``GetCurrentState()`` → `Dictionary`
+``GetCurrentState()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.AuroraScriptObject:SetStateFieldValue`
 
-``SetStateFieldValue(fieldName: `string`, value: `Variant`)`` → `null`
+``SetStateFieldValue(fieldName: `string`, value: `Variant`)`` -> `null`
    {security: RobloxScriptSecurity}

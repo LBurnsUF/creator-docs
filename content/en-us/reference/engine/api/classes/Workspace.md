@@ -7,14 +7,66 @@ tags: [NotCreatable, Service]
 
 # Workspace
 
+`Workspace` houses 3D objects which are rendered to the 3D world. Objects not
+descending from it will not be rendered or physically interact with the world.
+
 **Inherits from:** `Class.WorldRoot` > `Class.Model` > `Class.PVInstance` > `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
 
+## Description
+
+The core job of `Class.Workspace` is to hold objects that exist in the 3D
+world, effectively `Class.BasePart|BaseParts` and
+`Class.Attachment|Attachments`. While such objects are descendant of
+`Class.Workspace`, they will be active. For `Class.BasePart|BaseParts`, this
+means they will be rendered, and physically interact with other parts and the
+world. For `Class.Attachment|Attachments`, this means that objects adorned to
+them, such as `Class.ParticleEmitter|ParticleEmitters`, `Class.Beam|Beams`,
+and `Class.BillboardGui|BillboardGuis`, will render.
+
+Understanding this behavior is important, as it means objects can be removed
+from `Class.Workspace` when they are not needed. For example, map
+`Class.Model|Models` can be removed when a different map is being played on.
+Objects that are not immediately needed in the 3D world are generally stored
+in `Class.ReplicatedStorage` or `Class.ServerStorage`.
+
+In its role as the holder of active 3D objects, `Class.Workspace` includes a
+number of useful functions related to parts, their positions, and joints
+between them.
+
+#### Accessing the Workspace
+
+`Class.Workspace` can be accessed several ways, all of which are valid.
+
+- `workspace`
+- `game:GetService("Workspace")`
+- `game.Workspace`
+
+#### Notes
+
+- Objects that require adornment, such as
+  `Class.ParticleEmitter|ParticleEmitters` and
+  `Class.BillboardGui|BillboardGuis`, will be at the
+  <Typography noWrap>`(0, 0, 0)`</Typography> position when parented to
+  `Class.Workspace` without an adornee otherwise being set.
+- The `Class.Model:MakeJoints()` and `Class.Model:BreakJoints()` methods
+  inherited from the `Class.Model` class are overridden by
+  `Class.Workspace:MakeJoints()` and `Class.Workspace:BreakJoints()` which can
+  only be used in plugins.
+- It is impossible to delete `Class.Workspace`.
+- `Class.Workspace` automatically cleans up `Class.BasePart|BaseParts` that
+  fall beneath
+  `Class.Workspace.FallenPartsDestroyHeight|FallenPartsDestroyHeight`.
+- A client's current `Class.Camera` object can be accessed using the
+  `Class.Workspace.CurrentCamera` property.
+- The `Class.Terrain` object can be accessed using the
+  `Class.Workspace.Terrain` property.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Workspace.AirDensity` | `float` |  |
 | `Class.Workspace.AirTurbulenceIntensity` | `float` |  |
 | `Class.Workspace.AllowThirdPartySales` | `bool` | [NotReplicated] |
@@ -73,85 +125,85 @@ tags: [NotCreatable, Service]
 
 ### `Class.Workspace:ApplyRecommendedStreamingSettings`
 
-``ApplyRecommendedStreamingSettings()`` → `bool`
+``ApplyRecommendedStreamingSettings()`` -> `bool`
    {security: PluginSecurity}
 
 ### `Class.Workspace:BreakJoints`
 
-``BreakJoints(objects: `Datatype.Instances`)`` → `null`
+``BreakJoints(objects: `Datatype.Instances`)`` -> `null`
   [Deprecated] {security: PluginSecurity}
 
 ### `Class.Workspace:CalculateJumpDistance`
 
-``CalculateJumpDistance(gravity: `float`, jumpPower: `float`, walkSpeed: `float`)`` → `float`
+``CalculateJumpDistance(gravity: `float`, jumpPower: `float`, walkSpeed: `float`)`` -> `float`
    {security: RobloxScriptSecurity}
 
 ### `Class.Workspace:CalculateJumpHeight`
 
-``CalculateJumpHeight(gravity: `float`, jumpPower: `float`)`` → `float`
+``CalculateJumpHeight(gravity: `float`, jumpPower: `float`)`` -> `float`
    {security: RobloxScriptSecurity}
 
 ### `Class.Workspace:CalculateJumpPower`
 
-``CalculateJumpPower(gravity: `float`, jumpHeight: `float`)`` → `float`
+``CalculateJumpPower(gravity: `float`, jumpHeight: `float`)`` -> `float`
    {security: RobloxScriptSecurity}
 
 ### `Class.Workspace:ExperimentalSolverIsEnabled`
 
-``ExperimentalSolverIsEnabled()`` → `bool`
+``ExperimentalSolverIsEnabled()`` -> `bool`
    {security: LocalUserSecurity}
 
 ### `Class.Workspace:GetNumAwakeParts`
 
-``GetNumAwakeParts()`` → `int`
+``GetNumAwakeParts()`` -> `int`
 
 ### `Class.Workspace:GetPhysicsThrottling`
 
-``GetPhysicsThrottling()`` → `int`
+``GetPhysicsThrottling()`` -> `int`
 
 ### `Class.Workspace:GetRealPhysicsFPS`
 
-``GetRealPhysicsFPS()`` → `double`
+``GetRealPhysicsFPS()`` -> `double`
 
 ### `Class.Workspace:GetServerTimeNow`
 
-``GetServerTimeNow()`` → `double`
+``GetServerTimeNow()`` -> `double`
 
 ### `Class.Workspace:JoinToOutsiders`
 
-``JoinToOutsiders(objects: `Datatype.Instances`, jointType: `Enum.JointCreationMode`)`` → `null`
+``JoinToOutsiders(objects: `Datatype.Instances`, jointType: `Enum.JointCreationMode`)`` -> `null`
 
 ### `Class.Workspace:MakeJoints`
 
-``MakeJoints(objects: `Datatype.Instances`)`` → `null`
+``MakeJoints(objects: `Datatype.Instances`)`` -> `null`
   [Deprecated] {security: PluginSecurity}
 
 ### `Class.Workspace:PGSIsEnabled`
 
-``PGSIsEnabled()`` → `bool`
+``PGSIsEnabled()`` -> `bool`
 
 ### `Class.Workspace:SetAvatarUnificationMode`
 
-``SetAvatarUnificationMode(value: `Enum.AvatarUnificationMode`)`` → `null`
+``SetAvatarUnificationMode(value: `Enum.AvatarUnificationMode`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Workspace:SetMeshPartHeadsAndAccessories`
 
-``SetMeshPartHeadsAndAccessories(value: `Enum.MeshPartHeadsAndAccessories`)`` → `null`
+``SetMeshPartHeadsAndAccessories(value: `Enum.MeshPartHeadsAndAccessories`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Workspace:SetPhysicsThrottleEnabled`
 
-``SetPhysicsThrottleEnabled(value: `bool`)`` → `null`
+``SetPhysicsThrottleEnabled(value: `bool`)`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.Workspace:UnjoinFromOutsiders`
 
-``UnjoinFromOutsiders(objects: `Datatype.Instances`)`` → `null`
+``UnjoinFromOutsiders(objects: `Datatype.Instances`)`` -> `null`
 
 ### `Class.Workspace:ZoomToExtents`
 
-``ZoomToExtents()`` → `null`
+``ZoomToExtents()`` -> `null`
    {security: PluginSecurity}
 
 ## Events

@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PluginDragEvent.Data` | `string` | [ReadOnly] [NotReplicated] |
 | `Class.PluginDragEvent.MimeType` | `string` | [ReadOnly] [NotReplicated] |
 | `Class.PluginDragEvent.Position` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |

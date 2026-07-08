@@ -15,16 +15,16 @@ tags: [NotReplicated]
 
 ### `Class.CustomLog:Close`
 
-``Close()`` → `null`
+``Close()`` -> `null`
 
 ### `Class.CustomLog:GetLogPath`
 
-``GetLogPath()`` → `string`
+``GetLogPath()`` -> `string`
 
 ### `Class.CustomLog:Open`
 
-``Open()`` → `null`
+``Open()`` -> `null`
 
 ### `Class.CustomLog:WriteAppend`
 
-``WriteAppend(append: `string`)`` → `null`
+``WriteAppend(append: `string`)`` -> `null`

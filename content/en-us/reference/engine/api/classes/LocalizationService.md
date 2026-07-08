@@ -7,14 +7,28 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # LocalizationService
 
+Handles automated translation.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+LocalizationService is the service responsible for handling automated
+translation.
+
+It is used as a storage for `Class.LocalizationTable` objects used by
+automatic text replacement.
+
+LocalizationService will only use its child LocalizationTables for automatic
+text replacement unless `Class.GuiBase2d.RootLocalizationTable` is specified
+on a GUI object or its ancestors.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.LocalizationService.ForcePlayModeGameLocaleId` | `string` | [Hidden] [NotReplicated] {security: LocalUserSecurity} |
 | `Class.LocalizationService.ForcePlayModeRobloxLocaleId` | `string` | [Hidden] [NotReplicated] {security: LocalUserSecurity} |
 | `Class.LocalizationService.IsTextScraperRunning` | `bool` | [Hidden] {security: RobloxScriptSecurity} |
@@ -27,74 +41,74 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.LocalizationService:GetCorescriptLocalizations`
 
-``GetCorescriptLocalizations()`` → `Datatype.Instances`
+``GetCorescriptLocalizations()`` -> `Datatype.Instances`
 
 ### `Class.LocalizationService:GetCountryRegionForPlayerAsync`
 
-``GetCountryRegionForPlayerAsync(player: `Class.Instance`)`` → `string`
+``GetCountryRegionForPlayerAsync(player: `Class.Instance`)`` -> `string`
   [Yields]
 
 ### `Class.LocalizationService:GetIsLoadingInternalTranslations`
 
-``GetIsLoadingInternalTranslations()`` → `bool`
+``GetIsLoadingInternalTranslations()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.LocalizationService:GetTableEntries`
 
-``GetTableEntries(instance: `Class.Instance`)`` → `Array`
+``GetTableEntries(instance: `Class.Instance`)`` -> `Array`
 
 ### `Class.LocalizationService:GetTranslatorForLocaleAsync`
 
-``GetTranslatorForLocaleAsync(locale: `string`)`` → `Class.Instance`
+``GetTranslatorForLocaleAsync(locale: `string`)`` -> `Class.Instance`
   [Yields]
 
 ### `Class.LocalizationService:GetTranslatorForPlayer`
 
-``GetTranslatorForPlayer(player: `Class.Instance`)`` → `Class.Instance`
+``GetTranslatorForPlayer(player: `Class.Instance`)`` -> `Class.Instance`
 
 ### `Class.LocalizationService:GetTranslatorForPlayerAsync`
 
-``GetTranslatorForPlayerAsync(player: `Class.Instance`)`` → `Class.Instance`
+``GetTranslatorForPlayerAsync(player: `Class.Instance`)`` -> `Class.Instance`
   [Yields]
 
 ### `Class.LocalizationService:IsLoadingInternalTranslationsSettingChanged`
 
-``IsLoadingInternalTranslationsSettingChanged(newIsLoadingInternalTranslations: `bool`)`` → `null`
+``IsLoadingInternalTranslationsSettingChanged(newIsLoadingInternalTranslations: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.LocalizationService:PromptDownloadGameTableToCSV`
 
-``PromptDownloadGameTableToCSV(table: `Class.Instance`)`` → `null`
+``PromptDownloadGameTableToCSV(table: `Class.Instance`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.LocalizationService:PromptExportToCSVs`
 
-``PromptExportToCSVs()`` → `null`
+``PromptExportToCSVs()`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.LocalizationService:PromptImportFromCSVs`
 
-``PromptImportFromCSVs()`` → `null`
+``PromptImportFromCSVs()`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.LocalizationService:PromptUploadCSVToGameTable`
 
-``PromptUploadCSVToGameTable()`` → `Class.Instance`
+``PromptUploadCSVToGameTable()`` -> `Class.Instance`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.LocalizationService:SetRobloxLocaleId`
 
-``SetRobloxLocaleId(locale: `string`)`` → `null`
+``SetRobloxLocaleId(locale: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.LocalizationService:StartTextScraper`
 
-``StartTextScraper()`` → `null`
+``StartTextScraper()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.LocalizationService:StopTextScraper`
 
-``StopTextScraper()`` → `null`
+``StopTextScraper()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

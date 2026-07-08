@@ -15,10 +15,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.PluginManagementService:GetOTAPluginVersion`
 
-``GetOTAPluginVersion(pluginName: `string`)`` → `int64`
+``GetOTAPluginVersion(pluginName: `string`)`` -> `int64`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.PluginManagementService:SetAutoUpdate`
 
-``SetAutoUpdate(pluginId: `int64`, state: `bool`)`` → `null`
+``SetAutoUpdate(pluginId: `int64`, state: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}

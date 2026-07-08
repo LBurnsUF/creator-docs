@@ -7,14 +7,35 @@ tags: [NotCreatable, Service]
 
 # StarterPlayer
 
+A service which allows the defaults of properties in the `Class.Player` object
+to be set.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
 
+## Description
+
+A service which allows the defaults of properties in the `Class.Player` object
+to be set. When a player enters the server, each property of the player object
+is set to the current value of the corresponding property in
+`Class.StarterPlayer`.
+
+Additionally, you may add four objects to this service:
+
+- A `Class.StarterPlayerScripts` instance with scripts that run once for each
+  player.
+- A `Class.StarterCharacterScripts` instance with scripts to add to each
+  player's character every time they spawn.
+- A `Class.Humanoid` instance named `StarterHumanoid` which will be used as
+  the default humanoid for each player's character.
+- A `Class.Model` instance named `StarterCharacter` which will be used as the
+  character model for all players.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StarterPlayer.AllowCustomAnimations` | `bool` | [Hidden] {write: RobloxScriptSecurity} |
 | `Class.StarterPlayer.AutoJumpEnabled` | `bool` |  |
 | `Class.StarterPlayer.AvatarJointUpgrade` | `Enum.RolloutState` | [NotReplicated] {security: RobloxScriptSecurity} |
@@ -65,5 +86,5 @@ tags: [NotCreatable, Service]
 
 ### `Class.StarterPlayer:ClearDefaults`
 
-``ClearDefaults()`` → `null`
+``ClearDefaults()`` -> `null`
    {security: RobloxScriptSecurity}

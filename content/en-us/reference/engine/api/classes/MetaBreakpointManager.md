@@ -15,17 +15,17 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.MetaBreakpointManager:AddBreakpoint`
 
-``AddBreakpoint(script: `Class.Instance`, line: `int`, condition: `Class.Instance`)`` → `Class.Instance`
+``AddBreakpoint(script: `Class.Instance`, line: `int`, condition: `Class.Instance`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.MetaBreakpointManager:GetBreakpointById`
 
-``GetBreakpointById(metaBreakpointId: `int`)`` → `Class.MetaBreakpoint`
+``GetBreakpointById(metaBreakpointId: `int`)`` -> `Class.MetaBreakpoint`
    {security: RobloxScriptSecurity}
 
 ### `Class.MetaBreakpointManager:RemoveBreakpointById`
 
-``RemoveBreakpointById(metaBreakpointId: `int`)`` → `null`
+``RemoveBreakpointById(metaBreakpointId: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

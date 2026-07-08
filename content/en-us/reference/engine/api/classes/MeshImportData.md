@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.MeshImportData.Anchored` | `bool` |  |
 | `Class.MeshImportData.CageManifold` | `bool` | [ReadOnly] [NotReplicated] |
 | `Class.MeshImportData.CageMeshIntersectedPreview` | `bool` |  |

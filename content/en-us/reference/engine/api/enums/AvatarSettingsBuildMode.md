@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.AvatarSettingsBuildMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AvatarSettingsBuildMode.PlayerChoice` | 0 |
-| `Enum.AvatarSettingsBuildMode.CustomBuild` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AvatarSettingsBuildMode.PlayerChoice` | 0 |  |
+| `Enum.AvatarSettingsBuildMode.CustomBuild` | 1 |  |

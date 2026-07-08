@@ -7,14 +7,26 @@ tags: [NotCreatable, NotBrowsable]
 
 # Instance
 
+`Instance` is the base class for all classes in the Roblox class hierarchy
+which can be part of the `Class.DataModel` tree.
+
 **Inherits from:** `Class.Object`
 
 **Tags:** [NotCreatable] [NotBrowsable]
 
+## Description
+
+`Instance` is the base class for all classes in the Roblox class hierarchy
+which can be part of the `Class.DataModel` tree.
+
+It is not possible to directly create root `Instance` objects, but the special
+`Datatype.Instance.new()` constructor creates objects via code, taking the
+name of the class as a parameter and returning the created object.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Instance.Archivable` | `bool` |  |
 | `Class.Instance.Capabilities` | `Datatype.SecurityCapabilities` |  |
 | `Class.Instance.DataCost` | `int` | [Hidden] [ReadOnly] [NotReplicated] [Deprecated] {security: LocalUserSecurity} |
@@ -32,171 +44,171 @@ tags: [NotCreatable, NotBrowsable]
 
 ### `Class.Instance:AddTag`
 
-``AddTag(tag: `string`)`` → `null`
+``AddTag(tag: `string`)`` -> `null`
 
 ### `Class.Instance:ClearAllChildren`
 
-``ClearAllChildren()`` → `null`
+``ClearAllChildren()`` -> `null`
 
 ### `Class.Instance:Clone`
 
-``Clone()`` → `Class.Instance`
+``Clone()`` -> `Class.Instance`
 
 ### `Class.Instance:Destroy`
 
-``Destroy()`` → `null`
+``Destroy()`` -> `null`
 
 ### `Class.Instance:FindFirstAncestor`
 
-``FindFirstAncestor(name: `string`)`` → `Class.Instance`
+``FindFirstAncestor(name: `string`)`` -> `Class.Instance`
 
 ### `Class.Instance:FindFirstAncestorOfClass`
 
-``FindFirstAncestorOfClass(className: `string`)`` → `Class.Instance`
+``FindFirstAncestorOfClass(className: `string`)`` -> `Class.Instance`
 
 ### `Class.Instance:FindFirstAncestorWhichIsA`
 
-``FindFirstAncestorWhichIsA(className: `string`)`` → `Class.Instance`
+``FindFirstAncestorWhichIsA(className: `string`)`` -> `Class.Instance`
 
 ### `Class.Instance:FindFirstChild`
 
-``FindFirstChild(name: `string`, recursive: `bool`)`` → `Class.Instance`
+``FindFirstChild(name: `string`, recursive: `bool`)`` -> `Class.Instance`
 
 ### `Class.Instance:FindFirstChildOfClass`
 
-``FindFirstChildOfClass(className: `string`)`` → `Class.Instance`
+``FindFirstChildOfClass(className: `string`)`` -> `Class.Instance`
 
 ### `Class.Instance:FindFirstChildWhichIsA`
 
-``FindFirstChildWhichIsA(className: `string`, recursive: `bool`)`` → `Class.Instance`
+``FindFirstChildWhichIsA(className: `string`, recursive: `bool`)`` -> `Class.Instance`
 
 ### `Class.Instance:FindFirstDescendant`
 
-``FindFirstDescendant(name: `string`)`` → `Class.Instance`
+``FindFirstDescendant(name: `string`)`` -> `Class.Instance`
 
 ### `Class.Instance:GetActor`
 
-``GetActor()`` → `Class.Actor`
+``GetActor()`` -> `Class.Actor`
 
 ### `Class.Instance:GetAttribute`
 
-``GetAttribute(attribute: `string`)`` → `Variant`
+``GetAttribute(attribute: `string`)`` -> `Variant`
 
 ### `Class.Instance:GetAttributeChangedSignal`
 
-``GetAttributeChangedSignal(attribute: `string`)`` → `Datatype.RBXScriptSignal`
+``GetAttributeChangedSignal(attribute: `string`)`` -> `Datatype.RBXScriptSignal`
 
 ### `Class.Instance:GetAttributes`
 
-``GetAttributes()`` → `Dictionary`
+``GetAttributes()`` -> `Dictionary`
   [CustomLuaState]
 
 ### `Class.Instance:GetChildren`
 
-``GetChildren()`` → `Datatype.Instances`
+``GetChildren()`` -> `Datatype.Instances`
 
 ### `Class.Instance:GetDebugId`
 
-``GetDebugId(scopeLength: `int`)`` → `string`
+``GetDebugId(scopeLength: `int`)`` -> `string`
   [NotBrowsable] {security: PluginSecurity}
 
 ### `Class.Instance:GetDescendants`
 
-``GetDescendants()`` → `Datatype.Instances`
+``GetDescendants()`` -> `Datatype.Instances`
   [CustomLuaState]
 
 ### `Class.Instance:GetFullName`
 
-``GetFullName()`` → `string`
+``GetFullName()`` -> `string`
 
 ### `Class.Instance:GetStyled`
 
-``GetStyled(name: `string`, selector: `string?`)`` → `Variant`
+``GetStyled(name: `string`, selector: `string?`)`` -> `Variant`
 
 ### `Class.Instance:GetStyledPropertyChangedSignal`
 
-``GetStyledPropertyChangedSignal(property: `string`)`` → `Datatype.RBXScriptSignal`
+``GetStyledPropertyChangedSignal(property: `string`)`` -> `Datatype.RBXScriptSignal`
 
 ### `Class.Instance:GetTags`
 
-``GetTags()`` → `Array`
+``GetTags()`` -> `Array`
 
 ### `Class.Instance:HasTag`
 
-``HasTag(tag: `string`)`` → `bool`
+``HasTag(tag: `string`)`` -> `bool`
 
 ### `Class.Instance:IsAncestorOf`
 
-``IsAncestorOf(descendant: `Class.Instance`)`` → `bool`
+``IsAncestorOf(descendant: `Class.Instance`)`` -> `bool`
 
 ### `Class.Instance:IsDescendantOf`
 
-``IsDescendantOf(ancestor: `Class.Instance`)`` → `bool`
+``IsDescendantOf(ancestor: `Class.Instance`)`` -> `bool`
 
 ### `Class.Instance:IsPropertyModified`
 
-``IsPropertyModified(property: `string`)`` → `bool`
+``IsPropertyModified(property: `string`)`` -> `bool`
 
 ### `Class.Instance:QueryDescendants`
 
-``QueryDescendants(selector: `string`)`` → `Datatype.Instances`
+``QueryDescendants(selector: `string`)`` -> `Datatype.Instances`
   [CustomLuaState]
 
 ### `Class.Instance:Remove`
 
-``Remove()`` → `null`
+``Remove()`` -> `null`
   [Deprecated]
 
 ### `Class.Instance:RemoveTag`
 
-``RemoveTag(tag: `string`)`` → `null`
+``RemoveTag(tag: `string`)`` -> `null`
 
 ### `Class.Instance:ResetPropertyToDefault`
 
-``ResetPropertyToDefault(property: `string`)`` → `null`
+``ResetPropertyToDefault(property: `string`)`` -> `null`
 
 ### `Class.Instance:SetAttribute`
 
-``SetAttribute(attribute: `string`, value: `Variant`)`` → `null`
+``SetAttribute(attribute: `string`, value: `Variant`)`` -> `null`
 
 ### `Class.Instance:WaitForChild`
 
-``WaitForChild(childName: `string`, timeOut: `double`)`` → `Class.Instance`
+``WaitForChild(childName: `string`, timeOut: `double`)`` -> `Class.Instance`
   [CustomLuaState] [CanYield]
 
 ### `Class.Instance:children`
 
-``children()`` → `Datatype.Instances`
+``children()`` -> `Datatype.Instances`
   [Deprecated]
 
 ### `Class.Instance:clone`
 
-``clone()`` → `Class.Instance`
+``clone()`` -> `Class.Instance`
   [Deprecated]
 
 ### `Class.Instance:destroy`
 
-``destroy()`` → `null`
+``destroy()`` -> `null`
   [Deprecated]
 
 ### `Class.Instance:findFirstChild`
 
-``findFirstChild(name: `string`, recursive: `bool`)`` → `Class.Instance`
+``findFirstChild(name: `string`, recursive: `bool`)`` -> `Class.Instance`
   [Deprecated]
 
 ### `Class.Instance:getChildren`
 
-``getChildren()`` → `Datatype.Instances`
+``getChildren()`` -> `Datatype.Instances`
   [Deprecated]
 
 ### `Class.Instance:isDescendantOf`
 
-``isDescendantOf(ancestor: `Class.Instance`)`` → `bool`
+``isDescendantOf(ancestor: `Class.Instance`)`` -> `bool`
   [Deprecated]
 
 ### `Class.Instance:remove`
 
-``remove()`` → `null`
+``remove()`` -> `null`
   [Deprecated]
 
 ## Events

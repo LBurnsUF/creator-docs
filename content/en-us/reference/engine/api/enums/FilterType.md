@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.FilterType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.FilterType.Exclude` | 0 |
-| `Enum.FilterType.Include` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.FilterType.Exclude` | 0 |  |
+| `Enum.FilterType.Include` | 1 |  |

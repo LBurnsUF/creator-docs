@@ -11,6 +11,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+This service is responsible for connecting a client to a server.
+
 ## Events
 
 ### `Class.NetworkClient.ConnectionAccepted`

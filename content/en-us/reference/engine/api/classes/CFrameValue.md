@@ -6,12 +6,18 @@ superclass: ValueBase
 
 # CFrameValue
 
+A container object for a single CFrame value.
+
 **Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
+
+## Description
+
+A container object for a single `Datatype.CFrame` value.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.CFrameValue.Value` | `Datatype.CFrame` |  |
 
 ## Events

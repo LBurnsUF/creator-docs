@@ -13,6 +13,6 @@ tags: [NotCreatable, Service]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.VersionControlService.ScriptCollabEnabled` | `bool` | [Hidden] {security: RobloxScriptSecurity} |

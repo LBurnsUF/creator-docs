@@ -15,32 +15,32 @@ tags: [NotCreatable, Service]
 
 ### `Class.CollaboratorsService:GetCollaboratorsList`
 
-``GetCollaboratorsList()`` → `Datatype.Instances`
+``GetCollaboratorsList()`` -> `Datatype.Instances`
    {security: RobloxScriptSecurity}
 
 ### `Class.CollaboratorsService:GetSelectionHighlightsEnabled`
 
-``GetSelectionHighlightsEnabled()`` → `bool`
+``GetSelectionHighlightsEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.CollaboratorsService:MultiGetCanCollaborate`
 
-``MultiGetCanCollaborate(userIds: `string`)`` → `null`
+``MultiGetCanCollaborate(userIds: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.CollaboratorsService:RequestFlyToCollaborator`
 
-``RequestFlyToCollaborator(collaboratorId: `int64`)`` → `null`
+``RequestFlyToCollaborator(collaboratorId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.CollaboratorsService:ToggleSelectionHighlights`
 
-``ToggleSelectionHighlights(showHighlights: `bool`)`` → `null`
+``ToggleSelectionHighlights(showHighlights: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.CollaboratorsService:ToggleTeamCreate`
 
-``ToggleTeamCreate(on: `bool`)`` → `null`
+``ToggleTeamCreate(on: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ExplorerFilterAutocompleter.ReplaceRange` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.ExplorerFilterAutocompleter.RequiresOutsideContext` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
@@ -22,5 +22,5 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.ExplorerFilterAutocompleter:GetSuggestions`
 
-``GetSuggestions()`` → `Array`
+``GetSuggestions()`` -> `Array`
    {security: RobloxScriptSecurity}

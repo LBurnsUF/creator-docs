@@ -15,27 +15,27 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.TextureGenerationService:CancelGenerationRequest`
 
-``CancelGenerationRequest(jobUuid: `string`)`` → `null`
+``CancelGenerationRequest(jobUuid: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TextureGenerationService:CreatePartGroup`
 
-``CreatePartGroup(instances: `Datatype.Instances`)`` → `Class.TextureGenerationPartGroup`
+``CreatePartGroup(instances: `Datatype.Instances`)`` -> `Class.TextureGenerationPartGroup`
    {security: RobloxScriptSecurity}
 
 ### `Class.TextureGenerationService:GenerateTexture`
 
-``GenerateTexture(previewJobId: `string`)`` → `Dictionary`
+``GenerateTexture(previewJobId: `string`)`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.TextureGenerationService:GetQuotasAsync`
 
-``GetQuotasAsync()`` → `Dictionary`
+``GetQuotasAsync()`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.TextureGenerationService:PreviewTexture`
 
-``PreviewTexture(partGroup: `Class.TextureGenerationPartGroup`, prompt: `string`, options: `Dictionary`)`` → `Dictionary`
+``PreviewTexture(partGroup: `Class.TextureGenerationPartGroup`, prompt: `string`, options: `Dictionary`)`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ## Events

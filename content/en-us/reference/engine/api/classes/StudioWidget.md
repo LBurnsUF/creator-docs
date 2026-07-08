@@ -15,5 +15,5 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.StudioWidget:SetFixedSize`
 
-``SetFixedSize(width: `int`, height: `int`)`` → `null`
+``SetFixedSize(width: `int`, height: `int`)`` -> `null`
    {security: RobloxScriptSecurity}

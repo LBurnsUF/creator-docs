@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.VisualizationMode.Enabled` | `bool` |  {security: RobloxScriptSecurity} |
 | `Class.VisualizationMode.Title` | `string` |  {security: RobloxScriptSecurity} |
 | `Class.VisualizationMode.ToolTip` | `string` |  {security: RobloxScriptSecurity} |

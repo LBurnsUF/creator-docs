@@ -13,6 +13,6 @@ tags: [NotCreatable, Service]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StudioData.EnableScriptCollabByDefaultOnLoad` | `bool` | [Hidden] {security: RobloxScriptSecurity} |

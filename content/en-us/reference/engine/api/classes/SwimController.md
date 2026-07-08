@@ -10,8 +10,8 @@ superclass: ControllerBase
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.SwimController.AccelerationTime` | `float` |  |
 | `Class.SwimController.PitchMaxTorque` | `float` |  |
 | `Class.SwimController.PitchSpeedFactor` | `float` |  |

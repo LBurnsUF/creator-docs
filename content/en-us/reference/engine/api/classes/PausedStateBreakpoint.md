@@ -13,6 +13,6 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PausedStateBreakpoint.Breakpoint` | `Class.Breakpoint` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |

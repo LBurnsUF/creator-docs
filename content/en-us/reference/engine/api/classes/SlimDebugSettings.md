@@ -15,10 +15,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.SlimDebugSettings:GetTintMode`
 
-``GetTintMode()`` → `Enum.SlimTintMode`
+``GetTintMode()`` -> `Enum.SlimTintMode`
    {security: RobloxScriptSecurity}
 
 ### `Class.SlimDebugSettings:SetTintMode`
 
-``SetTintMode(mode: `Enum.SlimTintMode`)`` → `null`
+``SetTintMode(mode: `Enum.SlimTintMode`)`` -> `null`
    {security: RobloxScriptSecurity}

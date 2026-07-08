@@ -6,12 +6,21 @@ superclass: Instance
 
 # AudioTremolo
 
+Creates a trembling effect on a sound by varying the volume of the sound up
+and down.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioTremolo` creates a trembling effect on a sound by varying the
+volume of the sound up and down. It provides one **Input** pin and one
+**Output** pin which can be connected to/from by `Class.Wire|Wires`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioTremolo.Bypass` | `bool` |  |
 | `Class.AudioTremolo.Depth` | `float` |  |
 | `Class.AudioTremolo.Duty` | `float` |  |
@@ -24,15 +33,15 @@ superclass: Instance
 
 ### `Class.AudioTremolo:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioTremolo:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioTremolo:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ## Events
 

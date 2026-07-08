@@ -6,12 +6,24 @@ superclass: Instance
 
 # AudioCompressor
 
+Adjusts the dynamic range of input streams.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioCompressor` adjusts the dynamic range of audio streams. Any
+momentary bursts of loudness will be clamped down according to the
+compressor's properties.
+
+`Class.AudioCompressor` provides **Input** and **Sidechain** pins that can be
+targeted by `Class.Wire.TargetName`, and an **Output** pin that can be used by
+`Class.Wire.SourceName`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioCompressor.Attack` | `float` |  |
 | `Class.AudioCompressor.Bypass` | `bool` |  |
 | `Class.AudioCompressor.Editor` | `bool` | [NotReplicated] {security: RobloxScriptSecurity} |
@@ -24,15 +36,15 @@ superclass: Instance
 
 ### `Class.AudioCompressor:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioCompressor:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioCompressor:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ## Events
 

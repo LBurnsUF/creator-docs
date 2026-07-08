@@ -15,4 +15,4 @@ tags: [NotCreatable, Service]
 
 ### `Class.RomarkService:EndRemoteRomarkTest`
 
-``EndRemoteRomarkTest()`` → `null`
+``EndRemoteRomarkTest()`` -> `null`

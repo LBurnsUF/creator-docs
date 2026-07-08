@@ -7,120 +7,133 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # SocialService
 
+Facilitates social functions that impact relationships made on the Roblox
+platform.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
+
+## Description
+
+**SocialService** facilitates social functions that impact relationships made
+on the Roblox platform. Its primary usage is to show
+[invite prompts](../../../production/promotion/invite-prompts.md) and the
+phone book to players, allowing them to send invitation requests to their
+friends through `Class.SocialService:PromptGameInvite()|PromptGameInvite()`
+and `Class.SocialService:PromptPhoneBook()|PromptPhoneBook()` respectively.
+You may leverage signals when such requests are made.
 
 ## Methods
 
 ### `Class.SocialService:CanSendCallInviteAsync`
 
-``CanSendCallInviteAsync(player: `Class.Instance`)`` → `bool`
+``CanSendCallInviteAsync(player: `Class.Instance`)`` -> `bool`
   [Yields]
 
 ### `Class.SocialService:CanSendGameInviteAsync`
 
-``CanSendGameInviteAsync(player: `Class.Instance`, recipientId: `Datatype.User`)`` → `bool`
+``CanSendGameInviteAsync(player: `Class.Instance`, recipientId: `Datatype.User`)`` -> `bool`
   [Yields]
 
 ### `Class.SocialService:GetEventRsvpStatusAsync`
 
-``GetEventRsvpStatusAsync(eventId: `string`)`` → `Enum.RsvpStatus`
+``GetEventRsvpStatusAsync(eventId: `string`)`` -> `Enum.RsvpStatus`
   [Yields]
 
 ### `Class.SocialService:GetExperienceEventAsync`
 
-``GetExperienceEventAsync(eventId: `string`)`` → `Dictionary?`
+``GetExperienceEventAsync(eventId: `string`)`` -> `Dictionary?`
   [Yields]
 
 ### `Class.SocialService:GetPartyAsync`
 
-``GetPartyAsync(partyId: `string`)`` → `Array`
+``GetPartyAsync(partyId: `string`)`` -> `Array`
   [Yields]
 
 ### `Class.SocialService:GetPlayersByPartyId`
 
-``GetPlayersByPartyId(partyId: `string`)`` → `Datatype.Instances`
+``GetPlayersByPartyId(partyId: `string`)`` -> `Datatype.Instances`
 
 ### `Class.SocialService:GetUpcomingExperienceEventsAsync`
 
-``GetUpcomingExperienceEventsAsync()`` → `Array`
+``GetUpcomingExperienceEventsAsync()`` -> `Array`
   [Yields]
 
 ### `Class.SocialService:HideSelfView`
 
-``HideSelfView()`` → `null`
+``HideSelfView()`` -> `null`
 
 ### `Class.SocialService:InvokeGameInvitePromptClosed`
 
-``InvokeGameInvitePromptClosed(player: `Class.Instance`, recipientIds: `Array`)`` → `null`
+``InvokeGameInvitePromptClosed(player: `Class.Instance`, recipientIds: `Array`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SocialService:InvokeIrisInvite`
 
-``InvokeIrisInvite(player: `Class.Instance`, tag: `string`, irisParticipants: `Array`)`` → `null`
+``InvokeIrisInvite(player: `Class.Instance`, tag: `string`, irisParticipants: `Array`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SocialService:InvokeIrisInvitePromptClosed`
 
-``InvokeIrisInvitePromptClosed(player: `Class.Instance`)`` → `null`
+``InvokeIrisInvitePromptClosed(player: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SocialService:InvokeShareSheetClosed`
 
-``InvokeShareSheetClosed()`` → `null`
+``InvokeShareSheetClosed()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SocialService:PromptFeedbackSubmissionAsync`
 
-``PromptFeedbackSubmissionAsync(options: `Dictionary?`)`` → `null`
+``PromptFeedbackSubmissionAsync(options: `Dictionary?`)`` -> `null`
   [Yields]
 
 ### `Class.SocialService:PromptGameInvite`
 
-``PromptGameInvite(player: `Class.Instance`, experienceInviteOptions: `Class.Instance`)`` → `null`
+``PromptGameInvite(player: `Class.Instance`, experienceInviteOptions: `Class.Instance`)`` -> `null`
 
 ### `Class.SocialService:PromptLinkSharing`
 
-``PromptLinkSharing(player: `Class.Player`, options: `Dictionary`)`` → `Tuple`
+``PromptLinkSharing(player: `Class.Player`, options: `Dictionary`)`` -> `Tuple`
   [Yields] [Deprecated]
 
 ### `Class.SocialService:PromptLinkSharingAsync`
 
-``PromptLinkSharingAsync(player: `Class.Player`, options: `Dictionary`)`` → `Tuple`
+``PromptLinkSharingAsync(player: `Class.Player`, options: `Dictionary`)`` -> `Tuple`
   [Yields]
 
 ### `Class.SocialService:PromptPhoneBook`
 
-``PromptPhoneBook(player: `Class.Instance`, tag: `string`)`` → `null`
+``PromptPhoneBook(player: `Class.Instance`, tag: `string`)`` -> `null`
 
 ### `Class.SocialService:PromptRsvpToEventAsync`
 
-``PromptRsvpToEventAsync(eventId: `string`)`` → `Enum.RsvpStatus`
+``PromptRsvpToEventAsync(eventId: `string`)`` -> `Enum.RsvpStatus`
   [Yields]
 
 ### `Class.SocialService:PromptRsvpToEventCompleted`
 
-``PromptRsvpToEventCompleted(eventId: `string`, success: `bool`, rsvpStatus: `Enum.RsvpStatus`, previousRsvpStatus: `Enum.RsvpStatus`)`` → `null`
+``PromptRsvpToEventCompleted(eventId: `string`, success: `bool`, rsvpStatus: `Enum.RsvpStatus`, previousRsvpStatus: `Enum.RsvpStatus`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SocialService:ShowSelfView`
 
-``ShowSelfView(selfViewPosition: `Enum.SelfViewPosition`)`` → `null`
+``ShowSelfView(selfViewPosition: `Enum.SelfViewPosition`)`` -> `null`
 
 ### `Class.SocialService:SignalFeedbackSubmissionCompleted`
 
-``SignalFeedbackSubmissionCompleted(feedback: `string`, options: `Dictionary?`)`` → `null`
+``SignalFeedbackSubmissionCompleted(feedback: `string`, options: `Dictionary?`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SocialService:SignalFeedbackSubmissionPermissionDenied`
 
-``SignalFeedbackSubmissionPermissionDenied()`` → `null`
+``SignalFeedbackSubmissionPermissionDenied()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SocialService:UpdatePlayerPartyData`
 
-``UpdatePlayerPartyData(partyId: `string`)`` → `null`
+``UpdatePlayerPartyData(partyId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events
@@ -181,4 +194,4 @@ Fires with: (eventId: `string`)
 
 ### `Class.SocialService.OnCallInviteInvoked`
 
-``OnCallInviteInvoked(tag: `string`, callParticipantIds: `Array`)`` → `Class.Instance`
+``OnCallInviteInvoked(tag: `string`, callParticipantIds: `Array`)`` -> `Class.Instance`

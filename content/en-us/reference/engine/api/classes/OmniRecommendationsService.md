@@ -15,15 +15,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.OmniRecommendationsService:ClearSessionId`
 
-``ClearSessionId()`` → `null`
+``ClearSessionId()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.OmniRecommendationsService:GetSessionId`
 
-``GetSessionId()`` → `string`
+``GetSessionId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.OmniRecommendationsService:MakeRequest`
 
-``MakeRequest(nextPageToken: `string`)`` → `Class.HttpRequest`
+``MakeRequest(nextPageToken: `string`)`` -> `Class.HttpRequest`
    {security: RobloxScriptSecurity}

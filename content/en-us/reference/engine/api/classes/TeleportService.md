@@ -7,132 +7,144 @@ tags: [NotCreatable, Service]
 
 # TeleportService
 
+Enables transporting `Class.Player|Players` between places and servers. For
+more information on how to teleport players between servers, see
+[Teleport between places](../../../projects/teleport.md).
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
 
+## Description
+
+**TeleportService** is responsible for transporting `Class.Player|Players`
+between different places and servers.
+
+For more information on how to teleport players between servers, see
+[Teleport between places](../../../projects/teleport.md).
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.TeleportService.CustomizedTeleportUI` | `bool` | [NotReplicated] [Deprecated] |
 
 ## Methods
 
 ### `Class.TeleportService:Block`
 
-``Block()`` → `null`
+``Block()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TeleportService:GetArrivingTeleportGui`
 
-``GetArrivingTeleportGui()`` → `Class.Instance`
+``GetArrivingTeleportGui()`` -> `Class.Instance`
 
 ### `Class.TeleportService:GetLocalPlayerTeleportData`
 
-``GetLocalPlayerTeleportData()`` → `Variant`
+``GetLocalPlayerTeleportData()`` -> `Variant`
 
 ### `Class.TeleportService:GetPlayerPlaceInstanceAsync`
 
-``GetPlayerPlaceInstanceAsync(userId: `Datatype.User`)`` → `Tuple`
+``GetPlayerPlaceInstanceAsync(userId: `Datatype.User`)`` -> `Tuple`
   [Yields]
 
 ### `Class.TeleportService:GetTeleportSetting`
 
-``GetTeleportSetting(setting: `string`)`` → `Variant`
+``GetTeleportSetting(setting: `string`)`` -> `Variant`
 
 ### `Class.TeleportService:GetThirdPartyTeleportInfo`
 
-``GetThirdPartyTeleportInfo(goForth: `bool`)`` → `Tuple`
+``GetThirdPartyTeleportInfo(goForth: `bool`)`` -> `Tuple`
    {security: RobloxScriptSecurity}
 
 ### `Class.TeleportService:PromptExperienceDetailsAsync`
 
-``PromptExperienceDetailsAsync(player: `Class.Player`, universeId: `int64`)`` → `Enum.PromptExperienceDetailsResult`
+``PromptExperienceDetailsAsync(player: `Class.Player`, universeId: `int64`)`` -> `Enum.PromptExperienceDetailsResult`
   [Yields]
 
 ### `Class.TeleportService:PromptExperienceDetailsCompleted`
 
-``PromptExperienceDetailsCompleted(resultEnum: `Enum.PromptExperienceDetailsResult`, errorMessage: `string`)`` → `null`
+``PromptExperienceDetailsCompleted(resultEnum: `Enum.PromptExperienceDetailsResult`, errorMessage: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TeleportService:ReserveServer`
 
-``ReserveServer(placeId: `int64`)`` → `Tuple`
+``ReserveServer(placeId: `int64`)`` -> `Tuple`
   [Yields] [Deprecated]
 
 ### `Class.TeleportService:ReserveServerAsync`
 
-``ReserveServerAsync(placeId: `int64`)`` → `Tuple`
+``ReserveServerAsync(placeId: `int64`)`` -> `Tuple`
   [Yields]
 
 ### `Class.TeleportService:SetTeleportGui`
 
-``SetTeleportGui(gui: `Class.Instance`)`` → `null`
+``SetTeleportGui(gui: `Class.Instance`)`` -> `null`
 
 ### `Class.TeleportService:SetTeleportSetting`
 
-``SetTeleportSetting(setting: `string`, value: `Variant`)`` → `null`
+``SetTeleportSetting(setting: `string`, value: `Variant`)`` -> `null`
 
 ### `Class.TeleportService:Teleport`
 
-``Teleport(placeId: `int64`, player: `Class.Instance`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` → `null`
+``Teleport(placeId: `int64`, player: `Class.Instance`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` -> `null`
 
 ### `Class.TeleportService:TeleportAsync`
 
-``TeleportAsync(placeId: `int64`, players: `Datatype.Instances`, teleportOptions: `Class.Instance`)`` → `Class.Instance`
+``TeleportAsync(placeId: `int64`, players: `Datatype.Instances`, teleportOptions: `Class.Instance`)`` -> `Class.Instance`
   [Yields]
 
 ### `Class.TeleportService:TeleportCancel`
 
-``TeleportCancel()`` → `null`
+``TeleportCancel()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TeleportService:TeleportPartyAsync`
 
-``TeleportPartyAsync(placeId: `int64`, players: `Datatype.Instances`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` → `string`
+``TeleportPartyAsync(placeId: `int64`, players: `Datatype.Instances`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` -> `string`
   [Yields]
 
 ### `Class.TeleportService:TeleportReconnect`
 
-``TeleportReconnect()`` → `null`
+``TeleportReconnect()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TeleportService:TeleportToPlaceInstance`
 
-``TeleportToPlaceInstance(placeId: `int64`, instanceId: `string`, player: `Class.Instance`, spawnName: `string`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` → `null`
+``TeleportToPlaceInstance(placeId: `int64`, instanceId: `string`, player: `Class.Instance`, spawnName: `string`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` -> `null`
 
 ### `Class.TeleportService:TeleportToPrivateServer`
 
-``TeleportToPrivateServer(placeId: `int64`, reservedServerAccessCode: `string`, players: `Datatype.Instances`, spawnName: `string`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` → `null`
+``TeleportToPrivateServer(placeId: `int64`, reservedServerAccessCode: `string`, players: `Datatype.Instances`, spawnName: `string`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` -> `null`
 
 ### `Class.TeleportService:TeleportToSpawnByName`
 
-``TeleportToSpawnByName(placeId: `int64`, spawnName: `string`, player: `Class.Instance`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` → `null`
+``TeleportToSpawnByName(placeId: `int64`, spawnName: `string`, player: `Class.Instance`, teleportData: `Variant`, customLoadingScreen: `Class.Instance`)`` -> `null`
 
 ### `Class.TeleportService:TeleportTrustedBackForth`
 
-``TeleportTrustedBackForth(goForth: `bool`)`` → `null`
+``TeleportTrustedBackForth(goForth: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TeleportService:TeleportTrustedBackHistory`
 
-``TeleportTrustedBackHistory(placeId: `int64`)`` → `null`
+``TeleportTrustedBackHistory(placeId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TeleportService:TeleportedPlacesBackHistory`
 
-``TeleportedPlacesBackHistory()`` → `Array`
+``TeleportedPlacesBackHistory()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.TeleportService:TeleportedUniversesBackHistory`
 
-``TeleportedUniversesBackHistory()`` → `Array`
+``TeleportedUniversesBackHistory()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.TeleportService:UnblockAsync`
 
-``UnblockAsync()`` → `Tuple`
+``UnblockAsync()`` -> `Tuple`
   [Yields] {security: RobloxScriptSecurity}
 
 ## Events

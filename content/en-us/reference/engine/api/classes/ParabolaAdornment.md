@@ -10,8 +10,8 @@ superclass: PVAdornment
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ParabolaAdornment.A` | `float` | [Hidden] {security: RobloxScriptSecurity} |
 | `Class.ParabolaAdornment.B` | `float` | [Hidden] {security: RobloxScriptSecurity} |
 | `Class.ParabolaAdornment.C` | `float` | [Hidden] {security: RobloxScriptSecurity} |
@@ -22,5 +22,5 @@ superclass: PVAdornment
 
 ### `Class.ParabolaAdornment:FindPartOnParabola`
 
-``FindPartOnParabola(ignoreDescendentsTable: `Datatype.Instances`)`` → `Tuple`
+``FindPartOnParabola(ignoreDescendentsTable: `Datatype.Instances`)`` -> `Tuple`
    {security: RobloxScriptSecurity}

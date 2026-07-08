@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.FeedbackType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.FeedbackType.Feedback` | 0 |
-| `Enum.FeedbackType.PlayerSupport` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.FeedbackType.Feedback` | 0 |  |
+| `Enum.FeedbackType.PlayerSupport` | 1 |  |

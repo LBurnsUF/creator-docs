@@ -15,20 +15,20 @@ tags: [NotCreatable, Service]
 
 ### `Class.EventIngestService:SendEventDeferred`
 
-``SendEventDeferred(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` → `null`
+``SendEventDeferred(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.EventIngestService:SendEventImmediately`
 
-``SendEventImmediately(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` → `null`
+``SendEventImmediately(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.EventIngestService:SetRBXEvent`
 
-``SetRBXEvent(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` → `null`
+``SetRBXEvent(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.EventIngestService:SetRBXEventStream`
 
-``SetRBXEventStream(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` → `null`
+``SetRBXEventStream(target: `string`, eventContext: `string`, eventName: `string`, additionalArgs: `Dictionary`)`` -> `null`
    {security: RobloxScriptSecurity}

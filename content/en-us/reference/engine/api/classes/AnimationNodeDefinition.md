@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AnimationNodeDefinition.NodeId` | `string` |  {security: RobloxScriptSecurity} |
 | `Class.AnimationNodeDefinition.NodeType` | `Enum.AnimationNodeType` |  |
 
@@ -19,22 +19,22 @@ superclass: Instance
 
 ### `Class.AnimationNodeDefinition:AddInputPin`
 
-``AddInputPin(pin: `string`)`` → `null`
+``AddInputPin(pin: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnimationNodeDefinition:GetOrderedInputPinNames`
 
-``GetOrderedInputPinNames()`` → `Array`
+``GetOrderedInputPinNames()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnimationNodeDefinition:RemoveInputPin`
 
-``RemoveInputPin(pin: `string`)`` → `null`
+``RemoveInputPin(pin: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnimationNodeDefinition:SetOrderedInputPinNames`
 
-``SetOrderedInputPinNames(pins: `Array`)`` → `null`
+``SetOrderedInputPinNames(pins: `Array`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

@@ -15,22 +15,22 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.LocalStorageService:Flush`
 
-``Flush()`` → `null`
+``Flush()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.LocalStorageService:GetItem`
 
-``GetItem(key: `string`)`` → `string`
+``GetItem(key: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.LocalStorageService:SetItem`
 
-``SetItem(key: `string`, value: `string`)`` → `null`
+``SetItem(key: `string`, value: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.LocalStorageService:WhenLoaded`
 
-``WhenLoaded(callback: `Datatype.Function`)`` → `null`
+``WhenLoaded(callback: `Datatype.Function`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PatchMapping.FlattenTree` | `bool` |  |
 | `Class.PatchMapping.PatchId` | `string` |  |
 | `Class.PatchMapping.TargetPath` | `string` |  |

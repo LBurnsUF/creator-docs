@@ -15,5 +15,5 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.PluginPolicyService:GetPluginPolicy`
 
-``GetPluginPolicy(pluginName: `string`)`` → `Dictionary`
+``GetPluginPolicy(pluginName: `string`)`` -> `Dictionary`
    {security: RobloxScriptSecurity}

@@ -6,12 +6,53 @@ superclass: Instance
 
 # Humanoid
 
+A special object that gives models the functionality of a character.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+The Humanoid is a special object that gives models the functionality of a
+character. It grants the model with the ability to physically walk around and
+interact with various components of a Roblox experience. Humanoids are always
+parented inside of a `Class.Model`, and the model is expected to be an
+assembly of `Class.BasePart` and `Class.Motor6D`; the root part of the
+assembly is expected to be named `HumanoidRootPart`. It also expects a part
+named `Head` to be connected to the character's torso part, either directly or
+indirectly. By default, there are two official types of character rigs
+supplied by Roblox, each with their own set of rules:
+
+## R6
+
+- A basic character rig that uses 6 parts for limbs.
+- The `Head` part must be attached to a part named `Torso`, or the Humanoid
+  will die immediately.
+- BodyPart appearances are applied using `Class.CharacterMesh` objects.
+- Certain properties, such as `Class.Humanoid.LeftLeg` and
+  `Class.Humanoid.RightLeg`, only work with R6.
+
+## R15
+
+- More complex than R6, but also far more flexible and robust.
+- Uses 15 parts for limbs.
+- The `Head` part must be attached to a part named `UpperTorso` or the
+  Humanoid will die immediately.
+- BodyPart appearances have to be assembled directly.
+- Can be dynamically rescaled by using special `Class.NumberValue` objects
+  parented inside of the Humanoid.
+- The Humanoid will automatically create `Class.Vector3Value` objects named
+  `OriginalSize` inside of each limb.
+- If a NumberValue is parented inside of the Humanoid and is named one of the
+  following, it will be used to control the scaling functionality:
+  - BodyDepthScale
+  - BodyHeightScale
+  - BodyWidthScale
+  - HeadScale
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Humanoid.AutoJumpEnabled` | `bool` |  |
 | `Class.Humanoid.AutoRotate` | `bool` |  |
 | `Class.Humanoid.AutomaticScalingEnabled` | `bool` |  |
@@ -55,198 +96,198 @@ superclass: Instance
 
 ### `Class.Humanoid:AddAccessory`
 
-``AddAccessory(accessory: `Class.Instance`)`` → `null`
+``AddAccessory(accessory: `Class.Instance`)`` -> `null`
 
 ### `Class.Humanoid:AddCustomStatus`
 
-``AddCustomStatus(status: `string`)`` → `bool`
+``AddCustomStatus(status: `string`)`` -> `bool`
   [Deprecated]
 
 ### `Class.Humanoid:AddStatus`
 
-``AddStatus(status: `Enum.Status`)`` → `bool`
+``AddStatus(status: `Enum.Status`)`` -> `bool`
   [Deprecated]
 
 ### `Class.Humanoid:ApplyAvatarRules`
 
-``ApplyAvatarRules(avatarRules: `Class.AvatarRules`)`` → `null`
+``ApplyAvatarRules(avatarRules: `Class.AvatarRules`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.Humanoid:ApplyDescription`
 
-``ApplyDescription(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `null`
+``ApplyDescription(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` -> `null`
   [Yields] [Deprecated]
 
 ### `Class.Humanoid:ApplyDescriptionAsync`
 
-``ApplyDescriptionAsync(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `null`
+``ApplyDescriptionAsync(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` -> `null`
   [Yields]
 
 ### `Class.Humanoid:ApplyDescriptionReset`
 
-``ApplyDescriptionReset(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `null`
+``ApplyDescriptionReset(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` -> `null`
   [Yields] [Deprecated]
 
 ### `Class.Humanoid:ApplyDescriptionResetAsync`
 
-``ApplyDescriptionResetAsync(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `null`
+``ApplyDescriptionResetAsync(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` -> `null`
   [Yields]
 
 ### `Class.Humanoid:BuildRigFromAttachments`
 
-``BuildRigFromAttachments()`` → `null`
+``BuildRigFromAttachments()`` -> `null`
 
 ### `Class.Humanoid:CacheDefaults`
 
-``CacheDefaults()`` → `null`
+``CacheDefaults()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Humanoid:ChangeState`
 
-``ChangeState(state: `Enum.HumanoidStateType`)`` → `null`
+``ChangeState(state: `Enum.HumanoidStateType`)`` -> `null`
 
 ### `Class.Humanoid:ComputeOriginalSizeForPart`
 
-``ComputeOriginalSizeForPart(part: `Class.Instance`)`` → `Datatype.Vector3`?
+``ComputeOriginalSizeForPart(part: `Class.Instance`)`` -> `Datatype.Vector3`?
    {security: RobloxScriptSecurity}
 
 ### `Class.Humanoid:ComputeR15BodyBoundingBox`
 
-``ComputeR15BodyBoundingBox()`` → `[{'Category': 'DataType', 'Name': 'CFrame'}, {'Category': 'DataType', 'Name': 'Vector3'}]`
+``ComputeR15BodyBoundingBox()`` -> `[{'Category': 'DataType', 'Name': 'CFrame'}, {'Category': 'DataType', 'Name': 'Vector3'}]`
    {security: RobloxScriptSecurity}
 
 ### `Class.Humanoid:EquipTool`
 
-``EquipTool(tool: `Class.Instance`)`` → `null`
+``EquipTool(tool: `Class.Instance`)`` -> `null`
 
 ### `Class.Humanoid:GetAccessories`
 
-``GetAccessories()`` → `Array`
+``GetAccessories()`` -> `Array`
 
 ### `Class.Humanoid:GetAccessoryHandleScale`
 
-``GetAccessoryHandleScale(instance: `Class.Instance`, partType: `Enum.BodyPartR15`)`` → `Datatype.Vector3`
+``GetAccessoryHandleScale(instance: `Class.Instance`, partType: `Enum.BodyPartR15`)`` -> `Datatype.Vector3`
    {security: RobloxScriptSecurity}
 
 ### `Class.Humanoid:GetAppliedDescription`
 
-``GetAppliedDescription()`` → `Class.HumanoidDescription`
+``GetAppliedDescription()`` -> `Class.HumanoidDescription`
 
 ### `Class.Humanoid:GetBodyPartR15`
 
-``GetBodyPartR15(part: `Class.Instance`)`` → `Enum.BodyPartR15`
+``GetBodyPartR15(part: `Class.Instance`)`` -> `Enum.BodyPartR15`
 
 ### `Class.Humanoid:GetLimb`
 
-``GetLimb(part: `Class.Instance`)`` → `Enum.Limb`
+``GetLimb(part: `Class.Instance`)`` -> `Enum.Limb`
 
 ### `Class.Humanoid:GetMoveVelocity`
 
-``GetMoveVelocity()`` → `Datatype.Vector3`
+``GetMoveVelocity()`` -> `Datatype.Vector3`
 
 ### `Class.Humanoid:GetPlayingAnimationTracks`
 
-``GetPlayingAnimationTracks()`` → `Array`
+``GetPlayingAnimationTracks()`` -> `Array`
   [Deprecated]
 
 ### `Class.Humanoid:GetRelativeVelocityAtFloor`
 
-``GetRelativeVelocityAtFloor()`` → `Datatype.Vector3`
+``GetRelativeVelocityAtFloor()`` -> `Datatype.Vector3`
 
 ### `Class.Humanoid:GetState`
 
-``GetState()`` → `Enum.HumanoidStateType`
+``GetState()`` -> `Enum.HumanoidStateType`
 
 ### `Class.Humanoid:GetStateEnabled`
 
-``GetStateEnabled(state: `Enum.HumanoidStateType`)`` → `bool`
+``GetStateEnabled(state: `Enum.HumanoidStateType`)`` -> `bool`
 
 ### `Class.Humanoid:GetStatuses`
 
-``GetStatuses()`` → `Array`
+``GetStatuses()`` -> `Array`
   [Deprecated]
 
 ### `Class.Humanoid:HasCustomStatus`
 
-``HasCustomStatus(status: `string`)`` → `bool`
+``HasCustomStatus(status: `string`)`` -> `bool`
   [Deprecated]
 
 ### `Class.Humanoid:HasStatus`
 
-``HasStatus(status: `Enum.Status`)`` → `bool`
+``HasStatus(status: `Enum.Status`)`` -> `bool`
   [Deprecated]
 
 ### `Class.Humanoid:LoadAnimation`
 
-``LoadAnimation(animation: `Class.Animation`)`` → `Class.AnimationTrack`
+``LoadAnimation(animation: `Class.Animation`)`` -> `Class.AnimationTrack`
   [Deprecated]
 
 ### `Class.Humanoid:Move`
 
-``Move(moveDirection: `Datatype.Vector3`, relativeToCamera: `bool`)`` → `null`
+``Move(moveDirection: `Datatype.Vector3`, relativeToCamera: `bool`)`` -> `null`
 
 ### `Class.Humanoid:MoveTo`
 
-``MoveTo(location: `Datatype.Vector3`, part: `Class.Instance`)`` → `null`
+``MoveTo(location: `Datatype.Vector3`, part: `Class.Instance`)`` -> `null`
 
 ### `Class.Humanoid:PlayEmote`
 
-``PlayEmote(emoteName: `string`)`` → `bool`
+``PlayEmote(emoteName: `string`)`` -> `bool`
   [Yields] [Deprecated]
 
 ### `Class.Humanoid:PlayEmoteAndGetAnimTrackById`
 
-``PlayEmoteAndGetAnimTrackById(emoteId: `int64`)`` → `Tuple`
+``PlayEmoteAndGetAnimTrackById(emoteId: `int64`)`` -> `Tuple`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.Humanoid:PlayEmoteAsync`
 
-``PlayEmoteAsync(emoteName: `string`)`` → `bool`
+``PlayEmoteAsync(emoteName: `string`)`` -> `bool`
   [Yields]
 
 ### `Class.Humanoid:RemoveAccessories`
 
-``RemoveAccessories()`` → `null`
+``RemoveAccessories()`` -> `null`
 
 ### `Class.Humanoid:RemoveCustomStatus`
 
-``RemoveCustomStatus(status: `string`)`` → `bool`
+``RemoveCustomStatus(status: `string`)`` -> `bool`
   [Deprecated]
 
 ### `Class.Humanoid:RemoveStatus`
 
-``RemoveStatus(status: `Enum.Status`)`` → `bool`
+``RemoveStatus(status: `Enum.Status`)`` -> `bool`
   [Deprecated]
 
 ### `Class.Humanoid:ReplaceBodyPartR15`
 
-``ReplaceBodyPartR15(bodyPart: `Enum.BodyPartR15`, part: `Class.BasePart`)`` → `bool`
+``ReplaceBodyPartR15(bodyPart: `Enum.BodyPartR15`, part: `Class.BasePart`)`` -> `bool`
 
 ### `Class.Humanoid:SetClickToWalkEnabled`
 
-``SetClickToWalkEnabled(enabled: `bool`)`` → `null`
+``SetClickToWalkEnabled(enabled: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Humanoid:SetStateEnabled`
 
-``SetStateEnabled(state: `Enum.HumanoidStateType`, enabled: `bool`)`` → `null`
+``SetStateEnabled(state: `Enum.HumanoidStateType`, enabled: `bool`)`` -> `null`
 
 ### `Class.Humanoid:TakeDamage`
 
-``TakeDamage(amount: `float`)`` → `null`
+``TakeDamage(amount: `float`)`` -> `null`
 
 ### `Class.Humanoid:UnequipTools`
 
-``UnequipTools()`` → `null`
+``UnequipTools()`` -> `null`
 
 ### `Class.Humanoid:loadAnimation`
 
-``loadAnimation(animation: `Class.Animation`)`` → `Class.AnimationTrack`
+``loadAnimation(animation: `Class.Animation`)`` -> `Class.AnimationTrack`
   [Deprecated]
 
 ### `Class.Humanoid:takeDamage`
 
-``takeDamage(amount: `float`)`` → `null`
+``takeDamage(amount: `float`)`` -> `null`
   [Deprecated]
 
 ## Events

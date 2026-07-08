@@ -6,12 +6,18 @@ superclass: ValueBase
 
 # Color3Value
 
+A container object for a single Color3 value.
+
 **Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
+
+## Description
+
+A container object for a single `Datatype.Color3` value.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Color3Value.Value` | `Datatype.Color3` |  |
 
 ## Events

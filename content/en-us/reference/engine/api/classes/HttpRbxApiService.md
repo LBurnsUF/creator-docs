@@ -7,43 +7,50 @@ tags: [NotCreatable, Service]
 
 # HttpRbxApiService
 
+An internal service whose functionality is not available to developers.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
+
+## Description
+
+A version of the `Class.HttpService` used by the admins. Unlike the regular
+service, this one can send GET/POST requests to roblox.com
 
 ## Methods
 
 ### `Class.HttpRbxApiService:GetAsync`
 
-``GetAsync(apiUrlPath: `string`, priority: `Enum.ThrottlingPriority`, httpRequestType: `Enum.HttpRequestType`)`` → `string`
+``GetAsync(apiUrlPath: `string`, priority: `Enum.ThrottlingPriority`, httpRequestType: `Enum.HttpRequestType`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.HttpRbxApiService:GetAsyncFullUrl`
 
-``GetAsyncFullUrl(apiUrl: `string`, priority: `Enum.ThrottlingPriority`, httpRequestType: `Enum.HttpRequestType`)`` → `string`
+``GetAsyncFullUrl(apiUrl: `string`, priority: `Enum.ThrottlingPriority`, httpRequestType: `Enum.HttpRequestType`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.HttpRbxApiService:GetDocumentationUrl`
 
-``GetDocumentationUrl(partialUrl: `string`)`` → `string`
+``GetDocumentationUrl(partialUrl: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.HttpRbxApiService:PostAsync`
 
-``PostAsync(apiUrlPath: `string`, data: `string`, priority: `Enum.ThrottlingPriority`, content_type: `Enum.HttpContentType`, httpRequestType: `Enum.HttpRequestType`)`` → `string`
+``PostAsync(apiUrlPath: `string`, data: `string`, priority: `Enum.ThrottlingPriority`, content_type: `Enum.HttpContentType`, httpRequestType: `Enum.HttpRequestType`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.HttpRbxApiService:PostAsyncFullUrl`
 
-``PostAsyncFullUrl(apiUrl: `string`, data: `string`, priority: `Enum.ThrottlingPriority`, content_type: `Enum.HttpContentType`, httpRequestType: `Enum.HttpRequestType`)`` → `string`
+``PostAsyncFullUrl(apiUrl: `string`, data: `string`, priority: `Enum.ThrottlingPriority`, content_type: `Enum.HttpContentType`, httpRequestType: `Enum.HttpRequestType`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.HttpRbxApiService:RequestAsync`
 
-``RequestAsync(requestOptions: `Dictionary`, priority: `Enum.ThrottlingPriority`, content_type: `Enum.HttpContentType`, httpRequestType: `Enum.HttpRequestType`)`` → `string`
+``RequestAsync(requestOptions: `Dictionary`, priority: `Enum.ThrottlingPriority`, content_type: `Enum.HttpContentType`, httpRequestType: `Enum.HttpRequestType`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.HttpRbxApiService:RequestLimitedAsync`
 
-``RequestLimitedAsync(requestOptions: `Dictionary`, priority: `Enum.ThrottlingPriority`, content_type: `Enum.HttpContentType`, httpRequestType: `Enum.HttpRequestType`)`` → `string`
+``RequestLimitedAsync(requestOptions: `Dictionary`, priority: `Enum.ThrottlingPriority`, content_type: `Enum.HttpContentType`, httpRequestType: `Enum.HttpRequestType`)`` -> `string`
   [Yields]

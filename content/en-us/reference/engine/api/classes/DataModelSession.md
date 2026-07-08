@@ -13,8 +13,8 @@ tags: [NotCreatable]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DataModelSession.CurrentDataModelType` | `Enum.StudioDataModelType` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.DataModelSession.SessionId` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 

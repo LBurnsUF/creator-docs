@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AvatarBodyRules.AppearanceMode` | `Enum.AvatarSettingsAppearanceMode` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarBodyRules.BuildMode` | `Enum.AvatarSettingsBuildMode` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarBodyRules.CustomBodyBundleId` | `int64` |  {security: RobloxScriptSecurity} |

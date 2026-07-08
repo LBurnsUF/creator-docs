@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.PlayerDataLoadFailureBehavior` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.PlayerDataLoadFailureBehavior.Failure` | 0 |
-| `Enum.PlayerDataLoadFailureBehavior.FallbackToDefault` | 1 |
-| `Enum.PlayerDataLoadFailureBehavior.Kick` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.PlayerDataLoadFailureBehavior.Failure` | 0 |  |
+| `Enum.PlayerDataLoadFailureBehavior.FallbackToDefault` | 1 |  |
+| `Enum.PlayerDataLoadFailureBehavior.Kick` | 2 |  |

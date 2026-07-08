@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AssetPatchSettings.ContentId` | `string` |  |
 | `Class.AssetPatchSettings.OutputPath` | `string` |  |
 | `Class.AssetPatchSettings.PatchId` | `string` |  |

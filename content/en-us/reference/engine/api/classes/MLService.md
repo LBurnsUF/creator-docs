@@ -15,28 +15,28 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.MLService:CreateSessionAsync`
 
-``CreateSessionAsync(assetId: `string`)`` → `Class.MLSession`
+``CreateSessionAsync(assetId: `string`)`` -> `Class.MLSession`
   [Yields]
 
 ### `Class.MLService:GetNPCInferenceSpecAsync`
 
-``GetNPCInferenceSpecAsync(server: `string`, port: `int`)`` → `Dictionary`
+``GetNPCInferenceSpecAsync(server: `string`, port: `int`)`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.MLService:IsPostProcessReady`
 
-``IsPostProcessReady()`` → `bool`
+``IsPostProcessReady()`` -> `bool`
 
 ### `Class.MLService:LoadPostProcessModelAsync`
 
-``LoadPostProcessModelAsync(assetId: `int64`)`` → `null`
+``LoadPostProcessModelAsync(assetId: `int64`)`` -> `null`
   [Yields]
 
 ### `Class.MLService:RunNPCInferenceAsync`
 
-``RunNPCInferenceAsync(server: `string`, port: `int`, features: `Dictionary`)`` → `Dictionary`
+``RunNPCInferenceAsync(server: `string`, port: `int`, features: `Dictionary`)`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.MLService:SetPostProcessEnabled`
 
-``SetPostProcessEnabled(enabled: `bool`)`` → `null`
+``SetPostProcessEnabled(enabled: `bool`)`` -> `null`

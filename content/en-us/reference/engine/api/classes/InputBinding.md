@@ -6,12 +6,21 @@ superclass: Instance
 
 # InputBinding
 
+Defines which hardware binding should trigger the parent `Class.InputAction`.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+An `InputBinding` defines which hardware binding should trigger the parent
+`Class.InputAction`, for example a key press, gamepad button, or tap on a
+touch‑enabled device. There can be multiple `InputBinding` instances parented
+to an `Class.InputAction`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.InputBinding.Backward` | `Enum.KeyCode` |  |
 | `Class.InputBinding.ClampMagnitudeToOne` | `bool` |  |
 | `Class.InputBinding.Down` | `Enum.KeyCode` |  |
@@ -37,4 +46,4 @@ superclass: Instance
 
 ### `Class.InputBinding:Fire`
 
-``Fire(state: `Variant`)`` → `null`
+``Fire(state: `Variant`)`` -> `null`

@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.ExternalEditorMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ExternalEditorMode.SystemDefault` | 0 |
-| `Enum.ExternalEditorMode.UserSelectedEditor` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ExternalEditorMode.SystemDefault` | 0 |  |
+| `Enum.ExternalEditorMode.UserSelectedEditor` | 1 |  |

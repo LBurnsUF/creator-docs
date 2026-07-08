@@ -15,40 +15,40 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.MemStorageService:Bind`
 
-``Bind(key: `string`, callback: `Datatype.Function`)`` → `Class.MemStorageConnection`
+``Bind(key: `string`, callback: `Datatype.Function`)`` -> `Class.MemStorageConnection`
    {security: RobloxScriptSecurity}
 
 ### `Class.MemStorageService:BindAndFire`
 
-``BindAndFire(key: `string`, callback: `Datatype.Function`)`` → `Class.MemStorageConnection`
+``BindAndFire(key: `string`, callback: `Datatype.Function`)`` -> `Class.MemStorageConnection`
    {security: RobloxScriptSecurity}
 
 ### `Class.MemStorageService:Call`
 
-``Call(key: `string`, input: `Variant`)`` → `Variant`
+``Call(key: `string`, input: `Variant`)`` -> `Variant`
    {security: RobloxScriptSecurity}
 
 ### `Class.MemStorageService:Fire`
 
-``Fire(key: `string`, value: `string`)`` → `null`
+``Fire(key: `string`, value: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.MemStorageService:GetItem`
 
-``GetItem(key: `string`, defaultValue: `string`)`` → `string`
+``GetItem(key: `string`, defaultValue: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.MemStorageService:HasItem`
 
-``HasItem(key: `string`)`` → `bool`
+``HasItem(key: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.MemStorageService:RemoveItem`
 
-``RemoveItem(key: `string`)`` → `bool`
+``RemoveItem(key: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.MemStorageService:SetItem`
 
-``SetItem(key: `string`, value: `string`)`` → `null`
+``SetItem(key: `string`, value: `string`)`` -> `null`
    {security: RobloxScriptSecurity}

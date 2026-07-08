@@ -15,5 +15,5 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.MemStorageConnection:Disconnect`
 
-``Disconnect()`` → `null`
+``Disconnect()`` -> `null`
    {security: PluginSecurity}

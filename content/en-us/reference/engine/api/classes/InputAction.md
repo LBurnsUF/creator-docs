@@ -6,12 +6,23 @@ superclass: Instance
 
 # InputAction
 
+Defines a gameplay action mechanic. These actions are then mapped to hardware
+inputs using `Class.InputBinding`.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`InputAction` defines a gameplay action mechanic such as "Jump," "Sprint," or
+"Shoot." These actions are then mapped to hardware inputs using
+`Class.InputBinding`. An `InputAction` will check for its first ancestor type
+of `Class.InputContext` and register itself to that context (if there is no
+ancestor context, it will be registered to a default context).
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.InputAction.BoolState` | `bool` | [ReadOnly] [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
 | `Class.InputAction.Direction1DState` | `float` | [ReadOnly] [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
 | `Class.InputAction.Direction2DState` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] [NotScriptable] {security: RobloxScriptSecurity} |
@@ -24,17 +35,17 @@ superclass: Instance
 
 ### `Class.InputAction:Fire`
 
-``Fire(state: `Variant`)`` → `null`
+``Fire(state: `Variant`)`` -> `null`
   [Deprecated]
 
 ### `Class.InputAction:GetInputBindings`
 
-``GetInputBindings()`` → `Datatype.Instances`
+``GetInputBindings()`` -> `Datatype.Instances`
    {security: RobloxScriptSecurity}
 
 ### `Class.InputAction:GetState`
 
-``GetState()`` → `Variant`
+``GetState()`` -> `Variant`
 
 ## Events
 

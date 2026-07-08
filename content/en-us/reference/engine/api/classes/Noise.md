@@ -13,8 +13,8 @@ tags: [NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Noise.NoiseType` | `Enum.NoiseType` |  {security: RobloxScriptSecurity} |
 | `Class.Noise.Seed` | `int` |  {security: RobloxScriptSecurity} |
 
@@ -22,10 +22,10 @@ tags: [NotReplicated]
 
 ### `Class.Noise:SampleDirectional`
 
-``SampleDirectional(position: `Datatype.Vector3`, direction: `Datatype.Vector3`)`` → `float`
+``SampleDirectional(position: `Datatype.Vector3`, direction: `Datatype.Vector3`)`` -> `float`
    {security: RobloxScriptSecurity}
 
 ### `Class.Noise:SampleUniform`
 
-``SampleUniform(position: `Datatype.Vector3`)`` → `float`
+``SampleUniform(position: `Datatype.Vector3`)`` -> `float`
    {security: RobloxScriptSecurity}

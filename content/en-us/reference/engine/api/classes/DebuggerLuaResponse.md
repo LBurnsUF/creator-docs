@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DebuggerLuaResponse.IsError` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.DebuggerLuaResponse.IsSuccess` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.DebuggerLuaResponse.Message` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -25,5 +25,5 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.DebuggerLuaResponse:GetArg`
 
-``GetArg()`` → `Variant`
+``GetArg()`` -> `Variant`
    {security: RobloxScriptSecurity}

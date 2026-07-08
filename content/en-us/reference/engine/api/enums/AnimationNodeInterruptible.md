@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.AnimationNodeInterruptible` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AnimationNodeInterruptible.Always` | 0 |
-| `Enum.AnimationNodeInterruptible.Finished` | 1 |
-| `Enum.AnimationNodeInterruptible.Trigger` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AnimationNodeInterruptible.Always` | 0 |  |
+| `Enum.AnimationNodeInterruptible.Finished` | 1 |  |
+| `Enum.AnimationNodeInterruptible.Trigger` | 2 |  |

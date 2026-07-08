@@ -7,14 +7,23 @@ tags: [NotCreatable, Service]
 
 # Players
 
+A service that contains presently connected `Class.Player` objects.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
 
+## Description
+
+The `Class.Players` service contains `Class.Player` objects for presently
+connected clients to a Roblox server. It also contains information about a
+place's configuration. It can fetch information about players not connected to
+the server, such as character appearances, friends, and avatar thumbnail.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Players.BanningEnabled` | `bool` | [NotScriptable] |
 | `Class.Players.BubbleChat` | `bool` | [ReadOnly] [NotReplicated] |
 | `Class.Players.CharacterAutoLoads` | `bool` | [NotReplicated] |
@@ -34,179 +43,179 @@ tags: [NotCreatable, Service]
 
 ### `Class.Players:BanAsync`
 
-``BanAsync(config: `Dictionary`)`` → `null`
+``BanAsync(config: `Dictionary`)`` -> `null`
   [Yields]
 
 ### `Class.Players:Chat`
 
-``Chat(message: `string`)`` → `null`
+``Chat(message: `string`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Players:CreateHumanoidModelFromDescription`
 
-``CreateHumanoidModelFromDescription(description: `Class.HumanoidDescription`, rigType: `Enum.HumanoidRigType`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `Class.Model`
+``CreateHumanoidModelFromDescription(description: `Class.HumanoidDescription`, rigType: `Enum.HumanoidRigType`, assetTypeVerification: `Enum.AssetTypeVerification`)`` -> `Class.Model`
   [Yields] [Deprecated]
 
 ### `Class.Players:CreateHumanoidModelFromDescriptionAsync`
 
-``CreateHumanoidModelFromDescriptionAsync(description: `Class.HumanoidDescription`, rigType: `Enum.HumanoidRigType`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `Class.Model`
+``CreateHumanoidModelFromDescriptionAsync(description: `Class.HumanoidDescription`, rigType: `Enum.HumanoidRigType`, assetTypeVerification: `Enum.AssetTypeVerification`)`` -> `Class.Model`
   [Yields]
 
 ### `Class.Players:CreateHumanoidModelFromUserId`
 
-``CreateHumanoidModelFromUserId(userId: `Datatype.User`)`` → `Class.Model`
+``CreateHumanoidModelFromUserId(userId: `Datatype.User`)`` -> `Class.Model`
   [Yields] [Deprecated]
 
 ### `Class.Players:CreateHumanoidModelFromUserIdAsync`
 
-``CreateHumanoidModelFromUserIdAsync(userId: `Datatype.User`)`` → `Class.Model`
+``CreateHumanoidModelFromUserIdAsync(userId: `Datatype.User`)`` -> `Class.Model`
   [Yields]
 
 ### `Class.Players:CreateLocalPlayer`
 
-``CreateLocalPlayer()`` → `Class.Player`
+``CreateLocalPlayer()`` -> `Class.Player`
    {security: LocalUserSecurity}
 
 ### `Class.Players:CreateThumbnailPlayer`
 
-``CreateThumbnailPlayer()`` → `Class.Player`
+``CreateThumbnailPlayer()`` -> `Class.Player`
    {security: RobloxScriptSecurity}
 
 ### `Class.Players:GetBanHistoryAsync`
 
-``GetBanHistoryAsync(userId: `Datatype.User`)`` → `Class.BanHistoryPages`
+``GetBanHistoryAsync(userId: `Datatype.User`)`` -> `Class.BanHistoryPages`
   [Yields]
 
 ### `Class.Players:GetCharacterAppearanceAsync`
 
-``GetCharacterAppearanceAsync(userId: `Datatype.User`)`` → `Class.Model`
+``GetCharacterAppearanceAsync(userId: `Datatype.User`)`` -> `Class.Model`
   [Yields] [Deprecated]
 
 ### `Class.Players:GetCharacterAppearanceInfoAsync`
 
-``GetCharacterAppearanceInfoAsync(userId: `Datatype.User`)`` → `Dictionary`
+``GetCharacterAppearanceInfoAsync(userId: `Datatype.User`)`` -> `Dictionary`
   [Yields]
 
 ### `Class.Players:GetFriendsAsync`
 
-``GetFriendsAsync(userId: `Datatype.User`)`` → `Class.FriendPages`
+``GetFriendsAsync(userId: `Datatype.User`)`` -> `Class.FriendPages`
   [Yields]
 
 ### `Class.Players:GetHumanoidDescriptionFromOutfitId`
 
-``GetHumanoidDescriptionFromOutfitId(outfitId: `int64`)`` → `Class.HumanoidDescription`
+``GetHumanoidDescriptionFromOutfitId(outfitId: `int64`)`` -> `Class.HumanoidDescription`
   [Yields] [Deprecated]
 
 ### `Class.Players:GetHumanoidDescriptionFromOutfitIdAsync`
 
-``GetHumanoidDescriptionFromOutfitIdAsync(outfitId: `int64`)`` → `Class.HumanoidDescription`
+``GetHumanoidDescriptionFromOutfitIdAsync(outfitId: `int64`)`` -> `Class.HumanoidDescription`
   [Yields]
 
 ### `Class.Players:GetHumanoidDescriptionFromUserId`
 
-``GetHumanoidDescriptionFromUserId(userId: `Datatype.User`)`` → `Class.HumanoidDescription`
+``GetHumanoidDescriptionFromUserId(userId: `Datatype.User`)`` -> `Class.HumanoidDescription`
   [Yields] [Deprecated]
 
 ### `Class.Players:GetHumanoidDescriptionFromUserIdAsync`
 
-``GetHumanoidDescriptionFromUserIdAsync(userId: `Datatype.User`)`` → `Class.HumanoidDescription`
+``GetHumanoidDescriptionFromUserIdAsync(userId: `Datatype.User`)`` -> `Class.HumanoidDescription`
   [Yields]
 
 ### `Class.Players:GetNameFromUserIdAsync`
 
-``GetNameFromUserIdAsync(userId: `Datatype.User`)`` → `string`
+``GetNameFromUserIdAsync(userId: `Datatype.User`)`` -> `string`
   [Yields]
 
 ### `Class.Players:GetPlayerByUserId`
 
-``GetPlayerByUserId(userId: `Datatype.User`)`` → `Class.Player`
+``GetPlayerByUserId(userId: `Datatype.User`)`` -> `Class.Player`
 
 ### `Class.Players:GetPlayerFromCharacter`
 
-``GetPlayerFromCharacter(character: `Class.Model`)`` → `Class.Player`
+``GetPlayerFromCharacter(character: `Class.Model`)`` -> `Class.Player`
 
 ### `Class.Players:GetPlayers`
 
-``GetPlayers()`` → `Datatype.Instances`
+``GetPlayers()`` -> `Datatype.Instances`
 
 ### `Class.Players:GetProfileConfigurationFromUserIdAsync`
 
-``GetProfileConfigurationFromUserIdAsync(userId: `Datatype.User`)`` → `Dictionary`
+``GetProfileConfigurationFromUserIdAsync(userId: `Datatype.User`)`` -> `Dictionary`
   [Yields]
 
 ### `Class.Players:GetUserIdFromNameAsync`
 
-``GetUserIdFromNameAsync(userName: `string`)`` → `int64`
+``GetUserIdFromNameAsync(userName: `string`)`` -> `int64`
   [Yields]
 
 ### `Class.Players:GetUserThumbnailAsync`
 
-``GetUserThumbnailAsync(userId: `Datatype.User`, thumbnailType: `Enum.ThumbnailType`, thumbnailSize: `Enum.ThumbnailSize`)`` → `Tuple`
+``GetUserThumbnailAsync(userId: `Datatype.User`, thumbnailType: `Enum.ThumbnailType`, thumbnailSize: `Enum.ThumbnailSize`)`` -> `Tuple`
   [Yields]
 
 ### `Class.Players:ReportAbuse`
 
-``ReportAbuse(player: `Class.Player`, reason: `string`, optionalMessage: `string`)`` → `null`
+``ReportAbuse(player: `Class.Player`, reason: `string`, optionalMessage: `string`)`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.Players:ReportAbuseV3`
 
-``ReportAbuseV3(player: `Class.Player`, jsonTags: `string`)`` → `null`
+``ReportAbuseV3(player: `Class.Player`, jsonTags: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Players:ReportAvatarAbuse`
 
-``ReportAvatarAbuse(targetUserId: `int64`, tags: `Dictionary`)`` → `null`
+``ReportAvatarAbuse(targetUserId: `int64`, tags: `Dictionary`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Players:ReportChatAbuse`
 
-``ReportChatAbuse(eligibleChatLines: `Array`, targetChatLines: `Array`, tags: `Dictionary`)`` → `null`
+``ReportChatAbuse(eligibleChatLines: `Array`, targetChatLines: `Array`, tags: `Dictionary`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Players:ResetLocalPlayer`
 
-``ResetLocalPlayer()`` → `null`
+``ResetLocalPlayer()`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.Players:SetChatStyle`
 
-``SetChatStyle(style: `Enum.ChatStyle`)`` → `null`
+``SetChatStyle(style: `Enum.ChatStyle`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Players:SetLocalPlayerInfo`
 
-``SetLocalPlayerInfo(userId: `int64`, userName: `string`, displayName: `string`, membershipType: `Enum.MembershipType`, isUnder13: `bool`, hasRobloxSubscription: `bool`, ageCheckedStatus: `Enum.AgeCheckStatus`)`` → `null`
+``SetLocalPlayerInfo(userId: `int64`, userName: `string`, displayName: `string`, membershipType: `Enum.MembershipType`, isUnder13: `bool`, hasRobloxSubscription: `bool`, ageCheckedStatus: `Enum.AgeCheckStatus`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Players:TeamChat`
 
-``TeamChat(message: `string`)`` → `null`
+``TeamChat(message: `string`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Players:UnbanAsync`
 
-``UnbanAsync(config: `Dictionary`)`` → `null`
+``UnbanAsync(config: `Dictionary`)`` -> `null`
   [Yields]
 
 ### `Class.Players:WhisperChat`
 
-``WhisperChat(message: `string`, player: `Class.Instance`)`` → `null`
+``WhisperChat(message: `string`, player: `Class.Instance`)`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.Players:getPlayers`
 
-``getPlayers()`` → `Datatype.Instances`
+``getPlayers()`` -> `Datatype.Instances`
   [Deprecated]
 
 ### `Class.Players:playerFromCharacter`
 
-``playerFromCharacter(character: `Class.Model`)`` → `Class.Player`
+``playerFromCharacter(character: `Class.Model`)`` -> `Class.Player`
   [Deprecated]
 
 ### `Class.Players:players`
 
-``players()`` → `Datatype.Instances`
+``players()`` -> `Datatype.Instances`
   [Deprecated]
 
 ## Events

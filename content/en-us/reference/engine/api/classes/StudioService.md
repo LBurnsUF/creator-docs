@@ -7,14 +7,37 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # StudioService
 
+Provides access to configuration of Roblox Studio and allows importing files
+from the user's file system.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+**StudioService** provides access to configuration of Roblox Studio, allows
+importing files from the user's file system, and other miscellaneous
+information. It is intended to be used by `Class.Plugin|Plugins` in order to
+provide a consistent user experience.
+
+- Plugins that allow the user to move objects may find
+  `Class.StudioService.GridSize|GridSize`,
+  `Class.StudioService.RotateIncrement|RotateIncrement` and
+  `Class.StudioService.UseLocalSpace|UseLocalSpace` useful.
+- Plugins that require the user to import files should use
+  `Class.StudioService:PromptImportFileAsync()|PromptImportFileAsync` or
+  `Class.StudioService:PromptImportFilesAsync()|PromptImportFilesAsync` in
+  order to receive `Class.File` objects.
+- Plugins that display icons of Instance classes can use
+  `Class.StudioService:GetClassIcon()|GetClassIcon`.
+- Plugins that care about which script is currently being edited (if any) can
+  read this from `Class.StudioService.ActiveScript|ActiveScript`.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StudioService.ActiveScript` | `Class.Instance` | [ReadOnly] [NotReplicated] |
 | `Class.StudioService.AlignDraggedObjects` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.StudioService.DraggerSolveConstraints` | `bool` | [ReadOnly] [NotReplicated] |
@@ -34,127 +57,127 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.StudioService:AnimationIdSelected`
 
-``AnimationIdSelected(id: `int64`)`` → `null`
+``AnimationIdSelected(id: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:CopyToClipboard`
 
-``CopyToClipboard(stringToCopy: `string`)`` → `null`
+``CopyToClipboard(stringToCopy: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:GetBadgeConfigureUrl`
 
-``GetBadgeConfigureUrl(badgeId: `int64`)`` → `string`
+``GetBadgeConfigureUrl(badgeId: `int64`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:GetBadgeUploadUrl`
 
-``GetBadgeUploadUrl()`` → `string`
+``GetBadgeUploadUrl()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:GetClassIcon`
 
-``GetClassIcon(className: `string`)`` → `Dictionary`
+``GetClassIcon(className: `string`)`` -> `Dictionary`
    {security: PluginSecurity}
 
 ### `Class.StudioService:GetPlaceIsPersistedToCloud`
 
-``GetPlaceIsPersistedToCloud()`` → `bool`
+``GetPlaceIsPersistedToCloud()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:GetResourceByCategory`
 
-``GetResourceByCategory(category: `string`)`` → `Dictionary`
+``GetResourceByCategory(category: `string`)`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:GetStartupAssetId`
 
-``GetStartupAssetId()`` → `string`
+``GetStartupAssetId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:GetStartupPluginId`
 
-``GetStartupPluginId()`` → `string`
+``GetStartupPluginId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:GetTermsOfUseUrl`
 
-``GetTermsOfUseUrl()`` → `string`
+``GetTermsOfUseUrl()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:GetUserId`
 
-``GetUserId()`` → `int64`
+``GetUserId()`` -> `int64`
    {security: PluginSecurity}
 
 ### `Class.StudioService:GizmoRaycast`
 
-``GizmoRaycast(origin: `Datatype.Vector3`, direction: `Datatype.Vector3`, raycastParams: `Datatype.RaycastParams`)`` → `Datatype.RaycastResult`?
+``GizmoRaycast(origin: `Datatype.Vector3`, direction: `Datatype.Vector3`, raycastParams: `Datatype.RaycastParams`)`` -> `Datatype.RaycastResult`?
    {security: PluginSecurity}
 
 ### `Class.StudioService:HasInternalPermission`
 
-``HasInternalPermission()`` → `bool`
+``HasInternalPermission()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:IsPluginInstalled`
 
-``IsPluginInstalled(assetId: `int64`)`` → `bool`
+``IsPluginInstalled(assetId: `int64`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:IsPluginUpToDate`
 
-``IsPluginUpToDate(assetId: `int64`, currentAssetVersion: `int64`)`` → `bool`
+``IsPluginUpToDate(assetId: `int64`, currentAssetVersion: `int64`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:OpenInBrowser_DONOTUSE`
 
-``OpenInBrowser_DONOTUSE(url: `string`)`` → `null`
+``OpenInBrowser_DONOTUSE(url: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:PromptImportFile`
 
-``PromptImportFile(fileTypeFilter: `Array`)`` → `Class.Instance`
+``PromptImportFile(fileTypeFilter: `Array`)`` -> `Class.Instance`
   [Yields] [Deprecated] {security: PluginSecurity}
 
 ### `Class.StudioService:PromptImportFileAsync`
 
-``PromptImportFileAsync(fileTypeFilter: `Array`)`` → `Class.Instance`
+``PromptImportFileAsync(fileTypeFilter: `Array`)`` -> `Class.Instance`
   [Yields] {security: PluginSecurity}
 
 ### `Class.StudioService:PromptImportFiles`
 
-``PromptImportFiles(fileTypeFilter: `Array`)`` → `Datatype.Instances`
+``PromptImportFiles(fileTypeFilter: `Array`)`` -> `Datatype.Instances`
   [Yields] [Deprecated] {security: PluginSecurity}
 
 ### `Class.StudioService:PromptImportFilesAsync`
 
-``PromptImportFilesAsync(fileTypeFilter: `Array`)`` → `Datatype.Instances`
+``PromptImportFilesAsync(fileTypeFilter: `Array`)`` -> `Datatype.Instances`
   [Yields] {security: PluginSecurity}
 
 ### `Class.StudioService:SetPluginEnabled`
 
-``SetPluginEnabled(assetId: `int64`, state: `bool`)`` → `null`
+``SetPluginEnabled(assetId: `int64`, state: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:ShowPublishToRoblox`
 
-``ShowPublishToRoblox()`` → `null`
+``ShowPublishToRoblox()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:TryInstallPlugin`
 
-``TryInstallPlugin(assetId: `int64`, assetVersionId: `int64`)`` → `null`
+``TryInstallPlugin(assetId: `int64`, assetVersionId: `int64`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:UninstallPlugin`
 
-``UninstallPlugin(assetId: `int64`)`` → `null`
+``UninstallPlugin(assetId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioService:UpdatePluginManagement`
 
-``UpdatePluginManagement()`` → `null`
+``UpdatePluginManagement()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

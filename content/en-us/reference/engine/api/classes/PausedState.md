@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PausedState.AllThreadsPaused` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.PausedState.Reason` | `Enum.DebuggerPauseReason` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.PausedState.ThreadId` | `int` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |

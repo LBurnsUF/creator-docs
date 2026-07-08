@@ -15,5 +15,5 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.PackageService:UpdateAsync`
 
-``UpdateAsync(packageRoot: `Class.Instance`, version: `int64`)`` → `Class.Instance`
+``UpdateAsync(packageRoot: `Class.Instance`, version: `int64`)`` -> `Class.Instance`
   [Yields] {security: RobloxScriptSecurity}

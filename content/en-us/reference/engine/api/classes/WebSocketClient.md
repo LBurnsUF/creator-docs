@@ -13,19 +13,19 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.WebSocketClient.ConnectionState` | `Enum.WebSocketState` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
 ### `Class.WebSocketClient:Close`
 
-``Close()`` → `null`
+``Close()`` -> `null`
 
 ### `Class.WebSocketClient:Send`
 
-``Send(data: `string`)`` → `null`
+``Send(data: `string`)`` -> `null`
 
 ## Events
 

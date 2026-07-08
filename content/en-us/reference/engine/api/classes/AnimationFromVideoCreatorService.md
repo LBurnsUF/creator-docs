@@ -15,20 +15,20 @@ tags: [NotCreatable, Service]
 
 ### `Class.AnimationFromVideoCreatorService:CreateJob`
 
-``CreateJob(filePath: `string`)`` → `string`
+``CreateJob(filePath: `string`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AnimationFromVideoCreatorService:DownloadJobResult`
 
-``DownloadJobResult(jobId: `string`, outputFilePath: `string`)`` → `string`
+``DownloadJobResult(jobId: `string`, outputFilePath: `string`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AnimationFromVideoCreatorService:FullProcess`
 
-``FullProcess(videoFilePath: `string`, progressCallback: `Datatype.Function`)`` → `string`
+``FullProcess(videoFilePath: `string`, progressCallback: `Datatype.Function`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AnimationFromVideoCreatorService:GetJobStatus`
 
-``GetJobStatus(jobId: `string`)`` → `string`
+``GetJobStatus(jobId: `string`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}

@@ -7,14 +7,29 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # UserInputService
 
+`UserInputService` is primarily used to detect the input types available on a
+user's device, as well as detect input events.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+`UserInputService` is primarily used to detect the input types available on a
+user's device, as well as detect input events. It allows you to perform
+different actions depending on the device and, in turn, provide the best
+experience for the end user.
+
+As this service is intended for client-side usage only, its properties,
+methods, and events can only be used in a `Class.LocalScript`, a
+`Class.ModuleScript` required by a `Class.LocalScript`, or a `Class.Script`
+with `Class.BaseScript.RunContext|RunContext` set to `Enum.RunContext.Client`.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.UserInputService.AccelerometerEnabled` | `bool` | [ReadOnly] [NotReplicated] |
 | `Class.UserInputService.BottomBarSize` | `Datatype.Vector2` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.UserInputService.GamepadEnabled` | `bool` | [ReadOnly] [NotReplicated] |
@@ -46,129 +61,129 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.UserInputService:CreateVirtualInput`
 
-``CreateVirtualInput()`` → `Class.Object`
+``CreateVirtualInput()`` -> `Class.Object`
 
 ### `Class.UserInputService:GamepadSupports`
 
-``GamepadSupports(gamepadNum: `Enum.UserInputType`, gamepadKeyCode: `Enum.KeyCode`)`` → `bool`
+``GamepadSupports(gamepadNum: `Enum.UserInputType`, gamepadKeyCode: `Enum.KeyCode`)`` -> `bool`
 
 ### `Class.UserInputService:GetConnectedGamepads`
 
-``GetConnectedGamepads()`` → `Array`
+``GetConnectedGamepads()`` -> `Array`
 
 ### `Class.UserInputService:GetDeviceAcceleration`
 
-``GetDeviceAcceleration()`` → `Class.InputObject`
+``GetDeviceAcceleration()`` -> `Class.InputObject`
 
 ### `Class.UserInputService:GetDeviceGravity`
 
-``GetDeviceGravity()`` → `Class.InputObject`
+``GetDeviceGravity()`` -> `Class.InputObject`
 
 ### `Class.UserInputService:GetDeviceLevel`
 
-``GetDeviceLevel()`` → `Enum.DeviceLevel`
+``GetDeviceLevel()`` -> `Enum.DeviceLevel`
    {security: RobloxScriptSecurity}
 
 ### `Class.UserInputService:GetDeviceRotation`
 
-``GetDeviceRotation()`` → `Tuple`
+``GetDeviceRotation()`` -> `Tuple`
 
 ### `Class.UserInputService:GetDeviceType`
 
-``GetDeviceType()`` → `Enum.DeviceType`
+``GetDeviceType()`` -> `Enum.DeviceType`
    {security: RobloxScriptSecurity}
 
 ### `Class.UserInputService:GetFocusedTextBox`
 
-``GetFocusedTextBox()`` → `Class.TextBox`
+``GetFocusedTextBox()`` -> `Class.TextBox`
 
 ### `Class.UserInputService:GetGamepadConnected`
 
-``GetGamepadConnected(gamepadNum: `Enum.UserInputType`)`` → `bool`
+``GetGamepadConnected(gamepadNum: `Enum.UserInputType`)`` -> `bool`
 
 ### `Class.UserInputService:GetGamepadState`
 
-``GetGamepadState(gamepadNum: `Enum.UserInputType`)`` → `Datatype.Instances`
+``GetGamepadState(gamepadNum: `Enum.UserInputType`)`` -> `Datatype.Instances`
 
 ### `Class.UserInputService:GetImageForKeyCode`
 
-``GetImageForKeyCode(keyCode: `Enum.KeyCode`)`` → `Datatype.ContentId`
+``GetImageForKeyCode(keyCode: `Enum.KeyCode`)`` -> `Datatype.ContentId`
 
 ### `Class.UserInputService:GetKeysPressed`
 
-``GetKeysPressed()`` → `Datatype.Instances`
+``GetKeysPressed()`` -> `Datatype.Instances`
 
 ### `Class.UserInputService:GetLastInputType`
 
-``GetLastInputType()`` → `Enum.UserInputType`
+``GetLastInputType()`` -> `Enum.UserInputType`
 
 ### `Class.UserInputService:GetMouseButtonsPressed`
 
-``GetMouseButtonsPressed()`` → `Datatype.Instances`
+``GetMouseButtonsPressed()`` -> `Datatype.Instances`
 
 ### `Class.UserInputService:GetMouseDelta`
 
-``GetMouseDelta()`` → `Datatype.Vector2`
+``GetMouseDelta()`` -> `Datatype.Vector2`
 
 ### `Class.UserInputService:GetMouseLocation`
 
-``GetMouseLocation()`` → `Datatype.Vector2`
+``GetMouseLocation()`` -> `Datatype.Vector2`
 
 ### `Class.UserInputService:GetNavigationGamepads`
 
-``GetNavigationGamepads()`` → `Array`
+``GetNavigationGamepads()`` -> `Array`
 
 ### `Class.UserInputService:GetPasteText`
 
-``GetPasteText()`` → `string`
+``GetPasteText()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.UserInputService:GetPlatform`
 
-``GetPlatform()`` → `Enum.Platform`
+``GetPlatform()`` -> `Enum.Platform`
    {security: RobloxScriptSecurity}
 
 ### `Class.UserInputService:GetStringForKeyCode`
 
-``GetStringForKeyCode(keyCode: `Enum.KeyCode`, format: `Enum.KeyCodeStringFormat`)`` → `string`
+``GetStringForKeyCode(keyCode: `Enum.KeyCode`, format: `Enum.KeyCodeStringFormat`)`` -> `string`
 
 ### `Class.UserInputService:GetSupportedGamepadKeyCodes`
 
-``GetSupportedGamepadKeyCodes(gamepadNum: `Enum.UserInputType`)`` → `Array`
+``GetSupportedGamepadKeyCodes(gamepadNum: `Enum.UserInputType`)`` -> `Array`
 
 ### `Class.UserInputService:GetUserCFrame`
 
-``GetUserCFrame(type: `Enum.UserCFrame`)`` → `Datatype.CFrame`
+``GetUserCFrame(type: `Enum.UserCFrame`)`` -> `Datatype.CFrame`
   [Deprecated]
 
 ### `Class.UserInputService:IsGamepadButtonDown`
 
-``IsGamepadButtonDown(gamepadNum: `Enum.UserInputType`, gamepadKeyCode: `Enum.KeyCode`)`` → `bool`
+``IsGamepadButtonDown(gamepadNum: `Enum.UserInputType`, gamepadKeyCode: `Enum.KeyCode`)`` -> `bool`
 
 ### `Class.UserInputService:IsKeyDown`
 
-``IsKeyDown(keyCode: `Enum.KeyCode`)`` → `bool`
+``IsKeyDown(keyCode: `Enum.KeyCode`)`` -> `bool`
 
 ### `Class.UserInputService:IsMouseButtonPressed`
 
-``IsMouseButtonPressed(mouseButton: `Enum.UserInputType`)`` → `bool`
+``IsMouseButtonPressed(mouseButton: `Enum.UserInputType`)`` -> `bool`
 
 ### `Class.UserInputService:IsNavigationGamepad`
 
-``IsNavigationGamepad(gamepadEnum: `Enum.UserInputType`)`` → `bool`
+``IsNavigationGamepad(gamepadEnum: `Enum.UserInputType`)`` -> `bool`
 
 ### `Class.UserInputService:RecenterUserHeadCFrame`
 
-``RecenterUserHeadCFrame()`` → `null`
+``RecenterUserHeadCFrame()`` -> `null`
 
 ### `Class.UserInputService:SendAppUISizes`
 
-``SendAppUISizes(statusBarSize: `Datatype.Vector2`, navBarSize: `Datatype.Vector2`, bottomBarSize: `Datatype.Vector2`, rightBarSize: `Datatype.Vector2`)`` → `null`
+``SendAppUISizes(statusBarSize: `Datatype.Vector2`, navBarSize: `Datatype.Vector2`, bottomBarSize: `Datatype.Vector2`, rightBarSize: `Datatype.Vector2`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.UserInputService:SetNavigationGamepad`
 
-``SetNavigationGamepad(gamepadEnum: `Enum.UserInputType`, enabled: `bool`)`` → `null`
+``SetNavigationGamepad(gamepadEnum: `Enum.UserInputType`, enabled: `bool`)`` -> `null`
 
 ## Events
 

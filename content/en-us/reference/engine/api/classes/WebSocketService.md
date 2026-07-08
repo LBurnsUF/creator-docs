@@ -15,4 +15,4 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.WebSocketService:CreateClient`
 
-``CreateClient(uri: `string`)`` → `Class.WebSocketClient`
+``CreateClient(uri: `string`)`` -> `Class.WebSocketClient`

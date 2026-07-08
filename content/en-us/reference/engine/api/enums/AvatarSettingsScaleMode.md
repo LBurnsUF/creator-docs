@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.AvatarSettingsScaleMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AvatarSettingsScaleMode.PlayerChoice` | 0 |
-| `Enum.AvatarSettingsScaleMode.CustomScale` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AvatarSettingsScaleMode.PlayerChoice` | 0 |  |
+| `Enum.AvatarSettingsScaleMode.CustomScale` | 1 |  |

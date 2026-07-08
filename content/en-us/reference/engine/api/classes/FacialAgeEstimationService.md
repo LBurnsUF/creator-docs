@@ -15,10 +15,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.FacialAgeEstimationService:InquiryAsync`
 
-``InquiryAsync(inquiryRequest: `Dictionary`)`` → `Dictionary`
+``InquiryAsync(inquiryRequest: `Dictionary`)`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.FacialAgeEstimationService:IsAvailable`
 
-``IsAvailable()`` → `bool`
+``IsAvailable()`` -> `bool`
    {security: RobloxScriptSecurity}

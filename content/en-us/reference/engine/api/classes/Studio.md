@@ -11,10 +11,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+The Studio object is a settings object that is exclusive to Roblox Studio. It
+can be found in Roblox Studio's settings under the Studio tab.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Studio."TODO" Color` | `Datatype.Color3` | [NotReplicated] {security: PluginSecurity} |
 | `Class.Studio."function" Color` | `Datatype.Color3` | [NotReplicated] {security: PluginSecurity} |
 | `Class.Studio."local" Color` | `Datatype.Color3` | [NotReplicated] {security: PluginSecurity} |
@@ -222,7 +227,7 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.Studio:GetAvailableThemes`
 
-``GetAvailableThemes()`` → `Array`
+``GetAvailableThemes()`` -> `Array`
    {security: PluginSecurity}
 
 ## Events

@@ -7,14 +7,22 @@ tags: [NotReplicated]
 
 # AudioSearchParams
 
+Instance to be passed to `Class.AssetService:SearchAudioAsync()` to search for
+audio assets.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotReplicated]
 
+## Description
+
+Instance to be passed to `Class.AssetService:SearchAudioAsync()` to search for
+audio assets.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioSearchParams.Album` | `string` |  |
 | `Class.AudioSearchParams.Artist` | `string` |  |
 | `Class.AudioSearchParams.AudioSubType` | `Enum.AudioSubType` |  |

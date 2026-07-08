@@ -6,12 +6,20 @@ superclass: Instance
 
 # AudioEcho
 
+Overlays delayed copies of audio streams.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioEcho` overlays delayed copies of audio streams. It provides one
+**Input** pin and one **Output** pin which can be connected to/from by
+`Class.Wire|Wires`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioEcho.Bypass` | `bool` |  |
 | `Class.AudioEcho.DelayTime` | `float` |  |
 | `Class.AudioEcho.DryLevel` | `float` |  |
@@ -23,19 +31,19 @@ superclass: Instance
 
 ### `Class.AudioEcho:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioEcho:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioEcho:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ### `Class.AudioEcho:Reset`
 
-``Reset()`` → `null`
+``Reset()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

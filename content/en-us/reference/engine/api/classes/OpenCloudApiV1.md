@@ -11,14 +11,18 @@ tags: [NotCreatable, NotReplicated, Deprecated]
 
 **Tags:** [NotCreatable] [NotReplicated] [Deprecated]
 
+> **Deprecated:** This class is deprecated and should not be used for new work. Use
+`Class.HttpService` instead and see the
+[In-experience HTTP requests guide](../../../cloud-services/http-service.md).
+
 ## Methods
 
 ### `Class.OpenCloudApiV1:CreateModel`
 
-``CreateModel(name: `string`)`` → `Datatype.OpenCloudModel`
+``CreateModel(name: `string`)`` -> `Datatype.OpenCloudModel`
   [Deprecated] [CustomLuaState]
 
 ### `Class.OpenCloudApiV1:CreateUserNotificationAsync`
 
-``CreateUserNotificationAsync(user: `string`, userNotification: `Datatype.OpenCloudModel`)`` → `Datatype.OpenCloudModel`
+``CreateUserNotificationAsync(user: `string`, userNotification: `Datatype.OpenCloudModel`)`` -> `Datatype.OpenCloudModel`
   [Yields] [Deprecated]

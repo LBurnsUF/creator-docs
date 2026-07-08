@@ -13,15 +13,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.LiveSyncService.HasSyncedInstances` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
 ### `Class.LiveSyncService:GetSyncState`
 
-``GetSyncState(instance: `Class.Instance`)`` → `Tuple`
+``GetSyncState(instance: `Class.Instance`)`` -> `Tuple`
 
 ## Events
 

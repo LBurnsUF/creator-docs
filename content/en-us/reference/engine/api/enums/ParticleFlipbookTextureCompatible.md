@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.ParticleFlipbookTextureCompatible` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ParticleFlipbookTextureCompatible.NotCompatible` | 0 |
-| `Enum.ParticleFlipbookTextureCompatible.Compatible` | 1 |
-| `Enum.ParticleFlipbookTextureCompatible.Unknown` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ParticleFlipbookTextureCompatible.NotCompatible` | 0 |  |
+| `Enum.ParticleFlipbookTextureCompatible.Compatible` | 1 |  |
+| `Enum.ParticleFlipbookTextureCompatible.Unknown` | 2 |  |

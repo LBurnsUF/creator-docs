@@ -15,20 +15,20 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.FileManagerService:ListFilesInFolderAsync`
 
-``ListFilesInFolderAsync(folder: `Enum.EngineFolder`)`` → `Array`
+``ListFilesInFolderAsync(folder: `Enum.EngineFolder`)`` -> `Array`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.FileManagerService:OpenFileInWebBrowser`
 
-``OpenFileInWebBrowser(folder: `Enum.EngineFolder`, fileName: `string`)`` → `null`
+``OpenFileInWebBrowser(folder: `Enum.EngineFolder`, fileName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.FileManagerService:OpenFolder`
 
-``OpenFolder(folder: `Enum.EngineFolder`)`` → `null`
+``OpenFolder(folder: `Enum.EngineFolder`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.FileManagerService:RevealFileInFolder`
 
-``RevealFileInFolder(folder: `Enum.EngineFolder`, fileName: `string`)`` → `null`
+``RevealFileInFolder(folder: `Enum.EngineFolder`, fileName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}

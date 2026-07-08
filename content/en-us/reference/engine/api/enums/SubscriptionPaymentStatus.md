@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.SubscriptionPaymentStatus` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.SubscriptionPaymentStatus.Paid` | 0 |
-| `Enum.SubscriptionPaymentStatus.Refunded` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.SubscriptionPaymentStatus.Paid` | 0 | Payment for the subscription has been received. |
+| `Enum.SubscriptionPaymentStatus.Refunded` | 1 | Payment for the subscription has been refunded. |

@@ -15,25 +15,25 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.PlatformFriendsService:GetPartyMembers`
 
-``GetPartyMembers()`` → `Array`
+``GetPartyMembers()`` -> `Array`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.PlatformFriendsService:IsInviteFriendsEnabled`
 
-``IsInviteFriendsEnabled()`` → `bool`
+``IsInviteFriendsEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlatformFriendsService:IsProfileEnabled`
 
-``IsProfileEnabled()`` → `bool`
+``IsProfileEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlatformFriendsService:ShowInviteFriendsUI`
 
-``ShowInviteFriendsUI()`` → `null`
+``ShowInviteFriendsUI()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlatformFriendsService:ShowProfile`
 
-``ShowProfile(platformUserId: `string`)`` → `null`
+``ShowProfile(platformUserId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}

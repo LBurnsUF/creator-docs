@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Annotation.AuthorColor3` | `Datatype.Color3` | [Hidden] {security: RobloxScriptSecurity} |
 | `Class.Annotation.AuthorId` | `int64` | [Hidden] {security: RobloxScriptSecurity} |
 | `Class.Annotation.ChannelId` | `string` | [Hidden] {security: RobloxScriptSecurity} |
@@ -27,17 +27,17 @@ superclass: Instance
 
 ### `Class.Annotation:GetRequests`
 
-``GetRequests()`` → `Dictionary`
+``GetRequests()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.Annotation:GetStringUniqueId`
 
-``GetStringUniqueId()`` → `string`
+``GetStringUniqueId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.Annotation:IsThreadParent`
 
-``IsThreadParent()`` → `bool`
+``IsThreadParent()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ## Events

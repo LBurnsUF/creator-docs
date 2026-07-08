@@ -10,8 +10,8 @@ superclass: ControllerBase
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AirController.BalanceMaxTorque` | `float` |  |
 | `Class.AirController.BalanceSpeed` | `float` |  |
 | `Class.AirController.LinearImpulse` | `Datatype.Vector3` | [Hidden] [NotReplicated] |

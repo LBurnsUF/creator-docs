@@ -13,8 +13,8 @@ tags: [NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Breakpoint.Condition` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.Breakpoint.ContinueExecution` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.Breakpoint.Enabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |

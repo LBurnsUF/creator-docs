@@ -15,9 +15,9 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.PlayerData:GetPlayer`
 
-``GetPlayer()`` → `Class.Player`
+``GetPlayer()`` -> `Class.Player`
 
 ### `Class.PlayerData:GetRecordAsync`
 
-``GetRecordAsync(recordName: `string`)`` → `Class.PlayerDataRecord`
+``GetRecordAsync(recordName: `string`)`` -> `Class.PlayerDataRecord`
   [Yields]

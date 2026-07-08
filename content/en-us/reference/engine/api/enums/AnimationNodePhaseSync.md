@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.AnimationNodePhaseSync` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AnimationNodePhaseSync.Synced` | 0 |
-| `Enum.AnimationNodePhaseSync.Unsynced` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AnimationNodePhaseSync.Synced` | 0 |  |
+| `Enum.AnimationNodePhaseSync.Unsynced` | 1 |  |

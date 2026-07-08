@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.UITheme` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.UITheme.Light` | 0 |
-| `Enum.UITheme.Dark` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.UITheme.Light` | 0 |  |
+| `Enum.UITheme.Dark` | 1 |  |

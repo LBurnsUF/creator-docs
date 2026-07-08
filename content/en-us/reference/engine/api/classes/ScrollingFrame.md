@@ -6,12 +6,22 @@ superclass: GuiObject
 
 # ScrollingFrame
 
+`ScrollingFrame` is a special `Class.Frame` type with built-in scrolling
+interactivity and different ways to customize how the scrolling works.
+
 **Inherits from:** `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
+
+## Description
+
+`ScrollingFrame` is a special `Class.Frame` type with built-in scrolling
+interactivity and different ways to customize how the scrolling works.
+
+<img src="/assets/ui/ui-objects/ScrollingFrame-Example.jpg" width="840" alt="Example ScrollingFrame on the screen containing a tabbed category bar and a list of magical items for the player to consider purchasing." />
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ScrollingFrame.AbsoluteCanvasSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
 | `Class.ScrollingFrame.AbsoluteWindowSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
 | `Class.ScrollingFrame.AutomaticCanvasSize` | `Enum.AutomaticSize` |  |
@@ -44,23 +54,23 @@ superclass: GuiObject
 
 ### `Class.ScrollingFrame:ClearInertialScrolling`
 
-``ClearInertialScrolling()`` → `null`
+``ClearInertialScrolling()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ScrollingFrame:GetSampledInertialVelocity`
 
-``GetSampledInertialVelocity()`` → `Datatype.Vector2`
+``GetSampledInertialVelocity()`` -> `Datatype.Vector2`
    {security: RobloxScriptSecurity}
 
 ### `Class.ScrollingFrame:GetScrollVelocity`
 
-``GetScrollVelocity()`` → `Datatype.Vector2`
+``GetScrollVelocity()`` -> `Datatype.Vector2`
 
 ### `Class.ScrollingFrame:ResetScrollVelocity`
 
-``ResetScrollVelocity()`` → `null`
+``ResetScrollVelocity()`` -> `null`
 
 ### `Class.ScrollingFrame:ScrollToTop`
 
-``ScrollToTop()`` → `null`
+``ScrollToTop()`` -> `null`
    {security: RobloxScriptSecurity}

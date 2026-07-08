@@ -8,10 +8,24 @@ superclass: Instance
 
 **Inherits from:** `Class.Instance` > `Class.Object`
 
+## Description
+
+Modern controllers and devices have motors built‑in to provide haptic
+feedback. Adding rumbles and vibrations can provide subtle feedback that is
+hard to convey through visuals or audio.
+
+Roblox supports haptics for the following devices:
+
+- Android and iOS phones supporting haptics including most iPhone, Pixel, and
+  Samsung Galaxy devices
+- PlayStation gamepads
+- Xbox gamepads
+- Quest Touch controller
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.HapticEffect.Looped` | `bool` |  |
 | `Class.HapticEffect.Position` | `Datatype.Vector3` |  |
 | `Class.HapticEffect.Radius` | `float` |  |
@@ -21,15 +35,15 @@ superclass: Instance
 
 ### `Class.HapticEffect:Play`
 
-``Play()`` → `null`
+``Play()`` -> `null`
 
 ### `Class.HapticEffect:SetWaveformKeys`
 
-``SetWaveformKeys(keys: `Array`)`` → `null`
+``SetWaveformKeys(keys: `Array`)`` -> `null`
 
 ### `Class.HapticEffect:Stop`
 
-``Stop()`` → `null`
+``Stop()`` -> `null`
 
 ## Events
 

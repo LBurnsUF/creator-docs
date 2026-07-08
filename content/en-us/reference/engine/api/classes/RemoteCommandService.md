@@ -15,26 +15,26 @@ tags: [NotCreatable, Service]
 
 ### `Class.RemoteCommandService:ExecuteCommand`
 
-``ExecuteCommand(code: `string`, args: `Tuple`)`` → `Class.ExecutedRemoteCommand`
+``ExecuteCommand(code: `string`, args: `Tuple`)`` -> `Class.ExecutedRemoteCommand`
    {security: RobloxScriptSecurity}
 
 ### `Class.RemoteCommandService:ExecuteCommandAsync`
 
-``ExecuteCommandAsync(code: `string`, args: `Tuple`)`` → `Tuple`
+``ExecuteCommandAsync(code: `string`, args: `Tuple`)`` -> `Tuple`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.RemoteCommandService:GetExecutingPlayer`
 
-``GetExecutingPlayer()`` → `Class.Player`
+``GetExecutingPlayer()`` -> `Class.Player`
 
 ### `Class.RemoteCommandService:GetReceivedUpdateSignal`
 
-``GetReceivedUpdateSignal()`` → `Datatype.RBXScriptSignal`
+``GetReceivedUpdateSignal()`` -> `Datatype.RBXScriptSignal`
 
 ### `Class.RemoteCommandService:GetStoppingSignal`
 
-``GetStoppingSignal()`` → `Datatype.RBXScriptSignal`
+``GetStoppingSignal()`` -> `Datatype.RBXScriptSignal`
 
 ### `Class.RemoteCommandService:SendUpdate`
 
-``SendUpdate(args: `Tuple`)`` → `null`
+``SendUpdate(args: `Tuple`)`` -> `null`

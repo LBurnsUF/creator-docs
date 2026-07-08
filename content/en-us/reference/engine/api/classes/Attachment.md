@@ -6,12 +6,42 @@ superclass: Instance
 
 # Attachment
 
+Defines a point and orientation relative to an ancestor `Class.PVInstance`,
+`Class.Bone`, or another `Class.Attachment`.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+An `Attachment` defines a point and orientation relative to an ancestor
+`Class.PVInstance`, `Class.Bone`, or another `Attachment`. The offset is
+stored in the `Class.Attachment.CFrame|CFrame` property. The offset can also
+be set through other properties, such as
+`Class.Attachment.WorldCFrame|WorldCFrame`.
+
+If no ancestral `Class.PVInstance` or `Class.Attachment` exists, then
+`Class.Attachment.CFrame|CFrame` and
+`Class.Attachment.WorldCFrame|WorldCFrame` are the same.
+
+Attachments are used by several kinds of `Class.Constraint|Constraints` and
+are also valid alternatives to `Class.BasePart` as a parent for objects such
+as:
+
+- `Class.ParticleEmitter|ParticleEmitters` which will emit particles from the
+  attachment's specific position/orientation instead of the `Class.BasePart`
+  bounds.
+
+- Light-emitting objects like `Class.PointLight` and `Class.SpotLight` which
+  will shine from the attachment's position/orientation instead of the
+  `Class.BasePart` center.
+
+- `Class.AudioEmitter` which will use the attachment's position as the audio's
+  point of emission.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Attachment.Axis` | `Datatype.Vector3` | [NotReplicated] |
 | `Class.Attachment.CFrame` | `Datatype.CFrame` |  |
 | `Class.Attachment.Orientation` | `Datatype.Vector3` | [Hidden] [NotReplicated] |
@@ -30,24 +60,24 @@ superclass: Instance
 
 ### `Class.Attachment:GetAxis`
 
-``GetAxis()`` → `Datatype.Vector3`
+``GetAxis()`` -> `Datatype.Vector3`
   [Deprecated]
 
 ### `Class.Attachment:GetConstraints`
 
-``GetConstraints()`` → `Datatype.Instances`
+``GetConstraints()`` -> `Datatype.Instances`
 
 ### `Class.Attachment:GetSecondaryAxis`
 
-``GetSecondaryAxis()`` → `Datatype.Vector3`
+``GetSecondaryAxis()`` -> `Datatype.Vector3`
   [Deprecated]
 
 ### `Class.Attachment:SetAxis`
 
-``SetAxis(axis: `Datatype.Vector3`)`` → `null`
+``SetAxis(axis: `Datatype.Vector3`)`` -> `null`
   [Deprecated]
 
 ### `Class.Attachment:SetSecondaryAxis`
 
-``SetSecondaryAxis(axis: `Datatype.Vector3`)`` → `null`
+``SetSecondaryAxis(axis: `Datatype.Vector3`)`` -> `null`
   [Deprecated]

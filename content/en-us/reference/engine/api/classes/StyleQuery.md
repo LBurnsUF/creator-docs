@@ -6,12 +6,22 @@ superclass: Instance
 
 # StyleQuery
 
+Instance used to set conditions such as `"MaxSize"` and `"PreferredInput"` for
+a `Class.StyleRule`.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`StyleQuery` is an instance used to set conditions like `"MaxSize"` and
+`"PreferredInput"` for a `Class.StyleRule`. If the conditions are `true`, the
+rule's `@` selector is enabled. This is helpful to author styling with dynamic
+container sizes and cross-platform UI.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StyleQuery.AspectRatioRange` | `Datatype.NumberRange` | [NotReplicated] [NotScriptable] {read: RobloxSecurity} |
 | `Class.StyleQuery.IsActive` | `bool` | [ReadOnly] [NotReplicated] |
 | `Class.StyleQuery.MaxSize` | `Datatype.Vector2` | [NotReplicated] [NotScriptable] {read: RobloxSecurity} |
@@ -25,16 +35,16 @@ superclass: Instance
 
 ### `Class.StyleQuery:GetCondition`
 
-``GetCondition(name: `string`)`` → `Variant`
+``GetCondition(name: `string`)`` -> `Variant`
 
 ### `Class.StyleQuery:GetConditions`
 
-``GetConditions()`` → `Dictionary`
+``GetConditions()`` -> `Dictionary`
 
 ### `Class.StyleQuery:SetCondition`
 
-``SetCondition(name: `string`, value: `Variant`)`` → `null`
+``SetCondition(name: `string`, value: `Variant`)`` -> `null`
 
 ### `Class.StyleQuery:SetConditions`
 
-``SetConditions(conditions: `Dictionary`)`` → `null`
+``SetConditions(conditions: `Dictionary`)`` -> `null`

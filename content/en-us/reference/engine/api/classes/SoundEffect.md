@@ -7,13 +7,25 @@ tags: [NotCreatable]
 
 # SoundEffect
 
+SoundEffect is the base class that all other sound effects derive from. A
+SoundEffect can be applied to either a `Class.Sound` or `Class.SoundGroup` by
+being parented to either.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable]
 
+## Description
+
+SoundEffect is the base class that all other sound effects derive from. A
+SoundEffect can be applied to either a `Class.Sound` or `Class.SoundGroup` by
+being parented to either. Multiple effects can be applied to the same Sound or
+SoundGroup. The order the effects will be applied in is determined by that
+effect's Priority.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.SoundEffect.Enabled` | `bool` |  |
 | `Class.SoundEffect.Priority` | `int` |  |

@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.TrackerLodController.AudioMode` | `Enum.TrackerLodFlagMode` |  |
 | `Class.TrackerLodController.VideoExtrapolationMode` | `Enum.TrackerExtrapolationFlagMode` |  |
 | `Class.TrackerLodController.VideoLodMode` | `Enum.TrackerLodValueMode` |  |
@@ -24,22 +24,22 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.TrackerLodController:getExtrapolation`
 
-``getExtrapolation()`` → `int`
+``getExtrapolation()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.TrackerLodController:getVideoLod`
 
-``getVideoLod()`` → `int`
+``getVideoLod()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.TrackerLodController:isAudioEnabled`
 
-``isAudioEnabled()`` → `bool`
+``isAudioEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.TrackerLodController:isVideoEnabled`
 
-``isVideoEnabled()`` → `bool`
+``isVideoEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ## Events

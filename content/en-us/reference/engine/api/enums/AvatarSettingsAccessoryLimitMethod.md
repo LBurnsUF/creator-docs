@@ -7,9 +7,9 @@ type: enum
 
 The `Enum.AvatarSettingsAccessoryLimitMethod` enum has 4 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AvatarSettingsAccessoryLimitMethod.Scale` | 0 |
-| `Enum.AvatarSettingsAccessoryLimitMethod.Remove` | 1 |
-| `Enum.AvatarSettingsAccessoryLimitMethod.PreviewScale` | 2 |
-| `Enum.AvatarSettingsAccessoryLimitMethod.PreviewRemove` | 3 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AvatarSettingsAccessoryLimitMethod.Scale` | 0 |  |
+| `Enum.AvatarSettingsAccessoryLimitMethod.Remove` | 1 |  |
+| `Enum.AvatarSettingsAccessoryLimitMethod.PreviewScale` | 2 |  |
+| `Enum.AvatarSettingsAccessoryLimitMethod.PreviewRemove` | 3 |  |

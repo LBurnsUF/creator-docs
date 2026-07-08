@@ -7,14 +7,21 @@ tags: [NotCreatable, Service, NotReplicated, NotBrowsable]
 
 # DebugSettings
 
+Collection of various developer-facing diagnostics information.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated] [NotBrowsable]
 
+## Description
+
+The DebugSettings allows you to view diagnostics information regarding Roblox.
+It is labeled as **Diagnostics** in the Roblox Studio Settings menu.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DebugSettings.DataModel` | `int` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
 | `Class.DebugSettings.InstanceCount` | `int` | [ReadOnly] [NotReplicated] {security: PluginSecurity} |
 | `Class.DebugSettings.IsScriptStackTracingEnabled` | `bool` |  {security: PluginSecurity} |

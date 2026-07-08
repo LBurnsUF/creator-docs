@@ -6,12 +6,24 @@ superclass: Instance
 
 # Trail
 
+Used to create a trail effect between two attachments.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+The **Trail** object is used to create a trail effect between two attachments.
+As the attachments move through space, a texture is drawn on their defined
+plane. This is commonly used to create effects that visualize movements like
+tracer trails behind projectiles, footprints, tire tracks, and similar
+effects.
+
+See [Trails](../../../effects/trails.md) for more information.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Trail.Attachment0` | `Class.Attachment` |  |
 | `Class.Trail.Attachment1` | `Class.Attachment` |  |
 | `Class.Trail.Brightness` | `float` |  |
@@ -35,4 +47,4 @@ superclass: Instance
 
 ### `Class.Trail:Clear`
 
-``Clear()`` → `null`
+``Clear()`` -> `null`

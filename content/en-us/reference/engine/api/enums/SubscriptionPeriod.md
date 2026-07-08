@@ -7,6 +7,6 @@ type: enum
 
 The `Enum.SubscriptionPeriod` enum has 1 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.SubscriptionPeriod.Month` | 0 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.SubscriptionPeriod.Month` | 0 |  |

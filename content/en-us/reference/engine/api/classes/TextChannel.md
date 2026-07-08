@@ -6,48 +6,66 @@ superclass: Instance
 
 # TextChannel
 
+Represents a text chat channel.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+Represents a text chat channel. Contains `Class.TextSource|TextSources` as
+descendants.
+
+To send a chat message to the `Class.TextChannel`, call
+`Class.TextChannel:SendAsync()` from a `Class.LocalScript`. The corresponding
+`Class.TextSource` of the user with `TextSource.CanSend = true` must be in
+that channel.
+
+Messages from different TextChannels can be separated into different tabs in
+the chat window using `Class.ChannelTabsConfiguration`.
+
+To learn more, see
+[In-Experience Text Chat](../../../chat/in-experience-text-chat.md).
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.TextChannel.DirectChatRequester` | `Class.Player` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
 ### `Class.TextChannel:AddUserAsync`
 
-``AddUserAsync(userId: `Datatype.User`)`` → `Tuple`
+``AddUserAsync(userId: `Datatype.User`)`` -> `Tuple`
   [Yields]
 
 ### `Class.TextChannel:DisplaySystemMessage`
 
-``DisplaySystemMessage(systemMessage: `string`, metadata: `string`)`` → `Class.TextChatMessage`
+``DisplaySystemMessage(systemMessage: `string`, metadata: `string`)`` -> `Class.TextChatMessage`
 
 ### `Class.TextChannel:SendAsync`
 
-``SendAsync(message: `string`, metadata: `string`)`` → `Class.TextChatMessage`
+``SendAsync(message: `string`, metadata: `string`)`` -> `Class.TextChatMessage`
   [Yields]
 
 ### `Class.TextChannel:SendDictatedSpeechAsync`
 
-``SendDictatedSpeechAsync(message: `string`)`` → `Class.TextChatMessage`
+``SendDictatedSpeechAsync(message: `string`)`` -> `Class.TextChatMessage`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.TextChannel:SendInternalAsync`
 
-``SendInternalAsync(message: `string`, metadata: `string`)`` → `Class.TextChatMessage`
+``SendInternalAsync(message: `string`, metadata: `string`)`` -> `Class.TextChatMessage`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.TextChannel:SendPresetAsync`
 
-``SendPresetAsync(presetId: `string`)`` → `Class.TextChatMessage`
+``SendPresetAsync(presetId: `string`)`` -> `Class.TextChatMessage`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.TextChannel:SetDirectChatRequester`
 
-``SetDirectChatRequester(requester: `Class.Player`)`` → `null`
+``SetDirectChatRequester(requester: `Class.Player`)`` -> `null`
 
 ## Events
 
@@ -59,8 +77,8 @@ Fires with: (incomingMessage: `Class.TextChatMessage`)
 
 ### `Class.TextChannel.OnIncomingMessage`
 
-``OnIncomingMessage(message: `Class.TextChatMessage`)`` → `Tuple`
+``OnIncomingMessage(message: `Class.TextChatMessage`)`` -> `Tuple`
 
 ### `Class.TextChannel.ShouldDeliverCallback`
 
-``ShouldDeliverCallback(message: `Class.TextChatMessage`, textSource: `Class.TextSource`)`` → `Tuple`
+``ShouldDeliverCallback(message: `Class.TextChatMessage`, textSource: `Class.TextSource`)`` -> `Tuple`

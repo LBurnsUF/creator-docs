@@ -6,12 +6,38 @@ superclass: Instance
 
 # HumanoidDescription
 
+Describes the appearance of a Humanoid character including body parts,
+accessories, colors, scales, animations, and emotes.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+**HumanoidDescription** is an object that stores a description of a
+`Class.Humanoid` for R6 and R15 rigs. It can be
+`Class.Humanoid:ApplyDescriptionAsync()|applied` in order to set a rig's
+scaling, clothing (`Class.Shirt`, `Class.Pants`, `Class.ShirtGraphic`),
+`Class.Accessory|Accessories`, `Class.Animation|Animations` and
+`Class.BodyColors`.
+
+You can get a HumanoidDescription by using the following functions:
+
+- `Class.Players:GetHumanoidDescriptionFromUserIdAsync()`, for an outfit
+  currently being worn by a user on Roblox.
+- `Class.Players:GetHumanoidDescriptionFromOutfitIdAsync()`, for an outfit
+  created by a user on Roblox.
+- You can create a Humanoid rig model from a HumanoidDescription through
+  `Class.Players:CreateHumanoidModelFromDescriptionAsync()`.
+
+See also:
+
+- [HumanoidDescription System](../../../characters/appearance.md#humanoiddescription),
+  for more information on `Class.HumanoidDescription`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.HumanoidDescription.AccessoryBlob` | `string` | [NotReplicated] [NotScriptable] |
 | `Class.HumanoidDescription.BackAccessory` | `string` | [NotReplicated] |
 | `Class.HumanoidDescription.BodyTypeScale` | `float` |  |
@@ -60,35 +86,35 @@ superclass: Instance
 
 ### `Class.HumanoidDescription:AddEmote`
 
-``AddEmote(name: `string`, assetId: `int64`)`` → `null`
+``AddEmote(name: `string`, assetId: `int64`)`` -> `null`
 
 ### `Class.HumanoidDescription:GetAccessories`
 
-``GetAccessories(includeRigidAccessories: `bool`)`` → `Array`
+``GetAccessories(includeRigidAccessories: `bool`)`` -> `Array`
 
 ### `Class.HumanoidDescription:GetEmotes`
 
-``GetEmotes()`` → `Dictionary`
+``GetEmotes()`` -> `Dictionary`
 
 ### `Class.HumanoidDescription:GetEquippedEmotes`
 
-``GetEquippedEmotes()`` → `Array`
+``GetEquippedEmotes()`` -> `Array`
 
 ### `Class.HumanoidDescription:RemoveEmote`
 
-``RemoveEmote(name: `string`)`` → `null`
+``RemoveEmote(name: `string`)`` -> `null`
 
 ### `Class.HumanoidDescription:SetAccessories`
 
-``SetAccessories(accessories: `Array`, includeRigidAccessories: `bool`)`` → `null`
+``SetAccessories(accessories: `Array`, includeRigidAccessories: `bool`)`` -> `null`
 
 ### `Class.HumanoidDescription:SetEmotes`
 
-``SetEmotes(emotes: `Dictionary`)`` → `null`
+``SetEmotes(emotes: `Dictionary`)`` -> `null`
 
 ### `Class.HumanoidDescription:SetEquippedEmotes`
 
-``SetEquippedEmotes(equippedEmotes: `Array`)`` → `null`
+``SetEquippedEmotes(equippedEmotes: `Array`)`` -> `null`
 
 ## Events
 

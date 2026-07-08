@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.SelectionRenderMode` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.SelectionRenderMode.Outlines` | 0 |
-| `Enum.SelectionRenderMode.BoundingBoxes` | 1 |
-| `Enum.SelectionRenderMode.Both` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.SelectionRenderMode.Outlines` | 0 |  |
+| `Enum.SelectionRenderMode.BoundingBoxes` | 1 |  |
+| `Enum.SelectionRenderMode.Both` | 2 |  |

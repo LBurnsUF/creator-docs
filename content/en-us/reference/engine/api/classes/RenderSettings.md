@@ -11,10 +11,16 @@ tags: [NotCreatable, Service, NotReplicated, NotBrowsable]
 
 **Tags:** [NotCreatable] [Service] [NotReplicated] [NotBrowsable]
 
+## Description
+
+`RenderSettings` is a singleton class which lets developers debug components
+of Roblox's graphics engine. It can be found in Roblox Studio's settings under
+the **Rendering** tab.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.RenderSettings.AutoFRMLevel` | `int` |  {security: PluginSecurity} |
 | `Class.RenderSettings.EagerBulkExecution` | `bool` |  {security: PluginSecurity} |
 | `Class.RenderSettings.EditQualityLevel` | `Enum.QualityLevel` |  {security: PluginSecurity} |
@@ -35,5 +41,5 @@ tags: [NotCreatable, Service, NotReplicated, NotBrowsable]
 
 ### `Class.RenderSettings:GetMaxQualityLevel`
 
-``GetMaxQualityLevel()`` → `int`
+``GetMaxQualityLevel()`` -> `int`
    {security: PluginSecurity}

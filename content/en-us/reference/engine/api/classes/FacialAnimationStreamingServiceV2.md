@@ -13,38 +13,38 @@ tags: [NotCreatable, Service]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.FacialAnimationStreamingServiceV2.ServiceState` | `int` | [Hidden] {security: RobloxScriptSecurity} |
 
 ## Methods
 
 ### `Class.FacialAnimationStreamingServiceV2:GetStats`
 
-``GetStats()`` → `Class.FacialAnimationStreamingServiceStats`
+``GetStats()`` -> `Class.FacialAnimationStreamingServiceStats`
    {security: RobloxScriptSecurity}
 
 ### `Class.FacialAnimationStreamingServiceV2:IsAudioEnabled`
 
-``IsAudioEnabled(mask: `int`)`` → `bool`
+``IsAudioEnabled(mask: `int`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.FacialAnimationStreamingServiceV2:IsPlaceEnabled`
 
-``IsPlaceEnabled(mask: `int`)`` → `bool`
+``IsPlaceEnabled(mask: `int`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.FacialAnimationStreamingServiceV2:IsServerEnabled`
 
-``IsServerEnabled(mask: `int`)`` → `bool`
+``IsServerEnabled(mask: `int`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.FacialAnimationStreamingServiceV2:IsVideoEnabled`
 
-``IsVideoEnabled(mask: `int`)`` → `bool`
+``IsVideoEnabled(mask: `int`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.FacialAnimationStreamingServiceV2:ResolveStateForUser`
 
-``ResolveStateForUser(userId: `int64`)`` → `int`
+``ResolveStateForUser(userId: `int64`)`` -> `int`
   [Yields] {security: RobloxScriptSecurity}

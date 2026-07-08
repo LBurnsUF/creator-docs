@@ -10,8 +10,8 @@ superclass: ControllerBase
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.GroundController.AccelerationLean` | `float` |  |
 | `Class.GroundController.AccelerationTime` | `float` |  |
 | `Class.GroundController.BalanceMaxTorque` | `float` |  |

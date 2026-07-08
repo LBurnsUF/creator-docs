@@ -13,20 +13,20 @@ tags: [NotCreatable, Service]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AvatarSettings.Loaded` | `bool` |  {read: RobloxScriptSecurity, write: NotAccessibleSecurity} |
 
 ## Methods
 
 ### `Class.AvatarSettings:Discard`
 
-``Discard()`` → `null`
+``Discard()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarSettings:Publish`
 
-``Publish()`` → `null`
+``Publish()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

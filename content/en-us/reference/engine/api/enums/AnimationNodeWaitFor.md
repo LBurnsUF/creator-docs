@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.AnimationNodeWaitFor` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AnimationNodeWaitFor.Finished` | 0 |
-| `Enum.AnimationNodeWaitFor.Trigger` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AnimationNodeWaitFor.Finished` | 0 |  |
+| `Enum.AnimationNodeWaitFor.Trigger` | 1 |  |

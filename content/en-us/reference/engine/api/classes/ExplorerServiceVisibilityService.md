@@ -15,4 +15,4 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.ExplorerServiceVisibilityService:GetServiceVisibility`
 
-``GetServiceVisibility(service: `Class.Instance`)`` → `bool`
+``GetServiceVisibility(service: `Class.Instance`)`` -> `bool`

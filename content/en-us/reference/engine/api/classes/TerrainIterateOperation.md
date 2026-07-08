@@ -15,7 +15,7 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.TerrainIterateOperation:CommitBlock`
 
-``CommitBlock(block: `Dictionary`)`` → `Datatype.RBXScriptSignal`
+``CommitBlock(block: `Dictionary`)`` -> `Datatype.RBXScriptSignal`
 
 ## Events
 

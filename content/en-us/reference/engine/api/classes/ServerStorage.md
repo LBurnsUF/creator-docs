@@ -7,6 +7,34 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # ServerStorage
 
+A container whose contents are only accessible on the server. Objects
+descending from ServerStorage will not replicate to the client and will not be
+accessible from `Class.LocalScript|LocalScripts`.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
+
+## Description
+
+A container whose contents are only accessible on the server. Objects
+descending from ServerStorage will not replicate to the client and will not be
+accessible from `Class.LocalScript|LocalScripts`.
+
+As ServerStorage is a service it can only be accessed using the
+`Class.DataModel.GetService` method.
+
+By storing large objects such as maps in ServerStorage until they are needed,
+network traffic will not be used up transmitting these objects to the client
+when they join the game.
+
+`Class.Script|Scripts` will not run when they are parented to ServerStorage,
+although `Class.ModuleScript|ModuleScripts` contained within can be accessed
+and ran. It is recommended developers use `Class.ServerScriptService` to hold
+`Class.Script|Scripts` they wish the server to execute.
+
+Note that as the contents of ServerStorage can only be accessed by the server,
+its contents will need to be parented elsewhere (such as `Class.Workspace`)
+before clients can access them. Developers who require a container that is
+accessible by both the server and client are advised to use
+`Class.ReplicatedStorage` instead.

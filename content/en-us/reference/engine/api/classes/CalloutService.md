@@ -15,15 +15,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.CalloutService:AttachCallout`
 
-``AttachCallout(definitionId: `string`, locationId: `string`, target: `Class.Instance`)`` → `null`
+``AttachCallout(definitionId: `string`, locationId: `string`, target: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.CalloutService:DefineCallout`
 
-``DefineCallout(definitionId: `string`, title: `string`, description: `string`, learnMoreURL: `string`)`` → `null`
+``DefineCallout(definitionId: `string`, title: `string`, description: `string`, learnMoreURL: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.CalloutService:DetachCalloutsByDefinitionId`
 
-``DetachCalloutsByDefinitionId(definitionId: `string`)`` → `null`
+``DetachCalloutsByDefinitionId(definitionId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}

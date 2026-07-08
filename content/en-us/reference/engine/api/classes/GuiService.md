@@ -7,14 +7,22 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # GuiService
 
+Offers numerous properties and methods for working with
+`Class.GuiObject|GuiObjects`, player preferences, and other UI‑related tasks.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+`GuiService` offers numerous properties and methods for working with
+`Class.GuiObject|GuiObjects`, player preferences, and other UI‑related tasks.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.GuiService.AutoSelectGuiEnabled` | `bool` |  |
 | `Class.GuiService.CoreEffectFolder` | `Class.Folder` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.GuiService.CoreGuiFolder` | `Class.Folder` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -38,292 +46,292 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.GuiService:AddCenterDialog`
 
-``AddCenterDialog(dialog: `Class.Instance`, centerDialogType: `Enum.CenterDialogType`, showFunction: `Datatype.Function`, hideFunction: `Datatype.Function`)`` → `null`
+``AddCenterDialog(dialog: `Class.Instance`, centerDialogType: `Enum.CenterDialogType`, showFunction: `Datatype.Function`, hideFunction: `Datatype.Function`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:AddKey`
 
-``AddKey(key: `string`)`` → `null`
+``AddKey(key: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:AddSelectionParent`
 
-``AddSelectionParent(selectionName: `string`, selectionParent: `Class.Instance`)`` → `null`
+``AddSelectionParent(selectionName: `string`, selectionParent: `Class.Instance`)`` -> `null`
   [Deprecated]
 
 ### `Class.GuiService:AddSelectionTuple`
 
-``AddSelectionTuple(selectionName: `string`, selections: `Tuple`)`` → `null`
+``AddSelectionTuple(selectionName: `string`, selections: `Tuple`)`` -> `null`
   [Deprecated]
 
 ### `Class.GuiService:AddSpecialKey`
 
-``AddSpecialKey(key: `Enum.SpecialKey`)`` → `null`
+``AddSpecialKey(key: `Enum.SpecialKey`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:BroadcastNotification`
 
-``BroadcastNotification(data: `string`, notificationType: `int`)`` → `null`
+``BroadcastNotification(data: `string`, notificationType: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:ClearError`
 
-``ClearError()`` → `null`
+``ClearError()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:CloseInspectMenu`
 
-``CloseInspectMenu()`` → `null`
+``CloseInspectMenu()`` -> `null`
 
 ### `Class.GuiService:CloseStatsBasedOnInputString`
 
-``CloseStatsBasedOnInputString(input: `string`)`` → `bool`
+``CloseStatsBasedOnInputString(input: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:DismissNotification`
 
-``DismissNotification(notificationId: `string`)`` → `bool`
+``DismissNotification(notificationId: `string`)`` -> `bool`
 
 ### `Class.GuiService:ForceTenFootInterface`
 
-``ForceTenFootInterface(isForced: `bool`)`` → `null`
+``ForceTenFootInterface(isForced: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetBrickCount`
 
-``GetBrickCount()`` → `int`
+``GetBrickCount()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetClosestDialogToPosition`
 
-``GetClosestDialogToPosition(position: `Datatype.Vector3`)`` → `Class.Instance`
+``GetClosestDialogToPosition(position: `Datatype.Vector3`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetClosestVisibleDialogToPosition`
 
-``GetClosestVisibleDialogToPosition(position: `Datatype.Vector3`)`` → `Class.Dialog`
+``GetClosestVisibleDialogToPosition(position: `Datatype.Vector3`)`` -> `Class.Dialog`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetEmotesMenuOpen`
 
-``GetEmotesMenuOpen()`` → `bool`
+``GetEmotesMenuOpen()`` -> `bool`
 
 ### `Class.GuiService:GetErrorCode`
 
-``GetErrorCode()`` → `Enum.ConnectionError`
+``GetErrorCode()`` -> `Enum.ConnectionError`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetErrorDetails`
 
-``GetErrorDetails()`` → `Dictionary`
+``GetErrorDetails()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetErrorMessage`
 
-``GetErrorMessage()`` → `string`
+``GetErrorMessage()`` -> `string`
   [Deprecated] {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetErrorType`
 
-``GetErrorType()`` → `Enum.ConnectionError`
+``GetErrorType()`` -> `Enum.ConnectionError`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetGameplayPausedNotificationEnabled`
 
-``GetGameplayPausedNotificationEnabled()`` → `bool`
+``GetGameplayPausedNotificationEnabled()`` -> `bool`
 
 ### `Class.GuiService:GetGuiInset`
 
-``GetGuiInset()`` → `Tuple`
+``GetGuiInset()`` -> `Tuple`
 
 ### `Class.GuiService:GetGuiIsVisible`
 
-``GetGuiIsVisible(guiType: `Enum.GuiType`)`` → `bool`
+``GetGuiIsVisible(guiType: `Enum.GuiType`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetHardwareSafeViewport`
 
-``GetHardwareSafeViewport()`` → `Datatype.Vector2`
+``GetHardwareSafeViewport()`` -> `Datatype.Vector2`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetInsetArea`
 
-``GetInsetArea(screenInsets: `Enum.ScreenInsets`)`` → `Datatype.Rect`
+``GetInsetArea(screenInsets: `Enum.ScreenInsets`)`` -> `Datatype.Rect`
 
 ### `Class.GuiService:GetInspectMenuEnabled`
 
-``GetInspectMenuEnabled()`` → `bool`
+``GetInspectMenuEnabled()`` -> `bool`
 
 ### `Class.GuiService:GetNotificationTypeList`
 
-``GetNotificationTypeList()`` → `Dictionary`
+``GetNotificationTypeList()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetRawScreenScale`
 
-``GetRawScreenScale()`` → `float`
+``GetRawScreenScale()`` -> `float`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetResolutionScale`
 
-``GetResolutionScale()`` → `int`
+``GetResolutionScale()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetSafeZoneOffsets`
 
-``GetSafeZoneOffsets()`` → `Dictionary`
+``GetSafeZoneOffsets()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetScreenResolution`
 
-``GetScreenResolution()`` → `Datatype.Vector2`
+``GetScreenResolution()`` -> `Datatype.Vector2`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:GetUiMessage`
 
-``GetUiMessage()`` → `string`
+``GetUiMessage()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:InspectPlayerFromHumanoidDescription`
 
-``InspectPlayerFromHumanoidDescription(humanoidDescription: `Class.Instance`, name: `string`)`` → `null`
+``InspectPlayerFromHumanoidDescription(humanoidDescription: `Class.Instance`, name: `string`)`` -> `null`
 
 ### `Class.GuiService:InspectPlayerFromUserId`
 
-``InspectPlayerFromUserId(userId: `Datatype.User`)`` → `null`
+``InspectPlayerFromUserId(userId: `Datatype.User`)`` -> `null`
 
 ### `Class.GuiService:InspectPlayerFromUserIdWithCtx`
 
-``InspectPlayerFromUserIdWithCtx(userId: `Datatype.User`, ctx: `string`)`` → `null`
+``InspectPlayerFromUserIdWithCtx(userId: `Datatype.User`, ctx: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:IsMemoryTrackerEnabled`
 
-``IsMemoryTrackerEnabled()`` → `bool`
+``IsMemoryTrackerEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:IsTenFootInterface`
 
-``IsTenFootInterface()`` → `bool`
+``IsTenFootInterface()`` -> `bool`
 
 ### `Class.GuiService:OnNotificationDisplayed`
 
-``OnNotificationDisplayed(notificationId: `string`)`` → `null`
+``OnNotificationDisplayed(notificationId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:OnNotificationInteraction`
 
-``OnNotificationInteraction(notificationId: `string`, buttonIndex: `int`)`` → `null`
+``OnNotificationInteraction(notificationId: `string`, buttonIndex: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:OpenBrowserWindow`
 
-``OpenBrowserWindow(url: `string`)`` → `null`
+``OpenBrowserWindow(url: `string`)`` -> `null`
   [Deprecated] {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:OpenNativeOverlay`
 
-``OpenNativeOverlay(title: `string`, url: `string`)`` → `null`
+``OpenNativeOverlay(title: `string`, url: `string`)`` -> `null`
   [Deprecated] {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:RemoveCenterDialog`
 
-``RemoveCenterDialog(dialog: `Class.Instance`)`` → `null`
+``RemoveCenterDialog(dialog: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:RemoveKey`
 
-``RemoveKey(key: `string`)`` → `null`
+``RemoveKey(key: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:RemoveSelectionGroup`
 
-``RemoveSelectionGroup(selectionName: `string`)`` → `null`
+``RemoveSelectionGroup(selectionName: `string`)`` -> `null`
   [Deprecated]
 
 ### `Class.GuiService:RemoveSpecialKey`
 
-``RemoveSpecialKey(key: `Enum.SpecialKey`)`` → `null`
+``RemoveSpecialKey(key: `Enum.SpecialKey`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:Select`
 
-``Select(selectionParent: `Class.Instance`)`` → `null`
+``Select(selectionParent: `Class.Instance`)`` -> `null`
 
 ### `Class.GuiService:SendNotification`
 
-``SendNotification(notificationInfo: `Dictionary`)`` → `string`
+``SendNotification(notificationInfo: `Dictionary`)`` -> `string`
 
 ### `Class.GuiService:SendUIOcclusionMetricsForQueryRegion`
 
-``SendUIOcclusionMetricsForQueryRegion(position: `Datatype.UDim2`, size: `Datatype.UDim2`, regionName: `string`)`` → `null`
+``SendUIOcclusionMetricsForQueryRegion(position: `Datatype.UDim2`, size: `Datatype.UDim2`, regionName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:SetEmotesMenuOpen`
 
-``SetEmotesMenuOpen(isOpen: `bool`)`` → `null`
+``SetEmotesMenuOpen(isOpen: `bool`)`` -> `null`
 
 ### `Class.GuiService:SetGameplayPausedNotificationEnabled`
 
-``SetGameplayPausedNotificationEnabled(enabled: `bool`)`` → `null`
+``SetGameplayPausedNotificationEnabled(enabled: `bool`)`` -> `null`
 
 ### `Class.GuiService:SetGlobalGuiInset`
 
-``SetGlobalGuiInset(x1: `int`, y1: `int`, x2: `int`, y2: `int`)`` → `null`
+``SetGlobalGuiInset(x1: `int`, y1: `int`, x2: `int`, y2: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:SetHardwareSafeAreaInsets`
 
-``SetHardwareSafeAreaInsets(left: `float`, top: `float`, right: `float`, bottom: `float`)`` → `null`
+``SetHardwareSafeAreaInsets(left: `float`, top: `float`, right: `float`, bottom: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:SetInspectMenuEnabled`
 
-``SetInspectMenuEnabled(enabled: `bool`)`` → `null`
+``SetInspectMenuEnabled(enabled: `bool`)`` -> `null`
 
 ### `Class.GuiService:SetMenuIsOpen`
 
-``SetMenuIsOpen(open: `bool`, menuName: `string`)`` → `null`
+``SetMenuIsOpen(open: `bool`, menuName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:SetPurchasePromptIsShown`
 
-``SetPurchasePromptIsShown(isShown: `bool`)`` → `null`
+``SetPurchasePromptIsShown(isShown: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:SetSafeZoneOffsets`
 
-``SetSafeZoneOffsets(top: `float`, bottom: `float`, left: `float`, right: `float`)`` → `null`
+``SetSafeZoneOffsets(top: `float`, bottom: `float`, left: `float`, right: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:SetTopbarInset`
 
-``SetTopbarInset(topbarInset: `Datatype.Rect`)`` → `null`
+``SetTopbarInset(topbarInset: `Datatype.Rect`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:SetUiMessage`
 
-``SetUiMessage(msgType: `Enum.UiMessageType`, uiMessage: `string`)`` → `null`
+``SetUiMessage(msgType: `Enum.UiMessageType`, uiMessage: `string`)`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.GuiService:ShowStatsBasedOnInputString`
 
-``ShowStatsBasedOnInputString(input: `string`)`` → `bool`
+``ShowStatsBasedOnInputString(input: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:ToggleFullscreen`
 
-``ToggleFullscreen()`` → `null`
+``ToggleFullscreen()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:ToggleGuiIsVisibleForCaptures`
 
-``ToggleGuiIsVisibleForCaptures(guiType: `Enum.GuiType`)`` → `null`
+``ToggleGuiIsVisibleForCaptures(guiType: `Enum.GuiType`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiService:ToggleGuiIsVisibleIfAllowed`
 
-``ToggleGuiIsVisibleIfAllowed(guiType: `Enum.GuiType`)`` → `null`
+``ToggleGuiIsVisibleIfAllowed(guiType: `Enum.GuiType`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events
@@ -418,4 +426,4 @@ Fires with: (msgType: `Enum.UiMessageType`, newUiMessage: `string`)
 
 ### `Class.GuiService.SendCoreUiNotification`
 
-``SendCoreUiNotification(title: `string`, text: `string`)`` → `null`
+``SendCoreUiNotification(title: `string`, text: `string`)`` -> `null`

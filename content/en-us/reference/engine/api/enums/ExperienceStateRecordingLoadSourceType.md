@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.ExperienceStateRecordingLoadSourceType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ExperienceStateRecordingLoadSourceType.S3Url` | 0 |
-| `Enum.ExperienceStateRecordingLoadSourceType.File` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ExperienceStateRecordingLoadSourceType.S3Url` | 0 |  |
+| `Enum.ExperienceStateRecordingLoadSourceType.File` | 1 |  |

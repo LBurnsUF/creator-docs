@@ -7,63 +7,78 @@ tags: [NotCreatable, NotReplicated]
 
 # PlayerScripts
 
+A container for client-side scripts to be run inside `Class.Player` objects
+within the `Class.Players` service.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [NotReplicated]
+
+## Description
+
+`PlayerScripts` is a container object located inside `Class.Player` objects
+within the `Class.Players` service. It is created automatically when a player
+joins the game and its main purpose is to contain client scripts copied from
+the `Class.StarterPlayerScripts` container within the `Class.StarterPlayer`
+service.
+
+Unlike the `Class.Backpack` and `Class.PlayerGui` containers, the
+`PlayerScripts` container is not accessible to the server and server‑side
+`Class.Script` objects will not run when parented to `PlayerScripts`.
 
 ## Methods
 
 ### `Class.PlayerScripts:ClearComputerCameraMovementModes`
 
-``ClearComputerCameraMovementModes()`` → `null`
+``ClearComputerCameraMovementModes()`` -> `null`
 
 ### `Class.PlayerScripts:ClearComputerMovementModes`
 
-``ClearComputerMovementModes()`` → `null`
+``ClearComputerMovementModes()`` -> `null`
 
 ### `Class.PlayerScripts:ClearTouchCameraMovementModes`
 
-``ClearTouchCameraMovementModes()`` → `null`
+``ClearTouchCameraMovementModes()`` -> `null`
 
 ### `Class.PlayerScripts:ClearTouchMovementModes`
 
-``ClearTouchMovementModes()`` → `null`
+``ClearTouchMovementModes()`` -> `null`
 
 ### `Class.PlayerScripts:GetRegisteredComputerCameraMovementModes`
 
-``GetRegisteredComputerCameraMovementModes()`` → `Array`
+``GetRegisteredComputerCameraMovementModes()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlayerScripts:GetRegisteredComputerMovementModes`
 
-``GetRegisteredComputerMovementModes()`` → `Array`
+``GetRegisteredComputerMovementModes()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlayerScripts:GetRegisteredTouchCameraMovementModes`
 
-``GetRegisteredTouchCameraMovementModes()`` → `Array`
+``GetRegisteredTouchCameraMovementModes()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlayerScripts:GetRegisteredTouchMovementModes`
 
-``GetRegisteredTouchMovementModes()`` → `Array`
+``GetRegisteredTouchMovementModes()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlayerScripts:RegisterComputerCameraMovementMode`
 
-``RegisterComputerCameraMovementMode(cameraMovementMode: `Enum.ComputerCameraMovementMode`)`` → `null`
+``RegisterComputerCameraMovementMode(cameraMovementMode: `Enum.ComputerCameraMovementMode`)`` -> `null`
 
 ### `Class.PlayerScripts:RegisterComputerMovementMode`
 
-``RegisterComputerMovementMode(movementMode: `Enum.ComputerMovementMode`)`` → `null`
+``RegisterComputerMovementMode(movementMode: `Enum.ComputerMovementMode`)`` -> `null`
 
 ### `Class.PlayerScripts:RegisterTouchCameraMovementMode`
 
-``RegisterTouchCameraMovementMode(cameraMovementMode: `Enum.TouchCameraMovementMode`)`` → `null`
+``RegisterTouchCameraMovementMode(cameraMovementMode: `Enum.TouchCameraMovementMode`)`` -> `null`
 
 ### `Class.PlayerScripts:RegisterTouchMovementMode`
 
-``RegisterTouchMovementMode(movementMode: `Enum.TouchMovementMode`)`` → `null`
+``RegisterTouchMovementMode(movementMode: `Enum.TouchMovementMode`)`` -> `null`
 
 ## Events
 

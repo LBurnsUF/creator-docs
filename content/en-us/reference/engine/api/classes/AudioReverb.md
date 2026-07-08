@@ -6,12 +6,20 @@ superclass: Instance
 
 # AudioReverb
 
+Reverberates audio streams.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioReverb` reverberates audio streams, modeling the natural echoes of
+a room or enclosed space. It provides one **Input** pin and one **Output** pin
+which can be connected to/from by `Class.Wire|Wires`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioReverb.Bypass` | `bool` |  |
 | `Class.AudioReverb.DecayRatio` | `float` |  |
 | `Class.AudioReverb.DecayTime` | `float` |  |
@@ -30,19 +38,19 @@ superclass: Instance
 
 ### `Class.AudioReverb:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioReverb:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioReverb:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ### `Class.AudioReverb:Reset`
 
-``Reset()`` → `null`
+``Reset()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

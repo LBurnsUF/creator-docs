@@ -13,8 +13,8 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StudioCameraService.FocusDistance` | `float` |  {security: RobloxScriptSecurity} |
 | `Class.StudioCameraService.LockCameraSpeed` | `bool` |  {security: RobloxScriptSecurity} |
 | `Class.StudioCameraService.LoggingEnabled` | `bool` |  {security: RobloxScriptSecurity} |
@@ -23,17 +23,17 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.StudioCameraService:InFocusMode`
 
-``InFocusMode()`` → `bool`
+``InFocusMode()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioCameraService:InterpolateView`
 
-``InterpolateView(target: `Datatype.CFrame`)`` → `null`
+``InterpolateView(target: `Datatype.CFrame`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioCameraService:SetFocusLock`
 
-``SetFocusLock(value: `bool`)`` → `null`
+``SetFocusLock(value: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

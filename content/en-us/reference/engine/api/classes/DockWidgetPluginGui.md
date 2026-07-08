@@ -11,15 +11,23 @@ tags: [NotCreatable, NotReplicated]
 
 **Tags:** [NotCreatable] [NotReplicated]
 
+## Description
+
+**DockWidgetPluginGui** is a `Class.PluginGui` that displays its contents
+inside a dockable Roblox Studio window. It is used to create widgets similar
+to the built-in **Animation Editor** and **Terrain Tools**.
+
+This GUI can be created using `Class.Plugin:CreateDockWidgetPluginGuiAsync()`.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DockWidgetPluginGui.HostWidgetWasRestored` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
 ### `Class.DockWidgetPluginGui:RequestRaise`
 
-``RequestRaise()`` → `null`
+``RequestRaise()`` -> `null`
    {security: RobloxScriptSecurity}

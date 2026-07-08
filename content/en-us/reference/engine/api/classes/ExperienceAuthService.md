@@ -15,7 +15,7 @@ tags: [NotCreatable, Service]
 
 ### `Class.ExperienceAuthService:ScopeCheckUIComplete`
 
-``ScopeCheckUIComplete(guid: `string`, scopes: `Array`, result: `Enum.ScopeCheckResult`, metadata: `Dictionary`)`` → `null`
+``ScopeCheckUIComplete(guid: `string`, scopes: `Array`, result: `Enum.ScopeCheckResult`, metadata: `Dictionary`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

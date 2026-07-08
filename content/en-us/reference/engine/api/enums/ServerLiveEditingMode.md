@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.ServerLiveEditingMode` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ServerLiveEditingMode.Uninitialized` | 0 |
-| `Enum.ServerLiveEditingMode.Enabled` | 1 |
-| `Enum.ServerLiveEditingMode.Disabled` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ServerLiveEditingMode.Uninitialized` | 0 |  |
+| `Enum.ServerLiveEditingMode.Enabled` | 1 |  |
+| `Enum.ServerLiveEditingMode.Disabled` | 2 |  |

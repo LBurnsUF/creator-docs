@@ -13,8 +13,8 @@ tags: [NotCreatable]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.SurfaceGuiBase.Active` | `bool` |  |
 | `Class.SurfaceGuiBase.Adornee` | `Class.Instance` |  |
 | `Class.SurfaceGuiBase.Face` | `Enum.NormalId` |  |

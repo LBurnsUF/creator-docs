@@ -13,8 +13,8 @@ tags: [NotCreatable, Service]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Packages.IsDehydrated` | `bool` | [Hidden] {security: RobloxSecurity} |
 | `Class.Packages.ShellPackagesCount` | `int` | [Hidden] {security: RobloxSecurity} |
 | `Class.Packages.SkippedInstancesCount` | `int` | [Hidden] {security: RobloxSecurity} |

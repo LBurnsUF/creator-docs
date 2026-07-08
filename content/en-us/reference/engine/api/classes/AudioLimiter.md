@@ -6,12 +6,21 @@ superclass: Instance
 
 # AudioLimiter
 
+Limits how loud audio streams are allowed to be.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`AudioLimiter` limits how loud audio streams are allowed to be. Whenever its
+input stream exceeds a specified maximum level, the stream's volume is reduced
+for a moment. `AudioLimiter` provides a single **Input** pin, and a single
+**Output** pin that can be connected to/from by `Class.Wires`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioLimiter.Bypass` | `bool` |  |
 | `Class.AudioLimiter.Editor` | `bool` | [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.AudioLimiter.MaxLevel` | `float` |  |
@@ -21,15 +30,15 @@ superclass: Instance
 
 ### `Class.AudioLimiter:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioLimiter:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioLimiter:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ## Events
 

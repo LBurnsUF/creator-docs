@@ -6,10 +6,31 @@ superclass: Accoutrement
 
 # Accessory
 
+An item that a Character can wear.
+
 **Inherits from:** `Class.Accoutrement` > `Class.Instance` > `Class.Object`
+
+## Description
+
+The Accessory Instance is the parent Instance of all accessories (regardless
+of their specific accessory type). It typically has a child Handle with a
+child Attachment and a WrapLayer in the case of Layered Clothing.
+
+The Accessory class is the successor to the legacy Hat system. It's
+cross-compatible with both the legacy R6 character system and the new R15
+character system.
+
+If you insert an `Class.Attachment` into the Accessory's Handle with the same
+name as an `Class.Attachment` in one of the character's limbs, they connect
+and ignore properties inherited from the `Class.Accoutrement` class.
+Otherwise, the Accessory functions identically to a `Class.Hat`.
+
+Note: If there are two matching `Attachments`, the resulting `Class.Weld` is a
+child of the Accessory's Handle. This differs from the legacy behavior of Hats
+where the Weld is always a child of the Head of the character.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Accessory.AccessoryType` | `Enum.AccessoryType` |  |

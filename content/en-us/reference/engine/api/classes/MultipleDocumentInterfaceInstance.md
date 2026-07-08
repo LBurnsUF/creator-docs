@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.MultipleDocumentInterfaceInstance.FocusedDataModelSession` | `Class.DataModelSession` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Events

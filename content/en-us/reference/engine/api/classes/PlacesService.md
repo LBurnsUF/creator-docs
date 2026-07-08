@@ -15,10 +15,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.PlacesService:StartPlaySolo`
 
-``StartPlaySolo()`` → `null`
+``StartPlaySolo()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlacesService:StopPlaySolo`
 
-``StopPlaySolo()`` → `null`
+``StopPlaySolo()`` -> `null`
    {security: RobloxScriptSecurity}

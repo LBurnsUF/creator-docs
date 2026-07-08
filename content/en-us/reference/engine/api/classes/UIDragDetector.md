@@ -6,12 +6,36 @@ superclass: UIComponent
 
 # UIDragDetector
 
+Instance which facilitates and encourages interaction with UI elements in an
+experience.
+
 **Inherits from:** `Class.UIComponent` > `Class.UIBase` > `Class.Instance` > `Class.Object`
+
+## Description
+
+The `Class.UIDragDetector` instance facilitates and encourages interaction
+with 2D user interface elements in an experience, such as sliders and
+spinners. Key features include:
+
+- Place a `Class.UIDragDetector` under any `Class.GuiObject` instance to make
+  it draggable via all inputs without a single line of code.
+
+- Choose from several `Class.UIDragDetector.DragStyle|DragStyle` options,
+  define how the object responds to motion via
+  `Class.UIDragDetector.ResponseStyle|ResponseStyle`, and optionally apply
+  axis, movement limits, or drag boundaries.
+
+- Scripts can respond to manipulation of dragged objects to drive logic
+  responses, such as adjusting settings.
+
+- `Class.UIDragDetector|UIDragDetectors` work in Studio as long as you're
+  **not** using the **Select**, **Move**, **Scale**, or **Rotate** tools, nor
+  certain plugins or Studio's **UI** editor tools.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.UIDragDetector.ActivatedCursorIcon` | `Datatype.ContentId` |  |
 | `Class.UIDragDetector.ActivatedCursorIconContent` | `Datatype.Content` |  |
 | `Class.UIDragDetector.BoundingBehavior` | `Enum.UIDragDetectorBoundingBehavior` |  |
@@ -39,19 +63,19 @@ superclass: UIComponent
 
 ### `Class.UIDragDetector:AddConstraintFunction`
 
-``AddConstraintFunction(priority: `int`, function: `Datatype.Function`)`` → `Datatype.RBXScriptConnection`
+``AddConstraintFunction(priority: `int`, function: `Datatype.Function`)`` -> `Datatype.RBXScriptConnection`
 
 ### `Class.UIDragDetector:GetReferencePosition`
 
-``GetReferencePosition()`` → `Datatype.UDim2`
+``GetReferencePosition()`` -> `Datatype.UDim2`
 
 ### `Class.UIDragDetector:GetReferenceRotation`
 
-``GetReferenceRotation()`` → `float`
+``GetReferenceRotation()`` -> `float`
 
 ### `Class.UIDragDetector:SetDragStyleFunction`
 
-``SetDragStyleFunction(function: `Datatype.Function`)`` → `null`
+``SetDragStyleFunction(function: `Datatype.Function`)`` -> `null`
 
 ## Events
 

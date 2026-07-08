@@ -15,15 +15,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.PlatformCloudStorageService:GetUserDataAsync`
 
-``GetUserDataAsync(key: `string`)`` → `Dictionary`
+``GetUserDataAsync(key: `string`)`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.PlatformCloudStorageService:IsUserDataAvailable`
 
-``IsUserDataAvailable()`` → `bool`
+``IsUserDataAvailable()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlatformCloudStorageService:SetUserDataAsync`
 
-``SetUserDataAsync(key: `string`, data: `Dictionary`)`` → `null`
+``SetUserDataAsync(key: `string`, data: `Dictionary`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}

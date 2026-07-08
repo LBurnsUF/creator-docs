@@ -15,87 +15,87 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.StartPageService:generateTempUrlInContentProvider`
 
-``generateTempUrlInContentProvider(url: `string`)`` → `null`
+``generateTempUrlInContentProvider(url: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:getDaysSinceFirstUserLogin`
 
-``getDaysSinceFirstUserLogin()`` → `int`
+``getDaysSinceFirstUserLogin()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:getLocalGamesFromRegistry`
 
-``getLocalGamesFromRegistry()`` → `Array`
+``getLocalGamesFromRegistry()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:getRecentAPIGamesFromRegistry`
 
-``getRecentAPIGamesFromRegistry()`` → `Array`
+``getRecentAPIGamesFromRegistry()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:getTempUrlInContentProvider`
 
-``getTempUrlInContentProvider(url: `string`)`` → `string`
+``getTempUrlInContentProvider(url: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:isTutorialBannerClosed`
 
-``isTutorialBannerClosed()`` → `bool`
+``isTutorialBannerClosed()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:isTutorialPopupClosed`
 
-``isTutorialPopupClosed()`` → `bool`
+``isTutorialPopupClosed()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:openLink`
 
-``openLink(link: `string`)`` → `null`
+``openLink(link: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:openLocalFile`
 
-``openLocalFile(filePath: `string`)`` → `null`
+``openLocalFile(filePath: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:openPlace`
 
-``openPlace(placeId: `int64`, universeId: `int64`, launchTutorial: `bool`, shouldSkipSafetyChecks: `bool`, openAsLocalCopy: `bool`)`` → `null`
+``openPlace(placeId: `int64`, universeId: `int64`, launchTutorial: `bool`, shouldSkipSafetyChecks: `bool`, openAsLocalCopy: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:removeAPIGameFromRegistry`
 
-``removeAPIGameFromRegistry(gameId: `int64`)`` → `null`
+``removeAPIGameFromRegistry(gameId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:removeLocalFileFromRegistry`
 
-``removeLocalFileFromRegistry(fileName: `string`)`` → `null`
+``removeLocalFileFromRegistry(fileName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:setTutorialBannerClosed`
 
-``setTutorialBannerClosed(closed: `bool`)`` → `null`
+``setTutorialBannerClosed(closed: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:setTutorialPopupClosed`
 
-``setTutorialPopupClosed(closed: `bool`)`` → `null`
+``setTutorialPopupClosed(closed: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:shouldShowMacOSDeprecationWarning`
 
-``shouldShowMacOSDeprecationWarning()`` → `bool`
+``shouldShowMacOSDeprecationWarning()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:shouldShowWinOSDeprecationWarning`
 
-``shouldShowWinOSDeprecationWarning()`` → `bool`
+``shouldShowWinOSDeprecationWarning()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartPageService:startTutorial`
 
-``startTutorial()`` → `null`
+``startTutorial()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

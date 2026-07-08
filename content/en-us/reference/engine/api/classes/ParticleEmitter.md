@@ -6,12 +6,47 @@ superclass: Instance
 
 # ParticleEmitter
 
+A special object that emits customizable 2D particles into the world.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+A **ParticleEmitter** is a special object that emits customizable 2D particles
+into the world. To emit and render particles, it must be parented to a
+`Class.BasePart` or an `Class.Attachment` within such a part. When parented to
+a `Class.BasePart`, particles spawn randomly within the part's bounding box or
+[shape](../../../effects/particle-emitters.md#shape); when parented to an
+`Class.Attachment`, particles spawn from the attachment's position.
+
+Particles emit automatically when the emitter is
+`Class.ParticleEmitter.Enabled|Enabled` with a non-zero
+`Class.ParticleEmitter.Rate|Rate`, or manually when the
+`Class.ParticleEmitter:Emit()|Emit` method is called. With a non-zero
+`Class.ParticleEmitter.Speed|Speed`, particles are set in motion outwards
+and/or inwards, depending on the `Class.ParticleEmitter.ShapeInOut|ShapeInOut`
+property.
+
+By default, particles face the camera, but the
+`Class.ParticleEmitter.Orientation|Orientation` can be modified to respect the
+particle velocity instead.
+
+During the `Class.ParticleEmitter.Lifetime|Lifetime` of the particles, they
+can change appearance according to the `Class.ParticleEmitter.Color|Color` and
+`Class.ParticleEmitter.Size|Size`. Their motion can change over time according
+to the `Class.ParticleEmitter.Drag|Drag` and
+`Class.ParticleEmitter.Acceleration|Acceleration` properties, and they can
+also move as their parent moves when they are
+`Class.ParticleEmitter.LockedToPart|LockedToPart` or have a non-zero
+`Class.ParticleEmitter.VelocityInheritance|VelocityInheritance`.
+
+To learn more about creating and customizing particle emitters, see
+[Particle Emitters](../../../effects/particle-emitters.md).
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ParticleEmitter.Acceleration` | `Datatype.Vector3` |  |
 | `Class.ParticleEmitter.Brightness` | `float` |  |
 | `Class.ParticleEmitter.Color` | `Datatype.ColorSequence` |  |
@@ -56,13 +91,13 @@ superclass: Instance
 
 ### `Class.ParticleEmitter:Clear`
 
-``Clear()`` → `null`
+``Clear()`` -> `null`
 
 ### `Class.ParticleEmitter:Emit`
 
-``Emit(particleCount: `int`)`` → `null`
+``Emit(particleCount: `int`)`` -> `null`
 
 ### `Class.ParticleEmitter:FastForward`
 
-``FastForward(numFrames: `int`)`` → `null`
+``FastForward(numFrames: `int`)`` -> `null`
    {security: RobloxScriptSecurity}

@@ -7,14 +7,46 @@ tags: [NotCreatable, Service]
 
 # MaterialService
 
+The game service responsible for managing materials.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
 
+## Description
+
+MaterialService is the game service responsible for managing materials. It is
+the container for global `Class.MaterialVariant` instances.
+`Class.MaterialVariant` can be child or descendant of MaterialService. For
+each base Material type, MaterialService internally keeps a set of
+MaterialVariant references. `Class.MaterialVariant.Name` is the key to access
+it. The `Class.MaterialVariant.Name` and `Class.MaterialVariant.BaseMaterial`
+are combined to work as an identifier. If more than one MaterialVariant object
+has the same name and BaseMaterial under MaterialService, only one of them can
+be used.
+
+MaterialService has some (Material)Name properties. Assigning a
+MaterialVariant Name replaces the built-in material with the specified
+MaterialVariant. If the MaterialService can't find a matching MaterialVariant,
+it falls back to built-in material. Note BaseMaterial should also match, for
+example, a MaterialVariant with BaseMaterial Grass can only be assigned to
+MaterialService.GrassName, not AsphaltName or any other names. These
+properties are not scriptable but can read and write using
+`Class.MaterialService:GetBaseMaterialOverride()` and
+`Class.MaterialService:SetBaseMaterialOverride()` function.
+
+MaterialService has a `Class.MaterialService.Use2022Materials` property that
+switches between legacy materials and new materials introduced in year 2022.
+Because legacy and user-generated (new) terrain materials use different
+encoding, using legacy terrain materials and MaterialVariant at the same time
+has a performance penalty. If your game is using pre-2022 terrain materials,
+avoid overriding any built-in materials. Migrate to 2022 materials if
+possible.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.MaterialService.AsphaltName` | `string` | [NotScriptable] {security: RobloxSecurity} |
 | `Class.MaterialService.BasaltName` | `string` | [NotScriptable] {security: RobloxSecurity} |
 | `Class.MaterialService.BrickName` | `string` | [NotScriptable] {security: RobloxSecurity} |
@@ -61,39 +93,39 @@ tags: [NotCreatable, Service]
 
 ### `Class.MaterialService:GetBaseMaterialOverride`
 
-``GetBaseMaterialOverride(material: `Enum.Material`)`` → `string`
+``GetBaseMaterialOverride(material: `Enum.Material`)`` -> `string`
 
 ### `Class.MaterialService:GetIsMaterialActionAsToolEnabled`
 
-``GetIsMaterialActionAsToolEnabled()`` → `bool`
+``GetIsMaterialActionAsToolEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.MaterialService:GetMaterialOverrideChanged`
 
-``GetMaterialOverrideChanged(material: `Enum.Material`)`` → `Datatype.RBXScriptSignal`
+``GetMaterialOverrideChanged(material: `Enum.Material`)`` -> `Datatype.RBXScriptSignal`
    {security: RobloxScriptSecurity}
 
 ### `Class.MaterialService:GetMaterialVariant`
 
-``GetMaterialVariant(material: `Enum.Material`, name: `string`)`` → `Class.MaterialVariant`
+``GetMaterialVariant(material: `Enum.Material`, name: `string`)`` -> `Class.MaterialVariant`
 
 ### `Class.MaterialService:GetOverrideStatus`
 
-``GetOverrideStatus(material: `Enum.Material`)`` → `Enum.PropertyStatus`
+``GetOverrideStatus(material: `Enum.Material`)`` -> `Enum.PropertyStatus`
    {security: RobloxScriptSecurity}
 
 ### `Class.MaterialService:SetBaseMaterialOverride`
 
-``SetBaseMaterialOverride(material: `Enum.Material`, name: `string`)`` → `null`
+``SetBaseMaterialOverride(material: `Enum.Material`, name: `string`)`` -> `null`
 
 ### `Class.MaterialService:SetCurrentMaterial`
 
-``SetCurrentMaterial(baseMaterial: `Enum.Material`, materialVariant: `string`)`` → `null`
+``SetCurrentMaterial(baseMaterial: `Enum.Material`, materialVariant: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.MaterialService:ToggleMaterialFillToolEnabled`
 
-``ToggleMaterialFillToolEnabled()`` → `null`
+``ToggleMaterialFillToolEnabled()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

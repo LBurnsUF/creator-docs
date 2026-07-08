@@ -11,10 +11,17 @@ tags: [NotCreatable, NotReplicated]
 
 **Tags:** [NotCreatable] [NotReplicated]
 
+## Description
+
+PluginGui is an abstract class for GUIs that allow the display of
+`Class.GuiObject|GuiObjects` in various Roblox Studio widgets. As of right
+now, the only available PluginGui type is `Class.DockWidgetPluginGui`, but
+there may be more in the future!
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PluginGui.Plugin` | `Class.Plugin` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.PluginGui.Title` | `string` |  |
 
@@ -22,16 +29,16 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.PluginGui:BindToClose`
 
-``BindToClose(function: `Datatype.Function`)`` → `null`
+``BindToClose(function: `Datatype.Function`)`` -> `null`
 
 ### `Class.PluginGui:GetRelativeMousePosition`
 
-``GetRelativeMousePosition()`` → `Datatype.Vector2`
+``GetRelativeMousePosition()`` -> `Datatype.Vector2`
    {security: PluginSecurity}
 
 ### `Class.PluginGui:OverrideStudioAction`
 
-``OverrideStudioAction(studioAction: `Enum.StudioAction`)`` → `Class.StudioActionOverride`
+``OverrideStudioAction(studioAction: `Enum.StudioAction`)`` -> `Class.StudioActionOverride`
    {security: RobloxScriptSecurity}
 
 ## Events

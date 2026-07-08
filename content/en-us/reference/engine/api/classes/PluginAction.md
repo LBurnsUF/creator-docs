@@ -11,10 +11,21 @@ tags: [NotReplicated]
 
 **Tags:** [NotReplicated]
 
+## Description
+
+`PluginAction` represents a generic performable action in Studio with no
+directly‑associated `Class.PluginToolbarButton`. If
+`Class.PluginAction.AllowBinding|AllowBinding` is `true`, the action can be
+assigned a keyboard shortcut through Studio's **File**&nbsp;⟩ **Customize
+Shortcuts** window.
+
+A `PluginAction` must be created using the `Class.Plugin:CreatePluginAction()`
+method in order to work as expected.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PluginAction.ActionId` | `string` | [ReadOnly] [NotReplicated] |
 | `Class.PluginAction.AllowBinding` | `bool` | [ReadOnly] [NotReplicated] |
 | `Class.PluginAction.Checked` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |

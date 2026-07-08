@@ -15,25 +15,25 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.TelemetryService:LogCounter`
 
-``LogCounter(config: `Dictionary`, data: `Dictionary?`, value: `float`)`` → `Variant`
+``LogCounter(config: `Dictionary`, data: `Dictionary?`, value: `float`)`` -> `Variant`
    {security: RobloxScriptSecurity}
 
 ### `Class.TelemetryService:LogDurationEvent`
 
-``LogDurationEvent(key: `string`)`` → `Variant`
+``LogDurationEvent(key: `string`)`` -> `Variant`
    {security: RobloxScriptSecurity}
 
 ### `Class.TelemetryService:LogDurationEventWithTimestamp`
 
-``LogDurationEventWithTimestamp(key: `string`, timestamp: `int64`)`` → `Variant`
+``LogDurationEventWithTimestamp(key: `string`, timestamp: `int64`)`` -> `Variant`
    {security: RobloxScriptSecurity}
 
 ### `Class.TelemetryService:LogEvent`
 
-``LogEvent(config: `Dictionary`, data: `Dictionary`)`` → `Variant`
+``LogEvent(config: `Dictionary`, data: `Dictionary`)`` -> `Variant`
    {security: RobloxScriptSecurity}
 
 ### `Class.TelemetryService:LogStat`
 
-``LogStat(config: `Dictionary`, data: `Dictionary?`, value: `float`)`` → `Variant`
+``LogStat(config: `Dictionary`, data: `Dictionary?`, value: `float`)`` -> `Variant`
    {security: RobloxScriptSecurity}

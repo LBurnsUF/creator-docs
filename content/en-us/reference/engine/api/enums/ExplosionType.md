@@ -5,9 +5,12 @@ type: enum
 
 # `Enum.ExplosionType`
 
+The ExplosionType Enum is used to set the `Class.Explosion.ExplosionType`
+property.
+
 The `Enum.ExplosionType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ExplosionType.NoCraters` | 0 |
-| `Enum.ExplosionType.Craters` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ExplosionType.NoCraters` | 0 | Explosion does not generate craters. |
+| `Enum.ExplosionType.Craters` | 1 | Explosion generates craters. |

@@ -6,12 +6,20 @@ superclass: Instance
 
 # AudioFader
 
+Adjusts the volume of audio streams.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioFader` adjusts the volume of audio streams. It provides one
+**Input** pin and one **Output** pin which can be connected to/from by
+`Class.Wire|Wires`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioFader.Bypass` | `bool` |  |
 | `Class.AudioFader.Volume` | `float` |  |
 
@@ -19,15 +27,15 @@ superclass: Instance
 
 ### `Class.AudioFader:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioFader:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioFader:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ## Events
 

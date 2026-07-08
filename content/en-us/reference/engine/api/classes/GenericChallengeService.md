@@ -15,27 +15,27 @@ tags: [NotCreatable, Service]
 
 ### `Class.GenericChallengeService:SignalChallengeAbandoned`
 
-``SignalChallengeAbandoned(challengeID: `string`)`` → `null`
+``SignalChallengeAbandoned(challengeID: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GenericChallengeService:SignalChallengeCompleted`
 
-``SignalChallengeCompleted(challengeID: `string`, challengeType: `string`, challengeMetadata: `string`)`` → `null`
+``SignalChallengeCompleted(challengeID: `string`, challengeType: `string`, challengeMetadata: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GenericChallengeService:SignalChallengeInvalidated`
 
-``SignalChallengeInvalidated(challengeID: `string`)`` → `null`
+``SignalChallengeInvalidated(challengeID: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GenericChallengeService:SignalChallengeLoaded`
 
-``SignalChallengeLoaded(challengeID: `string`, success: `bool`)`` → `null`
+``SignalChallengeLoaded(challengeID: `string`, success: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.GenericChallengeService:SignalChallengeRequired`
 
-``SignalChallengeRequired(challengeID: `string`, challengeType: `string`, challengeMetadata: `string`)`` → `null`
+``SignalChallengeRequired(challengeID: `string`, challengeType: `string`, challengeMetadata: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

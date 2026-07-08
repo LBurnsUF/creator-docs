@@ -1,0 +1,190 @@
+---
+title: task
+type: library
+---
+
+# `task`
+
+Allows for functions and threads to be coordinated with the engine's
+scheduler.
+
+## Description
+
+The **task** library allows for functions and threads to be scheduled with the
+engine's scheduler.
+
+The functions available in this library generally support functions and
+threads. In most cases using a function is sufficient, but for more advanced
+cases it's recommended you familiarize yourself with the `Library.coroutine`
+library.
+
+## Functions
+
+### `task.spawn`
+
+Accepts a function or a thread (as returned by
+`Library.coroutine.create()`) and calls/resumes it immediately through the
+engine's scheduler. Arguments after the first are sent to the
+function/thread.
+
+If the calling script is currently running in a serial execution phase,
+then the spawned function or thread is resumed in the current serial
+execution phase. If the calling script is currently running in a parallel
+execution phase, then the spawned function or thread is resumed in the
+current parallel execution phase. For more information, see
+[Parallel Luau](../../../scripting/multithreading.md).
+
+**Parameters:**
+
+- `functionOrThread`: `function | thread` - A function or a thread returned by `Library.coroutine.create()`.
+- `...`: `Variant` - Arguments to send to the function or thread.
+
+**Returns:** The scheduled thread.
+
+### `task.defer`
+
+Accepts a function or a thread (as returned by
+`Library.coroutine.create()`) and defers it until the end of the current
+resume point within the current frame.
+
+This function should be used when a similar behavior to
+`Library.task.spawn()` is desirable, but the thread does not need to run
+immediately.
+
+If the calling script is currently running in a serial execution phase,
+then the deferred function or thread is resumed in a serial execution
+phase. If the calling script is currently running in a parallel execution
+phase, then the deferred function or thread is resumed in a parallel
+execution phase. For more information, see
+[Parallel Luau](../../../scripting/multithreading.md).
+
+**Parameters:**
+
+- `functionOrThread`: `function | thread` - A function or a thread returned by coroutine.create.
+- `...`: `Variant` - Arguments to send to the function or thread.
+
+**Returns:** The scheduled thread.
+
+### `task.delay`
+
+Accepts a function or a thread (as returned by
+`Library.coroutine.create()`) and schedules it to be called/resumed on the
+next `Class.RunService.Heartbeat|Heartbeat` after the given amount of time
+in seconds has elapsed. Arguments after the second are sent to the
+function/thread.
+
+This function differs from the deprecated global `delay()` function in
+that **no throttling occurs**: on the very same
+`Class.RunService.Heartbeat|Heartbeat` step in which enough time has
+passed, the function is guaranteed to be called/resumed. Providing a
+duration of zero (`0`) will guarantee that the function is called on the
+very next `Class.RunService.Heartbeat|Heartbeat`.
+
+You can calculate the actual time passed by calling `Library.os.clock()`
+upon scheduling and in the scheduled function.
+
+If the calling script is currently running in a serial execution phase,
+then the delayed function or thread is resumed in a serial execution
+phase. If the calling script is currently running in a parallel execution
+phase, then the delayed function or thread is resumed in a parallel
+execution phase. For more information, see
+[Parallel Luau](../../../scripting/multithreading.md).
+
+**Parameters:**
+
+- `duration`: `number` - The minimum number of seconds that must pass before the
+function/thread is called/resumed.
+- `functionOrThread`: `function | thread`
+- `...`: `Variant` - Arguments to be passed to the function/thread when it is due to be
+called/resumed.
+
+**Returns:** The scheduled thread.
+
+### `task.desynchronize`
+
+If the calling script is currently running in a serial execution phase,
+`desynchronize()` suspends the script and the script will be resumed in
+the next parallel execution phase. If the calling script is currently
+running in a parallel execution phase, `desynchronize()` returns
+immediately and has no effect.
+
+Only scripts which are descendants of an `Class.Actor` may call this
+method. If a script outside of an `Class.Actor` calls this method, an
+error will be raised. `Class.ModuleScript|ModuleScripts` may also call
+`desynchronize()` as long as the instantiation of the module calling it
+was required by a script that is a descendant of an `Class.Actor`.
+
+For more information, see
+[Parallel Luau](../../../scripting/multithreading.md).
+
+### `task.synchronize`
+
+If the calling script is currently running in a parallel execution phase,
+`synchronize()` suspends the script and the script will be resumed in the
+next serial execution phase. If the calling script is currently running in
+a serial execution phase, `synchronize()` returns immediately and has no
+effect.
+
+Only scripts which are descendants of an `Class.Actor` may call this
+method. If a script outside of an `Class.Actor` calls this method, an
+error will be raised. `Class.ModuleScript|ModuleScripts` may also call
+`synchronize()` as long as the instantiation of the module calling it was
+required by a script that is a descendant of an `Class.Actor`.
+
+For more information, see
+[Parallel Luau](../../../scripting/multithreading.md).
+
+### `task.wait`
+
+Yields the current thread until the given duration (in seconds) has
+elapsed, then resumes the thread on the next
+`Class.RunService.Heartbeat|Heartbeat` step. The actual amount of time
+elapsed is returned.
+
+If no duration is given, it will default to zero (`0`). This means the
+thread resumes on the very next step, which is equivalent in behavior to
+`Class.RunService.Heartbeat:Wait()`
+
+Unlike the deprecated global `wait()`, this function **does not throttle**
+and guarantees the resumption of the thread on the first Heartbeat that
+occurs when it is due. This function also only returns the elapsed time
+and nothing else.
+
+If the calling script is currently running in a serial execution phase,
+then the script is resumed in a serial execution phase. If the calling
+script is currently running in a parallel execution phase, then the script
+is resumed in a parallel execution phase. For more information, see
+[Parallel Luau](../../../scripting/multithreading.md).
+
+**Parameters:**
+
+- `duration`: `number` - The amount of time in seconds that should elapse before the current
+thread is resumed.
+
+### `task.cancel`
+
+Cancels a thread and closes it, preventing it from being resumed manually
+or by the engine's scheduler.
+
+This function can be used with other members of the **task** library that
+return a thread to cancel them before they are resumed. For example:
+
+```lua
+local thread = task.delay(5, function()
+	print("Hello world!")
+end)
+
+task.cancel(thread)
+```
+
+Note that threads may be in a state where it is impossible to cancel them.
+For example, the currently executing thread and threads that have resumed
+another coroutine may not be cancelled. If this is the case, an error will
+be generated. However, code should not rely on specific thread states or
+conditions causing `Library.task.cancel()` to fail. It is possible that
+future updates will eliminate these constraints and allow threads in these
+states to be successfully cancelled.
+
+**Parameters:**
+
+- `thread`: `thread` - The thread that will be cancelled.

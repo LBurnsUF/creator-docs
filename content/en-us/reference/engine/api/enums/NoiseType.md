@@ -7,6 +7,6 @@ type: enum
 
 The `Enum.NoiseType` enum has 1 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.NoiseType.SimplexGabor` | 0 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.NoiseType.SimplexGabor` | 0 |  |

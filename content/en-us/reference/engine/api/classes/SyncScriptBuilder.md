@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.SyncScriptBuilder.CompileTarget` | `Enum.CompileTarget` |  |
 | `Class.SyncScriptBuilder.CoverageInfo` | `bool` |  |
 | `Class.SyncScriptBuilder.DebugInfo` | `bool` |  |

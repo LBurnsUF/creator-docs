@@ -15,10 +15,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.DesignFoundationsService:ClearTokens`
 
-``ClearTokens()`` → `null`
+``ClearTokens()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DesignFoundationsService:SetTokens`
 
-``SetTokens(payload: `Dictionary`)`` → `null`
+``SetTokens(payload: `Dictionary`)`` -> `null`
    {security: RobloxScriptSecurity}

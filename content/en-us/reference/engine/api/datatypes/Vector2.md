@@ -5,9 +5,192 @@ type: datatype
 
 # `Datatype.Vector2`
 
-Used in 146 locations across the Roblox API.
+Represents a 2D value with direction and magnitude.
 
-## Used as Property Type
+## Description
+
+The `Datatype.Vector2` data type represents a 2D value with direction and
+magnitude. Some applications include GUI elements and 2D mouse positions.
+
+#### Math Operations
+
+The following math operations are valid for the `Datatype.Vector2` data type:
+
+<table>
+  <thead>
+    <tr>
+      <td>Operation</td>
+      <td>Description</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>Datatype.Vector2</code>&nbsp;<code>+</code>&nbsp;<code>Datatype.Vector2</code></td>
+      <td>Produces a <code>Datatype.Vector2</code> with each component of the second added to the corresponding component of the first.</td>
+    </tr>
+    <tr>
+      <td><code>Datatype.Vector2</code>&nbsp;<code>-</code>&nbsp;<code>Datatype.Vector2</code></td>
+      <td>Produces a <code>Datatype.Vector2</code> with each component of the second subtracted from the corresponding component of the first.</td>
+    </tr>
+    <tr>
+      <td><code>Datatype.Vector2</code>&nbsp;<code>*</code>&nbsp;<code>Datatype.Vector2</code></td>
+      <td>Produces a <code>Datatype.Vector2</code> with each component of the second multiplied by the corresponding component of the first.</td>
+    </tr>
+    <tr>
+      <td><code>Datatype.Vector2</code>&nbsp;<code>/</code>&nbsp;<code>Datatype.Vector2</code></td>
+      <td>Produces a <code>Datatype.Vector2</code> with each component of the first divided by the corresponding component of the second.</td>
+    </tr>
+    <tr>
+      <td><code>Datatype.Vector2</code>&nbsp;<code>*</code>&nbsp;<code>number</code></td>
+      <td>Produces a <code>Datatype.Vector2</code> with each component multiplied by the number.</td>
+    </tr>
+    <tr>
+      <td><code>Datatype.Vector2</code>&nbsp;<code>/</code>&nbsp;<code>number</code></td>
+      <td>Produces a <code>Datatype.Vector2</code> with each component divided by the number.</td>
+    </tr>
+  </tbody>
+</table>
+
+## Constructors
+
+### `Vector2.new`
+
+Returns a `Datatype.Vector2` from the given x and y components.
+
+**Parameters:**
+
+- `x`: `number`
+- `y`: `number`
+
+## Properties
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `Vector2.X` | `number` | The x-coordinate of the `Datatype.Vector2`. |
+| `Vector2.Y` | `number` | The y-coordinate of the `Datatype.Vector2`. |
+| `Vector2.Magnitude` | `number` | The length of the `Datatype.Vector2`. |
+| `Vector2.Unit` | `Vector2` | A normalized copy of the `Datatype.Vector2`. |
+
+## Methods
+
+### `Vector2:Cross`
+
+Returns the cross product of the two vectors.
+
+**Parameters:**
+
+- `other`: `Vector2`
+
+### `Vector2:Abs`
+
+Returns a new vector from the absolute values of the original's
+components. For example, a vector of `(-2, 4)` returns a vector of
+`(2, 4)`.
+
+### `Vector2:Ceil`
+
+Returns a new vector from the ceiling of the original's components. For
+example, a vector of `(-2.6, 5.1)` returns a vector of `(-2, 6)`.
+
+### `Vector2:Floor`
+
+Returns a new vector from the floor of the original's components. For
+example, a vector of `(-2.6, 5.1)` returns a vector of `(-3, 5)`.
+
+### `Vector2:Sign`
+
+Returns a new vector from the sign (-1, 0, or 1) of the original's
+components. For example, a vector of `(-2.6, 5.1)` returns a vector of
+`(-1, 1)`.
+
+### `Vector2:Angle`
+
+Returns the angle in radians between the two vectors. Specify `true` for
+the optional `isSigned` boolean if you want a signed angle. By default,
+the method returns the absolute value. Signed angles are a negative when
+going clockwise. Values are in the range `[0, pi]` for absolute angles and
+`[-pi, pi]` for signed angles.
+
+**Parameters:**
+
+- `other`: `Vector2`
+- `isSigned`: `boolean`
+
+### `Vector2:Dot`
+
+Returns a scalar dot product of the two vectors.
+
+**Parameters:**
+
+- `v`: `Vector2`
+
+### `Vector2:Lerp`
+
+Returns a `Datatype.Vector2` linearly interpolated between this
+`Datatype.Vector2` and the given goal by the given alpha.
+
+**Parameters:**
+
+- `v`: `Vector2`
+- `alpha`: `number`
+
+### `Vector2:Max`
+
+Returns a `Datatype.Vector2` with each component as the highest among the
+respective components of the provided `Datatype.Vector2` objects.
+
+```lua
+local a = Vector2.new(1, 2)
+local b = Vector2.new(2, 1)
+
+print(a:Max(b)) -- Vector2.new(2, 2)
+```
+
+**Parameters:**
+
+- `others...`: `Tuple`
+
+### `Vector2:Min`
+
+Returns a `Datatype.Vector2` with each component as the lowest among the
+respective components of the provided `Datatype.Vector2` objects.
+
+```lua
+local a = Vector2.new(1, 2)
+local b = Vector2.new(2, 1)
+
+print(a:Min(b)) -- Vector2.new(1, 1)
+```
+
+**Parameters:**
+
+- `others...`: `Tuple`
+
+### `Vector2:FuzzyEq`
+
+Returns `true` if the X and Y components of the other `Datatype.Vector2`
+are within epsilon units of each corresponding component of this
+`Datatype.Vector2`.
+
+**Parameters:**
+
+- `other`: `Vector2`
+- `epsilon`: `number`
+
+## Math Operations
+
+| Operation | Description |
+|-----------|-------------|
+| `Vector2` + | Produces a `Datatype.Vector2` with each component of the second added to the corresponding component |
+| `Vector2` - | Produces a `Datatype.Vector2` with each component of the second subtracted from the corresponding co |
+| `Vector2` * | Produces a `Datatype.Vector2` with each component of the second multiplied by the corresponding comp |
+| `Vector2` / | Produces a `Datatype.Vector2` with each component of the first divided by the corresponding componen |
+| `Vector2` * | Produces a `Datatype.Vector2` with each component multiplied by the number. |
+| `Vector2` / | Produces a `Datatype.Vector2` with each component divided by the number. |
+
+## API Usage (146 locations)
+
+### Used as Property Type
 
 - `Class.BillboardGui.SizeOffset`
 - `Class.Camera.ViewportSize`
@@ -51,7 +234,7 @@ Used in 146 locations across the Roblox API.
 - `Class.ScrollingFrame.MaxCanvasPosition`
 - ...and 38 more
 
-## Used as Parameter Type
+### Used as Parameter Type
 
 - `Class.BasePlayerGui:GetGuiObjectsInCircle` (parameter `position`)
 - `Class.ChannelTabsConfiguration:SetAbsolutePosition` (parameter `value`)
@@ -95,7 +278,7 @@ Used in 146 locations across the Roblox API.
 - `Class.UserInputService:TouchTapInWorld` (parameter `position`)
 - ...and 11 more
 
-## Used as Return Type
+### Used as Return Type
 
 - `Class.CaptureService:GetCaptureSizeAsync`
 - `Class.EditableMesh:GetUV`

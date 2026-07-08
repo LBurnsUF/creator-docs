@@ -7,14 +7,22 @@ tags: [NotCreatable, Service, NotReplicated, NotBrowsable]
 
 # NetworkSettings
 
+Settings related to networked engine behaviors.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated] [NotBrowsable]
 
+## Description
+
+`NetworkSettings` is a class that allows you to debug several features with
+Roblox's server/client networking. It can be found in Roblox Studio's settings
+under the **Network** tab.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.NetworkSettings.EmulatedTotalMemoryInMB` | `int` | [Hidden] [NotReplicated] {security: PluginSecurity} |
 | `Class.NetworkSettings.FreeMemoryMBytes` | `float` | [Hidden] [ReadOnly] [NotReplicated] {security: PluginSecurity} |
 | `Class.NetworkSettings.HttpProxyEnabled` | `bool` |  {write: RobloxScriptSecurity} |

@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.ActionOnAutoResumeSync` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ActionOnAutoResumeSync.DontResume` | 0 |
-| `Enum.ActionOnAutoResumeSync.KeepStudio` | 1 |
-| `Enum.ActionOnAutoResumeSync.KeepLocal` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ActionOnAutoResumeSync.DontResume` | 0 |  |
+| `Enum.ActionOnAutoResumeSync.KeepStudio` | 1 |  |
+| `Enum.ActionOnAutoResumeSync.KeepLocal` | 2 |  |

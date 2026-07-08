@@ -13,140 +13,140 @@ tags: [NotCreatable, Service, NotBrowsable]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.VoiceChatInternal.VoiceChatState` | `Enum.VoiceChatState` | [Hidden] [ReadOnly] [NotReplicated] [Deprecated] |
 
 ## Methods
 
 ### `Class.VoiceChatInternal:GetAndClearCallFailureMessage`
 
-``GetAndClearCallFailureMessage()`` → `string`
+``GetAndClearCallFailureMessage()`` -> `string`
   [Deprecated] {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatInternal:GetAudioProcessingSettings`
 
-``GetAudioProcessingSettings()`` → `Tuple`
+``GetAudioProcessingSettings()`` -> `Tuple`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:GetChannelId`
 
-``GetChannelId()`` → `string`
+``GetChannelId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatInternal:GetGroupId`
 
-``GetGroupId()`` → `string`
+``GetGroupId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatInternal:GetMicDevices`
 
-``GetMicDevices()`` → `Tuple`
+``GetMicDevices()`` -> `Tuple`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:GetParticipants`
 
-``GetParticipants()`` → `Array`
+``GetParticipants()`` -> `Array`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:GetSessionId`
 
-``GetSessionId()`` → `string`
+``GetSessionId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatInternal:GetVoiceChatApiVersion`
 
-``GetVoiceChatApiVersion()`` → `int`
+``GetVoiceChatApiVersion()`` -> `int`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:GetVoiceChatAvailable`
 
-``GetVoiceChatAvailable()`` → `int`
+``GetVoiceChatAvailable()`` -> `int`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:GetVoiceExperienceId`
 
-``GetVoiceExperienceId()`` → `string`
+``GetVoiceExperienceId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatInternal:IsContextVoiceEnabled`
 
-``IsContextVoiceEnabled()`` → `bool`
+``IsContextVoiceEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatInternal:IsPublishPaused`
 
-``IsPublishPaused()`` → `bool`
+``IsPublishPaused()`` -> `bool`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:IsSubscribePaused`
 
-``IsSubscribePaused(userId: `int64`)`` → `bool`
+``IsSubscribePaused(userId: `int64`)`` -> `bool`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:IsVoiceEnabledForUserIdAsync`
 
-``IsVoiceEnabledForUserIdAsync(userId: `int64`)`` → `bool`
+``IsVoiceEnabledForUserIdAsync(userId: `int64`)`` -> `bool`
   [Yields]
 
 ### `Class.VoiceChatInternal:JoinByGroupId`
 
-``JoinByGroupId(groupId: `string`, isMicMuted: `bool`)`` → `bool`
+``JoinByGroupId(groupId: `string`, isMicMuted: `bool`)`` -> `bool`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:JoinByGroupIdToken`
 
-``JoinByGroupIdToken(groupId: `string`, isMicMuted: `bool`, isRetry: `bool`)`` → `bool`
+``JoinByGroupIdToken(groupId: `string`, isMicMuted: `bool`, isRetry: `bool`)`` -> `bool`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:Leave`
 
-``Leave()`` → `null`
+``Leave()`` -> `null`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:LogPublisherWebRTCStats`
 
-``LogPublisherWebRTCStats()`` → `bool`
+``LogPublisherWebRTCStats()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatInternal:LogSubscriptionWebRTCStats`
 
-``LogSubscriptionWebRTCStats()`` → `bool`
+``LogSubscriptionWebRTCStats()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatInternal:PublishPause`
 
-``PublishPause(paused: `bool`)`` → `bool`
+``PublishPause(paused: `bool`)`` -> `bool`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:SetMicDevice`
 
-``SetMicDevice(micDeviceName: `string`, micDeviceGuid: `string`)`` → `null`
+``SetMicDevice(micDeviceName: `string`, micDeviceGuid: `string`)`` -> `null`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:SubscribeBlock`
 
-``SubscribeBlock(userId: `int64`)`` → `bool`
+``SubscribeBlock(userId: `int64`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatInternal:SubscribePause`
 
-``SubscribePause(userId: `int64`, paused: `bool`)`` → `bool`
+``SubscribePause(userId: `int64`, paused: `bool`)`` -> `bool`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:SubscribePauseAll`
 
-``SubscribePauseAll(paused: `bool`)`` → `bool`
+``SubscribePauseAll(paused: `bool`)`` -> `bool`
   [Deprecated]
 
 ### `Class.VoiceChatInternal:SubscribeRetry`
 
-``SubscribeRetry(userId: `int64`)`` → `bool`
+``SubscribeRetry(userId: `int64`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatInternal:SubscribeUnblock`
 
-``SubscribeUnblock(userId: `int64`)`` → `bool`
+``SubscribeUnblock(userId: `int64`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ## Events

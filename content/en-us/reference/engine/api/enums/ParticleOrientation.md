@@ -7,9 +7,9 @@ type: enum
 
 The `Enum.ParticleOrientation` enum has 4 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ParticleOrientation.FacingCamera` | 0 |
-| `Enum.ParticleOrientation.FacingCameraWorldUp` | 1 |
-| `Enum.ParticleOrientation.VelocityParallel` | 2 |
-| `Enum.ParticleOrientation.VelocityPerpendicular` | 3 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ParticleOrientation.FacingCamera` | 0 |  |
+| `Enum.ParticleOrientation.FacingCameraWorldUp` | 1 |  |
+| `Enum.ParticleOrientation.VelocityParallel` | 2 |  |
+| `Enum.ParticleOrientation.VelocityPerpendicular` | 3 |  |

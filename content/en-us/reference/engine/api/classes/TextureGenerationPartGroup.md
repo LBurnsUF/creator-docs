@@ -15,10 +15,10 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.TextureGenerationPartGroup:GetInstances`
 
-``GetInstances()`` → `Datatype.Instances`
+``GetInstances()`` -> `Datatype.Instances`
    {security: RobloxScriptSecurity}
 
 ### `Class.TextureGenerationPartGroup:GetMeshIdsHash`
 
-``GetMeshIdsHash()`` → `string`
+``GetMeshIdsHash()`` -> `string`
    {security: RobloxScriptSecurity}

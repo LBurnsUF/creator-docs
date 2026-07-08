@@ -6,12 +6,23 @@ superclass: Instance
 
 # AudioFilter
 
+Adjusts the frequency content of audio streams.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioFilter` adjusts the frequency content of audio streams. It
+provides one **Input** pin and one **Output** pin which can be connected
+to/from by `Class.Wire|Wires`. `Class.AudioFilter` uses its
+`Class.AudioFilter.FilterType|FilterType`, `Class.AudioFilter.Gain|Gain`, and
+`Class.AudioFilter.Q|Q` properties to determine what to do around a particular
+cutoff `Class.AudioFilter.Frequency|Frequency`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioFilter.Bypass` | `bool` |  |
 | `Class.AudioFilter.Editor` | `bool` | [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.AudioFilter.FilterType` | `Enum.AudioFilterType` |  |
@@ -23,19 +34,19 @@ superclass: Instance
 
 ### `Class.AudioFilter:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioFilter:GetGainAt`
 
-``GetGainAt(frequency: `float`)`` → `float`
+``GetGainAt(frequency: `float`)`` -> `float`
 
 ### `Class.AudioFilter:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioFilter:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ## Events
 

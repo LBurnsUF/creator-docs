@@ -15,7 +15,7 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.RibbonNotificationService:OnNotificationUpdateFromPlugin`
 
-``OnNotificationUpdateFromPlugin(newNotificationId: `string`, seenNotificationId: `string`)`` → `null`
+``OnNotificationUpdateFromPlugin(newNotificationId: `string`, seenNotificationId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

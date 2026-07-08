@@ -7,6 +7,6 @@ type: enum
 
 The `Enum.IntermediateMeshGenerationResult` enum has 1 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.IntermediateMeshGenerationResult.HighQualityMesh` | 0 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.IntermediateMeshGenerationResult.HighQualityMesh` | 0 |  |

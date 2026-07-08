@@ -7,111 +7,111 @@ type: enum
 
 The `Enum.ConnectionError` enum has 106 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ConnectionError.OK` | 0 |
-| `Enum.ConnectionError.Unknown` | 1 |
-| `Enum.ConnectionError.ConnectErrors` | 2 |
-| `Enum.ConnectionError.AlreadyConnected` | 3 |
-| `Enum.ConnectionError.NoFreeIncomingConnections` | 4 |
-| `Enum.ConnectionError.ConnectionBanned` | 5 |
-| `Enum.ConnectionError.InvalidPassword` | 6 |
-| `Enum.ConnectionError.IncompatibleProtocolVersion` | 7 |
-| `Enum.ConnectionError.IPRecentlyConnected` | 8 |
-| `Enum.ConnectionError.OurSystemRequiresSecurity` | 9 |
-| `Enum.ConnectionError.SecurityKeyMismatch` | 10 |
-| `Enum.ConnectionError.DisconnectErrors` | 256 |
-| `Enum.ConnectionError.DisconnectBadhash` | 257 |
-| `Enum.ConnectionError.DisconnectSecurityKeyMismatch` | 258 |
-| `Enum.ConnectionError.DisconnectProtocolMismatch` | 259 |
-| `Enum.ConnectionError.DisconnectReceivePacketError` | 260 |
-| `Enum.ConnectionError.DisconnectReceivePacketStreamError` | 261 |
-| `Enum.ConnectionError.DisconnectSendPacketError` | 262 |
-| `Enum.ConnectionError.DisconnectIllegalTeleport` | 263 |
-| `Enum.ConnectionError.DisconnectDuplicatePlayer` | 264 |
-| `Enum.ConnectionError.DisconnectDuplicateTicket` | 265 |
-| `Enum.ConnectionError.DisconnectTimeout` | 266 |
-| `Enum.ConnectionError.DisconnectLuaKick` | 267 |
-| `Enum.ConnectionError.DisconnectOnRemoteSysStats` | 268 |
-| `Enum.ConnectionError.DisconnectHashTimeout` | 269 |
-| `Enum.ConnectionError.DisconnectCloudEditKick` | 270 |
-| `Enum.ConnectionError.DisconnectPlayerless` | 271 |
-| `Enum.ConnectionError.DisconnectNewSecurityKeyMismatch` | 272 |
-| `Enum.ConnectionError.DisconnectEvicted` | 273 |
-| `Enum.ConnectionError.DisconnectDevMaintenance` | 274 |
-| `Enum.ConnectionError.DisconnectRobloxMaintenance` | 275 |
-| `Enum.ConnectionError.DisconnectRejoin` | 276 |
-| `Enum.ConnectionError.DisconnectConnectionLost` | 277 |
-| `Enum.ConnectionError.DisconnectIdle` | 278 |
-| `Enum.ConnectionError.DisconnectRaknetErrors` | 279 |
-| `Enum.ConnectionError.DisconnectWrongVersion` | 280 |
-| `Enum.ConnectionError.DisconnectBySecurityPolicy` | 281 |
-| `Enum.ConnectionError.DisconnectBlockedIP` | 282 |
-| `Enum.ConnectionError.DisconnectClientFailure` | 284 |
-| `Enum.ConnectionError.DisconnectClientRequest` | 285 |
-| `Enum.ConnectionError.DisconnectPrivateServerKickout` | 286 |
-| `Enum.ConnectionError.DisconnectModeratedGame` | 287 |
-| `Enum.ConnectionError.ServerShutdown` | 288 |
-| `Enum.ConnectionError.ReplicatorTimeout` | 290 |
-| `Enum.ConnectionError.PlayerRemoved` | 291 |
-| `Enum.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave` | 292 |
-| `Enum.ConnectionError.DisconnectRomarkEndOfTest` | 293 |
-| `Enum.ConnectionError.DisconnectCollaboratorPermissionRevoked` | 294 |
-| `Enum.ConnectionError.DisconnectCollaboratorUnderage` | 295 |
-| `Enum.ConnectionError.NetworkInternal` | 296 |
-| `Enum.ConnectionError.NetworkSend` | 297 |
-| `Enum.ConnectionError.NetworkTimeout` | 298 |
-| `Enum.ConnectionError.NetworkMisbehavior` | 299 |
-| `Enum.ConnectionError.NetworkSecurity` | 300 |
-| `Enum.ConnectionError.ReplacementReady` | 301 |
-| `Enum.ConnectionError.ServerEmpty` | 302 |
-| `Enum.ConnectionError.PhantomFreeze` | 303 |
-| `Enum.ConnectionError.AndroidAnticheatKick` | 304 |
-| `Enum.ConnectionError.AndroidEmulatorKick` | 305 |
-| `Enum.ConnectionError.AndroidRootedKick` | 306 |
-| `Enum.ConnectionError.ScreentimeLockoutKick` | 307 |
-| `Enum.ConnectionError.DisconnectionNotification` | 308 |
-| `Enum.ConnectionError.DisconnectVerboselyModeratedGame` | 309 |
-| `Enum.ConnectionError.DisconnectCollaboratorNotAgeVerified` | 310 |
-| `Enum.ConnectionError.DisconnectCollaboratorTrustedConnectionsRequired` | 311 |
-| `Enum.ConnectionError.DisconnectCollaboratorOwnerActionRequired` | 312 |
-| `Enum.ConnectionError.DisconnectCollaboratorTooManyCollaborators` | 313 |
-| `Enum.ConnectionError.DisconnectCollaboratorUnknownError` | 314 |
-| `Enum.ConnectionError.DisconnectCollaboratorRequestedEviction` | 315 |
-| `Enum.ConnectionError.DisconnectCollaboratorTrustedConnectionsRequiredPC` | 316 |
-| `Enum.ConnectionError.DisconnectRemoteAttestationUnsupported` | 317 |
-| `Enum.ConnectionError.DisconnectRemoteAttestationGeneralFailure` | 318 |
-| `Enum.ConnectionError.DisconnectRemoteAttestationTimeout` | 319 |
-| `Enum.ConnectionError.DisconnectRemoteAttestationOSOutOfDate` | 320 |
-| `Enum.ConnectionError.DisconnectRemoteAttestationBootValidationFailure` | 321 |
-| `Enum.ConnectionError.PlacelaunchErrors` | 512 |
-| `Enum.ConnectionError.PlacelaunchDisabled` | 515 |
-| `Enum.ConnectionError.PlacelaunchError` | 516 |
-| `Enum.ConnectionError.PlacelaunchGameEnded` | 517 |
-| `Enum.ConnectionError.PlacelaunchGameFull` | 518 |
-| `Enum.ConnectionError.PlacelaunchUserLeft` | 522 |
-| `Enum.ConnectionError.PlacelaunchRestricted` | 523 |
-| `Enum.ConnectionError.PlacelaunchUnauthorized` | 524 |
-| `Enum.ConnectionError.PlacelaunchFlooded` | 525 |
-| `Enum.ConnectionError.PlacelaunchHashExpired` | 526 |
-| `Enum.ConnectionError.PlacelaunchHashException` | 527 |
-| `Enum.ConnectionError.PlacelaunchPartyCannotFit` | 528 |
-| `Enum.ConnectionError.PlacelaunchHttpError` | 529 |
-| `Enum.ConnectionError.PlacelaunchUserPrivacyUnauthorized` | 533 |
-| `Enum.ConnectionError.PlacelaunchVipOwnerNotPresent` | 541 |
-| `Enum.ConnectionError.PlacelaunchAgeVerificationRequired` | 542 |
-| `Enum.ConnectionError.PlacelaunchParentalApprovalRequired` | 543 |
-| `Enum.ConnectionError.PlacelaunchCoreGated` | 544 |
-| `Enum.ConnectionError.PlacelaunchCollaborationCoreGated` | 545 |
-| `Enum.ConnectionError.PlacelaunchCreatorBan` | 600 |
-| `Enum.ConnectionError.PlacelaunchDeviceBlock` | 601 |
-| `Enum.ConnectionError.PlacelaunchCustomMessage` | 610 |
-| `Enum.ConnectionError.PlacelaunchOtherError` | 611 |
-| `Enum.ConnectionError.TeleportErrors` | 768 |
-| `Enum.ConnectionError.TeleportFailure` | 769 |
-| `Enum.ConnectionError.TeleportGameNotFound` | 770 |
-| `Enum.ConnectionError.TeleportGameEnded` | 771 |
-| `Enum.ConnectionError.TeleportGameFull` | 772 |
-| `Enum.ConnectionError.TeleportUnauthorized` | 773 |
-| `Enum.ConnectionError.TeleportFlooded` | 774 |
-| `Enum.ConnectionError.TeleportIsTeleporting` | 775 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ConnectionError.OK` | 0 |  |
+| `Enum.ConnectionError.Unknown` | 1 |  |
+| `Enum.ConnectionError.ConnectErrors` | 2 |  |
+| `Enum.ConnectionError.AlreadyConnected` | 3 |  |
+| `Enum.ConnectionError.NoFreeIncomingConnections` | 4 |  |
+| `Enum.ConnectionError.ConnectionBanned` | 5 |  |
+| `Enum.ConnectionError.InvalidPassword` | 6 |  |
+| `Enum.ConnectionError.IncompatibleProtocolVersion` | 7 |  |
+| `Enum.ConnectionError.IPRecentlyConnected` | 8 |  |
+| `Enum.ConnectionError.OurSystemRequiresSecurity` | 9 |  |
+| `Enum.ConnectionError.SecurityKeyMismatch` | 10 |  |
+| `Enum.ConnectionError.DisconnectErrors` | 256 |  |
+| `Enum.ConnectionError.DisconnectBadhash` | 257 |  |
+| `Enum.ConnectionError.DisconnectSecurityKeyMismatch` | 258 |  |
+| `Enum.ConnectionError.DisconnectProtocolMismatch` | 259 |  |
+| `Enum.ConnectionError.DisconnectReceivePacketError` | 260 |  |
+| `Enum.ConnectionError.DisconnectReceivePacketStreamError` | 261 |  |
+| `Enum.ConnectionError.DisconnectSendPacketError` | 262 |  |
+| `Enum.ConnectionError.DisconnectIllegalTeleport` | 263 |  |
+| `Enum.ConnectionError.DisconnectDuplicatePlayer` | 264 |  |
+| `Enum.ConnectionError.DisconnectDuplicateTicket` | 265 |  |
+| `Enum.ConnectionError.DisconnectTimeout` | 266 |  |
+| `Enum.ConnectionError.DisconnectLuaKick` | 267 |  |
+| `Enum.ConnectionError.DisconnectOnRemoteSysStats` | 268 |  |
+| `Enum.ConnectionError.DisconnectHashTimeout` | 269 |  |
+| `Enum.ConnectionError.DisconnectCloudEditKick` | 270 |  |
+| `Enum.ConnectionError.DisconnectPlayerless` | 271 |  |
+| `Enum.ConnectionError.DisconnectNewSecurityKeyMismatch` | 272 |  |
+| `Enum.ConnectionError.DisconnectEvicted` | 273 |  |
+| `Enum.ConnectionError.DisconnectDevMaintenance` | 274 |  |
+| `Enum.ConnectionError.DisconnectRobloxMaintenance` | 275 |  |
+| `Enum.ConnectionError.DisconnectRejoin` | 276 |  |
+| `Enum.ConnectionError.DisconnectConnectionLost` | 277 |  |
+| `Enum.ConnectionError.DisconnectIdle` | 278 |  |
+| `Enum.ConnectionError.DisconnectRaknetErrors` | 279 |  |
+| `Enum.ConnectionError.DisconnectWrongVersion` | 280 |  |
+| `Enum.ConnectionError.DisconnectBySecurityPolicy` | 281 |  |
+| `Enum.ConnectionError.DisconnectBlockedIP` | 282 |  |
+| `Enum.ConnectionError.DisconnectClientFailure` | 284 |  |
+| `Enum.ConnectionError.DisconnectClientRequest` | 285 |  |
+| `Enum.ConnectionError.DisconnectPrivateServerKickout` | 286 |  |
+| `Enum.ConnectionError.DisconnectModeratedGame` | 287 |  |
+| `Enum.ConnectionError.ServerShutdown` | 288 |  |
+| `Enum.ConnectionError.ReplicatorTimeout` | 290 |  |
+| `Enum.ConnectionError.PlayerRemoved` | 291 |  |
+| `Enum.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave` | 292 |  |
+| `Enum.ConnectionError.DisconnectRomarkEndOfTest` | 293 |  |
+| `Enum.ConnectionError.DisconnectCollaboratorPermissionRevoked` | 294 |  |
+| `Enum.ConnectionError.DisconnectCollaboratorUnderage` | 295 |  |
+| `Enum.ConnectionError.NetworkInternal` | 296 |  |
+| `Enum.ConnectionError.NetworkSend` | 297 |  |
+| `Enum.ConnectionError.NetworkTimeout` | 298 |  |
+| `Enum.ConnectionError.NetworkMisbehavior` | 299 |  |
+| `Enum.ConnectionError.NetworkSecurity` | 300 |  |
+| `Enum.ConnectionError.ReplacementReady` | 301 |  |
+| `Enum.ConnectionError.ServerEmpty` | 302 |  |
+| `Enum.ConnectionError.PhantomFreeze` | 303 |  |
+| `Enum.ConnectionError.AndroidAnticheatKick` | 304 |  |
+| `Enum.ConnectionError.AndroidEmulatorKick` | 305 |  |
+| `Enum.ConnectionError.AndroidRootedKick` | 306 |  |
+| `Enum.ConnectionError.ScreentimeLockoutKick` | 307 |  |
+| `Enum.ConnectionError.DisconnectionNotification` | 308 |  |
+| `Enum.ConnectionError.DisconnectVerboselyModeratedGame` | 309 |  |
+| `Enum.ConnectionError.DisconnectCollaboratorNotAgeVerified` | 310 |  |
+| `Enum.ConnectionError.DisconnectCollaboratorTrustedConnectionsRequired` | 311 |  |
+| `Enum.ConnectionError.DisconnectCollaboratorOwnerActionRequired` | 312 |  |
+| `Enum.ConnectionError.DisconnectCollaboratorTooManyCollaborators` | 313 |  |
+| `Enum.ConnectionError.DisconnectCollaboratorUnknownError` | 314 |  |
+| `Enum.ConnectionError.DisconnectCollaboratorRequestedEviction` | 315 |  |
+| `Enum.ConnectionError.DisconnectCollaboratorTrustedConnectionsRequiredPC` | 316 |  |
+| `Enum.ConnectionError.DisconnectRemoteAttestationUnsupported` | 317 |  |
+| `Enum.ConnectionError.DisconnectRemoteAttestationGeneralFailure` | 318 |  |
+| `Enum.ConnectionError.DisconnectRemoteAttestationTimeout` | 319 |  |
+| `Enum.ConnectionError.DisconnectRemoteAttestationOSOutOfDate` | 320 |  |
+| `Enum.ConnectionError.DisconnectRemoteAttestationBootValidationFailure` | 321 |  |
+| `Enum.ConnectionError.PlacelaunchErrors` | 512 |  |
+| `Enum.ConnectionError.PlacelaunchDisabled` | 515 |  |
+| `Enum.ConnectionError.PlacelaunchError` | 516 |  |
+| `Enum.ConnectionError.PlacelaunchGameEnded` | 517 |  |
+| `Enum.ConnectionError.PlacelaunchGameFull` | 518 |  |
+| `Enum.ConnectionError.PlacelaunchUserLeft` | 522 |  |
+| `Enum.ConnectionError.PlacelaunchRestricted` | 523 |  |
+| `Enum.ConnectionError.PlacelaunchUnauthorized` | 524 |  |
+| `Enum.ConnectionError.PlacelaunchFlooded` | 525 |  |
+| `Enum.ConnectionError.PlacelaunchHashExpired` | 526 |  |
+| `Enum.ConnectionError.PlacelaunchHashException` | 527 |  |
+| `Enum.ConnectionError.PlacelaunchPartyCannotFit` | 528 |  |
+| `Enum.ConnectionError.PlacelaunchHttpError` | 529 |  |
+| `Enum.ConnectionError.PlacelaunchUserPrivacyUnauthorized` | 533 |  |
+| `Enum.ConnectionError.PlacelaunchVipOwnerNotPresent` | 541 |  |
+| `Enum.ConnectionError.PlacelaunchAgeVerificationRequired` | 542 |  |
+| `Enum.ConnectionError.PlacelaunchParentalApprovalRequired` | 543 |  |
+| `Enum.ConnectionError.PlacelaunchCoreGated` | 544 |  |
+| `Enum.ConnectionError.PlacelaunchCollaborationCoreGated` | 545 |  |
+| `Enum.ConnectionError.PlacelaunchCreatorBan` | 600 |  |
+| `Enum.ConnectionError.PlacelaunchDeviceBlock` | 601 |  |
+| `Enum.ConnectionError.PlacelaunchCustomMessage` | 610 |  |
+| `Enum.ConnectionError.PlacelaunchOtherError` | 611 |  |
+| `Enum.ConnectionError.TeleportErrors` | 768 |  |
+| `Enum.ConnectionError.TeleportFailure` | 769 |  |
+| `Enum.ConnectionError.TeleportGameNotFound` | 770 |  |
+| `Enum.ConnectionError.TeleportGameEnded` | 771 |  |
+| `Enum.ConnectionError.TeleportGameFull` | 772 |  |
+| `Enum.ConnectionError.TeleportUnauthorized` | 773 |  |
+| `Enum.ConnectionError.TeleportFlooded` | 774 |  |
+| `Enum.ConnectionError.TeleportIsTeleporting` | 775 |  |

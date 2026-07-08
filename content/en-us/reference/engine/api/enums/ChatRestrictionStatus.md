@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.ChatRestrictionStatus` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ChatRestrictionStatus.Unknown` | 0 |
-| `Enum.ChatRestrictionStatus.NotRestricted` | 1 |
-| `Enum.ChatRestrictionStatus.Restricted` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ChatRestrictionStatus.Unknown` | 0 |  |
+| `Enum.ChatRestrictionStatus.NotRestricted` | 1 |  |
+| `Enum.ChatRestrictionStatus.Restricted` | 2 |  |

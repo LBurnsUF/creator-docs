@@ -15,47 +15,47 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.BrowserService:CloseBrowserWindow`
 
-``CloseBrowserWindow()`` → `null`
+``CloseBrowserWindow()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.BrowserService:CopyAuthCookieFromBrowserToEngine`
 
-``CopyAuthCookieFromBrowserToEngine()`` → `null`
+``CopyAuthCookieFromBrowserToEngine()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.BrowserService:EmitHybridEvent`
 
-``EmitHybridEvent(moduleName: `string`, eventName: `string`, params: `string`)`` → `null`
+``EmitHybridEvent(moduleName: `string`, eventName: `string`, params: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.BrowserService:ExecuteJavaScript`
 
-``ExecuteJavaScript(javascript: `string`)`` → `null`
+``ExecuteJavaScript(javascript: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.BrowserService:OpenBrowserWindow`
 
-``OpenBrowserWindow(url: `string`)`` → `null`
+``OpenBrowserWindow(url: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.BrowserService:OpenNativeOverlay`
 
-``OpenNativeOverlay(title: `string`, url: `string`)`` → `null`
+``OpenNativeOverlay(title: `string`, url: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.BrowserService:OpenWeChatAuthWindow`
 
-``OpenWeChatAuthWindow()`` → `null`
+``OpenWeChatAuthWindow()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.BrowserService:ReturnToJavaScript`
 
-``ReturnToJavaScript(callbackId: `string`, success: `bool`, params: `string`)`` → `null`
+``ReturnToJavaScript(callbackId: `string`, success: `bool`, params: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.BrowserService:SendCommand`
 
-``SendCommand(command: `string`)`` → `null`
+``SendCommand(command: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

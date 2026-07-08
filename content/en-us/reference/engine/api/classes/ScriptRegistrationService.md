@@ -15,5 +15,5 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.ScriptRegistrationService:GetSourceContainerByScriptGuid`
 
-``GetSourceContainerByScriptGuid(guid: `string`)`` → `Class.LuaSourceContainer`
+``GetSourceContainerByScriptGuid(guid: `string`)`` -> `Class.LuaSourceContainer`
    {security: RobloxScriptSecurity}

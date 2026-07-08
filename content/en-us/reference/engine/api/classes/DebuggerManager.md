@@ -13,42 +13,42 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DebuggerManager.DebuggingEnabled` | `bool` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
 ### `Class.DebuggerManager:AddDebugger`
 
-``AddDebugger(script: `Class.Instance`)`` → `Class.Instance`
+``AddDebugger(script: `Class.Instance`)`` -> `Class.Instance`
 
 ### `Class.DebuggerManager:EnableDebugging`
 
-``EnableDebugging()`` → `null`
+``EnableDebugging()`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.DebuggerManager:GetDebuggers`
 
-``GetDebuggers()`` → `Datatype.Instances`
+``GetDebuggers()`` -> `Datatype.Instances`
 
 ### `Class.DebuggerManager:Resume`
 
-``Resume()`` → `null`
+``Resume()`` -> `null`
 
 ### `Class.DebuggerManager:StepIn`
 
-``StepIn()`` → `null`
+``StepIn()`` -> `null`
   [Deprecated]
 
 ### `Class.DebuggerManager:StepOut`
 
-``StepOut()`` → `null`
+``StepOut()`` -> `null`
   [Deprecated]
 
 ### `Class.DebuggerManager:StepOver`
 
-``StepOver()`` → `null`
+``StepOver()`` -> `null`
   [Deprecated]
 
 ## Events

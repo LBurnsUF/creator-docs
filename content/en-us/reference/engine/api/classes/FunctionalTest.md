@@ -11,30 +11,33 @@ tags: [Deprecated]
 
 **Tags:** [Deprecated]
 
+> **Deprecated:** FunctionalTest has been deprecated, developers are advised to use
+`Class.TestService` instead.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.FunctionalTest.Description` | `string` |  |
 
 ## Methods
 
 ### `Class.FunctionalTest:Error`
 
-``Error(message: `string`)`` → `null`
+``Error(message: `string`)`` -> `null`
 
 ### `Class.FunctionalTest:Failed`
 
-``Failed(message: `string`)`` → `null`
+``Failed(message: `string`)`` -> `null`
 
 ### `Class.FunctionalTest:Pass`
 
-``Pass(message: `string`)`` → `null`
+``Pass(message: `string`)`` -> `null`
 
 ### `Class.FunctionalTest:Passed`
 
-``Passed(message: `string`)`` → `null`
+``Passed(message: `string`)`` -> `null`
 
 ### `Class.FunctionalTest:Warn`
 
-``Warn(message: `string`)`` → `null`
+``Warn(message: `string`)`` -> `null`

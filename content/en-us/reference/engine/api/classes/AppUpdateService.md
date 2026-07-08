@@ -15,25 +15,25 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AppUpdateService:CanPerformBinaryUpdate`
 
-``CanPerformBinaryUpdate()`` → `bool`
+``CanPerformBinaryUpdate()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AppUpdateService:CheckForUpdate`
 
-``CheckForUpdate(handler: `Datatype.Function`)`` → `null`
+``CheckForUpdate(handler: `Datatype.Function`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AppUpdateService:GetProtocolLaunchUpdateName`
 
-``GetProtocolLaunchUpdateName()`` → `string`
+``GetProtocolLaunchUpdateName()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.AppUpdateService:GetProtocolLaunchUpdateType`
 
-``GetProtocolLaunchUpdateType()`` → `string`
+``GetProtocolLaunchUpdateType()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.AppUpdateService:PerformManagedUpdate`
 
-``PerformManagedUpdate()`` → `bool`
+``PerformManagedUpdate()`` -> `bool`
    {security: RobloxScriptSecurity}

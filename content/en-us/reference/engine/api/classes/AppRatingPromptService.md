@@ -15,12 +15,12 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AppRatingPromptService:isAppRatingPromptAvailable`
 
-``isAppRatingPromptAvailable()`` → `bool`
+``isAppRatingPromptAvailable()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AppRatingPromptService:showAppRatingPrompt`
 
-``showAppRatingPrompt()`` → `null`
+``showAppRatingPrompt()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

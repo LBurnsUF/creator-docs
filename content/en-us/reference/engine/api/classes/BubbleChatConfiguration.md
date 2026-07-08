@@ -7,14 +7,21 @@ tags: [NotCreatable]
 
 # BubbleChatConfiguration
 
+Allows for customization of text chat bubbles through `Class.TextChatService`.
+
 **Inherits from:** `Class.TextChatConfigurations` > `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable]
 
+## Description
+
+Allows for customization of text chat bubbles through `Class.TextChatService`.
+See [Bubble Chat](../../../chat/bubble-chat.md) for implementation details.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.BubbleChatConfiguration.AdorneeName` | `string` |  |
 | `Class.BubbleChatConfiguration.BackgroundColor3` | `Datatype.Color3` |  |
 | `Class.BubbleChatConfiguration.BackgroundTransparency` | `double` |  |

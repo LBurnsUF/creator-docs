@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AvatarAnimationRules.AnimationClipsMode` | `Enum.AvatarSettingsAnimationClipsMode` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarAnimationRules.AnimationPacksMode` | `Enum.AvatarSettingsAnimationPacksMode` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarAnimationRules.CustomClimbAnimationEnabled` | `bool` |  {security: RobloxScriptSecurity} |

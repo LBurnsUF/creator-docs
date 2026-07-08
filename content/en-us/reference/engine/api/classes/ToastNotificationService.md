@@ -15,10 +15,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.ToastNotificationService:HideNotification`
 
-``HideNotification(notificationId: `string`)`` → `null`
+``HideNotification(notificationId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ToastNotificationService:ShowNotification`
 
-``ShowNotification(message: `string`, notificationId: `string`)`` → `null`
+``ShowNotification(message: `string`, notificationId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}

@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.HandlesStyle` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.HandlesStyle.Resize` | 0 |
-| `Enum.HandlesStyle.Movement` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.HandlesStyle.Resize` | 0 |  |
+| `Enum.HandlesStyle.Movement` | 1 |  |

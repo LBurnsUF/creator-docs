@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.ExperienceStateCaptureSelectionMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ExperienceStateCaptureSelectionMode.Default` | 0 |
-| `Enum.ExperienceStateCaptureSelectionMode.SafetyHighlightMode` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ExperienceStateCaptureSelectionMode.Default` | 0 |  |
+| `Enum.ExperienceStateCaptureSelectionMode.SafetyHighlightMode` | 1 |  |

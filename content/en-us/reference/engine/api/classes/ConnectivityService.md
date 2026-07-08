@@ -13,13 +13,13 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ConnectivityService.NetworkStatus` | `Enum.NetworkStatus` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
 ### `Class.ConnectivityService:IsNetworkStateAvailable`
 
-``IsNetworkStateAvailable()`` → `bool`
+``IsNetworkStateAvailable()`` -> `bool`
    {security: RobloxScriptSecurity}

@@ -15,5 +15,5 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.LanguageService:GetCapabilitiesUsedInPackageAsync`
 
-``GetCapabilitiesUsedInPackageAsync(instances: `Datatype.Instances`)`` → `Dictionary`
+``GetCapabilitiesUsedInPackageAsync(instances: `Datatype.Instances`)`` -> `Dictionary`
   [Yields]

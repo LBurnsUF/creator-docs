@@ -15,12 +15,12 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.BulkImportService:LaunchBulkImport`
 
-``LaunchBulkImport(assetTypeToImport: `int`)`` → `null`
+``LaunchBulkImport(assetTypeToImport: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.BulkImportService:ShowBulkImportView`
 
-``ShowBulkImportView()`` → `null`
+``ShowBulkImportView()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

@@ -15,10 +15,10 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.FacialAnimationStreamingServiceStats:Get`
 
-``Get(label: `string`)`` → `int64`
+``Get(label: `string`)`` -> `int64`
    {security: RobloxScriptSecurity}
 
 ### `Class.FacialAnimationStreamingServiceStats:GetWithPlayerId`
 
-``GetWithPlayerId(label: `string`, playerId: `int64`)`` → `int64`
+``GetWithPlayerId(label: `string`, playerId: `int64`)`` -> `int64`
    {security: RobloxScriptSecurity}

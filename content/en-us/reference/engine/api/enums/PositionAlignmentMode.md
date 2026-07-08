@@ -5,9 +5,15 @@ type: enum
 
 # `Enum.PositionAlignmentMode`
 
+The PositionAlignmentMode Enum is used to select the number of
+`Class.Attachment|Attachments` used in an alignment.
+
+The PositionAlignmentMode Enum is used to select the number of
+`Class.Attachment|Attachments` used in an alignment.
+
 The `Enum.PositionAlignmentMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.PositionAlignmentMode.OneAttachment` | 0 |
-| `Enum.PositionAlignmentMode.TwoAttachment` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.PositionAlignmentMode.OneAttachment` | 0 | Use one attachment. |
+| `Enum.PositionAlignmentMode.TwoAttachment` | 1 | Use two attachments. |

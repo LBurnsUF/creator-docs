@@ -13,8 +13,8 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.CoreGuiConfiguration.CapturesViewConfiguration` | `Class.CapturesViewConfiguration` |  |
 | `Class.CoreGuiConfiguration.PlayerListConfiguration` | `Class.PlayerListConfiguration` |  |
 | `Class.CoreGuiConfiguration.SelfViewConfiguration` | `Class.SelfViewConfiguration` |  |

@@ -11,19 +11,24 @@ tags: [NotCreatable, NotReplicated]
 
 **Tags:** [NotCreatable] [NotReplicated]
 
+## Description
+
+Represents the result of a call to `Class.TextService:FilterStringAsync()`.
+Used to distribute a filtered string accordingly.
+
 ## Methods
 
 ### `Class.TextFilterResult:GetChatForUserAsync`
 
-``GetChatForUserAsync(toUserId: `int64`)`` → `string`
+``GetChatForUserAsync(toUserId: `int64`)`` -> `string`
   [Yields] [Deprecated]
 
 ### `Class.TextFilterResult:GetNonChatStringForBroadcastAsync`
 
-``GetNonChatStringForBroadcastAsync()`` → `string`
+``GetNonChatStringForBroadcastAsync()`` -> `string`
   [Yields]
 
 ### `Class.TextFilterResult:GetNonChatStringForUserAsync`
 
-``GetNonChatStringForUserAsync(toUserId: `int64`)`` → `string`
+``GetNonChatStringForUserAsync(toUserId: `int64`)`` -> `string`
   [Yields]

@@ -6,12 +6,23 @@ superclass: Instance
 
 # Dialog
 
+Creates NPC billboard-style dialog bubbles.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+The Dialog object allows users to create non-player characters (NPCs) that
+players can talk to using a list of choices. The Dialog object can be inserted
+into a part such as a Humanoid's head, and then a player will see a speech
+bubble above the part that they can click on to start a conversation. The
+creator of a place can choose what choices the player can say by inserting
+`Class.DialogChoice` objects into the dialog.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Dialog.BehaviorType` | `Enum.DialogBehaviorType` |  |
 | `Class.Dialog.ConversationDistance` | `float` |  |
 | `Class.Dialog.GoodbyeChoiceActive` | `bool` |  |
@@ -27,21 +38,21 @@ superclass: Instance
 
 ### `Class.Dialog:GetCurrentPlayers`
 
-``GetCurrentPlayers()`` → `Datatype.Instances`
+``GetCurrentPlayers()`` -> `Datatype.Instances`
 
 ### `Class.Dialog:SetGuiObject`
 
-``SetGuiObject(gui: `Class.BillboardGui`)`` → `null`
+``SetGuiObject(gui: `Class.BillboardGui`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Dialog:SetPlayerIsUsing`
 
-``SetPlayerIsUsing(player: `Class.Instance`, isUsing: `bool`)`` → `null`
+``SetPlayerIsUsing(player: `Class.Instance`, isUsing: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Dialog:SignalDialogChoiceSelected`
 
-``SignalDialogChoiceSelected(player: `Class.Instance`, dialogChoice: `Class.Instance`)`` → `null`
+``SignalDialogChoiceSelected(player: `Class.Instance`, dialogChoice: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

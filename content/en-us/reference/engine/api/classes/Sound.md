@@ -6,12 +6,33 @@ superclass: Instance
 
 # Sound
 
+An object that emits sound. This object can be placed within a
+`Class.BasePart` or `Class.Attachment` to emit a sound from a particular
+position within a place or world, or it can be attached elsewhere to play the
+sound at a constant volume throughout the entire place.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.Sound` is an object that emits sound. When placed in a `Class.BasePart`
+or an `Class.Attachment`, this object will emit its sound from that part's
+`Class.BasePart.Position` or the attachment's
+`Class.Attachment.WorldPosition`. In this placement, a `Class.Sound` exhibits
+the Doppler effect, meaning its frequency and pitch varies with the relative
+motion of whatever attachment or part it is attached to. Additionally, its
+volume will be determined by the distance between the client's sound listener
+(by default the `Class.Camera` position) and the position of the sound's
+parent. For more information, see `Class.Sound.RollOffMode|RollOffMode`.
+
+A sound is considered "global" if it is **not** parented to a `Class.BasePart`
+or an `Class.Attachment`. In this case, the sound will play at the same volume
+throughout the entire place.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Sound.AcousticSimulationEnabled` | `bool` |  |
 | `Class.Sound.AssetRepresentation` | `Enum.AssetRepresentation` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.Sound.AudioContent` | `Datatype.Content` | [Hidden] |
@@ -48,38 +69,38 @@ superclass: Instance
 
 ### `Class.Sound:GetUnderlyingAudioPlayer`
 
-``GetUnderlyingAudioPlayer()`` → `Class.AudioPlayer`
+``GetUnderlyingAudioPlayer()`` -> `Class.AudioPlayer`
    {security: RobloxScriptSecurity}
 
 ### `Class.Sound:Pause`
 
-``Pause()`` → `null`
+``Pause()`` -> `null`
 
 ### `Class.Sound:Play`
 
-``Play()`` → `null`
+``Play()`` -> `null`
 
 ### `Class.Sound:Resume`
 
-``Resume()`` → `null`
+``Resume()`` -> `null`
 
 ### `Class.Sound:Stop`
 
-``Stop()`` → `null`
+``Stop()`` -> `null`
 
 ### `Class.Sound:pause`
 
-``pause()`` → `null`
+``pause()`` -> `null`
   [Deprecated]
 
 ### `Class.Sound:play`
 
-``play()`` → `null`
+``play()`` -> `null`
   [Deprecated]
 
 ### `Class.Sound:stop`
 
-``stop()`` → `null`
+``stop()`` -> `null`
   [Deprecated]
 
 ## Events

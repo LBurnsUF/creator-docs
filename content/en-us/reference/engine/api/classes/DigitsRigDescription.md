@@ -6,12 +6,24 @@ superclass: Instance
 
 # DigitsRigDescription
 
+Maps the 15 phalanx joints of one hand (5 fingers, 3 joints each) and exposes
+forward- and inverse-kinematics helpers for controlling finger poses at
+runtime.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+Enables interoperability of animations across hand rigs and drives the hand
+finger solver. Each `DigitsRigDescription` maps the 15 phalanx joints of one
+hand (5 fingers with 3 joints each) to engine instances, stores their T-pose
+adjustments, and exposes forward- and inverse-kinematics helpers for
+controlling finger poses at runtime.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DigitsRigDescription.Index1` | `Class.Instance` |  |
 | `Class.DigitsRigDescription.Index1TposeAdjustment` | `Datatype.CFrame` |  |
 | `Class.DigitsRigDescription.Index2` | `Class.Instance` |  |
@@ -58,41 +70,41 @@ superclass: Instance
 
 ### `Class.DigitsRigDescription:GetFingerControl`
 
-``GetFingerControl(fingerIndex: `int`)`` → `Datatype.Vector3`
+``GetFingerControl(fingerIndex: `int`)`` -> `Datatype.Vector3`
 
 ### `Class.DigitsRigDescription:GetFingerTip`
 
-``GetFingerTip(fingerIndex: `int`)`` → `Datatype.Vector3`
+``GetFingerTip(fingerIndex: `int`)`` -> `Datatype.Vector3`
 
 ### `Class.DigitsRigDescription:GetJoint`
 
-``GetJoint(label: `Enum.RigLabel`)`` → `Class.Instance`
+``GetJoint(label: `Enum.RigLabel`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.DigitsRigDescription:GetJointLabels`
 
-``GetJointLabels()`` → `Array`
+``GetJointLabels()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.DigitsRigDescription:GetTposeAdjustment`
 
-``GetTposeAdjustment(label: `Enum.RigLabel`)`` → `Datatype.CFrame`
+``GetTposeAdjustment(label: `Enum.RigLabel`)`` -> `Datatype.CFrame`
    {security: RobloxScriptSecurity}
 
 ### `Class.DigitsRigDescription:SetFingerControl`
 
-``SetFingerControl(fingerIndex: `int`, control: `Datatype.Vector3`)`` → `null`
+``SetFingerControl(fingerIndex: `int`, control: `Datatype.Vector3`)`` -> `null`
 
 ### `Class.DigitsRigDescription:SetFingerTip`
 
-``SetFingerTip(fingerIndex: `int`, point: `Datatype.Vector3`)`` → `null`
+``SetFingerTip(fingerIndex: `int`, point: `Datatype.Vector3`)`` -> `null`
 
 ### `Class.DigitsRigDescription:SetJoint`
 
-``SetJoint(label: `Enum.RigLabel`, joint: `Class.Instance`)`` → `null`
+``SetJoint(label: `Enum.RigLabel`, joint: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DigitsRigDescription:SetTposeAdjustment`
 
-``SetTposeAdjustment(label: `Enum.RigLabel`, transform: `Datatype.CFrame`)`` → `null`
+``SetTposeAdjustment(label: `Enum.RigLabel`, transform: `Datatype.CFrame`)`` -> `null`
    {security: RobloxScriptSecurity}

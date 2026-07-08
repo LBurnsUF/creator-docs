@@ -11,10 +11,17 @@ tags: [NotCreatable]
 
 **Tags:** [NotCreatable]
 
+## Description
+
+`Plugin` is the main object responsible for creating custom Studio widgets,
+plugin toolbars, plugin buttons, and more. The `Plugin` object can be accessed
+through the `Global.RobloxGlobals.plugin` global reference in a `Class.Script`
+that is executed as a plugin.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Plugin.CollisionEnabled` | `bool` | [ReadOnly] [NotReplicated] |
 | `Class.Plugin.DisableUIDragDetectorDrags` | `bool` |  {security: RobloxScriptSecurity} |
 | `Class.Plugin.GridSize` | `float` | [ReadOnly] [NotReplicated] |
@@ -28,247 +35,247 @@ tags: [NotCreatable]
 
 ### `Class.Plugin:Activate`
 
-``Activate(exclusiveMouse: `bool`)`` → `null`
+``Activate(exclusiveMouse: `bool`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Plugin:CreateDockWidgetPluginGui`
 
-``CreateDockWidgetPluginGui(pluginGuiId: `string`, dockWidgetPluginGuiInfo: `Datatype.DockWidgetPluginGuiInfo`)`` → `Class.DockWidgetPluginGui`
+``CreateDockWidgetPluginGui(pluginGuiId: `string`, dockWidgetPluginGuiInfo: `Datatype.DockWidgetPluginGuiInfo`)`` -> `Class.DockWidgetPluginGui`
   [Yields] [Deprecated] {security: PluginSecurity}
 
 ### `Class.Plugin:CreateDockWidgetPluginGuiAsync`
 
-``CreateDockWidgetPluginGuiAsync(pluginGuiId: `string`, dockWidgetPluginGuiInfo: `Datatype.DockWidgetPluginGuiInfo`)`` → `Class.DockWidgetPluginGui`
+``CreateDockWidgetPluginGuiAsync(pluginGuiId: `string`, dockWidgetPluginGuiInfo: `Datatype.DockWidgetPluginGuiInfo`)`` -> `Class.DockWidgetPluginGui`
   [Yields] {security: PluginSecurity}
 
 ### `Class.Plugin:CreatePluginAction`
 
-``CreatePluginAction(actionId: `string`, text: `string`, statusTip: `string`, iconName: `string`, allowBinding: `bool`)`` → `Class.PluginAction`
+``CreatePluginAction(actionId: `string`, text: `string`, statusTip: `string`, iconName: `string`, allowBinding: `bool`)`` -> `Class.PluginAction`
    {security: PluginSecurity}
 
 ### `Class.Plugin:CreatePluginMenu`
 
-``CreatePluginMenu(id: `string`, title: `string`, icon: `string`)`` → `Class.PluginMenu`
+``CreatePluginMenu(id: `string`, title: `string`, icon: `string`)`` -> `Class.PluginMenu`
    {security: PluginSecurity}
 
 ### `Class.Plugin:CreateQWidgetPluginGui`
 
-``CreateQWidgetPluginGui(pluginGuiId: `string`, pluginGuiOptions: `Dictionary`)`` → `Class.QWidgetPluginGui`
+``CreateQWidgetPluginGui(pluginGuiId: `string`, pluginGuiOptions: `Dictionary`)`` -> `Class.QWidgetPluginGui`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:CreateToolbar`
 
-``CreateToolbar(name: `string`)`` → `Class.PluginToolbar`
+``CreateToolbar(name: `string`)`` -> `Class.PluginToolbar`
    {security: PluginSecurity}
 
 ### `Class.Plugin:Deactivate`
 
-``Deactivate()`` → `null`
+``Deactivate()`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Plugin:FinishFullLoading`
 
-``FinishFullLoading()`` → `null`
+``FinishFullLoading()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:GetItem`
 
-``GetItem(key: `string`, defaultValue: `Variant`)`` → `Variant`
+``GetItem(key: `string`, defaultValue: `Variant`)`` -> `Variant`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:GetJoinMode`
 
-``GetJoinMode()`` → `Enum.JointCreationMode`
+``GetJoinMode()`` -> `Enum.JointCreationMode`
    {security: PluginSecurity}
 
 ### `Class.Plugin:GetMouse`
 
-``GetMouse()`` → `Class.PluginMouse`
+``GetMouse()`` -> `Class.PluginMouse`
    {security: PluginSecurity}
 
 ### `Class.Plugin:GetPluginComponent`
 
-``GetPluginComponent(name: `string`)`` → `Variant`
+``GetPluginComponent(name: `string`)`` -> `Variant`
   [CustomLuaState] {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:GetSelectedRibbonTool`
 
-``GetSelectedRibbonTool()`` → `Enum.RibbonTool`
+``GetSelectedRibbonTool()`` -> `Enum.RibbonTool`
    {security: PluginSecurity}
 
 ### `Class.Plugin:GetSetting`
 
-``GetSetting(key: `string`)`` → `Variant`
+``GetSetting(key: `string`)`` -> `Variant`
    {security: PluginSecurity}
 
 ### `Class.Plugin:GetStudioUserId`
 
-``GetStudioUserId()`` → `int64`
+``GetStudioUserId()`` -> `int64`
   [Deprecated] {security: PluginSecurity}
 
 ### `Class.Plugin:GetUri`
 
-``GetUri()`` → `Dictionary`
+``GetUri()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:ImportFbxAnimation`
 
-``ImportFbxAnimation(rigModel: `Class.Instance`, isR15: `bool`)`` → `Class.Instance`
+``ImportFbxAnimation(rigModel: `Class.Instance`, isR15: `bool`)`` -> `Class.Instance`
   [Yields] [Deprecated] {security: PluginSecurity}
 
 ### `Class.Plugin:ImportFbxAnimationAsync`
 
-``ImportFbxAnimationAsync(rigModel: `Class.Instance`, isR15: `bool`)`` → `Class.Instance`
+``ImportFbxAnimationAsync(rigModel: `Class.Instance`, isR15: `bool`)`` -> `Class.Instance`
   [Yields] {security: PluginSecurity}
 
 ### `Class.Plugin:ImportFbxRig`
 
-``ImportFbxRig(isR15: `bool`)`` → `Class.Instance`
+``ImportFbxRig(isR15: `bool`)`` -> `Class.Instance`
   [Yields] [Deprecated] {security: PluginSecurity}
 
 ### `Class.Plugin:ImportFbxRigAsync`
 
-``ImportFbxRigAsync(isR15: `bool`)`` → `Class.Instance`
+``ImportFbxRigAsync(isR15: `bool`)`` -> `Class.Instance`
   [Yields] {security: PluginSecurity}
 
 ### `Class.Plugin:Intersect`
 
-``Intersect(objects: `Datatype.Instances`)`` → `Class.Instance`
+``Intersect(objects: `Datatype.Instances`)`` -> `Class.Instance`
    {security: PluginSecurity}
 
 ### `Class.Plugin:Invoke`
 
-``Invoke(key: `string`, arguments: `Tuple`)`` → `null`
+``Invoke(key: `string`, arguments: `Tuple`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:IsActivated`
 
-``IsActivated()`` → `bool`
+``IsActivated()`` -> `bool`
    {security: PluginSecurity}
 
 ### `Class.Plugin:IsActivatedWithExclusiveMouse`
 
-``IsActivatedWithExclusiveMouse()`` → `bool`
+``IsActivatedWithExclusiveMouse()`` -> `bool`
    {security: PluginSecurity}
 
 ### `Class.Plugin:IsLoadedFromProject`
 
-``IsLoadedFromProject()`` → `bool`
+``IsLoadedFromProject()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:Negate`
 
-``Negate(objects: `Datatype.Instances`)`` → `Datatype.Instances`
+``Negate(objects: `Datatype.Instances`)`` -> `Datatype.Instances`
    {security: PluginSecurity}
 
 ### `Class.Plugin:OnInvoke`
 
-``OnInvoke(key: `string`, callback: `Datatype.Function`)`` → `Class.Instance`
+``OnInvoke(key: `string`, callback: `Datatype.Function`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:OnInvokeSuspendOverride`
 
-``OnInvokeSuspendOverride(key: `string`, callback: `Datatype.Function`)`` → `Class.Instance`
+``OnInvokeSuspendOverride(key: `string`, callback: `Datatype.Function`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:OnSetItem`
 
-``OnSetItem(key: `string`, callback: `Datatype.Function`)`` → `Class.Instance`
+``OnSetItem(key: `string`, callback: `Datatype.Function`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:OpenScript`
 
-``OpenScript(script: `Class.LuaSourceContainer`, lineNumber: `int`)`` → `null`
+``OpenScript(script: `Class.LuaSourceContainer`, lineNumber: `int`)`` -> `null`
   [Deprecated] {security: PluginSecurity}
 
 ### `Class.Plugin:OpenWikiPage`
 
-``OpenWikiPage(url: `string`)`` → `null`
+``OpenWikiPage(url: `string`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Plugin:PauseSound`
 
-``PauseSound(sound: `Class.Instance`)`` → `null`
+``PauseSound(sound: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:PlaySound`
 
-``PlaySound(sound: `Class.Instance`, normalizedTimePosition: `double`)`` → `null`
+``PlaySound(sound: `Class.Instance`, normalizedTimePosition: `double`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:PromptForExistingAssetId`
 
-``PromptForExistingAssetId(assetType: `string`)`` → `int64`
+``PromptForExistingAssetId(assetType: `string`)`` -> `int64`
   [Yields] {security: PluginSecurity}
 
 ### `Class.Plugin:PromptForExistingAssetIdAsync`
 
-``PromptForExistingAssetIdAsync(assetType: `string`)`` → `int64`
+``PromptForExistingAssetIdAsync(assetType: `string`)`` -> `int64`
   [Yields] {security: PluginSecurity}
 
 ### `Class.Plugin:PromptSaveSelection`
 
-``PromptSaveSelection(suggestedFileName: `string`)`` → `bool`
+``PromptSaveSelection(suggestedFileName: `string`)`` -> `bool`
   [Yields] [Deprecated] {security: PluginSecurity}
 
 ### `Class.Plugin:PromptSaveSelectionAsync`
 
-``PromptSaveSelectionAsync(suggestedFileName: `string`)`` → `bool`
+``PromptSaveSelectionAsync(suggestedFileName: `string`)`` -> `bool`
   [Yields] {security: PluginSecurity}
 
 ### `Class.Plugin:ResumeSound`
 
-``ResumeSound(sound: `Class.Instance`)`` → `null`
+``ResumeSound(sound: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:SaveSelectedToRoblox`
 
-``SaveSelectedToRoblox()`` → `null`
+``SaveSelectedToRoblox()`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Plugin:SelectRibbonTool`
 
-``SelectRibbonTool(tool: `Enum.RibbonTool`, position: `Datatype.UDim2`)`` → `null`
+``SelectRibbonTool(tool: `Enum.RibbonTool`, position: `Datatype.UDim2`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Plugin:Separate`
 
-``Separate(objects: `Datatype.Instances`)`` → `Datatype.Instances`
+``Separate(objects: `Datatype.Instances`)`` -> `Datatype.Instances`
    {security: PluginSecurity}
 
 ### `Class.Plugin:SetItem`
 
-``SetItem(key: `string`, value: `Variant`)`` → `null`
+``SetItem(key: `string`, value: `Variant`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:SetReady`
 
-``SetReady()`` → `null`
+``SetReady()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:SetSetting`
 
-``SetSetting(key: `string`, value: `Variant`)`` → `null`
+``SetSetting(key: `string`, value: `Variant`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Plugin:StartDecalDrag`
 
-``StartDecalDrag(decal: `Class.Instance`)`` → `null`
+``StartDecalDrag(decal: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:StartDrag`
 
-``StartDrag(dragData: `Dictionary`)`` → `null`
+``StartDrag(dragData: `Dictionary`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Plugin:StopAllSounds`
 
-``StopAllSounds()`` → `null`
+``StopAllSounds()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Plugin:Union`
 
-``Union(objects: `Datatype.Instances`)`` → `Class.Instance`
+``Union(objects: `Datatype.Instances`)`` -> `Class.Instance`
    {security: PluginSecurity}
 
 ## Events
@@ -301,10 +308,10 @@ Fires with: ()
 
 ### `Class.Plugin.ProcessAssetInsertionDrag`
 
-``ProcessAssetInsertionDrag(assetId: `string`, assetTypeId: `int`, instances: `Datatype.Instances`)`` → `Datatype.Instances`
+``ProcessAssetInsertionDrag(assetId: `string`, assetTypeId: `int`, instances: `Datatype.Instances`)`` -> `Datatype.Instances`
   [NoYield]
 
 ### `Class.Plugin.ProcessAssetInsertionDrop`
 
-``ProcessAssetInsertionDrop()`` → `null`
+``ProcessAssetInsertionDrop()`` -> `null`
   [NoYield]

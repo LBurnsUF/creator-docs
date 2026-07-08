@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.RecommendationItemVisibility` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.RecommendationItemVisibility.Private` | 0 |
-| `Enum.RecommendationItemVisibility.Public` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.RecommendationItemVisibility.Private` | 0 |  |
+| `Enum.RecommendationItemVisibility.Public` | 1 |  |

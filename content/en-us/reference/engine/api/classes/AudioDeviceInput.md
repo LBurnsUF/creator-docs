@@ -6,12 +6,22 @@ superclass: Instance
 
 # AudioDeviceInput
 
+Produces audio streams from physical devices, such as microphones.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioDeviceInput` produces audio streams from physical devices, such as
+microphones. It provides a single **Output** pin which can be connected to
+other pins via `Class.Wire|Wires`. `Class.AudioDeviceInput` has properties for
+selecting which `Class.Player` is producing the stream, and controlling
+whether or not they are muted.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioDeviceInput.AccessType` | `Enum.AccessModifierType` |  |
 | `Class.AudioDeviceInput.Active` | `bool` |  {write: RobloxScriptSecurity} |
 | `Class.AudioDeviceInput.EchoCancellation` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -27,23 +37,23 @@ superclass: Instance
 
 ### `Class.AudioDeviceInput:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioDeviceInput:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioDeviceInput:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ### `Class.AudioDeviceInput:GetUserIdAccessList`
 
-``GetUserIdAccessList()`` → `Array`
+``GetUserIdAccessList()`` -> `Array`
 
 ### `Class.AudioDeviceInput:SetUserIdAccessList`
 
-``SetUserIdAccessList(userIds: `Array`)`` → `null`
+``SetUserIdAccessList(userIds: `Array`)`` -> `null`
 
 ## Events
 

@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DebuggerConnection.ErrorMessage` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.DebuggerConnection.HasError` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.DebuggerConnection.Id` | `int` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -24,92 +24,92 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.DebuggerConnection:AddBreakpoint`
 
-``AddBreakpoint(script: `string`, line: `int`, breakpoint: `Class.Breakpoint`)`` → `null`
+``AddBreakpoint(script: `string`, line: `int`, breakpoint: `Class.Breakpoint`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:Close`
 
-``Close()`` → `null`
+``Close()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:EvaluateWatch`
 
-``EvaluateWatch(expression: `string`, frame: `Class.StackFrame`, callback: `Datatype.Function`)`` → `int`
+``EvaluateWatch(expression: `string`, frame: `Class.StackFrame`, callback: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:GetFrameById`
 
-``GetFrameById(id: `int`)`` → `Class.StackFrame`
+``GetFrameById(id: `int`)`` -> `Class.StackFrame`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:GetSource`
 
-``GetSource(scriptRef: `string`, status: `Datatype.Function`)`` → `int`
+``GetSource(scriptRef: `string`, status: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:GetThreadById`
 
-``GetThreadById(id: `int`)`` → `Class.ThreadState`
+``GetThreadById(id: `int`)`` -> `Class.ThreadState`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:GetThreads`
 
-``GetThreads(callback: `Datatype.Function`)`` → `int`
+``GetThreads(callback: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:GetVariableById`
 
-``GetVariableById(id: `int`)`` → `Class.DebuggerVariable`
+``GetVariableById(id: `int`)`` -> `Class.DebuggerVariable`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:Pause`
 
-``Pause(thread: `Class.ThreadState`, status: `Datatype.Function`)`` → `int`
+``Pause(thread: `Class.ThreadState`, status: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:Populate`
 
-``Populate(instance: `Class.Instance`, callback: `Datatype.Function`)`` → `int`
+``Populate(instance: `Class.Instance`, callback: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:RemoveBreakpoint`
 
-``RemoveBreakpoint(breakpoint: `Class.Breakpoint`)`` → `null`
+``RemoveBreakpoint(breakpoint: `Class.Breakpoint`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:Resume`
 
-``Resume(thread: `Class.ThreadState`, status: `Datatype.Function`)`` → `int`
+``Resume(thread: `Class.ThreadState`, status: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:SetExceptionBreakMode`
 
-``SetExceptionBreakMode(breakMode: `Enum.DebuggerExceptionBreakMode`, callback: `Datatype.Function`)`` → `int`
+``SetExceptionBreakMode(breakMode: `Enum.DebuggerExceptionBreakMode`, callback: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:SetVariable`
 
-``SetVariable(variable: `Class.DebuggerVariable`, value: `string`, callback: `Datatype.Function`)`` → `int`
+``SetVariable(variable: `Class.DebuggerVariable`, value: `string`, callback: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:Step`
 
-``Step(thread: `Class.ThreadState`, callback: `Datatype.Function`)`` → `int`
+``Step(thread: `Class.ThreadState`, callback: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:StepIn`
 
-``StepIn(thread: `Class.ThreadState`, callback: `Datatype.Function`)`` → `int`
+``StepIn(thread: `Class.ThreadState`, callback: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:StepOut`
 
-``StepOut(thread: `Class.ThreadState`, callback: `Datatype.Function`)`` → `int`
+``StepOut(thread: `Class.ThreadState`, callback: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnection:UpdateSelectedFrame`
 
-``UpdateSelectedFrame(threadId: `int`, frameNumber: `int`)`` → `null`
+``UpdateSelectedFrame(threadId: `int`, frameNumber: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

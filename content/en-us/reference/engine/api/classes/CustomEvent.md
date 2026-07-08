@@ -11,15 +11,18 @@ tags: [Deprecated]
 
 **Tags:** [Deprecated]
 
+> **Deprecated:** `Class.CustomEvent|CustomEvents` have been superseded by
+`Class.BindableEvent|BindableEvents` and should not be used in new work.
+
 ## Methods
 
 ### `Class.CustomEvent:GetAttachedReceivers`
 
-``GetAttachedReceivers()`` → `Datatype.Instances`
+``GetAttachedReceivers()`` -> `Datatype.Instances`
 
 ### `Class.CustomEvent:SetValue`
 
-``SetValue(newValue: `float`)`` → `null`
+``SetValue(newValue: `float`)`` -> `null`
 
 ## Events
 

@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.AvatarSettingsHitAndTouchDetectionMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AvatarSettingsHitAndTouchDetectionMode.UseParts` | 0 |
-| `Enum.AvatarSettingsHitAndTouchDetectionMode.UseCollider` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AvatarSettingsHitAndTouchDetectionMode.UseParts` | 0 |  |
+| `Enum.AvatarSettingsHitAndTouchDetectionMode.UseCollider` | 1 |  |

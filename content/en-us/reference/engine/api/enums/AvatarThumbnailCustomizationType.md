@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.AvatarThumbnailCustomizationType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AvatarThumbnailCustomizationType.Closeup` | 1 |
-| `Enum.AvatarThumbnailCustomizationType.FullBody` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AvatarThumbnailCustomizationType.Closeup` | 1 |  |
+| `Enum.AvatarThumbnailCustomizationType.FullBody` | 2 |  |

@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.DraggerMovementMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.DraggerMovementMode.Geometric` | 0 |
-| `Enum.DraggerMovementMode.Physical` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.DraggerMovementMode.Geometric` | 0 |  |
+| `Enum.DraggerMovementMode.Physical` | 1 |  |

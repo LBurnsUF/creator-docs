@@ -13,8 +13,8 @@ tags: [NotCreatable, Service]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AvatarChatService.ClientFeatures` | `int` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.AvatarChatService.ClientFeaturesInitialized` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.AvatarChatService.ServerFeatures` | `int` | [Hidden] {read: RobloxScriptSecurity, write: RobloxSecurity} |
@@ -23,50 +23,50 @@ tags: [NotCreatable, Service]
 
 ### `Class.AvatarChatService:DebugCounterGet`
 
-``DebugCounterGet(label: `string`, playerId: `int64`)`` → `int64`
+``DebugCounterGet(label: `string`, playerId: `int64`)`` -> `int64`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarChatService:EnableVoice`
 
-``EnableVoice()`` → `bool`
+``EnableVoice()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarChatService:GetClientFeaturesAsync`
 
-``GetClientFeaturesAsync()`` → `int`
+``GetClientFeaturesAsync()`` -> `int`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AvatarChatService:GetServerFeaturesAsync`
 
-``GetServerFeaturesAsync()`` → `int`
+``GetServerFeaturesAsync()`` -> `int`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AvatarChatService:IsEnabled`
 
-``IsEnabled(mask: `int`, feature: `Enum.AvatarChatServiceFeature`)`` → `bool`
+``IsEnabled(mask: `int`, feature: `Enum.AvatarChatServiceFeature`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarChatService:IsPlaceEnabled`
 
-``IsPlaceEnabled()`` → `bool`
+``IsPlaceEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarChatService:IsUniverseEnabled`
 
-``IsUniverseEnabled()`` → `bool`
+``IsUniverseEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarChatService:PollClientFeatures`
 
-``PollClientFeatures()`` → `int`
+``PollClientFeatures()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarChatService:PollServerFeatures`
 
-``PollServerFeatures()`` → `int`
+``PollServerFeatures()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarChatService:deviceMeetsRequirementsForFeature`
 
-``deviceMeetsRequirementsForFeature(feature: `Enum.DeviceFeatureType`)`` → `bool`
+``deviceMeetsRequirementsForFeature(feature: `Enum.DeviceFeatureType`)`` -> `bool`
    {security: RobloxScriptSecurity}

@@ -15,92 +15,92 @@ tags: [NotCreatable, Service]
 
 ### `Class.SessionService:AcquireContextFocus`
 
-``AcquireContextFocus(context: `string`)`` → `null`
+``AcquireContextFocus(context: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:GenerateSessionInfoString`
 
-``GenerateSessionInfoString(includeArbitrarySessions: `bool`, includeTag: `bool`, includeTimestamps: `bool`, includeMetadata: `bool`)`` → `string`
+``GenerateSessionInfoString(includeArbitrarySessions: `bool`, includeTag: `bool`, includeTimestamps: `bool`, includeMetadata: `bool`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:GetBreadcrumbs`
 
-``GetBreadcrumbs()`` → `Array`
+``GetBreadcrumbs()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:GetCreatedTimestampUtcMs`
 
-``GetCreatedTimestampUtcMs(sid: `string`)`` → `int64`
+``GetCreatedTimestampUtcMs(sid: `string`)`` -> `int64`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:GetHistory`
 
-``GetHistory()`` → `Array`
+``GetHistory()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:GetMetadata`
 
-``GetMetadata(sid: `string`, key: `string`)`` → `Variant`
+``GetMetadata(sid: `string`, key: `string`)`` -> `Variant`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:GetRootSID`
 
-``GetRootSID()`` → `string`
+``GetRootSID()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:GetSessionID`
 
-``GetSessionID(structuralId: `string`)`` → `string`
+``GetSessionID(structuralId: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:GetSessionTag`
 
-``GetSessionTag(sid: `string`)`` → `string`
+``GetSessionTag(sid: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:IsContextFocused`
 
-``IsContextFocused(context: `string`)`` → `bool`
+``IsContextFocused(context: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:ReleaseContextFocus`
 
-``ReleaseContextFocus(context: `string`)`` → `null`
+``ReleaseContextFocus(context: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:RemoveMetadata`
 
-``RemoveMetadata(sid: `string`, key: `string`, context: `string`)`` → `null`
+``RemoveMetadata(sid: `string`, key: `string`, context: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:RemoveSession`
 
-``RemoveSession(sid: `string`, context: `string`)`` → `null`
+``RemoveSession(sid: `string`, context: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:RemoveSessionsWithMetadataKey`
 
-``RemoveSessionsWithMetadataKey(key: `string`)`` → `null`
+``RemoveSessionsWithMetadataKey(key: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:ReplaceSession`
 
-``ReplaceSession(sid: `string`, tag: `string`)`` → `null`
+``ReplaceSession(sid: `string`, tag: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:SessionExists`
 
-``SessionExists(sid: `string`)`` → `bool`
+``SessionExists(sid: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:SetMetadata`
 
-``SetMetadata(sid: `string`, key: `string`, value: `Variant`, context: `string`)`` → `null`
+``SetMetadata(sid: `string`, key: `string`, value: `Variant`, context: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SessionService:SetSession`
 
-``SetSession(parentSid: `string`, childSid: `string`, tag: `string`, context: `string`)`` → `null`
+``SetSession(parentSid: `string`, childSid: `string`, tag: `string`, context: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

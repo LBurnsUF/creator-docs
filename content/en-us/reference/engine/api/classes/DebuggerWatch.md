@@ -10,6 +10,6 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DebuggerWatch.Expression` | `string` |  |

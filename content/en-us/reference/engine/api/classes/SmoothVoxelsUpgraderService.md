@@ -15,12 +15,12 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.SmoothVoxelsUpgraderService:Cancel`
 
-``Cancel()`` → `null`
+``Cancel()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SmoothVoxelsUpgraderService:Start`
 
-``Start()`` → `null`
+``Start()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

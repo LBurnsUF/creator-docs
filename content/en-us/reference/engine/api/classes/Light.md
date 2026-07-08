@@ -7,14 +7,20 @@ tags: [NotCreatable]
 
 # Light
 
+Light is a root class for dynamic lighting related objects.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable]
 
+## Description
+
+Light is a root class for dynamic lighting related objects.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Light.Brightness` | `float` |  |
 | `Class.Light.Color` | `Datatype.Color3` |  |
 | `Class.Light.Enabled` | `bool` |  |

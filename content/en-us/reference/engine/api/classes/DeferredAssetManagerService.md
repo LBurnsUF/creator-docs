@@ -15,7 +15,7 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.DeferredAssetManagerService:GetPrefetchDownloadStatus`
 
-``GetPrefetchDownloadStatus()`` → `Enum.PrefetchDownloadStatus`
+``GetPrefetchDownloadStatus()`` -> `Enum.PrefetchDownloadStatus`
    {security: RobloxScriptSecurity}
 
 ## Events

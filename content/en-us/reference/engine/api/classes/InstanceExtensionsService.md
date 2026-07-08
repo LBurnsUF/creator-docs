@@ -15,5 +15,5 @@ tags: [NotCreatable, Service]
 
 ### `Class.InstanceExtensionsService:CountChildren`
 
-``CountChildren(instance: `Class.Instance`)`` → `int`
+``CountChildren(instance: `Class.Instance`)`` -> `int`
    {security: RobloxScriptSecurity}

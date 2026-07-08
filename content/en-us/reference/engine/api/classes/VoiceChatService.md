@@ -7,14 +7,22 @@ tags: [NotCreatable, Service]
 
 # VoiceChatService
 
+**VoiceChatService** is responsible for voice chat's high-level functionality.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
 
+## Description
+
+**VoiceChatService** is responsible for voice chat's high-level functionality.
+This mostly consists of configuration options, and functions that are not
+specifically-controlled by more-specific instances.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.VoiceChatService.DefaultDistanceAttenuation` | `Enum.VoiceChatDistanceAttenuationType` |  {security: PluginSecurity} |
 | `Class.VoiceChatService.EnableDefaultVoice` | `bool` |  {security: PluginSecurity} |
 | `Class.VoiceChatService.UseAudioApi` | `Enum.AudioApiRollout` |  {security: PluginSecurity} |
@@ -29,77 +37,77 @@ tags: [NotCreatable, Service]
 
 ### `Class.VoiceChatService:GetChatGroupsAsync`
 
-``GetChatGroupsAsync(players: `Datatype.Instances`)`` → `Array`
+``GetChatGroupsAsync(players: `Datatype.Instances`)`` -> `Array`
   [Yields]
 
 ### `Class.VoiceChatService:IsVoiceEnabledForUserIdAsync`
 
-``IsVoiceEnabledForUserIdAsync(userId: `Datatype.User`)`` → `bool`
+``IsVoiceEnabledForUserIdAsync(userId: `Datatype.User`)`` -> `bool`
   [Yields]
 
 ### `Class.VoiceChatService:getInternalChannelId`
 
-``getInternalChannelId()`` → `string`
+``getInternalChannelId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:getInternalGroupId`
 
-``getInternalGroupId()`` → `string`
+``getInternalGroupId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:getInternalPublishPause`
 
-``getInternalPublishPause()`` → `bool`
+``getInternalPublishPause()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:getInternalSessionId`
 
-``getInternalSessionId()`` → `string`
+``getInternalSessionId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:getInternalSubscribePause`
 
-``getInternalSubscribePause(userId: `int64`)`` → `bool`
+``getInternalSubscribePause(userId: `int64`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:getInternalSubscribePauseAll`
 
-``getInternalSubscribePauseAll()`` → `bool`
+``getInternalSubscribePauseAll()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:getInternalVoiceChatApiVersion`
 
-``getInternalVoiceChatApiVersion()`` → `int`
+``getInternalVoiceChatApiVersion()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:isInternalPublishPaused`
 
-``isInternalPublishPaused()`` → `bool`
+``isInternalPublishPaused()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:joinVoice`
 
-``joinVoice()`` → `null`
+``joinVoice()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:lastVoiceChatStats`
 
-``lastVoiceChatStats()`` → `Dictionary`
+``lastVoiceChatStats()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:leaveVoice`
 
-``leaveVoice(leaveReason: `Enum.VoiceClientLeaveReasons`)`` → `null`
+``leaveVoice(leaveReason: `Enum.VoiceClientLeaveReasons`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:notifyServerACSCleanup`
 
-``notifyServerACSCleanup()`` → `null`
+``notifyServerACSCleanup()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VoiceChatService:rejoinVoice`
 
-``rejoinVoice()`` → `null`
+``rejoinVoice()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

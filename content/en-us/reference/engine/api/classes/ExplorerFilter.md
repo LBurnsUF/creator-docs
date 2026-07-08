@@ -15,40 +15,40 @@ tags: [NotReplicated]
 
 ### `Class.ExplorerFilter:BeginSearch`
 
-``BeginSearch(root: `Class.Instance`)`` → `null`
+``BeginSearch(root: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ExplorerFilter:GetAutocompleter`
 
-``GetAutocompleter()`` → `Class.ExplorerFilterAutocompleter`
+``GetAutocompleter()`` -> `Class.ExplorerFilterAutocompleter`
    {security: RobloxScriptSecurity}
 
 ### `Class.ExplorerFilter:GetErrors`
 
-``GetErrors()`` → `Array`
+``GetErrors()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.ExplorerFilter:GetLexemes`
 
-``GetLexemes()`` → `Array`
+``GetLexemes()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.ExplorerFilter:GetSearchResults`
 
-``GetSearchResults(maxCandidatesToExplore: `int`)`` → `Datatype.Instances`
+``GetSearchResults(maxCandidatesToExplore: `int`)`` -> `Datatype.Instances`
    {security: RobloxScriptSecurity}
 
 ### `Class.ExplorerFilter:HasMoreResults`
 
-``HasMoreResults()`` → `bool`
+``HasMoreResults()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.ExplorerFilter:InstancePassesFilter`
 
-``InstancePassesFilter(instance: `Class.Instance`)`` → `bool`
+``InstancePassesFilter(instance: `Class.Instance`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.ExplorerFilter:SetFilter`
 
-``SetFilter(search: `string`)`` → `null`
+``SetFilter(search: `string`)`` -> `null`
    {security: RobloxScriptSecurity}

@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ThreadState.FrameCount` | `int` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.ThreadState.Populated` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.ThreadState.ThreadId` | `int` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -24,5 +24,5 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.ThreadState:GetFrame`
 
-``GetFrame(index: `int`)`` → `Class.Instance`
+``GetFrame(index: `int`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}

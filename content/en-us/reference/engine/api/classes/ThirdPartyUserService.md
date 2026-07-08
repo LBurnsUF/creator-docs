@@ -13,8 +13,8 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ThirdPartyUserService.FriendCommunicationRestrictionStatus` | `Enum.ChatRestrictionStatus` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.ThirdPartyUserService.HasActiveUser` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.ThirdPartyUserService.VoiceChatRestrictionStatus` | `Enum.ChatRestrictionStatus` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -23,42 +23,42 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.ThirdPartyUserService:GetUserPlatformName`
 
-``GetUserPlatformName()`` → `string`
+``GetUserPlatformName()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.ThirdPartyUserService:GetVoiceChatRestrictionStatus`
 
-``GetVoiceChatRestrictionStatus()`` → `Enum.ChatRestrictionStatus`
+``GetVoiceChatRestrictionStatus()`` -> `Enum.ChatRestrictionStatus`
    {security: RobloxScriptSecurity}
 
 ### `Class.ThirdPartyUserService:HaveActiveUser`
 
-``HaveActiveUser()`` → `bool`
+``HaveActiveUser()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.ThirdPartyUserService:IsAccountSwitchingSupported`
 
-``IsAccountSwitchingSupported()`` → `bool`
+``IsAccountSwitchingSupported()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.ThirdPartyUserService:IsChatRestrictionSupported`
 
-``IsChatRestrictionSupported()`` → `bool`
+``IsChatRestrictionSupported()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.ThirdPartyUserService:IsSingleSignOnSupported`
 
-``IsSingleSignOnSupported()`` → `bool`
+``IsSingleSignOnSupported()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.ThirdPartyUserService:RegisterActiveUser`
 
-``RegisterActiveUser(gamepadId: `Enum.UserInputType`)`` → `int`
+``RegisterActiveUser(gamepadId: `Enum.UserInputType`)`` -> `int`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.ThirdPartyUserService:ShowAccountPicker`
 
-``ShowAccountPicker()`` → `null`
+``ShowAccountPicker()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.RenderingTestComparisonMethod` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.RenderingTestComparisonMethod.psnr` | 0 |
-| `Enum.RenderingTestComparisonMethod.diff` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.RenderingTestComparisonMethod.psnr` | 0 |  |
+| `Enum.RenderingTestComparisonMethod.diff` | 1 |  |

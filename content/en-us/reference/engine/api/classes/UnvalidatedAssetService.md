@@ -15,15 +15,15 @@ tags: [NotCreatable, Service]
 
 ### `Class.UnvalidatedAssetService:AppendTempAssetId`
 
-``AppendTempAssetId(userId: `int64`, id: `int64`, lookAt: `Datatype.Vector3`, camPos: `Datatype.Vector3`, usage: `string`)`` → `null`
+``AppendTempAssetId(userId: `int64`, id: `int64`, lookAt: `Datatype.Vector3`, camPos: `Datatype.Vector3`, usage: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.UnvalidatedAssetService:AppendVantagePoint`
 
-``AppendVantagePoint(userId: `int64`, id: `int64`, lookAt: `Datatype.Vector3`, camPos: `Datatype.Vector3`)`` → `bool`
+``AppendVantagePoint(userId: `int64`, id: `int64`, lookAt: `Datatype.Vector3`, camPos: `Datatype.Vector3`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.UnvalidatedAssetService:UpgradeTempAssetId`
 
-``UpgradeTempAssetId(userId: `int64`, tempId: `int64`, assetId: `int64`)`` → `bool`
+``UpgradeTempAssetId(userId: `int64`, tempId: `int64`, assetId: `int64`)`` -> `bool`
    {security: RobloxScriptSecurity}

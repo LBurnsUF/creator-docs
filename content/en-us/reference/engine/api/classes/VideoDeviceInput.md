@@ -13,8 +13,8 @@ tags: [NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.VideoDeviceInput.Active` | `bool` |  |
 | `Class.VideoDeviceInput.CameraId` | `string` |  |
 | `Class.VideoDeviceInput.CaptureQuality` | `Enum.VideoDeviceCaptureQuality` |  |

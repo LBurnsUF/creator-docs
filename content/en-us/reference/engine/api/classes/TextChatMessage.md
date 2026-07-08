@@ -7,14 +7,23 @@ tags: [NotCreatable]
 
 # TextChatMessage
 
+A data object representing a text chat message.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable]
 
+## Description
+
+A data object representing a text chat message.
+
+To learn more about using TextChatMessages, see
+[In-Experience Text Chat](../../../chat/in-experience-text-chat.md).
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.TextChatMessage.BubbleChatMessageProperties` | `Class.BubbleChatMessageProperties` |  |
 | `Class.TextChatMessage.ChatActionType` | `string` | [Hidden] {security: RobloxScriptSecurity} |
 | `Class.TextChatMessage.ChatWindowMessageProperties` | `Class.ChatWindowMessageProperties` |  |

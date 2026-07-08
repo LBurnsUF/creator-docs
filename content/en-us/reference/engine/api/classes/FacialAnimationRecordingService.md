@@ -13,18 +13,18 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.FacialAnimationRecordingService.BiometricDataConsent` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
 ### `Class.FacialAnimationRecordingService:CheckOrRequestCameraPermission`
 
-``CheckOrRequestCameraPermission()`` → `string`
+``CheckOrRequestCameraPermission()`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.FacialAnimationRecordingService:IsAgeRestricted`
 
-``IsAgeRestricted()`` → `bool`
+``IsAgeRestricted()`` -> `bool`
    {security: RobloxScriptSecurity}

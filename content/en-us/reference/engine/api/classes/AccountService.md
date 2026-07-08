@@ -15,37 +15,37 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AccountService:DeviceAccessTokenAvailable`
 
-``DeviceAccessTokenAvailable()`` → `bool`
+``DeviceAccessTokenAvailable()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AccountService:DeviceIntegrityAvailable`
 
-``DeviceIntegrityAvailable()`` → `bool`
+``DeviceIntegrityAvailable()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AccountService:GetCredentialsHeaders`
 
-``GetCredentialsHeaders()`` → `string`
+``GetCredentialsHeaders()`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AccountService:GetDeviceAccessToken`
 
-``GetDeviceAccessToken()`` → `string`
+``GetDeviceAccessToken()`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AccountService:GetDeviceIntegrityToken`
 
-``GetDeviceIntegrityToken(data: `string`)`` → `string`
+``GetDeviceIntegrityToken(data: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.AccountService:GetDeviceIntegrityTokenYield`
 
-``GetDeviceIntegrityTokenYield(data: `string`)`` → `string`
+``GetDeviceIntegrityTokenYield(data: `string`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AccountService:MagicLogin`
 
-``MagicLogin(data: `string`)`` → `null`
+``MagicLogin(data: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

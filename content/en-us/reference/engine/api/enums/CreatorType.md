@@ -5,9 +5,11 @@ type: enum
 
 # `Enum.CreatorType`
 
+The ownership type of the open place.
+
 The `Enum.CreatorType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.CreatorType.User` | 0 |
-| `Enum.CreatorType.Group` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.CreatorType.User` | 0 | The place is owned by a single user. |
+| `Enum.CreatorType.Group` | 1 | The place is owned by a group. |

@@ -13,8 +13,8 @@ tags: [NotCreatable]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Collaborator.CFrame` | `Datatype.CFrame` | [Hidden] |
 | `Class.Collaborator.CollaboratorColor` | `int` | [Hidden] [Deprecated] |
 | `Class.Collaborator.CollaboratorColor3` | `Datatype.Color3` | [Hidden] |

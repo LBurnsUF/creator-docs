@@ -15,15 +15,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AchievementService:GrantAchievement`
 
-``GrantAchievement(achievementName: `string`)`` → `bool`
+``GrantAchievement(achievementName: `string`)`` -> `bool`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AchievementService:HasAchieved`
 
-``HasAchieved(achievementName: `string`)`` → `bool`
+``HasAchieved(achievementName: `string`)`` -> `bool`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AchievementService:IsAvailable`
 
-``IsAvailable()`` → `bool`
+``IsAvailable()`` -> `bool`
    {security: RobloxScriptSecurity}

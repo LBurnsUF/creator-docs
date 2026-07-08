@@ -13,8 +13,8 @@ tags: [NotCreatable, Service]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.VideoCaptureService.Active` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.VideoCaptureService.CameraID` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
@@ -22,7 +22,7 @@ tags: [NotCreatable, Service]
 
 ### `Class.VideoCaptureService:GetCameraDevices`
 
-``GetCameraDevices()`` → `Map`
+``GetCameraDevices()`` -> `Map`
    {security: RobloxScriptSecurity}
 
 ## Events

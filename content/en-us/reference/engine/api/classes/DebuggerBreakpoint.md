@@ -13,8 +13,8 @@ tags: [NotCreatable]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DebuggerBreakpoint.Condition` | `string` |  |
 | `Class.DebuggerBreakpoint.ContinueExecution` | `bool` |  |
 | `Class.DebuggerBreakpoint.IsEnabled` | `bool` |  |

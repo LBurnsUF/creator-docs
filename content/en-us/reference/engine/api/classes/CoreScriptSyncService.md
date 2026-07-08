@@ -15,5 +15,5 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.CoreScriptSyncService:GetScriptFilePath`
 
-``GetScriptFilePath(script: `Class.Instance`)`` → `Variant`
+``GetScriptFilePath(script: `Class.Instance`)`` -> `Variant`
    {security: RobloxScriptSecurity}

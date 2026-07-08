@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AvatarClothingRules.ClothingMode` | `Enum.AvatarSettingsClothingMode` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarClothingRules.CustomClassicPantsAccessoryEnabled` | `bool` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarClothingRules.CustomClassicPantsAccessoryId` | `int64` |  {security: RobloxScriptSecurity} |

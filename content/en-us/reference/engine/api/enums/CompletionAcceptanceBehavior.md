@@ -7,9 +7,9 @@ type: enum
 
 The `Enum.CompletionAcceptanceBehavior` enum has 4 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.CompletionAcceptanceBehavior.Insert` | 0 |
-| `Enum.CompletionAcceptanceBehavior.Replace` | 1 |
-| `Enum.CompletionAcceptanceBehavior.ReplaceOnEnterInsertOnTab` | 2 |
-| `Enum.CompletionAcceptanceBehavior.InsertOnEnterReplaceOnTab` | 3 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.CompletionAcceptanceBehavior.Insert` | 0 |  |
+| `Enum.CompletionAcceptanceBehavior.Replace` | 1 |  |
+| `Enum.CompletionAcceptanceBehavior.ReplaceOnEnterInsertOnTab` | 2 |  |
+| `Enum.CompletionAcceptanceBehavior.InsertOnEnterReplaceOnTab` | 3 |  |

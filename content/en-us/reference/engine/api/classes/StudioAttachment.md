@@ -13,8 +13,8 @@ tags: [NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StudioAttachment.AutoHideParent` | `bool` |  |
 | `Class.StudioAttachment.IsArrowVisible` | `bool` |  |
 | `Class.StudioAttachment.Offset` | `Datatype.Vector2` |  |

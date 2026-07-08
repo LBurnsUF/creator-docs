@@ -15,27 +15,27 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.WebViewService:CloseWindow`
 
-``CloseWindow()`` → `null`
+``CloseWindow()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.WebViewService:IsAvailable`
 
-``IsAvailable()`` → `bool`
+``IsAvailable()`` -> `bool`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.WebViewService:MutateWindow`
 
-``MutateWindow(url: `string`, title: `string?`, isVisible: `bool?`, searchType: `string?`, transitionAnimation: `string?`, showDomainAsTitle: `bool?`, backButtonVisible: `bool?`)`` → `null`
+``MutateWindow(url: `string`, title: `string?`, isVisible: `bool?`, searchType: `string?`, transitionAnimation: `string?`, showDomainAsTitle: `bool?`, backButtonVisible: `bool?`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.WebViewService:OpenWindow`
 
-``OpenWindow(url: `string`, title: `string?`, isVisible: `bool?`, searchType: `string?`, transitionAnimation: `string?`, showDomainAsTitle: `bool?`, backButtonVisible: `bool?`)`` → `null`
+``OpenWindow(url: `string`, title: `string?`, isVisible: `bool?`, searchType: `string?`, transitionAnimation: `string?`, showDomainAsTitle: `bool?`, backButtonVisible: `bool?`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.WebViewService:OpenWindowV2`
 
-``OpenWindowV2(url: `string`, params: `Datatype.WebViewParams`?)`` → `null`
+``OpenWindowV2(url: `string`, params: `Datatype.WebViewParams`?)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

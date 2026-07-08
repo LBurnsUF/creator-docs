@@ -15,27 +15,27 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AppLifecycleObserverService:GetCurrentState`
 
-``GetCurrentState()`` → `Enum.AppLifecycleManagerState`
+``GetCurrentState()`` -> `Enum.AppLifecycleManagerState`
    {security: RobloxScriptSecurity}
 
 ### `Class.AppLifecycleObserverService:IsDidDetachSupported`
 
-``IsDidDetachSupported()`` → `bool`
+``IsDidDetachSupported()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AppLifecycleObserverService:TriggerOnLandingPageMount`
 
-``TriggerOnLandingPageMount()`` → `null`
+``TriggerOnLandingPageMount()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AppLifecycleObserverService:TriggerOnLuaAppInteractive`
 
-``TriggerOnLuaAppInteractive()`` → `null`
+``TriggerOnLuaAppInteractive()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AppLifecycleObserverService:TriggerOnLuaAppReadyToRender`
 
-``TriggerOnLuaAppReadyToRender()`` → `null`
+``TriggerOnLuaAppReadyToRender()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

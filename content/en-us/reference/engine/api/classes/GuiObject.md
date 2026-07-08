@@ -7,14 +7,38 @@ tags: [NotCreatable, NotBrowsable]
 
 # GuiObject
 
+An abstract class for all 2D user interface objects.
+
 **Inherits from:** `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [NotBrowsable]
 
+## Description
+
+`Class.GuiObject` is an abstract class (much like `Class.BasePart`) for a 2D
+user interface object. It defines all the properties relating to the display
+of a graphical user interface (GUI) object such as `Class.GuiObject.Size|Size`
+and `Class.GuiObject.Position|Position`. It also has some useful read‑only
+properties like `Class.GuiObject.AbsolutePosition|AbsolutePosition`,
+`Class.GuiObject.AbsoluteSize|AbsoluteSize`, and
+`Class.GuiObject.AbsoluteRotation|AbsoluteRotation`.
+
+To manipulate the layout of GUI objects in special ways, you can use a layout
+structure such as [list/flex](../../../ui/list-flex-layouts.md) or
+[grid](../../../ui/grid-table-layouts.md), and you can style them beyond their
+core properties through
+[appearance modifiers](../../../ui/appearance-modifiers.md).
+
+Although it's possible to detect mouse button events on any GUI object using
+`Class.GuiObject.InputBegan|InputBegan` and
+`Class.GuiObject.InputEnded|InputEnded`, only `Class.ImageButton` and
+`Class.TextButton` have convenient dedicated events such as
+`Class.TextButton.Activated|Activated` to detect click/press.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.GuiObject.Active` | `bool` |  |
 | `Class.GuiObject.AnchorPoint` | `Datatype.Vector2` |  |
 | `Class.GuiObject.AutomaticSize` | `Enum.AutomaticSize` |  |
@@ -51,29 +75,29 @@ tags: [NotCreatable, NotBrowsable]
 
 ### `Class.GuiObject:TweenPosition`
 
-``TweenPosition(endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+``TweenPosition(endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` -> `bool`
 
 ### `Class.GuiObject:TweenPositionInternal`
 
-``TweenPositionInternal(endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+``TweenPositionInternal(endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiObject:TweenSize`
 
-``TweenSize(endSize: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+``TweenSize(endSize: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` -> `bool`
 
 ### `Class.GuiObject:TweenSizeAndPosition`
 
-``TweenSizeAndPosition(endSize: `Datatype.UDim2`, endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+``TweenSizeAndPosition(endSize: `Datatype.UDim2`, endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` -> `bool`
 
 ### `Class.GuiObject:TweenSizeAndPositionInternal`
 
-``TweenSizeAndPositionInternal(endSize: `Datatype.UDim2`, endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+``TweenSizeAndPositionInternal(endSize: `Datatype.UDim2`, endPosition: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.GuiObject:TweenSizeInternal`
 
-``TweenSizeInternal(endSize: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` → `bool`
+``TweenSizeInternal(endSize: `Datatype.UDim2`, easingDirection: `Enum.EasingDirection`, easingStyle: `Enum.EasingStyle`, time: `float`, override: `bool`, callback: `Datatype.Function`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ## Events

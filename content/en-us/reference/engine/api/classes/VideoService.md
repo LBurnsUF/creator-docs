@@ -7,6 +7,8 @@ tags: [NotCreatable, Service]
 
 # VideoService
 
+An internal service that offers no functionality to developers.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
@@ -15,12 +17,12 @@ tags: [NotCreatable, Service]
 
 ### `Class.VideoService:CreateVideoSamplerAsync`
 
-``CreateVideoSamplerAsync(content: `Datatype.Content`, options: `Dictionary?`)`` → `Class.VideoSampler`
+``CreateVideoSamplerAsync(content: `Datatype.Content`, options: `Dictionary?`)`` -> `Class.VideoSampler`
   [Yields]
 
 ### `Class.VideoService:GameStreamingEnabled`
 
-``GameStreamingEnabled()`` → `bool`
+``GameStreamingEnabled()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ## Events

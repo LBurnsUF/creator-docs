@@ -15,10 +15,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.TracerService:FinishSpan`
 
-``FinishSpan(spanId: `string`)`` → `null`
+``FinishSpan(spanId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TracerService:StartSpan`
 
-``StartSpan(name: `string`, parentId: `string`)`` → `string`
+``StartSpan(name: `string`, parentId: `string`)`` -> `string`
    {security: RobloxScriptSecurity}

@@ -15,35 +15,35 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.StudioWidgetsService:ApplyFillInBox`
 
-``ApplyFillInBox(target: `Class.StudioWidget`)`` → `null`
+``ApplyFillInBox(target: `Class.StudioWidget`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioWidgetsService:ApplyHighlight`
 
-``ApplyHighlight(target: `Class.StudioWidget`, rowName: `string?`)`` → `null`
+``ApplyHighlight(target: `Class.StudioWidget`, rowName: `string?`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioWidgetsService:ApplyShadows`
 
-``ApplyShadows()`` → `null`
+``ApplyShadows()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioWidgetsService:ApplySpotlight`
 
-``ApplySpotlight(target: `Class.StudioWidget`, rowName: `string?`)`` → `null`
+``ApplySpotlight(target: `Class.StudioWidget`, rowName: `string?`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioWidgetsService:GetWidgetFromLabel`
 
-``GetWidgetFromLabel(label: `string`)`` → `Class.StudioWidget`
+``GetWidgetFromLabel(label: `string`)`` -> `Class.StudioWidget`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioWidgetsService:GetWidgetFromPluginGui`
 
-``GetWidgetFromPluginGui(gui: `Class.PluginGui`)`` → `Class.StudioWidget`
+``GetWidgetFromPluginGui(gui: `Class.PluginGui`)`` -> `Class.StudioWidget`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioWidgetsService:HideSpotlight`
 
-``HideSpotlight()`` → `null`
+``HideSpotlight()`` -> `null`
    {security: RobloxScriptSecurity}

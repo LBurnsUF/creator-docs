@@ -10,8 +10,8 @@ superclass: TextChatMessageProperties
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.BubbleChatMessageProperties.BackgroundColor3` | `Datatype.Color3` |  |
 | `Class.BubbleChatMessageProperties.BackgroundTransparency` | `double` |  |
 | `Class.BubbleChatMessageProperties.FontFace` | `Datatype.Font` |  |

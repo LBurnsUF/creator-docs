@@ -13,8 +13,8 @@ tags: [NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StudioCallout.AnchorPoint` | `Datatype.Vector2` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.StudioCallout.IsArrowVisible` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.StudioCallout.IsNextVisible` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -26,5 +26,5 @@ tags: [NotReplicated]
 
 ### `Class.StudioCallout:SetOnNextClicked`
 
-``SetOnNextClicked(onClick: `Datatype.Function`)`` → `null`
+``SetOnNextClicked(onClick: `Datatype.Function`)`` -> `null`
    {security: RobloxScriptSecurity}

@@ -13,6 +13,6 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StudioUserService.IsLoggedIn` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |

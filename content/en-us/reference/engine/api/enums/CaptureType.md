@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.CaptureType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.CaptureType.Screenshot` | 1 |
-| `Enum.CaptureType.Video` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.CaptureType.Screenshot` | 1 |  |
+| `Enum.CaptureType.Video` | 2 |  |

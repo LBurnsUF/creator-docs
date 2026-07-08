@@ -15,25 +15,25 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AvatarImportService:ImportFBXAnimationFromFilePathUserMayChooseModel`
 
-``ImportFBXAnimationFromFilePathUserMayChooseModel(fbxFilePath: `string`, selectedRig: `Class.Instance`, userChooseModelThenImportCB: `Datatype.Function`)`` → `Class.Instance`
+``ImportFBXAnimationFromFilePathUserMayChooseModel(fbxFilePath: `string`, selectedRig: `Class.Instance`, userChooseModelThenImportCB: `Datatype.Function`)`` -> `Class.Instance`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AvatarImportService:ImportFBXAnimationUserMayChooseModel`
 
-``ImportFBXAnimationUserMayChooseModel(selectedRig: `Class.Instance`, userChooseModelThenImportCB: `Datatype.Function`)`` → `Class.Instance`
+``ImportFBXAnimationUserMayChooseModel(selectedRig: `Class.Instance`, userChooseModelThenImportCB: `Datatype.Function`)`` -> `Class.Instance`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AvatarImportService:ImportFbxRigWithoutSceneLoad`
 
-``ImportFbxRigWithoutSceneLoad(isR15: `bool`)`` → `Class.Instance`
+``ImportFbxRigWithoutSceneLoad(isR15: `bool`)`` -> `Class.Instance`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AvatarImportService:ImportLoadedFBXAnimation`
 
-``ImportLoadedFBXAnimation(useFBXModel: `bool`)`` → `Class.Instance`
+``ImportLoadedFBXAnimation(useFBXModel: `bool`)`` -> `Class.Instance`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AvatarImportService:LoadRigAndDetectType`
 
-``LoadRigAndDetectType(promptR15Callback: `Datatype.Function`)`` → `Class.Instance`
+``LoadRigAndDetectType(promptR15Callback: `Datatype.Function`)`` -> `Class.Instance`
   [Yields] {security: RobloxScriptSecurity}

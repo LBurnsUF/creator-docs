@@ -13,12 +13,12 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PlayerDataService.LoadFailureBehavior` | `Enum.PlayerDataLoadFailureBehavior` |  |
 
 ## Methods
 
 ### `Class.PlayerDataService:GetRecordConfig`
 
-``GetRecordConfig(recordName: `string`)`` → `Class.PlayerDataRecordConfig`
+``GetRecordConfig(recordName: `string`)`` -> `Class.PlayerDataRecordConfig`

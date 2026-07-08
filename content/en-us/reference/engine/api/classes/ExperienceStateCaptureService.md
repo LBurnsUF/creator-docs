@@ -13,8 +13,8 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ExperienceStateCaptureService.HiddenSelectionEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.ExperienceStateCaptureService.IsInBackground` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.ExperienceStateCaptureService.IsInCaptureMode` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -24,17 +24,17 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.ExperienceStateCaptureService:CanEnterCaptureMode`
 
-``CanEnterCaptureMode()`` → `bool`
+``CanEnterCaptureMode()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.ExperienceStateCaptureService:ResetHighlight`
 
-``ResetHighlight()`` → `null`
+``ResetHighlight()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ExperienceStateCaptureService:ToggleCaptureMode`
 
-``ToggleCaptureMode()`` → `null`
+``ToggleCaptureMode()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

@@ -6,12 +6,21 @@ superclass: Instance
 
 # AudioFlanger
 
+Imparts a whooshing or sweeping sound on audio streams.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioFlanger` imparts a whooshing or sweeping sound on audio streams by
+overlaying a delayed copy of the input stream and modulating the pitch of the
+copy. It provides one **Input** pin and one **Output** pin which can be
+connected to/from by `Class.Wire|Wires`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioFlanger.Bypass` | `bool` |  |
 | `Class.AudioFlanger.Depth` | `float` |  |
 | `Class.AudioFlanger.Mix` | `float` |  |
@@ -21,15 +30,15 @@ superclass: Instance
 
 ### `Class.AudioFlanger:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioFlanger:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioFlanger:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ## Events
 

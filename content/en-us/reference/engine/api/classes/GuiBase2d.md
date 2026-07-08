@@ -7,14 +7,21 @@ tags: [NotCreatable, NotBrowsable]
 
 # GuiBase2d
 
+An abstract class inherited by 2D `Class.GuiObject|GuiObjects`.
+
 **Inherits from:** `Class.GuiBase` > `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [NotBrowsable]
 
+## Description
+
+`Class.GuiBase2d` is an abstract class inherited by 2D
+`Class.GuiObject|GuiObjects`.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.GuiBase2d.AbsolutePosition` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
 | `Class.GuiBase2d.AbsoluteRotation` | `float` | [ReadOnly] [NotReplicated] |
 | `Class.GuiBase2d.AbsoluteSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |

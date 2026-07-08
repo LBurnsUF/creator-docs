@@ -15,10 +15,10 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.TextureGenerationUnwrappingRequest:ApplyToDataModel`
 
-``ApplyToDataModel(partGroup: `Class.TextureGenerationPartGroup`)`` → `Class.TextureGenerationPartGroup`
+``ApplyToDataModel(partGroup: `Class.TextureGenerationPartGroup`)`` -> `Class.TextureGenerationPartGroup`
    {security: RobloxScriptSecurity}
 
 ### `Class.TextureGenerationUnwrappingRequest:GetPartGroup`
 
-``GetPartGroup()`` → `Class.TextureGenerationPartGroup`
+``GetPartGroup()`` -> `Class.TextureGenerationPartGroup`
    {security: RobloxScriptSecurity}

@@ -15,20 +15,20 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.DataModelPatchService:GetLuaVersion`
 
-``GetLuaVersion(patchName: `string`)`` → `string`
+``GetLuaVersion(patchName: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModelPatchService:GetPatch`
 
-``GetPatch(patchName: `string`)`` → `Class.Instance`
+``GetPatch(patchName: `string`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModelPatchService:RegisterPatch`
 
-``RegisterPatch(patchName: `string`, behaviorName: `string`, localConfigPath: `string`, userId: `int64`)`` → `null`
+``RegisterPatch(patchName: `string`, behaviorName: `string`, localConfigPath: `string`, userId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModelPatchService:UpdatePatch`
 
-``UpdatePatch(userId: `int64`, patchName: `string`, callbackFunction: `Datatype.Function`)`` → `null`
+``UpdatePatch(userId: `int64`, patchName: `string`, callbackFunction: `Datatype.Function`)`` -> `null`
    {security: RobloxScriptSecurity}

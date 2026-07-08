@@ -7,12 +7,12 @@ type: enum
 
 The `Enum.VoiceChatState` enum has 7 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.VoiceChatState.Idle` | 0 |
-| `Enum.VoiceChatState.Joining` | 1 |
-| `Enum.VoiceChatState.JoiningRetry` | 2 |
-| `Enum.VoiceChatState.Joined` | 3 |
-| `Enum.VoiceChatState.Leaving` | 4 |
-| `Enum.VoiceChatState.Ended` | 5 |
-| `Enum.VoiceChatState.Failed` | 6 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.VoiceChatState.Idle` | 0 |  |
+| `Enum.VoiceChatState.Joining` | 1 |  |
+| `Enum.VoiceChatState.JoiningRetry` | 2 |  |
+| `Enum.VoiceChatState.Joined` | 3 |  |
+| `Enum.VoiceChatState.Leaving` | 4 |  |
+| `Enum.VoiceChatState.Ended` | 5 |  |
+| `Enum.VoiceChatState.Failed` | 6 |  |

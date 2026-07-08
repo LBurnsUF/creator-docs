@@ -15,35 +15,35 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.TutorialService:GetMainViewSessionId`
 
-``GetMainViewSessionId()`` → `string`
+``GetMainViewSessionId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.TutorialService:HasUserCompletedTutorial`
 
-``HasUserCompletedTutorial()`` → `bool`
+``HasUserCompletedTutorial()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.TutorialService:HideWidgets`
 
-``HideWidgets(commaSeparatedNames: `string`)`` → `bool`
+``HideWidgets(commaSeparatedNames: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.TutorialService:PromptClosePlace`
 
-``PromptClosePlace()`` → `null`
+``PromptClosePlace()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TutorialService:SetTutorialCompletionStatus`
 
-``SetTutorialCompletionStatus(completed: `bool`)`` → `null`
+``SetTutorialCompletionStatus(completed: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TutorialService:ShouldLaunchTutorial`
 
-``ShouldLaunchTutorial()`` → `bool`
+``ShouldLaunchTutorial()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.TutorialService:ShowWidgets`
 
-``ShowWidgets(commaSeparatedNames: `string`)`` → `bool`
+``ShowWidgets(commaSeparatedNames: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}

@@ -13,8 +13,8 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PlayerEmulatorService.CustomPoliciesEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.PlayerEmulatorService.EmulatedCountryCode` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.PlayerEmulatorService.EmulatedGameLocale` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -27,15 +27,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.PlayerEmulatorService:GetEmulatedPolicyInfo`
 
-``GetEmulatedPolicyInfo()`` → `Dictionary`
+``GetEmulatedPolicyInfo()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlayerEmulatorService:RegionCodeWillHaveAutomaticNonCustomPolicies`
 
-``RegionCodeWillHaveAutomaticNonCustomPolicies(regionCode: `string`)`` → `bool`
+``RegionCodeWillHaveAutomaticNonCustomPolicies(regionCode: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.PlayerEmulatorService:SetEmulatedPolicyInfo`
 
-``SetEmulatedPolicyInfo(emulatedPolicyInfo: `Dictionary`)`` → `null`
+``SetEmulatedPolicyInfo(emulatedPolicyInfo: `Dictionary`)`` -> `null`
    {security: RobloxScriptSecurity}

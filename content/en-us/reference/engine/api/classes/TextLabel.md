@@ -6,12 +6,33 @@ superclass: GuiLabel
 
 # TextLabel
 
+A 2D user interface element that displays non-interactive text.
+
 **Inherits from:** `Class.GuiLabel` > `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
+
+## Description
+
+A `Class.TextLabel` renders a rectangle, like a `Class.Frame`, with styled
+text. The rectangle can be used to define text boundaries, text scaling
+(`Class.TextLabel.TextScaled|TextScaled`), wrapping
+(`Class.TextLabel.TextWrapped|TextWrapped`), and alignment
+(`Class.TextLabel.TextXAlignment|TextXAlignment` and/or
+`Class.TextLabel.TextYAlignment|TextYAlignment`).
+
+This class contains properties that control the display of the text, such as
+`Class.TextLabel.Font|Font` and `Class.TextLabel.TextColor3|TextColor3`. To
+display only text and hide the background rectangle, set
+`Class.TextLabel.BackgroundTransparency|BackgroundTransparency` to `1`.
+
+A `Class.UITextSizeConstraint` object can be used to constrain the size of
+text with `Class.TextLabel.TextScaled|TextScaled` enabled. It is recommended
+that the size of text is no lower than `9`, otherwise it may not be visible to
+many users.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.TextLabel.ContentText` | `string` | [ReadOnly] [NotReplicated] |
 | `Class.TextLabel.Font` | `Enum.Font` | [Hidden] [NotReplicated] |
 | `Class.TextLabel.FontFace` | `Datatype.Font` |  |
@@ -45,5 +66,5 @@ superclass: GuiLabel
 
 ### `Class.TextLabel:SetTextFromInput`
 
-``SetTextFromInput(text: `string`)`` → `null`
+``SetTextFromInput(text: `string`)`` -> `null`
    {security: RobloxScriptSecurity}

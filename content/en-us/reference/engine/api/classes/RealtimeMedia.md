@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.RealtimeMedia.ForwardInput` | `bool` |  {security: RobloxScriptSecurity} |
 | `Class.RealtimeMedia.IsConnected` | `bool` | [ReadOnly] [NotReplicated] |
 
@@ -19,28 +19,28 @@ superclass: Instance
 
 ### `Class.RealtimeMedia:ConnectAsync`
 
-``ConnectAsync(serverUrl: `string`, connectParams: `Dictionary`)`` → `bool`
+``ConnectAsync(serverUrl: `string`, connectParams: `Dictionary`)`` -> `bool`
   [Yields]
 
 ### `Class.RealtimeMedia:Disconnect`
 
-``Disconnect()`` → `null`
+``Disconnect()`` -> `null`
 
 ### `Class.RealtimeMedia:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.RealtimeMedia:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.RealtimeMedia:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ### `Class.RealtimeMedia:SendMessage`
 
-``SendMessage(message: `string`, binary: `bool`)`` → `bool`
+``SendMessage(message: `string`, binary: `bool`)`` -> `bool`
 
 ## Events
 

@@ -7,6 +7,54 @@ tags: [Deprecated]
 
 # CylinderMesh
 
+The CylinderMesh object applies a 'cylinder' mesh to the `Class.BasePart` it
+is parented to.
+
 **Inherits from:** `Class.BevelMesh` > `Class.DataModelMesh` > `Class.Instance` > `Class.Object`
 
 **Tags:** [Deprecated]
+
+## Description
+
+The CylinderMesh object applies a 'cylinder' mesh to the `Class.BasePart` it
+is parented to.
+
+## What does a CylinderMesh do?
+
+A CylinderMesh gives the `Class.BasePart` it was applied to a cylinder shaped
+mesh.
+
+The mesh applied gives the same appearance as that due to the
+`Class.SpecialMesh.MeshType` of a `Class.SpecialMesh` being set to 'Cylinder'
+or `Class.Part.Shape` being set to 'Cylinder'. However, unlike those two
+cases, it is orientated so that the height of the cylinder is along the
+`Class.BasePart` Y axis.
+
+The dimensions of the mesh scale relative to the `Class.BasePart.Size` of the
+`Class.BasePart`. This scale is uniformly along the `Class.BasePart` Y axis
+and maintaining a 1:1 ratio for the part's X and Z axis, using the lowest
+value. This means the `Class.BasePart` can be resized normally, but the cross
+section of the cylinder will always remain a circle and cannot be stretched or
+compressed.
+
+Note as the CylinderMesh object does not include a texture the
+`Class.DataModelMesh.VertexColor` property does not do anything.
+
+## Why use a CylinderMesh?
+
+The advantage of using a mesh over setting the `Class.Part.Shape` property of
+a part to 'Cylinder' is that the `Class.DataModelMesh.Scale` and
+`Class.DataModelMesh.Offset` properties are exposed. These allow the position
+and dimensions of the mesh that is displayed to be changed without changing
+the `Class.BasePart.Position` or `Class.BasePart.Size` of the `Class.Part` the
+mesh is parented to.
+
+The key difference between a CylinderMesh or a `Class.SpecialMesh` with
+`Class.SpecialMesh.MeshType` set to 'Cylinder' is the orientation of the
+cylinder mesh. With a CylinderMesh, the height of the cylinder is aligned with
+the height (Y axis) of the part. With a `Class.SpecialMesh` (or `Class.Part`
+with `Class.Part.Shape` set to 'Cylinder'), the height of the cylinder is
+aligned with the X axis.
+
+> **Deprecated:** This class is deprecated, and `Class.CylinderMesh|CylinderMeshes` are no
+longer supported. Do not use it for new work.

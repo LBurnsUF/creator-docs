@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.GroupImportData.Anchored` | `bool` |  |
 | `Class.GroupImportData.ImportAsModelAsset` | `bool` |  |
 | `Class.GroupImportData.InsertInWorkspace` | `bool` |  |

@@ -7,14 +7,26 @@ tags: [NotCreatable]
 
 # DataModel
 
+The root of Roblox's parent-child hierarchy. Its direct children are services,
+such as `Class.Workspace` and `Class.Lighting`, that act as the fundamental
+components of a Roblox game.
+
 **Inherits from:** `Class.ServiceProvider` > `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable]
 
+## Description
+
+The [Data Model](../../../projects/data-model.md) (commonly known as `game`
+after the global variable used to access it) is the root of Roblox's
+parent-child hierarchy. Its direct children are services, such as
+`Class.Workspace` and `Class.Lighting`, that act as the fundamental components
+of a Roblox game.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DataModel.CreatorId` | `int64` | [ReadOnly] [NotReplicated] |
 | `Class.DataModel.CreatorType` | `Enum.CreatorType` | [ReadOnly] [NotReplicated] |
 | `Class.DataModel.Environment` | `string` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -39,185 +51,185 @@ tags: [NotCreatable]
 
 ### `Class.DataModel:BindToClose`
 
-``BindToClose(function: `Datatype.Function`)`` → `null`
+``BindToClose(function: `Datatype.Function`)`` -> `null`
 
 ### `Class.DataModel:DefineFastFlag`
 
-``DefineFastFlag(name: `string`, defaultValue: `bool`)`` → `bool`
+``DefineFastFlag(name: `string`, defaultValue: `bool`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:DefineFastInt`
 
-``DefineFastInt(name: `string`, defaultValue: `int`)`` → `int`
+``DefineFastInt(name: `string`, defaultValue: `int`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:DefineFastString`
 
-``DefineFastString(name: `string`, defaultValue: `string`)`` → `string`
+``DefineFastString(name: `string`, defaultValue: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:GetEngineFeature`
 
-``GetEngineFeature(name: `string`)`` → `bool`
+``GetEngineFeature(name: `string`)`` -> `bool`
    {security: LocalUserSecurity}
 
 ### `Class.DataModel:GetFastFlag`
 
-``GetFastFlag(name: `string`)`` → `bool`
+``GetFastFlag(name: `string`)`` -> `bool`
    {security: LocalUserSecurity}
 
 ### `Class.DataModel:GetFastInt`
 
-``GetFastInt(name: `string`)`` → `int`
+``GetFastInt(name: `string`)`` -> `int`
    {security: LocalUserSecurity}
 
 ### `Class.DataModel:GetFastString`
 
-``GetFastString(name: `string`)`` → `string`
+``GetFastString(name: `string`)`` -> `string`
    {security: LocalUserSecurity}
 
 ### `Class.DataModel:GetJobsInfo`
 
-``GetJobsInfo()`` → `Array`
+``GetJobsInfo()`` -> `Array`
    {security: PluginSecurity}
 
 ### `Class.DataModel:GetMessage`
 
-``GetMessage()`` → `string`
+``GetMessage()`` -> `string`
   [Deprecated]
 
 ### `Class.DataModel:GetObjects`
 
-``GetObjects(url: `Datatype.ContentId`)`` → `Datatype.Instances`
+``GetObjects(url: `Datatype.ContentId`)`` -> `Datatype.Instances`
    {security: PluginSecurity}
 
 ### `Class.DataModel:GetObjectsAllOrNone`
 
-``GetObjectsAllOrNone(url: `Datatype.ContentId`)`` → `Datatype.Instances`
+``GetObjectsAllOrNone(url: `Datatype.ContentId`)`` -> `Datatype.Instances`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:GetObjectsAsync`
 
-``GetObjectsAsync(url: `Datatype.ContentId`)`` → `Datatype.Instances`
+``GetObjectsAsync(url: `Datatype.ContentId`)`` -> `Datatype.Instances`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:GetObjectsList`
 
-``GetObjectsList(urls: `Array`)`` → `Array`
+``GetObjectsList(urls: `Array`)`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:GetPlaySessionId`
 
-``GetPlaySessionId()`` → `string`
+``GetPlaySessionId()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:GetRemoteBuildMode`
 
-``GetRemoteBuildMode()`` → `bool`
+``GetRemoteBuildMode()`` -> `bool`
   [Deprecated]
 
 ### `Class.DataModel:HttpGetAsync`
 
-``HttpGetAsync(url: `string`, httpRequestType: `Enum.HttpRequestType`)`` → `string`
+``HttpGetAsync(url: `string`, httpRequestType: `Enum.HttpRequestType`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:HttpPostAsync`
 
-``HttpPostAsync(url: `string`, data: `string`, contentType: `string`, httpRequestType: `Enum.HttpRequestType`)`` → `string`
+``HttpPostAsync(url: `string`, data: `string`, contentType: `string`, httpRequestType: `Enum.HttpRequestType`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:InsertObjectsAndJoinIfLegacyAsync`
 
-``InsertObjectsAndJoinIfLegacyAsync(url: `Datatype.ContentId`)`` → `Datatype.Instances`
+``InsertObjectsAndJoinIfLegacyAsync(url: `Datatype.ContentId`)`` -> `Datatype.Instances`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:IsContentLoaded`
 
-``IsContentLoaded()`` → `bool`
+``IsContentLoaded()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:IsGearTypeAllowed`
 
-``IsGearTypeAllowed(gearType: `Enum.GearType`)`` → `bool`
+``IsGearTypeAllowed(gearType: `Enum.GearType`)`` -> `bool`
   [Deprecated]
 
 ### `Class.DataModel:IsLoaded`
 
-``IsLoaded()`` → `bool`
+``IsLoaded()`` -> `bool`
 
 ### `Class.DataModel:IsUniverseMetadataLoaded`
 
-``IsUniverseMetadataLoaded()`` → `bool`
+``IsUniverseMetadataLoaded()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:Load`
 
-``Load(url: `Datatype.ContentId`)`` → `null`
+``Load(url: `Datatype.ContentId`)`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.DataModel:OpenLogsFolder`
 
-``OpenLogsFolder()`` → `null`
+``OpenLogsFolder()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:OpenScreenshotsFolder`
 
-``OpenScreenshotsFolder()`` → `null`
+``OpenScreenshotsFolder()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:OpenVideosFolder`
 
-``OpenVideosFolder()`` → `null`
+``OpenVideosFolder()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:SavePlace`
 
-``SavePlace(saveFilter: `Enum.SaveFilter`)`` → `bool`
+``SavePlace(saveFilter: `Enum.SaveFilter`)`` -> `bool`
   [Yields] [Deprecated]
 
 ### `Class.DataModel:SetFastFlagForTesting`
 
-``SetFastFlagForTesting(name: `string`, newValue: `bool`)`` → `bool`
+``SetFastFlagForTesting(name: `string`, newValue: `bool`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:SetFastIntForTesting`
 
-``SetFastIntForTesting(name: `string`, newValue: `int`)`` → `int`
+``SetFastIntForTesting(name: `string`, newValue: `int`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:SetFastStringForTesting`
 
-``SetFastStringForTesting(name: `string`, newValue: `string`)`` → `string`
+``SetFastStringForTesting(name: `string`, newValue: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:SetFlagVersion`
 
-``SetFlagVersion(name: `string`, version: `int`)`` → `null`
+``SetFlagVersion(name: `string`, version: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:SetIsLoaded`
 
-``SetIsLoaded(value: `bool`, placeSizeInBytes: `int?`)`` → `null`
+``SetIsLoaded(value: `bool`, placeSizeInBytes: `int?`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DataModel:SetPlaceId`
 
-``SetPlaceId(placeId: `int64`)`` → `null`
+``SetPlaceId(placeId: `int64`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.DataModel:SetUniverseId`
 
-``SetUniverseId(universeId: `int64`)`` → `null`
+``SetUniverseId(universeId: `int64`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.DataModel:Shutdown`
 
-``Shutdown()`` → `null`
+``Shutdown()`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.DataModel:getGameTime`
 
-``getGameTime()`` → `double`
+``getGameTime()`` -> `double`
    {security: RobloxScriptSecurity}
 
 ## Events
@@ -264,5 +276,5 @@ Fires with: ()
 
 ### `Class.DataModel.OnClose`
 
-``OnClose()`` → `Tuple`
+``OnClose()`` -> `Tuple`
   [Deprecated]

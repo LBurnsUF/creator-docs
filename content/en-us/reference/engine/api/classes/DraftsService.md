@@ -15,52 +15,52 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.DraftsService:CommitEdits`
 
-``CommitEdits(scripts: `Datatype.Instances`)`` → `null`
+``CommitEdits(scripts: `Datatype.Instances`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.DraftsService:DiscardEdits`
 
-``DiscardEdits(scripts: `Datatype.Instances`)`` → `null`
+``DiscardEdits(scripts: `Datatype.Instances`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DraftsService:GetDraftStatus`
 
-``GetDraftStatus(script: `Class.Instance`)`` → `Enum.DraftStatusCode`
+``GetDraftStatus(script: `Class.Instance`)`` -> `Enum.DraftStatusCode`
    {security: RobloxScriptSecurity}
 
 ### `Class.DraftsService:GetDrafts`
 
-``GetDrafts()`` → `Datatype.Instances`
+``GetDrafts()`` -> `Datatype.Instances`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.DraftsService:GetEditors`
 
-``GetEditors(script: `Class.Instance`)`` → `Datatype.Instances`
+``GetEditors(script: `Class.Instance`)`` -> `Datatype.Instances`
    {security: RobloxScriptSecurity}
 
 ### `Class.DraftsService:RestoreScripts`
 
-``RestoreScripts(scripts: `Datatype.Instances`)`` → `null`
+``RestoreScripts(scripts: `Datatype.Instances`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DraftsService:ShowDiffsAgainstBase`
 
-``ShowDiffsAgainstBase(scripts: `Datatype.Instances`)`` → `null`
+``ShowDiffsAgainstBase(scripts: `Datatype.Instances`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DraftsService:ShowDiffsAgainstServer`
 
-``ShowDiffsAgainstServer(scripts: `Datatype.Instances`)`` → `null`
+``ShowDiffsAgainstServer(scripts: `Datatype.Instances`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DraftsService:ShowSourceDiffsAgainstCurrent`
 
-``ShowSourceDiffsAgainstCurrent(sources: `Array`, scripts: `Datatype.Instances`)`` → `null`
+``ShowSourceDiffsAgainstCurrent(sources: `Array`, scripts: `Datatype.Instances`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DraftsService:UpdateToLatestVersion`
 
-``UpdateToLatestVersion(scripts: `Datatype.Instances`)`` → `null`
+``UpdateToLatestVersion(scripts: `Datatype.Instances`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ## Events

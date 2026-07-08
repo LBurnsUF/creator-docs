@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AvatarAccessoryRules.AccessoryMode` | `Enum.AvatarSettingsAccessoryMode` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarAccessoryRules.CustomAccessoryMode` | `Enum.AvatarSettingsCustomAccessoryMode` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarAccessoryRules.CustomBackAccessoryEnabled` | `bool` |  {security: RobloxScriptSecurity} |
@@ -40,5 +40,5 @@ superclass: Instance
 
 ### `Class.AvatarAccessoryRules:willRemoveAccessory`
 
-``willRemoveAccessory(humanoid: `Class.Humanoid`, accessory: `Class.Accoutrement`)`` → `bool`
+``willRemoveAccessory(humanoid: `Class.Humanoid`, accessory: `Class.Accoutrement`)`` -> `bool`
    {security: RobloxScriptSecurity}

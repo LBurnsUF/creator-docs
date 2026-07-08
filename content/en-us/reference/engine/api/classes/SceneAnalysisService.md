@@ -11,34 +11,40 @@ tags: [NotCreatable, Service, NotReplicated]
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+Provides programmatic access to the
+[Scene Analysis](../../../performance-optimization/scene-analysis.md) tool's
+underlying performance data.
+
 ## Methods
 
 ### `Class.SceneAnalysisService:GetAnimationMemoryAsync`
 
-``GetAnimationMemoryAsync()`` → `Dictionary`
+``GetAnimationMemoryAsync()`` -> `Dictionary`
   [Yields]
 
 ### `Class.SceneAnalysisService:GetAudioMemoryAsync`
 
-``GetAudioMemoryAsync()`` → `Dictionary`
+``GetAudioMemoryAsync()`` -> `Dictionary`
   [Yields]
 
 ### `Class.SceneAnalysisService:GetInstanceCompositionAsync`
 
-``GetInstanceCompositionAsync()`` → `Dictionary`
+``GetInstanceCompositionAsync()`` -> `Dictionary`
   [Yields]
 
 ### `Class.SceneAnalysisService:GetScriptMemoryAsync`
 
-``GetScriptMemoryAsync()`` → `Dictionary`
+``GetScriptMemoryAsync()`` -> `Dictionary`
   [Yields]
 
 ### `Class.SceneAnalysisService:GetTriangleCompositionAsync`
 
-``GetTriangleCompositionAsync()`` → `Dictionary`
+``GetTriangleCompositionAsync()`` -> `Dictionary`
   [Yields]
 
 ### `Class.SceneAnalysisService:GetUnparentedInstancesAsync`
 
-``GetUnparentedInstancesAsync()`` → `Dictionary`
+``GetUnparentedInstancesAsync()`` -> `Dictionary`
   [Yields]

@@ -6,12 +6,24 @@ superclass: HandlesBase
 
 # ArcHandles
 
+The `Class.ArcHandles` object places 3D arc handles around any 3D object that
+its `Class.PartAdornment.Adornee|Adornee` is set to.
+
 **Inherits from:** `Class.HandlesBase` > `Class.PartAdornment` > `Class.GuiBase3d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
+
+## Description
+
+The **ArcHandles** object places 3D arc handles around any 3D object that its
+`Class.PartAdornment.Adornee|Adornee` is set to. For handles to be
+interactive, it must be parented to a player's `Class.PlayerGui` or the
+`Class.CoreGui`.
+
+<img src="../../../assets/engine-api/classes/ArcHandles/ArcHandles-Example.jpg"  alt="ArcHandles example" />
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ArcHandles.Axes` | `Datatype.Axes` |  |
 
 ## Events

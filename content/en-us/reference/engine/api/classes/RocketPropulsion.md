@@ -7,14 +7,34 @@ tags: [Deprecated]
 
 # RocketPropulsion
 
+Applies a force so that an assembly follows and faces a target part.
+
 **Inherits from:** `Class.BodyMover` > `Class.Instance` > `Class.Object`
 
 **Tags:** [Deprecated]
 
+## Description
+
+The `RocketPropulsion` object applies force on an assembly so that it both
+**follows** and **faces** a target. It acts like a hybrid of
+`Class.BodyPosition` and `Class.BodyGyro`. Unlike other
+`Class.BodyMover|BodyMovers`, `RocketPropulsion` must be instructed to begin
+applying or stopping force via `Class.RocketPropulsion:Fire()|Fire()` or
+`Class.RocketPropulsion:Abort()|Abort()` respectively.
+
+You can detect when the assembly reaches its target using the
+`Class.RocketPropulsion.ReachedTarget|ReachedTarget` event which fires once
+the assembly is within the `Class.RocketPropulsion.TargetRadius|TargetRadius`
+of the `Class.RocketPropulsion.Target|Target` part.
+
+> **Deprecated:** This object is deprecated and should not be used for new work. Use
+`Class.LineForce` instead, and see the
+[legacy conversion notes](../../../physics/mover-constraints.md#legacy-mover-conversion).
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.RocketPropulsion.CartoonFactor` | `float` |  |
 | `Class.RocketPropulsion.MaxSpeed` | `float` |  |
 | `Class.RocketPropulsion.MaxThrust` | `float` |  |
@@ -31,15 +51,15 @@ tags: [Deprecated]
 
 ### `Class.RocketPropulsion:Abort`
 
-``Abort()`` → `null`
+``Abort()`` -> `null`
 
 ### `Class.RocketPropulsion:Fire`
 
-``Fire()`` → `null`
+``Fire()`` -> `null`
 
 ### `Class.RocketPropulsion:fire`
 
-``fire()`` → `null`
+``fire()`` -> `null`
   [Deprecated]
 
 ## Events

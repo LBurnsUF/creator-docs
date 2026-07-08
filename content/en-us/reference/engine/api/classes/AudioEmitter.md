@@ -6,12 +6,27 @@ superclass: Instance
 
 # AudioEmitter
 
+Emits audio streams into the world.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioEmitter` emits audio streams into the world. It provides a single
+**Input** pin that can be connected to by one or more `Class.Wire|Wires`. Any
+streams wired to an `Class.AudioEmitter` get broadcasted into the world from
+the emitter's parent's position. If the parent is an `Class.Attachment`,
+`Class.Camera`, or `Class.PVInstance`, the parent's world-position will be
+used. If the parent is not one of these classes, the `Class.AudioEmitter` is
+effectively silent.
+
+`Class.AudioEmitter|AudioEmitters` are heard by
+`Class.AudioListener|AudioListeners` in order to implement 3D spatialization.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioEmitter.AcousticSimulationEnabled` | `bool` |  |
 | `Class.AudioEmitter.AngleAttenuation` | `Datatype.BinaryString` |  {security: RobloxSecurity} |
 | `Class.AudioEmitter.AudioInteractionGroup` | `string` |  |
@@ -27,42 +42,42 @@ superclass: Instance
 
 ### `Class.AudioEmitter:GetAngleAttenuation`
 
-``GetAngleAttenuation()`` → `Dictionary`
+``GetAngleAttenuation()`` -> `Dictionary`
   [CustomLuaState]
 
 ### `Class.AudioEmitter:GetAudibilityFor`
 
-``GetAudibilityFor(listener: `Class.AudioListener`)`` → `float`
+``GetAudibilityFor(listener: `Class.AudioListener`)`` -> `float`
 
 ### `Class.AudioEmitter:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioEmitter:GetDistanceAttenuation`
 
-``GetDistanceAttenuation()`` → `Dictionary`
+``GetDistanceAttenuation()`` -> `Dictionary`
   [CustomLuaState]
 
 ### `Class.AudioEmitter:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioEmitter:GetInteractingListeners`
 
-``GetInteractingListeners()`` → `Datatype.Instances`
+``GetInteractingListeners()`` -> `Datatype.Instances`
 
 ### `Class.AudioEmitter:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ### `Class.AudioEmitter:SetAngleAttenuation`
 
-``SetAngleAttenuation(curve: `Dictionary`)`` → `null`
+``SetAngleAttenuation(curve: `Dictionary`)`` -> `null`
   [CustomLuaState]
 
 ### `Class.AudioEmitter:SetDistanceAttenuation`
 
-``SetDistanceAttenuation(curve: `Dictionary`)`` → `null`
+``SetDistanceAttenuation(curve: `Dictionary`)`` -> `null`
   [CustomLuaState]
 
 ## Events

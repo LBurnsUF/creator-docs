@@ -15,25 +15,25 @@ tags: [NotCreatable, Service]
 
 ### `Class.PermissionsService:GetIsThirdPartyAssetAllowed`
 
-``GetIsThirdPartyAssetAllowed()`` → `bool`
+``GetIsThirdPartyAssetAllowed()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.PermissionsService:GetIsThirdPartyPurchaseAllowed`
 
-``GetIsThirdPartyPurchaseAllowed()`` → `bool`
+``GetIsThirdPartyPurchaseAllowed()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.PermissionsService:GetIsThirdPartyTeleportAllowed`
 
-``GetIsThirdPartyTeleportAllowed()`` → `bool`
+``GetIsThirdPartyTeleportAllowed()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.PermissionsService:GetPermissions`
 
-``GetPermissions(assetId: `string`)`` → `Array`
+``GetPermissions(assetId: `string`)`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.PermissionsService:SetPermissions`
 
-``SetPermissions(assetId: `string`, permissions: `Array`)`` → `null`
+``SetPermissions(assetId: `string`, permissions: `Array`)`` -> `null`
    {security: RobloxScriptSecurity}

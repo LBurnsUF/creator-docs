@@ -15,5 +15,5 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.MLSession:ForwardAsync`
 
-``ForwardAsync(data: `Dictionary`)`` → `Dictionary`
+``ForwardAsync(data: `Dictionary`)`` -> `Dictionary`
   [Yields]

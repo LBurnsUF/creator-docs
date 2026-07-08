@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.FeatureRestrictionAbuseVector` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.FeatureRestrictionAbuseVector.ExperienceChat` | 0 |
-| `Enum.FeatureRestrictionAbuseVector.Communication` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.FeatureRestrictionAbuseVector.ExperienceChat` | 0 |  |
+| `Enum.FeatureRestrictionAbuseVector.Communication` | 1 |  |

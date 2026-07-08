@@ -10,8 +10,8 @@ superclass: SurfaceGuiBase
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AdGui.AdShape` | `Enum.AdShape` |  |
 | `Class.AdGui.EnableVideoAds` | `bool` |  |
 | `Class.AdGui.FallbackImage` | `Datatype.ContentId` |  |
@@ -22,17 +22,17 @@ superclass: SurfaceGuiBase
 
 ### `Class.AdGui:GetSingleReportAdInfo`
 
-``GetSingleReportAdInfo()`` → `Map`
+``GetSingleReportAdInfo()`` -> `Map`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdGui:HandleLuaUIEvent`
 
-``HandleLuaUIEvent(eventType: `Enum.AdUIEventType`)`` → `null`
+``HandleLuaUIEvent(eventType: `Enum.AdUIEventType`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdGui:forwardStateToLuaUI`
 
-``forwardStateToLuaUI()`` → `null`
+``forwardStateToLuaUI()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events
@@ -45,4 +45,4 @@ Fires with: (adUIState: `Variant`)
 
 ### `Class.AdGui.OnAdEvent`
 
-``OnAdEvent(eventInfo: `Dictionary`)`` → `bool`
+``OnAdEvent(eventInfo: `Dictionary`)`` -> `bool`

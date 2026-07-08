@@ -15,52 +15,52 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.LinkingService:DetectUrl`
 
-``DetectUrl(url: `string`)`` → `null`
+``DetectUrl(url: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.LinkingService:GetAndClearLastPendingUrl`
 
-``GetAndClearLastPendingUrl()`` → `Dictionary`
+``GetAndClearLastPendingUrl()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.LinkingService:GetLastLuaUrl`
 
-``GetLastLuaUrl()`` → `string?`
+``GetLastLuaUrl()`` -> `string?`
    {security: RobloxScriptSecurity}
 
 ### `Class.LinkingService:IsUrlRegistered`
 
-``IsUrlRegistered(url: `string`)`` → `bool`
+``IsUrlRegistered(url: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.LinkingService:OpenUrl`
 
-``OpenUrl(url: `string`)`` → `bool`
+``OpenUrl(url: `string`)`` -> `bool`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.LinkingService:RegisterLuaUrl`
 
-``RegisterLuaUrl(url: `string`)`` → `null`
+``RegisterLuaUrl(url: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.LinkingService:StartLuaUrlDelivery`
 
-``StartLuaUrlDelivery()`` → `Dictionary?`
+``StartLuaUrlDelivery()`` -> `Dictionary?`
    {security: RobloxScriptSecurity}
 
 ### `Class.LinkingService:StopLuaUrlDelivery`
 
-``StopLuaUrlDelivery()`` → `null`
+``StopLuaUrlDelivery()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.LinkingService:SupportsSwitchToSettingsApp`
 
-``SupportsSwitchToSettingsApp()`` → `bool`
+``SupportsSwitchToSettingsApp()`` -> `bool`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.LinkingService:SwitchToSettingsApp`
 
-``SwitchToSettingsApp(route: `string?`)`` → `null`
+``SwitchToSettingsApp(route: `string?`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ## Events

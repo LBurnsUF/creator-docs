@@ -11,10 +11,16 @@ tags: [NotCreatable, Service, NotReplicated]
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+The PhysicsSettings is a singleton class, which lets you view debugging
+features in Roblox's physics engine. You can find it under the Physics tab in
+Studio's settings menu.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PhysicsSettings.AllowSleep` | `bool` |  {security: PluginSecurity} |
 | `Class.PhysicsSettings.AreAnchorsShown` | `bool` |  {security: PluginSecurity} |
 | `Class.PhysicsSettings.AreAssembliesShown` | `bool` |  {security: PluginSecurity} |

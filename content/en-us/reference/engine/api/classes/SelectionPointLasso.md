@@ -11,8 +11,16 @@ tags: [Deprecated]
 
 **Tags:** [Deprecated]
 
+## Description
+
+A 3D GUI object which displays a lasso between the defined Humanoid and a
+given Vector3 point.
+
+> **Deprecated:** The SelectionPointLasso class is deprecated. It should not be used for new
+work.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.SelectionPointLasso.Point` | `Datatype.Vector3` |  |

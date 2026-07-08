@@ -7,14 +7,21 @@ tags: [NotCreatable, Service]
 
 # NotificationService
 
+An internal service which cannot be used by developers.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
 
+## Description
+
+An unfinished service that would allow you to schedule notifications.
+Currently goes unimplemented, and cannot be enabled.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.NotificationService.IsConnected` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.NotificationService.IsLuaChatEnabled` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.NotificationService.IsLuaGameDetailsEnabled` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -24,42 +31,42 @@ tags: [NotCreatable, Service]
 
 ### `Class.NotificationService:ActionEnabled`
 
-``ActionEnabled(actionType: `Enum.AppShellActionType`)`` → `null`
+``ActionEnabled(actionType: `Enum.AppShellActionType`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.NotificationService:ActionTaken`
 
-``ActionTaken(actionType: `Enum.AppShellActionType`)`` → `null`
+``ActionTaken(actionType: `Enum.AppShellActionType`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.NotificationService:CancelAllNotification`
 
-``CancelAllNotification(userId: `int64`)`` → `null`
+``CancelAllNotification(userId: `int64`)`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.NotificationService:CancelNotification`
 
-``CancelNotification(userId: `int64`, alertId: `int`)`` → `null`
+``CancelNotification(userId: `int64`, alertId: `int`)`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.NotificationService:GetScheduledNotifications`
 
-``GetScheduledNotifications(userId: `int64`)`` → `Array`
+``GetScheduledNotifications(userId: `int64`)`` -> `Array`
   [Yields] {security: LocalUserSecurity}
 
 ### `Class.NotificationService:ScheduleNotification`
 
-``ScheduleNotification(userId: `int64`, alertId: `int`, alertMsg: `string`, minutesToFire: `int`)`` → `null`
+``ScheduleNotification(userId: `int64`, alertId: `int`, alertMsg: `string`, minutesToFire: `int`)`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.NotificationService:SubscribeToRccEventNamespace`
 
-``SubscribeToRccEventNamespace(eventNamespace: `string`)`` → `null`
+``SubscribeToRccEventNamespace(eventNamespace: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.NotificationService:SwitchedToAppShellFeature`
 
-``SwitchedToAppShellFeature(appShellFeature: `Enum.AppShellFeature`)`` → `null`
+``SwitchedToAppShellFeature(appShellFeature: `Enum.AppShellFeature`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

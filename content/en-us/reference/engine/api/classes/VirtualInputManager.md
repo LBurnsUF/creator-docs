@@ -7,141 +7,148 @@ tags: [Service]
 
 # VirtualInputManager
 
+An internal service that offers no functionality to developers.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [Service]
 
+## Description
+
+VirtualInputManager is an internal service used by Roblox to record inputs and
+play them back during performance benchmarking tests.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.VirtualInputManager.AdditionalLuaState` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
 ### `Class.VirtualInputManager:Dump`
 
-``Dump()`` → `null`
+``Dump()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:HandleGamepadAxisInput`
 
-``HandleGamepadAxisInput(objectId: `int`, keyCode: `Enum.KeyCode`, x: `float`, y: `float`, z: `float`)`` → `null`
+``HandleGamepadAxisInput(objectId: `int`, keyCode: `Enum.KeyCode`, x: `float`, y: `float`, z: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:HandleGamepadButtonInput`
 
-``HandleGamepadButtonInput(deviceId: `int`, keyCode: `Enum.KeyCode`, buttonState: `int`)`` → `null`
+``HandleGamepadButtonInput(deviceId: `int`, keyCode: `Enum.KeyCode`, buttonState: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:HandleGamepadConnect`
 
-``HandleGamepadConnect(deviceId: `int`)`` → `null`
+``HandleGamepadConnect(deviceId: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:HandleGamepadDisconnect`
 
-``HandleGamepadDisconnect(deviceId: `int`)`` → `null`
+``HandleGamepadDisconnect(deviceId: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendAccelerometerEvent`
 
-``SendAccelerometerEvent(x: `float`, y: `float`, z: `float`)`` → `null`
+``SendAccelerometerEvent(x: `float`, y: `float`, z: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendGravityEvent`
 
-``SendGravityEvent(x: `float`, y: `float`, z: `float`)`` → `null`
+``SendGravityEvent(x: `float`, y: `float`, z: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendGyroscopeEvent`
 
-``SendGyroscopeEvent(quatX: `float`, quatY: `float`, quatZ: `float`, quatW: `float`)`` → `null`
+``SendGyroscopeEvent(quatX: `float`, quatY: `float`, quatZ: `float`, quatW: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendKeyEvent`
 
-``SendKeyEvent(isPressed: `bool`, keyCode: `Enum.KeyCode`, isRepeatedKey: `bool`, layerCollector: `Class.Instance`)`` → `null`
+``SendKeyEvent(isPressed: `bool`, keyCode: `Enum.KeyCode`, isRepeatedKey: `bool`, layerCollector: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendMouseButtonEvent`
 
-``SendMouseButtonEvent(x: `int`, y: `int`, mouseButton: `int`, isDown: `bool`, layerCollector: `Class.Instance`, repeatCount: `int`)`` → `null`
+``SendMouseButtonEvent(x: `int`, y: `int`, mouseButton: `int`, isDown: `bool`, layerCollector: `Class.Instance`, repeatCount: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendMouseMoveDeltaEvent`
 
-``SendMouseMoveDeltaEvent(deltaX: `float`, deltaY: `float`, layerCollector: `Class.Instance`)`` → `null`
+``SendMouseMoveDeltaEvent(deltaX: `float`, deltaY: `float`, layerCollector: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendMouseMoveEvent`
 
-``SendMouseMoveEvent(x: `float`, y: `float`, layerCollector: `Class.Instance`)`` → `null`
+``SendMouseMoveEvent(x: `float`, y: `float`, layerCollector: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendMouseWheelEvent`
 
-``SendMouseWheelEvent(x: `float`, y: `float`, isForwardScroll: `bool`, layerCollector: `Class.Instance`)`` → `null`
+``SendMouseWheelEvent(x: `float`, y: `float`, isForwardScroll: `bool`, layerCollector: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendScroll`
 
-``SendScroll(x: `float`, y: `float`, deltaX: `float`, deltaY: `float`, options: `Dictionary`, layerCollector: `Class.Instance`)`` → `null`
+``SendScroll(x: `float`, y: `float`, deltaX: `float`, deltaY: `float`, options: `Dictionary`, layerCollector: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendTextInputCharacterEvent`
 
-``SendTextInputCharacterEvent(str: `string`, layerCollector: `Class.Instance`)`` → `null`
+``SendTextInputCharacterEvent(str: `string`, layerCollector: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SendTouchEvent`
 
-``SendTouchEvent(touchId: `int64`, state: `int`, x: `float`, y: `float`)`` → `null`
+``SendTouchEvent(touchId: `int64`, state: `int`, x: `float`, y: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:SetInputTypesToIgnore`
 
-``SetInputTypesToIgnore(inputTypesToIgnore: `Variant`)`` → `null`
+``SetInputTypesToIgnore(inputTypesToIgnore: `Variant`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:StartPlaying`
 
-``StartPlaying(fileName: `string`)`` → `null`
+``StartPlaying(fileName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:StartPlayingJSON`
 
-``StartPlayingJSON(string: `string`)`` → `null`
+``StartPlayingJSON(string: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:StartRecording`
 
-``StartRecording()`` → `null`
+``StartRecording()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:StopPlaying`
 
-``StopPlaying()`` → `null`
+``StopPlaying()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:StopRecording`
 
-``StopRecording()`` → `null`
+``StopRecording()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:WaitForInputEventsProcessed`
 
-``WaitForInputEventsProcessed()`` → `null`
+``WaitForInputEventsProcessed()`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:sendRobloxEvent`
 
-``sendRobloxEvent(namespace: `string`, detail: `string`, detailType: `string`)`` → `null`
+``sendRobloxEvent(namespace: `string`, detail: `string`, detailType: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VirtualInputManager:sendThemeChangeEvent`
 
-``sendThemeChangeEvent(themeName: `string`)`` → `null`
+``sendThemeChangeEvent(themeName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

@@ -15,117 +15,117 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AssetManagerService:AddNewPlace`
 
-``AddNewPlace()`` → `int64`
+``AddNewPlace()`` -> `int64`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:CreateAlias`
 
-``CreateAlias(assetType: `int`, assetId: `int64`, aliasName: `string`)`` → `null`
+``CreateAlias(assetType: `int`, assetId: `int64`, aliasName: `string`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:DeleteAlias`
 
-``DeleteAlias(aliasName: `string`)`` → `null`
+``DeleteAlias(aliasName: `string`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:GetMeshIdFromAliasName`
 
-``GetMeshIdFromAliasName(aliasName: `string`)`` → `int64`
+``GetMeshIdFromAliasName(aliasName: `string`)`` -> `int64`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:GetMeshIdFromAssetId`
 
-``GetMeshIdFromAssetId(assetId: `int64`)`` → `int64`
+``GetMeshIdFromAssetId(assetId: `int64`)`` -> `int64`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:GetTextureIdFromAliasName`
 
-``GetTextureIdFromAliasName(aliasName: `string`)`` → `int64`
+``GetTextureIdFromAliasName(aliasName: `string`)`` -> `int64`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:GetTextureIdFromAssetId`
 
-``GetTextureIdFromAssetId(assetId: `int64`)`` → `int64`
+``GetTextureIdFromAssetId(assetId: `int64`)`` -> `int64`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:InsertAudio`
 
-``InsertAudio(assetId: `int64`, assetName: `string`)`` → `null`
+``InsertAudio(assetId: `int64`, assetName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:InsertImage`
 
-``InsertImage(assetId: `int64`)`` → `null`
+``InsertImage(assetId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:InsertImages`
 
-``InsertImages(assetIds: `Array`)`` → `null`
+``InsertImages(assetIds: `Array`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:InsertMesh`
 
-``InsertMesh(aliasName: `string`, insertWithLocation: `bool`, sourceAssetId: `int64`)`` → `null`
+``InsertMesh(aliasName: `string`, insertWithLocation: `bool`, sourceAssetId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:InsertMeshesWithLocation`
 
-``InsertMeshesWithLocation(aliasNames: `Array`, meshIds: `Array`)`` → `null`
+``InsertMeshesWithLocation(aliasNames: `Array`, meshIds: `Array`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:InsertModel`
 
-``InsertModel(modelId: `int64`)`` → `null`
+``InsertModel(modelId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:InsertPackage`
 
-``InsertPackage(packageId: `int64`)`` → `null`
+``InsertPackage(packageId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:InsertVideo`
 
-``InsertVideo(assetId: `int64`, assetName: `string`)`` → `null`
+``InsertVideo(assetId: `int64`, assetName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:OpenPlace`
 
-``OpenPlace(placeId: `int64`)`` → `null`
+``OpenPlace(placeId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:RemovePlace`
 
-``RemovePlace(placeId: `int64`)`` → `null`
+``RemovePlace(placeId: `int64`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:RenameAlias`
 
-``RenameAlias(assetType: `int`, assetId: `int64`, oldAliasName: `string`, newAliasName: `string`)`` → `null`
+``RenameAlias(assetType: `int`, assetId: `int64`, oldAliasName: `string`, newAliasName: `string`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:RenameModel`
 
-``RenameModel(modelId: `int64`, newName: `string`)`` → `null`
+``RenameModel(modelId: `int64`, newName: `string`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:RenamePlace`
 
-``RenamePlace(placeId: `int64`, newName: `string`)`` → `null`
+``RenamePlace(placeId: `int64`, newName: `string`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:ShowPackageDetails`
 
-``ShowPackageDetails(packageId: `int64`)`` → `null`
+``ShowPackageDetails(packageId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:UpdateAllPackages`
 
-``UpdateAllPackages(packageId: `int64`)`` → `null`
+``UpdateAllPackages(packageId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetManagerService:ViewPackageOnWebsite`
 
-``ViewPackageOnWebsite(packageId: `int64`)`` → `null`
+``ViewPackageOnWebsite(packageId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

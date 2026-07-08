@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.AvatarSettingsCustomClothingMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AvatarSettingsCustomClothingMode.PlayerChoice` | 0 |
-| `Enum.AvatarSettingsCustomClothingMode.CustomClothing` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AvatarSettingsCustomClothingMode.PlayerChoice` | 0 |  |
+| `Enum.AvatarSettingsCustomClothingMode.CustomClothing` | 1 |  |

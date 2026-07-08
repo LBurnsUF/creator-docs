@@ -15,42 +15,42 @@ tags: [NotCreatable, Service]
 
 ### `Class.ScriptProfilerService:ClientRequestData`
 
-``ClientRequestData(player: `Class.Player`)`` → `null`
+``ClientRequestData(player: `Class.Player`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.ScriptProfilerService:ClientStart`
 
-``ClientStart(player: `Class.Player`, frequency: `int?`)`` → `null`
+``ClientStart(player: `Class.Player`, frequency: `int?`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.ScriptProfilerService:ClientStop`
 
-``ClientStop(player: `Class.Player`)`` → `null`
+``ClientStop(player: `Class.Player`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.ScriptProfilerService:DeserializeJSON`
 
-``DeserializeJSON(jsonString: `string?`)`` → `Dictionary`
+``DeserializeJSON(jsonString: `string?`)`` -> `Dictionary`
   [CustomLuaState] {security: PluginSecurity}
 
 ### `Class.ScriptProfilerService:SaveScriptProfilingData`
 
-``SaveScriptProfilingData(jsonString: `string`, filename: `string`)`` → `string`
+``SaveScriptProfilingData(jsonString: `string`, filename: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.ScriptProfilerService:ServerRequestData`
 
-``ServerRequestData()`` → `null`
+``ServerRequestData()`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.ScriptProfilerService:ServerStart`
 
-``ServerStart(frequency: `int?`)`` → `null`
+``ServerStart(frequency: `int?`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.ScriptProfilerService:ServerStop`
 
-``ServerStop()`` → `null`
+``ServerStop()`` -> `null`
    {security: PluginSecurity}
 
 ## Events

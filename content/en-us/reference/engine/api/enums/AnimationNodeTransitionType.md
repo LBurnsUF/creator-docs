@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.AnimationNodeTransitionType` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AnimationNodeTransitionType.CrossFade` | 0 |
-| `Enum.AnimationNodeTransitionType.InertialBlend` | 1 |
-| `Enum.AnimationNodeTransitionType.DeadBlend` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AnimationNodeTransitionType.CrossFade` | 0 |  |
+| `Enum.AnimationNodeTransitionType.InertialBlend` | 1 |  |
+| `Enum.AnimationNodeTransitionType.DeadBlend` | 2 |  |

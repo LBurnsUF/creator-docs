@@ -7,103 +7,111 @@ tags: [NotCreatable, Service]
 
 # AdService
 
+The service responsible for in-experience advertising.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
+
+## Description
+
+`Class.AdService` is responsible for in-experience advertising. This includes
+[rewarded video](../../../production/promotion/rewarded-video-ads.md) and
+[ad integrations](../../../production/promotion/ad-integrations.md).
 
 ## Methods
 
 ### `Class.AdService:CreateAdRewardFromDevProductId`
 
-``CreateAdRewardFromDevProductId(devProductId: `int64`)`` → `Datatype.AdReward`
+``CreateAdRewardFromDevProductId(devProductId: `int64`)`` -> `Datatype.AdReward`
 
 ### `Class.AdService:GetAdAvailabilityNowAsync`
 
-``GetAdAvailabilityNowAsync(adFormat: `Enum.AdFormat`)`` → `Dictionary`
+``GetAdAvailabilityNowAsync(adFormat: `Enum.AdFormat`)`` -> `Dictionary`
   [Yields]
 
 ### `Class.AdService:GetAdAvailabilityNowForUniverseAsync`
 
-``GetAdAvailabilityNowForUniverseAsync(adFormat: `Enum.AdFormat`, universeId: `int64`, isUniversalAppDM: `bool`)`` → `Dictionary`
+``GetAdAvailabilityNowForUniverseAsync(adFormat: `Enum.AdFormat`, universeId: `int64`, isUniversalAppDM: `bool`)`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AdService:GetAdTeleportInfo`
 
-``GetAdTeleportInfo()`` → `Tuple`
+``GetAdTeleportInfo()`` -> `Tuple`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdService:GetCampaignEligibilityAsync`
 
-``GetCampaignEligibilityAsync(campaignId: `string`, player: `Class.Player`)`` → `Dictionary`
+``GetCampaignEligibilityAsync(campaignId: `string`, player: `Class.Player`)`` -> `Dictionary`
   [Yields]
 
 ### `Class.AdService:GetReportAdInfo`
 
-``GetReportAdInfo()`` → `Array`
+``GetReportAdInfo()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdService:GetUniversalAppAdsEligibility`
 
-``GetUniversalAppAdsEligibility()`` → `Dictionary`
+``GetUniversalAppAdsEligibility()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdService:HandleWhyThisAdClicked`
 
-``HandleWhyThisAdClicked(advertiserName: `string`, payerName: `string`)`` → `null`
+``HandleWhyThisAdClicked(advertiserName: `string`, payerName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdService:HideEudsaDisclosure`
 
-``HideEudsaDisclosure()`` → `null`
+``HideEudsaDisclosure()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdService:OnDemandVideoCompleteFromUI`
 
-``OnDemandVideoCompleteFromUI(result: `Enum.ShowAdResult`, encryptedAdTrackingData: `string`, encryptionMetadata: `string`, rewardDetails: `string`)`` → `null`
+``OnDemandVideoCompleteFromUI(result: `Enum.ShowAdResult`, encryptedAdTrackingData: `string`, encryptionMetadata: `string`, rewardDetails: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdService:RegisterAdOpportunityAsync`
 
-``RegisterAdOpportunityAsync(instance: `Class.Instance`, placementId: `int64?`)`` → `null`
+``RegisterAdOpportunityAsync(instance: `Class.Instance`, placementId: `int64?`)`` -> `null`
   [Yields]
 
 ### `Class.AdService:RegisterDisclosureButton`
 
-``RegisterDisclosureButton(disclosureButton: `Class.GuiButton`, adIntegrationPlacementId: `string`)`` → `null`
+``RegisterDisclosureButton(disclosureButton: `Class.GuiButton`, adIntegrationPlacementId: `string`)`` -> `null`
 
 ### `Class.AdService:ReturnToPublisherExperience`
 
-``ReturnToPublisherExperience(adTeleportMethod: `Enum.AdTeleportMethod`)`` → `null`
+``ReturnToPublisherExperience(adTeleportMethod: `Enum.AdTeleportMethod`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdService:SetAdGuiInteractivityHandlerInitialized`
 
-``SetAdGuiInteractivityHandlerInitialized()`` → `null`
+``SetAdGuiInteractivityHandlerInitialized()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdService:ShowRewardedVideoAdAsync`
 
-``ShowRewardedVideoAdAsync(player: `Class.Player`, reward: `Datatype.AdReward`, placementId: `int64?`)`` → `Enum.ShowAdResult`
+``ShowRewardedVideoAdAsync(player: `Class.Player`, reward: `Datatype.AdReward`, placementId: `int64?`)`` -> `Enum.ShowAdResult`
   [Yields]
 
 ### `Class.AdService:ShowRewardedVideoAdAtClientAsync`
 
-``ShowRewardedVideoAdAtClientAsync(universeId: `int64`)`` → `Enum.ShowAdResult`
+``ShowRewardedVideoAdAtClientAsync(universeId: `int64`)`` -> `Enum.ShowAdResult`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AdService:ShowVideoAd`
 
-``ShowVideoAd()`` → `null`
+``ShowVideoAd()`` -> `null`
   [Deprecated]
 
 ### `Class.AdService:SubmitAdNotification`
 
-``SubmitAdNotification(universeId: `int64`, isShowAdSuccessful: `bool`, earnedReward: `bool`, rewardProductName: `string`, rewardProductImageAssetId: `int64`)`` → `null`
+``SubmitAdNotification(universeId: `int64`, isShowAdSuccessful: `bool`, earnedReward: `bool`, rewardProductName: `string`, rewardProductImageAssetId: `int64`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AdService:UnregisterAdOpportunity`
 
-``UnregisterAdOpportunity(instance: `Class.Instance`)`` → `null`
+``UnregisterAdOpportunity(instance: `Class.Instance`)`` -> `null`
 
 ## Events
 
@@ -144,9 +152,9 @@ Fires with: (adGui: `Class.Instance`)
 
 ### `Class.AdService.OnImmersiveBrandedAdDisclosureButtonActivated`
 
-``OnImmersiveBrandedAdDisclosureButtonActivated(data: `Dictionary`)`` → `null`
+``OnImmersiveBrandedAdDisclosureButtonActivated(data: `Dictionary`)`` -> `null`
   [NoYield]
 
 ### `Class.AdService.onDemandVideoPlayInUI`
 
-``onDemandVideoPlayInUI(data: `Dictionary`)`` → `Class.VideoFrame`
+``onDemandVideoPlayInUI(data: `Dictionary`)`` -> `Class.VideoFrame`

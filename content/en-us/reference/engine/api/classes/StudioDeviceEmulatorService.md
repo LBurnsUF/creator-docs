@@ -13,8 +13,8 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StudioDeviceEmulatorService.HasMultiTouchStarted` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.StudioDeviceEmulatorService.IsMultiTouchEmulationOn` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.StudioDeviceEmulatorService.IsMultiTouchEnabled` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -24,47 +24,47 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.StudioDeviceEmulatorService:EmulatePCDeviceWithResolution`
 
-``EmulatePCDeviceWithResolution(deviceId: `string`, resolution: `Datatype.Vector2`)`` → `bool`
+``EmulatePCDeviceWithResolution(deviceId: `string`, resolution: `Datatype.Vector2`)`` -> `bool`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.StudioDeviceEmulatorService:GetCurrentDeviceId`
 
-``GetCurrentDeviceId()`` → `string`
+``GetCurrentDeviceId()`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.StudioDeviceEmulatorService:GetCurrentOrientation`
 
-``GetCurrentOrientation()`` → `Enum.ScreenOrientation`
+``GetCurrentOrientation()`` -> `Enum.ScreenOrientation`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.StudioDeviceEmulatorService:GetMaxNumTouches`
 
-``GetMaxNumTouches()`` → `int`
+``GetMaxNumTouches()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioDeviceEmulatorService:GetTouchInBounds`
 
-``GetTouchInBounds(index: `int`)`` → `bool`
+``GetTouchInBounds(index: `int`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioDeviceEmulatorService:GetTouchPosition`
 
-``GetTouchPosition(index: `int`)`` → `Datatype.Vector2`
+``GetTouchPosition(index: `int`)`` -> `Datatype.Vector2`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioDeviceEmulatorService:HasDeviceWithId`
 
-``HasDeviceWithId(deviceId: `string`)`` → `bool`
+``HasDeviceWithId(deviceId: `string`)`` -> `bool`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.StudioDeviceEmulatorService:SetCurrentDeviceId`
 
-``SetCurrentDeviceId(deviceId: `string`)`` → `null`
+``SetCurrentDeviceId(deviceId: `string`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.StudioDeviceEmulatorService:SetCurrentOrientation`
 
-``SetCurrentOrientation(orientation: `Enum.ScreenOrientation`)`` → `null`
+``SetCurrentOrientation(orientation: `Enum.ScreenOrientation`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ## Events

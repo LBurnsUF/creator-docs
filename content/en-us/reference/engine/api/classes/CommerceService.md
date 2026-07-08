@@ -7,38 +7,47 @@ tags: [NotCreatable, Service]
 
 # CommerceService
 
+Supports real-world purchases that you can bundle with digital benefits.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
+
+## Description
+
+`Class.CommerceService` is a service that supports real-world purchases that
+you can bundle with virtual items. For information on eligibility and
+implementation, see
+[Commerce products](../../../production/monetization/commerce-products.md).
 
 ## Methods
 
 ### `Class.CommerceService:GetCommerceProductInfoAsync`
 
-``GetCommerceProductInfoAsync(commerceProductId: `string`)`` → `Dictionary`
+``GetCommerceProductInfoAsync(commerceProductId: `string`)`` -> `Dictionary`
   [Yields]
 
 ### `Class.CommerceService:PrepareCommerceProductPurchase`
 
-``PrepareCommerceProductPurchase(commerceProductId: `string`)`` → `Dictionary`
+``PrepareCommerceProductPurchase(commerceProductId: `string`)`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.CommerceService:PromptCommerceProductPurchase`
 
-``PromptCommerceProductPurchase(user: `Class.Player`, commerceProductId: `string`)`` → `null`
+``PromptCommerceProductPurchase(user: `Class.Player`, commerceProductId: `string`)`` -> `null`
 
 ### `Class.CommerceService:PromptRealWorldCommerceBrowser`
 
-``PromptRealWorldCommerceBrowser(player: `Class.Player`, url: `string`)`` → `null`
+``PromptRealWorldCommerceBrowser(player: `Class.Player`, url: `string`)`` -> `null`
 
 ### `Class.CommerceService:SignalPromptCommerceProductPurchaseFinished`
 
-``SignalPromptCommerceProductPurchaseFinished(productId: `string`, didTryPurchase: `bool`, checkoutSessionId: `string`)`` → `null`
+``SignalPromptCommerceProductPurchaseFinished(productId: `string`, didTryPurchase: `bool`, checkoutSessionId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.CommerceService:UserEligibleForRealWorldCommerceAsync`
 
-``UserEligibleForRealWorldCommerceAsync()`` → `bool`
+``UserEligibleForRealWorldCommerceAsync()`` -> `bool`
   [Yields]
 
 ## Events

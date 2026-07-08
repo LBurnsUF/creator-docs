@@ -13,8 +13,8 @@ tags: [NotCreatable]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ControllerBase.Active` | `bool` | [ReadOnly] [NotReplicated] |
 | `Class.ControllerBase.BalanceRigidityEnabled` | `bool` |  |
 | `Class.ControllerBase.MoveSpeedFactor` | `float` |  |

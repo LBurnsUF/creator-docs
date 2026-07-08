@@ -15,15 +15,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.StopWatchReporter:FinishTask`
 
-``FinishTask(taskId: `int`)`` → `null`
+``FinishTask(taskId: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StopWatchReporter:SendReport`
 
-``SendReport(reportName: `string`)`` → `null`
+``SendReport(reportName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StopWatchReporter:StartTask`
 
-``StartTask(reportName: `string`, taskName: `string`)`` → `int`
+``StartTask(reportName: `string`, taskName: `string`)`` -> `int`
    {security: RobloxScriptSecurity}

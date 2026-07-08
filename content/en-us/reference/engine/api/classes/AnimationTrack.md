@@ -7,14 +7,22 @@ tags: [NotCreatable]
 
 # AnimationTrack
 
+Controls the playback of an animation on an `Class.Animator`.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable]
 
+## Description
+
+Controls the playback of an animation on an `Class.Animator`. This object
+cannot be created, instead it is returned by the
+`Class.Animator:LoadAnimation()` method.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AnimationTrack.Animation` | `Class.Animation` | [ReadOnly] [NotReplicated] |
 | `Class.AnimationTrack.IsPlaying` | `bool` | [ReadOnly] [NotReplicated] |
 | `Class.AnimationTrack.Length` | `float` | [ReadOnly] [NotReplicated] |
@@ -29,69 +37,69 @@ tags: [NotCreatable]
 
 ### `Class.AnimationTrack:AdjustSpeed`
 
-``AdjustSpeed(speed: `float`)`` → `null`
+``AdjustSpeed(speed: `float`)`` -> `null`
   [CustomLuaState]
 
 ### `Class.AnimationTrack:AdjustWeight`
 
-``AdjustWeight(weight: `float`, fadeTime: `float`)`` → `null`
+``AdjustWeight(weight: `float`, fadeTime: `float`)`` -> `null`
   [CustomLuaState]
 
 ### `Class.AnimationTrack:GetDebugData`
 
-``GetDebugData()`` → `Dictionary`
+``GetDebugData()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnimationTrack:GetMarkerReachedSignal`
 
-``GetMarkerReachedSignal(name: `string`)`` → `Datatype.RBXScriptSignal`
+``GetMarkerReachedSignal(name: `string`)`` -> `Datatype.RBXScriptSignal`
 
 ### `Class.AnimationTrack:GetParameter`
 
-``GetParameter(key: `string`)`` → `Variant`
+``GetParameter(key: `string`)`` -> `Variant`
 
 ### `Class.AnimationTrack:GetParameterDefaults`
 
-``GetParameterDefaults()`` → `Dictionary`
+``GetParameterDefaults()`` -> `Dictionary`
 
 ### `Class.AnimationTrack:GetTargetInstance`
 
-``GetTargetInstance(name: `string`)`` → `Class.Instance`
+``GetTargetInstance(name: `string`)`` -> `Class.Instance`
 
 ### `Class.AnimationTrack:GetTargetNames`
 
-``GetTargetNames()`` → `Array`
+``GetTargetNames()`` -> `Array`
 
 ### `Class.AnimationTrack:GetTimeOfKeyframe`
 
-``GetTimeOfKeyframe(keyframeName: `string`)`` → `double`
+``GetTimeOfKeyframe(keyframeName: `string`)`` -> `double`
 
 ### `Class.AnimationTrack:Play`
 
-``Play(fadeTime: `float`, weight: `float`, speed: `float`)`` → `null`
+``Play(fadeTime: `float`, weight: `float`, speed: `float`)`` -> `null`
   [CustomLuaState]
 
 ### `Class.AnimationTrack:ResetGraph`
 
-``ResetGraph()`` → `null`
+``ResetGraph()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnimationTrack:SetParameter`
 
-``SetParameter(key: `string`, value: `Variant`)`` → `null`
+``SetParameter(key: `string`, value: `Variant`)`` -> `null`
 
 ### `Class.AnimationTrack:SetTargetInstance`
 
-``SetTargetInstance(name: `string`, target: `Class.Instance`)`` → `null`
+``SetTargetInstance(name: `string`, target: `Class.Instance`)`` -> `null`
 
 ### `Class.AnimationTrack:Stop`
 
-``Stop(fadeTime: `float`)`` → `null`
+``Stop(fadeTime: `float`)`` -> `null`
   [CustomLuaState]
 
 ### `Class.AnimationTrack:UpdateGraphNodeProperty`
 
-``UpdateGraphNodeProperty(nodeId: `string`, propertyName: `string`, value: `Variant`, inputPinName: `string`)`` → `bool`
+``UpdateGraphNodeProperty(nodeId: `string`, propertyName: `string`, value: `Variant`, inputPinName: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ## Events

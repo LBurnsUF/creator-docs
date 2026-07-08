@@ -15,7 +15,7 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.BugReporterService:IsAvailable`
 
-``IsAvailable()`` → `bool`
+``IsAvailable()`` -> `bool`
   [Yields] {security: RobloxScriptSecurity}
 
 ## Events

@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.RotationType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.RotationType.MovementRelative` | 0 |
-| `Enum.RotationType.CameraRelative` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.RotationType.MovementRelative` | 0 |  |
+| `Enum.RotationType.CameraRelative` | 1 |  |

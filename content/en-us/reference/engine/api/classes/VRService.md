@@ -7,14 +7,26 @@ tags: [NotCreatable, Service]
 
 # VRService
 
+Service responsible for handling interactions between Roblox and Virtual
+Reality (VR).
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
 
+## Description
+
+**VRService** is responsible for handling interactions between Roblox and
+Virtual Reality (VR). Its methods, properties, and events help you provide the
+best experience for end users seeking to experience Roblox on VR devices.
+
+See [VR Guidelines](../../../production/publishing/vr-guidelines.md) for more
+information on publishing an experience for VR devices.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.VRService.AutomaticScaling` | `Enum.VRScaling` |  |
 | `Class.VRService.AvatarGestures` | `bool` |  |
 | `Class.VRService.ControllerModels` | `Enum.VRControllerModelMode` |  |
@@ -36,37 +48,37 @@ tags: [NotCreatable, Service]
 
 ### `Class.VRService:GetTouchpadMode`
 
-``GetTouchpadMode(pad: `Enum.VRTouchpad`)`` → `Enum.VRTouchpadMode`
+``GetTouchpadMode(pad: `Enum.VRTouchpad`)`` -> `Enum.VRTouchpadMode`
 
 ### `Class.VRService:GetUserCFrame`
 
-``GetUserCFrame(type: `Enum.UserCFrame`)`` → `Datatype.CFrame`
+``GetUserCFrame(type: `Enum.UserCFrame`)`` -> `Datatype.CFrame`
 
 ### `Class.VRService:GetUserCFrameEnabled`
 
-``GetUserCFrameEnabled(type: `Enum.UserCFrame`)`` → `bool`
+``GetUserCFrameEnabled(type: `Enum.UserCFrame`)`` -> `bool`
 
 ### `Class.VRService:IsMaquettes`
 
-``IsMaquettes()`` → `bool`
+``IsMaquettes()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VRService:IsVRAppBuild`
 
-``IsVRAppBuild()`` → `bool`
+``IsVRAppBuild()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.VRService:RecenterUserHeadCFrame`
 
-``RecenterUserHeadCFrame()`` → `null`
+``RecenterUserHeadCFrame()`` -> `null`
 
 ### `Class.VRService:RequestNavigation`
 
-``RequestNavigation(cframe: `Datatype.CFrame`, inputUserCFrame: `Enum.UserCFrame`)`` → `null`
+``RequestNavigation(cframe: `Datatype.CFrame`, inputUserCFrame: `Enum.UserCFrame`)`` -> `null`
 
 ### `Class.VRService:SetTouchpadMode`
 
-``SetTouchpadMode(pad: `Enum.VRTouchpad`, mode: `Enum.VRTouchpadMode`)`` → `null`
+``SetTouchpadMode(pad: `Enum.VRTouchpad`, mode: `Enum.VRTouchpadMode`)`` -> `null`
 
 ## Events
 

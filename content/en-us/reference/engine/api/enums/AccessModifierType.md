@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.AccessModifierType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AccessModifierType.Allow` | 0 |
-| `Enum.AccessModifierType.Deny` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AccessModifierType.Allow` | 0 |  |
+| `Enum.AccessModifierType.Deny` | 1 |  |

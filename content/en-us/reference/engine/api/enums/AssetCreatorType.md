@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.AssetCreatorType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AssetCreatorType.User` | 0 |
-| `Enum.AssetCreatorType.Group` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AssetCreatorType.User` | 0 |  |
+| `Enum.AssetCreatorType.Group` | 1 |  |

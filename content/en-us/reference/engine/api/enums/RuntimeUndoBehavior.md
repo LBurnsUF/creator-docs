@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.RuntimeUndoBehavior` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.RuntimeUndoBehavior.Aggregate` | 0 |
-| `Enum.RuntimeUndoBehavior.Snapshot` | 1 |
-| `Enum.RuntimeUndoBehavior.Hybrid` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.RuntimeUndoBehavior.Aggregate` | 0 |  |
+| `Enum.RuntimeUndoBehavior.Snapshot` | 1 |  |
+| `Enum.RuntimeUndoBehavior.Hybrid` | 2 |  |

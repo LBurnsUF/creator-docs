@@ -13,8 +13,8 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DraggerService.AlignDraggedObjects` | `bool` | [NotReplicated] |
 | `Class.DraggerService.AngleSnapEnabled` | `bool` | [NotReplicated] |
 | `Class.DraggerService.AngleSnapIncrement` | `float` | [NotReplicated] |

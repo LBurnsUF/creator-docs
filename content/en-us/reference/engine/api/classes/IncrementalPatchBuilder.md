@@ -13,8 +13,8 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.IncrementalPatchBuilder.AddPathsToBundle` | `bool` |  |
 | `Class.IncrementalPatchBuilder.BuildDebouncePeriod` | `double` |  |
 | `Class.IncrementalPatchBuilder.HighCompression` | `bool` |  |

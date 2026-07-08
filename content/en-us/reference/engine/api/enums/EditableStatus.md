@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.EditableStatus` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.EditableStatus.Unknown` | 0 |
-| `Enum.EditableStatus.Allowed` | 1 |
-| `Enum.EditableStatus.Disallowed` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.EditableStatus.Unknown` | 0 |  |
+| `Enum.EditableStatus.Allowed` | 1 |  |
+| `Enum.EditableStatus.Disallowed` | 2 |  |

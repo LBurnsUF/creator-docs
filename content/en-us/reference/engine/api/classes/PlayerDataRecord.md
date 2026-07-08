@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PlayerDataRecord.CreatedTime` | `int64` | [ReadOnly] [NotReplicated] |
 | `Class.PlayerDataRecord.DefaultRecordName` | `bool` | [ReadOnly] [NotReplicated] |
 | `Class.PlayerDataRecord.Dirty` | `bool` | [ReadOnly] [NotReplicated] |
@@ -31,33 +31,33 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.PlayerDataRecord:GetPlayer`
 
-``GetPlayer()`` → `Class.Player`
+``GetPlayer()`` -> `Class.Player`
 
 ### `Class.PlayerDataRecord:GetValue`
 
-``GetValue(key: `string`)`` → `Variant`
+``GetValue(key: `string`)`` -> `Variant`
 
 ### `Class.PlayerDataRecord:GetValueChangedSignal`
 
-``GetValueChangedSignal(key: `string`)`` → `Datatype.RBXScriptSignal`
+``GetValueChangedSignal(key: `string`)`` -> `Datatype.RBXScriptSignal`
 
 ### `Class.PlayerDataRecord:ReleaseAsync`
 
-``ReleaseAsync()`` → `null`
+``ReleaseAsync()`` -> `null`
   [Yields]
 
 ### `Class.PlayerDataRecord:RemoveValue`
 
-``RemoveValue(key: `string`)`` → `null`
+``RemoveValue(key: `string`)`` -> `null`
 
 ### `Class.PlayerDataRecord:RequestFlushAsync`
 
-``RequestFlushAsync()`` → `null`
+``RequestFlushAsync()`` -> `null`
   [Yields]
 
 ### `Class.PlayerDataRecord:SetValue`
 
-``SetValue(key: `string`, value: `Variant`)`` → `null`
+``SetValue(key: `string`, value: `Variant`)`` -> `null`
 
 ## Events
 

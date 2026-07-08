@@ -8,10 +8,16 @@ superclass: Instance
 
 **Inherits from:** `Class.Instance` > `Class.Object`
 
+## Description
+
+A TerrainRegion is a snapshot of `Class.Terrain` retrieved from the
+`Class.Terrain:CopyRegion()` method. Can be later pasted into the Terrain
+using `Class.Terrain:PasteRegion()`.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.TerrainRegion.IsSmooth` | `bool` | [ReadOnly] [NotReplicated] [Deprecated] |
 | `Class.TerrainRegion.SizeInCells` | `Datatype.Vector3` | [ReadOnly] [NotReplicated] |
 
@@ -19,20 +25,20 @@ superclass: Instance
 
 ### `Class.TerrainRegion:ApplyTransform`
 
-``ApplyTransform(rotation: `Datatype.CFrame`, size: `Datatype.Vector3`)`` → `null`
+``ApplyTransform(rotation: `Datatype.CFrame`, size: `Datatype.Vector3`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.TerrainRegion:ApplyTransformSubregion`
 
-``ApplyTransformSubregion(rotation: `Datatype.CFrame`, size: `Datatype.Vector3`, region: `Datatype.Region3int16`)`` → `Class.TerrainRegion`
+``ApplyTransformSubregion(rotation: `Datatype.CFrame`, size: `Datatype.Vector3`, region: `Datatype.Region3int16`)`` -> `Class.TerrainRegion`
    {security: RobloxScriptSecurity}
 
 ### `Class.TerrainRegion:ConvertToSmooth`
 
-``ConvertToSmooth()`` → `null`
+``ConvertToSmooth()`` -> `null`
   [Deprecated] {security: PluginSecurity}
 
 ### `Class.TerrainRegion:GetRegionWireframe`
 
-``GetRegionWireframe()`` → `Array`
+``GetRegionWireframe()`` -> `Array`
    {security: RobloxScriptSecurity}

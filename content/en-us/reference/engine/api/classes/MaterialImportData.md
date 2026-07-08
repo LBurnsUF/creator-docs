@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.MaterialImportData.DiffuseFilePath` | `string` |  |
 | `Class.MaterialImportData.EmissiveFilePath` | `string` |  |
 | `Class.MaterialImportData.IsPbr` | `bool` | [ReadOnly] [NotReplicated] |

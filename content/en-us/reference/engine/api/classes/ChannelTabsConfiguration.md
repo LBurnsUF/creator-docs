@@ -7,14 +7,24 @@ tags: [NotCreatable]
 
 # ChannelTabsConfiguration
 
+Configures properties of the optional channel tabs in the default chat window.
+
 **Inherits from:** `Class.TextChatConfigurations` > `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable]
 
+## Description
+
+Configures properties of the optional channel tabs in the default chat window.
+It is parented to `Class.TextChatService`.
+
+To learn more, see
+[Customizing the Chat Window](../../../chat/chat-window.md).
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ChannelTabsConfiguration.AbsolutePosition` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
 | `Class.ChannelTabsConfiguration.AbsoluteSize` | `Datatype.Vector2` | [ReadOnly] [NotReplicated] |
 | `Class.ChannelTabsConfiguration.BackgroundColor3` | `Datatype.Color3` |  |
@@ -32,10 +42,10 @@ tags: [NotCreatable]
 
 ### `Class.ChannelTabsConfiguration:SetAbsolutePosition`
 
-``SetAbsolutePosition(value: `Datatype.Vector2`)`` → `null`
+``SetAbsolutePosition(value: `Datatype.Vector2`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ChannelTabsConfiguration:SetAbsoluteSize`
 
-``SetAbsoluteSize(value: `Datatype.Vector2`)`` → `null`
+``SetAbsoluteSize(value: `Datatype.Vector2`)`` -> `null`
    {security: RobloxScriptSecurity}

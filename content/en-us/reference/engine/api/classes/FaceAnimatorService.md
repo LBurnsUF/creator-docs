@@ -13,8 +13,8 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.FaceAnimatorService.AudioAnimationEnabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.FaceAnimatorService.FaceTrackingStatusEnum` | `Enum.TrackerFaceTrackingStatus` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.FaceAnimatorService.FlipHeadOrientation` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -24,32 +24,32 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.FaceAnimatorService:GetTrackerLodController`
 
-``GetTrackerLodController()`` → `Class.TrackerLodController`
+``GetTrackerLodController()`` -> `Class.TrackerLodController`
    {security: RobloxScriptSecurity}
 
 ### `Class.FaceAnimatorService:Init`
 
-``Init(videoEnabled: `bool`, audioEnabled: `bool`)`` → `null`
+``Init(videoEnabled: `bool`, audioEnabled: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.FaceAnimatorService:IsStarted`
 
-``IsStarted()`` → `bool`
+``IsStarted()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.FaceAnimatorService:Start`
 
-``Start()`` → `null`
+``Start()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.FaceAnimatorService:Step`
 
-``Step()`` → `null`
+``Step()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.FaceAnimatorService:Stop`
 
-``Stop()`` → `null`
+``Stop()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

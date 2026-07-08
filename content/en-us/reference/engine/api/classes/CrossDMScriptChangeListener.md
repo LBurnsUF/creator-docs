@@ -15,12 +15,12 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.CrossDMScriptChangeListener:IsWatchingScriptLine`
 
-``IsWatchingScriptLine(scriptRef: `string`, lineNumber: `int`)`` → `bool`
+``IsWatchingScriptLine(scriptRef: `string`, lineNumber: `int`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.CrossDMScriptChangeListener:StartWatchingScriptLine`
 
-``StartWatchingScriptLine(scriptRef: `string`, debuggerConnectionId: `int`, lineNumber: `int`)`` → `null`
+``StartWatchingScriptLine(scriptRef: `string`, debuggerConnectionId: `int`, lineNumber: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

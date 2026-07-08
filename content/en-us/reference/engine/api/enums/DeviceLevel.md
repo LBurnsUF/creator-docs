@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.DeviceLevel` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.DeviceLevel.Low` | 0 |
-| `Enum.DeviceLevel.Medium` | 1 |
-| `Enum.DeviceLevel.High` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.DeviceLevel.Low` | 0 |  |
+| `Enum.DeviceLevel.Medium` | 1 |  |
+| `Enum.DeviceLevel.High` | 2 |  |

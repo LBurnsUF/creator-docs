@@ -15,5 +15,5 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.TeamCreateService:CloseGameIfUserDoesntHavePerms`
 
-``CloseGameIfUserDoesntHavePerms()`` → `null`
+``CloseGameIfUserDoesntHavePerms()`` -> `null`
    {security: RobloxScriptSecurity}

@@ -7,6 +7,6 @@ type: enum
 
 The `Enum.JoinSource` enum has 1 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.JoinSource.CreatedItemAttribution` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.JoinSource.CreatedItemAttribution` | 1 |  |

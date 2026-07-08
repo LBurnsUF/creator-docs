@@ -15,7 +15,7 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.ExampleV2Service:PrintHello`
 
-``PrintHello()`` → `null`
+``PrintHello()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

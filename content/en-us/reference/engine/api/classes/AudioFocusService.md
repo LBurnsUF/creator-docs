@@ -15,27 +15,27 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AudioFocusService:AcquireFocus`
 
-``AcquireFocus(contextId: `int`)`` → `bool`
+``AcquireFocus(contextId: `int`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AudioFocusService:GetFocusedContextId`
 
-``GetFocusedContextId()`` → `int`
+``GetFocusedContextId()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.AudioFocusService:GetRegisteredContexts`
 
-``GetRegisteredContexts()`` → `Array`
+``GetRegisteredContexts()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.AudioFocusService:RegisterContextIdFromLua`
 
-``RegisterContextIdFromLua(contextId: `int`)`` → `null`
+``RegisterContextIdFromLua(contextId: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AudioFocusService:RequestFocus`
 
-``RequestFocus(contextId: `int`, priority: `int`)`` → `bool`
+``RequestFocus(contextId: `int`, priority: `int`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ## Events

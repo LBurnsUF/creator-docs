@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.DataModelExtractorFileType` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.DataModelExtractorFileType.PlaceFile` | 0 |
-| `Enum.DataModelExtractorFileType.FirstSlice` | 1 |
-| `Enum.DataModelExtractorFileType.NonFirstSlice` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.DataModelExtractorFileType.PlaceFile` | 0 |  |
+| `Enum.DataModelExtractorFileType.FirstSlice` | 1 |  |
+| `Enum.DataModelExtractorFileType.NonFirstSlice` | 2 |  |

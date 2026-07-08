@@ -7,14 +7,22 @@ tags: [NotCreatable]
 
 # ReflectionMetadataItem
 
+Acts as abstract properties for generic information about Classes, Members,
+Enums, and EnumItems.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable]
 
+## Description
+
+Acts as abstract properties for generic information about Classes, Members,
+Enums, and EnumItems.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ReflectionMetadataItem.Browsable` | `bool` |  |
 | `Class.ReflectionMetadataItem.ClassCategory` | `string` |  |
 | `Class.ReflectionMetadataItem.ClientOnly` | `bool` |  |

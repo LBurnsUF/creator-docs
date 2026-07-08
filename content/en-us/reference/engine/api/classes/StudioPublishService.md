@@ -13,65 +13,65 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StudioPublishService.PublishLocked` | `bool` |  {security: RobloxScriptSecurity} |
 
 ## Methods
 
 ### `Class.StudioPublishService:ClearUploadNames`
 
-``ClearUploadNames()`` → `null`
+``ClearUploadNames()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioPublishService:CloseAfterPublish`
 
-``CloseAfterPublish(closeMode: `Enum.StudioCloseMode`)`` → `null`
+``CloseAfterPublish(closeMode: `Enum.StudioCloseMode`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioPublishService:PublishAs`
 
-``PublishAs(universeId: `int64`, placeId: `int64`, groupId: `int64`, isPublish: `bool`, publishParameters: `Variant`, willRetryOnConflict: `bool`, allowOpeningNewPlace: `bool`)`` → `null`
+``PublishAs(universeId: `int64`, placeId: `int64`, groupId: `int64`, isPublish: `bool`, publishParameters: `Variant`, willRetryOnConflict: `bool`, allowOpeningNewPlace: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioPublishService:PublishThenTurnOnTeamCreate`
 
-``PublishThenTurnOnTeamCreate()`` → `null`
+``PublishThenTurnOnTeamCreate()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioPublishService:RefreshDocumentDisplayName`
 
-``RefreshDocumentDisplayName()`` → `null`
+``RefreshDocumentDisplayName()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioPublishService:RegisterPublishHold`
 
-``RegisterPublishHold(priority: `int`, callback: `Datatype.Function`)`` → `Datatype.RBXScriptConnection`
+``RegisterPublishHold(priority: `int`, callback: `Datatype.Function`)`` -> `Datatype.RBXScriptConnection`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioPublishService:SaveOrPublishPlaceToRobloxIsCanceled`
 
-``SaveOrPublishPlaceToRobloxIsCanceled()`` → `null`
+``SaveOrPublishPlaceToRobloxIsCanceled()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioPublishService:SetTeamCreateOnPublishInfo`
 
-``SetTeamCreateOnPublishInfo(shouldTurnOnTcOnPublish: `bool`, newPlaceName: `string`)`` → `null`
+``SetTeamCreateOnPublishInfo(shouldTurnOnTcOnPublish: `bool`, newPlaceName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioPublishService:SetUniverseDisplayName`
 
-``SetUniverseDisplayName(newName: `string`)`` → `null`
+``SetUniverseDisplayName(newName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioPublishService:SetUploadNames`
 
-``SetUploadNames(placeName: `string`, universeName: `string`)`` → `null`
+``SetUploadNames(placeName: `string`, universeName: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioPublishService:ShowSaveOrPublishPlaceToRoblox`
 
-``ShowSaveOrPublishPlaceToRoblox(showGameSelect: `bool`, isPublish: `bool`, closeMode: `Enum.StudioCloseMode`)`` → `null`
+``ShowSaveOrPublishPlaceToRoblox(showGameSelect: `bool`, isPublish: `bool`, closeMode: `Enum.StudioCloseMode`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

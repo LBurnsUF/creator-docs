@@ -6,12 +6,19 @@ superclass: Instance
 
 # AudioPlayer
 
+Used to play audio assets.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioPlayer` is used to play audio assets. It provides a single
+**Output** pin which can be connected to other pins via `Class.Wire|Wires`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioPlayer.Asset` | `Datatype.ContentId` |  |
 | `Class.AudioPlayer.AssetId` | `string` | [Hidden] [NotReplicated] [Deprecated] |
 | `Class.AudioPlayer.AssetRepresentation` | `Enum.AssetRepresentation` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -32,32 +39,32 @@ superclass: Instance
 
 ### `Class.AudioPlayer:Cancel`
 
-``Cancel(actionId: `int64?`)`` → `bool`
+``Cancel(actionId: `int64?`)`` -> `bool`
 
 ### `Class.AudioPlayer:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioPlayer:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioPlayer:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ### `Class.AudioPlayer:GetWaveformAsync`
 
-``GetWaveformAsync(timeRange: `Datatype.NumberRange`, samples: `int`)`` → `Array`
+``GetWaveformAsync(timeRange: `Datatype.NumberRange`, samples: `int`)`` -> `Array`
   [Yields]
 
 ### `Class.AudioPlayer:Play`
 
-``Play(atTime: `double?`)`` → `int64?`
+``Play(atTime: `double?`)`` -> `int64?`
 
 ### `Class.AudioPlayer:Stop`
 
-``Stop(atTime: `double?`)`` → `int64?`
+``Stop(atTime: `double?`)`` -> `int64?`
 
 ## Events
 

@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AdPortal.PortalInvalidReason` | `string` | [ReadOnly] [NotReplicated] [NotScriptable] |
 | `Class.AdPortal.PortalVersion` | `int64` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.AdPortal.Status` | `Enum.AdUnitStatus` | [ReadOnly] [NotReplicated] |

@@ -6,12 +6,35 @@ superclass: FaceInstance
 
 # Decal
 
+Applies an image texture to a face of a parent `Class.BasePart`.
+
 **Inherits from:** `Class.FaceInstance` > `Class.Instance` > `Class.Object`
+
+## Description
+
+The `Class.Decal` object applies an image texture to a face of a parent
+`Class.BasePart`. The affected face is dependent on the
+`Class.Decal.Face|Face` property, and the size of the decal is dependent on
+the size of the face.
+
+The applied image texture is determined by its
+`Class.Decal.ColorMapContent|ColorMapContent` property. For details on how to
+upload images, see
+[asset management](../../../projects/assets/index.md#asset-management).
+
+For more information, review
+[textures and decals](../../../parts/textures-decals.md). See also:
+
+- `Class.Texture` for repeating surface images.
+- `Class.MeshPart.TextureContent` to apply an image texture to a
+  `Class.MeshPart`.
+- `Class.SurfaceGui` to apply an `Class.ImageLabel` or `Class.ImageButton` to
+  an in-experience 3D object.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Decal.AutoLocalize` | `bool` |  |
 | `Class.Decal.Color3` | `Datatype.Color3` |  |
 | `Class.Decal.ColorMap` | `Datatype.ContentId` | [NotReplicated] |

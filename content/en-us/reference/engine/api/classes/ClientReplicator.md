@@ -11,21 +11,26 @@ tags: [NotCreatable, NotReplicated]
 
 **Tags:** [NotCreatable] [NotReplicated]
 
+## Description
+
+The ClientReplicator is in charge of replicating changes from the server over
+to the client. It represents the client's connection to a server.
+
 ## Methods
 
 ### `Class.ClientReplicator:IsStreamedOut`
 
-``IsStreamedOut(instance: `Class.Instance`)`` → `bool`
+``IsStreamedOut(instance: `Class.Instance`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.ClientReplicator:RequestRCCProfilerData`
 
-``RequestRCCProfilerData(frameRate: `int`, timeFrame: `int`)`` → `null`
+``RequestRCCProfilerData(frameRate: `int`, timeFrame: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ClientReplicator:RequestServerStats`
 
-``RequestServerStats(request: `bool`)`` → `null`
+``RequestServerStats(request: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

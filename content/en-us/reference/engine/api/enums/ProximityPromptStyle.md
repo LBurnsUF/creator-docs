@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.ProximityPromptStyle` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ProximityPromptStyle.Default` | 0 |
-| `Enum.ProximityPromptStyle.Custom` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ProximityPromptStyle.Default` | 0 | The default prompt UI style. |
+| `Enum.ProximityPromptStyle.Custom` | 1 | Custom prompt UI style as set by the developer. For more information, see `Class.ProximityPrompt.Sty |

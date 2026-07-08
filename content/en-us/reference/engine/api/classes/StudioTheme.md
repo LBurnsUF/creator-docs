@@ -15,5 +15,5 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.StudioTheme:GetColor`
 
-``GetColor(styleguideitem: `Enum.StudioStyleGuideColor`, modifier: `Enum.StudioStyleGuideModifier`)`` → `Datatype.Color3`
+``GetColor(styleguideitem: `Enum.StudioStyleGuideColor`, modifier: `Enum.StudioStyleGuideModifier`)`` -> `Datatype.Color3`
    {security: PluginSecurity}

@@ -10,3 +10,26 @@ tags: [Deprecated]
 **Inherits from:** `Class.DynamicRotate` > `Class.JointInstance` > `Class.Instance` > `Class.Object`
 
 **Tags:** [Deprecated]
+
+## Description
+
+A **RotateV** object joins two parts together and allows rotation about a set
+axis. This object is most commonly created by the `Enum.SurfaceType.Motor` on
+a `Class.BasePart`. If created through a script, behavior is still governed by
+the surface input of `Class.JointInstance.Part0`.
+
+The three inputs of note are as follows:
+
+- `NoInput` &mdash; The joint will not rotate under its own power. It can
+  still be rotated by external forces (such as from a character pushing one of
+  the parts).
+
+- `Constant` &mdash; The joint will rotate based on the ParamB property of
+  `Class.JointInstance.Part0`. This rotation is measured in radians per
+  physics frame (which is approximately 1/60th of a second).
+
+- `Sin` &mdash; The joint will rotate based on the `ParamA` and `ParamB`
+  properties of `Class.JointInstance.Part0`.
+
+> **Deprecated:** This class works alongside the deprecated `Enum.SurfaceType` and should not be
+used for future work; use `Class.HingeConstraint` instead.

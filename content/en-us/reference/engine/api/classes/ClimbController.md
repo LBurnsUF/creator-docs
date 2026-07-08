@@ -10,8 +10,8 @@ superclass: ControllerBase
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ClimbController.AccelerationTime` | `float` |  |
 | `Class.ClimbController.BalanceMaxTorque` | `float` |  |
 | `Class.ClimbController.BalanceSpeed` | `float` |  |

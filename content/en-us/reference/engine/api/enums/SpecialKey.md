@@ -7,11 +7,11 @@ type: enum
 
 The `Enum.SpecialKey` enum has 6 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.SpecialKey.Insert` | 0 |
-| `Enum.SpecialKey.Home` | 1 |
-| `Enum.SpecialKey.End` | 2 |
-| `Enum.SpecialKey.PageUp` | 3 |
-| `Enum.SpecialKey.PageDown` | 4 |
-| `Enum.SpecialKey.ChatHotkey` | 5 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.SpecialKey.Insert` | 0 |  |
+| `Enum.SpecialKey.Home` | 1 |  |
+| `Enum.SpecialKey.End` | 2 |  |
+| `Enum.SpecialKey.PageUp` | 3 |  |
+| `Enum.SpecialKey.PageDown` | 4 |  |
+| `Enum.SpecialKey.ChatHotkey` | 5 |  |

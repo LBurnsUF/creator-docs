@@ -6,12 +6,22 @@ superclass: Instance
 
 # AccessoryDescription
 
+Describes the appearance of an `Class.Accessory` for the
+`Class.HumanoidDescription`.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+**AccessoryDescription** is an object that stores the description for an
+`Class.Accessory`. It is meant to be placed underneath a
+`Class.HumanoidDescription` in order to work with
+`Class.Humanoid:ApplyDescriptionAsync()`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AccessoryDescription.AccessoryType` | `Enum.AccessoryType` |  |
 | `Class.AccessoryDescription.AssetId` | `int64` |  |
 | `Class.AccessoryDescription.Instance` | `Class.Instance` |  |
@@ -26,4 +36,4 @@ superclass: Instance
 
 ### `Class.AccessoryDescription:GetAppliedInstance`
 
-``GetAppliedInstance()`` → `Class.Instance`
+``GetAppliedInstance()`` -> `Class.Instance`

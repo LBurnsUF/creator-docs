@@ -6,12 +6,41 @@ superclass: Constraint
 
 # AngularVelocity
 
+Applies torque on an assembly to maintain a constant angular velocity.
+
 **Inherits from:** `Class.Constraint` > `Class.Instance` > `Class.Object`
+
+## Description
+
+The `AngularVelocity` constraint applies torque on an assembly to maintain a
+**constant** angular velocity. Alternatively:
+
+- If you want to control the amount of torque applied, use a `Class.Torque`
+  constraint.
+- If you only need **initial** angular velocity, set the
+  `Class.BasePart.AssemblyAngularVelocity|AssemblyAngularVelocity` method
+  directly on the assembly.
+
+When configuring this constraint, it may be helpful to study
+[Roblox Units](../../../physics/units.md) to understand how Roblox units
+compare to metric units.
+
+#### Relativity
+
+Application of velocity can be controlled through the constraint's
+`Class.AngularVelocity.RelativeTo|RelativeTo` property. If set to
+`Enum.ActuatorRelativeTo|World`, the angular velocity vector is used as is. If
+set to `Enum.ActuatorRelativeTo|Attachment1` and the constraint's
+`Class.Constraint.Attachment1|Attachment1` property is set to another
+attachment, the angular velocity will be affected by that of the other
+attachment. Setting `Class.AngularVelocity.RelativeTo|RelativeTo` to
+`Enum.ActuatorRelativeTo|Attachment1` also exposes the
+`Class.AngularVelocity.ReactionTorqueEnabled|ReactionTorqueEnabled` property.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AngularVelocity.AngularVelocity` | `Datatype.Vector3` |  |
 | `Class.AngularVelocity.MaxTorque` | `float` |  |
 | `Class.AngularVelocity.ReactionTorqueEnabled` | `bool` |  |

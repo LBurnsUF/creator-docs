@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.SortDirection` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.SortDirection.Ascending` | 0 |
-| `Enum.SortDirection.Descending` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.SortDirection.Ascending` | 0 |  |
+| `Enum.SortDirection.Descending` | 1 |  |

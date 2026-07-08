@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.BulkMoveMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.BulkMoveMode.FireAllEvents` | 0 |
-| `Enum.BulkMoveMode.FireCFrameChanged` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.BulkMoveMode.FireAllEvents` | 0 |  |
+| `Enum.BulkMoveMode.FireCFrameChanged` | 1 |  |

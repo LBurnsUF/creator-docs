@@ -6,12 +6,22 @@ superclass: Instance
 
 # AudioPitchShifter
 
+Adjusts the perceived pitch of audio streams.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+`Class.AudioPitchShifter` adjusts the perceived pitch of audio streams. It
+provides one **Input** pin and one **Output** pin which can be connected
+to/from by `Class.Wire|Wires`. `Class.AudioPitchShifter` performs its
+modifications in the frequency domain and may introduce artifacts with extreme
+pitch changes.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AudioPitchShifter.Bypass` | `bool` |  |
 | `Class.AudioPitchShifter.Pitch` | `float` |  |
 | `Class.AudioPitchShifter.WindowSize` | `Enum.AudioWindowSize` |  |
@@ -20,15 +30,15 @@ superclass: Instance
 
 ### `Class.AudioPitchShifter:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.AudioPitchShifter:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.AudioPitchShifter:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ## Events
 

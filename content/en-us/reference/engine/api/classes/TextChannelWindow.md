@@ -13,7 +13,7 @@ tags: [NotBrowsable]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.TextChannelWindow.IsRendering` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.TextChannelWindow.Target` | `Class.TextChannel` |  |

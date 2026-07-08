@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.RootImportData.AddModelToInventory` | `bool` |  |
 | `Class.RootImportData.Anchored` | `bool` |  |
 | `Class.RootImportData.AnimationIdForRestPose` | `float` |  |

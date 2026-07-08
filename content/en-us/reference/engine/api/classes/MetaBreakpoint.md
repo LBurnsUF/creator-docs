@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.MetaBreakpoint.Condition` | `string` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.MetaBreakpoint.ContinueExecution` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.MetaBreakpoint.Enabled` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -30,40 +30,40 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.MetaBreakpoint:GetContextBreakpoints`
 
-``GetContextBreakpoints()`` → `Dictionary`
+``GetContextBreakpoints()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.MetaBreakpoint:Remove`
 
-``Remove(status: `Datatype.Function`)`` → `int`
+``Remove(status: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.MetaBreakpoint:SetChildBreakpointEnabledByScriptAndContext`
 
-``SetChildBreakpointEnabledByScriptAndContext(script: `string`, contextGST: `int`, enabled: `bool`)`` → `null`
+``SetChildBreakpointEnabledByScriptAndContext(script: `string`, contextGST: `int`, enabled: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.MetaBreakpoint:SetContextEnabled`
 
-``SetContextEnabled(context: `int`, enabled: `bool`)`` → `null`
+``SetContextEnabled(context: `int`, enabled: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.MetaBreakpoint:SetContinueExecution`
 
-``SetContinueExecution(enabled: `bool`)`` → `null`
+``SetContinueExecution(enabled: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.MetaBreakpoint:SetEnabled`
 
-``SetEnabled(enabled: `bool`)`` → `null`
+``SetEnabled(enabled: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.MetaBreakpoint:SetLine`
 
-``SetLine(line: `int`, status: `Datatype.Function`)`` → `int`
+``SetLine(line: `int`, status: `Datatype.Function`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.MetaBreakpoint:SetRemoveOnHit`
 
-``SetRemoveOnHit(enabled: `bool`)`` → `null`
+``SetRemoveOnHit(enabled: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}

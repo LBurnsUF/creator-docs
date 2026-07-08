@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.AvatarSettingsLegacyCollisionMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.AvatarSettingsLegacyCollisionMode.R6Colliders` | 0 |
-| `Enum.AvatarSettingsLegacyCollisionMode.InnerBoxColliders` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.AvatarSettingsLegacyCollisionMode.R6Colliders` | 0 |  |
+| `Enum.AvatarSettingsLegacyCollisionMode.InnerBoxColliders` | 1 |  |

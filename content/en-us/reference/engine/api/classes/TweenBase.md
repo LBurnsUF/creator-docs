@@ -7,29 +7,37 @@ tags: [NotCreatable, NotBrowsable]
 
 # TweenBase
 
+Abstract base class for in-between interpolation handlers. `Class.Tween`
+inherits from `Class.TweenBase`.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [NotBrowsable]
 
+## Description
+
+Abstract base class for in-between interpolation handlers; parent class of
+`Class.Tween`.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.TweenBase.PlaybackState` | `Enum.PlaybackState` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
 ### `Class.TweenBase:Cancel`
 
-``Cancel()`` → `null`
+``Cancel()`` -> `null`
 
 ### `Class.TweenBase:Pause`
 
-``Pause()`` → `null`
+``Pause()`` -> `null`
 
 ### `Class.TweenBase:Play`
 
-``Play()`` → `null`
+``Play()`` -> `null`
 
 ## Events
 

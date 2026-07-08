@@ -15,5 +15,5 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.MaterialGenerationService:GenerateMaterialVariantsAsync`
 
-``GenerateMaterialVariantsAsync(prompt: `string`, samples: `int64`)`` → `Dictionary`
+``GenerateMaterialVariantsAsync(prompt: `string`, samples: `int64`)`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}

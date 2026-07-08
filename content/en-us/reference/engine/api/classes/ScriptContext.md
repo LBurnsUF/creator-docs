@@ -11,50 +11,55 @@ tags: [NotCreatable, Service, NotReplicated]
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+This service controls all `Class.BaseScript` objects. Most of the properties
+and methods of this service are locked for internal use.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ScriptContext.ScriptsDisabled` | `bool` | [Hidden] {security: LocalUserSecurity} |
 
 ## Methods
 
 ### `Class.ScriptContext:AddCoreScriptLocal`
 
-``AddCoreScriptLocal(name: `string`, parent: `Class.Instance`)`` → `null`
+``AddCoreScriptLocal(name: `string`, parent: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ScriptContext:CompressLuaApp`
 
-``CompressLuaApp()`` → `null`
+``CompressLuaApp()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ScriptContext:EnableCoverage`
 
-``EnableCoverage(instance: `Class.Instance`)`` → `null`
+``EnableCoverage(instance: `Class.Instance`)`` -> `null`
 
 ### `Class.ScriptContext:GetCoverageStats`
 
-``GetCoverageStats()`` → `Array`
+``GetCoverageStats()`` -> `Array`
 
 ### `Class.ScriptContext:GetLuauHeapInstanceReferenceReport`
 
-``GetLuauHeapInstanceReferenceReport(target: `string`)`` → `Dictionary`
+``GetLuauHeapInstanceReferenceReport(target: `string`)`` -> `Dictionary`
   [CustomLuaState] {security: RobloxScriptSecurity}
 
 ### `Class.ScriptContext:GetLuauHeapMemoryReport`
 
-``GetLuauHeapMemoryReport(target: `string`)`` → `Dictionary`
+``GetLuauHeapMemoryReport(target: `string`)`` -> `Dictionary`
   [CustomLuaState] {security: RobloxScriptSecurity}
 
 ### `Class.ScriptContext:ReportLuaRequireCount`
 
-``ReportLuaRequireCount()`` → `null`
+``ReportLuaRequireCount()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ScriptContext:SetTimeout`
 
-``SetTimeout(seconds: `double`)`` → `null`
+``SetTimeout(seconds: `double`)`` -> `null`
    {security: PluginSecurity}
 
 ## Events

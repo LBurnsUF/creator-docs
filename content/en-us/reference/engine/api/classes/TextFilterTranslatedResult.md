@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.TextFilterTranslatedResult.SourceLanguage` | `string` | [ReadOnly] [NotReplicated] |
 | `Class.TextFilterTranslatedResult.SourceText` | `Class.TextFilterResult` | [ReadOnly] [NotReplicated] |
 
@@ -22,8 +22,8 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.TextFilterTranslatedResult:GetTranslationForLocale`
 
-``GetTranslationForLocale(locale: `string`)`` → `Class.TextFilterResult`
+``GetTranslationForLocale(locale: `string`)`` -> `Class.TextFilterResult`
 
 ### `Class.TextFilterTranslatedResult:GetTranslations`
 
-``GetTranslations()`` → `Dictionary`
+``GetTranslations()`` -> `Dictionary`

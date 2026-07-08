@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.PeoplePageLayout` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.PeoplePageLayout.Card` | 0 |
-| `Enum.PeoplePageLayout.List` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.PeoplePageLayout.Card` | 0 |  |
+| `Enum.PeoplePageLayout.List` | 1 |  |

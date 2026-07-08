@@ -15,15 +15,15 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.ExecutedRemoteCommand:RunMoreCode`
 
-``RunMoreCode(code: `string`, args: `Tuple`)`` → `null`
+``RunMoreCode(code: `string`, args: `Tuple`)`` -> `null`
 
 ### `Class.ExecutedRemoteCommand:SendUpdate`
 
-``SendUpdate(args: `Tuple`)`` → `null`
+``SendUpdate(args: `Tuple`)`` -> `null`
 
 ### `Class.ExecutedRemoteCommand:Stop`
 
-``Stop()`` → `null`
+``Stop()`` -> `null`
 
 ## Events
 

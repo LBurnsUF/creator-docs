@@ -6,12 +6,20 @@ superclass: Instance
 
 # VideoPlayer
 
+Used to play video assets.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+An instance for playing video assets. It can be connected to a
+`Class.VideoDisplay` via a `Class.Wire` to show the video and can be connected
+to audio instances via a `Class.Wire` to play the audio track.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.VideoPlayer.AutoLoadInStudio` | `bool` | [NotReplicated] [NotScriptable] {write: RobloxScriptSecurity} |
 | `Class.VideoPlayer.AutoPlayInStudio` | `bool` | [NotReplicated] [NotScriptable] {write: RobloxScriptSecurity} |
 | `Class.VideoPlayer.InternalVideoUsage` | `Enum.InternalVideoUsage` | [Hidden] |
@@ -30,37 +38,37 @@ superclass: Instance
 
 ### `Class.VideoPlayer:GetConnectedWires`
 
-``GetConnectedWires(pin: `string`)`` → `Datatype.Instances`
+``GetConnectedWires(pin: `string`)`` -> `Datatype.Instances`
 
 ### `Class.VideoPlayer:GetInputPins`
 
-``GetInputPins()`` → `Array`
+``GetInputPins()`` -> `Array`
 
 ### `Class.VideoPlayer:GetOutputPins`
 
-``GetOutputPins()`` → `Array`
+``GetOutputPins()`` -> `Array`
 
 ### `Class.VideoPlayer:LoadAsync`
 
-``LoadAsync()`` → `Enum.AssetFetchStatus`
+``LoadAsync()`` -> `Enum.AssetFetchStatus`
   [Yields]
 
 ### `Class.VideoPlayer:Pause`
 
-``Pause()`` → `null`
+``Pause()`` -> `null`
 
 ### `Class.VideoPlayer:Play`
 
-``Play()`` → `null`
+``Play()`` -> `null`
 
 ### `Class.VideoPlayer:SetStudioPreview`
 
-``SetStudioPreview(isPreview: `bool`)`` → `null`
+``SetStudioPreview(isPreview: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.VideoPlayer:Unload`
 
-``Unload()`` → `null`
+``Unload()`` -> `null`
 
 ## Events
 

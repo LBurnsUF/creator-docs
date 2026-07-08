@@ -15,15 +15,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.StudioCaptureService:CanCaptureScreenshot`
 
-``CanCaptureScreenshot()`` → `bool`
+``CanCaptureScreenshot()`` -> `bool`
    {security: PluginSecurity}
 
 ### `Class.StudioCaptureService:CaptureScreenshot`
 
-``CaptureScreenshot(screenshotOptions: `Dictionary`)`` → `Class.StudioScreenshotCapture`
+``CaptureScreenshot(screenshotOptions: `Dictionary`)`` -> `Class.StudioScreenshotCapture`
    {security: PluginSecurity}
 
 ### `Class.StudioCaptureService:RequestScreenshotPermissionAsync`
 
-``RequestScreenshotPermissionAsync()`` → `bool`
+``RequestScreenshotPermissionAsync()`` -> `bool`
   [Yields] {security: PluginSecurity}

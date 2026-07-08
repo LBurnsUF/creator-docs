@@ -7,6 +7,6 @@ type: enum
 
 The `Enum.TrackerPromptEvent` enum has 1 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.TrackerPromptEvent.LODCameraRecommendDisable` | 0 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.TrackerPromptEvent.LODCameraRecommendDisable` | 0 |  |

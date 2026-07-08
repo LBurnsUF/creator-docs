@@ -7,9 +7,9 @@ type: enum
 
 The `Enum.ExperienceStateRecordingPlaybackMode` enum has 4 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ExperienceStateRecordingPlaybackMode.Undefined` | 0 |
-| `Enum.ExperienceStateRecordingPlaybackMode.Stopped` | 1 |
-| `Enum.ExperienceStateRecordingPlaybackMode.Playing` | 2 |
-| `Enum.ExperienceStateRecordingPlaybackMode.Rewinding` | 3 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ExperienceStateRecordingPlaybackMode.Undefined` | 0 |  |
+| `Enum.ExperienceStateRecordingPlaybackMode.Stopped` | 1 |  |
+| `Enum.ExperienceStateRecordingPlaybackMode.Playing` | 2 |  |
+| `Enum.ExperienceStateRecordingPlaybackMode.Rewinding` | 3 |  |

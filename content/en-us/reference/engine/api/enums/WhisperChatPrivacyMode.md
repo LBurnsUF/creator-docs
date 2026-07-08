@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.WhisperChatPrivacyMode` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.WhisperChatPrivacyMode.AllUsers` | 0 |
-| `Enum.WhisperChatPrivacyMode.NoOne` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.WhisperChatPrivacyMode.AllUsers` | 0 |  |
+| `Enum.WhisperChatPrivacyMode.NoOne` | 1 |  |

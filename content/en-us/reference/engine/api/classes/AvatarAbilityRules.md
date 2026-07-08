@@ -10,8 +10,8 @@ superclass: Instance
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AvatarAbilityRules.CharacterControllerMode` | `Enum.AvatarSettingsCharacterControllerMode` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarAbilityRules.EnableClimbing` | `bool` |  {security: RobloxScriptSecurity} |
 | `Class.AvatarAbilityRules.EnableCrouching` | `bool` |  {security: RobloxScriptSecurity} |

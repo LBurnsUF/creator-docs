@@ -6,12 +6,18 @@ superclass: ValueBase
 
 # BrickColorValue
 
+A container object for a single BrickColor value.
+
 **Inherits from:** `Class.ValueBase` > `Class.Instance` > `Class.Object`
+
+## Description
+
+An instance which is used to store a BrickColor value.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.BrickColorValue.Value` | `Datatype.BrickColor` |  |
 
 ## Events

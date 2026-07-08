@@ -15,14 +15,14 @@ tags: [NotCreatable, Service]
 
 ### `Class.UniqueIdLookupService:GetInstanceByRfc4122String`
 
-``GetInstanceByRfc4122String(id: `string`)`` → `Class.Instance`
+``GetInstanceByRfc4122String(id: `string`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.UniqueIdLookupService:GetOrCreateUniqueId`
 
-``GetOrCreateUniqueId(instance: `Class.Instance`)`` → `string`
+``GetOrCreateUniqueId(instance: `Class.Instance`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.UniqueIdLookupService:GetOrCreateUniqueIdRemoteCommand`
 
-``GetOrCreateUniqueIdRemoteCommand(instance: `Class.Instance`)`` → `string`
+``GetOrCreateUniqueIdRemoteCommand(instance: `Class.Instance`)`` -> `string`

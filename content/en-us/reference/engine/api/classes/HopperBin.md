@@ -11,10 +11,22 @@ tags: [Deprecated]
 
 **Tags:** [Deprecated]
 
+## Description
+
+HopperBins are an outdated system for creating tools that can be used by a
+player. In place of HopperBins, please use `Class.Tool` instead.
+
+Historically, only HopperBins worked without a 'Handle' `Class.Part`, but this
+is no longer the case thanks to the `Class.Tool.RequiresHandle` property of
+Tools.
+
+> **Deprecated:** This deprecated class has been replaced by `Class.Tool`. Please use Tool for
+new work instead.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.HopperBin.Active` | `bool` |  |
 | `Class.HopperBin.BinType` | `Enum.BinType` |  |
 
@@ -22,12 +34,12 @@ tags: [Deprecated]
 
 ### `Class.HopperBin:Disable`
 
-``Disable()`` → `null`
+``Disable()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.HopperBin:ToggleSelect`
 
-``ToggleSelect()`` → `null`
+``ToggleSelect()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

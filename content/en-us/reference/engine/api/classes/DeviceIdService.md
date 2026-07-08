@@ -15,5 +15,5 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.DeviceIdService:GetDeviceId`
 
-``GetDeviceId()`` → `string`
+``GetDeviceId()`` -> `string`
    {security: RobloxScriptSecurity}

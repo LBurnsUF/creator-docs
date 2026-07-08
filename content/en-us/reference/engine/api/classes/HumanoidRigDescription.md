@@ -6,12 +6,31 @@ superclass: Instance
 
 # HumanoidRigDescription
 
+Stores the joint mapping, T-pose, and per-joint properties for a 22-joint
+bipedal character rig. Joints may be `Class.AnimationConstraint`,
+`Class.Motor6D`, or `Class.Bone` instances.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+Stores the joint mapping, reference T-pose and per-joint properties for a
+bipedal `Humanoid` character rig. Each of the 22 joints in the rig hierarchy
+can reference an `Instance` (typically a `Motor6D`, `AnimationConstraint` or
+`Bone`), define a T-pose adjustment transform, rotation range limits, and
+carry a size for volumetric visualization and retargeting. For an example
+Blender and Maya rig hierarchy with all optional joints, see
+[Character specifications - Higher-fidelity rigs](../../../avatar/character-bodies/specifications.md#higher-fidelity-rigs).
+
+Use `AutoRig` to automatically populate joint references from a character
+model, or assign joints individually. Supports both R6 (6-joint) and R15
+(15-joint) rig subsets in addition to the full 22-joint standard set, as well
+as rigs with more than 22 joints by mapping the key subset of joints.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.HumanoidRigDescription.Chest` | `Class.Instance` |  |
 | `Class.HumanoidRigDescription.ChestRangeMax` | `Datatype.Vector3` |  |
 | `Class.HumanoidRigDescription.ChestRangeMin` | `Datatype.Vector3` |  |
@@ -128,96 +147,96 @@ superclass: Instance
 
 ### `Class.HumanoidRigDescription:AutoRig`
 
-``AutoRig(character: `Class.Instance`)`` → `null`
+``AutoRig(character: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:GetContainedJointLabels`
 
-``GetContainedJointLabels(bodyMeshPartName: `string`)`` → `Array`
+``GetContainedJointLabels(bodyMeshPartName: `string`)`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:GetJoint`
 
-``GetJoint(label: `Enum.RigLabel`)`` → `Class.Instance`
+``GetJoint(label: `Enum.RigLabel`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:GetJointFromName`
 
-``GetJointFromName(name: `string`)`` → `Class.Instance`
+``GetJointFromName(name: `string`)`` -> `Class.Instance`
 
 ### `Class.HumanoidRigDescription:GetJointLabels`
 
-``GetJointLabels()`` → `Array`
+``GetJointLabels()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:GetJointNames`
 
-``GetJointNames()`` → `Array`
+``GetJointNames()`` -> `Array`
 
 ### `Class.HumanoidRigDescription:GetJointRangeMax`
 
-``GetJointRangeMax(rigLabel: `Enum.RigLabel`)`` → `Datatype.Vector3`
+``GetJointRangeMax(rigLabel: `Enum.RigLabel`)`` -> `Datatype.Vector3`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:GetJointRangeMin`
 
-``GetJointRangeMin(rigLabel: `Enum.RigLabel`)`` → `Datatype.Vector3`
+``GetJointRangeMin(rigLabel: `Enum.RigLabel`)`` -> `Datatype.Vector3`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:GetJointSize`
 
-``GetJointSize(label: `Enum.RigLabel`)`` → `float`
+``GetJointSize(label: `Enum.RigLabel`)`` -> `float`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:GetR15JointLabels`
 
-``GetR15JointLabels()`` → `Array`
+``GetR15JointLabels()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:GetR15JointNames`
 
-``GetR15JointNames()`` → `Array`
+``GetR15JointNames()`` -> `Array`
 
 ### `Class.HumanoidRigDescription:GetR6JointLabels`
 
-``GetR6JointLabels()`` → `Array`
+``GetR6JointLabels()`` -> `Array`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:GetR6JointNames`
 
-``GetR6JointNames()`` → `Array`
+``GetR6JointNames()`` -> `Array`
 
 ### `Class.HumanoidRigDescription:GetTposeAdjustment`
 
-``GetTposeAdjustment(label: `Enum.RigLabel`)`` → `Datatype.CFrame`
+``GetTposeAdjustment(label: `Enum.RigLabel`)`` -> `Datatype.CFrame`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:SetJoint`
 
-``SetJoint(label: `Enum.RigLabel`, joint: `Class.Instance`)`` → `null`
+``SetJoint(label: `Enum.RigLabel`, joint: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:SetJointRangeMax`
 
-``SetJointRangeMax(rigLabel: `Enum.RigLabel`, rangeMax: `Datatype.Vector3`)`` → `null`
+``SetJointRangeMax(rigLabel: `Enum.RigLabel`, rangeMax: `Datatype.Vector3`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:SetJointRangeMin`
 
-``SetJointRangeMin(rigLabel: `Enum.RigLabel`, rangeMin: `Datatype.Vector3`)`` → `null`
+``SetJointRangeMin(rigLabel: `Enum.RigLabel`, rangeMin: `Datatype.Vector3`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:SetJointSize`
 
-``SetJointSize(label: `Enum.RigLabel`, size: `float`)`` → `null`
+``SetJointSize(label: `Enum.RigLabel`, size: `float`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:SetTposeAdjustment`
 
-``SetTposeAdjustment(label: `Enum.RigLabel`, transform: `Datatype.CFrame`)`` → `null`
+``SetTposeAdjustment(label: `Enum.RigLabel`, transform: `Datatype.CFrame`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.HumanoidRigDescription:ShowVolumes`
 
-``ShowVolumes(show: `bool`)`` → `null`
+``ShowVolumes(show: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}

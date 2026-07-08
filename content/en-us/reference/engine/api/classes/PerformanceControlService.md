@@ -15,5 +15,5 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.PerformanceControlService:IsCrossExperienceLaunchFeasible`
 
-``IsCrossExperienceLaunchFeasible(type: `string`)`` → `bool`
+``IsCrossExperienceLaunchFeasible(type: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}

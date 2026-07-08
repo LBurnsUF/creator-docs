@@ -15,10 +15,10 @@ tags: [NotCreatable]
 
 ### `Class.HttpRequest:Cancel`
 
-``Cancel()`` → `null`
+``Cancel()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.HttpRequest:Start`
 
-``Start(callback: `Datatype.Function`)`` → `null`
+``Start(callback: `Datatype.Function`)`` -> `null`
    {security: RobloxScriptSecurity}

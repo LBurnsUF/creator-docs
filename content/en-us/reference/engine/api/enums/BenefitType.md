@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.BenefitType` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.BenefitType.DeveloperProduct` | 0 |
-| `Enum.BenefitType.AvatarAsset` | 1 |
-| `Enum.BenefitType.AvatarBundle` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.BenefitType.DeveloperProduct` | 0 |  |
+| `Enum.BenefitType.AvatarAsset` | 1 |  |
+| `Enum.BenefitType.AvatarBundle` | 2 |  |

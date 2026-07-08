@@ -15,15 +15,15 @@ tags: [NotCreatable, Service]
 
 ### `Class.CreatorStoreService:GetAssetInfoAsync`
 
-``GetAssetInfoAsync(assetId: `int64`)`` → `Dictionary`
+``GetAssetInfoAsync(assetId: `int64`)`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.CreatorStoreService:GetCreatorStoreProductInfoAsync`
 
-``GetCreatorStoreProductInfoAsync(productTargetId: `int64`, assetType: `string`)`` → `Dictionary`
+``GetCreatorStoreProductInfoAsync(productTargetId: `int64`, assetType: `string`)`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.CreatorStoreService:PerformCreatorStorePurchase`
 
-``PerformCreatorStorePurchase(productTargetId: `int64`, assetType: `string`)`` → `Dictionary`
+``PerformCreatorStorePurchase(productTargetId: `int64`, assetType: `string`)`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}

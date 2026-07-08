@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.MuteState` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.MuteState.Unmuted` | 0 |
-| `Enum.MuteState.Muted` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.MuteState.Unmuted` | 0 |  |
+| `Enum.MuteState.Muted` | 1 |  |

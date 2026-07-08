@@ -15,10 +15,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.StartupMessageService:ExecuteActionButton`
 
-``ExecuteActionButton()`` → `null`
+``ExecuteActionButton()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.StartupMessageService:GetStartupMessage`
 
-``GetStartupMessage()`` → `Variant`
+``GetStartupMessage()`` -> `Variant`
    {security: RobloxScriptSecurity}

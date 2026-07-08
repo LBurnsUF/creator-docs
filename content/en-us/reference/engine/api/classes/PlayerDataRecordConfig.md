@@ -13,16 +13,16 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PlayerDataRecordConfig.RecordName` | `string` | [ReadOnly] [NotReplicated] |
 
 ## Methods
 
 ### `Class.PlayerDataRecordConfig:GetDefaultValue`
 
-``GetDefaultValue(key: `string`)`` → `Variant`
+``GetDefaultValue(key: `string`)`` -> `Variant`
 
 ### `Class.PlayerDataRecordConfig:SetDefaultValue`
 
-``SetDefaultValue(key: `string`, value: `Variant`)`` → `null`
+``SetDefaultValue(key: `string`, value: `Variant`)`` -> `null`

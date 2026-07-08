@@ -6,12 +6,19 @@ superclass: CharacterAppearance
 
 # CharacterMesh
 
+Modifies the appearance of an R6 body part.
+
 **Inherits from:** `Class.CharacterAppearance` > `Class.Instance` > `Class.Object`
+
+## Description
+
+This property modifies the appearance of an R6 body part. It has no effect in
+R15 characters.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.CharacterMesh.BaseTextureContent` | `Datatype.Content` |  |
 | `Class.CharacterMesh.BaseTextureId` | `int64` |  |
 | `Class.CharacterMesh.BodyPart` | `Enum.BodyPart` |  |

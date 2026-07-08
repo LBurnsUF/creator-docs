@@ -15,10 +15,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.StudioSdkService:GetSdk`
 
-``GetSdk()`` → `Class.Instance`
+``GetSdk()`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.StudioSdkService:SetSdk`
 
-``SetSdk(sdk: `Class.Instance`)`` → `null`
+``SetSdk(sdk: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}

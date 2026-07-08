@@ -15,5 +15,5 @@ tags: [NotCreatable, Service]
 
 ### `Class.SlimContentProvider:GetContentMemoryData`
 
-``GetContentMemoryData()`` → `Dictionary`
+``GetContentMemoryData()`` -> `Dictionary`
    {security: RobloxSecurity}

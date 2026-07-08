@@ -7,47 +7,53 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # TextService
 
+Service internally responsible for handling the display of text.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
+
+## Description
+
+`TextService` is internally responsible for handling the display of text.
 
 ## Methods
 
 ### `Class.TextService:FilterAndTranslateStringAsync`
 
-``FilterAndTranslateStringAsync(stringToFilter: `string`, fromUserId: `int64`, targetLocales: `Array`, textContext: `Enum.TextFilterContext`)`` → `Class.TextFilterTranslatedResult`
+``FilterAndTranslateStringAsync(stringToFilter: `string`, fromUserId: `int64`, targetLocales: `Array`, textContext: `Enum.TextFilterContext`)`` -> `Class.TextFilterTranslatedResult`
   [Yields]
 
 ### `Class.TextService:FilterStringAsync`
 
-``FilterStringAsync(stringToFilter: `string`, fromUserId: `int64`, textContext: `Enum.TextFilterContext`)`` → `Class.TextFilterResult`
+``FilterStringAsync(stringToFilter: `string`, fromUserId: `int64`, textContext: `Enum.TextFilterContext`)`` -> `Class.TextFilterResult`
   [Yields]
 
 ### `Class.TextService:GetFamilyInfoAsync`
 
-``GetFamilyInfoAsync(assetId: `Datatype.ContentId`)`` → `Dictionary`
+``GetFamilyInfoAsync(assetId: `Datatype.ContentId`)`` -> `Dictionary`
   [Yields]
 
 ### `Class.TextService:GetFontMemoryData`
 
-``GetFontMemoryData()`` → `Dictionary`
+``GetFontMemoryData()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.TextService:GetTextBoundsAsync`
 
-``GetTextBoundsAsync(params: `Class.GetTextBoundsParams`)`` → `Datatype.Vector2`
+``GetTextBoundsAsync(params: `Class.GetTextBoundsParams`)`` -> `Datatype.Vector2`
   [Yields]
 
 ### `Class.TextService:GetTextSize`
 
-``GetTextSize(string: `string`, fontSize: `int`, font: `Enum.Font`, frameSize: `Datatype.Vector2`)`` → `Datatype.Vector2`
+``GetTextSize(string: `string`, fontSize: `int`, font: `Enum.Font`, frameSize: `Datatype.Vector2`)`` -> `Datatype.Vector2`
 
 ### `Class.TextService:GetTextSizeOffsetAsync`
 
-``GetTextSizeOffsetAsync(fontSize: `int`, font: `Datatype.Font`)`` → `float`
+``GetTextSizeOffsetAsync(fontSize: `int`, font: `Datatype.Font`)`` -> `float`
   [Yields]
 
 ### `Class.TextService:SetResolutionScale`
 
-``SetResolutionScale(scale: `float`)`` → `null`
+``SetResolutionScale(scale: `float`)`` -> `null`
    {security: RobloxScriptSecurity}

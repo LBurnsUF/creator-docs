@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.StudioActionOverride.Enabled` | `bool` |  {security: RobloxScriptSecurity} |
 | `Class.StudioActionOverride.Released` | `bool` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.StudioActionOverride.StudioAction` | `Enum.StudioAction` | [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -23,7 +23,7 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.StudioActionOverride:Release`
 
-``Release()`` → `null`
+``Release()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

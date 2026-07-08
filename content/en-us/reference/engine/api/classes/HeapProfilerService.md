@@ -15,12 +15,12 @@ tags: [NotCreatable, Service]
 
 ### `Class.HeapProfilerService:ClientRequestDataAsync`
 
-``ClientRequestDataAsync(player: `Class.Player`)`` → `string`
+``ClientRequestDataAsync(player: `Class.Player`)`` -> `string`
   [Yields] {security: PluginSecurity}
 
 ### `Class.HeapProfilerService:ServerRequestDataAsync`
 
-``ServerRequestDataAsync()`` → `string`
+``ServerRequestDataAsync()`` -> `string`
   [Yields] {security: PluginSecurity}
 
 ## Events

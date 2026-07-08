@@ -15,20 +15,20 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.ClientStorageService:Clear`
 
-``Clear()`` → `null`
+``Clear()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ClientStorageService:GetItem`
 
-``GetItem(key: `string`)`` → `string`
+``GetItem(key: `string`)`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.ClientStorageService:RemoveItem`
 
-``RemoveItem(key: `string`)`` → `null`
+``RemoveItem(key: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ClientStorageService:SetItem`
 
-``SetItem(key: `string`, value: `string`, options: `Dictionary`)`` → `null`
+``SetItem(key: `string`, value: `string`, options: `Dictionary`)`` -> `null`
    {security: RobloxScriptSecurity}

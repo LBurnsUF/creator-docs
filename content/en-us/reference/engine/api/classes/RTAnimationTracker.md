@@ -13,8 +13,8 @@ tags: [NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.RTAnimationTracker.Active` | `bool` | [Hidden] [NotReplicated] |
 | `Class.RTAnimationTracker.EnableFallbackAudioInput` | `bool` | [Hidden] [NotReplicated] |
 | `Class.RTAnimationTracker.SessionName` | `string` | [Hidden] [NotReplicated] |
@@ -25,7 +25,7 @@ tags: [NotReplicated]
 
 ### `Class.RTAnimationTracker:Step`
 
-``Step()`` → `null`
+``Step()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

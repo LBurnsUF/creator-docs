@@ -13,70 +13,70 @@ tags: [NotCreatable, Service]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.SafetyService.IsCaptureModeForReport` | `bool` |  {security: RobloxScriptSecurity} |
 
 ## Methods
 
 ### `Class.SafetyService:DecodeAvatarMovementProto`
 
-``DecodeAvatarMovementProto(avatarMovementProtoString: `string`)`` → `Dictionary`
+``DecodeAvatarMovementProto(avatarMovementProtoString: `string`)`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:ReportCapturesUIClose`
 
-``ReportCapturesUIClose()`` → `null`
+``ReportCapturesUIClose()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:ReportCapturesUIOpen`
 
-``ReportCapturesUIOpen()`` → `null`
+``ReportCapturesUIOpen()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:ReportChatLineReportingClose`
 
-``ReportChatLineReportingClose()`` → `null`
+``ReportChatLineReportingClose()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:ReportChatLineReportingOpen`
 
-``ReportChatLineReportingOpen()`` → `null`
+``ReportChatLineReportingOpen()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:ReportChatSuspensionDialogClose`
 
-``ReportChatSuspensionDialogClose()`` → `null`
+``ReportChatSuspensionDialogClose()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:ReportChatSuspensionDialogOpen`
 
-``ReportChatSuspensionDialogOpen()`` → `null`
+``ReportChatSuspensionDialogOpen()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:ReportMenuTabClose`
 
-``ReportMenuTabClose()`` → `null`
+``ReportMenuTabClose()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:ReportMenuTabOpen`
 
-``ReportMenuTabOpen()`` → `null`
+``ReportMenuTabOpen()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:ReportPartyChatWindowClose`
 
-``ReportPartyChatWindowClose()`` → `null`
+``ReportPartyChatWindowClose()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:ReportPartyChatWindowOpen`
 
-``ReportPartyChatWindowOpen()`` → `null`
+``ReportPartyChatWindowOpen()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.SafetyService:TakeScreenshot`
 
-``TakeScreenshot(screenshotOptions: `Dictionary`)`` → `int64`
+``TakeScreenshot(screenshotOptions: `Dictionary`)`` -> `int64`
    {security: RobloxScriptSecurity}
 
 ## Events

@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.VRScaling` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.VRScaling.World` | 0 |
-| `Enum.VRScaling.Off` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.VRScaling.World` | 0 | Adjusts `Class.Camera.HeadScale' so that the world in VR is seen from the avatar's perspective. |
+| `Enum.VRScaling.Off` | 1 | Disable VR AutomaticScaling . |

@@ -8,10 +8,15 @@ superclass: Controller
 
 **Inherits from:** `Class.Controller` > `Class.Instance` > `Class.Object`
 
+## Description
+
+A SkateboardController is an object responsible for translating PlayerActions
+to movements with a `Class.SkateboardPlatform`.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.SkateboardController.Steer` | `float` | [ReadOnly] [NotReplicated] |
 | `Class.SkateboardController.Throttle` | `float` | [ReadOnly] [NotReplicated] |
 

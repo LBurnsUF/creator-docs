@@ -7,14 +7,30 @@ tags: [NotCreatable, NotBrowsable]
 
 # PackageLink
 
+Links a `Class.DataModel` instance to a corresponding asset in the cloud.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [NotBrowsable]
 
+## Description
+
+The purpose of the `Class.PackageLink` object is to link a `Class.DataModel`
+instance to a corresponding asset in the cloud. This improves flows for
+collaboration, version control, and sharing for models. The
+`Class.PackageLink` instance will be a child of the root of the entire package
+hierarchy.
+
+`Class.PackageLink|PackageLinks` are not creatable through
+`Class.Script|Scripts`. They can only be added through interaction with Studio
+and can only be parented to `Class.Instance|Instances` that can be published
+independently of `Class.DataModel` publish. The `Class.PackageLink` instance
+will always be the first child shown in the tree view, regardless of sorting.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PackageLink.AutoUpdate` | `bool` |  {security: RobloxScriptSecurity} |
 | `Class.PackageLink.Creator` | `string` | [ReadOnly] [NotReplicated] [NotScriptable] |
 | `Class.PackageLink.DefaultName` | `string` |  {write: NotAccessibleSecurity} |

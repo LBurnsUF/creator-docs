@@ -7,105 +7,113 @@ tags: [NotCreatable, Service]
 
 # AvatarCreationService
 
+A service to support developer avatar creators.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
+
+## Description
+
+`AvatarCreationService` is a service that supports developer avatar creators,
+providing methods that support the prompting of avatar creation from within
+experiences.
 
 ## Methods
 
 ### `Class.AvatarCreationService:AutoSetupAvatarAsync`
 
-``AutoSetupAvatarAsync(player: `Class.Player`, autoSetupParams: `Dictionary`, progressCallback: `Datatype.Function`?)`` → `string`
+``AutoSetupAvatarAsync(player: `Class.Player`, autoSetupParams: `Dictionary`, progressCallback: `Datatype.Function`?)`` -> `string`
   [Yields]
 
 ### `Class.AvatarCreationService:CreateCageMeshPartsWithScaleForExportAsync`
 
-``CreateCageMeshPartsWithScaleForExportAsync(model: `Class.Model`)`` → `Class.Folder`
+``CreateCageMeshPartsWithScaleForExportAsync(model: `Class.Model`)`` -> `Class.Folder`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AvatarCreationService:DeserializeAvatarModel`
 
-``DeserializeAvatarModel(serializedModel: `string`)`` → `Class.Instance`
+``DeserializeAvatarModel(serializedModel: `string`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarCreationService:GenerateAvatar2DPreviewAsync`
 
-``GenerateAvatar2DPreviewAsync(avatarGeneration2dPreviewParams: `Dictionary`, progressCallback: `Datatype.Function`?)`` → `string`
+``GenerateAvatar2DPreviewAsync(avatarGeneration2dPreviewParams: `Dictionary`, progressCallback: `Datatype.Function`?)`` -> `string`
   [Yields]
 
 ### `Class.AvatarCreationService:GenerateAvatarAsync`
 
-``GenerateAvatarAsync(avatarGenerationParams: `Dictionary`, progressCallback: `Datatype.Function`?)`` → `string`
+``GenerateAvatarAsync(avatarGenerationParams: `Dictionary`, progressCallback: `Datatype.Function`?)`` -> `string`
   [Yields]
 
 ### `Class.AvatarCreationService:GetBatchTokenDetailsAsync`
 
-``GetBatchTokenDetailsAsync(tokenIds: `Array`)`` → `Array`
+``GetBatchTokenDetailsAsync(tokenIds: `Array`)`` -> `Array`
   [Yields]
 
 ### `Class.AvatarCreationService:GetValidationRules`
 
-``GetValidationRules()`` → `Dictionary`
+``GetValidationRules()`` -> `Dictionary`
   [CustomLuaState]
 
 ### `Class.AvatarCreationService:HandleSelfieConsentResult`
 
-``HandleSelfieConsentResult(consentAccepted: `bool`)`` → `null`
+``HandleSelfieConsentResult(consentAccepted: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarCreationService:HandleSelfieQRResult`
 
-``HandleSelfieQRResult(success: `bool`, resultString: `string`)`` → `null`
+``HandleSelfieQRResult(success: `bool`, resultString: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AvatarCreationService:LoadAvatar2DPreviewAsync`
 
-``LoadAvatar2DPreviewAsync(previewId: `string`)`` → `Class.EditableImage`
+``LoadAvatar2DPreviewAsync(previewId: `string`)`` -> `Class.EditableImage`
   [Yields]
 
 ### `Class.AvatarCreationService:LoadGeneratedAvatarAsync`
 
-``LoadGeneratedAvatarAsync(generationId: `string`)`` → `Class.HumanoidDescription`
+``LoadGeneratedAvatarAsync(generationId: `string`)`` -> `Class.HumanoidDescription`
   [Yields]
 
 ### `Class.AvatarCreationService:PrepareAvatarForPreviewAsync`
 
-``PrepareAvatarForPreviewAsync(humanoidModel: `Class.Model`)`` → `null`
+``PrepareAvatarForPreviewAsync(humanoidModel: `Class.Model`)`` -> `null`
   [Yields]
 
 ### `Class.AvatarCreationService:PromptCreateAvatarAssetAsync`
 
-``PromptCreateAvatarAssetAsync(tokenId: `string`, player: `Class.Player`, assetInstance: `Class.Instance`, assetType: `Enum.AvatarAssetType`)`` → `Tuple`
+``PromptCreateAvatarAssetAsync(tokenId: `string`, player: `Class.Player`, assetInstance: `Class.Instance`, assetType: `Enum.AvatarAssetType`)`` -> `Tuple`
   [Yields]
 
 ### `Class.AvatarCreationService:PromptCreateAvatarAsync`
 
-``PromptCreateAvatarAsync(tokenId: `string`, player: `Class.Player`, humanoidDescription: `Class.HumanoidDescription`)`` → `Tuple`
+``PromptCreateAvatarAsync(tokenId: `string`, player: `Class.Player`, humanoidDescription: `Class.HumanoidDescription`)`` -> `Tuple`
   [Yields]
 
 ### `Class.AvatarCreationService:PromptSelectAvatarGenerationImageAsync`
 
-``PromptSelectAvatarGenerationImageAsync(player: `Class.Player`)`` → `string`
+``PromptSelectAvatarGenerationImageAsync(player: `Class.Player`)`` -> `string`
   [Yields]
 
 ### `Class.AvatarCreationService:RequestAvatarGenerationSessionAsync`
 
-``RequestAvatarGenerationSessionAsync(player: `Class.Player`, callback: `Datatype.Function`)`` → `Tuple`
+``RequestAvatarGenerationSessionAsync(player: `Class.Player`, callback: `Datatype.Function`)`` -> `Tuple`
   [Yields]
 
 ### `Class.AvatarCreationService:ValidateUGCAccessoryAsync`
 
-``ValidateUGCAccessoryAsync(player: `Class.Player`, accessory: `Class.Instance`, accessoryType: `Enum.AccessoryType`)`` → `Tuple`
+``ValidateUGCAccessoryAsync(player: `Class.Player`, accessory: `Class.Instance`, accessoryType: `Enum.AccessoryType`)`` -> `Tuple`
   [Yields]
 
 ### `Class.AvatarCreationService:ValidateUGCBodyPartAsync`
 
-``ValidateUGCBodyPartAsync(player: `Class.Player`, instance: `Class.Instance`, bodyPart: `Enum.BodyPart`)`` → `Tuple`
+``ValidateUGCBodyPartAsync(player: `Class.Player`, instance: `Class.Instance`, bodyPart: `Enum.BodyPart`)`` -> `Tuple`
   [Yields]
 
 ### `Class.AvatarCreationService:ValidateUGCFullBodyAsync`
 
-``ValidateUGCFullBodyAsync(player: `Class.Player`, humanoidDescription: `Class.HumanoidDescription`)`` → `Tuple`
+``ValidateUGCFullBodyAsync(player: `Class.Player`, humanoidDescription: `Class.HumanoidDescription`)`` -> `Tuple`
   [Yields]
 
 ## Events

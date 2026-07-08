@@ -6,12 +6,23 @@ superclass: GuiButton
 
 # TextButton
 
+A 2D user interface element that displays interactive text.
+
 **Inherits from:** `Class.GuiButton` > `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
+
+## Description
+
+A `Class.TextButton` behaves similarly to `Class.TextLabel` in regards to
+rendering, with the additional behaviors of a `Class.GuiButton`.
+
+You can disable text rendering by setting
+`Class.TextButton.TextTransparency|TextTransparency` to `1`. This will result
+in a plain rectangle that can be used as a button.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.TextButton.ContentText` | `string` | [ReadOnly] [NotReplicated] |
 | `Class.TextButton.Font` | `Enum.Font` | [Hidden] [NotReplicated] |
 | `Class.TextButton.FontFace` | `Datatype.Font` |  |
@@ -45,5 +56,5 @@ superclass: GuiButton
 
 ### `Class.TextButton:SetTextFromInput`
 
-``SetTextFromInput(text: `string`)`` → `null`
+``SetTextFromInput(text: `string`)`` -> `null`
    {security: RobloxScriptSecurity}

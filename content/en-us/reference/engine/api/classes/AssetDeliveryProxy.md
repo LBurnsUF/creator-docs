@@ -13,8 +13,8 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AssetDeliveryProxy.Interface` | `string` |  |
 | `Class.AssetDeliveryProxy.Port` | `int` |  |
 | `Class.AssetDeliveryProxy.StartServer` | `bool` |  |

@@ -7,8 +7,8 @@ type: enum
 
 The `Enum.PropertyStatus` enum has 3 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.PropertyStatus.Ok` | 0 |
-| `Enum.PropertyStatus.Warning` | 1 |
-| `Enum.PropertyStatus.Error` | 2 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.PropertyStatus.Ok` | 0 |  |
+| `Enum.PropertyStatus.Warning` | 1 |  |
+| `Enum.PropertyStatus.Error` | 2 |  |

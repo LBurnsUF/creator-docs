@@ -6,12 +6,85 @@ superclass: Instance
 
 # FaceControls
 
+The `Class.FaceControls` object defines a set of properties for controlling
+the facial expressions of a Dynamic Head.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+The `Class.FaceControls` object defines a set of properties for controlling
+the facial expressions of a character head capable of animation.
+
+The FaceControls properties are based on the Facial Action Coding System
+(FACS), a comprehensive system for describing all visually discernible facial
+movement based on anatomy. `Class.FaceControls` properties can only be set
+between 0 and 1. Different combinations of the `Class.FaceControls` property
+values create different facial expressions. Recording multiple facial
+expressions over time creates facial animation.
+
+## What is an Animatable Head?
+
+An animatable head is a `Class.MeshPart` that implements a facial rig and is
+capable of playing facial animations and triggering facial expressions. A
+`Class.FaceControls` object that is a child of a head `Class.MeshPart` can
+change the facial expressions of the head.
+
+A head consists of the following three components:
+
+- Skinned MeshPart instance for the head geometry with an internal rig that
+  deforms this skinned MeshPart
+- FaceControls instance that drives the internal rig when properties such as
+  FaceControls.JawDrop are changed.
+- Cage `Class.WrapTarget` instance for tight fitting facial accessories
+
+In a third-party modeling tool, such as Blender or Maya, an artist can create
+a joint-driven facial rig, pose the joints to match each of the individual
+FACS controls, and save as an FBX. When a head `.FBX` is imported in Studio, a
+facs-to-joint mapping is created. This mapping deforms the mesh geometry when
+FaceControls properties are changed. The mapping and the facial rig (including
+`Class.Bone` instances) are not exposed to developers and can only be accessed
+through the FaceControls instance. The `Class.MeshPart` for a Dynamic Head
+looks and behaves the same as a regular `Class.MeshPart` except when a
+FaceControls instance is a child of the MeshPart. Editing the properties of
+the FaceControls deforms the MeshPart's geometry. These properties are
+available to animate in the Animation Editor.
+
+See [Facial animation](../../../avatar/dynamic-heads/index.md) for more
+information on usage and creation of an animatable head.
+
+## Animatable Heads in the Marketplace
+
+If you are publishing your head to the Marketplace, your head asset must
+include a minimum subset of face controls. Roblox's publishing validation
+rejects assets without the following required poses:
+
+- EyesLookDown
+- EyesLookLeft
+- EyesLookRight
+- EyesLookUp
+- JawDrop
+- LeftEyeClosed
+- LeftLipCornerPuller
+- LeftLipStretcher
+- LeftLowerLipDepressor
+- LeftUpperLipRaiser
+- LipsTogether
+- Pucker
+- RightEyeClosed
+- RightLipCornerPuller
+- RightLipStretcher
+- RightLowerLipDepressor
+- RightUpperLipRaiser
+
+See
+[FACS poses reference](../../../avatar/dynamic-heads/facs-poses-reference.md)
+for more information on usage and creation of an animatable head.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.FaceControls.ChinRaiser` | `float` | [NotReplicated] {security: PluginSecurity} |
 | `Class.FaceControls.ChinRaiserUpperLip` | `float` | [NotReplicated] {security: PluginSecurity} |
 | `Class.FaceControls.Corrugator` | `float` | [NotReplicated] {security: PluginSecurity} |
@@ -67,7 +140,7 @@ superclass: Instance
 
 ### `Class.FaceControls:HasOverrideFACSData`
 
-``HasOverrideFACSData()`` → `bool`
+``HasOverrideFACSData()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ## Events

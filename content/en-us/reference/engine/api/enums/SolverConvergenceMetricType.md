@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.SolverConvergenceMetricType` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.SolverConvergenceMetricType.IterationBased` | 0 |
-| `Enum.SolverConvergenceMetricType.AlgorithmAgnostic` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.SolverConvergenceMetricType.IterationBased` | 0 |  |
+| `Enum.SolverConvergenceMetricType.AlgorithmAgnostic` | 1 |  |

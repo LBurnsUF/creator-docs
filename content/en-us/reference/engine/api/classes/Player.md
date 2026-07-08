@@ -6,12 +6,39 @@ superclass: Instance
 
 # Player
 
+An object that represents a presently connected client to the experience.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+A `Player` object is a client that is currently connected. These objects are
+added to the `Class.Players` service when a new player connects, then removed
+when they eventually disconnect from the server.
+
+The `Class.Instance.Name` property reflects the player's username. When saving
+information about a player, you should use their `Class.Player.UserId|UserId`
+since it is possible that a player can change their username.
+
+There are several similar methods in the `Class.Players` service for working
+with Player objects. Use these over their respective `Class.Instance` methods:
+
+- You can get a table of current `Player` objects using
+  `Class.Players:GetPlayers()`; again, use this instead of
+  `Class.Instance:GetChildren()`.
+- To detect the addition of `Player` objects, it is recommended to use the
+  `Class.Players.PlayerAdded` event (instead of `Class.Instance.ChildAdded` on
+  the `Class.Players` service).
+- Similarly, you can detect the removal of `Player` objects using
+  `Class.Players.PlayerRemoving`, which fires just **before** the `Player` is
+  removed (instead of `Class.Instance.ChildRemoved` which fires after). This
+  is important if you are saving information about the player that might be
+  removed or cleaned up on removal.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.Player.AccountAge` | `int` | [ReadOnly] [NotReplicated] |
 | `Class.Player.AgeChecked` | `Enum.AgeCheckStatus` |  {write: RobloxSecurity} |
 | `Class.Player.AppearanceDidLoad` | `bool` | [Hidden] [ReadOnly] [NotReplicated] [Deprecated] {security: RobloxScriptSecurity} |
@@ -70,434 +97,434 @@ superclass: Instance
 
 ### `Class.Player:AddReplicationFocus`
 
-``AddReplicationFocus(part: `Class.BasePart`)`` → `null`
+``AddReplicationFocus(part: `Class.BasePart`)`` -> `null`
 
 ### `Class.Player:AddReplicationFocusPosition`
 
-``AddReplicationFocusPosition(center: `Datatype.Vector3`, radius: `int`)`` → `null`
+``AddReplicationFocusPosition(center: `Datatype.Vector3`, radius: `int`)`` -> `null`
    {security: RobloxSecurity}
 
 ### `Class.Player:AddToBlockList`
 
-``AddToBlockList(userIds: `Array`)`` → `null`
+``AddToBlockList(userIds: `Array`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:ClearCachedAvatarAppearance`
 
-``ClearCachedAvatarAppearance()`` → `null`
+``ClearCachedAvatarAppearance()`` -> `null`
 
 ### `Class.Player:ClearCharacterAppearance`
 
-``ClearCharacterAppearance()`` → `null`
+``ClearCharacterAppearance()`` -> `null`
 
 ### `Class.Player:DistanceFromCharacter`
 
-``DistanceFromCharacter(point: `Datatype.Vector3`)`` → `float`
+``DistanceFromCharacter(point: `Datatype.Vector3`)`` -> `float`
 
 ### `Class.Player:GetBlockListInitialized`
 
-``GetBlockListInitialized()`` → `bool`
+``GetBlockListInitialized()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:GetCameraState`
 
-``GetCameraState()`` → `Dictionary`
+``GetCameraState()`` -> `Dictionary`
   [CustomLuaState]
 
 ### `Class.Player:GetCanManageAsync`
 
-``GetCanManageAsync()`` → `bool`
+``GetCanManageAsync()`` -> `bool`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.Player:GetData`
 
-``GetData()`` → `Class.PlayerData`
+``GetData()`` -> `Class.PlayerData`
 
 ### `Class.Player:GetFriendStatus`
 
-``GetFriendStatus(player: `Class.Player`)`` → `Enum.FriendStatus`
+``GetFriendStatus(player: `Class.Player`)`` -> `Enum.FriendStatus`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:GetFriendsOnline`
 
-``GetFriendsOnline(maxFriends: `int`)`` → `Array`
+``GetFriendsOnline(maxFriends: `int`)`` -> `Array`
   [Yields] [Deprecated]
 
 ### `Class.Player:GetFriendsOnlineAsync`
 
-``GetFriendsOnlineAsync(maxFriends: `int`)`` → `Array`
+``GetFriendsOnlineAsync(maxFriends: `int`)`` -> `Array`
   [Yields]
 
 ### `Class.Player:GetFriendsWhoPlayedAsync`
 
-``GetFriendsWhoPlayedAsync()`` → `Array`
+``GetFriendsWhoPlayedAsync()`` -> `Array`
   [Yields]
 
 ### `Class.Player:GetGameSessionID`
 
-``GetGameSessionID()`` → `string`
+``GetGameSessionID()`` -> `string`
    {security: RobloxSecurity}
 
 ### `Class.Player:GetJoinData`
 
-``GetJoinData()`` → `Dictionary`
+``GetJoinData()`` -> `Dictionary`
   [CustomLuaState]
 
 ### `Class.Player:GetMouse`
 
-``GetMouse()`` → `Class.Mouse`
+``GetMouse()`` -> `Class.Mouse`
 
 ### `Class.Player:GetNetworkPing`
 
-``GetNetworkPing()`` → `float`
+``GetNetworkPing()`` -> `float`
 
 ### `Class.Player:GetRankInGroup`
 
-``GetRankInGroup(groupId: `int64`)`` → `int`
+``GetRankInGroup(groupId: `int64`)`` -> `int`
   [Yields] [Deprecated]
 
 ### `Class.Player:GetRankInGroupAsync`
 
-``GetRankInGroupAsync(groupId: `int64`)`` → `int`
+``GetRankInGroupAsync(groupId: `int64`)`` -> `int`
   [Yields] [Deprecated]
 
 ### `Class.Player:GetRoleInGroup`
 
-``GetRoleInGroup(groupId: `int64`)`` → `string`
+``GetRoleInGroup(groupId: `int64`)`` -> `string`
   [Yields] [Deprecated]
 
 ### `Class.Player:GetRoleInGroupAsync`
 
-``GetRoleInGroupAsync(groupId: `int64`)`` → `string`
+``GetRoleInGroupAsync(groupId: `int64`)`` -> `string`
   [Yields] [Deprecated]
 
 ### `Class.Player:GetSeatRequested`
 
-``GetSeatRequested()`` → `Class.Instance`
+``GetSeatRequested()`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:GetToolRequested`
 
-``GetToolRequested()`` → `Class.Instance`
+``GetToolRequested()`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:GetUnder13`
 
-``GetUnder13()`` → `bool`
+``GetUnder13()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:HasAppearanceLoaded`
 
-``HasAppearanceLoaded()`` → `bool`
+``HasAppearanceLoaded()`` -> `bool`
 
 ### `Class.Player:HasBlockedPlayer`
 
-``HasBlockedPlayer(fromPlayer: `int64`)`` → `bool`
+``HasBlockedPlayer(fromPlayer: `int64`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:IsBestFriendsWith`
 
-``IsBestFriendsWith(userId: `Datatype.User`)`` → `bool`
+``IsBestFriendsWith(userId: `Datatype.User`)`` -> `bool`
   [Yields] [Deprecated]
 
 ### `Class.Player:IsFriendsWith`
 
-``IsFriendsWith(userId: `Datatype.User`)`` → `bool`
+``IsFriendsWith(userId: `Datatype.User`)`` -> `bool`
   [Yields] [Deprecated]
 
 ### `Class.Player:IsFriendsWithAsync`
 
-``IsFriendsWithAsync(userId: `Datatype.User`)`` → `bool`
+``IsFriendsWithAsync(userId: `Datatype.User`)`` -> `bool`
   [Yields]
 
 ### `Class.Player:IsInGroup`
 
-``IsInGroup(groupId: `int64`)`` → `bool`
+``IsInGroup(groupId: `int64`)`` -> `bool`
   [Yields] [Deprecated]
 
 ### `Class.Player:IsInGroupAsync`
 
-``IsInGroupAsync(groupId: `int64`)`` → `bool`
+``IsInGroupAsync(groupId: `int64`)`` -> `bool`
   [Yields]
 
 ### `Class.Player:IsVerified`
 
-``IsVerified()`` → `bool`
+``IsVerified()`` -> `bool`
 
 ### `Class.Player:Kick`
 
-``Kick(message: `string`)`` → `null`
+``Kick(message: `string`)`` -> `null`
 
 ### `Class.Player:LoadBoolean`
 
-``LoadBoolean(key: `string`)`` → `bool`
+``LoadBoolean(key: `string`)`` -> `bool`
   [Deprecated]
 
 ### `Class.Player:LoadCharacter`
 
-``LoadCharacter()`` → `null`
+``LoadCharacter()`` -> `null`
   [Yields] [Deprecated]
 
 ### `Class.Player:LoadCharacterAppearance`
 
-``LoadCharacterAppearance(assetInstance: `Class.Instance`)`` → `null`
+``LoadCharacterAppearance(assetInstance: `Class.Instance`)`` -> `null`
   [Deprecated]
 
 ### `Class.Player:LoadCharacterAsync`
 
-``LoadCharacterAsync()`` → `null`
+``LoadCharacterAsync()`` -> `null`
   [Yields]
 
 ### `Class.Player:LoadCharacterBlocking`
 
-``LoadCharacterBlocking()`` → `null`
+``LoadCharacterBlocking()`` -> `null`
   [Yields] {security: LocalUserSecurity}
 
 ### `Class.Player:LoadCharacterWithAvatarRules`
 
-``LoadCharacterWithAvatarRules(avatarRules: `Class.AvatarRules`)`` → `null`
+``LoadCharacterWithAvatarRules(avatarRules: `Class.AvatarRules`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.Player:LoadCharacterWithHumanoidDescription`
 
-``LoadCharacterWithHumanoidDescription(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `null`
+``LoadCharacterWithHumanoidDescription(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` -> `null`
   [Yields] [Deprecated]
 
 ### `Class.Player:LoadCharacterWithHumanoidDescriptionAsync`
 
-``LoadCharacterWithHumanoidDescriptionAsync(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` → `null`
+``LoadCharacterWithHumanoidDescriptionAsync(humanoidDescription: `Class.HumanoidDescription`, assetTypeVerification: `Enum.AssetTypeVerification`)`` -> `null`
   [Yields]
 
 ### `Class.Player:LoadData`
 
-``LoadData()`` → `null`
+``LoadData()`` -> `null`
   [Deprecated] {security: LocalUserSecurity}
 
 ### `Class.Player:LoadInstance`
 
-``LoadInstance(key: `string`)`` → `Class.Instance`
+``LoadInstance(key: `string`)`` -> `Class.Instance`
   [Deprecated]
 
 ### `Class.Player:LoadNumber`
 
-``LoadNumber(key: `string`)`` → `double`
+``LoadNumber(key: `string`)`` -> `double`
   [Deprecated]
 
 ### `Class.Player:LoadString`
 
-``LoadString(key: `string`)`` → `string`
+``LoadString(key: `string`)`` -> `string`
   [Deprecated]
 
 ### `Class.Player:Move`
 
-``Move(walkDirection: `Datatype.Vector3`, relativeToCamera: `bool`)`` → `null`
+``Move(walkDirection: `Datatype.Vector3`, relativeToCamera: `bool`)`` -> `null`
 
 ### `Class.Player:NotifyAgeCheckPassed`
 
-``NotifyAgeCheckPassed()`` → `null`
+``NotifyAgeCheckPassed()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:OverrideStreamingRadii`
 
-``OverrideStreamingRadii(minRadius: `int`, targetRadius: `int`)`` → `null`
+``OverrideStreamingRadii(minRadius: `int`, targetRadius: `int`)`` -> `null`
    {security: RobloxSecurity}
 
 ### `Class.Player:PinStreamingForInstance`
 
-``PinStreamingForInstance(instance: `Class.Instance`, depth: `int`)`` → `null`
+``PinStreamingForInstance(instance: `Class.Instance`, depth: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:PinStreamingForInstanceByUniqueId`
 
-``PinStreamingForInstanceByUniqueId(uniqueIdString: `string`, depth: `int`)`` → `null`
+``PinStreamingForInstanceByUniqueId(uniqueIdString: `string`, depth: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:PromptAgeCheck`
 
-``PromptAgeCheck()`` → `null`
+``PromptAgeCheck()`` -> `null`
 
 ### `Class.Player:PromptSecurityChallengeAsync`
 
-``PromptSecurityChallengeAsync()`` → `bool`
+``PromptSecurityChallengeAsync()`` -> `bool`
   [Yields] {security: RobloxSecurity}
 
 ### `Class.Player:RemoveCharacter`
 
-``RemoveCharacter()`` → `null`
+``RemoveCharacter()`` -> `null`
    {security: LocalUserSecurity}
 
 ### `Class.Player:RemoveReplicationFocus`
 
-``RemoveReplicationFocus(part: `Class.BasePart`)`` → `null`
+``RemoveReplicationFocus(part: `Class.BasePart`)`` -> `null`
 
 ### `Class.Player:RemoveReplicationFocusPosition`
 
-``RemoveReplicationFocusPosition(center: `Datatype.Vector3`, radius: `int`)`` → `null`
+``RemoveReplicationFocusPosition(center: `Datatype.Vector3`, radius: `int`)`` -> `null`
    {security: RobloxSecurity}
 
 ### `Class.Player:RequestFriendship`
 
-``RequestFriendship(player: `Class.Player`)`` → `null`
+``RequestFriendship(player: `Class.Player`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:RequestSeat`
 
-``RequestSeat(instance: `Class.Instance`)`` → `null`
+``RequestSeat(instance: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:RequestStreamAroundAsync`
 
-``RequestStreamAroundAsync(position: `Datatype.Vector3`, timeOut: `double`)`` → `null`
+``RequestStreamAroundAsync(position: `Datatype.Vector3`, timeOut: `double`)`` -> `null`
   [Yields]
 
 ### `Class.Player:RequestTool`
 
-``RequestTool(instance: `Class.Instance`)`` → `null`
+``RequestTool(instance: `Class.Instance`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:RevokeFriendship`
 
-``RevokeFriendship(player: `Class.Player`)`` → `null`
+``RevokeFriendship(player: `Class.Player`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:SaveBoolean`
 
-``SaveBoolean(key: `string`, value: `bool`)`` → `null`
+``SaveBoolean(key: `string`, value: `bool`)`` -> `null`
   [Deprecated]
 
 ### `Class.Player:SaveData`
 
-``SaveData()`` → `null`
+``SaveData()`` -> `null`
   [Deprecated] {security: LocalUserSecurity}
 
 ### `Class.Player:SaveInstance`
 
-``SaveInstance(key: `string`, value: `Class.Instance`)`` → `null`
+``SaveInstance(key: `string`, value: `Class.Instance`)`` -> `null`
   [Deprecated]
 
 ### `Class.Player:SaveNumber`
 
-``SaveNumber(key: `string`, value: `double`)`` → `null`
+``SaveNumber(key: `string`, value: `double`)`` -> `null`
   [Deprecated]
 
 ### `Class.Player:SaveString`
 
-``SaveString(key: `string`, value: `string`)`` → `null`
+``SaveString(key: `string`, value: `string`)`` -> `null`
   [Deprecated]
 
 ### `Class.Player:SetAccountAge`
 
-``SetAccountAge(accountAge: `int`)`` → `null`
+``SetAccountAge(accountAge: `int`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Player:SetBlockListInitialized`
 
-``SetBlockListInitialized()`` → `null`
+``SetBlockListInitialized()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:SetCharacterAppearanceJson`
 
-``SetCharacterAppearanceJson(jsonBlob: `string`)`` → `null`
+``SetCharacterAppearanceJson(jsonBlob: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:SetChatTranslationSettingsLocaleId`
 
-``SetChatTranslationSettingsLocaleId(locale: `string`)`` → `null`
+``SetChatTranslationSettingsLocaleId(locale: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:SetExperienceSettingsLocaleId`
 
-``SetExperienceSettingsLocaleId(locale: `string`)`` → `null`
+``SetExperienceSettingsLocaleId(locale: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:SetHasRobloxSubscription`
 
-``SetHasRobloxSubscription(hasRobloxSubscription: `bool`)`` → `null`
+``SetHasRobloxSubscription(hasRobloxSubscription: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:SetMembershipType`
 
-``SetMembershipType(membershipType: `Enum.MembershipType`)`` → `null`
+``SetMembershipType(membershipType: `Enum.MembershipType`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:SetModerationAccessKey`
 
-``SetModerationAccessKey(moderationAccessKey: `string`)`` → `null`
+``SetModerationAccessKey(moderationAccessKey: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:SetSuperSafeChat`
 
-``SetSuperSafeChat(value: `bool`)`` → `null`
+``SetSuperSafeChat(value: `bool`)`` -> `null`
    {security: PluginSecurity}
 
 ### `Class.Player:SetUnder13`
 
-``SetUnder13(value: `bool`)`` → `null`
+``SetUnder13(value: `bool`)`` -> `null`
   [Deprecated] {security: RobloxSecurity}
 
 ### `Class.Player:UnpinStreamingForInstance`
 
-``UnpinStreamingForInstance(instance: `Class.Instance`, depth: `int`)`` → `null`
+``UnpinStreamingForInstance(instance: `Class.Instance`, depth: `int`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:UpdatePlayerBlocked`
 
-``UpdatePlayerBlocked(userId: `int64`, blocked: `bool`)`` → `null`
+``UpdatePlayerBlocked(userId: `int64`, blocked: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.Player:WaitForDataReady`
 
-``WaitForDataReady()`` → `bool`
+``WaitForDataReady()`` -> `bool`
   [Yields] [Deprecated]
 
 ### `Class.Player:isFriendsWith`
 
-``isFriendsWith(userId: `Datatype.User`)`` → `bool`
+``isFriendsWith(userId: `Datatype.User`)`` -> `bool`
   [Yields] [Deprecated]
 
 ### `Class.Player:loadBoolean`
 
-``loadBoolean(key: `string`)`` → `bool`
+``loadBoolean(key: `string`)`` -> `bool`
   [Deprecated]
 
 ### `Class.Player:loadInstance`
 
-``loadInstance(key: `string`)`` → `Class.Instance`
+``loadInstance(key: `string`)`` -> `Class.Instance`
   [Deprecated]
 
 ### `Class.Player:loadNumber`
 
-``loadNumber(key: `string`)`` → `double`
+``loadNumber(key: `string`)`` -> `double`
   [Deprecated]
 
 ### `Class.Player:loadString`
 
-``loadString(key: `string`)`` → `string`
+``loadString(key: `string`)`` -> `string`
   [Deprecated]
 
 ### `Class.Player:saveBoolean`
 
-``saveBoolean(key: `string`, value: `bool`)`` → `null`
+``saveBoolean(key: `string`, value: `bool`)`` -> `null`
   [Deprecated]
 
 ### `Class.Player:saveInstance`
 
-``saveInstance(key: `string`, value: `Class.Instance`)`` → `null`
+``saveInstance(key: `string`, value: `Class.Instance`)`` -> `null`
   [Deprecated]
 
 ### `Class.Player:saveNumber`
 
-``saveNumber(key: `string`, value: `double`)`` → `null`
+``saveNumber(key: `string`, value: `double`)`` -> `null`
   [Deprecated]
 
 ### `Class.Player:saveString`
 
-``saveString(key: `string`, value: `string`)`` → `null`
+``saveString(key: `string`, value: `string`)`` -> `null`
   [Deprecated]
 
 ### `Class.Player:waitForDataReady`
 
-``waitForDataReady()`` → `bool`
+``waitForDataReady()`` -> `bool`
   [Yields] [Deprecated]
 
 ## Events

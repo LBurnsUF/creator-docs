@@ -15,15 +15,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AnimationFromVideoCreatorStudioService:CreateAnimationByUploadingVideo`
 
-``CreateAnimationByUploadingVideo(progressCallback: `Datatype.Function`)`` → `string`
+``CreateAnimationByUploadingVideo(progressCallback: `Datatype.Function`)`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AnimationFromVideoCreatorStudioService:ImportVideoWithPrompt`
 
-``ImportVideoWithPrompt()`` → `string`
+``ImportVideoWithPrompt()`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AnimationFromVideoCreatorStudioService:IsAgeRestricted`
 
-``IsAgeRestricted()`` → `bool`
+``IsAgeRestricted()`` -> `bool`
    {security: RobloxScriptSecurity}

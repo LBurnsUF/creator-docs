@@ -15,9 +15,9 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.TerrainWriteOperation:CommitBlock`
 
-``CommitBlock(block: `Dictionary`)`` → `Datatype.RBXScriptSignal`
+``CommitBlock(block: `Dictionary`)`` -> `Datatype.RBXScriptSignal`
 
 ### `Class.TerrainWriteOperation:GetBlock`
 
-``GetBlock()`` → `Dictionary`
+``GetBlock()`` -> `Dictionary`
   [CustomLuaState]

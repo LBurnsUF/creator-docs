@@ -7,7 +7,7 @@ type: enum
 
 The `Enum.ExperienceAuthScope` enum has 2 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.ExperienceAuthScope.DefaultScope` | 0 |
-| `Enum.ExperienceAuthScope.CreatorAssetsCreate` | 1 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.ExperienceAuthScope.DefaultScope` | 0 |  |
+| `Enum.ExperienceAuthScope.CreatorAssetsCreate` | 1 |  |

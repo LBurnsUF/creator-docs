@@ -15,22 +15,22 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.SystemThemeService:getSystemTheme`
 
-``getSystemTheme()`` → `Enum.SystemThemeValue`
+``getSystemTheme()`` -> `Enum.SystemThemeValue`
    {security: RobloxScriptSecurity}
 
 ### `Class.SystemThemeService:getSystemThemeAsync`
 
-``getSystemThemeAsync()`` → `Enum.SystemThemeValue`
+``getSystemThemeAsync()`` -> `Enum.SystemThemeValue`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.SystemThemeService:isSystemThemeAvailable`
 
-``isSystemThemeAvailable()`` → `bool`
+``isSystemThemeAvailable()`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.SystemThemeService:setTheme`
 
-``setTheme(theme: `Enum.SystemThemeValue`)`` → `null`
+``setTheme(theme: `Enum.SystemThemeValue`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

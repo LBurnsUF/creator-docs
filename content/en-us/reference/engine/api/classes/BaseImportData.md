@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.BaseImportData.Id` | `string` | [ReadOnly] [NotReplicated] |
 | `Class.BaseImportData.ImportName` | `string` |  |
 | `Class.BaseImportData.ShouldImport` | `bool` |  |
@@ -23,17 +23,17 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.BaseImportData:CreatePresetFromData`
 
-``CreatePresetFromData()`` → `Dictionary`
+``CreatePresetFromData()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.BaseImportData:GetPreview`
 
-``GetPreview()`` → `Class.Instance`
+``GetPreview()`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.BaseImportData:GetStatuses`
 
-``GetStatuses()`` → `Dictionary`
+``GetStatuses()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ## Events

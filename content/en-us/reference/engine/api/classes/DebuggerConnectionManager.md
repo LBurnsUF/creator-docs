@@ -13,30 +13,30 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DebuggerConnectionManager.Timeout` | `double` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 
 ## Methods
 
 ### `Class.DebuggerConnectionManager:ConnectLocal`
 
-``ConnectLocal(dataModel: `Class.DataModel`)`` → `int`
+``ConnectLocal(dataModel: `Class.DataModel`)`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnectionManager:FocusConnection`
 
-``FocusConnection(connection: `Class.DebuggerConnection`)`` → `null`
+``FocusConnection(connection: `Class.DebuggerConnection`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnectionManager:GetAvailableConnection`
 
-``GetAvailableConnection()`` → `Class.DebuggerConnection`
+``GetAvailableConnection()`` -> `Class.DebuggerConnection`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerConnectionManager:GetConnectionById`
 
-``GetConnectionById(id: `int`)`` → `Class.DebuggerConnection`
+``GetConnectionById(id: `int`)`` -> `Class.DebuggerConnection`
    {security: RobloxScriptSecurity}
 
 ## Events

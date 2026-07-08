@@ -15,10 +15,10 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AppAgeSignalsService:GetAppAgeSignalsAsync`
 
-``GetAppAgeSignalsAsync()`` → `Dictionary`
+``GetAppAgeSignalsAsync()`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AppAgeSignalsService:IsAvailable`
 
-``IsAvailable()`` → `bool`
+``IsAvailable()`` -> `bool`
    {security: RobloxScriptSecurity}

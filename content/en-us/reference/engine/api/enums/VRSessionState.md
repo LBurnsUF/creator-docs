@@ -7,10 +7,10 @@ type: enum
 
 The `Enum.VRSessionState` enum has 5 item(s).
 
-| Name | Value |
-|------|-------|
-| `Enum.VRSessionState.Undefined` | 0 |
-| `Enum.VRSessionState.Idle` | 1 |
-| `Enum.VRSessionState.Visible` | 2 |
-| `Enum.VRSessionState.Focused` | 3 |
-| `Enum.VRSessionState.Stopping` | 4 |
+| Name | Value | Description |
+|------|-------|-------------|
+| `Enum.VRSessionState.Undefined` | 0 |  |
+| `Enum.VRSessionState.Idle` | 1 |  |
+| `Enum.VRSessionState.Visible` | 2 |  |
+| `Enum.VRSessionState.Focused` | 3 |  |
+| `Enum.VRSessionState.Stopping` | 4 |  |

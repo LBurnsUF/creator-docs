@@ -7,154 +7,162 @@ tags: [NotCreatable, Service]
 
 # AssetService
 
+A non-replicated service that handles asset-related queries to the Roblox web
+API.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service]
 
+## Description
+
+**AssetService** is a non-replicated service that handles asset-related
+queries to the Roblox web API.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AssetService.AllowInsertFreeAssets` | `bool` |  {security: RobloxScriptSecurity} |
 
 ## Methods
 
 ### `Class.AssetService:CachePartOperationsAsync`
 
-``CachePartOperationsAsync(partOperations: `Array`)`` → `null`
+``CachePartOperationsAsync(partOperations: `Array`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetService:CanEditAssetAsync`
 
-``CanEditAssetAsync(content: `Datatype.Content`)`` → `bool`
+``CanEditAssetAsync(content: `Datatype.Content`)`` -> `bool`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetService:ComposeDecalAsync`
 
-``ComposeDecalAsync(decal: `Class.Decal`, layers: `Array`)`` → `null`
+``ComposeDecalAsync(decal: `Class.Decal`, layers: `Array`)`` -> `null`
   [Yields]
 
 ### `Class.AssetService:CreateAssetAsync`
 
-``CreateAssetAsync(object: `Class.Object`, assetType: `Enum.AssetType`, requestParameters: `Dictionary`)`` → `Tuple`
+``CreateAssetAsync(object: `Class.Object`, assetType: `Enum.AssetType`, requestParameters: `Dictionary`)`` -> `Tuple`
   [Yields]
 
 ### `Class.AssetService:CreateAssetVersionAsync`
 
-``CreateAssetVersionAsync(object: `Class.Object`, assetType: `Enum.AssetType`, assetId: `int64`, requestParameters: `Dictionary`)`` → `Tuple`
+``CreateAssetVersionAsync(object: `Class.Object`, assetType: `Enum.AssetType`, assetId: `int64`, requestParameters: `Dictionary`)`` -> `Tuple`
   [Yields]
 
 ### `Class.AssetService:CreateDataModelContentAsync`
 
-``CreateDataModelContentAsync(content: `Datatype.Content`, options: `Dictionary?`)`` → `Tuple`
+``CreateDataModelContentAsync(content: `Datatype.Content`, options: `Dictionary?`)`` -> `Tuple`
   [Yields]
 
 ### `Class.AssetService:CreateEditableImage`
 
-``CreateEditableImage(editableImageOptions: `Dictionary?`)`` → `Class.EditableImage`
+``CreateEditableImage(editableImageOptions: `Dictionary?`)`` -> `Class.EditableImage`
 
 ### `Class.AssetService:CreateEditableImageAsync`
 
-``CreateEditableImageAsync(content: `Datatype.Content`, editableImageOptions: `Dictionary?`)`` → `Class.EditableImage`
+``CreateEditableImageAsync(content: `Datatype.Content`, editableImageOptions: `Dictionary?`)`` -> `Class.EditableImage`
   [Yields]
 
 ### `Class.AssetService:CreateEditableMesh`
 
-``CreateEditableMesh(editableMeshOptions: `Dictionary?`)`` → `Class.EditableMesh`
+``CreateEditableMesh(editableMeshOptions: `Dictionary?`)`` -> `Class.EditableMesh`
 
 ### `Class.AssetService:CreateEditableMeshAsync`
 
-``CreateEditableMeshAsync(content: `Datatype.Content`, editableMeshOptions: `Dictionary?`)`` → `Class.EditableMesh`
+``CreateEditableMeshAsync(content: `Datatype.Content`, editableMeshOptions: `Dictionary?`)`` -> `Class.EditableMesh`
   [Yields]
 
 ### `Class.AssetService:CreateMeshPartAsync`
 
-``CreateMeshPartAsync(meshContent: `Datatype.Content`, options: `Dictionary`)`` → `Class.MeshPart`
+``CreateMeshPartAsync(meshContent: `Datatype.Content`, options: `Dictionary`)`` -> `Class.MeshPart`
   [Yields]
 
 ### `Class.AssetService:CreatePlaceAsync`
 
-``CreatePlaceAsync(placeName: `string`, templatePlaceID: `int64`, description: `string`)`` → `int64`
+``CreatePlaceAsync(placeName: `string`, templatePlaceID: `int64`, description: `string`)`` -> `int64`
   [Yields]
 
 ### `Class.AssetService:CreatePlaceInPlayerInventoryAsync`
 
-``CreatePlaceInPlayerInventoryAsync(player: `Class.Instance`, placeName: `string`, templatePlaceID: `int64`, description: `string`)`` → `int64`
+``CreatePlaceInPlayerInventoryAsync(player: `Class.Instance`, placeName: `string`, templatePlaceID: `int64`, description: `string`)`` -> `int64`
   [Yields]
 
 ### `Class.AssetService:CreateSurfaceAppearanceAsync`
 
-``CreateSurfaceAppearanceAsync(content: `Dictionary`)`` → `Class.SurfaceAppearance`
+``CreateSurfaceAppearanceAsync(content: `Dictionary`)`` -> `Class.SurfaceAppearance`
   [Yields]
 
 ### `Class.AssetService:DeserializeInstance`
 
-``DeserializeInstance(serializedInstance: `string`)`` → `Class.Instance`
+``DeserializeInstance(serializedInstance: `string`)`` -> `Class.Instance`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetService:GetAssetIdsForPackage`
 
-``GetAssetIdsForPackage(packageAssetId: `int64`)`` → `Array`
+``GetAssetIdsForPackage(packageAssetId: `int64`)`` -> `Array`
   [Yields] [Deprecated]
 
 ### `Class.AssetService:GetAssetIdsForPackageAsync`
 
-``GetAssetIdsForPackageAsync(packageAssetId: `int64`)`` → `Array`
+``GetAssetIdsForPackageAsync(packageAssetId: `int64`)`` -> `Array`
   [Yields]
 
 ### `Class.AssetService:GetAudioMetadataAsync`
 
-``GetAudioMetadataAsync(idList: `Array`)`` → `Array`
+``GetAudioMetadataAsync(idList: `Array`)`` -> `Array`
   [Yields]
 
 ### `Class.AssetService:GetBundleDetailsAsync`
 
-``GetBundleDetailsAsync(bundleId: `int64`)`` → `Dictionary`
+``GetBundleDetailsAsync(bundleId: `int64`)`` -> `Dictionary`
   [Yields]
 
 ### `Class.AssetService:GetCreatorAssetID`
 
-``GetCreatorAssetID(creationID: `int64`)`` → `int64`
+``GetCreatorAssetID(creationID: `int64`)`` -> `int64`
   [Yields] [Deprecated]
 
 ### `Class.AssetService:GetGamePlacesAsync`
 
-``GetGamePlacesAsync()`` → `Class.Instance`
+``GetGamePlacesAsync()`` -> `Class.Instance`
   [Yields]
 
 ### `Class.AssetService:GetOpaqueContentMetadataMap`
 
-``GetOpaqueContentMetadataMap(opaqueContent: `Datatype.Content`)`` → `Dictionary`
+``GetOpaqueContentMetadataMap(opaqueContent: `Datatype.Content`)`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetService:LoadAssetAsync`
 
-``LoadAssetAsync(assetId: `int64`)`` → `Class.Instance`
+``LoadAssetAsync(assetId: `int64`)`` -> `Class.Instance`
   [Yields]
 
 ### `Class.AssetService:PromptCreateAssetAsync`
 
-``PromptCreateAssetAsync(player: `Class.Player`, instance: `Class.Instance`, assetType: `Enum.AssetType`)`` → `Tuple`
+``PromptCreateAssetAsync(player: `Class.Player`, instance: `Class.Instance`, assetType: `Enum.AssetType`)`` -> `Tuple`
   [Yields]
 
 ### `Class.AssetService:PromptImportAnimationClipFromVideoAsync`
 
-``PromptImportAnimationClipFromVideoAsync(player: `Class.Player`, progressCallback: `Datatype.Function`)`` → `Tuple`
+``PromptImportAnimationClipFromVideoAsync(player: `Class.Player`, progressCallback: `Datatype.Function`)`` -> `Tuple`
   [Yields]
 
 ### `Class.AssetService:SavePlaceAsync`
 
-``SavePlaceAsync(requestParameters: `Dictionary?`)`` → `null`
+``SavePlaceAsync(requestParameters: `Dictionary?`)`` -> `null`
   [Yields]
 
 ### `Class.AssetService:SearchAudio`
 
-``SearchAudio(searchParameters: `Class.AudioSearchParams`)`` → `Class.AudioPages`
+``SearchAudio(searchParameters: `Class.AudioSearchParams`)`` -> `Class.AudioPages`
   [Yields] [Deprecated]
 
 ### `Class.AssetService:SearchAudioAsync`
 
-``SearchAudioAsync(searchParameters: `Class.AudioSearchParams`)`` → `Class.AudioPages`
+``SearchAudioAsync(searchParameters: `Class.AudioSearchParams`)`` -> `Class.AudioPages`
   [Yields]
 
 ## Events

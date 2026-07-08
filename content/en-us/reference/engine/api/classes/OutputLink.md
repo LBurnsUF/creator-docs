@@ -15,5 +15,5 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.OutputLink:Print`
 
-``Print(messageType: `Enum.MessageType`, message: `string`, urlText: `string`)`` → `null`
+``Print(messageType: `Enum.MessageType`, message: `string`, urlText: `string`)`` -> `null`
    {security: RobloxScriptSecurity}

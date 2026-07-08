@@ -7,14 +7,42 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # UserGameSettings
 
+The UserGameSettings is a singleton class found inside of the
+`Class.UserSettings` singleton. It holds various persistent settings relating
+to how the user wants to control their camera, and their character.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+The UserGameSettings is a singleton class found inside of the
+`Class.UserSettings` singleton. It holds various persistent settings relating
+to how the user wants to control their camera, and their character.
+
+The properties on this class reflect both the user-facing options exposed in
+the in-experience settings menu (such as graphics quality, master volume,
+camera and control modes) as well as other contextual user-configurable state
+that is not surfaced in the menu itself (such as internal onboarding progress,
+VR comfort options, window layout, and debug or profiling configuration). As a
+result, some properties listed here may not correspond to anything visible in
+the settings UI, and many are restricted to internal Roblox scripts.
+
+You can access this object from a `Class.LocalScript` via:
+
+```lua
+UserSettings():GetService("UserGameSettings")
+```
+
+This object is intended to be used on the client only, as it serves no purpose
+on the server. It will also reflect your own settings when testing in Roblox
+Studio.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.UserGameSettings.AllTutorialsDisabled` | `bool` |  {security: RobloxScriptSecurity} |
 | `Class.UserGameSettings.BadgeVisible` | `bool` |  {security: RobloxScriptSecurity} |
 | `Class.UserGameSettings.CameraMode` | `Enum.CustomCameraMode` |  {security: RobloxScriptSecurity} |
@@ -89,50 +117,50 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.UserGameSettings:GetCameraYInvertValue`
 
-``GetCameraYInvertValue()`` → `int`
+``GetCameraYInvertValue()`` -> `int`
 
 ### `Class.UserGameSettings:GetDefaultFramerateCap`
 
-``GetDefaultFramerateCap()`` → `int`
+``GetDefaultFramerateCap()`` -> `int`
    {security: RobloxScriptSecurity}
 
 ### `Class.UserGameSettings:GetOnboardingCompleted`
 
-``GetOnboardingCompleted(onboardingId: `string`)`` → `bool`
+``GetOnboardingCompleted(onboardingId: `string`)`` -> `bool`
 
 ### `Class.UserGameSettings:GetTutorialState`
 
-``GetTutorialState(tutorialId: `string`)`` → `bool`
+``GetTutorialState(tutorialId: `string`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.UserGameSettings:InFullScreen`
 
-``InFullScreen()`` → `bool`
+``InFullScreen()`` -> `bool`
 
 ### `Class.UserGameSettings:InStudioMode`
 
-``InStudioMode()`` → `bool`
+``InStudioMode()`` -> `bool`
 
 ### `Class.UserGameSettings:ResetOnboardingCompleted`
 
-``ResetOnboardingCompleted(onboardingId: `string`)`` → `null`
+``ResetOnboardingCompleted(onboardingId: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.UserGameSettings:SetCameraYInvertVisible`
 
-``SetCameraYInvertVisible()`` → `null`
+``SetCameraYInvertVisible()`` -> `null`
 
 ### `Class.UserGameSettings:SetGamepadCameraSensitivityVisible`
 
-``SetGamepadCameraSensitivityVisible()`` → `null`
+``SetGamepadCameraSensitivityVisible()`` -> `null`
 
 ### `Class.UserGameSettings:SetOnboardingCompleted`
 
-``SetOnboardingCompleted(onboardingId: `string`)`` → `null`
+``SetOnboardingCompleted(onboardingId: `string`)`` -> `null`
 
 ### `Class.UserGameSettings:SetTutorialState`
 
-``SetTutorialState(tutorialId: `string`, value: `bool`)`` → `null`
+``SetTutorialState(tutorialId: `string`, value: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

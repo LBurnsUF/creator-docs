@@ -6,12 +6,44 @@ superclass: ClickDetector
 
 # DragDetector
 
+Instance which facilitates and encourages interaction with 3D objects in an
+experience.
+
 **Inherits from:** `Class.ClickDetector` > `Class.Instance` > `Class.Object`
+
+## Description
+
+The `Class.DragDetector` instance facilitates and encourages interaction with
+3D objects in an experience, such as opening doors and drawers, sliding a part
+around, and much more. Key features include:
+
+- Place a `Class.DragDetector` under any `Class.BasePart` or `Class.Model` to
+  make it draggable via all inputs (mouse, touch, gamepad, and VR), all
+  without a single line of code.
+
+- Choose from several `Class.DragDetector.DragStyle|DragStyle` options, define
+  how the object responds to motion via
+  `Class.DragDetector.ResponseStyle|ResponseStyle`, and optionally apply axis
+  or movement limits.
+
+- Scripts can respond to manipulation of dragged objects to drive UI or make
+  logical decisions, such as adjusting the light level in a room based on a
+  sliding wall switch dimmer.
+
+- Players can manipulate anchored parts or models and they'll stay exactly
+  where you put them upon release.
+
+- `Class.DragDetector|DragDetectors` work in Studio as long as you're **not**
+  using the **Select**, **Move**, **Scale**, or **Rotate** tools, making it
+  easier to test and adjust draggable objects while editing.
+
+See the [3D Drag Detectors](../../../ui/3D-drag-detectors.md) guide for
+details and usage examples.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DragDetector.ActivatedCursorIcon` | `Datatype.ContentId` |  |
 | `Class.DragDetector.ActivatedCursorIconContent` | `Datatype.Content` |  |
 | `Class.DragDetector.ApplyAtCenterOfMass` | `bool` |  |
@@ -44,23 +76,23 @@ superclass: ClickDetector
 
 ### `Class.DragDetector:AddConstraintFunction`
 
-``AddConstraintFunction(priority: `int`, function: `Datatype.Function`)`` → `Datatype.RBXScriptConnection`
+``AddConstraintFunction(priority: `int`, function: `Datatype.Function`)`` -> `Datatype.RBXScriptConnection`
 
 ### `Class.DragDetector:GetReferenceFrame`
 
-``GetReferenceFrame()`` → `Datatype.CFrame`
+``GetReferenceFrame()`` -> `Datatype.CFrame`
 
 ### `Class.DragDetector:RestartDrag`
 
-``RestartDrag()`` → `null`
+``RestartDrag()`` -> `null`
 
 ### `Class.DragDetector:SetDragStyleFunction`
 
-``SetDragStyleFunction(function: `Datatype.Function`)`` → `null`
+``SetDragStyleFunction(function: `Datatype.Function`)`` -> `null`
 
 ### `Class.DragDetector:SetPermissionPolicyFunction`
 
-``SetPermissionPolicyFunction(function: `Datatype.Function`)`` → `null`
+``SetPermissionPolicyFunction(function: `Datatype.Function`)`` -> `null`
 
 ## Events
 

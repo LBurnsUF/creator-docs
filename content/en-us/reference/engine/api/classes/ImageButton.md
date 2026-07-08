@@ -6,12 +6,19 @@ superclass: GuiButton
 
 # ImageButton
 
+A 2D user interface element that displays an interactive image.
+
 **Inherits from:** `Class.GuiButton` > `Class.GuiObject` > `Class.GuiBase2d` > `Class.GuiBase` > `Class.Instance` > `Class.Object`
+
+## Description
+
+An `Class.ImageButton` behaves similarly to an `Class.ImageLabel` in regards
+to rendering, with the additional behaviors of a `Class.GuiButton`.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ImageButton.ContentImageSize` | `Datatype.Vector2` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.ImageButton.HoverImage` | `Datatype.ContentId` |  |
 | `Class.ImageButton.HoverImageContent` | `Datatype.Content` |  |
@@ -34,5 +41,5 @@ superclass: GuiButton
 
 ### `Class.ImageButton:SetEnableContentImageSizeChangedEvents`
 
-``SetEnableContentImageSizeChangedEvents(enabled: `bool`)`` → `null`
+``SetEnableContentImageSizeChangedEvents(enabled: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}

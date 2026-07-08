@@ -6,12 +6,23 @@ superclass: Instance
 
 # MaterialVariant
 
+Represent a variant of a Material.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+Using MaterialVariant objects can expand the variety of materials in an
+experience. MaterialVariant has properties that can define the appearance of a
+material. Its name can be set in MaterialService to globally override a
+built-in material, or set in the `Class.BasePart.MaterialVariant` property to
+change certain Parts. MaterialVariant objects only work as descendants of
+MaterialService.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.MaterialVariant.AlphaMode` | `Enum.AlphaMode` |  |
 | `Class.MaterialVariant.BaseMaterial` | `Enum.Material` |  {write: PluginSecurity} |
 | `Class.MaterialVariant.ColorMap` | `Datatype.ContentId` |  {security: PluginSecurity} |

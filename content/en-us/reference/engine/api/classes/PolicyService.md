@@ -7,14 +7,22 @@ tags: [NotCreatable, Service, NotReplicated]
 
 # PolicyService
 
+Helps you query information regarding policy compliance for players around the
+world based on age range, location, and platform type.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
 
 **Tags:** [NotCreatable] [Service] [NotReplicated]
 
+## Description
+
+`PolicyService` helps you query information regarding policy compliance for
+players around the world based on age range, location, and platform type.
+
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.PolicyService.IsLuobuServer` | `Enum.TriStateBoolean` | [Hidden] {security: RobloxScriptSecurity} |
 | `Class.PolicyService.LuobuWhitelisted` | `Enum.TriStateBoolean` | [Hidden] {security: RobloxScriptSecurity} |
 
@@ -22,15 +30,15 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.PolicyService:CanViewBrandProjectAsync`
 
-``CanViewBrandProjectAsync(player: `Class.Player`, brandProjectId: `string`)`` → `bool`
+``CanViewBrandProjectAsync(player: `Class.Player`, brandProjectId: `string`)`` -> `bool`
   [Yields]
 
 ### `Class.PolicyService:GetPolicyInfoForPlayerAsync`
 
-``GetPolicyInfoForPlayerAsync(player: `Class.Instance`)`` → `Dictionary`
+``GetPolicyInfoForPlayerAsync(player: `Class.Instance`)`` -> `Dictionary`
   [Yields]
 
 ### `Class.PolicyService:GetPolicyInfoForServerRobloxOnlyAsync`
 
-``GetPolicyInfoForServerRobloxOnlyAsync()`` → `Dictionary`
+``GetPolicyInfoForServerRobloxOnlyAsync()`` -> `Dictionary`
   [Yields] {security: RobloxScriptSecurity}

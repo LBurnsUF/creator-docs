@@ -15,77 +15,77 @@ tags: [NotCreatable, Service, NotReplicated]
 
 ### `Class.AssetImportService:GetAllPresets`
 
-``GetAllPresets()`` → `Dictionary`
+``GetAllPresets()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:GetFilesInDirAsync`
 
-``GetFilesInDirAsync(path: `string`)`` → `Array`
+``GetFilesInDirAsync(path: `string`)`` -> `Array`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:GetPreset`
 
-``GetPreset(name: `string`)`` → `Dictionary`
+``GetPreset(name: `string`)`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:PickFileWithPromptAsync`
 
-``PickFileWithPromptAsync()`` → `string`
+``PickFileWithPromptAsync()`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:PickImageFileWithPrompt`
 
-``PickImageFileWithPrompt()`` → `string`
+``PickImageFileWithPrompt()`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:PickMeshFileWithPrompt`
 
-``PickMeshFileWithPrompt()`` → `string`
+``PickMeshFileWithPrompt()`` -> `string`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:PickMultipleFilesWithPrompt`
 
-``PickMultipleFilesWithPrompt()`` → `Array`
+``PickMultipleFilesWithPrompt()`` -> `Array`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:RemovePreset`
 
-``RemovePreset(name: `string`)`` → `null`
+``RemovePreset(name: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:SavePreset`
 
-``SavePreset(name: `string`, preset: `Dictionary`)`` → `bool`
+``SavePreset(name: `string`, preset: `Dictionary`)`` -> `bool`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:StartSessionWithPath`
 
-``StartSessionWithPath(filePath: `string`)`` → `Class.AssetImportSession`
+``StartSessionWithPath(filePath: `string`)`` -> `Class.AssetImportSession`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:StartSessionWithPathAsync`
 
-``StartSessionWithPathAsync(filePath: `string`)`` → `Class.AssetImportSession`
+``StartSessionWithPathAsync(filePath: `string`)`` -> `Class.AssetImportSession`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:StartSingleFileWatch`
 
-``StartSingleFileWatch(filePath: `string`)`` → `null`
+``StartSingleFileWatch(filePath: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:StopSingleFileWatch`
 
-``StopSingleFileWatch(filePath: `string`)`` → `null`
+``StopSingleFileWatch(filePath: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:UploadAssetFromContentAsync`
 
-``UploadAssetFromContentAsync(content: `string`, createAssetRequest: `Dictionary`)`` → `Tuple`
+``UploadAssetFromContentAsync(content: `string`, createAssetRequest: `Dictionary`)`` -> `Tuple`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AssetImportService:UploadAssetFromPathAsync`
 
-``UploadAssetFromPathAsync(filepath: `string`, createAssetRequest: `Dictionary`)`` → `Tuple`
+``UploadAssetFromPathAsync(filepath: `string`, createAssetRequest: `Dictionary`)`` -> `Tuple`
   [Yields] {security: RobloxScriptSecurity}
 
 ## Events

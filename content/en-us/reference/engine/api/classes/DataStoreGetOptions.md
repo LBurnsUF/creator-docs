@@ -13,6 +13,6 @@ tags: [NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DataStoreGetOptions.UseCache` | `bool` |  |

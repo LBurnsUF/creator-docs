@@ -6,12 +6,19 @@ superclass: Instance
 
 # RenderingTest
 
+An internal testing utility for the rendering pipeline.
+
 **Inherits from:** `Class.Instance` > `Class.Object`
+
+## Description
+
+**RenderingTest** is an internal testing utility for the rendering pipeline.
+It is not intended for external use.
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.RenderingTest.CFrame` | `Datatype.CFrame` |  |
 | `Class.RenderingTest.ComparisonDiffThreshold` | `int` |  |
 | `Class.RenderingTest.ComparisonMethod` | `Enum.RenderingTestComparisonMethod` |  |
@@ -32,4 +39,4 @@ superclass: Instance
 
 ### `Class.RenderingTest:RenderdocTriggerCapture`
 
-``RenderdocTriggerCapture()`` → `null`
+``RenderdocTriggerCapture()`` -> `null`

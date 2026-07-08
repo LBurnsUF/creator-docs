@@ -15,22 +15,22 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.ImportSession:Cancel`
 
-``Cancel()`` → `null`
+``Cancel()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.ImportSession:GetFilename`
 
-``GetFilename()`` → `string`
+``GetFilename()`` -> `string`
    {security: RobloxScriptSecurity}
 
 ### `Class.ImportSession:GetStatuses`
 
-``GetStatuses()`` → `Dictionary`
+``GetStatuses()`` -> `Dictionary`
    {security: RobloxScriptSecurity}
 
 ### `Class.ImportSession:Upload`
 
-``Upload()`` → `null`
+``Upload()`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events

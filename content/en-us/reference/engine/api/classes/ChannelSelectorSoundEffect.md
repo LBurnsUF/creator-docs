@@ -13,6 +13,6 @@ tags: [NotCreatable]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.ChannelSelectorSoundEffect.Channel` | `int` |  |

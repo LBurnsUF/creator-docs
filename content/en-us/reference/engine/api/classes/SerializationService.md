@@ -15,10 +15,10 @@ tags: [NotCreatable, Service]
 
 ### `Class.SerializationService:DeserializeInstancesAsync`
 
-``DeserializeInstancesAsync(buffer: `Datatype.buffer`)`` → `Datatype.Instances`
+``DeserializeInstancesAsync(buffer: `Datatype.buffer`)`` -> `Datatype.Instances`
   [Yields]
 
 ### `Class.SerializationService:SerializeInstancesAsync`
 
-``SerializeInstancesAsync(inputInstances: `Datatype.Instances`)`` → `Datatype.buffer`
+``SerializeInstancesAsync(inputInstances: `Datatype.Instances`)`` -> `Datatype.buffer`
   [Yields]

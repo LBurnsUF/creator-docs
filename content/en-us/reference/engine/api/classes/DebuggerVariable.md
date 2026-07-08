@@ -13,8 +13,8 @@ tags: [NotCreatable, NotReplicated]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.DebuggerVariable.Name` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.DebuggerVariable.Populated` | `bool` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.DebuggerVariable.Type` | `string` | [Hidden] [ReadOnly] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -26,10 +26,10 @@ tags: [NotCreatable, NotReplicated]
 
 ### `Class.DebuggerVariable:GetVariableByIndex`
 
-``GetVariableByIndex(index: `int`)`` → `Class.DebuggerVariable`
+``GetVariableByIndex(index: `int`)`` -> `Class.DebuggerVariable`
    {security: RobloxScriptSecurity}
 
 ### `Class.DebuggerVariable:GetVariableByName`
 
-``GetVariableByName(name: `string`)`` → `Class.DebuggerVariable`
+``GetVariableByName(name: `string`)`` -> `Class.DebuggerVariable`
    {security: RobloxScriptSecurity}

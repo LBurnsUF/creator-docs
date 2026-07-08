@@ -13,8 +13,8 @@ tags: [NotCreatable, Service]
 
 ## Properties
 
-| Property | Type | Tags |
-|----------|------|------|
+| Property | Type | Description |
+|----------|------|-------------|
 | `Class.AnnotationsService.AnnotationsLoadingStatus` | `Enum.AnnotationRequestStatus` | [Hidden] {security: RobloxScriptSecurity} |
 | `Class.AnnotationsService.AnnotationsVisible` | `bool` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
 | `Class.AnnotationsService.Hovered` | `Class.Annotation` | [Hidden] [NotReplicated] {security: RobloxScriptSecurity} |
@@ -26,72 +26,72 @@ tags: [NotCreatable, Service]
 
 ### `Class.AnnotationsService:CreateAnnotation`
 
-``CreateAnnotation(annotation: `Class.Annotation`)`` → `null`
+``CreateAnnotation(annotation: `Class.Annotation`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:CreateOrUpdateChannelPreferenceAsync`
 
-``CreateOrUpdateChannelPreferenceAsync(userId: `int64`, channelId: `string`, placeId: `int64`, channelContentPreference: `Enum.AnnotationChannelContentPreference`)`` → `null`
+``CreateOrUpdateChannelPreferenceAsync(userId: `int64`, channelId: `string`, placeId: `int64`, channelContentPreference: `Enum.AnnotationChannelContentPreference`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:CreateOrUpdatePlacePreference`
 
-``CreateOrUpdatePlacePreference(placeId: `int64`, userId: `int64`, placeContentPreference: `Enum.PlaceContentPreference`)`` → `null`
+``CreateOrUpdatePlacePreference(placeId: `int64`, userId: `int64`, placeContentPreference: `Enum.PlaceContentPreference`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:CreateOrUpdatePlacePreferenceAsync`
 
-``CreateOrUpdatePlacePreferenceAsync(userId: `int64`, placeContentPreference: `Enum.AnnotationPlaceContentPreference`, placeId: `int64`)`` → `null`
+``CreateOrUpdatePlacePreferenceAsync(userId: `int64`, placeContentPreference: `Enum.AnnotationPlaceContentPreference`, placeId: `int64`)`` -> `null`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:DeleteAnnotation`
 
-``DeleteAnnotation(annotation: `Class.Annotation`)`` → `null`
+``DeleteAnnotation(annotation: `Class.Annotation`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:EditAnnotation`
 
-``EditAnnotation(uniqueId: `string`, contents: `string`, taggedUsers: `string`)`` → `null`
+``EditAnnotation(uniqueId: `string`, contents: `string`, taggedUsers: `string`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:GetAnnotationThreads`
 
-``GetAnnotationThreads()`` → `Datatype.Instances`
+``GetAnnotationThreads()`` -> `Datatype.Instances`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:GetChannelPreferenceAsync`
 
-``GetChannelPreferenceAsync(userId: `int64`, channelId: `string`, placeId: `int64`)`` → `Enum.AnnotationChannelContentPreference`
+``GetChannelPreferenceAsync(userId: `int64`, channelId: `string`, placeId: `int64`)`` -> `Enum.AnnotationChannelContentPreference`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:GetPlacePreference`
 
-``GetPlacePreference(placeId: `int64`, userId: `int64`)`` → `Enum.PlaceContentPreference`
+``GetPlacePreference(placeId: `int64`, userId: `int64`)`` -> `Enum.PlaceContentPreference`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:GetPlacePreferenceAsync`
 
-``GetPlacePreferenceAsync(userId: `int64`, placeId: `int64`)`` → `Enum.AnnotationPlaceContentPreference`
+``GetPlacePreferenceAsync(userId: `int64`, placeId: `int64`)`` -> `Enum.AnnotationPlaceContentPreference`
   [Yields] {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:LoadAnnotationReplies`
 
-``LoadAnnotationReplies(annotation: `Class.Annotation`, reverseOrder: `bool`, loadAll: `bool`)`` → `null`
+``LoadAnnotationReplies(annotation: `Class.Annotation`, reverseOrder: `bool`, loadAll: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:LoadAnnotations`
 
-``LoadAnnotations(resolved: `bool`)`` → `null`
+``LoadAnnotations(resolved: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:LoadResolvedAnnotations`
 
-``LoadResolvedAnnotations(count: `int`)`` → `null`
+``LoadResolvedAnnotations(count: `int`)`` -> `null`
   [Deprecated] {security: RobloxScriptSecurity}
 
 ### `Class.AnnotationsService:ResolveAnnotation`
 
-``ResolveAnnotation(annotation: `Class.Annotation`, resolved: `bool`)`` → `null`
+``ResolveAnnotation(annotation: `Class.Annotation`, resolved: `bool`)`` -> `null`
    {security: RobloxScriptSecurity}
 
 ## Events
