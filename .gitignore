@@ -1,0 +1,9 @@
+# Folders
+**/node_modules/
+**output/
+**dist/
+
+# Files
+.DS_Store
+**.env
+/.claude

@@ -1,0 +1,34 @@
+name: 'Stale'
+on:
+  schedule:
+    # 8 is Midnight Pacific Standard Time
+    # Run again in 1 hour to get all PRs
+    # 20 is Noon Pacific Standard Time
+    - cron: '0 8,9,20 * * *' # https://crontab.guru/#0_8,9,20_*_*_*
+  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
+
+jobs:
+  stale:
+    name: 'Close Stale Pull Requests'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v8 # https://github.com/actions/stale
+        with:
+          # Don't do anything to issues
+          days-before-issue-stale: -1
+          days-before-issue-close: -1
+          # Pull Requests
+          stale-pr-message: >-
+            This pull request has been inactive for 14 days. If there's no activity in the next 7 days, it will be automatically closed. To keep it open, please comment or push new commits. Alternatively, add the label `do-not-close` to exempt it from auto-closing. 🫡 🙏
+          close-pr-message: >-
+            This pull request has been inactive for 21 days and is now being closed automatically. If it's still relevant, feel free to reopen it or start a new one. To prevent this in the future, you can add the `do-not-close` label to exempt it from automatic closure. Thank you! 🫡 🙏
+          stale-pr-label: 'stale'
+          days-before-pr-stale: 14
+          days-before-pr-close: 7
+          delete-branch: true
+          # GitHub Actions has a rate limit of 1,000 operations per hour
+          # See https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28#rate-limits-for-requests-from-github-actions
+          operations-per-run: 500
+          # For debugging
+          debug-only: false
+          exempt-pr-labels: 'do-not-close'
