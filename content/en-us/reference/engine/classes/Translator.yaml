@@ -95,7 +95,9 @@ methods:
           depending on whether the format strings are numbered or named.
     returns:
       - type: string
-        summary: ''
+        summary: |
+          The localized text string associated with the given **key**, with any
+          format parameters filled in from **args**.
     tags: []
     deprecation_message: ''
     security: None
@@ -211,23 +213,8 @@ methods:
       Then, when calling this function in a script, pass the same
       `Class.Instance` as the first argument, followed by the **Source** lookup
       text as the second argument:
-
-      ```lua
-      local Players = game:GetService("Players")
-      local LocalizationService = game:GetService("LocalizationService")
-
-      local success, translator = pcall(function()
-      	return LocalizationService:GetTranslatorForPlayerAsync(Players.LocalPlayer)
-      end)
-
-      if success then
-      	local trans = translator:Translate(workspace.ComputerScreen.SurfaceGui.TextLabel, "Screen")
-      	print(trans)
-      else
-      	warn("Cannot load translator for player!")
-      end
-      ```
-    code_samples: []
+    code_samples:
+      - Translator-Translate
     parameters:
       - name: context
         type: Instance

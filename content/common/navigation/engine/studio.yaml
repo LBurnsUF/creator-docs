@@ -12,6 +12,8 @@ navigation:
     section:
       - title: Overview
         path: /assistant/guide
+      - title: Skills
+        path: /assistant/skills
       - title: Prompt guide and examples
         path: /assistant/prompt-engineering
   - title: MCP server
@@ -53,8 +55,6 @@ navigation:
     path: /studio/explorer
   - title: Properties
     path: /studio/properties
-  - title: Experience Settings
-    path: /studio/experience-settings
   - title: Avatar Settings
     path: /studio/avatar-settings
   - title: Command-line interface

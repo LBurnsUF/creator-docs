@@ -23,6 +23,9 @@ navigation:
     path: /scale
   - title: Monetize
     path: /monetize
+    section:
+      - title: Discover ad placements
+        path: /production/ad-placements/
   - title: Guidelines and policies
     section:
       - title: Safety on Roblox
@@ -33,8 +36,8 @@ navigation:
         path: /production/publishing/kids-and-select
       - title: Regional content availability
         path: /production/promotion/regional-content-availability
-      - title: GDPR and CCPA
-        path: /production/publishing/about-GDPR-and-CCPA
+      - title: RTBF and creators
+        path: /production/publishing/RTBF-and-creators
       - title: DMCA
         path: /production/publishing/dmca-guidelines
       - title: Generative AI

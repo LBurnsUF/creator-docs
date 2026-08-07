@@ -8,14 +8,14 @@ In-game **instance streaming** allows the Roblox engine to dynamically load and 
 - <Chip label="Faster Join Times" size="small" variant="outlined" color="success" /> — Players can start playing in one part of the world while more of the world loads in the background.
 - <Chip label="Memory Efficiency" size="small" variant="outlined" color="success" /> — Games can be played on devices with less memory since content is dynamically streamed in and out. More immersive and detailed worlds can be played on a wider range of devices.
 - <Chip label="Improved Performance" size="small" variant="outlined" color="success" /> — Better frame rates and performance, as the server can spend less time and bandwidth synchronizing changes between the world and players in it. Clients spend less time updating instances that aren't currently relevant to the player.
-- <Chip label="Level of Detail" size="small" variant="outlined" color="success" /> — When configured, distant models, platform avatars, and terrain remain visible even when they're not streamed to clients, keeping the game optimized without entirely sacrificing background visuals.
+- <Chip label="Level of Detail" size="small" variant="outlined" color="success" /> — When configured, distant models, platform avatars, and terrain remain visible even when they're not streamed to clients, keeping the game optimized without entirely sacrificing background visuals. [SLIM](./slim.md) provides the highest-fidelity level of detail for both models and avatars.
 
 Instance streaming is controlled through the `Class.Workspace.StreamingEnabled` property, enabled by default for new places created in Studio. This property cannot be set in a script.
 
 <img src="../../assets/studio/properties/Workspace-StreamingEnabled.png" width="320" alt="The Properties window with the StreamingEnabled property enabled." />
 
 <Alert severity="success">
-Once you review this technical guide, it's recommended that you review the [streaming techniques](./techniques.md) guide on how to use streaming efficiently and effectively.
+Once you review this technical guide, it's recommended that you review the [streaming techniques](./techniques.md) guide on how to use streaming efficiently and effectively, and the [SLIM](./slim.md) guide for enabling high‑fidelity level‑of‑detail on models and avatars.
 </Alert>
 
 ## Technical behavior
@@ -31,31 +31,31 @@ When a player joins a game with instance streaming enabled:
 1. Instances in the `Class.Workspace` are replicated to the client **excluding** the following:
 
    <Grid container spacing={1} alignItems="center">
-	 <Grid item><img src="../../assets/misc/Wait.png" width="32" style={{float:"right"}} /></Grid>
-	 <Grid item XSmall={11} Medium={11} Large={11} XLarge={11}>
-	 `Class.BasePart|BaseParts` (`Class.Part|Parts` and `Class.MeshPart|MeshParts`)
-	 </Grid>
+    <Grid item><img src="../../assets/misc/Wait.png" width="32" style={{float:"right"}} /></Grid>
+    <Grid item XSmall={11} Medium={11} Large={11} XLarge={11}>
+    `Class.BasePart|BaseParts` (`Class.Part|Parts` and `Class.MeshPart|MeshParts`)
+    </Grid>
    </Grid>
 
    <Grid container spacing={1} alignItems="center">
-	 <Grid item><img src="../../assets/misc/Wait.png" width="32" style={{float:"right"}} /></Grid>
-	 <Grid item XSmall={11} Medium={11} Large={11} XLarge={11}>
-	 `Class.Model|Models` set to [Atomic](#atomic), [Persistent](#persistent), or [PersistentPerPlayer](#persistentperplayer); see [per‑model streaming controls](#model-streaming-controls)
-	 </Grid>
+    <Grid item><img src="../../assets/misc/Wait.png" width="32" style={{float:"right"}} /></Grid>
+    <Grid item XSmall={11} Medium={11} Large={11} XLarge={11}>
+    `Class.Model|Models` set to [Atomic](#atomic), [Persistent](#persistent), or [PersistentPerPlayer](#persistentperplayer); see [per‑model streaming controls](#model-streaming-controls)
+    </Grid>
    </Grid>
 
    <Grid container spacing={1} alignItems="center">
-	 <Grid item><img src="../../assets/misc/Wait.png" width="32" style={{float:"right"}} /></Grid>
-	 <Grid item XSmall={11} Medium={11} Large={11} XLarge={11}>
-	 `Class.Model|Models` set to [Nonatomic](#nonatomic) (default) when `Class.Workspace.ModelStreamingBehavior` is set to `Enum.ModelStreamingBehavior.Improved|Improved`
-	 </Grid>
+    <Grid item><img src="../../assets/misc/Wait.png" width="32" style={{float:"right"}} /></Grid>
+    <Grid item XSmall={11} Medium={11} Large={11} XLarge={11}>
+    `Class.Model|Models` set to [Nonatomic](#nonatomic) (default) when `Class.Workspace.ModelStreamingBehavior` is set to `Enum.ModelStreamingBehavior.Improved|Improved`
+    </Grid>
    </Grid>
 
    <Grid container spacing={1} alignItems="center">
-	 <Grid item><img src="../../assets/misc/Wait.png" width="32" style={{float:"right"}} /></Grid>
-	 <Grid item XSmall={11} Medium={11} Large={11} XLarge={11}>
-	 Descendants of the above instances
-	 </Grid>
+    <Grid item><img src="../../assets/misc/Wait.png" width="32" style={{float:"right"}} /></Grid>
+    <Grid item XSmall={11} Medium={11} Large={11} XLarge={11}>
+    Descendants of the above instances
+    </Grid>
    </Grid>
 
 2. During gameplay, the server may stream instances in the above deferred categories to the client based on the game's [streaming properties](#streaming-properties), player position, client device performance, and other conditions.
@@ -100,11 +100,15 @@ The following properties control how instance streaming applies to your game. Al
 <tbody>
   <tr>
     <td>`Class.Workspace.EnableSLIMAvatars|EnableSLIMAvatars`</td>
-    <td>Controls whether a `Enum.ModelLevelOfDetail.SLIM|SLIM` model is generated for avatar characters in the game. When enabled, avatars render using SLIM in the same way that setting `Class.Model.LevelOfDetail` to `Enum.ModelLevelOfDetail.SLIM|SLIM` works for other models.</td>
+    <td>Controls whether a [SLIM](./slim.md#enabling-slim-for-avatars) model is generated for avatar characters in the game. When enabled, avatars render using SLIM in the same way that setting `Class.Model.LevelOfDetail` to `Enum.ModelLevelOfDetail.SLIM|SLIM` works for other models. See [SLIM](./slim.md) for details.</td>
   </tr>
   <tr>
     <td>`Class.Workspace.ModelStreamingBehavior|ModelStreamingBehavior`</td>
     <td>Controls how [Nonatomic](#nonatomic) (default) models stream in and out.<br /><br /><Chip label="RECOMMENDED" size="small" variant="outlined" color="success" /> Use `Enum.ModelStreamingBehavior.Improved|Improved` to enable the most efficient streaming for `Class.Model|Models` with `Class.BasePart` descendants.</td>
+  </tr>
+  <tr>
+    <td>`Class.Workspace.PredictiveStreamingMode|PredictiveStreamingMode`</td>
+    <td>Opts in to [predictive streaming](#predictive-streaming) which uses engine signals to proactively stream areas a player is likely to need soon, such as respawn locations or regions the player recently left via `Datatype.CFrame` change. Predictions are additive, expire after a short time if unused, and are skipped on resource‑constrained clients.</td>
   </tr>
   <tr>
     <td>`Class.Workspace.StreamingIntegrityMode|StreamingIntegrityMode`</td>
@@ -152,6 +156,37 @@ In many games, players frequently move back and forth between the same areas, fo
 Multiple replication points are useful when players can view specific, important regions through a scope, such as enemy bases scattered across a barren landscape. In such cases, you can create a replication focus point in each base to ensure players see details and simulated physics from afar.
 </TabItem>
 </Tabs>
+
+## Predictive streaming
+
+Predictive streaming is an opt‑in feature that uses engine signals to anticipate player movement and proactively stream areas the player is likely to need soon. When enabled by setting `Class.Workspace.PredictiveStreamingMode|PredictiveStreamingMode` to `Enum.PredictiveStreamingMode.Enabled|Enabled`, it can reduce streaming pauses and visual pop‑in without any code changes.
+
+Predictive streaming is **additive**. It creates small, temporary streaming foci in addition to your existing [replication foci](#replication-focus), streams a small amount of extra content, and does not change your game logic or streaming contracts. If a prediction isn't needed, the predicted area expires after a short time and the engine unloads the content. The engine also takes client memory and performance into account, skipping predictions on resource‑constrained devices.
+
+When `Class.Workspace.PredictiveStreamingMode|PredictiveStreamingMode` is `Enum.PredictiveStreamingMode.Enabled|Enabled`, the following predictive features are active:
+
+<table>
+<thead>
+	<tr>
+		<th>Feature</th>
+		<th>Description</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Spawn pre‑fetching</td>
+		<td>When a player dies, the engine creates small, temporary streaming foci at possible spawn locations so that likely respawn areas begin streaming before the player character appears, reducing pauses and missing content immediately after respawn.</td>
+	</tr>
+	<tr>
+		<td>`Datatype.CFrame` return optimization</td>
+		<td>When a player `Datatype.CFrame|CFrames` away from an area, the engine creates a small, temporary streaming focus at the location they left. This helps keep that area streamed in if the player returns shortly after, a common scenario when moving between buildings, sublevels, shops, or hubs.</td>
+	</tr>
+</tbody>
+</table>
+
+<Alert severity="info">
+Predictive streaming works seamlessly with manually created pre‑fetches (`Class.Player:RequestStreamAroundAsync()`) and multiple replication foci (`Class.Player:AddReplicationFocus()`). If you've already created a pre‑fetch or replication focus at a specific location, predictive streaming does not add another streaming focus there.
+</Alert>
 
 ## Model streaming controls
 
@@ -233,7 +268,6 @@ The engine includes multiple on-screen debug panels that can be enabled on the c
 
 1. Open the **Network Summary** debug overlay via <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>F3</kbd> (Windows) or <kbd>Shift</kbd><kbd>⌘</kbd><kbd>F3</kbd> (Mac).
 2. Once the debug overlay is open, press <kbd>Shift</kbd><kbd>1</kbd> repeatedly to cycle through the available panels. The fourth panel is the **Streaming** debug view which displays useful runtime information:
-
    - Active streaming settings
    - Currently loaded (streamed in) regions
    - Streaming behavior and state

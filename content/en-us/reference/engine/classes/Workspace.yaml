@@ -273,17 +273,8 @@ properties:
       Those looking for the time since the program started running should use
       the 'time' function instead. See below for a comparison between
       DistributedGameTime and its alternatives.
-
-      ```
-      local Workspace = game:GetService("Workspace")
-
-      print(Workspace.DistributedGameTime) -- Time the game started running
-      print(os.time()) -- Time since epoch (1 January 1970, 00:00:00) UTC
-      print(tick()) -- Time since epoch (1 January 1970, 00:00:00) system time
-      print(time()) -- Time the game started running
-      print(elapsedTime()) -- Time since Roblox started running
-      ```
-    code_samples: []
+    code_samples:
+      - Workspace-DistributedGameTime
     type: double
     tags:
       - NotReplicated
@@ -313,8 +304,8 @@ properties:
       approach. `Enum.RolloutState|Default` follows the current engine-wide
       rollout state.
 
-      This property cannot be set through scripting and must be set in Studio
-      through the properties window, command bar, or a plugin.
+      This property cannot be set through developer-facing Luau and must be set
+      in Studio through the Properties window, Command Bar, or a plugin.
     code_samples: []
     type: RolloutState
     tags:
@@ -402,7 +393,8 @@ properties:
       - Hidden
       - NotReplicated
       - Deprecated
-    deprecation_message: ''
+    deprecation_message: |
+      This property is discontinued.
     security:
       read: None
       write: PluginSecurity
@@ -423,8 +415,8 @@ properties:
       on `Class.BasePart|BaseParts` whose
       `Class.BasePart.EnableFluidForces|EnableFluidForces` property is true. The
       default, `Enum.FluidForces|Default`, disables aerodynamic forces. Note
-      that this property cannot be set through scripting and instead must be
-      toggled in Studio.
+      that this property cannot be set through developer-facing Luau and instead
+      must be toggled in Studio.
     code_samples: []
     type: FluidForces
     tags:
@@ -499,6 +491,56 @@ properties:
       `Class.IKControl` for additional details.
     code_samples: []
     type: IKControlConstraintSupport
+    tags:
+      - NotScriptable
+    deprecation_message: ''
+    security:
+      read: None
+      write: None
+    thread_safety: ReadSafe
+    category: Behavior
+    serialization:
+      can_load: true
+      can_save: true
+    capabilities: []
+  - name: Workspace.ImprovedAnimationConstraint
+    summary: |
+      Controls whether `Class.AnimationConstraint|AnimationConstraints` use the
+      improved soft-formulation controller.
+    description: |
+      Controls whether `Class.AnimationConstraint|AnimationConstraints` drive
+      their target using an improved soft controller based on strength and
+      damping instead of the legacy proportional-derivative controller.
+
+      `Enum.RolloutState|Default` follows the current engine-wide rollout state.
+    code_samples: []
+    type: RolloutState
+    tags:
+      - NotScriptable
+    deprecation_message: ''
+    security:
+      read: None
+      write: None
+    thread_safety: ReadSafe
+    category: Behavior
+    serialization:
+      can_load: true
+      can_save: true
+    capabilities: []
+  - name: Workspace.ImprovedPhysicsReplication
+    summary: |
+      Controls whether the experience uses the improved physics replication path
+      between the server and clients.
+    description: |
+      Controls whether physics uses the improved state replication path when
+      sending physics state between the server and clients. When set to
+      `Enum.RolloutState|Enabled`, the server advertises this configuration so
+      connected clients enable the improved path. Setting it to
+      `Enum.RolloutState|Disabled` opts the place out.
+
+      `Enum.RolloutState|Default` follows the current engine-wide rollout state.
+    code_samples: []
+    type: RolloutState
     tags:
       - NotScriptable
     deprecation_message: ''
@@ -734,8 +776,9 @@ properties:
       Sets how the solver will advance the physics simulation forward in time.
     description: |
       Sets how the solver will advance the physics simulation forward in time.
-      This option is not scriptable and must be set from the
-      **PhysicsSteppingMethod** property of **Workspace** within Studio. See
+      This option cannot be set through developer-facing Luau and must be set
+      from the **PhysicsSteppingMethod** property of **Workspace** within
+      Studio. See
       [Adaptive Timestepping](../../../physics/adaptive-timestepping.md) for
       details.
 
@@ -820,6 +863,33 @@ properties:
     serialization:
       can_load: false
       can_save: false
+    capabilities: []
+  - name: Workspace.PredictiveStreamingMode
+    summary: |
+      Controls whether the engine makes instance streaming decisions.
+      predictively.
+    description: |
+      Determines whether the engine streams instances predictively, pre-fetching
+      content the player is likely to need soon (such as along pathfinding
+      routes and near spawn locations) rather than streaming based only on the
+      player's current position. `Enum.PredictiveStreamingMode|Enabled` allows
+      the engine to make streaming decisions predictively, while
+      `Enum.PredictiveStreamingMode|Disabled` turns it off.
+      `Enum.PredictiveStreamingMode|Default` currently behaves the same as
+      `Enum.PredictiveStreamingMode|Disabled`.
+    code_samples: []
+    type: PredictiveStreamingMode
+    tags:
+      - NotScriptable
+    deprecation_message: ''
+    security:
+      read: None
+      write: None
+    thread_safety: ReadSafe
+    category: Streaming
+    serialization:
+      can_load: true
+      can_save: true
     capabilities: []
   - name: Workspace.PrimalPhysicsSolver
     summary: |
@@ -1293,25 +1363,41 @@ properties:
       can_load: true
       can_save: true
     capabilities: []
-  - name: Workspace.ValidateEnabledProximityPrompt
-    summary: ''
-    description: ''
-    code_samples: []
-    type: RolloutState
-    tags:
-      - NotScriptable
-    deprecation_message: ''
-    security:
-      read: None
-      write: None
-    thread_safety: ReadSafe
-    category: Behavior
-    serialization:
-      can_load: true
-      can_save: true
-    capabilities:
-      - Basic
 methods:
+  - name: Workspace:ApplyRecommendedStreamingSettings
+    summary: |
+      Applies Roblox's recommended instance streaming settings to the
+      `Class.Workspace`.
+    description: |
+      Sets the `Class.Workspace` instance streaming properties to their
+      recommended values in a single call, changing only the properties whose
+      current values differ from the recommendation. This method is primarily
+      intended to assist with converting an experience to instance streaming.
+      The properties and their recommended values are:
+
+      - `Class.Workspace.StreamingEnabled` &rarr; enabled
+      - `Class.Workspace.StreamingMinRadius` &rarr; 64
+      - `Class.Workspace.StreamingTargetRadius` &rarr; 1024
+      - `Class.Workspace.ModelStreamingBehavior` &rarr;
+        `Enum.ModelStreamingBehavior|Improved`
+      - `Class.Workspace.StreamingIntegrityMode` &rarr;
+        `Enum.StreamingIntegrityMode|PauseOutsideLoadedArea`
+      - `Class.Workspace.StreamOutBehavior` &rarr;
+        `Enum.StreamOutBehavior|Opportunistic`
+
+      This method can only be called from plugins.
+    code_samples: []
+    parameters: []
+    returns:
+      - type: boolean
+        summary: |
+          `true` if one or more streaming properties were changed; `false` if
+          every value already matched its recommended setting.
+    tags: []
+    deprecation_message: ''
+    security: PluginSecurity
+    thread_safety: Unsafe
+    capabilities: []
   - name: Workspace:BreakJoints
     summary: |
       Goes through all `Class.BasePart|BaseParts` given, breaking any joints
@@ -1333,8 +1419,8 @@ methods:
       Workspace:BreakJoints({part1, part2, part3})
       ```
 
-      Note, this function cannot be used by scripts and will only function in
-      plugins.
+      Note, this function cannot be used in developer-facing Luau and will only
+      function in plugins.
     code_samples: []
     parameters:
       - name: objects
@@ -1348,26 +1434,9 @@ methods:
         summary: ''
     tags:
       - Deprecated
-    deprecation_message: ''
+    deprecation_message: |
+      This method is deprecated. Do not use it for new work.
     security: PluginSecurity
-    thread_safety: Unsafe
-    capabilities: []
-  - name: Workspace:ExperimentalSolverIsEnabled
-    summary: |
-      Returns `true` if the experimental physics solver is enabled.
-    description: |
-      Returns whether the experimental physics solver is currently enabled. This
-      method is primarily for internal testing purposes.
-    code_samples: []
-    parameters: []
-    returns:
-      - type: boolean
-        summary: |
-          `true` if the experimental physics solver is enabled, `false`
-          otherwise.
-    tags: []
-    deprecation_message: ''
-    security: LocalUserSecurity
     thread_safety: Unsafe
     capabilities: []
   - name: Workspace:GetNumAwakeParts
@@ -1651,7 +1720,8 @@ methods:
         summary: ''
     tags:
       - Deprecated
-    deprecation_message: ''
+    deprecation_message: |
+      This method is deprecated. Do not use it for new work.
     security: PluginSecurity
     thread_safety: Unsafe
     capabilities: []
@@ -1740,8 +1810,8 @@ methods:
       exhibits similar behavior to the "focus" command but it shows the extents
       of the `Class.Workspace` rather than the currently selected object.
 
-      This function cannot be used in scripts but will function in the command
-      bar or plugins.
+      This function cannot be used in developer-facing Luau but will function in
+      the Command Bar or plugins.
     code_samples: []
     parameters: []
     returns:

@@ -75,6 +75,17 @@ Assistant can create, edit, delete and iterate on instances in your data model, 
 
 If you examine the code, you can see that Assistant calls `Class.InsertService:GetFreeModels()` to query the Creator Store for a wheelbarrow model and uses `Class.Model:PivotTo()` to place it near a tree.
 
+#### Search and insert assets
+
+Assistant infers when to look for assets on the Creator Store or in your inventories based on your prompt, then presents relevant options for you to choose from before anything is placed in your workspace. Search and insert supports:
+
+- Both **free and paid** assets on the Creator Store.
+- Your **personal and group inventories**.
+- Filtering by asset type, including `Model`, `Audio`, `Mesh`, `MeshPart`, `Image`, `Decal`, `Video`, and `Package`.
+- Creator Store filters for price, audio duration, and verified creators.
+
+To insert a specific asset directly by its ID, use the `/insert_asset` slash command in Assistant.
+
 ## Generate content
 
 ### Materials
@@ -120,13 +131,18 @@ To generate a procedural model, type a command such as `/generate_procedural_mod
 
 <video controls width="90%" src="/assets/assistant/Segmentation-Examples.mp4" />
 
-Segmentation divides a generated asset into individual parts, giving you more control over customization. It lets you apply different materials, attach scripts, or replace individual components without regenerating the entire model.
+Segmentation divides a generated asset into individual parts, giving you more control over how you customize it. You can apply different materials, attach scripts, or replace individual components without regenerating the entire model.
 
-When you run `/generate_mesh` or `/generate_procedural_model`, Assistant suggests a segmentation plan that defines how the model will be divided. Before generation, you can edit the proposed part list under **Part Names** by adding or removing entries, or by regenerating the suggested segmentation. Each generated asset can have a maximum of eight parts.
+When you run `/generate_mesh` or `/generate_procedural_model` with a text prompt, Assistant suggests a segmentation plan that defines how the model will be divided. Before generating the model, you can:
 
-When the configuration is ready, click **Generate** to start generation or **Cancel** to discard the request.
+- Edit the **Prompt** to refine your description.
+- <Chip label="OPTIONAL" size="small" variant="outlined" /> Upload a **Hint Image** to use as a visual reference. If you upload a hint image, Assistant skips the preview step and generates the final model directly.
+- Add or remove entries under **Part Names** to control how the model is segmented. Each generated model can have up to eight parts.
+- Check **Suggest segmentation** to have Assistant regenerate the part list based on your prompt.
 
-For example, if you generate a skateboard and define five parts (`body`, `left rear wheel`, `right rear wheel`, `left front wheel`, and `right front wheel`), Assistant segments the model into those components, allowing you to modify each one independently.
+When you're happy with the configuration, click **Confirm** to generate four preview images. If none of the previews match what you have in mind, click **Back** to adjust the segmentation plan and create a new set of previews. Once you find one you like, select it and click **Confirm** to create the final model. When it's ready, click **Add to place** to insert the asset into your game.
+
+For example, if you generate a skateboard and define five parts (`body`, `left rear wheel`, `right rear wheel`, `left front wheel`, and `right front wheel`), Assistant divides the model into those components so you can modify each one independently.
 
   <Grid container spacing={3}>
     <Grid item Small={12} Medium={4} Large={4} XLarge={4}>
@@ -282,14 +298,11 @@ You can activate Planning Mode by either:
 
 <img src="../assets/assistant/PlanningMode.png" width="400" alt="Example of Planning Mode in Assistant." />
 
-## Skills
+### Editable Markdown plans
 
-In Studio, Assistant uses a number of skills to help it perform tasks more consistently and comprehensively. Assistant chooses the appropriate skills automatically based on your request.
+Generated plans are saved as editable Markdown documents that persist across chat sessions, so you can fine-tune workflows before they execute.
 
-Skills are just folders with a `SKILL.md` file and any supporting resources (scripts, a `commands` directory with supplemental Markdown files, etc.). See the full list of Assistant skills in the open source repository.
-
-<Grid container spacing={2}>
-  <Grid item XSmall={12} Large={6}>
-   <ScriptingLibrariesCard title="Assistant skills" description="View all of Assistant's skill files." hue="210" githubHref="https://github.com/Roblox/creator-docs/tree/main/skills" />
-  </Grid>
-</Grid>
+- **Cross-session cloud storage**: Plans are stored in the cloud and tied to both your experience and creator profile rather than to a single chat session. Like Assistant chat history, plans are private and are not visible to collaborators.
+- **Integrated Markdown editor**: After Assistant creates a plan, click **Open Plan** in the chat interface to launch the dedicated Markdown editor, where you can review the formatted document or modify its contents directly.
+- **Save and update plans**: Click **Save** to push a diff of your manual edits back to Assistant, which updates its underlying task list. Conversely, prompting Assistant in chat automatically updates the plan Markdown file.
+- **Explicit approval gate**: Plans never auto-execute or time out into acceptance. The workflow only executes when you click **Build** in the Assistant chat.

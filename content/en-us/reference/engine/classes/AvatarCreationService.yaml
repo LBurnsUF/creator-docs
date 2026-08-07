@@ -84,27 +84,8 @@ methods:
       `Class.AvatarCreationService:LoadAvatar2DPreviewAsync()|LoadAvatar2DPreviewAsync()`
       to retrieve the preview image on the client. This API can only be used on
       the game server.
-
-      ```lua
-      local AvatarCreationService = game:GetService("AvatarCreationService")
-
-      function generateAvatar2DPreview(sessionId, fileId, textPrompt)
-          local pcallSuccess, result = pcall(function()
-              local args = {}
-              args.SessionId = sessionId
-              args.FileId = fileId
-              args.TextPrompt = textPrompt
-              return AvatarCreationService:GenerateAvatar2DPreviewAsync(args)
-          end)
-
-          if not pcallSuccess then
-              warn("Generating 2D preview failed: ", result)
-          end
-
-          return result
-      end
-      ```
-    code_samples: []
+    code_samples:
+      - AvatarCreationService-GenerateAvatar2DPreviewAsync
     parameters:
       - name: avatarGeneration2dPreviewParams
         type: Dictionary
@@ -139,26 +120,8 @@ methods:
       method is then called to retrieve the generated
       `Class.HumanoidDescription` avatar. This API can only be used on the game
       server.
-
-      ```lua
-      local AvatarCreationService = game:GetService("AvatarCreationService")
-
-      function generateAvatar(sessionId, previewId)
-          local pcallSuccess, result = pcall(function()
-              local args = {}
-              args.SessionId = sessionId
-              args.PreviewId = previewId
-              return AvatarCreationService:GenerateAvatarAsync(args)
-          end)
-
-          if not pcallSuccess then
-              warn("Generating avatar failed: ", result)
-          end
-
-          return result
-      end
-      ```
-    code_samples: []
+    code_samples:
+      - AvatarCreationService-GenerateAvatarAsync
     parameters:
       - name: avatarGenerationParams
         type: Dictionary
@@ -419,23 +382,8 @@ methods:
     description: |
       Load an AvatarGeneration 2D preview as an `Class.EditableImage` on the
       client for the given previewId. This API can only be used on the client.
-
-      ```lua
-      local AvatarCreationService = game:GetService("AvatarCreationService")
-
-      function loadAvatar2DPreview(previewId)
-          local pcallSuccess, result = pcall(function()
-              return AvatarCreationService:LoadAvatar2DPreviewAsync(previewId)
-          end)
-
-          if not pcallSuccess then
-              warn("Failed to load preview: ", result)
-          end
-
-          return result
-      end
-      ```
-    code_samples: []
+    code_samples:
+      - AvatarCreationService-LoadAvatar2DPreviewAsync
     parameters:
       - name: previewId
         type: string
@@ -523,7 +471,8 @@ methods:
           preview.
     returns:
       - type: ()
-        summary: ''
+        summary: |
+          void
     tags:
       - Yields
     deprecation_message: ''
@@ -826,35 +775,8 @@ methods:
       a session request. The estimated `waitTime` is used to provide the player
       an estimated time in seconds until the session will be ready. This API can
       only be used on the game server.
-
-      ```lua
-      local AvatarCreationService = game:GetService("AvatarCreationService")
-      local playerSessions = {}
-      local playerSessionRequests = {}
-
-      function requestAvatarGenerationSession(player)
-          local pcallSuccess, conn, waitTime = pcall(function()
-              return AvatarCreationService:RequestAvatarGenerationSessionAsync(player, function(sessionInfo)
-                  playerSessions[player.UserID] = sessionInfo
-                  playerSessionRequests[player.UserID] = nil
-              end)
-          end)
-
-          if not pcallSuccess then
-              warn("Failed to request Avatar generation session: ", conn)
-          end
-
-          playerSessionRequests[player.UserID] = conn
-          print("Wait time for session: ", tostring(waitTime))
-      end
-
-      function cancelAvatarGenerationSessionRequest(player)
-          if playerSessionRequests[player.UserID] ~= nil then
-              playerSessionRequests[player.UserID]:Disconnect()
-          end
-      end
-      ```
-    code_samples: []
+    code_samples:
+      - AvatarCreationService-RequestAvatarGenerationSessionAsync
     parameters:
       - name: player
         type: Player
@@ -902,10 +824,7 @@ methods:
         type: AccessoryType
         default:
         summary: |
-          `Enum.AccessoryType` the instance is expected to be. Expects
-          `Enum.AccessoryType.Eyebrow|Eyebrow`,
-          `Enum.AccessoryType.Eyelash|Eyelash`, or
-          `Enum.AccessoryType.Hair|Hair`.
+          The `Enum.AccessoryType` the instance is expected to be.
     returns:
       - type: Tuple
         summary: |
@@ -978,10 +897,10 @@ methods:
       instances in the `Class.HumanoidDescription` will be validated.
 
       The `Class.HumanoidDescription` is expected to include instances set on
-      `Class.BodyPartDescription` children for each of the 6 required
+      `Class.BodyPartDescription` children for each of the six required
       `Enum.BodyPart` values. Optionally, it can include instances set on
-      `Class.AccessoryDescription` children for `Eyebrow`, `Eyelash`, and `Hair`
-      `Enum.AccessoryType|AccessoryTypes`.
+      `Class.AccessoryDescription` children for any supported
+      `Enum.AccessoryType`.
     code_samples: []
     parameters:
       - name: player
@@ -1010,73 +929,5 @@ methods:
     security: None
     thread_safety: Unsafe
     capabilities: []
-events:
-  - name: AvatarCreationService.AvatarAssetModerationCompleted
-    summary: |
-      Fires when an in-experience-created avatar asset's moderation status has
-      been updated from pending.
-    description: |
-      Fires when an in-experience-created avatar asset's moderation status has
-      been updated from pending. This event provides a streamlined way to know
-      when an avatar asset created through
-      `Class.AvatarCreationService:PromptCreateAvatarAssetAsync()|PromptCreateAvatarAssetAsync()`
-      has completed the moderation process and is ready for use in-experience.
-
-      Note that this event only fires for avatar assets created within the
-      current experience and will trigger when the `Enum.ModerationStatus`
-      changes from `Enum.ModerationStatus.NotReviewed|NotReviewed` to any other
-      status. The event fires on the client only.
-    code_samples:
-      - AvatarCreationService-AvatarAssetModerationCompleted
-    parameters:
-      - name: assetId
-        type: int64
-        default:
-        summary: |
-          The asset ID of the asset that has completed moderation.
-      - name: moderationStatus
-        type: ModerationStatus
-        default:
-        summary: |
-          The final `Enum.ModerationStatus` result after moderation completed.
-    tags: []
-    deprecation_message: ''
-    security: None
-    capabilities:
-      - DynamicGeneration
-  - name: AvatarCreationService.AvatarModerationCompleted
-    summary: |
-      Fires when an in-experience-created avatar's moderation status has been
-      updated from pending.
-    description: |
-      Fires when an in-experience-created avatar's moderation status has been
-      updated from pending. This event provides a streamlined way to know when
-      an avatar created through
-      `Class.AvatarCreationService:PromptCreateAvatarAsync()|PromptCreateAvatarAsync()`
-      has completed the moderation process and is ready for use in-experience.
-
-      Note that this event only fires for avatars created within the current
-      experience and will trigger when the `Enum.ModerationStatus` changes from
-      `Enum.ModerationStatus.NotReviewed|NotReviewed` to any other status. The
-      event fires on the client only.
-      `Class.AvatarEditorService:GetOutfitDetailsAsync|GetOutfitDetailsAsync`
-      can be used on the server to verify the current moderation status if
-      needed.
-    code_samples: []
-    parameters:
-      - name: outfitId
-        type: int64
-        default:
-        summary: |
-          The outfit ID of the avatar that has completed moderation.
-      - name: moderationStatus
-        type: ModerationStatus
-        default:
-        summary: |
-          The final `Enum.ModerationStatus` result after moderation completion.
-    tags: []
-    deprecation_message: ''
-    security: None
-    capabilities:
-      - DynamicGeneration
+events: []
 callbacks: []

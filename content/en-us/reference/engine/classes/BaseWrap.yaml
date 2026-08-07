@@ -5,7 +5,9 @@
 name: BaseWrap
 type: class
 memory_category: Instances
-summary: ''
+summary: |
+  Abstract base class for `Class.WrapTarget` and `Class.WrapLayer` that stores
+  cage mesh data for layered clothing deformation.
 description: |
   The base class for `Class.WrapTarget` and `Class.WrapLayer` objects. Note that
   `Class.MeshPart` is the only valid parent type for `Class.BaseWrap` and that
@@ -23,8 +25,20 @@ tags:
 deprecation_message: ''
 properties:
   - name: BaseWrap.CageMeshContent
-    summary: ''
-    description: ''
+    summary: |
+      The cage mesh this wrap uses to deform geometry, stored as a
+      `Datatype.Content` value.
+    description: |
+      The cage mesh this wrap uses to deform geometry, stored as a
+      `Datatype.Content` value that can reference an uploaded mesh asset or an
+      in-memory `Class.EditableMesh`. Set automatically by the Importer. It is
+      the backing store for `Class.BaseWrap.CageMeshId`: that property reads the
+      mesh ID from this content, and setting either keeps both in sync and
+      raises a change on both.
+
+      Defaults to an empty `Datatype.Content`. Without a valid cage, the wrap
+      cannot contribute to layered clothing deformation for `Class.WrapLayer` or
+      `Class.WrapTarget`.
     code_samples: []
     type: Content
     tags: []
@@ -103,10 +117,44 @@ properties:
     capabilities:
       - AvatarAppearance
   - name: BaseWrap.HSRAssetId
-    summary: ''
-    description: ''
+    summary: |
+      Asset ID for the hidden surface removal (HSR) data used by layered
+      clothing.
+    description: |
+      This property is not accessible through scripts but is viewable in the
+      Properties window for any `Class.BaseWrap` object. It references
+      precomputed data that determines which mesh triangles are hidden when
+      clothing layers overlap.
     code_samples: []
     type: ContentId
+    tags: []
+    deprecation_message: ''
+    security:
+      read: RobloxScriptSecurity
+      write: RobloxEngineSecurity
+    thread_safety: ReadSafe
+    category: Data
+    serialization:
+      can_load: true
+      can_save: true
+    capabilities:
+      - AvatarAppearance
+  - name: BaseWrap.HSRContent
+    summary: |
+      The hidden surface removal data for this wrap, stored as a
+      `Datatype.Content` value.
+    description: |
+      Hidden surface removal (HSR) data for this wrap, stored as a
+      `Datatype.Content` value that references a precomputed mesh asset. It is
+      the backing store for `Class.BaseWrap.HSRAssetId`: that property reads the
+      asset ID from this content, and setting either keeps both in sync.
+
+      The content determines which mesh triangles are hidden when clothing
+      layers overlap so occluded geometry can be culled during layered clothing
+      deformation. Generated automatically when a `Class.BaseWrap` is published;
+      you do not need to set it manually.
+    code_samples: []
+    type: Content
     tags: []
     deprecation_message: ''
     security:
@@ -130,41 +178,8 @@ properties:
       asset creation tool such as Blender or Maya. This property is not used by
       the deformer but it is useful for tools/aligning scripts, for example
       aligning two parts by matching their pivots as follows:
-
-      ```lua
-      local function alignWraps()
-      	local selectionService = game:GetService("Selection")
-      	local selectedObjects = selectionService:Get()
-      	local alignObjects = {}
-      	for _, obj in selectedObjects do
-      		if obj:IsA("BaseWrap") then
-      			--print("Wrap: " .. obj.Name)
-      			table.insert(alignObjects, obj)
-      		else
-      			print("Ignore: " .. obj.Name)
-      		end
-      	end
-
-      	if #alignObjects < 2 then
-      		warn("You need to select at least two wraps")
-      		return
-      	end
-
-      	local anchorWrap = alignObjects[1]
-      	local worldA_from_Wrap = anchorWrap.ImportOriginWorld
-      	print("Anchor: " .. anchorWrap.Name)
-      	for i = 2, #alignObjects do
-      		local wrapToAlign = alignObjects[i]
-      		print("Align: " .. wrapToAlign.Name)
-      		local wrap_from_WorldB = wrapToAlign.ImportOriginWorld:Inverse()
-      		local worldA_from_WorldB = worldA_from_Wrap * wrap_from_WorldB
-      		local worldB = wrapToAlign.Parent.CFrame
-      		-- Note: adjust CFrame of the parent part
-      		wrapToAlign.Parent.CFrame = (worldB_from_WorldB * worldB)
-      	end
-      end
-      ```
-    code_samples: []
+    code_samples:
+      - BaseWrap-ImportOrigin
     type: CFrame
     tags: []
     deprecation_message: ''

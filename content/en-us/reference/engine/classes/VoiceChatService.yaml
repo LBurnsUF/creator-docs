@@ -79,6 +79,38 @@ properties:
     capabilities:
       - Audio
       - Chat
+  - name: VoiceChatService.EnableVoiceVolumeControls
+    summary: |
+      Controls whether Roblox's built-in voice chat volume controls are
+      available to players.
+    description: |
+      This `Enum.RolloutState` property controls whether Roblox's built-in voice
+      chat volume controls are available to players, including a global voice
+      chat volume slider and per-user volume adjustments.
+
+      When set to `Enum.RolloutState|Enabled`, these controls are available to
+      players. When set to `Enum.RolloutState|Disabled`, the built-in controls
+      are hidden, though creators can still implement their own custom voice
+      volume controls. `Enum.RolloutState|Default` follows the default for this
+      feature.
+
+      If `Class.VoiceChatService.UseAudioApi|UseAudioApi` is disabled, this
+      property has no effect and built-in controls will be hidden.
+    code_samples: []
+    type: RolloutState
+    tags: []
+    deprecation_message: ''
+    security:
+      read: RobloxScriptSecurity
+      write: RobloxScriptSecurity
+    thread_safety: ReadSafe
+    category: Behavior
+    serialization:
+      can_load: true
+      can_save: true
+    capabilities:
+      - Audio
+      - Chat
   - name: VoiceChatService.UseAudioApi
     summary: |
       Controls whether voice chat is represented and controlled by
@@ -147,31 +179,9 @@ methods:
 
       In Roblox Studio this API is only available when the experience is running
       in **Team Test**.
-
-      ```lua
-      local VoiceChatService = game:GetService("VoiceChatService")
-      local Players = game:GetService("Players")
-      local players = Players:GetPlayers()
-
-      local success, chatGroups = pcall(function()
-      	return VoiceChatService:GetChatGroupsAsync(players)
-      end)
-
-      if not success then
-      	warn("Failed to retrieve chat groups")
-      	return
-      end
-
-      for _, group in ipairs(chatGroups) do
-      	-- Each group contains chat group ID strings.
-      	-- Players who share a matching group ID can chat with each other.
-      	for _, groupId in ipairs(group) do
-      		print("Chat group ID:", groupId)
-      	end
-      end
-      ```
     code_samples:
       - VoiceChatService-Chat-Groups-Teleport
+      - VoiceChatService-GetChatGroupsAsync
     parameters:
       - name: players
         type: Instances
@@ -202,20 +212,8 @@ methods:
       players in that server.
 
       This function can throw an error if the HTTP call fails.
-
-      ```lua
-      local Players = game:GetService("Players")
-      local VoiceChatService = game:GetService("VoiceChatService")
-
-      local localPlayer = Players.LocalPlayer
-      local success, enabled = pcall(function()
-      	return VoiceChatService:IsVoiceEnabledForUserIdAsync(localPlayer.UserId)
-      end)
-      if success and enabled then
-      	print("Voice chat enabled!")
-      end
-      ```
-    code_samples: []
+    code_samples:
+      - VoiceChatService-IsVoiceEnabledForUserIdAsync
     parameters:
       - name: userId
         type: User
