@@ -21,7 +21,7 @@ Your standout creations are what makes Roblox special, and we are thrilled to fe
 
 ## What qualifies as a standout game?
 
-Genre, gameplay, and visual style are common factors in a player's decision to try a new game. Entrance into Roblox Accelerator and Jumpstart hinge on innovation in these areas.
+Genre, gameplay, and visual style are common factors in a player's decision to try a new game.
 
 - **Genres**: RPG, strategy, puzzle, and shooter games are heavily underrepresented despite strong demand from older age groups. We're seeking bold games in these core genres, plus unexpected genre mash-ups and projects that blend traditional mechanics with Roblox's avatars, social features, and cross-platform support.
 - **Gameplay**: Deep gameplay mechanics, metagame systems, and skillful challenges keep players coming back to play again. We're looking for creators who seamlessly blend depth with Roblox's intuitive nature, massive multiplayer scale, and emergent social dynamics, specifically creators who can craft highly replayable, memorable games and moments players can't find anywhere else, even Roblox! Games that seem like a copy or reskin of a popular Roblox game are a hard sell.
@@ -31,7 +31,7 @@ Genre, gameplay, and visual style are common factors in a player's decision to t
 While not necessary for consideration, it's recommended that your game:
 
 - Includes optimizations for both console and mobile devices.
-- Supports custom or [R15](../avatar/character-bodies/specifications.md#standard-rigs) rigs, [layered accessories](../avatar/layered-accessories/index.md), and [dynamic heads](../avatar/dynamic-heads/index.md).
+- Supports custom or [R15 rigs](../avatar/character-bodies/specifications.md#rigging), [layered accessories](../avatar/layered-accessories/index.md), and [dynamic heads](../avatar/dynamic-heads/index.md).
 - Uses [experience events](../production/promotion/experience-events.md) for regular updates and future events.
 </Alert>
 
