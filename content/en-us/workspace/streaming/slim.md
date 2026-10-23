@@ -103,7 +103,7 @@ Initial SLIM generation might take a few moments for complex models. The cloud s
 <BaseAccordion>
 <AccordionSummary><Typography variant="subtitle2">Converting from Streaming Mesh</Typography></AccordionSummary>
 <AccordionDetails>
-If your game uses the legacy `Enum.ModelLevelOfDetail.StreamingMesh|StreamingMesh` setting for `Class.Model.LevelOfDetail`, you can convert individual models by selecting them and changing the property in the [Properties](../../studio/properties.md) window, or you can batch-convert multiple models at once using a script like the following in the [Command&nbsp;Bar](../../studio/ui-overview.md#command-bar). Note that some models which worked with `Enum.ModelLevelOfDetail.StreamingMesh|StreamingMesh` might need adjustments for SLIM, particularly those with overlapping parts or complex `Class.PartOperation` hierarchies.
+If your game uses the legacy `Enum.ModelLevelOfDetail.StreamingMesh|StreamingMesh` setting for `Class.Model.LevelOfDetail`, you can convert individual models by selecting them and changing the property in the [Properties](../../studio/properties.md) window, or you can batch-convert multiple models at once using a script like the following in the [Command&nbsp;Bar](../../studio/overview.md#command-bar). Note that some models which worked with `Enum.ModelLevelOfDetail.StreamingMesh|StreamingMesh` might need adjustments for SLIM, particularly those with overlapping parts or complex `Class.PartOperation` hierarchies.
 
 ```lua title="Batch-Convert StreamingMesh to SLIM"
 for _, descendant in workspace:GetDescendants() do
@@ -179,6 +179,7 @@ With `Class.Workspace.EnableSLIMAvatars|EnableSLIMAvatars` enabled, the engine:
 <ul>
 <li style={{marginBottom: '10px'}}>R15 avatars with a body, dynamic head, [standard](../../avatar/character-bodies/specifications.md#standard-r15-rigs) or [advanced](../../avatar/character-bodies/specifications.md#advanced-r15-rigs) R15 rig, and rigid/layered accessories.</li>
 <li>Avatar changes made between the `Class.Player.CharacterAdded|CharacterAdded` event and `Class.Player.CharacterAppearanceLoaded|CharacterAppearanceLoaded` event.</li>
+<li>Avatars defined by `StarterHumanoid` or `StarterCharacter` under the `Class.StarterPlayer` service.</li>
 </ul>
 </Alert>
 
@@ -189,6 +190,7 @@ With `Class.Workspace.EnableSLIMAvatars|EnableSLIMAvatars` enabled, the engine:
 	<li style={{marginBottom: '10px'}}>NPC characters (even those with a standard or advanced R15 rig).</li>
 	<li style={{marginBottom: '10px'}}>Avatars with custom proportions, body scaling, or experience-applied avatar settings.</li>
 	<li>Avatar changes made after the `Class.Player.CharacterAppearanceLoaded|CharacterAppearanceLoaded` event (equipping tools, accessory changes, `Class.Highlight` additions, etc.).</li>
+	<li>Avatar changes made by `Class.StarterCharacterScripts`.</li>
 	</ul>
 </Alert>
 
@@ -267,7 +269,7 @@ There are multiple tint modes to select from. See `Enum.SlimTintMode` for the co
 </TabItem>
 </Tabs><br />
 
-You can also see SLIM debug visualizations in Studio by selecting a tint mode from the [Visualization&nbsp;Options](../../studio/ui-overview.md#visualization-options) menu:
+You can also see SLIM debug visualizations in Studio by selecting a tint mode from the [Visualization&nbsp;Options](../../studio/overview.md#visualization-options) menu:
 
 <img src="../../assets/studio/general/Visualization-Options.png" width="780" alt="A close up view of the 3D viewport with the Visualization Options button indicated in the upper-right corner." />
 
